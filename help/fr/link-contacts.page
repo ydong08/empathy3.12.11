@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="link-contacts" xml:lang="fr">
+      
+  <info>
+    <link type="guide" xref="index#contacts"/>
+    <link type="seealso" xref="send-message"/>
+    <link type="seealso" xref="audio-call"/>
+    <link type="seealso" xref="video-call"/>
+    <desc>Lier et séparer différents contacts en un seul.</desc>
+    <revision pkgversion="2.32" version="0.1" date="2010-09-06" status="draft"/>
+    <revision pkgversion="2.32" version="0.2" date="2010-09-09" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Shobha Tyagi</name>
+      <email>tyagishobha@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Paternité - Partage des Conditions Initiales à l'Identique 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2008-2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2008-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yannick Tailliez</mal:name>
+      <mal:email>ytdispatch-libre@yahoo.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Laurent Coudeur</mal:name>
+      <mal:email>laurentc@iol.ie</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Guillemin</mal:name>
+      <mal:email>luc.guillemin@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ajmir BUSGEETH</mal:name>
+      <mal:email>Ajmir.Busgeeth@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andre Matuch</mal:name>
+      <mal:email>andre.matuch@videotron.ca</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Association, séparation de contacts</title>
+  <p>Si un ou plusieurs de vos contacts ont plusieurs comptes de différents services de messagerie, vous pouvez lier ces contacts en un seul.</p>
+  <p>La liaison crée un contact appelé <em>méta-contact</em> : un contact composé de plusieurs contacts distincts.</p>
+  <p>Supposons que vous ayez un contact Jean Bonneau qui utilise trois services de messagerie différents comme :</p>
+  <list>
+    <item>
+      <p>jean.bonneau@gmail</p>
+    </item>
+    <item>
+      <p>jean_bonneau@hotmail</p>
+    </item>
+    <item>
+      <p>jean@yahoo</p>
+    </item>
+  </list>
+  <p>vous pouvez lier ces contacts en un seul Jean Bonneau.</p>
+  <section id="linking">
+  <title>Association de contacts</title>
+  <p>Pour associer vos contacts :</p>
+    <steps>
+      <item>
+        <p>appuyez sur le bouton à cocher pour sélectionner les entrées que vous voulez associer. Ceci active le <em>mode sélection</em> et ajoute une case à cocher à chaque entrée,</p>
+      </item>
+      <item>
+        <p>cochez les cases correspondant aux entrées <app>Contacts</app> qui appartiennent au même contact,</p>
+      </item>
+      <item>
+        <p>appuyez sur <gui style="button">Lier</gui>.</p>
+      </item>
+    </steps>
+    <p>Répéter les étapes 3 et 4 dans l'ordre pour lier d'autres contacts.</p>
+  </section>
+  
+  <section id="unlinking">
+  <title>Dissocier des contacts</title>
+  <p>Pour dissocier un contact lié :</p>
+    <steps>
+      <item>
+        <p>sélectionnez le contact dans votre liste,</p>
+      </item>
+      <item>
+        <p>appuyez sur <gui style="button">Édition</gui> dans le coin en haut à droite de <app>Contacts</app>,</p>
+      </item>
+      <item>
+	<p>cliquez sur <gui style="button">Contacts liés</gui>,</p>
+      </item>
+      <item>
+	<p>appuyez sur <gui style="button">Supprimer</gui> pour dissocier une entrée du contact lié,</p>
+      </item>
+      <item>
+        <p>appuyez sur <gui style="button">Fermer</gui> si vous ne voulez pas dissocier d'autres contacts,</p>
+      </item>
+      <item>
+        <p>enfin, appuyez sur <gui style="button">Fait</gui> pour finir la modification.</p>
+      </item>
+    </steps>
+  </section>
+</page>

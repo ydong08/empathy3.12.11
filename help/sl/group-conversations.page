@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="group-conversations" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Začetek ali pridružitev skupinskemu pogovoru z vašimi stiki.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Skupinski pogovori</title>
+  
+  <p>Skupinski pogovori vam omogočajo besedilne pogovor z več kot enim stikom hkrati.</p>
+  <p>Za skupinski pogovor morate imeti ustvarjen račun Jabber ali Google Talk ali račun Ljudje v bližini.</p>
+
+  <note>
+    <p>Skupinske pogovore lahko imate le s stiki, ki uporabljajo enako storitev kot vi.</p>
+  </note>
+
+  <section id="start-group-conv">
+
+  <title>Začenjanje skupinskega pogovora</title>
+
+  <steps>
+    <item>
+      <p>V okno <gui>Seznam stikov</gui> izberite <guiseq><gui>Soba</gui><gui>Pridruži se</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>V spustnemu seznamu <gui>Račun</gui> izberite račun, ki ga želite uporabiti za skupinski pogovor.</p>
+    </item>
+    <item>
+      <p>V besedilno polje <gui>Strežnik</gui> vnesite ime strežnika za gostovanje pogovora.</p>
+      <p>Polje pustite prazno, če bo soba na trenutnemu strežniku.</p>
+    </item>
+    <item>
+      <p>V besedilno polje <gui>Soba</gui> vpišite ime, ki ga želite dati pogovoru.</p>
+      <note>
+        <p>To bo bilo ime sobe za pogovor. To ime bo javno dostopno za druge ljudi, ki se želijo pridružiti. Zasebne sobe ni mogoče ustvariti.</p>
+      </note>
+    </item>
+    <item>
+      <p>Za povabilo drugih stikov v skupinski pogovor v oknu <gui>Seznam stikov</gui> izberite stik, ki ga želite povabiti, in izvedite nekaj od naslednjega:</p>
+      <list>
+        <item>
+          <p>Desno kliknite na stik in izberite <gui>Povabi v kelepetalnico</gui>.</p>
+        </item>
+        <item>
+          <p>Izberite <guiseq><gui>Uredi</gui><gui>Stik</gui><gui>Povabi v klepetalnico</gui></guiseq>.</p>
+        </item>
+      </list> 
+      <p>V primeru da imate odprt več kot en skupinski pogovor izberite tistega v katerega želite povabiti svoje stike.</p>
+    </item>
+  </steps>
+  
+  </section>
+
+  <section id="join-group-conv">
+
+  <title>Pridružitev skupinskemu pogovoru</title>
+
+  <steps>
+    <item>
+      <p>V okno <gui>Seznam stikov</gui> izberite <guiseq><gui>Soba</gui><gui>Pridruži se</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Razširite odsek <gui>Seznam sob</gui> za ogled vseh obstoječih sob.</p>
+    </item>
+    <item>
+      <p>Dvokliknite na ime sobe za pridružitev.</p>
+    </item>
+  </steps>
+
+  <p>Ni se mogoče povezati z vsemi obstoječimi sobami. Nekatere sobe morda zahtevajo geslo, ali so dostopne le z vabilom. <app>Empathy</app> ne podpira teh vrst sob.</p>
+
+  <!-- TODO: find out where the password protected or invitation only icons are
+  and create a table. -->
+
+  </section>
+
+</page>

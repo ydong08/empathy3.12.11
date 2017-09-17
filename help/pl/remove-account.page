@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="remove-account" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <desc>Zupełne usunięcie konta z programu <app>Empathy</app>.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review"/>
+    <revision pkgversion="2.28" version="0.3" date="2009-08-27" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.4" date="2010-04-19" status="review"/>
+    <revision pkgversion="3.2" version="0.5" date="2011-12-19" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Na tych samych warunkach 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Usunięcie konta</title>
+
+  <p>Można całkowicie usunąć konto z programu <app>Empathy</app> jeśli nie będzie ono już więcej używane. Jeśli zajdzie w przyszłości potrzeba użycia konta programu <app>Empathy</app>, konieczne będzie ponowne podanie szczegółowych danych konta.</p>
+
+  <steps>
+    <item>
+      <p>From the <gui>Contact List</gui> window, choose <guiseq><gui>Edit</gui>
+      <gui>Accounts</gui></guiseq>, or press <key>F4</key>.</p>
+    </item>
+    <item>
+      <p>Należy zaznaczyć konto, które chcemy usunąć z listy kont po lewej stronie okna.</p>
+    </item>
+    <item>
+      <p>Click <gui style="button">-</gui>.</p>
+    </item>
+    <item>
+      <p>Zostanie wyświetlone okno z prośbą o potwierdzenie. Naciśnij przycisk <gui>Usuń</gui>, aby trwale usunąć konto.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>Nawet po usunięciu konta, program <app>Empathy</app>nie usuwa poprzednich rozmów dla tego konta.</p>
+  </note>
+</page>

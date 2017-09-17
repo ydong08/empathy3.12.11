@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="hide-contacts" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#contacts"/>
+    <desc>Skritje nepovezanih stikov iz vašega <gui>Seznama stikov</gui>.</desc>
+    <revision pkgversion="2.30" version="0.1" date="2010-03-11" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>    
+  </info>
+
+  <title>Skrij nepovezane stike</title>
+
+  <p>Običajno <app>Emapthy</app> prikaže vse vaše stike: povezane, s katerimi lahko imate pogovor, in nepovezane.</p>
+  <p>Za skritje nepovezanih stikov:</p>
+
+  <steps>
+    <item>
+      <p>V oknu <gui>Seznam stikov</gui> izberite <guiseq><gui>Pogled</gui><gui>Nepovezani stiki</gui></guiseq> ali pritisnite <keyseq><key>Ctrl</key><key>H</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>Za ponoven prikaz nepovezanih stikov, ponovite postopek zgoraj.</p>
+    </item>
+  </steps>
+
+</page>

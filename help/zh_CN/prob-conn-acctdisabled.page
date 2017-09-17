@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="prob-conn-acctdisabled" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="prob-conn"/>
+    <desc>您要连接的即时通信帐号没有在帐号列表中启用。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review"/>
+    <revision pkgversion="3.2" version="0.3" date="2011-12-18" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>知识共享-相同方式共享 (Creative Commons Share Alike) 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  </info>
+
+  <title>我的帐号没有启用</title>
+
+  <p>如果当您尝试开始一个新会话或者加入房间时，要使用的即时聊天帐号没有在下拉的账户列表中启用，您的帐号信息可能不正确。</p>
+
+  <steps>
+    <item>
+      <p>确保您已经连接到互联网，或者一个本地网络。</p>
+    </item>
+    <item>
+      <p>选择<guiseq><gui>编辑</gui><gui>帐号</gui></guiseq>，再选择不工作的帐号。</p>
+    </item>
+    <item>
+      <p>再次输入您的用户名和密码，以确保它们是正确的。</p>
+    </item>
+    <item>
+      <p>检查<gui>高级</gui>选项卡中的所有细节是否正确。您应当可以从即时通讯服务商的网站上找到这些信息。</p>
+    </item>
+    <item>
+      <p>检查帐号是否开启。</p>
+    </item>
+  </steps>
+
+</page>

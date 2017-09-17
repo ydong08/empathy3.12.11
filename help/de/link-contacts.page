@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="link-contacts" xml:lang="de">
+      
+  <info>
+    <link type="guide" xref="index#contacts"/>
+    <link type="seealso" xref="send-message"/>
+    <link type="seealso" xref="audio-call"/>
+    <link type="seealso" xref="video-call"/>
+    <desc>Verschiedene Kontakte in einen einzigen zusammenführen oder diese aufteilen.</desc>
+    <revision pkgversion="2.32" version="0.1" date="2010-09-06" status="draft"/>
+    <revision pkgversion="2.32" version="0.2" date="2010-09-09" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Shobha Tyagi</name>
+      <email>tyagishobha@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Philipp Kerling</mal:name>
+      <mal:email>k.philipp@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>Christian.Kirbach@gmail.com</mal:email>
+      <mal:years>2010-2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Kontakte verknüpfen und trennen</title>
+  <p>Wenn ein oder mehrere Kontakte mehrere Konten bei unterschiedlichen Nachrichtendiensten haben, so können Sie diese Kontakte in einen einzigen zusammenlegen.</p>
+  <p>Der entstehende Kontakt wird als <em>Meta-Kontakt</em> bezeichnet: Ein Kontakt, der aus unterschiedlichen einzelnen Kontakten gebildet wird.</p>
+  <p>Wenn Sie einen Kontakt »Janina Schmitt« haben, der drei verschiedene Nachrichtendienste verwende, wie z.B.:</p>
+  <list>
+    <item>
+      <p>Janina Schmitt@gmail</p>
+    </item>
+    <item>
+      <p>Janina_Schmitt@hotmail</p>
+    </item>
+    <item>
+      <p>janes@yahoo</p>
+    </item>
+  </list>
+  <p>Dann können Sie diese Kontakte in einen einzigen zusammenlegen.</p>
+  <section id="linking">
+  <title>Kontakte zusammenlegen</title>
+  <p>So können Sie Ihre Kontakte zusammen legen:</p>
+    <steps>
+      <item>
+        <p>Klicken Sie auf den Auswahl-Knopf, um Einträge zum Verknüpfen zu wählen. Damit wird der <em>Auswahl-Modus</em> aktiviert und es erscheinen Ankreuzfelder für jeden Eintrag.</p>
+      </item>
+      <item>
+        <p>Wählen Sie die Ankreuzfelder aus, die zu den Einträgen des selben <app>Kontakts</app> gehören. </p>
+      </item>
+      <item>
+        <p>Klicken Sie auf <gui style="button">Verknüpfen</gui>.</p>
+      </item>
+    </steps>
+    <p>Wiederholen Sie die Schritte 3 und 4, um weitere Kontakte zusammen zu legen.</p>
+  </section>
+  
+  <section id="unlinking">
+  <title>Kontaktverknüpfungen lösen</title>
+  <p>So trennen Sie einen verknüpften Kontakt:</p>
+    <steps>
+      <item>
+        <p>Wählen Sie den Kontakt aus Ihrer Liste aus.</p>
+      </item>
+      <item>
+        <p>Klicken Sie auf <gui style="button">Bearbeiten</gui> in der oberen rechten Ecke von <app>Kontakte</app>.</p>
+      </item>
+      <item>
+	<p>Klicken Sie auf <gui style="button">Verknüpfte Kontakte</gui>.</p>
+      </item>
+      <item>
+	<p>Klicken Sie auf <gui style="button">Entfernen</gui>, um einen Eintrag vom verknüpften Kontakt zu lösen.</p>
+      </item>
+      <item>
+        <p>Klicken Sie auf <gui style="button">Schließen</gui>, sobald Sie keine weiteren Kontaktverknüpfungen aufheben wollen.</p>
+      </item>
+      <item>
+        <p>Klicken Sie zum Schluss auf <gui style="button">Fertig</gui>, um die Bearbeitung abzuschließen.</p>
+      </item>
+    </steps>
+  </section>
+</page>

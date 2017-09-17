@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="tasks" id="prev-conv" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Böngéssze korábbi társalgásait, vagy keressen bennük.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-17" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.2" version="0.2" date="2011-12-19" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2010, 2011, 2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Korábbi társalgások megjelenítése</title>
+
+  <p>Az <app>Empathy</app> automatikusan menti az összes szöveges társalgását partnereivel. Lehetősége van <link xref="#search">keresni az összes korábbi társalgásában</link>, vagy partner és dátum szerint <link xref="#browse">böngészni a korábbi társalgásokat</link>.</p>
+
+  <note>
+    <p>A korábbi társalgások megjelenítéséhez és az azokban való kereséshez nem kell az internethez kapcsolódni.</p>
+  </note>
+
+  <section id="search" style="task">
+  <title>Keresés korábbi társalgásokban</title>
+
+  <p>Teljes szöveges keresést végezhet minden korábbi társalgásban.</p>
+
+  <steps>
+    <item>
+      <p>A <gui>Partnerlista</gui> ablakban válassza a <guiseq><gui>Nézet</gui><gui>Korábbi társalgások</gui></guiseq> menüpontot. Az <key>F3</key> billentyűt is megnyomhatja.</p>
+    </item>
+    <item>
+      <p>Válassza ki a fiókot a felső legördülő listából. A fiókhoz tartozó partnerek és csevegőszobák listája alul megjelenik.</p>
+    </item>
+    <item>
+      <p>A <gui>Keresés</gui> mezőbe írja be a keresendő szöveget.</p>
+    </item>
+    <item>
+      <p>Megjelennek azok a társalgások, amelyekben megtalálható a keresőkifejezés. A társalgások alapértelmezésben dátum szerint vannak rendezve.</p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="browse" style="task">
+  <title>Korábbi társalgások tallózása</title>
+
+  <p>A partnereivel vagy a csevegőszobákban folytatott korábbi társalgásokat dátum szerint tallózhatja.</p>
+
+  <steps>
+    <item>
+      <p>A <gui>Partnerlista</gui> ablakban válassza a <guiseq><gui>Nézet</gui><gui>Korábbi társalgások</gui></guiseq> menüpontot. Az <key>F3</key> billentyűt is megnyomhatja.</p>
+    </item>
+    <item>
+      <p>Válassza ki a fiókot a bal felső legördülő listából. A fiókhoz tartozó partnerek és csevegőszobák listája alul megjelenik.</p>
+    </item>
+    <item>
+      <p>Válassza ki a partnert vagy csevegőszobát a korábbi társalgások megjelenítéséhez. Alapértelmezésben a legújabb társalgás jelenik meg.</p>
+    </item>
+    <item>
+      <p>A társalgásokat dátum szerint böngészheti. Azok a napok, amelyeken a kiválasztott partnerrel társalgást folytatott, félkövéren jelennek meg. Kattintson a dátumra a kiválasztásához. Kattintson a hónap és az év melletti nyilakra a korábbi dátumok böngészéséhez.</p>
+    </item>
+  </steps>
+
+  <p>A társalgásokban a felső keresőmezőbe gépelve kereshet szöveget. Ezután az illeszkedő társalgások megjelennek.</p>
+
+  <note style="tip">
+    <p>A <gui>Partnerlista</gui> ablakból gyorsan megjelenítheti az egyes partnereivel folytatott korábbi társalgásait. Csak kattintson a jobb egérgombbal a partnerre, és válassza a <gui>Korábbi társalgások</gui> menüpontot. Megnyílik a <gui>Korábbi társalgások</gui> ablak, és az adott partner lesz kiválasztva.</p>
+  </note>
+
+  </section>
+</page>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-privacy" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="geolocation#geoloc"/>
+    <desc>Que información se envía e a quén.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Privacidade na xeolocalización</title>
+
+  <section id="info-sent">
+  <title>Que información se envía</title>
+  <p>É posíbel enviar: o seu país, rexión, localidade, área, calle, edificio, planta, habitación, código postal, lonxitude e latitude, velocidade e orientación.</p>
+  <p>A precisión e cantidade de información sobre a súa posición xeográfica basease no software ou na infraestrutura usada para descubrir a súa posición.</p>
+  <p>Diferentes tipos de redes poden ter diferentes axustes de precisión e poden enviar información diferente. O uso de dispositivos externos tales como un GPS ou teléfono móbil pode incrementar a precisión da información enviada.</p>
+  <p>Cando o modo de privacidade está activo non se enviará nada máis preciso que a súa cidade, incluso se está usando un dispositivo externo.</p>
+  </section>
+  
+  <section id="see-info">
+  <title>Quen pode ver a información enviada</title>
+  <p>Só os seus contactos poden ver a súa posición xeográfica.</p>
+  </section>
+  
+  <section id="privacy-mode">
+  <title>Que é o modo de privacidade</title>
+  <p>O modo de privacidade, activado por omisión, é un modo de precisión reducida da información de posición xeográfica enviada aos seus contactos.</p>
+  </section>
+  
+  <section id="privacy-overview">
+  <title>Vista previa da privacidade</title>
+  <p>Visión xeral dos axustes de privacidade na xeolocalización de <app>Empathy</app>.</p>
+  <list>
+    <item>
+      <p>De forma predefinida a xeolocalización non está activada.</p>
+    </item>
+    <item>
+      <p>De forma predefinida o modo de privacidade está activado.</p>
+    </item>
+    <item>
+      <p>O modo de privacidade prevalece incluso cando se está usando dispositivos externos máis precisos.</p>
+    </item>
+    <item>
+      <p>Só os seus contactos poden ver a súa posición.</p>
+    </item>
+  </list>
+  </section>
+
+</page>

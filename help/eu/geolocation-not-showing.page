@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-not-showing" xml:lang="eu">
+
+  <info>
+    <link type="guide" xref="geolocation#problems"/>
+    <desc><app>Empathy</app>-k ez du argitaratzen nire kokaleku geografikoa.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Partekatu Berdin 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Kokaleku geografikoa ez da argitaratu</title>
+
+  <p>Zure kontaktuek ezin badute zure kokalekua ikusi, agian <app>Empathy</app>-k ezingo du aurkitu zure kokaleku geografikoa zehaztasun-marjina on batekin.</p>
+  <p>Kasu horretan, zure kokalekua ez da argitaratuko, baina zure kontaktuen kokalekua ikusi ahal izango duzu.</p>
+  <p>Zure kokaleku geografikoa argitaratu nahi baduzu, saiatu kanpoko gailu bat erabiltzen, GPS bat, esate baterako.</p>
+
+  <note>
+    <p>Zure kokaleku geografikoa argitaratu ahal izateko, zure Jabber zerbitzariak Personal Eventing Protocol (PEP) onartu behar du. <link href="http://coccinella.im/servers/servers_by_pubsub_pep.html">PEP onartzen duten zerbitzarien</link> zerrenda bat mantentzen da linean. Google Talk-ek ez du, gaur egun, eginbide hau onartzen.</p>
+  </note>
+
+</page>

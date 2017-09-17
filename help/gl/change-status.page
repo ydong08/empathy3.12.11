@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="change-status" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="status-icons"/>
+    <desc>Cambie o seu estado para avisar da súa dispoñibilidade aos seus contactos.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-01" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.2" version="0.3" date="2011-12-18" status="review">
+      <!--
+      <e:review by="milo@ubuntu.com" date="2011-12-18" status="done"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Cambiar o seu estado</title>
+
+  <p>Pode estabelecer o seu estado para indicar a súa dispoñibilidade aos seus contactos <app>Empathy</app> permítelle seleccionar unha lista de estados predefinidos.</p>
+
+  <steps>
+    <item>
+      <p>Prema na lista despregábel na parte superior da xanela da <gui>Lista de contactos</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccione o estado desde a lista.</p>
+    </item>
+  </steps>
+
+  <p>Consulte a <link xref="status-icons"/> para obter unha lista de estados predefinidos e o que significan. Tamén pode <link xref="set-custom-message">engadir mensaxes de estado personalizados</link> para fornecerlle aos seus contactos maís información sobre a sú dispoñibilidade.</p>
+
+  <note>
+    <p>Se non usa o seu equipo durante un tempo ou se se activa o protector de pantallas, o estado cambiarase automaticamente a Ausente.</p>
+  </note>
+
+</page>

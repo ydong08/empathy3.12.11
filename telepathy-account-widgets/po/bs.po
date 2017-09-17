@@ -1,0 +1,918 @@
+# Bosnian translation for bosnianuniversetranslation
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the bosnianuniversetranslation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bosnianuniversetranslation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-27 00:02+0000\n"
+"PO-Revision-Date: 2015-02-05 00:12+0000\n"
+"Last-Translator: Samir Ribić <Unknown>\n"
+"Language-Team: Bosnian <bs@li.org>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2015-02-05 07:07+0000\n"
+"X-Generator: Launchpad (build 17331)\n"
+
+#: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
+msgid "Default directory to select an avatar image from"
+msgstr "Podrazumijevani direktorij za izbor avatar slike"
+
+#: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:2
+msgid "The last directory that an avatar image was chosen from."
+msgstr "Zadnji direktorij iz koga je izabrana slika za avatar."
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:157
+msgid "Current Locale"
+msgstr "Trenutne lokalne postavke"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:160
+#: ../tp-account-widgets/totem-subtitle-encoding.c:162
+#: ../tp-account-widgets/totem-subtitle-encoding.c:164
+#: ../tp-account-widgets/totem-subtitle-encoding.c:166
+msgid "Arabic"
+msgstr "Arapski"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:169
+msgid "Armenian"
+msgstr "Jermenski"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:172
+#: ../tp-account-widgets/totem-subtitle-encoding.c:174
+#: ../tp-account-widgets/totem-subtitle-encoding.c:176
+msgid "Baltic"
+msgstr "Baltički"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:179
+msgid "Celtic"
+msgstr "Keltski"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:182
+#: ../tp-account-widgets/totem-subtitle-encoding.c:184
+#: ../tp-account-widgets/totem-subtitle-encoding.c:186
+#: ../tp-account-widgets/totem-subtitle-encoding.c:188
+msgid "Central European"
+msgstr "Srednjeevropski"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:191
+#: ../tp-account-widgets/totem-subtitle-encoding.c:193
+#: ../tp-account-widgets/totem-subtitle-encoding.c:195
+#: ../tp-account-widgets/totem-subtitle-encoding.c:197
+msgid "Chinese Simplified"
+msgstr "Kineski pojednostavljeni"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:200
+#: ../tp-account-widgets/totem-subtitle-encoding.c:202
+#: ../tp-account-widgets/totem-subtitle-encoding.c:204
+msgid "Chinese Traditional"
+msgstr "Kineski tradicionalni"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:207
+msgid "Croatian"
+msgstr "Hrvatski"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:210
+#: ../tp-account-widgets/totem-subtitle-encoding.c:212
+#: ../tp-account-widgets/totem-subtitle-encoding.c:214
+#: ../tp-account-widgets/totem-subtitle-encoding.c:216
+#: ../tp-account-widgets/totem-subtitle-encoding.c:218
+#: ../tp-account-widgets/totem-subtitle-encoding.c:220
+msgid "Cyrillic"
+msgstr "Ćirilica"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:223
+msgid "Cyrillic/Russian"
+msgstr "Ćirilica/Ruski"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:226
+#: ../tp-account-widgets/totem-subtitle-encoding.c:228
+msgid "Cyrillic/Ukrainian"
+msgstr "Ćirilica/Ukrajinski"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:231
+msgid "Georgian"
+msgstr "Gruzijski"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:234
+#: ../tp-account-widgets/totem-subtitle-encoding.c:236
+#: ../tp-account-widgets/totem-subtitle-encoding.c:238
+msgid "Greek"
+msgstr "Grčki"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:241
+msgid "Gujarati"
+msgstr "Gujaratski"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:244
+msgid "Gurmukhi"
+msgstr "Gurmukhi"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:247
+#: ../tp-account-widgets/totem-subtitle-encoding.c:249
+#: ../tp-account-widgets/totem-subtitle-encoding.c:251
+#: ../tp-account-widgets/totem-subtitle-encoding.c:253
+msgid "Hebrew"
+msgstr "Hebrejski"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:256
+msgid "Hebrew Visual"
+msgstr "Hebrejski vizuelni"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:259
+msgid "Hindi"
+msgstr "Indijski"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:262
+msgid "Icelandic"
+msgstr "Islandski"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:265
+#: ../tp-account-widgets/totem-subtitle-encoding.c:267
+#: ../tp-account-widgets/totem-subtitle-encoding.c:269
+msgid "Japanese"
+msgstr "Japanski"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:272
+#: ../tp-account-widgets/totem-subtitle-encoding.c:274
+#: ../tp-account-widgets/totem-subtitle-encoding.c:276
+#: ../tp-account-widgets/totem-subtitle-encoding.c:278
+msgid "Korean"
+msgstr "Korejski"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:281
+msgid "Nordic"
+msgstr "Nordijski"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:284
+msgid "Persian"
+msgstr "Perzijski"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:287
+#: ../tp-account-widgets/totem-subtitle-encoding.c:289
+msgid "Romanian"
+msgstr "Rumunski"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:292
+msgid "South European"
+msgstr "Južnoevropski"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:295
+msgid "Thai"
+msgstr "Tajlandski"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:298
+#: ../tp-account-widgets/totem-subtitle-encoding.c:300
+#: ../tp-account-widgets/totem-subtitle-encoding.c:302
+#: ../tp-account-widgets/totem-subtitle-encoding.c:304
+msgid "Turkish"
+msgstr "Turski"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:307
+#: ../tp-account-widgets/totem-subtitle-encoding.c:309
+#: ../tp-account-widgets/totem-subtitle-encoding.c:311
+#: ../tp-account-widgets/totem-subtitle-encoding.c:313
+#: ../tp-account-widgets/totem-subtitle-encoding.c:315
+msgid "Unicode"
+msgstr "Unicode"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:318
+#: ../tp-account-widgets/totem-subtitle-encoding.c:320
+#: ../tp-account-widgets/totem-subtitle-encoding.c:322
+#: ../tp-account-widgets/totem-subtitle-encoding.c:324
+#: ../tp-account-widgets/totem-subtitle-encoding.c:326
+msgid "Western"
+msgstr "Zapadni"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:329
+#: ../tp-account-widgets/totem-subtitle-encoding.c:331
+#: ../tp-account-widgets/totem-subtitle-encoding.c:333
+msgid "Vietnamese"
+msgstr "Vijetnamski"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:1
+msgid "Pass_word"
+msgstr "_Lozinka"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:2
+msgid "Screen _Name"
+msgstr "Ime _na ekranu"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:3
+msgid "<b>Example:</b> MyScreenName"
+msgstr "<b>Primjer:</b> MojeIme"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:4
+msgid "Remember password"
+msgstr "Zapamti lozinku"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:5
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:5
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:5
+msgid "_Port"
+msgstr "_Port"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:6
+msgid "_Server"
+msgstr "_Server"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-generic.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:8
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:16
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:22
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:9
+msgid "Advanced"
+msgstr "Napredno"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:8
+msgid "What is your AIM screen name?"
+msgstr "Koje je vaše AIM ime?"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:9
+msgid "What is your AIM password?"
+msgstr "Koja je Vaša AIM šifra?"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:661
+msgid "Account"
+msgstr "Korisnički nalog"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:662
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+msgid "Password"
+msgstr "Lozinka"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:663
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+msgid "Server"
+msgstr "Server"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:664
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+msgid "Port"
+msgstr "Port"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:748
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:805
+#, c-format
+msgid "%s:"
+msgstr "%s:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1395
+msgid "Username:"
+msgstr "Korisničko ime:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1722
+msgid "A_dd"
+msgstr "D_odaj"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1730
+msgid "A_pply"
+msgstr "P_rimijeni"
+
+#. To translators: The first parameter is the login id and the
+#. * second one is the network. The resulting string will bje something
+#. * liki: "MyUserName on freenode".
+#. * You should reverse the order of these arguments if the
+#. * server should come before the login id in your locale.
+#: ../tp-account-widgets/tpaw-account-widget.c:2166
+#, c-format
+msgid "%1$s on %2$s"
+msgstr "%1$s na %2$s"
+
+#. To translators: The parameter is the protocol nami. The resulting
+#. * string will bje something liki: "Jabber Account"
+#: ../tp-account-widgets/tpaw-account-widget.c:2192
+#, c-format
+msgid "%s Account"
+msgstr "%s Nalog"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:2196
+msgid "New account"
+msgstr "Novi nalog"
+
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
+msgid "Login I_D"
+msgstr "_Korisničko ime"
+
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:3
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:3
+msgid "<b>Example:</b> username"
+msgstr "<b>Primjer:</b> ime korisnika"
+
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:8
+msgid "What is your GroupWise User ID?"
+msgstr "Koji je vaš GroupWise Korisnički ID?"
+
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:9
+msgid "What is your GroupWise password?"
+msgstr "Koja je vaša GroupWise šifra?"
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:2
+msgid "ICQ _UIN"
+msgstr "ICQ _UIN"
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:3
+msgid "<b>Example:</b> 123456789"
+msgstr "<b>Primjer:</b> 123456789"
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:5
+msgid "Ch_aracter set"
+msgstr "Kodni r_aspored"
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:9
+msgid "What is your ICQ UIN?"
+msgstr "Koji je Vaš ICQ UIN?"
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:10
+msgid "What is your ICQ password?"
+msgstr "Koja je vaša ICQ šifra?"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:1
+msgid "Network"
+msgstr "Mreža"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:2
+msgid "Character set"
+msgstr "Skup znakova"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:3
+msgid "Add…"
+msgstr "Dodaj…"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:4
+msgid "Remove"
+msgstr "Ukloni"
+
+#. Translators: tooltip on a 'Go Up' button used to sort IRC servers by priority
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:6
+msgid "Up"
+msgstr "Gore"
+
+#. Translators: tooltip on a 'Go Down' button used to sort IRC servers by priority
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:8
+msgid "Down"
+msgstr "Dolje"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:9
+msgid "Servers"
+msgstr "Serveri"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
+msgid ""
+"Most IRC servers don't need a password, so if you're not sure, don't enter a "
+"password."
+msgstr ""
+"Većina IRC servera ne zahtijeva lozinku, zato ako niste sigurni, nemojte "
+"unositi lozinku."
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
+msgid "Nickname"
+msgstr "Nadimak"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
+msgid "Quit message"
+msgstr "Poruka za kraj"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:14
+msgid "Real name"
+msgstr "Pravo ime"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:15
+msgid "Username"
+msgstr "Korisničko ime"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:17
+msgid "Which IRC network?"
+msgstr "Koja IRC mreža?"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:18
+msgid "What is your IRC nickname?"
+msgstr "Koji je vaš IRC nadimak?"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:1
+msgid "What is your Facebook username?"
+msgstr "Koje je vaše Facebook korisničko ime?"
+
+#. This string is not wrapped in the dialog so you may have to add some '\n' to makije it look nice.
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
+msgid ""
+"This is your username, not your normal Facebook login.\n"
+"If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
+"Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a "
+"Facebook username if you don't have one."
+msgstr ""
+"Ovo je vaše korisničko ime, ne vaše ime Facebook prijave.\n"
+"Ako si facebook.com/<b>badger</b>, unesite <b>badger</b>\n"
+"Koristi <a href=\"http://www.facebook.com/username/\">ovu stranicu</a> da "
+"izabereš Facebook korisničko ime, ako ga već nemaš."
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
+msgid "What is your Facebook password?"
+msgstr "Koja je Vaša Facebook šifra?"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
+msgid "What is your Google ID?"
+msgstr "Koji je vaš Google ID?"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
+msgid "<b>Example:</b> user@gmail.com"
+msgstr "<b>Primjer:</b> korisnik@gmail.com"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
+msgid "What is your Google password?"
+msgstr "Koja je vaša Google šifra?"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
+msgid "<b>Example:</b> user@jabber.org"
+msgstr "<b>Primjer:</b> korisnik@jabber.org"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
+msgid "I_gnore SSL certificate errors"
+msgstr "_Ignoriši greške SSL certifikata"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
+msgid "Priori_ty"
+msgstr "Priori_tet"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
+msgid "Reso_urce"
+msgstr "Res_urs"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
+msgid "Encr_yption required (TLS/SSL)"
+msgstr "Zaht_ijeva se šifrovanje(TLS/SSL)"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
+msgid "Override server settings"
+msgstr "Premosti opcije servera"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
+msgid "Use old SS_L"
+msgstr "Koristi stari SS_L"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
+msgid "What is your Jabber ID?"
+msgstr "Koji je vaš Jabber ID?"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
+msgid "What is your Jabber password?"
+msgstr "Koja je vaša Jabber šifra?"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:1
+msgid "Nic_kname"
+msgstr "Na_dimak"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:2
+msgid "_Last Name"
+msgstr "_Prezime"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:3
+msgid "_First Name"
+msgstr "_Ime"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:4
+msgid "_Published Name"
+msgstr "Ime za _objavu"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:5
+msgid "_Jabber ID"
+msgstr "_Jabber ID"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:6
+msgid "E-_mail address"
+msgstr "Adresa _elektronske pošte"
+
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:3
+msgid "<b>Example:</b> user@hotmail.com"
+msgstr "<b>Primjer:</b> korisnik@hotmail.com"
+
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:8
+msgid "What is your Windows Live ID?"
+msgstr "Koji je vaš Windows Live ID?"
+
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:9
+msgid "What is your Windows Live password?"
+msgstr "Koja je vaša Windows Live šifra?"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:198
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:231
+msgid "Auto"
+msgstr "Automatski"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:201
+msgid "UDP"
+msgstr "UDP"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:204
+msgid "TCP"
+msgstr "TCP"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:207
+msgid "TLS"
+msgstr "TLS"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:236
+msgid "Register"
+msgstr "Registruj"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:241
+msgid "Options"
+msgstr "Opcije"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:244
+msgid "None"
+msgstr "Nijedna"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:2
+msgid "_Username"
+msgstr "_Korisničko Ime"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:3
+msgid "<b>Example:</b> user@my.sip.server"
+msgstr "<b>Primjer:</b> korisnik@moj.sip.server"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:5
+msgid "Use this account to call _landlines and mobile phones"
+msgstr "Koristi ovaj nalog za poziv _fiksnih i mobilnih telefona"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:6
+msgid "NAT Traversal Options"
+msgstr "NAT opcije grananja"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:7
+msgid "Proxy Options"
+msgstr "Proxy opcije"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:8
+msgid "Miscellaneous Options"
+msgstr "Razne Opcije"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:9
+msgid "STUN Server"
+msgstr "STUN Server"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:10
+msgid "Discover the STUN server automatically"
+msgstr "Automatski pronađi STUN server"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:11
+msgid "Discover Binding"
+msgstr "Otkrij Vezivanje"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
+msgid "Keep-Alive Options"
+msgstr "Održavaj u životu opcije"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:14
+msgid "Mechanism"
+msgstr "Mehanizam"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:15
+msgid "Interval (seconds)"
+msgstr "Interval (sekundi)"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:16
+msgid "Authentication username"
+msgstr "Korisničko ime potvrđivanja identiteta"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:17
+msgid "Transport"
+msgstr "Transport"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:18
+msgid "Loose Routing"
+msgstr "Slobodno usmjeravanje"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
+msgid "Ignore TLS Errors"
+msgstr "Zanemari TLS greške"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
+msgid "Local IP Address"
+msgstr "Lokalna IP adresa"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:23
+msgid "What is your SIP login ID?"
+msgstr "Koji je vaš SIP ID prijave?"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:24
+msgid "What is your SIP account password?"
+msgstr "Koja je šifra vašeg SIP naloga?"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:1
+msgid "Pass_word:"
+msgstr "_Lozinka:"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:2
+msgid "Yahoo! I_D:"
+msgstr "Yahoo! I_D:"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:5
+msgid "I_gnore conference and chat room invitations"
+msgstr "Zanemar_i pozivnice za pričaonice i konferencije"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:6
+msgid "_Room List locale:"
+msgstr "_Lokalna lista sobe:"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:7
+msgid "Ch_aracter set:"
+msgstr "Kodni r_aspored:"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:8
+msgid "_Port:"
+msgstr "_Port:"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:10
+msgid "What is your Yahoo! ID?"
+msgstr "Koji je vaš Yahoo! ID?"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:11
+msgid "What is your Yahoo! password?"
+msgstr "Koja je vaša Yahoo! šifra?"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:581
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:666
+msgid "Couldn't convert image"
+msgstr "Nije moguće konvertovati sliku"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:582
+msgid "None of the accepted image formats are supported on your system"
+msgstr "Vaš sistem ne podržava nijedan od prihvaćenih formata slike"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:942
+msgid "Couldn't save picture to file"
+msgstr "Ne mogu snimiti sliku u datoteku"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1064
+msgid "Select Your Avatar Image"
+msgstr "Izaberite sliku za svog Avatara"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1073
+msgid "Take a picture..."
+msgstr "Snimite sliku..."
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1086
+msgid "No Image"
+msgstr "Bez slike"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1145
+msgid "Images"
+msgstr "Slike"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1149
+msgid "All Files"
+msgstr "Sve datoteke"
+
+#: ../tp-account-widgets/tpaw-calendar-button.c:63
+msgid "Select..."
+msgstr "Izaberite..."
+
+#: ../tp-account-widgets/tpaw-calendar-button.c:151
+msgid "_Select"
+msgstr "_Izaberi"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
+msgid "Full Name"
+msgstr "Puno ime"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
+msgid "Phone Number"
+msgstr "Broj telefona"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
+msgid "E-mail Address"
+msgstr "E-mail adresa"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
+msgid "Website"
+msgstr "Web stranica"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:101
+msgid "Birthday"
+msgstr "Rođendan"
+
+#. Note to translators: this is the caption for a string of the form "5
+#. * minutes ago", and refers to the time sinci the contact last interacted
+#. * with their IM client.
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
+msgid "Last Seen:"
+msgstr "Zadnje viđeno:"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
+msgid "Server:"
+msgstr "Server:"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
+msgid "Connected From:"
+msgstr "Povezano sa:"
+
+#. FIXME: once Idle implements SimplePresence using this information, we can
+#. * and should bin this.
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
+msgid "Away Message:"
+msgstr "Poruka u odsutnosti:"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
+msgid "work"
+msgstr "radi"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
+msgid "home"
+msgstr "kući"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
+msgid "mobile"
+msgstr "mobilni"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
+msgid "voice"
+msgstr "glasovni"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
+msgid "preferred"
+msgstr "preferiran"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
+msgid "postal"
+msgstr "poštanski"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:131
+msgid "parcel"
+msgstr "pošiljka"
+
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:325
+msgid "New Network"
+msgstr "Nova mreža"
+
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:526
+msgid "Choose an IRC network"
+msgstr "Odaberite IRC mrežu"
+
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:612
+msgid "Reset _Networks List"
+msgstr "Ponovo postavi _mrežnu listu"
+
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:616
+msgctxt "verb displayed on a button to select an IRC network"
+msgid "Select"
+msgstr "Izaberi"
+
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:273
+msgid "new server"
+msgstr "novi server"
+
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:536
+msgid "SSL"
+msgstr "SSL"
+
+#: ../tp-account-widgets/tpaw-keyring.c:78
+#: ../tp-account-widgets/tpaw-keyring.c:189
+msgid "Password not found"
+msgstr "Lozinka nije pronađena"
+
+#: ../tp-account-widgets/tpaw-keyring.c:584
+#, c-format
+msgid "IM account password for %s (%s)"
+msgstr "Šifra IM naloga za %s (%s)"
+
+#: ../tp-account-widgets/tpaw-keyring.c:621
+#, c-format
+msgid "Password for chatroom '%s' on account %s (%s)"
+msgstr "Šifra za pričaonicu „%s“ na nalogu %s (%s)"
+
+#. Create account
+#. To translator: %s is the nami of the protocol, such as "Google Talk" or
+#. * "Yahoo!"
+#.
+#: ../tp-account-widgets/tpaw-protocol.c:63
+#, c-format
+msgid "New %s account"
+msgstr "Novi %s nalog"
+
+#: ../tp-account-widgets/tpaw-time.c:86
+#, c-format
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "prije %d sekundu"
+msgstr[1] "prije %d sekunde"
+msgstr[2] "prije %d sekundi"
+
+#: ../tp-account-widgets/tpaw-time.c:92
+#, c-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "prije %d minutu"
+msgstr[1] "prije %d minute"
+msgstr[2] "prije %d minuta"
+
+#: ../tp-account-widgets/tpaw-time.c:98
+#, c-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "prije %d sata"
+msgstr[1] "prije %d sata"
+msgstr[2] "prije %d sati"
+
+#: ../tp-account-widgets/tpaw-time.c:104
+#, c-format
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "prije %d dan"
+msgstr[1] "prije %d dana"
+msgstr[2] "prije %d dana"
+
+#         translations.
+#: ../tp-account-widgets/tpaw-time.c:110
+#, c-format
+msgid "%d week ago"
+msgid_plural "%d weeks ago"
+msgstr[0] "Prije %d sedmicu"
+msgstr[1] "prije %d sedmice"
+msgstr[2] "prije %d sedmica"
+
+#: ../tp-account-widgets/tpaw-time.c:116
+#, c-format
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] "prije %d mjesec"
+msgstr[1] "prije %d mjeseca"
+msgstr[2] "prije %d mjeseci"
+
+#: ../tp-account-widgets/tpaw-time.c:138
+msgid "in the future"
+msgstr "u budućnosti"
+
+#: ../tp-account-widgets/tpaw-user-info.c:433
+msgid "Go online to edit your personal information."
+msgstr "Uspostavite vezu da uredite vaše lične podatke."
+
+#: ../tp-account-widgets/tpaw-user-info.c:517
+msgid "These details will be shared with other users on this chat network."
+msgstr ""
+"Ovi detalji će biti dijeljeni sa ostalim korisnicima u ovoj pričaonici."
+
+#. Setup id label
+#: ../tp-account-widgets/tpaw-user-info.c:526
+msgid "Identifier"
+msgstr "Identifikator"
+
+#. Setup nickname entry
+#: ../tp-account-widgets/tpaw-user-info.c:534
+msgid "Alias"
+msgstr "Pseudonim"
+
+#: ../tp-account-widgets/tpaw-user-info.c:552
+msgid "<b>Personal Details</b>"
+msgstr "<b>Lični podaci</b>"
+
+#: ../tp-account-widgets/tpaw-utils.c:118
+msgid "People Nearby"
+msgstr "Ljudi u blizini"
+
+#: ../tp-account-widgets/tpaw-utils.c:123
+msgid "Yahoo! Japan"
+msgstr "Yahoo! Japan"
+
+#: ../tp-account-widgets/tpaw-utils.c:159
+msgid "Google Talk"
+msgstr "Google Talk"
+
+#: ../tp-account-widgets/tpaw-utils.c:160
+msgid "Facebook Chat"
+msgstr "Facebook Chat"

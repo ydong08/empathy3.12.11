@@ -1,0 +1,875 @@
+# Sinhala translation for tp-account-widgets.
+# Copyright (C) 2009 tp-account-widgets's COPYRIGHT HOLDER
+# This file is distributed under the same license as the tp-account-widgets package.
+#
+# Danishka Navin <danishka@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: empathy master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-31 15:46+0100\n"
+"PO-Revision-Date: 2010-05-04 23:52+0530\n"
+"Last-Translator: Danishka Navin <danishka@gmail.com>\n"
+"Language-Team: Sinhala <info@hanthana.org>\n"
+"Language: si\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.0\n"
+
+#: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
+msgid "Default directory to select an avatar image from"
+msgstr "මූර්ති පින්තූරයක් තේරීමට පෙරනිමි නාමාවලිය"
+
+#: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:2
+msgid "The last directory that an avatar image was chosen from."
+msgstr "මූර්ති පින්තූරයක් තෝරාගනු ලැබූ අවසන් නාමාවලිය."
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:157
+msgid "Current Locale"
+msgstr "වත්මන් පිහිටුම"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:160
+#: ../tp-account-widgets/totem-subtitle-encoding.c:162
+#: ../tp-account-widgets/totem-subtitle-encoding.c:164
+#: ../tp-account-widgets/totem-subtitle-encoding.c:166
+msgid "Arabic"
+msgstr "අරාබි"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:169
+msgid "Armenian"
+msgstr "ආර්මේනියන්"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:172
+#: ../tp-account-widgets/totem-subtitle-encoding.c:174
+#: ../tp-account-widgets/totem-subtitle-encoding.c:176
+msgid "Baltic"
+msgstr "බැල්ටික්"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:179
+msgid "Celtic"
+msgstr "කෙල්ටික"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:182
+#: ../tp-account-widgets/totem-subtitle-encoding.c:184
+#: ../tp-account-widgets/totem-subtitle-encoding.c:186
+#: ../tp-account-widgets/totem-subtitle-encoding.c:188
+msgid "Central European"
+msgstr "මධ්‍යම යු‍රෝපානු"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:191
+#: ../tp-account-widgets/totem-subtitle-encoding.c:193
+#: ../tp-account-widgets/totem-subtitle-encoding.c:195
+#: ../tp-account-widgets/totem-subtitle-encoding.c:197
+msgid "Chinese Simplified"
+msgstr "සරල චීන"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:200
+#: ../tp-account-widgets/totem-subtitle-encoding.c:202
+#: ../tp-account-widgets/totem-subtitle-encoding.c:204
+msgid "Chinese Traditional"
+msgstr "සාම්ප්‍රදායික චීන"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:207
+msgid "Croatian"
+msgstr "ක්‍රොඒෂියානු"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:210
+#: ../tp-account-widgets/totem-subtitle-encoding.c:212
+#: ../tp-account-widgets/totem-subtitle-encoding.c:214
+#: ../tp-account-widgets/totem-subtitle-encoding.c:216
+#: ../tp-account-widgets/totem-subtitle-encoding.c:218
+#: ../tp-account-widgets/totem-subtitle-encoding.c:220
+msgid "Cyrillic"
+msgstr "සිරිලික්"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:223
+msgid "Cyrillic/Russian"
+msgstr "සිරිලික්/රුසියානු"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:226
+#: ../tp-account-widgets/totem-subtitle-encoding.c:228
+msgid "Cyrillic/Ukrainian"
+msgstr "සිරිලික්/යුක්රේනියානු"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:231
+msgid "Georgian"
+msgstr "ජෝර්ජියානු"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:234
+#: ../tp-account-widgets/totem-subtitle-encoding.c:236
+#: ../tp-account-widgets/totem-subtitle-encoding.c:238
+msgid "Greek"
+msgstr "ග්‍රීක්"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:241
+msgid "Gujarati"
+msgstr "ගුජරාටි"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:244
+msgid "Gurmukhi"
+msgstr "ගර්මුකි"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:247
+#: ../tp-account-widgets/totem-subtitle-encoding.c:249
+#: ../tp-account-widgets/totem-subtitle-encoding.c:251
+#: ../tp-account-widgets/totem-subtitle-encoding.c:253
+msgid "Hebrew"
+msgstr "යුදෙව් "
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:256
+msgid "Hebrew Visual"
+msgstr "දෘශ්‍ය යුදෙව් "
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:259
+msgid "Hindi"
+msgstr "හින්දි"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:262
+msgid "Icelandic"
+msgstr "අයිස්ලන්ත"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:265
+#: ../tp-account-widgets/totem-subtitle-encoding.c:267
+#: ../tp-account-widgets/totem-subtitle-encoding.c:269
+msgid "Japanese"
+msgstr "ජපන්"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:272
+#: ../tp-account-widgets/totem-subtitle-encoding.c:274
+#: ../tp-account-widgets/totem-subtitle-encoding.c:276
+#: ../tp-account-widgets/totem-subtitle-encoding.c:278
+msgid "Korean"
+msgstr "කොරියන්"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:281
+msgid "Nordic"
+msgstr "නෝඩික"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:284
+msgid "Persian"
+msgstr "පර්සියන්"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:287
+#: ../tp-account-widgets/totem-subtitle-encoding.c:289
+msgid "Romanian"
+msgstr "රුෙම්නියානු"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:292
+msgid "South European"
+msgstr "දකුණු යුරෝපීය"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:295
+msgid "Thai"
+msgstr "තායි"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:298
+#: ../tp-account-widgets/totem-subtitle-encoding.c:300
+#: ../tp-account-widgets/totem-subtitle-encoding.c:302
+#: ../tp-account-widgets/totem-subtitle-encoding.c:304
+msgid "Turkish"
+msgstr "තුර්කි"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:307
+#: ../tp-account-widgets/totem-subtitle-encoding.c:309
+#: ../tp-account-widgets/totem-subtitle-encoding.c:311
+#: ../tp-account-widgets/totem-subtitle-encoding.c:313
+#: ../tp-account-widgets/totem-subtitle-encoding.c:315
+msgid "Unicode"
+msgstr "යුනිකේත"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:318
+#: ../tp-account-widgets/totem-subtitle-encoding.c:320
+#: ../tp-account-widgets/totem-subtitle-encoding.c:322
+#: ../tp-account-widgets/totem-subtitle-encoding.c:324
+#: ../tp-account-widgets/totem-subtitle-encoding.c:326
+msgid "Western"
+msgstr "බටහිර"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:329
+#: ../tp-account-widgets/totem-subtitle-encoding.c:331
+#: ../tp-account-widgets/totem-subtitle-encoding.c:333
+msgid "Vietnamese"
+msgstr "වියට්නාම"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:1
+#, fuzzy
+msgid "Pass_word"
+msgstr "මුරපදය: (_w)"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:2
+#, fuzzy
+msgid "Screen _Name"
+msgstr "තිර නාමය: (_N)"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:3
+#, fuzzy
+msgid "<b>Example:</b> MyScreenName"
+msgstr "<span size=\"small\"><b>උදාහරණය:</b> මගේ තිර නාමය</span>"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:4
+msgid "Remember password"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:5
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:5
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:5
+#, fuzzy
+msgid "_Port"
+msgstr "පේනුව: (_P)"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:6
+#, fuzzy
+msgid "_Server"
+msgstr "සේවාදායකය: (_S)"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-generic.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:8
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:16
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:22
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:9
+msgid "Advanced"
+msgstr "උසස්"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:8
+msgid "What is your AIM screen name?"
+msgstr "ඔබගේ AIM තිර නාමය කුමක්ද?"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:9
+msgid "What is your AIM password?"
+msgstr "ඔබගේ AIM මුරපදය කුමක්ද?"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:11
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:25
+#, fuzzy
+msgid "Remember Password"
+msgstr "මුරපදය:"
+
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
+#, fuzzy
+msgid "Login I_D"
+msgstr "Login ID: (_D)"
+
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:3
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:3
+#, fuzzy
+msgid "<b>Example:</b> username"
+msgstr "<span size=\"small\"><b>උදාහරණය:</b> පරිශීලක නාමය</span>"
+
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:8
+msgid "What is your GroupWise User ID?"
+msgstr " ඔබගේ Groupwise පරිශීලක ID එක කුමක්ද?"
+
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:9
+msgid "What is your GroupWise password?"
+msgstr "ඔබගේ Groupwise මුරපදය කුමක්ද?"
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:2
+#, fuzzy
+msgid "ICQ _UIN"
+msgstr "ICQ UIN: (_U)"
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:3
+#, fuzzy
+msgid "<b>Example:</b> 123456789"
+msgstr "<span size=\"small\"><b>උදාහරණය:</b> 123456789</span>"
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:5
+msgid "Ch_aracter set"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:9
+msgid "What is your ICQ UIN?"
+msgstr "ඔබගේ ICQ UIN එක කුමක්ද?"
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:10
+msgid "What is your ICQ password?"
+msgstr "ඔබගේ  ICQ මුරපදය කුමක්ද?"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:1
+msgid "Network"
+msgstr "ජාලය"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:2
+#, fuzzy
+msgid "Character set"
+msgstr "අනුලකුණු කුලකය:"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:3
+msgid "Add…"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:4
+#, fuzzy
+msgid "Remove"
+msgstr "ඉවත් කරන්න (_R)"
+
+#. Translators: tooltip on a 'Go Up' button used to sort IRC servers by priority
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:6
+msgid "Up"
+msgstr ""
+
+#. Translators: tooltip on a 'Go Down' button used to sort IRC servers by priority
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:8
+msgid "Down"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:9
+msgid "Servers"
+msgstr "සේවාදායක"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
+msgid ""
+"Most IRC servers don't need a password, so if you're not sure, don't enter a "
+"password."
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
+#, fuzzy
+msgid "Nickname"
+msgstr "අන්වර්ත නාමය:"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+#, fuzzy
+msgid "Password"
+msgstr "මුරපදය:"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
+#, fuzzy
+msgid "Quit message"
+msgstr "පණිවිඩයෙන් ඉවත්වන්න:"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:14
+#, fuzzy
+msgid "Real name"
+msgstr "සැබෑ නම:"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:15
+#, fuzzy
+msgid "Username"
+msgstr "පරිශීලක නාමය: (_U)"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:17
+msgid "Which IRC network?"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:18
+#, fuzzy
+msgid "What is your IRC nickname?"
+msgstr "ඔබගේ AIM තිර නාමය කුමක්ද?"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:1
+#, fuzzy
+msgid "What is your Facebook username?"
+msgstr "ඔබගේ Windows Live පරිශීලක නාමය කුමක්ද?"
+
+#. This string is not wrapped in the dialog so you may have to add some '\n' to make it look nice.
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
+msgid ""
+"This is your username, not your normal Facebook login.\n"
+"If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
+"Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a "
+"Facebook username if you don't have one."
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
+#, fuzzy
+msgid "What is your Facebook password?"
+msgstr "ඔබගේ Yahoo! මුරපදය කුමක්ද?"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
+msgid "What is your Google ID?"
+msgstr "ඔබගේ Google ID එක කුමක්ද?"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
+#, fuzzy
+msgid "<b>Example:</b> user@gmail.com"
+msgstr "<span size=\"small\"><b>උදාහරණය:</b> user@gmail.com</span>"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
+msgid "What is your Google password?"
+msgstr "ඔබගේ Google මුරපදය කුමක්ද?"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
+#, fuzzy
+msgid "<b>Example:</b> user@jabber.org"
+msgstr "<span size=\"small\"><b>උදාහරණය:</b> user@jabber.org</span>"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
+#, fuzzy
+msgid "I_gnore SSL certificate errors"
+msgstr "SSL සහතික දෝෂ නොතකන්න (_I)"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
+msgid "Priori_ty"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
+#, fuzzy
+msgid "Reso_urce"
+msgstr "සම්පත්: (_u)"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
+#, fuzzy
+msgid "Encr_yption required (TLS/SSL)"
+msgstr "සංකේතාංකනය අවශ්‍යයි (TLS/SSL) (_E)"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
+msgid "Override server settings"
+msgstr "සේවාදායක සිටුවම් අභිබවා යයි"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
+msgid "Use old SS_L"
+msgstr "පැරණි SSL භාවිතාකරන්න (_L)"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
+msgid "What is your Jabber ID?"
+msgstr "ඔබගේ Jabber ID එක කුමක්ද?"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:25
+msgid "What is your desired Jabber ID?"
+msgstr "ඔබගේ අපේක්ෂිත Jabber ID එක කුමක්ද?"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:26
+msgid "What is your Jabber password?"
+msgstr "ඔබගේ Jabber මුරපදය කුමක්ද?"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:27
+msgid "What is your desired Jabber password?"
+msgstr "ඔබගේ අපේක්ෂිත Jabber මුරපදය කුමක්ද?"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:1
+#, fuzzy
+msgid "Nic_kname"
+msgstr "අන්වර්ත නාමය:"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:2
+#, fuzzy
+msgid "_Last Name"
+msgstr "අවසන් නම: (_L)"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:3
+#, fuzzy
+msgid "_First Name"
+msgstr "මුල් නම: (_F)"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:4
+#, fuzzy
+msgid "_Published Name"
+msgstr "ප්‍රකාශයට පත් කල නාමය: (_P)"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:5
+#, fuzzy
+msgid "_Jabber ID"
+msgstr "Jabber ID: (_J)"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:6
+msgid "E-_mail address"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:3
+#, fuzzy
+msgid "<b>Example:</b> user@hotmail.com"
+msgstr "<span size=\"small\"><b>උදාහරණය:</b> user@hotmail.com</span>"
+
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:8
+#, fuzzy
+msgid "What is your Windows Live ID?"
+msgstr "ඔබගේ Windows Live මුරපදය කුමක්ද?"
+
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:9
+msgid "What is your Windows Live password?"
+msgstr "ඔබගේ Windows Live මුරපදය කුමක්ද?"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:198
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:231
+msgid "Auto"
+msgstr "ස්වයං"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:201
+msgid "UDP"
+msgstr "UDP"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:204
+msgid "TCP"
+msgstr "TCP"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:207
+msgid "TLS"
+msgstr "TLS"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:236
+msgid "Register"
+msgstr "ලියාපදිංවි කරන්න"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:241
+msgid "Options"
+msgstr "අභිරුචි"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:244
+msgid "None"
+msgstr "කිසිවක් නැත"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:2
+#, fuzzy
+msgid "_Username"
+msgstr "පරිශීලක නාමය: (_U)"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:3
+#, fuzzy
+msgid "<b>Example:</b> user@my.sip.server"
+msgstr "<span size=\"small\"><b>උදාහරණය:</b> user@my.sip.server</span>"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:5
+msgid "Use this account to call _landlines and mobile phones"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:6
+#, fuzzy
+msgid "NAT Traversal Options"
+msgstr "<b>NAT දෘෂ්‍යපථ අභිරුචි</b>"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:7
+#, fuzzy
+msgid "Proxy Options"
+msgstr "<b>ප්‍රොක්සි අභිරුචි</b>"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:8
+#, fuzzy
+msgid "Miscellaneous Options"
+msgstr "<b>විවිධ අභිරුචි</b>"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:9
+#, fuzzy
+msgid "STUN Server"
+msgstr "STUN සේවාදායකය:"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:10
+msgid "Discover the STUN server automatically"
+msgstr "STUN සේවාදායකය ස්වයංව අනාවරණය කරන්න"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:11
+msgid "Discover Binding"
+msgstr "බන්ධනය අනාවරණය කරන්න"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+msgid "Server"
+msgstr "සේවාදායකය"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
+#, fuzzy
+msgid "Keep-Alive Options"
+msgstr "<b>සජීවීව තබන්න අභිරුචි</b>"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:14
+#, fuzzy
+msgid "Mechanism"
+msgstr "යාන්ත්‍රණය:"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:15
+msgid "Interval (seconds)"
+msgstr "අන්තරය (තත්පර)"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:16
+#, fuzzy
+msgid "Authentication username"
+msgstr "සහතිකකල පරිශීලක නාමය:"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:17
+#, fuzzy
+msgid "Transport"
+msgstr "ප්‍රවාහනය:"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:18
+msgid "Loose Routing"
+msgstr "නිදහස් මාර්ගගත කිරීම"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
+msgid "Ignore TLS Errors"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+msgid "Port"
+msgstr "පේනුව"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
+msgid "Local IP Address"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:23
+msgid "What is your SIP login ID?"
+msgstr "ඔබගේ SIP පිවිසීමේ ID එක කුමක්ද?"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:24
+msgid "What is your SIP account password?"
+msgstr "ඔබගේ SIP ගිණුම් මුරපදය කුමක්ද?"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:1
+msgid "Pass_word:"
+msgstr "මුරපදය: (_w)"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:2
+#, fuzzy
+msgid "Yahoo! I_D:"
+msgstr "Yahoo ID: (_D)"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:5
+#, fuzzy
+msgid "I_gnore conference and chat room invitations"
+msgstr "සම්මන්ත්‍රණ සහ සල්ලාප මණ්ඩප ආරාධනා නොතකන්න (_I)"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:6
+msgid "_Room List locale:"
+msgstr "කාමර ලැයිස්තු පෙදෙසිය: (_R)"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:7
+#, fuzzy
+msgid "Ch_aracter set:"
+msgstr "අනුලකුණු කුලකය:"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:8
+msgid "_Port:"
+msgstr "පේනුව: (_P)"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:10
+msgid "What is your Yahoo! ID?"
+msgstr "ඔබගේ Yahoo! ID එක කුමක්ද?"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:11
+msgid "What is your Yahoo! password?"
+msgstr "ඔබගේ Yahoo! මුරපදය කුමක්ද?"
+
+#: ../tp-account-widgets/tpaw-calendar-button.c:63
+#, fuzzy
+msgid "Select..."
+msgstr "තෝරන්න"
+
+#: ../tp-account-widgets/tpaw-calendar-button.c:151
+#, fuzzy
+msgid "_Select"
+msgstr "තෝරන්න"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:96
+#, fuzzy
+msgid "Full name"
+msgstr "සම්පූර්ණ නම:"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
+msgid "Phone number"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
+msgid "E-mail address"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
+#, fuzzy
+msgid "Website"
+msgstr "වෙබ් අඩව්ය:"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
+#, fuzzy
+msgid "Birthday"
+msgstr "උපන්දිනය:"
+
+#. Note to translators: this is the caption for a string of the form "5
+#. * minutes ago", and refers to the time since the contact last interacted
+#. * with their IM client.
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:105
+#, fuzzy
+msgid "Last seen:"
+msgstr "අවසන් නම: (_L)"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
+msgid "Server:"
+msgstr "සේවාදායකය:"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
+#, fuzzy
+msgid "Connected from:"
+msgstr "සම්බන්ධවිය"
+
+#. FIXME: once Idle implements SimplePresence using this information, we can
+#. * and should bin this.
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:111
+#, fuzzy
+msgid "Away message:"
+msgstr "පණිවිඩයෙන් ඉවත්වන්න:"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:124
+#, fuzzy
+msgid "work"
+msgstr "ජාලය"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
+msgid "home"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
+msgid "mobile"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
+msgid "voice"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
+#, fuzzy
+msgid "preferred"
+msgstr "අභිප්‍රේත"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
+msgid "postal"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
+msgid "parcel"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:325
+msgid "New Network"
+msgstr "නව ජාලය "
+
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:526
+msgid "Choose an IRC network"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:612
+msgid "Reset _Networks List"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:616
+#, fuzzy
+msgctxt "verb displayed on a button to select an IRC network"
+msgid "Select"
+msgstr "තෝරන්න"
+
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:273
+msgid "new server"
+msgstr "නව සේවාදායකය"
+
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:536
+msgid "SSL"
+msgstr "SSL"
+
+#: ../tp-account-widgets/tpaw-keyring.c:77
+#: ../tp-account-widgets/tpaw-keyring.c:186
+msgid "Password not found"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-keyring.c:586
+#, c-format
+msgid "IM account password for %s (%s)"
+msgstr ""
+
+#: ../tp-account-widgets/tpaw-keyring.c:623
+#, c-format
+msgid "Password for chatroom '%s' on account %s (%s)"
+msgstr ""
+
+#. Create account
+#. To translator: %s is the name of the protocol, such as "Google Talk" or
+#. * "Yahoo!"
+#.
+#: ../tp-account-widgets/tpaw-protocol.c:62
+#, c-format
+msgid "New %s account"
+msgstr "නව %s ගිණුම"
+
+#: ../tp-account-widgets/tpaw-time.c:86
+#, c-format
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "තත්පර %dකට පෙර"
+msgstr[1] "තත්පර %dකට පෙර"
+
+#: ../tp-account-widgets/tpaw-time.c:92
+#, c-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "මිනිත්තු %dකට පෙර"
+msgstr[1] "මිනිත්තු %dකට පෙර"
+
+#: ../tp-account-widgets/tpaw-time.c:98
+#, c-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d පැයකට පෙර"
+msgstr[1] "%d පැය කිහිපයකට පෙර"
+
+#: ../tp-account-widgets/tpaw-time.c:104
+#, c-format
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "දින %dකට පෙර"
+msgstr[1] "දින %dකට පෙර"
+
+#: ../tp-account-widgets/tpaw-time.c:110
+#, c-format
+msgid "%d week ago"
+msgid_plural "%d weeks ago"
+msgstr[0] "සති %dකට පෙර"
+msgstr[1] "සති %dකට පෙර"
+
+#: ../tp-account-widgets/tpaw-time.c:116
+#, c-format
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] "මාස %dකට පෙර"
+msgstr[1] "මාස %dකට පෙර"
+
+#: ../tp-account-widgets/tpaw-time.c:138
+msgid "in the future"
+msgstr "අනාගතයේදී"
+
+#: ../tp-account-widgets/tpaw-user-info.c:394
+msgid "Go online to edit your personal information."
+msgstr ""
+
+#. Setup id label
+#: ../tp-account-widgets/tpaw-user-info.c:454
+#, fuzzy
+msgid "Identifier"
+msgstr "හදුන්වනය:"
+
+#. Setup nickname entry
+#: ../tp-account-widgets/tpaw-user-info.c:459
+#, fuzzy
+msgid "Alias"
+msgstr "අපරනාම:"
+
+#: ../tp-account-widgets/tpaw-user-info.c:474
+#, fuzzy
+msgid "<b>Personal Details</b>"
+msgstr "<b>ප්‍රොක්සි අභිරුචි</b>"

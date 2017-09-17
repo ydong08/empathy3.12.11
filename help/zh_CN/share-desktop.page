@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="share-desktop" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="index#advanced"/>
+    <desc>向您的联系人展示您的桌面。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review"/>
+    <revision pkgversion="2.28" version="0.3" date="2009-09-05" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>知识共享-相同方式共享 (Creative Commons Share Alike) 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>共享您的桌面</title>
+
+  <p>您可以和联系人共享桌面。使用这个功能，您可以向联系人展示您的桌面，来寻求帮助或帮助联系人解决问题。</p>
+
+  <note style="tip">
+    <p>要共享您的桌面，您的系统中必须安装支持此功能的 VNC 服务器。<app>Vino</app>，GNOME 的 VNC 服务器，就有这项功能。</p>
+  </note>
+
+  <steps>
+    <item>
+      <p>在<gui>联系人列表</gui>窗口，执行下列操作之一：</p>
+      <list>
+        <item>
+          <p>
+            Select the contact you want to share your desktop with and choose
+            <guiseq><gui>Edit</gui><gui>Contact</gui>
+	    <gui>Share My Desktop</gui></guiseq>.
+          </p>
+        </item>
+        <item>
+          <p>右键点击您想要共享您桌面的联系人的名字，然后选择<gui>共享我的桌面</gui>。</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>您选择的联系人会收到一个查看您桌面的邀请。要查看您的桌面，他们需要接受邀请。</p>
+    </item>
+    <item>
+      <p>在您的桌面共享程序中，您可以断开您的联系人到您的计算机的连接。</p>
+      <note>
+        <p>如果需要更多关于如何使用远程桌面查共享程序的信息，请参看其帮助。</p>
+      </note>
+    </item>
+  </steps>
+
+  <p>当您与其他人共享您的桌面的时候，可能会出现系统性能降低和网络速度下降的现象。</p>
+
+  <note>
+    <p>并非您的所有联系人都可以使用这个功能。他们必须使用 2.28 或更新版本的 <app>Empathy</app> 并且在安装了兼容的远程桌面查看器程序。</p>
+  </note>
+
+</page>

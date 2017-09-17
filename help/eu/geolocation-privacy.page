@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-privacy" xml:lang="eu">
+
+  <info>
+    <link type="guide" xref="geolocation#geoloc"/>
+    <desc>Zein informazio bidaltzen da, eta nori?</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Partekatu Berdin 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Geokokalekuaren pribatutasuna</title>
+
+  <section id="info-sent">
+  <title>Zein informazio bidaltzen da?</title>
+  <p>Hau dena bidal daiteke: zure herrialdea, eskualdea, hiria edo herria, area, kalea, eraikina, solairua, letra, eta posta-kodea, longitudea, latitudea, altitudea, abiadura eta orientazioa.</p>
+  <p>Zure kokaleku geografikoari buruzko informazioaren kopurua eta zehaztasuna oinarrituta daude zure kokalekua aurkitzeko erabilitako azpiegituraren softwarean.</p>
+  <p>Hainbat sare motak zehaztasun-ezarpen desberdinak eduki ditzakete, eta informazio desberdina bidal dezakete. Kanpoko gailuak erabiltzea, GPSak edo telefono mugikorrak esate baterako, bidalitako informazioaren zehaztasuna handiagotuko dute.</p>
+  <p>Pribatutasun modua gaituta dagoenean, hiria besterik ez da bidaliko, kanpoko gailu bat erabiltzen ari bazara ere.</p>
+  </section>
+  
+  <section id="see-info">
+  <title>Nork ikus dezake bidalitako informazioa?</title>
+  <p>Zure kontaktuek bakarrik ikusi ahal izango dute zure kokaleku geografikoa.</p>
+  </section>
+  
+  <section id="privacy-mode">
+  <title>Zer da pribatutasun modua?</title>
+  <p>Pribatutasun modua modu lehenetsian gaitua dago, eta zure kontaktuei bidalitako kokaleku geografikoaren zehaztasuna txikiagotuko du.</p>
+  </section>
+  
+  <section id="privacy-overview">
+  <title>Pribatutasunaren sarrera</title>
+  <p><app>Empathy</app>-ren geokokalekuaren pribatutasun-ezarpenen ikuspegi orokorra.</p>
+  <list>
+    <item>
+      <p>Geokokalekua ez dago gaituta modu lehenetsian.</p>
+    </item>
+    <item>
+      <p>Pribatutasun modua dago modu lehenetsian gaituta.</p>
+    </item>
+    <item>
+      <p>Pribatutasun modua aplikatuko da, kanpoko gailuak nahiz gailu zehatzagoak erabili arren.</p>
+    </item>
+    <item>
+      <p>Zure kontaktuek bakarrik ikusi ahal izango dute zure kokalekua.</p>
+    </item>
+  </list>
+  </section>
+
+</page>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="geolocation-turn" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="geolocation#geoloc"/>
+    <link type="seealso" xref="geolocation-privacy"/>
+    <desc>Como activar e desactivar a xeolocalización en <placeholder-1/>.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Activar e desactivar a xeolocalización</title>
+
+  <steps>
+    <item>
+      <p>Elixa <guiseq><gui>Editar</gui><gui>Preferencias</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Seleccione o separador <gui>Localización</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccione <gui>Publicar a miña localización aos meus contactos</gui> para activar a xeolocalización.</p>
+      <p>Para desactivar a xeolocalización, deselecciónea.</p>
+    </item>
+    <item>
+      <p>Para aumentar a precisión da súa posición, deseleccione <gui>Reducir a precisión da localización</gui>.</p>
+    </item>
+    <item>
+      <p>Se ten un dispositivo externo como un GPS e quere enviar unha posición máis exacta, seleccione a opción axeitada na sección <gui>Orixes das localizacións</gui>.</p>
+    </item>
+  </steps>
+
+</page>

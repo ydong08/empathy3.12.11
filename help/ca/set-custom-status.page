@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="set-custom-status" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="change-status"/>
+	  <link type="seealso" xref="status-icons"/>
+    <desc>Afegiu, editeu o suprimiu missatges personals dels vostres estats.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-30" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review"/>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Reconeixement-Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Establiu un missatge personalitzat</title>
+
+  <p>A vegades voleu deixar un missatge personalitzat pel vostre estat, per exemple per fer saber als contactes que no estareu disponible durant una estona.</p>
+  <p>Podeu deixar un missatge personalitzat per a cada estat disponible.</p>
+
+  <steps>
+    <item>
+      <p>Des de la finestra <gui>Llista de contactes</gui> feu clic a la llista desplegable de la part superior.</p>
+    </item>
+    <item>
+      <p>Seleccioneu l'estat al qual voleu afegir-li el missatge personalitzat. Heu de seleccionar el que està identificat amb l'etiqueta <gui>Missatge personalitzat</gui>.</p>
+    </item>
+    <item>
+      <p>Introduïu el missatge personalitzat a la caixa de text de dalt de la finestra i premeu <key>Retorn</key> per establir el missatge.</p>
+    </item>
+    <item>
+      <p>Si voleu establir el missatge personalitzat com a preferit, per poder-lo utilitzar en un altre moment, feu clic al cor petit a la dreta de la caixa de text on heu escrit el missatge personalitzat.</p>
+      <p>So no el deseu com a preferit quan torneu a iniciar l'<app>Empathy</app> no estarà disponible com a missatge personalitzat. Només es desarà per la sessió actual.</p>
+    </item>
+  </steps>
+
+  <section id="edit-custom">
+
+  <title>Edició i supressió dels missatges personalitzats</title>
+
+  <steps>
+    <item>
+     <p>Des de la finestra <gui>Llista de contactes</gui> feu clic a la llista desplegable de la part superior.</p>
+    </item>
+    <item>
+      <p>Seleccioneu <gui>Edita el missatge personalitzat</gui>.</p>
+    </item>
+	  <item>
+	    <list>
+	      <item>
+	        <p>Per editar un missatge personalitzat:</p>
+	        <steps>
+	          <item>
+	            <p>Des de la caixa <gui>Preestablerts desats</gui>, seleccioneu el missatge d'estat que voleu editar i feu-hi doble clic.</p>
+            </item>
+            <item>
+              <p>Teclegeu el missatge personalitzat nou i premeu <key>Retorn</key> per modificar-lo.</p>
+            </item>
+          </steps>
+        </item>
+        <item>
+          <p>Per suprimir un missatge personalitzat:</p>
+          <steps>
+            <item>
+              <p>Des de la caixa <gui>Preestablerts desats</gui>, seleccioneu el missatge d'estat que voleu suprimir.</p>
+            </item>
+            <item>
+              <p>Feu clic al botó <gui>Suprimeix</gui>.</p>
+            </item>
+          </steps>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Feu clic a <gui>Tanca</gui> quan hàgiu acabat.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Quan editeu un missatge personalitzat, aquest no s'establirà com el missatge actual. L'haureu de seleccionar a la finestra <gui>Llista de contactes</gui>.</p>
+  </note>
+
+  </section>
+
+</page>

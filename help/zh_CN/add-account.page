@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="guide" style="task" id="add-account" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="remove-account"/>
+    <desc>向 <app>Empathy</app> 添加新帐号。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-24" status="draft"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-10" status="review"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-27" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.3" date="2010-02-03" status="review"/>
+    <revision pkgversion="2.30" version="0.4" date="2010-04-19" status="review"/>
+    <revision pkgversion="3.2" version="0.5" date="2011-12-19" status="review"/>
+    <revision pkgversion="3.12.6" date="2014-10-07" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>知识共享-相同方式共享 (Creative Commons Share Alike) 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>添加一个新帐号</title>
+
+  <p>您可以添加任何支持的服务的即时消息帐号，以在 <app>Empathy</app> 中与您的联系人交流。对于某些帐号提供商，这些步骤也允许您注册新帐号。更多细节参见<link xref="create-account"/>。</p>
+
+  <steps>
+    <item>
+      <p>Click <guiseq><gui>Empathy</gui><gui>Accounts</gui></guiseq>, or press
+      <key>F4</key>.</p>
+    </item>
+    <item>
+      <p>点击<gui style="button">+</gui>。</p>
+    </item>
+    <item>
+      <p>From the <gui>What kind of chat account do you have?</gui> drop-down
+      list, select the type of account you wish to add.</p>
+    </item>
+    <item>
+      <p>输入必要的信息。对于大多数帐号，您只需要输入登录 ID 和密码。有些帐号可能需要更多信息。参见<link xref="accounts-window#details"/>获取更多信息。</p>
+    </item>
+    <item>
+      <p>Click <gui style="button">Add</gui>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>To change the name that identifies the account in the <gui>Messaging and
+    VoIP Accounts</gui> window, select the account from the list on the left
+    and either click on the name or press the space bar. Edit the account name
+    and press <key>Enter</key> when you’re finished.</p>
+  </note>
+</page>

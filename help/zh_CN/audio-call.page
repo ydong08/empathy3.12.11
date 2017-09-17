@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="audio-call" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="index#audio-video"/>
+    <link type="seealso" xref="audio-video"/>
+    <desc>通过互联网呼叫您的联系人。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-07" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-04" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.3" date="2010-02-14" status="review"/>
+    <revision pkgversion="2.32" version="0.4" date="2010-09-09" status="review"/>   
+    <revision pkgversion="3.8" version="0.4" date="2013-04-15" status="review"/>
+
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <license>
+      <p>知识共享-相同方式共享 (Creative Commons Share Alike) 3.0</p>
+    </license>
+  </info>
+
+  <title>开始语音聊天</title>
+
+  <p>You can call your contacts and have an audio conversation with them. This
+  features only works with certain types of accounts and it requires the other
+  person to have an application that supports audio calls.</p>
+
+  <steps>
+    <item>
+      <p>
+        Right-click on the contact that you want to call and select
+        <gui style="menuitem">Audio Call</gui>.
+      </p>
+    </item>
+    <item>
+      <p>
+        A new window will open. When the connection is established, you will
+        see the total conversation time at the bottom of the window.
+      </p>
+    </item>
+    <item>
+      <p>
+        To end the conversation, click the <gui style="button">hand up</gui>
+        button.
+      </p>
+    </item>
+  </steps>
+  
+  <note style="tip">
+    <p>
+      To turn an audio conversation into a video conversation, choose
+      <guiseq><gui style="menu">Video</gui>
+      <gui style="menuitem">Video On</gui></guiseq>.
+    </p>
+  </note>
+  
+  <section id="audio-meta-contact">
+    <title>向一位元联系人发起语音会话</title>
+    <steps>
+      <item>
+        <p>在<gui>联系人列表</gui>窗口，右键点击该元联系人。</p>
+      </item>
+      <item>
+        <p>选择您想要交谈的联系人，然后在菜单中选择<gui style="menuitem">语音呼叫</gui>。</p>
+      </item>
+    </steps>
+    <note style="tip">
+      <p>要识别一个联系人是否是<em>元联系人</em>，将您的鼠标移动到<gui>联系人列表</gui>窗口中的一个联系人上，并停留几秒钟：一个小弹出消息会显示这个元联系人是由几个联系人组成的。</p>
+    </note>
+  </section>
+
+</page>

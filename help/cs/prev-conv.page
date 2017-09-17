@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="tasks" id="prev-conv" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Jak procházet a vyhledávat ve svých předchozích konverzacích.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-17" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.2" version="0.2" date="2011-12-19" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Martin Picek</mal:name>
+      <mal:email>picek.martin@gnome-cesko.cz</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tomáš Karger</mal:name>
+      <mal:email>tomkarger@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Zobrazení předchozí konverzace</title>
+
+  <p><app>Empathy</app> automaticky ukládá veškerou vaši textovu konverzaci, kterou jste s svými kontakty vedli. Můžete v ní <link xref="#search">vyhledávat</link> nebo ji <link xref="#browse">procházet</link> podle kontaktů a data.</p>
+
+  <note>
+    <p>K tomu, abyste si zobrazili nebo vyhledávali v předchozí konverzaci, nemusíte být připojeni k Internetu.</p>
+  </note>
+
+  <section id="search" style="task">
+  <title>Hledání v předchozích konverzacích</title>
+
+  <p>Ve všech svých dřívějších konverzacích můžete vyhledávat ve všech textech.</p>
+
+  <steps>
+    <item>
+      <p>V okně <gui>Seznam kontaktů</gui> zvolte <guiseq><gui>Zobrazit</gui> <gui>Předchozí konverzace</gui></guiseq>. Případně můžete zmáčknout <key>F3</key>.</p>
+    </item>
+    <item>
+      <p>Vyberte účet v rozbalovacím seznamu v horní části. Pro tento účet se pod ním ukáže seznam kontaktů a diskuzních místností.</p>
+    </item>
+    <item>
+      <p>Do textového pole <gui>Hledat</gui> napište text, který chcete najít.</p>
+    </item>
+    <item>
+      <p>Zobrazí se konverzace, které odpovídají hledanému výrazu. Ve výchozím stavu jsou konverzace seřazeny podle data.</p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="browse" style="task">
+  <title>Procházení předchozích konverzací</title>
+
+  <p>Svoji dřívější komunikaci se svými kontakty nebo v diskuzních místnostech si můžete procházet podle data.</p>
+
+  <steps>
+    <item>
+      <p>V okně <gui>Seznam kontaktů</gui> zvolte <guiseq><gui>Zobrazit</gui> <gui>Předchozí konverzace</gui></guiseq>. Případně můžete zmáčknout <key>F3</key>.</p>
+    </item>
+    <item>
+      <p>Vyberte účet v rozbalovacím seznamu v levé horní části. Pro tento účet se pod ním ukáže seznam kontaktů a diskuzních místností.</p>
+    </item>
+    <item>
+      <p>Vyberte kontakt nebo diskuzní místnost, jejichž dřívější konverzace chcete zobrazit. Jako výchozí se zobrazí úplně poslední konverzace.</p>
+    </item>
+    <item>
+      <p>Svoji konverzaci můžete procházet podle data. Dny, ve které jste vedli konverzaci s vybraným kontaktem, budou zobrazeny tučně. Kliknutím vyberte datum. Jestli chcete procházet starší data, použijte šipky vedle měsíce a roku.</p>
+    </item>
+  </steps>
+
+  <p>Psaním do vyhledávacího pole nahoře můžete v konverzaci hledat konkrétní text. Zobrazí se vyhovující konverzace.</p>
+
+  <note style="tip">
+    <p>Rychlým způsobem si můžete zobrazit dřívější konverzace pro jednotlivé kontakty z okna <gui>Seznam kontaktů</gui>. Stačí na kontakt kliknout pravým tlačítkem a zvolit <gui>Dřívější konverzace</gui>. Okno <gui>Dřívější konverzace</gui> se otevře s již vybraným správným kontaktem.</p>
+  </note>
+
+  </section>
+</page>

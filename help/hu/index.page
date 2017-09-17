@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="index" xml:lang="hu">
+
+  <info>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="incomplete"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-14" status="review"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-09-05" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.3" date="2010-02-03" status="review"/>
+    <revision pkgversion="2.32" version="0.4" date="2010-09-11" status="review"/>
+    <revision pkgversion="3.10" date="2013-06-23" status="review"/>
+
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+
+    <desc>Az Empathy egy azonnaliüzenő alkalmazás a GNOME-hoz. Támogatja a szöveges üzenetküldést, valamint a hang- és videohívásokat számos protokollon.</desc>
+
+    <title type="link">Empathy</title>
+    <title type="text">Empathy</title>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2010, 2011, 2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title><media type="image" mime="image/png" src="figures/empathy-logo.png" its:translate="no"/> Empathy</title>
+
+  <section id="accounts" style="2column">
+    <title>Fiókkezelés</title>
+  </section>
+  
+  <section id="contacts" style="2column">
+    <title>Partnerkezelés</title>
+  </section>
+
+  <section id="text-conv" style="2column">
+    <title>Szöveges csevegések</title>
+  </section>
+
+  <section id="audio-video" style="2column">
+    <title>Hang- és videocsevegések</title>
+  </section>
+  
+  <section id="advanced" style="2column">
+    <title>Speciális műveletek</title>
+  </section>
+
+  <section id="problems">
+    <title>Gyakori problémák</title>
+  </section>
+
+</page>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="prob-conn-auth" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="prob-conn"/>
+    <link type="seealso" xref="create-account"/>
+    <desc>V hlavním okně se objevila chybová zpráva znějící „<gui>Ověření selhalo</gui>“.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-07-23" status="draft"/>
+    <revision pkgversion="2.28" version="0.3" date="2009-08-14" status="review"/>
+    <revision pkgversion="2.30" version="0.4" date="2010-02-16" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Martin Picek</mal:name>
+      <mal:email>picek.martin@gnome-cesko.cz</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tomáš Karger</mal:name>
+      <mal:email>tomkarger@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Obdržel(a) jsem zprávu znějící „Ověření selhalo“</title>
+
+  <p>Tento druh chyby se vyskytne, když služba rychlých zpráv neumožní připojení, protože z nějakého důvodu nerozpoznala vaše uživatelské jméno nebo heslo.</p>
+
+  <steps>
+    <item>
+      <p>Ujistěte se, že jste připojeni k Internetu nebo k místní síti.</p>
+    </item>
+    <item>
+      <p>Ujistěte se, že máte u služby, ke které se snažíte připojit, zaregistrovaný účet. Většina služeb vám bez vlastnictví účtu připojení neumožní.</p>
+    </item>
+    <item>
+      <p>Klikněte na ikonu <media type="image" mime="image/png" src="figures/gtk-edit.png" its:translate="no"><span its:translate="yes">upravit</span></media> v chybové zprávě.</p>
+    </item>
+    <item>
+      <p>Napište znovu své uživatelské jméno a heslo, abyste měli jistotu, že jsou správně.</p>
+    </item>
+    <item>
+      <p>Zrušte zaškrtnutí u <gui>Povolen</gui> a pak jej znovu zapněte, abyste jej přiměli k novému pokusu o připojení ke službě.</p>
+    </item>
+  </steps>
+</page>

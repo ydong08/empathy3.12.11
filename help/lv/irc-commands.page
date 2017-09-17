@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="irc-commands" xml:lang="lv">
+      
+  <info>
+    <link type="guide" xref="irc-manage#manage"/>
+    <desc>Atbalstītās IRC komandas.</desc>
+    <revision pkgversion="2.30" version="0.1" date="2010-02-14" status="draft"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0 licence.</p>
+    </license>
+  </info>
+
+  <title>Atbalstītās IRC komandas</title>
+  <p>Lai redzētu sarakstu ar atbalstītajām IRC komandām, tērzēšanas istabā ieraksti <input>/help</input> un nospied <key>Enter</key>.</p>
+  <note>
+    <p>Visām pieejamajām komandām ir neliels to lietošanas paskaidrojums.</p>
+  </note>
+</page>

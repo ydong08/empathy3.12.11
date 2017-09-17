@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="set-custom-status" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="change-status"/>
+	  <link type="seealso" xref="status-icons"/>
+    <desc>Ajouter, modifier ou supprimer les messages personnalisés pour votre état.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-30" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review"/>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Paternité - Partage des Conditions Initiales à l'Identique 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2008-2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2008-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yannick Tailliez</mal:name>
+      <mal:email>ytdispatch-libre@yahoo.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Laurent Coudeur</mal:name>
+      <mal:email>laurentc@iol.ie</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Guillemin</mal:name>
+      <mal:email>luc.guillemin@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ajmir BUSGEETH</mal:name>
+      <mal:email>Ajmir.Busgeeth@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andre Matuch</mal:name>
+      <mal:email>andre.matuch@videotron.ca</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Définition d'un message personnalisé</title>
+
+  <p>Parfois vous souhaitez définir un message personnalisé pour votre état, par exemple pour que les gens sachent que vous ne serez pas disponible pendant une certaine période de temps.</p>
+  <p>Il est possible d'associer un message personnalisé à chaque état disponible.</p>
+
+  <steps>
+    <item>
+      <p>Dans la fenêtre <gui>Liste des contacts</gui>, cliquez sur la liste déroulante du haut.</p>
+    </item>
+    <item>
+      <p>Sélectionnez l'état auquel vous voulez ajouter un message personnalisé. Vous devez sélectionner celui qui est identifié par l'étiquette <gui>Message personnalisé</gui>.</p>
+    </item>
+    <item>
+      <p>Saisissez votre message personnalisé dans la boîte de dialogue en haut de la fenêtre et appuyez sur <key>Entrée</key> pour définir le message.</p>
+    </item>
+    <item>
+      <p>Si vous voulez définir le message personnalisé comme un favori et l'enregistrer pour pouvoir le réutiliser, cliquez sur le petit cœur à droite de la boîte de dialogue où vous avez saisi votre message personnalisé.</p>
+      <p>Si vous ne le faites pas, le message personnalisé ne sera pas disponible à la prochaine ouverture d'<app>Empathy</app>. Il n'est conservé que pour la session actuelle.</p>
+    </item>
+  </steps>
+
+  <section id="edit-custom">
+
+  <title>Modification et suppression d'un message personnalisé</title>
+
+  <steps>
+    <item>
+     <p>Dans la fenêtre <gui>Liste des contacts</gui>, cliquez sur la liste déroulante du haut.</p>
+    </item>
+    <item>
+      <p>Sélectionnez <gui>Édition des messages personnalisés</gui>.</p>
+    </item>
+	  <item>
+	    <list>
+	      <item>
+	        <p>Pour modifier un message personnalisé :</p>
+	        <steps>
+	          <item>
+	            <p>Dans la fenêtre <gui>Édition des messages personnalisés</gui>, sélectionnez le message d'état que vous voulez modifier et faites un double clic dessus.</p>
+            </item>
+            <item>
+              <p>Saisissez le nouveau message personnalisé et appuyez sur <key>Entrée</key> pour le modifier.</p>
+            </item>
+          </steps>
+        </item>
+        <item>
+          <p>Pour supprimer un message personnalisé :</p>
+          <steps>
+            <item>
+              <p>Dans la fenêtre <gui>Édition des messages personnalisés</gui>, sélectionnez le message d'état que vous voulez supprimer.</p>
+            </item>
+            <item>
+              <p>Cliquez sur le bouton <gui>Enlever</gui>.</p>
+            </item>
+          </steps>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Quand vous avez terminé, cliquez sur <gui>Fermer</gui>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Quand vous modifiez un message personnalisé, il n'est pas défini comme message de l'état actuel. Vous devez le sélectionner à partir de la fenêtre <gui>Liste des contacts</gui>.</p>
+  </note>
+
+  </section>
+
+</page>

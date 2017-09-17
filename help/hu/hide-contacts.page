@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="hide-contacts" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#contacts"/>
+    <desc>A kilépett partnerek elrejtése a <gui>Partnerlistáról</gui>.</desc>
+    <revision pkgversion="2.30" version="0.1" date="2010-03-11" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2010, 2011, 2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Kilépett partnerek elrejtése</title>
+
+  <p>Általában az <app>Empathy</app> megjeleníti az összes partnert: az elérhetőket, akikkel társalgást kezdhet, és a kilépetteket is.</p>
+  <p>A kilépett partnerek elrejtése:</p>
+
+  <steps>
+    <item>
+      <p>A <gui>Partnerlista</gui> ablakban válassza a <guiseq><gui>Nézet</gui><gui>Kilépett partnerek</gui></guiseq> menüpontot, vagy nyomja meg a <keyseq><key>Ctrl</key><key>H</key></keyseq> billentyűkombinációt.</p>
+    </item>
+    <item>
+      <p>A kilépett partnerek ismételt megjelenítéséhez ismételje meg a fenti eljárást.</p>
+    </item>
+  </steps>
+
+</page>

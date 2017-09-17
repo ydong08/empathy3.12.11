@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="irc-commands" xml:lang="pl">
+      
+  <info>
+    <link type="guide" xref="irc-manage#manage"/>
+    <desc>Obsługiwane polecenia IRC.</desc>
+    <revision pkgversion="2.30" version="0.1" date="2010-02-14" status="draft"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Na tych samych warunkach 3.0</p>
+    </license>
+  </info>
+
+  <title>Obsługiwane polecenia IRC</title>
+  <p>Aby zobaczyć listę obsługiwanych poleceń IRC, należy w pokoju rozmów wpisać <input>/help</input> a następnie nacisnąć <key>Enter</key></p>
+  <note>
+    <p>Wszystkie dostępne polecenia posiadają krótkie opisy użycia.</p>
+  </note>
+</page>

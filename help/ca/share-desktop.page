@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="share-desktop" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#advanced"/>
+    <desc>Mostreu l'escriptori als contactes.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review"/>
+    <revision pkgversion="2.28" version="0.3" date="2009-09-05" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Reconeixement-Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Compartició de l'escriptori</title>
+
+  <p>Podeu compartir l'escriptori amb algun contacte. Podeu utilitzar-ho per mostrar l'escriptori als contactes, per exemple per demanar-los ajuda o ajudar-los a resoldre un problema.</p>
+
+  <note style="tip">
+    <p>Per poder compartir l'escriptori, cal que tingueu instal·lat al sistema un servidor de VNC que permeti aquesta funció. El <app>Vino</app>, el servidor de VNC del GNOME, ja ho permet.</p>
+  </note>
+
+  <steps>
+    <item>
+      <p>Des de la finestra <gui>Llista de contactes</gui> executeu una de les accions següents:</p>
+      <list>
+        <item>
+          <p>Seleccioneu el contacte amb el qual voleu compartir l'escriptori i escolliu <guiseq><gui>Edita</gui><gui>Contacte</gui><gui>Comparteix el meu escriptori</gui></guiseq>.</p>
+        </item>
+        <item>
+          <p>Feu clic amb el botó secundari sobre el contacte amb el qual voleu compartir l'escriptori i seleccioneu <gui>Comparteix el meu escriptori</gui>.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Perquè pugui veure el vostre escriptori, al contacte que hàgeu seleccionat se li enviarà una invitació que haurà d'acceptar.</p>
+    </item>
+    <item>
+      <p>Podeu desconnectar el contacte del vostre ordinador mitjançat l'aplicació de compartició d'escriptoris.</p>
+      <note>
+        <p>Per més informació sobre com utilitzar l'aplicació de compartició d'escriptoris remots mireu la seva ajuda.</p>
+      </note>
+    </item>
+  </steps>
+
+  <p>Quan compartiu l'escriptori amb algú altre, podeu notar un alentiment del sistema i una disminució de la velocitat d'Internet.</p>
+
+  <note>
+    <p>Potser no tots els contactes podran utilitzar aquesta funció. Cal que tinguin la versió 2.28 o una més nova de l'<app>Empathy</app> i una aplicació de visualització d'escriptoris remots compatible instal·lada al sistema.</p>
+  </note>
+
+</page>

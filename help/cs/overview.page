@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="overview" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <revision pkgversion="3.7" version="0.1" date="2012-11-30" status="draft"/>
+    <desc>Co jsou to rychlé zprávy a jak se používají.</desc>
+    <credit type="author">
+      <name>Aruna S</name>
+      <email its:translate="no">aruna.evam@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Martin Picek</mal:name>
+      <mal:email>picek.martin@gnome-cesko.cz</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tomáš Karger</mal:name>
+      <mal:email>tomkarger@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>O rychlých zprávách</title>
+
+  <p>Rychlé zprávy, označované anglickou zkratkou IM (z Instant Messaging) jsou způsobem textové komunikace probíhající v reálném čase přes Internet nebo místní síť. Zatímco některé aplikace pro rychlou komunikaci umí pracovat jen s jedním konkrétním typem účtu, jiné, včetně <link xref="introduction">Empathy</link>, jsou schopné používat <link xref="add-account">účty</link> od různých poskytovatelů služeb. Některé z nich podporují i hlasové a videohovory.</p>
+
+  <table frame="all" shade="cols">
+     <tr>
+       <td><p><media type="image" src="figures/video_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+       <td><p><media type="image" src="figures/conf_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+       <td><p><media type="image" src="figures/croom_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+     </tr>
+     <tr>
+       <td><p>Videokonference</p></td>
+       <td><p>Skupinové diskuze</p></td>
+       <td><p>Diskuzní místnosti</p></td>
+      </tr>
+  </table>
+
+  <p>Některé aplikace pro rychlé zprávy je možné používat k připojení do diskuzných místností, což jsou místa na síti, na kterých diskutují lidé na různá témata. Jednou z oblíbených aplikací je Internet Relay Chat, známý pod zkratkou <link xref="irc-manage">IRC</link>. Poskytuje jak <link xref="irc-join-room">veřejné</link> diskuzní místnosti, které jsou přístupné pro každého, kdo si na serveru IRC vytvoří účet, tak uzavřené diskuzní místnosti, které jsou <link xref="irc-join-pwd">chráněné heslem</link> a přístupné jen pro pár vybraných.</p>
+
+</page>

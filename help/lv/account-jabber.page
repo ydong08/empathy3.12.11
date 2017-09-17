@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-jabber" xml:lang="lv">
+
+  <info>
+    <desc>Paplašinātas iespējas Jabber un Google Talk kontiem.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-27" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.12" date="2015-02-03" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0 licence.</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Jabber konta informācija</title>
+
+  <p>Vairums Jabber kontu pieprasīs tikai lietotāja ID un paroli lai pieslēgtos. Dažiem kontiem, vai atrodoties dažādos tīklos, tev var tikt pieprasīts ievadīt papildu informāciju <gui>Paplašināti</gui> sadaļā. Parasti tev nevajadzēs izmantot paplašinātās iespējas, kas minētas zemāk. Vispārīgām instrukcijām kontu pievienošanā, skaties <link xref="add-account"/>.</p>
+
+  <note>
+    <p>Google Talk ir Jabber tipa konts. Šīs instrukcijas der arī Google Talk kontiem.</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>Vajadzīga šifrēšana (TLS/SSL)</gui></title>
+      <title><gui>Ignorēt SSL sertifikāta kļūdas</gui></title>
+      <p>Kad vien tas ir iespējams, saziņa caur <app>Empathy</app> un Jabber serveriem ir šifrēta. Ja šifrēta saruna nav iespējama, ziņas var tikt nosūtītas nešifrētā veidā. Izvēlies <gui>Šifrēšana pieprasīta</gui>, lai aizliegtu <app>Empathy</app> lietotnei sazināties ar Jabber serveri, kad šifrēšana nav iespējama.</p>
+      <p>Some Jabber servers may encrypt data using invalid certificates,
+      or using certificates signed by unknown authorities.  You can select
+      <gui>Ignore SSL certificate errors</gui> to allow encrypted communication
+      with invalid certificates, but this allows an attacker to intercept your
+      communication with the server (including your password). You might want to
+      use this option for testing purposes, or if your server is broken and you
+      do not care about the security of your communication.</p>
+    </item>
+    <item>
+      <title><gui>Resurss</gui></title>
+      <title><gui>Prioritāte</gui></title>
+      <p>Ja ar tavu kontu ir savienojušās vairākas lietotnes reizē (piemēram, uz atsevišķiem datoriem), tu vari iestatīt kādu no resursiem, kurš unikāli identificēs katru pieslēgto lietotni. Pēc noklusējuma <app>Empathy</app> izmantos <input>Telepathy</input> kā resursu.</p>
+      <p>Tu vari uzstādīt prioritātes, kuras noteiks, kurai lietotnei vajadzētu saņemt ziņas no kontaktiem. Jaunas ziņas tiks nosūtītas uz lietotni ar augstāko uzstādīto prioritāti.</p>
+    </item>
+    <item>
+      <title><gui>Aizstāt servera iestatījumus</gui></title>
+      <p><app>Empathy</app> izmantos noklusētos iestatījumus, lai savienotos ar Jabber serveri, balstītus uz tavu lietotāja ID. Dažiem Jabber serveriem, serveru iestatījumus tev vajadzēs ievadīt pašam. Ar šiem iestatījumiem tevi vajadzētu nodrošināt tavam Jabber pakalpojumu sniedzējam.</p>
+    </item>
+  </terms>
+
+</page>

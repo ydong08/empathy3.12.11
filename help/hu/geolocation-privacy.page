@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-privacy" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="geolocation#geoloc"/>
+    <desc>Milyen információk kerülnek elküldésre és kinek.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2010, 2011, 2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Helymeghatározás és adatvédelem</title>
+
+  <section id="info-sent">
+  <title>Milyen információk kerülnek elküldésre</title>
+  <p>A következők elküldése lehetséges: ország, régió, helység, terület, utca, épület, emelet, szoba, irányítószám, hosszúság, szélesség, magasság, sebesség és irány.</p>
+  <p>A földrajzi helyével kapcsolatos információk pontossága és mennyisége a szoftveren, vagy a helymeghatározásra használt infrastruktúrán alapul.</p>
+  <p>A különböző hálózatok különböző pontossági beállításokkal rendelkezhetnek, és különböző információkat küldhetnek. A külső eszközök, például GPS vagy mobiltelefonok használata növeli az elküldött információk pontosságát.</p>
+  <p>Az adatvédelmi módot bekapcsolva a városnál pontosabb információ nem kerül elküldésre, még ha külső eszközt is használ.</p>
+  </section>
+  
+  <section id="see-info">
+  <title>Ki láthatja az elküldött információkat</title>
+  <p>Csak partnerei láthatják az Ön földrajzi helyzetét.</p>
+  </section>
+  
+  <section id="privacy-mode">
+  <title>Mi az adatvédelmi mód</title>
+  <p>Az alapértelmezésben engedélyezett adatvédelmi mód egy csökkentett pontosságú mód, amely csökkenti a partnereinek küldött földrajzi hely pontosságát.</p>
+  </section>
+  
+  <section id="privacy-overview">
+  <title>Adatvédelem áttekintése</title>
+  <p>Az <app>Empathy</app> helymeghatározással kapcsolatos adatvédelmi beállításainak áttekintése.</p>
+  <list>
+    <item>
+      <p>A helymeghatározás alapértelmezésben nincs bekapcsolva.</p>
+    </item>
+    <item>
+      <p>Az adatvédelmi mód alapértelmezésben be van kapcsolva.</p>
+    </item>
+    <item>
+      <p>Az adatvédelmi mód külső és pontosabb eszközök használata esetén is bekapcsolva marad.</p>
+    </item>
+    <item>
+      <p>Csak partnerei láthatják földrajzi helyét.</p>
+    </item>
+  </list>
+  </section>
+
+</page>

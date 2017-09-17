@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-irc" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="irc-manage#manage"/> 
+    <desc>Papildu informācija, lai pieslēgtos IRC tīkliem.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.2" date="2010-04-19" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0 licence.</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/> 
+-->
+  </info>
+
+  <title>IRC konta informācija</title>
+
+  <p>IRC konti pieprasa cita veida informāciju, nekā vairāki citi kontu tipi. Lai izveidotu IRC kontu, tev vajag norādīt vismaz IRC tīklu un savu iesauku. Šī lapa detalizētāk parāda informāciju, kuru vari sniegt IRC kontam.</p>
+
+  <note style="info package">
+    <p>Tev ir jāuzinstalē <sys>telepathy-idle</sys> paka, lai izmantotu IRC kopā ar <app>Empathy</app>.</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>Tīkls</gui></title>
+      <p>IRC ir atvērta sistēma, kura ļauj cilvēkiem reizē darbināt vairākus IRC tīklus. Katrs tīkls ir atšķirīgs un tam ir katram savi lietotāji un tērzēšanas istabas. <app>Empathy</app> norādīs pašus populārākos tīklus, <gui>Tīkls</gui> sarakstā. Tu vari pievienot papildus tīklu, lasi vairāk - <link xref="#networks"/>.</p>
+    </item>
+    <item>
+      <title><gui>Iesauka</gui></title>
+      <p>Tava iesauka ir unikāls vārds IRC tīklā. Tikai viena persona tīklā var izmantot vienu iesauku. Ja saņemsi kļūdas paziņojumu, kurš saka <link xref="prob-conn-name" role="error-msg"/>, tev vajadzēs nomainīt iesauku.</p>
+    </item>
+    <item>
+      <title><gui>Parole</gui></title>
+      <p>Daži serveri, lielākoties privātajos tīklos, pieprasa paroli, lai pieslēgtos. Ja tev ir pilnvarojums konkrētā tīkla izmantošanai, administratoram vajadzētu tev iedot paroli.</p>
+      <note>
+        <title>NickServ paroles</title>
+        <p>Dažos serveros iesaukas var reģistrēt, izmantojot pakalpojumu NickServ. <app>Empathy</app> tiešā veidā neatbalsta iesauku paroles. Dažos tīklos, tajā skaitā arī populārajā freenode tīklā, serveru paroles tiek automātiski pārvirzītas uz NickServ, ļaujot tev uzstādīt sevis atpazīšanu ar NickServ. Lasi <link xref="irc-nick-password"/>, lai uzzinātu vairāk.</p>
+      </note>
+    </item>
+    <item>
+      <title><gui>Īstais vārds</gui></title>
+      <p>Papildus iesaukai, tu vari norādīt arī savu īsto vārdu. Citi lietotāji to varēs redzēt, skatoties tavu profila informāciju.</p>
+    </item>
+    <item>
+      <title><gui>Iziešanas ziņojums</gui></title>
+      <p>Kad tu izej nesaistē, iziešanas ziņa tiks nosūtīta visām sarakstes istabām, kurās tu esi, kā arī visiem lietotājiem, ar kuriem tev ir privāta saruna. Izmanto šo lauku, lai norādītu sevis izvēlētu iziešanas ziņu.</p>
+    </item>
+  </terms>
+
+<!--
+telepathy-idle note
+-->
+
+  <section id="networks">
+    <info>
+      <title type="link">IRC tīkli</title>
+    </info>
+
+    <title>Tīkli</title>
+
+    <p><app>Empathy</app> iekļauj sarakstu ar populāriem IRC tīkliem. Ja vēlies redzēt kādu citu tīklu, iekļauj to sarakstā. Tu vari arī rediģēt un izņemt tīklus no saraksta.</p>
+
+    <list>
+      <item><p>Lai pievienotu tīklu sarakstam, spiediet <media type="image" mime="image/png" src="figures/gtk-add.png" width="16" height="16" its:translate="no"><span its:translate="yes">Pievienot</span></media>.</p></item>
+      <item><p>Lai rediģētu tīklu no saraksta, izvēlies to un spiediet <media type="image" mime="image/png" src="figures/gtk-edit.png" width="16" height="16" its:translate="no"><span its:translate="yes">Rediģēt</span></media>.</p></item>
+      <item><p>Lai izņemtu kādu tīklu no saraksta, izvēlies to un spiediet <media type="image" mime="image/png" src="figures/gtk-remove.png" width="16" height="16" its:translate="no"><span its:translate="yes">Izņemt</span></media>.</p></item>
+    </list>
+
+    <p>Pievienojot vai rediģējot kādu tīklu, tu vari ievadīt sekojošo informāciju:</p>
+
+    <terms>
+      <item>
+        <title><gui>Tīkls</gui></title>
+        <p>Šis ir vārds, ar kuru tīkls tiks parādīts sarakstā.</p>
+      </item>
+      <item>
+        <title><gui>Rakstzīmju kopa</gui></title>
+        <p>Šis norāda rakstzīmju kodējumu, kurš tiek izmantots uz konkrētā tīkla. Rakstzīmju kodējums ir specifisks veids rakstzīmju ierakstīšanai datorā. Ir vairāki rakstzīmju kodējuma veidi un tev vajag izmantot tādu pašu kodējumu, kā citiem lietotājiem, lai varētu redzēt viņu ziņojumus pareizi.</p>
+        <!--
+            Translators: Recommend character encodings that are common
+            for your language.
+        -->
+        <p>Pēc noklusējuma, <app>Empathy</app> izmanto UTF-8, modernu rakstzīmju kodējumu, kurš var apstrādāt lielāko daļu pasaules valodu tekstus. Vēl viens sastopams kodējums angļu un dažām rietumu valodām ir ISO-8859-1.</p>
+      </item>
+      <item>
+        <title><gui>Serveri</gui></title>
+        <p>Vienā IRC tīklā var būs daudzi serveri, kuriem tu vari pieslēgties. Kad esi pieslēdzies serverim konkrētā tīklā, tu vari sazināties ar visiem lietotājiem visos pārējos serveros, tajā pašā tīklā. Tu vari pievienot vai noņemt serverus no konkrētā tīkla, izmantojot  <gui>Pievienot</gui> un <gui>Izņemt</gui> pogas.</p>
+        <p>Kad ir izvēlēts serveris, nospied uz lauciņa zem <gui>Serveris</gui> vai <gui>Ports</gui>, lai to rediģētu. Vēl viens variants ir izmantot kreiso vai labo virziena taustiņu, lai fokusētos uz lauciņa, un nospiest atstarpes taustiņu, lai sāktu rediģēt.</p>
+        <p>Izvēlies lauciņu zem <gui>SSL</gui> kolonnas, lai šifrētu visu komunikāciju ar serveri. Piezīme: tas neattur citus lietotājus tīklā redzēt to, ko tu raksti publiskajās tērzēšanas istabās.</p>
+      </item>
+    </terms>
+  </section>
+</page>

@@ -1,0 +1,854 @@
+# translation of gossip.HEAD.po to Arabic
+# Arabisch translation of PACKAGE.
+# Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Arafat Medini <lumina@silverpen.de>, 2004.
+# Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004.
+# Abou Manal <aboumanal@gmail.com>, 2008.
+# Djihed Afifi<djihed@gmail.com, 2008.
+# Anas Afif Emad <anas.e87@gmail.com, 2008, 2012.
+# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2009, 2010, 2011, 2012.
+# Abderrahim Kitouni <a.kitouni@gmail.com>, 2012.
+# Ibrahim Saed <ibraheem5000@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: gossip.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-31 15:46+0100\n"
+"PO-Revision-Date: 2012-10-04 15:28+0200\n"
+"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Virtaal 0.7.0\n"
+"X-Project-Style: gnome\n"
+
+#: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
+msgid "Default directory to select an avatar image from"
+msgstr "المجلد المبدئي لاختيار الصورة الشخصية"
+
+#: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:2
+msgid "The last directory that an avatar image was chosen from."
+msgstr "آخر مجلد اختِيرت منه الصورة الشخصية."
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:157
+msgid "Current Locale"
+msgstr "المحلية الحالية"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:160
+#: ../tp-account-widgets/totem-subtitle-encoding.c:162
+#: ../tp-account-widgets/totem-subtitle-encoding.c:164
+#: ../tp-account-widgets/totem-subtitle-encoding.c:166
+msgid "Arabic"
+msgstr "عربي"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:169
+msgid "Armenian"
+msgstr "أرميني"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:172
+#: ../tp-account-widgets/totem-subtitle-encoding.c:174
+#: ../tp-account-widgets/totem-subtitle-encoding.c:176
+msgid "Baltic"
+msgstr "بلطيقي"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:179
+msgid "Celtic"
+msgstr "كلتي"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:182
+#: ../tp-account-widgets/totem-subtitle-encoding.c:184
+#: ../tp-account-widgets/totem-subtitle-encoding.c:186
+#: ../tp-account-widgets/totem-subtitle-encoding.c:188
+msgid "Central European"
+msgstr "وسط أوروبي"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:191
+#: ../tp-account-widgets/totem-subtitle-encoding.c:193
+#: ../tp-account-widgets/totem-subtitle-encoding.c:195
+#: ../tp-account-widgets/totem-subtitle-encoding.c:197
+msgid "Chinese Simplified"
+msgstr "الصينية المبسطة"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:200
+#: ../tp-account-widgets/totem-subtitle-encoding.c:202
+#: ../tp-account-widgets/totem-subtitle-encoding.c:204
+msgid "Chinese Traditional"
+msgstr "الصينية التقليدية"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:207
+msgid "Croatian"
+msgstr "كرواتي"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:210
+#: ../tp-account-widgets/totem-subtitle-encoding.c:212
+#: ../tp-account-widgets/totem-subtitle-encoding.c:214
+#: ../tp-account-widgets/totem-subtitle-encoding.c:216
+#: ../tp-account-widgets/totem-subtitle-encoding.c:218
+#: ../tp-account-widgets/totem-subtitle-encoding.c:220
+msgid "Cyrillic"
+msgstr "سيريالي"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:223
+msgid "Cyrillic/Russian"
+msgstr "سيريالي/روسي"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:226
+#: ../tp-account-widgets/totem-subtitle-encoding.c:228
+msgid "Cyrillic/Ukrainian"
+msgstr "سيريالي/أوكراني"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:231
+msgid "Georgian"
+msgstr "جيورجي"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:234
+#: ../tp-account-widgets/totem-subtitle-encoding.c:236
+#: ../tp-account-widgets/totem-subtitle-encoding.c:238
+msgid "Greek"
+msgstr "يوناني"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:241
+msgid "Gujarati"
+msgstr "كوجراتي"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:244
+msgid "Gurmukhi"
+msgstr "جورموخي"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:247
+#: ../tp-account-widgets/totem-subtitle-encoding.c:249
+#: ../tp-account-widgets/totem-subtitle-encoding.c:251
+#: ../tp-account-widgets/totem-subtitle-encoding.c:253
+msgid "Hebrew"
+msgstr "عبري"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:256
+msgid "Hebrew Visual"
+msgstr "عبري مرئي"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:259
+msgid "Hindi"
+msgstr "هندي"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:262
+msgid "Icelandic"
+msgstr "آيسلندي"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:265
+#: ../tp-account-widgets/totem-subtitle-encoding.c:267
+#: ../tp-account-widgets/totem-subtitle-encoding.c:269
+msgid "Japanese"
+msgstr "ياباني"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:272
+#: ../tp-account-widgets/totem-subtitle-encoding.c:274
+#: ../tp-account-widgets/totem-subtitle-encoding.c:276
+#: ../tp-account-widgets/totem-subtitle-encoding.c:278
+msgid "Korean"
+msgstr "كوري"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:281
+msgid "Nordic"
+msgstr "شمالي"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:284
+msgid "Persian"
+msgstr "فارسي"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:287
+#: ../tp-account-widgets/totem-subtitle-encoding.c:289
+msgid "Romanian"
+msgstr "روماني"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:292
+msgid "South European"
+msgstr "أوروبي جنوبي"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:295
+msgid "Thai"
+msgstr "تايلاندي"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:298
+#: ../tp-account-widgets/totem-subtitle-encoding.c:300
+#: ../tp-account-widgets/totem-subtitle-encoding.c:302
+#: ../tp-account-widgets/totem-subtitle-encoding.c:304
+msgid "Turkish"
+msgstr "تركي"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:307
+#: ../tp-account-widgets/totem-subtitle-encoding.c:309
+#: ../tp-account-widgets/totem-subtitle-encoding.c:311
+#: ../tp-account-widgets/totem-subtitle-encoding.c:313
+#: ../tp-account-widgets/totem-subtitle-encoding.c:315
+msgid "Unicode"
+msgstr "يونيكود"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:318
+#: ../tp-account-widgets/totem-subtitle-encoding.c:320
+#: ../tp-account-widgets/totem-subtitle-encoding.c:322
+#: ../tp-account-widgets/totem-subtitle-encoding.c:324
+#: ../tp-account-widgets/totem-subtitle-encoding.c:326
+msgid "Western"
+msgstr "غربي"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:329
+#: ../tp-account-widgets/totem-subtitle-encoding.c:331
+#: ../tp-account-widgets/totem-subtitle-encoding.c:333
+msgid "Vietnamese"
+msgstr "فيتنامي"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:1
+msgid "Pass_word"
+msgstr "كلمة ال_سر"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:2
+msgid "Screen _Name"
+msgstr "الاسم الم_عروض"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:3
+msgid "<b>Example:</b> MyScreenName"
+msgstr "<b>مثال:</b> MyScreenName"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:4
+msgid "Remember password"
+msgstr "تذكّر كلمة السر"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:5
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:5
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:5
+msgid "_Port"
+msgstr "ال_منْفذ"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:6
+msgid "_Server"
+msgstr "ال_خادوم"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-generic.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:8
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:16
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:22
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:9
+msgid "Advanced"
+msgstr "متقدم"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:8
+msgid "What is your AIM screen name?"
+msgstr "ما اسم الشاشة في AIM؟"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:9
+msgid "What is your AIM password?"
+msgstr "ما كلمة سرك على AIM؟"
+
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:11
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:25
+msgid "Remember Password"
+msgstr "تذكر كلمة السر"
+
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
+msgid "Login I_D"
+msgstr "معرّف الو_لوج"
+
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:3
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:3
+msgid "<b>Example:</b> username"
+msgstr "<b>مثال:</b> username"
+
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:8
+msgid "What is your GroupWise User ID?"
+msgstr "ما معرّفك على GroupWise؟"
+
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:9
+msgid "What is your GroupWise password?"
+msgstr "ما كلمة سرك على GroupWise؟"
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:2
+msgid "ICQ _UIN"
+msgstr "ICQ _UIN"
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:3
+msgid "<b>Example:</b> 123456789"
+msgstr "<b>مثال:</b> 123456789"
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:5
+msgid "Ch_aracter set"
+msgstr "ال_ترمير"
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:9
+msgid "What is your ICQ UIN?"
+msgstr "ما معرفك على ICQ؟"
+
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:10
+msgid "What is your ICQ password?"
+msgstr "ما كلمة سرك على ICQ؟"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:1
+msgid "Network"
+msgstr "الشبكة"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:2
+msgid "Character set"
+msgstr "الترمير"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:3
+msgid "Add…"
+msgstr "أضف…"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:4
+msgid "Remove"
+msgstr "أزِل"
+
+#. Translators: tooltip on a 'Go Up' button used to sort IRC servers by priority
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:6
+msgid "Up"
+msgstr "أعلى"
+
+#. Translators: tooltip on a 'Go Down' button used to sort IRC servers by priority
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:8
+msgid "Down"
+msgstr "أسفل"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:9
+msgid "Servers"
+msgstr "الخواديم"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
+msgid ""
+"Most IRC servers don't need a password, so if you're not sure, don't enter a "
+"password."
+msgstr ""
+"معظم خواديم IRC لا تحتاج كلمة سر، لذا إذا لم تكن متأكدًا، لا تُدخل كلمة سر."
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
+msgid "Nickname"
+msgstr "الاسم المستعار"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+msgid "Password"
+msgstr "كلمة السر"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
+msgid "Quit message"
+msgstr "رسالة الخروج"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:14
+msgid "Real name"
+msgstr "الاسم الحقيقي"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:15
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:17
+msgid "Which IRC network?"
+msgstr "أي شبكة IRC؟"
+
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:18
+msgid "What is your IRC nickname?"
+msgstr "ما كنية IRC التي تستخدمها؟"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:1
+msgid "What is your Facebook username?"
+msgstr "ما اسم مستخدمك على فيسبوك؟"
+
+#. This string is not wrapped in the dialog so you may have to add some '\n' to make it look nice.
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
+msgid ""
+"This is your username, not your normal Facebook login.\n"
+"If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
+"Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a "
+"Facebook username if you don't have one."
+msgstr ""
+"هذا اسم المستخدم وليس اسم الولوج إلى فيسبوك.\n"
+"إذا كنت facebook.com/<b>badger</b> فأدخل <b>badger</b>.\n"
+"استخدم <a href=\"http://www.facebook.com/username/\">هذه الصفحة</a> لاختيار "
+"اسم مستخدم على فيسبوك إذا لم يكن لك واحد."
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
+msgid "What is your Facebook password?"
+msgstr "ما كلمة سرك على فيسبوك؟"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
+msgid "What is your Google ID?"
+msgstr "ما معرفك على جوجل؟"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
+msgid "<b>Example:</b> user@gmail.com"
+msgstr "<b>مثال:</b> user@gmail.com"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
+msgid "What is your Google password?"
+msgstr "ما كلمة سرك على جوجل؟"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
+msgid "<b>Example:</b> user@jabber.org"
+msgstr "<b>مثال:</b> user@jabber.org"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
+msgid "I_gnore SSL certificate errors"
+msgstr "_تجاهل أخطاء شهادة SSL"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
+msgid "Priori_ty"
+msgstr "الأو_لويّة"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
+msgid "Reso_urce"
+msgstr "الم_ورد"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
+msgid "Encr_yption required (TLS/SSL)"
+msgstr "ال_تعمية مطلوبة (TLS/SSL)"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
+msgid "Override server settings"
+msgstr "تجاوز إعدادات الخادوم"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
+msgid "Use old SS_L"
+msgstr "استعمل SS_L القديم"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
+msgid "What is your Jabber ID?"
+msgstr "ما معرفك على جابِر؟"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:25
+msgid "What is your desired Jabber ID?"
+msgstr "ما المعرف الذي تريده على جابِر؟"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:26
+msgid "What is your Jabber password?"
+msgstr "ما كلمة سرك على جابِر؟"
+
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:27
+msgid "What is your desired Jabber password?"
+msgstr "ما كلمة السر التي تريدها على جابِر؟"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:1
+msgid "Nic_kname"
+msgstr "الا_سم المستعار"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:2
+msgid "_Last Name"
+msgstr "الاسم ال_عائلي"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:3
+msgid "_First Name"
+msgstr "الا_سم الأول"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:4
+msgid "_Published Name"
+msgstr "الا_سم المنشور"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:5
+msgid "_Jabber ID"
+msgstr "معرّف _Jabber"
+
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:6
+msgid "E-_mail address"
+msgstr "_عنوان البريد"
+
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:3
+msgid "<b>Example:</b> user@hotmail.com"
+msgstr "<b>مثال:</b> user@hotmail.com"
+
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:8
+msgid "What is your Windows Live ID?"
+msgstr "ما معرّفك على Windows Live؟"
+
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:9
+msgid "What is your Windows Live password?"
+msgstr "ما كلمة سرك على Windows Live؟"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:198
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:231
+msgid "Auto"
+msgstr "تلقائي"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:201
+msgid "UDP"
+msgstr "UDP"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:204
+msgid "TCP"
+msgstr "TCP"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:207
+msgid "TLS"
+msgstr "TLS"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:236
+msgid "Register"
+msgstr "سجّل"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:241
+msgid "Options"
+msgstr "الخيارات"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:244
+msgid "None"
+msgstr "لا شيء"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:2
+msgid "_Username"
+msgstr "اسم المست_خدم"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:3
+msgid "<b>Example:</b> user@my.sip.server"
+msgstr "<b>مثال:</b> user@my.sip.server"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:5
+msgid "Use this account to call _landlines and mobile phones"
+msgstr "استخدم هذا الحساب للاتصال بالهواتف الأر_ضية والهواتف الخليوية"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:6
+msgid "NAT Traversal Options"
+msgstr "خيارات انتقال NAT"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:7
+msgid "Proxy Options"
+msgstr "خيارات الوسيط"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:8
+msgid "Miscellaneous Options"
+msgstr "خيارات متنوعة"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:9
+msgid "STUN Server"
+msgstr "خادوم STUN"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:10
+msgid "Discover the STUN server automatically"
+msgstr "اكتشف خادوم STUN تلقائيا"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:11
+msgid "Discover Binding"
+msgstr "اكتشف الارتباط"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+msgid "Server"
+msgstr "الخادوم"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
+msgid "Keep-Alive Options"
+msgstr "خيارات إبقاء الاتصال"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:14
+msgid "Mechanism"
+msgstr "الآلية"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:15
+msgid "Interval (seconds)"
+msgstr "المدة (بالثواني)"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:16
+msgid "Authentication username"
+msgstr "اسم مستخدم الاستيثاق"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:17
+msgid "Transport"
+msgstr "النقل"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:18
+msgid "Loose Routing"
+msgstr "توجيه متراخي"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
+msgid "Ignore TLS Errors"
+msgstr "تجاهل أخطاء TLS"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+msgid "Port"
+msgstr "المنفذ"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
+msgid "Local IP Address"
+msgstr "عنوان IP المحلي"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:23
+msgid "What is your SIP login ID?"
+msgstr "ما معرف ولوجك على SIP؟"
+
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:24
+msgid "What is your SIP account password?"
+msgstr "ما كلمة سر حسابك على SIP؟"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:1
+msgid "Pass_word:"
+msgstr "كلمة ال_سر:"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:2
+msgid "Yahoo! I_D:"
+msgstr "مُعرّف _ياهو!:"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:5
+msgid "I_gnore conference and chat room invitations"
+msgstr "_تجاهل دعوات المؤتمرات وغرف الدردشة"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:6
+msgid "_Room List locale:"
+msgstr "محلية لائحة ال_غرف:"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:7
+msgid "Ch_aracter set:"
+msgstr "ال_ترمير:"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:8
+msgid "_Port:"
+msgstr "ال_منْفذ:"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:10
+msgid "What is your Yahoo! ID?"
+msgstr "ما معرفك على ياهو!؟"
+
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:11
+msgid "What is your Yahoo! password?"
+msgstr "ما كلمة سرك على ياهو!؟"
+
+#: ../tp-account-widgets/tpaw-calendar-button.c:63
+msgid "Select..."
+msgstr "اختر..."
+
+#: ../tp-account-widgets/tpaw-calendar-button.c:151
+msgid "_Select"
+msgstr "ا_ختر"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:96
+msgid "Full name"
+msgstr "الاسم الكامل"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
+msgid "Phone number"
+msgstr "رقم الهاتف"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
+msgid "E-mail address"
+msgstr "عنوان البريد الإلكتروني"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
+msgid "Website"
+msgstr "موقع الويب"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
+msgid "Birthday"
+msgstr "الميلاد"
+
+#. Note to translators: this is the caption for a string of the form "5
+#. * minutes ago", and refers to the time since the contact last interacted
+#. * with their IM client.
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:105
+msgid "Last seen:"
+msgstr "آخر ظهور:"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
+msgid "Server:"
+msgstr "الخادوم:"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
+msgid "Connected from:"
+msgstr "متصل من:"
+
+#. FIXME: once Idle implements SimplePresence using this information, we can
+#. * and should bin this.
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:111
+msgid "Away message:"
+msgstr "رسالة الغياب:"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:124
+msgid "work"
+msgstr "عمل"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
+msgid "home"
+msgstr "المنزل"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
+msgid "mobile"
+msgstr "محمول"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
+msgid "voice"
+msgstr "صوت"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
+msgid "preferred"
+msgstr "المفضّل"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
+msgid "postal"
+msgstr "البريدي"
+
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
+msgid "parcel"
+msgstr "الطرد"
+
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:325
+msgid "New Network"
+msgstr "شبكة جديدة"
+
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:526
+msgid "Choose an IRC network"
+msgstr "اختر شبكة IRC"
+
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:612
+msgid "Reset _Networks List"
+msgstr "صفِّر قائمة ال_شبكات"
+
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:616
+msgctxt "verb displayed on a button to select an IRC network"
+msgid "Select"
+msgstr "اختر"
+
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:273
+msgid "new server"
+msgstr "خادوم جديد"
+
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:536
+msgid "SSL"
+msgstr "SSL"
+
+#: ../tp-account-widgets/tpaw-keyring.c:77
+#: ../tp-account-widgets/tpaw-keyring.c:186
+msgid "Password not found"
+msgstr "لم يُعثر على كلمة السّر"
+
+#: ../tp-account-widgets/tpaw-keyring.c:586
+#, c-format
+msgid "IM account password for %s (%s)"
+msgstr "كلمة سر حساب المراسلة الفورية %s (%s)"
+
+#: ../tp-account-widgets/tpaw-keyring.c:623
+#, c-format
+msgid "Password for chatroom '%s' on account %s (%s)"
+msgstr "كلمة السر لغرفة الدردشة '%s' على الحساب %s (%s)"
+
+#. Create account
+#. To translator: %s is the name of the protocol, such as "Google Talk" or
+#. * "Yahoo!"
+#.
+#: ../tp-account-widgets/tpaw-protocol.c:62
+#, c-format
+msgid "New %s account"
+msgstr "حساب %s جديد"
+
+#: ../tp-account-widgets/tpaw-time.c:86
+#, c-format
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "الآن"
+msgstr[1] "منذ ثانية واحدة"
+msgstr[2] "منذ ثانيتين"
+msgstr[3] "منذ %d ثوان"
+msgstr[4] "منذ %d ثانية"
+msgstr[5] "منذ %d ثانية"
+
+#: ../tp-account-widgets/tpaw-time.c:92
+#, c-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "منذ أقل من دقيقة"
+msgstr[1] "منذ دقيقة واحدة"
+msgstr[2] "منذ دقيقتين"
+msgstr[3] "منذ %d دقائق"
+msgstr[4] "منذ %d دقيقة"
+msgstr[5] "منذ %d دقيقة"
+
+#: ../tp-account-widgets/tpaw-time.c:98
+#, c-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "منذ أقل من ساعة"
+msgstr[1] "منذ ساعة واحدة"
+msgstr[2] "منذ ساعتين"
+msgstr[3] "منذ %d ساعات"
+msgstr[4] "منذ %d ساعة"
+msgstr[5] "منذ %d ساعة"
+
+#: ../tp-account-widgets/tpaw-time.c:104
+#, c-format
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "منذ أقل من يوم"
+msgstr[1] "منذ يوم واحد"
+msgstr[2] "منذ يومين"
+msgstr[3] "منذ %d أيام"
+msgstr[4] "منذ %d يوما"
+msgstr[5] "منذ %d يوم"
+
+#: ../tp-account-widgets/tpaw-time.c:110
+#, c-format
+msgid "%d week ago"
+msgid_plural "%d weeks ago"
+msgstr[0] "منذ أقل من أسبوع"
+msgstr[1] "منذ أسبوع واحد"
+msgstr[2] "منذ أسبوعين"
+msgstr[3] "منذ %d أسابيع"
+msgstr[4] "منذ %d أسبوعا"
+msgstr[5] "منذ %d أسبوع"
+
+#: ../tp-account-widgets/tpaw-time.c:116
+#, c-format
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] "منذ أقل من شهر"
+msgstr[1] "منذ شهر واحد"
+msgstr[2] "منذ شهرين"
+msgstr[3] "منذ %d أشهر"
+msgstr[4] "منذ %d شهرا"
+msgstr[5] "منذ %d شهر"
+
+#: ../tp-account-widgets/tpaw-time.c:138
+msgid "in the future"
+msgstr "في المستقبل"
+
+#: ../tp-account-widgets/tpaw-user-info.c:394
+msgid "Go online to edit your personal information."
+msgstr "اتصل لتعديل معلوماتك الشخصية."
+
+#. Setup id label
+#: ../tp-account-widgets/tpaw-user-info.c:454
+msgid "Identifier"
+msgstr "المعرّف"
+
+#. Setup nickname entry
+#: ../tp-account-widgets/tpaw-user-info.c:459
+msgid "Alias"
+msgstr "الكُنية"
+
+#: ../tp-account-widgets/tpaw-user-info.c:474
+msgid "<b>Personal Details</b>"
+msgstr "<b>التفاصيل الشخصية</b>"

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="introduction" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-16" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="review"/>
+    <desc>Introduction à la messagerie instantanée <app>Empathy</app>.</desc>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Paternité - Partage des Conditions Initiales à l'Identique 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2008-2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2008-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yannick Tailliez</mal:name>
+      <mal:email>ytdispatch-libre@yahoo.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Laurent Coudeur</mal:name>
+      <mal:email>laurentc@iol.ie</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Guillemin</mal:name>
+      <mal:email>luc.guillemin@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ajmir BUSGEETH</mal:name>
+      <mal:email>Ajmir.Busgeeth@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andre Matuch</mal:name>
+      <mal:email>andre.matuch@videotron.ca</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Introduction</title>
+
+  <p><app>Empathy</app> est un client de messagerie instantanée pour l'environnement de bureau GNOME. Il prend en charge la messagerie textuelle, les appels audio et vidéo, le transfert de fichiers et tous les systèmes de messagerie les plus utilisés comme Jabber et Google Talk.</p>
+  <p><app>Empathy</app> inclut des fonctionnalités qui vous aident à mieux collaborer au travail et qui vous permettent de rester facilement en contact avec vos amis.</p>
+  <p>En utilisant <app>Empathy</app>, vous pouvez grouper toutes vos conversations dans une seule fenêtre, avoir plusieurs fenêtres pour différents types de conversations, faire facilement une recherche dans vos conversations précédentes et partager votre bureau en seulement deux clics.</p>
+
+  <figure>
+    <title>Fenêtre <gui>Liste des contacts</gui></title>
+    <desc>Fenêtre principale d'<app>Empathy</app></desc>
+    <media type="image" src="figures/empathy-main-window.png" mime="image/png" style="right">
+      <p>Fenêtre principale d' <app>Empathy</app>.</p>
+    </media>
+  </figure>
+
+</page>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-supported" xml:lang="gl">
+
+  <info>
+    <desc>Servizos que admiten xeolocalización e compatibilidade.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="draft">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Servizos admitidos</title>
+
+  <p>Polo momento a opción de xeolocalización só'é compatíbel co servizo Jabber. Para poder usala, vostede e os seus contactos deben ter unha conta de Jabber.</p>
+  
+  <note>
+    <p>Tamén é necesario que o servidor que está usando sexa compatíbel coa opción de xeolocalización. A maioría dos servidores teñen compatibilidade. Vexa a páxina web de documentación do seu servizo para obter máis información.</p>
+  </note>
+  
+  <section id="compatibility">
+  <title>Compatibilidade</title>
+  
+  <p>A característica de xeolocalización de <app>Empathy</app> non é compatíbel con outros servizos de posición xeográfica tales como <em>Google Latitude</em>, <em>Yahoo Fire Eagle</em> ou <em>Brightkite</em>.</p>
+  
+  </section>
+  
+</page>

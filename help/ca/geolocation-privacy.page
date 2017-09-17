@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-privacy" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="geolocation#geoloc"/>
+    <desc>Quina informació s'envia i a qui.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Reconeixement-Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Privacitat de la geolocalització</title>
+
+  <section id="info-sent">
+  <title>Quina informació s'envia</title>
+  <p>Les dades que es poden enviar són: el país, la regió, la població, l'àrea, el carrer, l'edifici, la planta, la porta, el codi postal, la longitud, la latitud, l'alçada, la velocitat i la orientació.</p>
+  <p>L'exactitud i la quantitat d'informació sobre la posició geogràfica estan basades en el programari o en la infraestructura utilitzada per descobrir la posició.</p>
+  <p>Cada tipus de xarxa pot tenir uns paràmetres d'exactitud diferents i poden enviar informació diferent. L'ús de dispositius externs com un GPS o un telèfon mòbil incrementarà l'exactitud de la informació enviada.</p>
+  <p>Quan s'habilita el mode de privacitat, la màxima precisió que s'enviarà serà la ciutat, encara que feu servir un dispositiu extern.</p>
+  </section>
+  
+  <section id="see-info">
+  <title>Qui pot veure la informació enviada</title>
+  <p>Només els contactes poden veure la vostra posició geogràfica.</p>
+  </section>
+  
+  <section id="privacy-mode">
+  <title>Què és el mode de privacitat</title>
+  <p>El mode de privacitat, habilitat per defecte, és un mode que redueix la precisió de la posició geogràfica que s'envia als contactes.</p>
+  </section>
+  
+  <section id="privacy-overview">
+  <title>Descripció de la privacitat</title>
+  <p>Descripció de diversos paràmetres de geolocalització en l'<app>Empathy</app>.</p>
+  <list>
+    <item>
+      <p>La geolocalització no s'activa per defecte.</p>
+    </item>
+    <item>
+      <p>El mode de privacitat s'activa per defecte.</p>
+    </item>
+    <item>
+      <p>El mode de privacitat preval inclús quan esteu utilitzant dispositius externs amb més precisió.</p>
+    </item>
+    <item>
+      <p>Només els contactes poden veure la vostra posició.</p>
+    </item>
+  </list>
+  </section>
+
+</page>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-privacy" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="geolocation#geoloc"/>
+    <desc>Kāda un kam informācija tiek nosūtīta.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0 licence.</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Ģeogrāfiskās atrašanās vietas privātums</title>
+
+  <section id="info-sent">
+  <title>Kāda informācija tiek nosūtīta</title>
+  <p>Nosūtīt ir iespējams: tavu valsti, reģionu, apvidu, rajonu, ielu, ēku, stāvu, dzīvokli, pasta indeksu, garuma, platuma un augstuma grādus, ātrumu un azimutu.</p>
+  <p>Precizitāte un daudzums, kurš tiks noteikts par tavu atrašanās vietu ir atkarīgs no programmatūras vai infrastruktūras, kura tiek izmantota, lai to noteiktu.</p>
+  <p>Dažādiem savienojumu veidiem var būt atšķirīgi precizitātes iestatījumi un var sūtīt dažādu informāciju. Noteikšanas precizitātes uzlabosies, izmantojot ārējās ierīces, piemēram, GPS vai mobilo tālruni.</p>
+  <p>Ja ir aktivēts privātuma režīms, nekas vairāk par pašreizējo pilsētu netiks nosūtīts, pat ja izmanto kādu ārējo ierīci.</p>
+  </section>
+  
+  <section id="see-info">
+  <title>Kas var redzēt nosūtīto informāciju</title>
+  <p>Tikai tavi kontakti var redzēt tavu ģeogrāfisko atrašanās vietu,</p>
+  </section>
+  
+  <section id="privacy-mode">
+  <title>Kas ir privātuma režīms</title>
+  <p>Privātuma režīms, kurš ir noklusētais iestatījums, ir tas pats, kas samazināts precizitātes noteikšanas režīms, kurš samazina precizitāti tavas atrašanās vietas noteikšanā.</p>
+  </section>
+  
+  <section id="privacy-overview">
+  <title>Privātuma pārskats</title>
+  <p>Pārskats dažādiem ģeogrāfiskās atrašanās vietas privātuma iestatījumiem <app>Empathy&gt;</app> lietotnē.</p>
+  <list>
+    <item>
+      <p>Ģeogrāfiskās atrašanās vietas noteikšana nav aktivēta pēc noklusējuma.</p>
+    </item>
+    <item>
+      <p>Privātuma režīms ir aktivēts pēc noklusējuma.</p>
+    </item>
+    <item>
+      <p>Privātuma režīms paliek aktivēts arī tad, ja izmanto kādu ārējo ierīci.</p>
+    </item>
+    <item>
+      <p>Tikai tavi kontakti redz tavu atrašanās vietu.</p>
+    </item>
+  </list>
+  </section>
+
+</page>

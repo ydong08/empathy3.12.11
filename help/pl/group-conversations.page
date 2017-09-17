@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="group-conversations" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Należy rozpocząć lub dołączyć do rozmowy grupowej.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Na tych samych warunkach 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Rozmowy grupowe</title>
+  
+  <p>Dzięki rozmowom grupowym można prowadzić rozmowy tekstowe z więcej niż jednym kontaktem w tym samym czasie.</p>
+  <p>Aby prowadzić rozmowę grupową należy zarejestrować konto w usłudze Jabber lub Google Talk, albo użyć konta Osoby w pobliżu.</p>
+
+  <note>
+    <p>Rozmów grupowych można używać tylko gdy inne kontakty używają tej samej usługi.</p>
+  </note>
+
+  <section id="start-group-conv">
+
+  <title>Rozpoczynanie rozmowy grupowej</title>
+
+  <steps>
+    <item>
+      <p>W oknie <gui>Listy kontaktów</gui> należy wybrać <guiseq><gui>Pokój</gui><gui>Dołącz...</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Z listy rozwijanej <gui>Konto</gui> należy zaznaczyć konto, które ma zostać użyte do rozmowy grupowej.</p>
+    </item>
+    <item>
+      <p>W polu <gui>Serwer</gui> należy wpisać nazwę serwera, przez który będzie prowadzona rozmowa.</p>
+      <p>Należy zostawić puste jeśli będzie prowadzona na bieżącym serwerze.</p>
+    </item>
+    <item>
+      <p>W polu <gui>Pokój</gui> należy wpisać nazwę, która ma zostać nadana rozmowie.</p>
+      <note>
+        <p>Zostanie ona użyta jako nazwa pokoju do prowadzenia rozmowy. Nazwa ta będzie dostępna publicznie dla innych osób chcących dołączyć do pokoju. Nie ma możliwości utworzenia pokoju prywatnego.</p>
+      </note>
+    </item>
+    <item>
+      <p>Aby zaprosić inne kontakty do rozmowy grupowej należy w oknie <gui>Listy kontaktów</gui> wybrać kontakt, który chcemy zaprosić, a następnie wykonać jedno z poniższych działań:</p>
+      <list>
+        <item>
+          <p>Należy nacisnąć prawym przyciskiem myszy na kontakt i wybrać <gui>Zaproś do pokoju rozmowy</gui>.</p>
+        </item>
+        <item>
+          <p>Należy wybrać <guiseq><gui>Edycja</gui><gui>Kontakt</gui><gui>Zaproś do pokoju rozmowy</gui></guiseq>.</p>
+        </item>
+      </list> 
+      <p>Jeśli otwarte jest więcej niż jedno okno rozmowy należy wybrać to do którego kontakty mają zostać zaproszone.</p>
+    </item>
+  </steps>
+  
+  </section>
+
+  <section id="join-group-conv">
+
+  <title>Dołączanie do rozmowy grupowej</title>
+
+  <steps>
+    <item>
+      <p>W oknie <gui>Listy kontaktów</gui> należy wybrać <guiseq><gui>Pokój</gui><gui>Dołącz...</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Należy rozwinąć <gui>Listę pokoi</gui>, aby zobaczyć listę istniejących pokoi.</p>
+    </item>
+    <item>
+      <p>Należy nacisnąć na nazwę pokoju, do którego chcemy dołączyć.</p>
+    </item>
+  </steps>
+
+  <p>Nie można dołączyć do wszystkich istniejących pokoi. Niektóre pokoje mogą wymagać podania hasła lub choćby zaproszenia. Program <app>Empathy</app> nie obsługuje tego rodzaju pokojów.</p>
+
+  <!-- TODO: find out where the password protected or invitation only icons are
+  and create a table. -->
+
+  </section>
+
+</page>

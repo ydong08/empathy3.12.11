@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="group-conversations" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Avviare o entrare in una conversazione di gruppo con i propri contatti.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Conversazioni di gruppo</title>
+  
+  <p>Le conversazioni di gruppo consentono di tenere conversazioni testuali con più di un contatto.</p>
+  <p>Per tenere una conversazione di gruppo è necessario avere un account registrato con Jabber o con Google Talk oppure un account «Persone nelle vicinanze».</p>
+
+  <note>
+    <p>È possibile tenere una conversazione di gruppo solo con i contatti che utilizzano lo stesso servizio.</p>
+  </note>
+
+  <section id="start-group-conv">
+
+  <title>Avviare una conversazione di gruppo</title>
+
+  <steps>
+    <item>
+      <p>Dalla finestra <gui>Elenco contatti</gui>, scegliere <guiseq><gui>Stanza</gui><gui>Entra</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Dall'elenco a discesa <gui>Account</gui>, selezionare l'account da usare per la conversazione di gruppo.</p>
+    </item>
+    <item>
+      <p>Nella casella di testo <gui>Server</gui> digitare il nome del server in cui verrà ospitata la conversazione.</p>
+      <p>Lasciare vuoto se si trova sul server attuale.</p>
+    </item>
+    <item>
+      <p>Nella casella di testo <gui>Stanza</gui> digitare il nome da dare alla conversazione.</p>
+      <note>
+        <p>Questo sarà il nome della stanza in cui sarà tenuta la conversazione di gruppo e sarà pubblicamente visibile affinché altre persone possano entrarvi. Non è possibile creare una stanza privata.</p>
+      </note>
+    </item>
+    <item>
+      <p>Per invitare altri contatti a entrare nella conversazione, dalla finestra <gui>Elenco contatti</gui>, selezionare il contatto da inviare ed eseguire una delle seguenti azioni:</p>
+      <list>
+        <item>
+          <p>Fare clic col pulsante destro del mouse sul nome del contatto e scegliere <gui>Invita nella stanza</gui>.</p>
+        </item>
+        <item>
+          <p>Scegliere <guiseq><gui>Modifica</gui><gui>Contatto</gui><gui>Invita nella stanza</gui></guiseq>.</p>
+        </item>
+      </list> 
+      <p>Se sono aperte più conversazioni di gruppo, selezionare quella in cui invitare i propri contatti.</p>
+    </item>
+  </steps>
+  
+  </section>
+
+  <section id="join-group-conv">
+
+  <title>Entrare in una conversazione di gruppo</title>
+
+  <steps>
+    <item>
+      <p>Dalla finestra <gui>Elenco contatti</gui>, scegliere <guiseq><gui>Stanza</gui><gui>Entra</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Espandere la sezione <gui>Elenco stanze</gui> per visualizzare tutte le stanze esistenti.</p>
+    </item>
+    <item>
+      <p>Fare doppio-clic sul nome della stanza in cui entrare.</p>
+    </item>
+  </steps>
+
+  <p>Non è possibile entrare in tutte le stanze esistenti. Alcune di queste potrebbero richiedere una password o essere a invito. <app>Empathy</app> non supporta questo tipo di stanze.</p>
+
+  <!-- TODO: find out where the password protected or invitation only icons are
+  and create a table. -->
+
+  </section>
+
+</page>

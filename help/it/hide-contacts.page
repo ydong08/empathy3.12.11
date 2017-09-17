@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="hide-contacts" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="index#contacts"/>
+    <desc>Nascondere i contatti fuori rete dal proprio <gui>Elenco contatti</gui>.</desc>
+    <revision pkgversion="2.30" version="0.1" date="2010-03-11" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  </info>
+
+  <title>Nascondere i contatti fuori rete</title>
+
+  <p>Normalmente <app>Empathy</app> mostra tutti i contatti: quelli che sono collegati in rete, con cui è possibile avere conversazioni, e anche quelli che risultano fuori rete</p>
+  <p>Per nascondere i contatti fuori rete:</p>
+
+  <steps>
+    <item>
+      <p>From the <gui>Contact List</gui> window, choose <guiseq><gui>View</gui>
+      <gui>Offline Contacts</gui></guiseq>, or press <keyseq><key>Ctrl</key>
+      <key>H</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>Per mostrare nuovamente i contatti fuori rete, ripetere la procedura precedente.</p>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="send-message" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>发送消息给一个您的联系人。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <revision pkgversion="2.32" version="0.3" date="2010-09-09" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <license>
+      <p>知识共享-相同方式共享 (Creative Commons Share Alike) 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  </info>
+
+  <title>向某人发送消息</title>
+
+  <steps>
+    <item>
+      <p>在<gui>联系人列表</gui>窗口中，双击要与之聊天的联系人的名字。</p>
+    </item>
+    <item>
+      <p>一个新窗口会被打开。在窗口底部的文本框中输入一条消息，然后按<key>Enter</key>发送。</p>
+    </item>
+  </steps>
+  
+  <section id="send-meta-contact" style="2column">
+    <title>向一位元联系人发送消息</title>
+    <steps>
+      <item>
+        <p>在<gui>联系人列表</gui>窗口，右键点击该元联系人。</p>
+      </item>
+      <item>
+        <p>选择您想要与之聊天的联系人，并在菜单中选择 <gui style="menuitem">聊天</gui>。</p>
+      </item>
+    </steps>
+    <note style="tip">
+      <p>要识别一个联系人是否是<em>元联系人</em>，将您的鼠标移动到<gui>联系人列表</gui>窗口中的一个联系人上，并停留几秒钟：一个小弹出消息会显示这个元联系人是由几个联系人组成的。</p>
+    </note>
+  </section>
+
+</page>

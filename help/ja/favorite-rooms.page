@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="favorite-rooms" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <link type="guide" xref="irc-manage#manage"/>
+    <link type="seealso" xref="irc-join-room"/>
+    <link type="seealso" xref="group-conversations"/>
+    <desc>お気に入りの談話室を設定し、参加し、管理します。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-21" status="draft"/>
+    <revision pkgversion="2.30" version="0.2" date="2010-02-03" status="review"/>    
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>クリエイティブ・コモンズ・ライセンス 継承 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mako N</mal:name>
+      <mal:email>mako@pasero.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>お気に入りの談話室</title>
+
+  <section id="set-favorite">
+  <title>談話室をお気に入りとして設定</title>
+  <steps>
+    <item>
+      <p>談話室に参加します。</p>
+      <list>
+        <item>
+          <p>IRC の談話室に参加する方法の詳細は <link xref="irc-join-room"/> を参照してください。</p>
+        </item>
+        <item>
+          <p>グループ会話の開始または参加の方法の詳細は <link xref="group-conversations"/> を参照してください。</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>会話ウィンドウから、<guiseq><gui>会話</gui><gui>お気に入りの談話室</gui></guiseq> を選びます。</p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="join-favorite">
+  <title>お気に入りの談話室の追加</title>
+  <steps>
+    <item>
+      <p><gui>相手先の一覧</gui>ウィンドウから、次のいずれかを実行します:</p>
+      <list>
+        <item>
+          <p><key>F5</key> を押します。</p>
+        </item>
+        <item>
+          <p><guiseq><gui>談話室</gui><gui>お気に入りに追加</gui></guiseq>を選び、お気に入りの談話室を追加します。</p>
+        </item>
+        <item>
+          <p><gui>談話室</gui> を選び、追加したいお気に入りの談話室を指定します。</p>
+        </item>
+      </list>
+    </item>
+  </steps>
+  <note>
+    <p>お気に入りの談話室を追加するには、インターネットに接続し、自分のアカウントに接続している必要があります。</p>
+  </note>
+  </section>
+
+  <section id="manage-favorite">
+  <title>お気に入りの談話室の管理</title>
+  <steps>
+    <item>
+      <p><gui>相手先の一覧</gui>ウィンドウから、<guiseq><gui>談話室</gui><gui>お気に入りの管理</gui></guiseq>を選びます。</p>
+    </item>
+    <item>
+      <p><gui>アカウント</gui>ドロップダウンリストから、お気に入りの談話室の管理を行いたいアカウントを選びます。</p>
+      <p><gui>すべてのアカウント</gui>を選ぶと、すべてのお気に入りの談話室を見ることができます。</p>
+    </item>
+    <item>
+      <p>管理したいお気に入りの談話室を選びます:</p>
+      <list>
+        <item>
+          <p><gui>自動サインイン</gui>チェックボックスは、アカウントに接続したときに自動的に参加する場合に選びます。</p>
+        </item>
+        <item>
+          <p><gui>削除</gui>をクリックすると、お気に入りからその談話室を削除します。</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>終わったら、<gui>閉じる</gui>をクリックします。</p>
+    </item>
+  </steps>
+  </section>
+
+</page>

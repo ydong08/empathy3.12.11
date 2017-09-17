@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="introduction" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-16" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="review"/>
+    <desc>Introducció al client de missatgeria instantània <app>Empathy</app>.</desc>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Reconeixement-Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Introducció</title>
+
+  <p>
+    <app>Empathy</app> is an instant messaging application for the GNOME Desktop.
+    It supports text messaging, voice &amp; video calls, file transfers, and all the
+    most used messaging systems such as Jabber and Google Talk.
+  </p>
+  <p>L'<app>Empathy</app> inclou característiques que us ajuden a col·laborar mentre treballeu i que us permeten de forma fàcil estar al dia amb els amics.</p>
+  <p>Amb l'<app>Empathy</app> podeu agrupar totes les converses en una única finestra, tenir una finestra per a cada tipus de conversa, fer cerques de forma fàcil a les converses anteriors i compartir el vostre escriptori en tan sols dos clics.</p>
+
+  <figure>
+    <title>Finestra de la <gui>Llista de contactes</gui></title>
+    <desc>Finestra principal de l'<app>Empathy</app></desc>
+    <media type="image" src="figures/empathy-main-window.png" mime="image/png" style="right">
+      <p>Finestra principal de l'<app>Empathy</app>.</p>
+    </media>
+  </figure>
+
+</page>

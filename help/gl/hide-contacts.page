@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="hide-contacts" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index#contacts"/>
+    <desc>Ocultar os contactos desconectados da súa <gui>Lista de contactos</gui>.</desc>
+    <revision pkgversion="2.30" version="0.1" date="2010-03-11" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>    
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ocultar os contactos desconectados</title>
+
+  <p>Normalmente <app>Empathy</app> mostra todos os contactos: os que están conectados, cos que pode estabelecer unha conversa, e tamén os que están desconectados.</p>
+  <p>Para agochar os contactos desconectados.</p>
+
+  <steps>
+    <item>
+      <p>Desde a xanela <gui>Lista de contactos</gui> elixa <guiseq><gui>Ver</gui><gui>Contactos desconectados</gui></guiseq> ou prema <keyseq><key>Ctrl</key><key>H</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>Para mostrar os contactos desconectados de novo, repita o mesmo proceso.</p>
+    </item>
+  </steps>
+
+</page>

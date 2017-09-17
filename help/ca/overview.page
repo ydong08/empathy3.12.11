@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="overview" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <revision pkgversion="3.7" version="0.1" date="2012-11-30" status="draft"/>
+    <desc>Què és la missatgeria instantània i com la podeu utilitzar?</desc>
+    <credit type="author">
+      <name>Aruna S</name>
+      <email its:translate="no">aruna.evam@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Reconeixement-Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Visió general de la missatgeria instantània</title>
+
+  <p>La missatgeria instantània, que de vegades s'abreuja com «IM», és un mitjà de comunicació instantani en format text i que funciona a través d'Internet i de les xarxes locals. Tot i que algunes aplicacions d'IM funcionen només amb un tipus de compte, d'altres com l'<link xref="introduction">Empathy</link> permeten l'ús de <link xref="add-account">comptes</link> de diferents proveïdors, fent més còmode l'ús de la missatgeria instantània. Alguns d'aquests proveïdors fins i tot permeten fer trucades de veu i de vídeo.</p>
+
+  <table frame="all" shade="cols">
+     <tr>
+       <td><p><media type="image" src="figures/video_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+       <td><p><media type="image" src="figures/conf_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+       <td><p><media type="image" src="figures/croom_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+     </tr>
+     <tr>
+       <td><p>Conferència de vídeo</p></td>
+       <td><p>Xats de grup</p></td>
+       <td><p>Sales de xats</p></td>
+      </tr>
+  </table>
+
+  <p>Algunes aplicacions de missatgeria instantània es poden utilitzar per connectar-se a sales de xat, llocs en línia on persones amb les mateixes inquietuds es troben per parlar. Una de les vies més populars per connectar-se a moltes sales de xat és l'Internet Relay Chat, també conegut com <link xref="irc-manage">IRC</link>. L'IRC proporciona sales <link xref="irc-join-room">públiques</link> de xat, obertes a tothom que tingui un compte al servidor de l'IRC i sales privades de xat protegides amb <link xref="irc-join-pwd">contrasenya</link> i obertes només a un cert grup de persones.</p>
+
+</page>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="overview" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <revision pkgversion="3.7" version="0.1" date="2012-11-30" status="draft"/>
+    <desc>Qué es la mensajería instantánea y cómo puede usarla.</desc>
+    <credit type="author">
+      <name>Aruna S</name>
+      <email its:translate="no">aruna.evam@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012 - 2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2008-2010</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Visión general de la mensajería instantánea</title>
+
+  <p>La mensajería instantánea, abreviada algunas veces como IM, es una manera de comunicarse a través de Internet y de una red local usando texto. Aunque algunas aplicaciones de IM sólo funcionan con un tipo de cuentas otras, entre las que se incluye <link xref="introduction">Empathy</link>, proporcionan facilidades de IM usando <link xref="add-account">cuentas</link> de diferentes proveedores de servicios. Algunos de ellos soportan incluso llamadas con sonido y vídeo.</p>
+
+  <table frame="all" shade="cols">
+     <tr>
+       <td><p><media type="image" src="figures/video_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+       <td><p><media type="image" src="figures/conf_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+       <td><p><media type="image" src="figures/croom_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+     </tr>
+     <tr>
+       <td><p>Videoconferencia</p></td>
+       <td><p>Conversaciones en grupo</p></td>
+       <td><p>Salas de chat</p></td>
+      </tr>
+  </table>
+
+  <p>Algunas aplicaciones de mensajería instantánea se pueden usar para conectarse a salas de chat, lugares en línea donde conocer gente con gustos similares con la que poder hablar. Una manera popular de conectarse a varias salas de chat es con «Internet Relay Chat», también conocido como <link xref="irc-manage">IRC</link>. IRC proporciona salas de chat <link xref="irc-join-room">públicas</link> abiertas para todo aquel que se cree una cuenta en el servidor de IRC, y salas privadas, que están <link xref="irc-join-pwd">protegidas por contraseña</link> y sólo permiten el acceso a unos pocos.</p>
+
+</page>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="import-account" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="add-account"/>
+    <link type="seealso" xref="remove-account"/>
+    <desc>別のインスタントメッセージング・アプリケーションからアカウントをインポートします。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-22" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-22" status="review"/>
+    <revision pkgversion="2.28" version="0.3" date="2009-09-02" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-02" status="done"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Peter Haslam</name>
+      <email>peter.haslam@freenet.de</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit>
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>クリエイティブ・コモンズ・ライセンス 継承 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mako N</mal:name>
+      <mal:email>mako@pasero.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>既存のアカウントのインポート</title>
+
+  <p>はじめて <app>Empathy</app> が実行される際、別のインスタントメッセージング・アプリケーションからアカウントをインポートするかを尋ねます。現在のところ、サポートしているアプリケーションは <app>Pidgin</app> のみです。</p>
+
+  <steps>
+    <item>
+      <p>はじめて <app>Empathy</app> を実行します。アシスタント画面が開き、新しいアカウントを作成するためにいくつか質問があります。</p>
+    </item>
+    <item>
+      <p><gui>はい、アカウントの詳細をインポートします</gui>を指定し、<gui>次へ</gui>をクリックします。</p>
+    </item>
+    <item>
+      <p>インポートしたいアカウントのチェックボックスを指定します。</p>
+    </item>
+    <item>
+      <p><gui style="button">適用</gui>をクリックします。</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>現在のところ、はじめての起動時のアシスタントを完了して以後に、アカウントをインポートすることはできません。</p>
+  </note>
+
+</page>

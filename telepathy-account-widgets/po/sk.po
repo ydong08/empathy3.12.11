@@ -1,0 +1,1080 @@
+# Slovak translation for tp-account-widgets.
+# Copyright (C) 2010-2013 Free Software Foundation, Inc.
+# This file is distributed under the same license as the tp-account-widgets package.
+# Miroslav Biňas <mirek@host.sk>, 2010.
+# Pavol Klačanský <pavol@klacansky.com>, 2011-2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: empathy master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-02 12:50+0000\n"
+"PO-Revision-Date: 2013-09-02 13:57+0100\n"
+"Last-Translator: Pavol Klačanský <pavol@klacansky.com>\n"
+"Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
+
+# gsettings summary
+#: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:1
+msgid "Default directory to select an avatar image from"
+msgstr "Predvolený priečinok pre výber obrázku podobizne"
+
+# gsettings description
+#: ../data/org.gnome.telepathy-account-widgets.gschema.xml.h:2
+msgid "The last directory that an avatar image was chosen from."
+msgstr "Posledný priečinok, z ktorého bol vybratý obrázok podobizne."
+
+# PM: podľa dohody v ML treba zmeniť
+#: ../tp-account-widgets/totem-subtitle-encoding.c:157
+msgid "Current Locale"
+msgstr "Aktuálne miestne nastavenia"
+
+# prebraté z modulu totem
+#: ../tp-account-widgets/totem-subtitle-encoding.c:160
+#: ../tp-account-widgets/totem-subtitle-encoding.c:162
+#: ../tp-account-widgets/totem-subtitle-encoding.c:164
+#: ../tp-account-widgets/totem-subtitle-encoding.c:166
+msgid "Arabic"
+msgstr "Arabské"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:169
+msgid "Armenian"
+msgstr "Arménske"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:172
+#: ../tp-account-widgets/totem-subtitle-encoding.c:174
+#: ../tp-account-widgets/totem-subtitle-encoding.c:176
+msgid "Baltic"
+msgstr "Baltské"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:179
+msgid "Celtic"
+msgstr "Keltské"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:182
+#: ../tp-account-widgets/totem-subtitle-encoding.c:184
+#: ../tp-account-widgets/totem-subtitle-encoding.c:186
+#: ../tp-account-widgets/totem-subtitle-encoding.c:188
+msgid "Central European"
+msgstr "Stredoeurópske"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:191
+#: ../tp-account-widgets/totem-subtitle-encoding.c:193
+#: ../tp-account-widgets/totem-subtitle-encoding.c:195
+#: ../tp-account-widgets/totem-subtitle-encoding.c:197
+msgid "Chinese Simplified"
+msgstr "Čínske - zjednodušené"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:200
+#: ../tp-account-widgets/totem-subtitle-encoding.c:202
+#: ../tp-account-widgets/totem-subtitle-encoding.c:204
+msgid "Chinese Traditional"
+msgstr "Čínske - tradičné"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:207
+msgid "Croatian"
+msgstr "Chorvátske"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:210
+#: ../tp-account-widgets/totem-subtitle-encoding.c:212
+#: ../tp-account-widgets/totem-subtitle-encoding.c:214
+#: ../tp-account-widgets/totem-subtitle-encoding.c:216
+#: ../tp-account-widgets/totem-subtitle-encoding.c:218
+#: ../tp-account-widgets/totem-subtitle-encoding.c:220
+msgid "Cyrillic"
+msgstr "Cyrilika"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:223
+msgid "Cyrillic/Russian"
+msgstr "Cyrilika/Ruské"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:226
+#: ../tp-account-widgets/totem-subtitle-encoding.c:228
+msgid "Cyrillic/Ukrainian"
+msgstr "Cyrilika/Ukrajinské"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:231
+msgid "Georgian"
+msgstr "Gruzínske"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:234
+#: ../tp-account-widgets/totem-subtitle-encoding.c:236
+#: ../tp-account-widgets/totem-subtitle-encoding.c:238
+msgid "Greek"
+msgstr "Grécke"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:241
+msgid "Gujarati"
+msgstr "Gudžarátske"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:244
+msgid "Gurmukhi"
+msgstr "Gurmukhi"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:247
+#: ../tp-account-widgets/totem-subtitle-encoding.c:249
+#: ../tp-account-widgets/totem-subtitle-encoding.c:251
+#: ../tp-account-widgets/totem-subtitle-encoding.c:253
+msgid "Hebrew"
+msgstr "Hebrejské"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:256
+msgid "Hebrew Visual"
+msgstr "Hebrejské vizuálne"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:259
+msgid "Hindi"
+msgstr "Hindské"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:262
+msgid "Icelandic"
+msgstr "Islandské"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:265
+#: ../tp-account-widgets/totem-subtitle-encoding.c:267
+#: ../tp-account-widgets/totem-subtitle-encoding.c:269
+msgid "Japanese"
+msgstr "Japonské"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:272
+#: ../tp-account-widgets/totem-subtitle-encoding.c:274
+#: ../tp-account-widgets/totem-subtitle-encoding.c:276
+#: ../tp-account-widgets/totem-subtitle-encoding.c:278
+msgid "Korean"
+msgstr "Kórejské"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:281
+msgid "Nordic"
+msgstr "Škandinávske"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:284
+msgid "Persian"
+msgstr "Perzské"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:287
+#: ../tp-account-widgets/totem-subtitle-encoding.c:289
+msgid "Romanian"
+msgstr "Rumunské"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:292
+msgid "South European"
+msgstr "Juhoeurópske"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:295
+msgid "Thai"
+msgstr "Thajské"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:298
+#: ../tp-account-widgets/totem-subtitle-encoding.c:300
+#: ../tp-account-widgets/totem-subtitle-encoding.c:302
+#: ../tp-account-widgets/totem-subtitle-encoding.c:304
+msgid "Turkish"
+msgstr "Turecké"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:307
+#: ../tp-account-widgets/totem-subtitle-encoding.c:309
+#: ../tp-account-widgets/totem-subtitle-encoding.c:311
+#: ../tp-account-widgets/totem-subtitle-encoding.c:313
+#: ../tp-account-widgets/totem-subtitle-encoding.c:315
+msgid "Unicode"
+msgstr "Unicode"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:318
+#: ../tp-account-widgets/totem-subtitle-encoding.c:320
+#: ../tp-account-widgets/totem-subtitle-encoding.c:322
+#: ../tp-account-widgets/totem-subtitle-encoding.c:324
+#: ../tp-account-widgets/totem-subtitle-encoding.c:326
+msgid "Western"
+msgstr "Západné"
+
+#: ../tp-account-widgets/totem-subtitle-encoding.c:329
+#: ../tp-account-widgets/totem-subtitle-encoding.c:331
+#: ../tp-account-widgets/totem-subtitle-encoding.c:333
+msgid "Vietnamese"
+msgstr "Vietnamské"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:14
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:1
+msgid "Pass_word"
+msgstr "_Heslo"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:2
+msgid "Screen _Name"
+msgstr "Pr_ezývka"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:3
+msgid "<b>Example:</b> MyScreenName"
+msgstr "<b>Príklad:</b> MojaPrezvýka"
+
+# GtkCheckButton
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:12
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:4
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:4
+msgid "Remember password"
+msgstr "Zapamätať heslo"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:5
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:5
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:21
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:5
+msgid "_Port"
+msgstr "_Port"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:6
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:20
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:6
+msgid "_Server"
+msgstr "_Server"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-generic.ui.h:1
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:8
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:16
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:23
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:22
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:9
+msgid "Advanced"
+msgstr "Pokročilé"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:8
+msgid "What is your AIM screen name?"
+msgstr "Aká je vaša prezývka pre AIM?"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:9
+msgid "What is your AIM password?"
+msgstr "Aké je vaše heslo pre AIM?"
+
+# GtkCheckButton
+#: ../tp-account-widgets/tpaw-account-widget-aim.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:11
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:7
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:10
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:25
+msgid "Remember Password"
+msgstr "Zapamätať heslo"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:671
+msgid "Account"
+msgstr "Účet"
+
+# hash table
+#: ../tp-account-widgets/tpaw-account-widget.c:672
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:12
+msgid "Password"
+msgstr "Heslo"
+
+# hash table
+#: ../tp-account-widgets/tpaw-account-widget.c:673
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:12
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:500
+msgid "Server"
+msgstr "Server"
+
+# hash table
+#: ../tp-account-widgets/tpaw-account-widget.c:674
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:20
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:521
+msgid "Port"
+msgstr "Port"
+
+# PM: požiadaj o komentár prečo je tento reťazec na preklad
+# PK: na to sme sa raz uz pytali, len neviem kde je ten report
+#: ../tp-account-widgets/tpaw-account-widget.c:758
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+# PM: požiadaj o komentár prečo je tento reťazec na preklad
+#: ../tp-account-widgets/tpaw-account-widget.c:815
+#, c-format
+msgid "%s:"
+msgstr "%s:"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget.c:1405
+msgid "Username:"
+msgstr "Používateľské meno:"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1732
+msgid "A_dd"
+msgstr "_Pridať"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:1740
+msgid "A_pply"
+msgstr "P_otvrdiť"
+
+#. To translators: The first parameter is the login id and the
+#. * second one is the network. The resulting string will be something
+#. * like: "MyUserName on freenode".
+#. * You should reverse the order of these arguments if the
+#. * server should come before the login id in your locale.
+#: ../tp-account-widgets/tpaw-account-widget.c:2169
+#, c-format
+msgid "%1$s on %2$s"
+msgstr "%1$s na sieti %2$s"
+
+#. To translators: The parameter is the protocol name. The resulting
+#. * string will be something like: "Jabber Account"
+#: ../tp-account-widgets/tpaw-account-widget.c:2195
+#, c-format
+msgid "%s Account"
+msgstr "Účet služby %s"
+
+#: ../tp-account-widgets/tpaw-account-widget.c:2199
+msgid "New account"
+msgstr "Nový účet"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:2
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:13
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:2
+msgid "Login I_D"
+msgstr "Prihlasovací i_dentifikátor"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:3
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:3
+msgid "<b>Example:</b> username"
+msgstr "<b>Príklad:</b> používateľské meno"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:8
+msgid "What is your GroupWise User ID?"
+msgstr "Aký je váš používateľský identifikátor pre GroupWise?"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-groupwise.ui.h:9
+msgid "What is your GroupWise password?"
+msgstr "Aké je vaše heslo pre GroupWise?"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:2
+msgid "ICQ _UIN"
+msgstr "_Identifikačné číslo ICQ"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:3
+msgid "<b>Example:</b> 123456789"
+msgstr "<b>Príklad:</b> 123456789"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:5
+msgid "Ch_aracter set"
+msgstr "Zn_aková sada"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:9
+msgid "What is your ICQ UIN?"
+msgstr "Aké je vaše identifikačné číslo pre ICQ?"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-icq.ui.h:10
+msgid "What is your ICQ password?"
+msgstr "Aké je vaše heslo pre ICQ?"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:1
+msgid "Network"
+msgstr "Sieť"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:2
+msgid "Character set"
+msgstr "Znaková sada"
+
+# GtkToolButton tooltip
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:3
+msgid "Add…"
+msgstr "Pridať…"
+
+# GtkToolButton tooltip
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:4
+msgid "Remove"
+msgstr "Odstrániť"
+
+# GtkToolButton tooltip
+#. Translators: tooltip on a 'Go Up' button used to sort IRC servers by priority
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:6
+msgid "Up"
+msgstr "Hore"
+
+# GtkToolButton tooltip
+#. Translators: tooltip on a 'Go Down' button used to sort IRC servers by priority
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:8
+msgid "Down"
+msgstr "Dolu"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:9
+msgid "Servers"
+msgstr "Servery"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:10
+msgid ""
+"Most IRC servers don't need a password, so if you're not sure, don't enter a "
+"password."
+msgstr ""
+"Väčšina serverov IRC nevyžaduje heslo, takže ak si nie ste istý, nezadávajte "
+"žiadne."
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:11
+msgid "Nickname"
+msgstr "Prezývka"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:13
+msgid "Quit message"
+msgstr "Správa pri odchode"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:14
+msgid "Real name"
+msgstr "Skutočné meno"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:15
+msgid "Username"
+msgstr "Používateľské meno"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:17
+msgid "Which IRC network?"
+msgstr "Ktorú sieť IRC?"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-irc.ui.h:18
+msgid "What is your IRC nickname?"
+msgstr "Aká je vaša prezývka pre IRC?"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:1
+msgid "What is your Facebook username?"
+msgstr "Aké je vaše používateľské meno pre Facebook?"
+
+# GtkLabel
+#. This string is not wrapped in the dialog so you may have to add some '\n' to make it look nice.
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:3
+msgid ""
+"This is your username, not your normal Facebook login.\n"
+"If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
+"Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose a "
+"Facebook username if you don't have one."
+msgstr ""
+"Toto je vaše používateľské meno, nie vaše prihlasovacie meno pre Facebook.\n"
+"Ak ste facebook.com/<b>otrava</b>, zadajte <b>otrava</b>.\n"
+"Ak ešte používateľské meno pre Facebook nemáte, na jeho vytvorenie použite "
+"<a href=\"http://www.facebook.com/username/\">túto stránku</a>."
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:6
+msgid "What is your Facebook password?"
+msgstr "Aké je vaše heslo pre Facebook?"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:8
+msgid "What is your Google ID?"
+msgstr "Aký je váš identifikátor pre Google?"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:9
+msgid "<b>Example:</b> user@gmail.com"
+msgstr "<b>Príklad:</b> pouzivatel@gmail.com"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:10
+msgid "What is your Google password?"
+msgstr "Aké je vaše heslo pre Google?"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:11
+msgid "<b>Example:</b> user@jabber.org"
+msgstr "<b>Príklad:</b> používateľ@jabber.org"
+
+# GtkCheckButton
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:15
+msgid "I_gnore SSL certificate errors"
+msgstr "_Ignorovať chyby SSL certifikátu"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:16
+msgid "Priori_ty"
+msgstr "_Priorita"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:17
+msgid "Reso_urce"
+msgstr "_Zdroj"
+
+# GtkCheckButton
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:18
+msgid "Encr_yption required (TLS/SSL)"
+msgstr "V_yžadovať šifrovanie (TLS/SSL)"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:19
+msgid "Override server settings"
+msgstr "Potlačiť nastavenia servera"
+
+# GtkCheckButton
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:22
+msgid "Use old SS_L"
+msgstr "Použiť staré _SSL"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:24
+msgid "What is your Jabber ID?"
+msgstr "Aký je váš identifikátor pre Jabber?"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-jabber.ui.h:25
+msgid "What is your Jabber password?"
+msgstr "Aké je vaše heslo pre Jabber?"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:1
+msgid "Nic_kname"
+msgstr "Prezýv_ka"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:2
+msgid "_Last Name"
+msgstr "_Priezvisko"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:3
+msgid "_First Name"
+msgstr "_Krstné meno"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:4
+msgid "_Published Name"
+msgstr "_Zverejnené meno"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:5
+msgid "_Jabber ID"
+msgstr "Identifikátor pre _Jabber"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-local-xmpp.ui.h:6
+msgid "E-_mail address"
+msgstr "E_mailová adresa"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:3
+msgid "<b>Example:</b> user@hotmail.com"
+msgstr "<b>Príklad:</b> používateľ@hotmail.com"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:8
+msgid "What is your Windows Live ID?"
+msgstr "Aký je váš identifikátor pre Windows Live?"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-msn.ui.h:9
+msgid "What is your Windows Live password?"
+msgstr "Aké je vaše heslo pre Windows Live?"
+
+#  PM: jedno je pre 'transport' combo box; a druhe pre 'keep-alive mechanism' combo box
+#  PM: V tom prvom iprípade je to OK v tom druhom nechápem súvislosť medzi auto, register, options a none
+# * https://bugzilla.gnome.org/show_bug.cgi?id=694486
+# gtk_list_store 
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:198
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:231
+msgid "Auto"
+msgstr "Automaticky"
+
+# gtk_list_store
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:201
+msgid "UDP"
+msgstr "UDP"
+
+# gtk_list_store
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:204
+msgid "TCP"
+msgstr "TCP"
+
+# gtk_list_store
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:207
+msgid "TLS"
+msgstr "TLS"
+
+# PK: v zdrojaku je ze by sa to nemalo prekladat
+# * https://bugzilla.gnome.org/show_bug.cgi?id=694486
+# gtk_list_store
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:236
+msgid "Register"
+msgstr "Register"
+
+# PK: v zdrojaku je ze by sa to nemalo prekladat
+# * https://bugzilla.gnome.org/show_bug.cgi?id=694486
+# gtk_list_store
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:241
+msgid "Options"
+msgstr "Options"
+
+# gtk_list_store
+#: ../tp-account-widgets/tpaw-account-widget-sip.c:244
+msgid "None"
+msgstr "Žiadne"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:2
+msgid "_Username"
+msgstr "_Používateľské meno"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:3
+msgid "<b>Example:</b> user@my.sip.server"
+msgstr "<b>Príklad:</b> používateľ@môj.sip.server"
+
+# GtkCheckButton
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:5
+msgid "Use this account to call _landlines and mobile phones"
+msgstr "Použiť tento účet na volanie na _pevné linky alebo mobilné telefóny"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:6
+msgid "NAT Traversal Options"
+msgstr "Voľby pre NAT Traversal"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:7
+msgid "Proxy Options"
+msgstr "Voľby pre proxy"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:8
+msgid "Miscellaneous Options"
+msgstr "Ďalšie voľby"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:9
+msgid "STUN Server"
+msgstr "Server STUN"
+
+# GtkCheckButton
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:10
+msgid "Discover the STUN server automatically"
+msgstr "Automaticky objaviť server STUN"
+
+# GtkCheckButton
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:11
+msgid "Discover Binding"
+msgstr "Objaviť prepojenia"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:13
+msgid "Keep-Alive Options"
+msgstr "Voľby udržovania pripojenia"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:14
+msgid "Mechanism"
+msgstr "Mechanizmus"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:15
+msgid "Interval (seconds)"
+msgstr "Interval (v sekundách)"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:16
+msgid "Authentication username"
+msgstr "Používateľské meno na overenie totožnosti"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:17
+msgid "Transport"
+msgstr "Prenos"
+
+# GtkCheckButton
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:18
+msgid "Loose Routing"
+msgstr "Voľné smerovanie"
+
+# GtkCheckButton
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:19
+msgid "Ignore TLS Errors"
+msgstr "Ignorovať chyby TLS"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:21
+msgid "Local IP Address"
+msgstr "Miestna adresa IP"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:23
+msgid "What is your SIP login ID?"
+msgstr "Aký je váš prihlasovací identifikátor pre SIP?"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-sip.ui.h:24
+msgid "What is your SIP account password?"
+msgstr "Aké je vaše heslo k účtu pre SIP?"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:1
+msgid "Pass_word:"
+msgstr "_Heslo:"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:2
+msgid "Yahoo! I_D:"
+msgstr "I_dentifikátor pre Yahoo!:"
+
+# GtkCheckButton
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:5
+msgid "I_gnore conference and chat room invitations"
+msgstr "I_gnorovať pozvánky do konferencií a diskusných miestností"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:6
+msgid "_Room List locale:"
+msgstr "Miestne nastavenia _zoznamu miestností"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:7
+msgid "Ch_aracter set:"
+msgstr "Zn_aková sada:"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:8
+msgid "_Port:"
+msgstr "_Port:"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:10
+msgid "What is your Yahoo! ID?"
+msgstr "Aký je váš identifikátor pre Yahoo!?"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-account-widget-yahoo.ui.h:11
+msgid "What is your Yahoo! password?"
+msgstr "Aké je vaše heslo pre Yahoo!?"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:543
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:628
+msgid "Couldn't convert image"
+msgstr "Nepodarilo sa skonvertovať obrázok"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:544
+msgid "None of the accepted image formats are supported on your system"
+msgstr ""
+"Žiadny z povolených formátov pre obrázky nie je podporovaný vaším systémom"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:904
+msgid "Couldn't save picture to file"
+msgstr "Nepodarilo sa uložiť obrázok do súboru"
+
+# title
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1026
+msgid "Select Your Avatar Image"
+msgstr "Výber obrázku pre vašu podobizeň"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1035
+msgid "Take a picture..."
+msgstr "Zosnímať obrázok…"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1048
+msgid "No Image"
+msgstr "Bez obrázku"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1107
+msgid "Images"
+msgstr "Obrázky"
+
+#: ../tp-account-widgets/tpaw-avatar-chooser.c:1111
+msgid "All Files"
+msgstr "Všetky súbory"
+
+# button
+#: ../tp-account-widgets/tpaw-calendar-button.c:63
+msgid "Select..."
+msgstr "Vybrať…"
+
+# button
+#: ../tp-account-widgets/tpaw-calendar-button.c:151
+msgid "_Select"
+msgstr "_Vybrať"
+
+# info_field_data
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:97
+msgid "Full Name"
+msgstr "Celé meno"
+
+# info_field_data
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:98
+msgid "Phone Number"
+msgstr "Telefónne číslo"
+
+# info_field_data
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:99
+msgid "E-mail Address"
+msgstr "Emailová adresa"
+
+# info_field_data
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:100
+msgid "Website"
+msgstr "Webová stránka"
+
+# info_field_data
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:101
+msgid "Birthday"
+msgstr "Narodeniny"
+
+# info_field_data
+#. Note to translators: this is the caption for a string of the form "5
+#. * minutes ago", and refers to the time since the contact last interacted
+#. * with their IM client.
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:106
+msgid "Last Seen:"
+msgstr "Naposledy videný:"
+
+# info_field_data
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:107
+msgid "Server:"
+msgstr "Server:"
+
+# info_field_data
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:108
+msgid "Connected From:"
+msgstr "Pripojený z:"
+
+# info_field_data
+#. FIXME: once Idle implements SimplePresence using this information, we can
+#. * and should bin this.
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:112
+msgid "Away Message:"
+msgstr "Správa pri odchode:"
+
+# info_parameter_data
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:125
+msgid "work"
+msgstr "pracovný"
+
+# info_parameter_data
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:126
+msgid "home"
+msgstr "domov"
+
+# info_parameter_data
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:127
+msgid "mobile"
+msgstr "mobilný"
+
+# info_parameter_data
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:128
+msgid "voice"
+msgstr "hlasový"
+
+# info_parameter_data
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:129
+msgid "preferred"
+msgstr "prednostný"
+
+# info_parameter_data
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:130
+msgid "postal"
+msgstr "poštový"
+
+# info_parameter_data
+#: ../tp-account-widgets/tpaw-contactinfo-utils.c:131
+msgid "parcel"
+msgstr "doručovací"
+
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:325
+msgid "New Network"
+msgstr "Nová sieť"
+
+# window title
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:526
+msgid "Choose an IRC network"
+msgstr "Výber siete IRC"
+
+# button
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:612
+msgid "Reset _Networks List"
+msgstr "Obnoviť zoznam _sietí"
+
+# button
+#: ../tp-account-widgets/tpaw-irc-network-chooser-dialog.c:616
+msgctxt "verb displayed on a button to select an IRC network"
+msgid "Select"
+msgstr "Vybrať"
+
+# niekde v nejakej tabuľke
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:273
+msgid "new server"
+msgstr "nový server"
+
+# niekde v nejakej tabuľke
+#: ../tp-account-widgets/tpaw-irc-network-dialog.c:536
+msgid "SSL"
+msgstr "SSL"
+
+#: ../tp-account-widgets/tpaw-keyring.c:77
+#: ../tp-account-widgets/tpaw-keyring.c:186
+msgid "Password not found"
+msgstr "Heslo sa nenašlo"
+
+#: ../tp-account-widgets/tpaw-keyring.c:586
+#, c-format
+msgid "IM account password for %s (%s)"
+msgstr "Heslo pre účet internetovej komunikácie %s (%s)"
+
+#: ../tp-account-widgets/tpaw-keyring.c:623
+#, c-format
+msgid "Password for chatroom '%s' on account %s (%s)"
+msgstr "Heslo pre diskusnú miestnosť „%s“ na účte %s (%s)"
+
+#. Create account
+#. To translator: %s is the name of the protocol, such as "Google Talk" or
+#. * "Yahoo!"
+#.
+#: ../tp-account-widgets/tpaw-protocol.c:63
+#, c-format
+msgid "New %s account"
+msgstr "Nový účet %s"
+
+#: ../tp-account-widgets/tpaw-time.c:86
+#, c-format
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "pred %d sekundami"
+msgstr[1] "pred %d sekundou"
+msgstr[2] "pred %d sekundami"
+
+#: ../tp-account-widgets/tpaw-time.c:92
+#, c-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "pred %d minútami"
+msgstr[1] "pred %d minútou"
+msgstr[2] "pred %d minútami"
+
+#: ../tp-account-widgets/tpaw-time.c:98
+#, c-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "pred %d hodinami"
+msgstr[1] "pred %d hodinou"
+msgstr[2] "pred %d hodinami"
+
+#: ../tp-account-widgets/tpaw-time.c:104
+#, c-format
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "pred %d dňami"
+msgstr[1] "pred %d dňom"
+msgstr[2] "pred %d dňami"
+
+#: ../tp-account-widgets/tpaw-time.c:110
+#, c-format
+msgid "%d week ago"
+msgid_plural "%d weeks ago"
+msgstr[0] "pred %d týždňami"
+msgstr[1] "pred %d týždňom"
+msgstr[2] "pred %d týždňami"
+
+#: ../tp-account-widgets/tpaw-time.c:116
+#, c-format
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] "pred %d mesiacmi"
+msgstr[1] "pred %d mesiacom"
+msgstr[2] "pred %d mesiacmi"
+
+#: ../tp-account-widgets/tpaw-time.c:138
+msgid "in the future"
+msgstr "v budúcnosti"
+
+# label
+#: ../tp-account-widgets/tpaw-user-info.c:423
+msgid "Go online to edit your personal information."
+msgstr "Aby ste mohli upraviť vaše osobné údaje musíte byť prihlásený."
+
+#: ../tp-account-widgets/tpaw-user-info.c:507
+msgid "These details will be shared with other users on this chat network."
+msgstr ""
+"Tieto podrobnosti budú sprístupnené ostatným používateľom na tejto sieti."
+
+# GtkLabel
+#. Setup id label
+#: ../tp-account-widgets/tpaw-user-info.c:516
+msgid "Identifier"
+msgstr "Identifikátor"
+
+# GtkLabel
+#. Setup nickname entry
+#: ../tp-account-widgets/tpaw-user-info.c:524
+msgid "Alias"
+msgstr "Prezývka"
+
+# label
+#: ../tp-account-widgets/tpaw-user-info.c:541
+msgid "<b>Personal Details</b>"
+msgstr "<b>Osobné údaje</b>"
+
+#: ../tp-account-widgets/tpaw-utils.c:115
+msgid "People Nearby"
+msgstr "Ľudia v okolí"
+
+# GtkLabel
+#: ../tp-account-widgets/tpaw-utils.c:120
+msgid "Yahoo! Japan"
+msgstr "Yahoo! Japonsko"
+
+#: ../tp-account-widgets/tpaw-utils.c:156
+msgid "Google Talk"
+msgstr "Google Talk"
+
+#: ../tp-account-widgets/tpaw-utils.c:157
+msgid "Facebook Chat"
+msgstr "Facebook Chat"
+
+#~ msgid "L_og in"
+#~ msgstr "P_rihlásiť sa"
+
+#~ msgid "This account already exists on the server"
+#~ msgstr "Tento účet už existuje na serveri"
+
+#~ msgid "Create a new account on the server"
+#~ msgstr "Vytvoriť nový účet na serveri"
+
+# GtkLabel
+#~ msgid "What is your desired Jabber ID?"
+#~ msgstr "Aký je váš požadovaný identifikátor pre Jabber?"
+
+# GtkLabel
+#~ msgid "What is your desired Jabber password?"
+#~ msgstr "Aké je vaše požadované heslo pre Jabber?"

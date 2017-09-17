@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="guide" style="task" id="add-account" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="remove-account"/>
+    <desc>Új fiók felvétele az <app>Empathyba</app>.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-24" status="draft"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-10" status="review"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-27" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.3" date="2010-02-03" status="review"/>
+    <revision pkgversion="2.30" version="0.4" date="2010-04-19" status="review"/>
+    <revision pkgversion="3.2" version="0.5" date="2011-12-19" status="review"/>
+    <revision pkgversion="3.12.6" date="2014-10-07" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2010, 2011, 2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Új fiók hozzáadása</title>
+
+  <p>Az <app>Empathyba</app> bármely támogatott szolgáltatás azonnaliüzenő-fiókjait felveheti, hogy kommunikálhasson partnereivel. Egyes szolgáltatók esetén ezekkel a lépésekkel egy új fiók regisztrálását is elvégezheti. További részletekért lásd az <link xref="create-account"/> oldalt.</p>
+
+  <steps>
+    <item>
+      <p>Válassza az <guiseq><gui>Empathy</gui><gui>Fiókok</gui></guiseq> menüpontot, vagy nyomja meg az <key>F4</key> billentyűt.</p>
+    </item>
+    <item>
+      <p>Nyomja meg a <gui style="button">+</gui> gombot.</p>
+    </item>
+    <item>
+      <p>A <gui>Milyen típusú csevegőfiókja van?</gui> legördülő listából válassza ki a felvenni kívánt fiók típusát.</p>
+    </item>
+    <item>
+      <p>Adja meg a szükséges információkat. A legtöbb fiókhoz csak egy bejelentkezési azonosító és jelszó kell. Egyes fiókok további információkat igényelhetnek, lásd: <link xref="accounts-window#details"/>.</p>
+    </item>
+    <item>
+      <p>Nyomja meg a <gui style="button">Hozzáadás</gui> gombot.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>A fiókot az <gui>Üzenetküldő- és VoIP-fiókok</gui> ablakban azonosító név módosításához válassza ki a fiókot a bal oldali listából, és kattintson a nevére, vagy nyomja meg a szóköz billentyűt. Módosítsa a fiók nevét, és nyomja meg az <key>Enter</key> billentyűt ha befejezte.</p>
+  </note>
+</page>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallrd.org/experimental/" type="topic" style="task nocando" id="irc-join-pwd" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="irc-manage#manage"/>
+    <link type="seealso" xref="irc-join-room"/>
+    <desc>Entreu la contrasenya per les sales de xat de l'IRC.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-07" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.2" date="2010-03-12" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Reconeixement-Compartir Igual 3.0</p>
+    </license>    
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Entreu en una sala de xat d'IRC protegida.</title>
+
+  <p>En algunes xarxes d'IRC les sales privades poden estar protegides per contrasenya, si la sabeu seguiu els següents passos per unir-vos-hi:</p>
+  <steps>
+    <item>
+      <p><link xref="irc-join-room">Entra a la sala</link> com sempre.</p>
+    </item>
+    <item>
+      <p>L'Empathy us demanarà una contrasenya. Introduïu la contrasenya de la sala de xat de l'IRC i feu clic a <gui style="button">Uneix-m'hi</gui>.</p>
+    </item>
+  </steps>
+
+</page>

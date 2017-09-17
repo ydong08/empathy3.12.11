@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="remove-account" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <desc><app>Empathy</app> からアカウントを完全に削除します。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review"/>
+    <revision pkgversion="2.28" version="0.3" date="2009-08-27" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.4" date="2010-04-19" status="review"/>
+    <revision pkgversion="3.2" version="0.5" date="2011-12-19" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>クリエイティブ・コモンズ・ライセンス 継承 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mako N</mal:name>
+      <mal:email>mako@pasero.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>アカウントの削除</title>
+
+  <p>そのアカウントをもう使うことがないのなら、<app>Empathy</app> からアカウントを完全に削除できます。将来またそのアカウントを <app>Empathy</app> で使いたくなったら、再びアカウントの詳細を追加する必要があります。</p>
+
+  <steps>
+    <item>
+      <p><gui>相手先の一覧</gui>ウィンドウから、<guiseq><gui>編集</gui><gui>アカウント</gui></guiseq>を選ぶか、<key>F4</key> を押します。</p>
+    </item>
+    <item>
+      <p>ウィンドウの左側のアカウントの一覧から、削除したいアカウントを指定します。</p>
+    </item>
+    <item>
+      <p><gui style="button">-</gui> をクリックします。</p>
+    </item>
+    <item>
+      <p>確認のダイアログが表示されます。<gui>削除</gui>ボタンをクリックして、恒久的にアカウントを削除します。</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>アカウントを削除しても、<app>Empathy</app> はそのアカウントの会話の履歴は削除しません。</p>
+  </note>
+</page>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="introduction" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-16" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="review"/>
+    <desc><app>Empathy</app> インスタントメッセンジャーを紹介します。</desc>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>クリエイティブ・コモンズ・ライセンス 継承 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mako N</mal:name>
+      <mal:email>mako@pasero.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>はじめに</title>
+
+  <p>
+    <app>Empathy</app> is an instant messaging application for the GNOME Desktop.
+    It supports text messaging, voice &amp; video calls, file transfers, and all the
+    most used messaging systems such as Jabber and Google Talk.
+  </p>
+  <p><app>Empathy</app> は、仕事においてはよりよく共同作業を助ける機能を持っています。それはまた、友人たちとのつながりを保ちつづけることを容易にします。</p>
+  <p><app>Empathy</app> を使って、すべての会話をひとつのウィンドウにまとめたり、会話の種類ごとに複数のウィンドウを開いたり、簡単に過去の会話から検索したり、たった 2 クリックでデスクトップを共有したりできます。</p>
+
+  <figure>
+    <title><gui>相手先の一覧</gui>ウィンドウ</title>
+    <desc><app>Empathy</app> の主ウィンドウ</desc>
+    <media type="image" src="figures/empathy-main-window.png" mime="image/png" style="right">
+      <p><app>Empathy</app> の主ウィンドウです。</p>
+    </media>
+  </figure>
+
+</page>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="audio-call" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="index#audio-video"/>
+    <link type="seealso" xref="audio-video"/>
+    <desc>Zvani saviem kontaktiem caur internetu.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-07" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-04" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.3" date="2010-02-14" status="review"/>
+    <revision pkgversion="2.32" version="0.4" date="2010-09-09" status="review"/>   
+    <revision pkgversion="3.8" version="0.4" date="2013-04-15" status="review"/>
+
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Share Alike 3.0 licence.</p>
+    </license>
+  </info>
+
+  <title>Sākt audio saziņu</title>
+
+  <p>Tu vari zvanīt saviem kontaktiem un uzturēt audio saziņu ar tiem. Šī iespēja strādā tikai ar noteiktiem kontu tipiem un pieprasa, lai tavam sarunas biedram arī būtu lietotne, kas atbalsta audio zvanus.</p>
+
+  <steps>
+    <item>
+      <p>Spiediet labo peles pogu uz kontakta, kuram vēlaties zvanīt un izvēlieties <gui style="menuitem">Audio zvans</gui>.</p>
+    </item>
+    <item>
+      <p>Atvērsies jauns logs. Kad savienojums būs nodrošināts, loga apakšā būs redzams kopējais sarunas ilgums.</p>
+    </item>
+    <item>
+      <p>Lai sarunu beigtu, spiediet pogu <gui style="button">nolikt klausuli</gui>.</p>
+    </item>
+  </steps>
+  
+  <note style="tip">
+    <p>Lai audio zvanu pārvērstu video zvanā, izvēlies <guiseq><gui style="menu">Video</gui><gui style="menuitem">Ieslēgt video</gui></guiseq>.</p>
+  </note>
+  
+  <section id="audio-meta-contact">
+    <title>Sākt audio saziņu ar meta-kontaktu</title>
+    <steps>
+      <item>
+        <p>No <gui>Kontaktu saraksts</gui> loga, ar labo peles klikšķi spied uz meta-kontakta.</p>
+      </item>
+      <item>
+        <p>Izvēlies kontaktu, ar kuru vēlies sazināties un no izvēlnes paņem <gui style="menuitem">Audio zvans</gui>.</p>
+      </item>
+    </steps>
+    <note style="tip">
+      <p>Lai atpazītu vai konkrēts kontakts ir meta-kontakts, tad <gui>Kontaktu saraksts</gui> logā pavirzi pelītes kursoru virs kontakta vārda un atstāj to tajā vietā uz pāris sekundēm, pēc šīm pāris sekundēm, neliela uzlecoša ziņa parādīsies un parādīs kontaktu skaitu, kurš veido meta-kontaktu.</p>
+    </note>
+  </section>
+
+</page>

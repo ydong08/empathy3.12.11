@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="send-file" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="index#advanced"/>
+    <desc>Inviare un file dal proprio computer a uno dei propri contatti.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-07-21" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  </info>
+
+  <title>Inviare file</title>
+
+  <steps>
+    <item>
+      <p>Dalla finestra <gui>Elenco contatti</gui>, eseguire una delle seguenti azioni:</p>
+      <list>
+        <item>
+          <p>Fare clic col pulsante destro del mouse sul contatto a cui inviare un file e scegliere <gui>Invia file</gui>.</p>
+        </item>
+        <item>
+          <p>
+            Click on the contact you want to send a file, and choose <guiseq><gui>Edit</gui>
+            <gui>Contact</gui><gui>Send file</gui></guiseq>.
+          </p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Selezionare il file da inviare e fare clic su <gui>Invia</gui>.</p>
+    </item>
+    <item>
+      <p>Viene aperta la finestra <gui>Trasferimenti file</gui>.</p>
+      <p>Attendere che il contatto accetti il trasferimento oppure fare clic su <gui>Ferma</gui> per fermarlo.</p>
+    </item>
+    <item>
+      <p>Completato il trasferimento del file, è possibile chiudere la finestra <gui>Trasferimenti file</gui>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Se nella finestra sono elencati più trasferimenti di file completati, fare clic su <gui>Pulisci</gui> per svuotare l'elenco. In questo modo vengono rimossi i file solamente dall'elenco, non dal proprio computer.</p>
+  </note>
+  <note>
+    <p>È possibile inviare file utilizzando solo uno dei seguenti servizi: <em>Jabber</em>, <em>Google Talk</em> e <em>Persone nelle vicinanze</em>.</p>
+  </note>
+  <note>
+    <p>Per inviare un file a una persona è necessario essere collegati a Internet o a una rete locale.</p>
+  </note>
+
+</page>

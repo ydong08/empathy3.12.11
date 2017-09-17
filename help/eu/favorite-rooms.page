@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="favorite-rooms" xml:lang="eu">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <link type="guide" xref="irc-manage#manage"/>
+    <link type="seealso" xref="irc-join-room"/>
+    <link type="seealso" xref="group-conversations"/>
+    <desc>Ezarri, sartu eta kudeatu gela gogokoenak.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-21" status="draft"/>
+    <revision pkgversion="2.30" version="0.2" date="2010-02-03" status="review"/>    
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Partekatu Berdin 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Gela gogokoenak</title>
+
+  <section id="set-favorite">
+  <title>Ezarri gela bat gogoko gisa</title>
+  <steps>
+    <item>
+      <p>Sartu gela batean.</p>
+      <list>
+        <item>
+          <p>Ikus <link xref="irc-join-room"/>, IRC gela batean nola sartu jakiteko.</p>
+        </item>
+        <item>
+          <p>Ikus <link xref="group-conversations"/>, talde-solasaldi bat nola hasi edo bertan nola sartu jakiteko.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Solasaldiaren leihoan, hautatu <guiseq><gui>Solasaldia</gui><gui>Berriketa-gela gogokoena</gui></guiseq>.</p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="join-favorite">
+  <title>Sartu gela gogokoenetan</title>
+  <steps>
+    <item>
+      <p><gui>Kontaktu-zerrenda</gui> leihoan, egin hauetako bat:</p>
+      <list>
+        <item>
+          <p>Sakatu <key>F5</key>.</p>
+        </item>
+        <item>
+          <p>Aukeratu <guiseq><gui>Gela</gui><gui>Sartu gogokoetan</gui></guiseq>, zure gela gogoko guztietan sartzeko.</p>
+        </item>
+        <item>
+          <p>Aukeratu <gui>Gela</gui>, eta hautatu zein gela gogokotan sartu nahi duzun.</p>
+        </item>
+      </list>
+    </item>
+  </steps>
+  <note>
+    <p>Gela gogoko batean sartzeko, Internetekin eta zure kontuarekin konektatuta egon behar duzu.</p>
+  </note>
+  </section>
+
+  <section id="manage-favorite">
+  <title>Kudeatu gela gogokoak</title>
+  <steps>
+    <item>
+      <p><gui>Kontaktu-zerrenda</gui> leihoan, aukeratu <guiseq><gui>Gela</gui><gui>Kudeatu gogokoak</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Goitibeherako <gui>Kontua</gui> zerrendan, hautatu zein kontutan kudeatu nahi dituzun gela gogokoak.</p>
+      <p>Hautatu <gui>Denak</gui> zure gela gogoko guztiak ikusteko.</p>
+    </item>
+    <item>
+      <p>Hautatu kudeatu nahi duzun gela gogokoa:</p>
+      <list>
+        <item>
+          <p>Hautatu <gui>Automatikoki konektatu</gui> kontrol-laukia, kontu horrekin konektatzen zarenean automatikoki gela horretan sartzeko.</p>
+        </item>
+        <item>
+          <p>Egin klik <gui>Kendu</gui> botoian, gela gogokoetatik kentzeko.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Amaitutakoan, egin klik <gui>Itxi</gui> botoian.</p>
+    </item>
+  </steps>
+  </section>
+
+</page>

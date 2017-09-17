@@ -1,0 +1,1136 @@
+# gossip.HEAD.po faylının Azərbaycan Dilinə tərcüməsi
+# gossip.HEAD.po faylının Azərbaycan dilinə tərcüməsi
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Mətin Əmirov <metin@karegen.com>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gossip.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-05-15 23:46+0200\n"
+"PO-Revision-Date: 2003-10-19 20:34+0300\n"
+"Last-Translator: Mətin Əmirov <metin@karegen.com>\n"
+"Language-Team: Azərbaycan Dili <gnome@azətt.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0.1\n"
+
+#: ../data/empathy.desktop.in.h:1
+#, fuzzy
+msgid "Empathy Instant Messenger"
+msgstr "İsmarış:"
+
+#: ../data/empathy.desktop.in.h:2
+msgid "Instant Messenger"
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:1
+msgid "Always open a separate chat window for new chats."
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:2
+msgid "Chat window theme"
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:3
+msgid ""
+"Comma separated list of spell checker languages to use (e.g. en, fr, nl)."
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:4
+msgid "Compact contact list"
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:5
+msgid "Contact list sort criterium"
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:6
+msgid "Default directory to select an avatar image from"
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:7
+msgid "Enable popup when contact is available"
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:8
+msgid "Enable sound when away"
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:9
+msgid "Enable sound when busy"
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:10
+msgid "Enable spell checker"
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:11
+msgid "Hide main window"
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:12
+msgid "Hide the main window."
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:13
+msgid "Open new chats in separate windows"
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:14
+msgid "Show avatars"
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:15
+msgid "Show hint about closing the main window"
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:16
+msgid "Show offline contacts"
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:17
+msgid "Spell checking languages"
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:18
+msgid "The last directory that an avatar image was chosen from."
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:19
+msgid "The theme that is used to display the conversation in chat windows."
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:20
+msgid "Use graphical smileys"
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:21
+msgid "Use notification sounds"
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:22
+msgid "Use theme for chat rooms"
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:23
+msgid ""
+"Whether or not to check words typed against the languages you want to check "
+"with."
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:24
+msgid ""
+"Whether or not to convert smileys into graphical images in conversations."
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:25
+msgid "Whether or not to play a sound when messages arrive."
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:26
+msgid "Whether or not to play sounds when away."
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:27
+msgid "Whether or not to play sounds when busy."
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:28
+msgid "Whether or not to show a popup when a contact becomes available."
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:29
+msgid ""
+"Whether or not to show avatars for contacts in the contact list and chat "
+"windows."
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:30
+msgid "Whether or not to show contacts that are offline in the contact list."
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:31
+msgid ""
+"Whether or not to show the message dialog about closing the main window with "
+"the 'x' button in the title bar."
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:32
+msgid "Whether to show the contact list in compact mode or not."
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:33
+msgid "Whether to use the theme for chat rooms or not."
+msgstr ""
+
+#: ../data/empathy.schemas.in.h:34
+msgid ""
+"Which criterium to use when sorting the contact list. Default is to use sort "
+"by the contact's name with the value \"name\". A value of \"state\" will "
+"sort the contact list by state."
+msgstr ""
+
+#: ../libempathy/gossip-contact.c:654 ../libempathy/gossip-presence.c:184
+#: ../libempathy/gossip-presence.c:283
+msgid "Offline"
+msgstr ""
+
+#: ../libempathy/gossip-presence.c:274
+msgid "Available"
+msgstr ""
+
+#: ../libempathy/gossip-presence.c:276
+msgid "Busy"
+msgstr ""
+
+#: ../libempathy/gossip-presence.c:279
+msgid "Away"
+msgstr ""
+
+#: ../libempathy-gtk/empathy-main-window.c:254
+msgid "Show and edit accounts"
+msgstr ""
+
+#: ../libempathy-gtk/empathy-main-window.c:456
+msgid "Group"
+msgstr ""
+
+#: ../libempathy-gtk/empathy-main-window.c:477
+#, fuzzy
+msgid "Contact"
+msgstr "Bağlan"
+
+#: ../libempathy-gtk/empathy-main-window.glade.h:1
+msgid "Contact List - Empathy"
+msgstr ""
+
+#: ../libempathy-gtk/empathy-main-window.glade.h:2
+#, fuzzy
+msgid "Context"
+msgstr "Bağlan"
+
+#: ../libempathy-gtk/empathy-main-window.glade.h:3
+msgid "Join _Favorites"
+msgstr ""
+
+#: ../libempathy-gtk/empathy-main-window.glade.h:4
+#: ../libempathy-gtk/gossip-chat.glade.h:10
+msgid "Join _New..."
+msgstr ""
+
+#: ../libempathy-gtk/empathy-main-window.glade.h:5
+msgid "Manage Favorites..."
+msgstr ""
+
+#: ../libempathy-gtk/empathy-main-window.glade.h:6
+msgid "Show _Offline Contacts"
+msgstr ""
+
+#: ../libempathy-gtk/empathy-main-window.glade.h:7
+#, fuzzy
+msgid "_About"
+msgstr "_Gedişatlar"
+
+#: ../libempathy-gtk/empathy-main-window.glade.h:8
+#, fuzzy
+msgid "_Accounts"
+msgstr "_Gedişatlar"
+
+#: ../libempathy-gtk/empathy-main-window.glade.h:9
+#: ../libempathy-gtk/gossip-chat.glade.h:15
+msgid "_Add Contact..."
+msgstr ""
+
+#: ../libempathy-gtk/empathy-main-window.glade.h:10
+#: ../libempathy-gtk/gossip-contact-list.c:298
+msgid "_Chat"
+msgstr ""
+
+#: ../libempathy-gtk/empathy-main-window.glade.h:11
+#, fuzzy
+msgid "_Contents"
+msgstr "Bağlan"
+
+#: ../libempathy-gtk/empathy-main-window.glade.h:12
+#: ../libempathy-gtk/gossip-chat.glade.h:21
+#: ../libempathy-gtk/gossip-contact-list.c:310
+#, fuzzy
+msgid "_Edit"
+msgstr "Çı_x"
+
+#: ../libempathy-gtk/empathy-main-window.glade.h:13
+msgid "_Help"
+msgstr ""
+
+#: ../libempathy-gtk/empathy-main-window.glade.h:14
+#: ../libempathy-gtk/empathy-status-icon.glade.h:2
+msgid "_New Message..."
+msgstr ""
+
+#: ../libempathy-gtk/empathy-main-window.glade.h:15
+msgid "_Personal Information"
+msgstr ""
+
+#: ../libempathy-gtk/empathy-main-window.glade.h:16
+#, fuzzy
+msgid "_Preferences"
+msgstr "Qurğular"
+
+#: ../libempathy-gtk/empathy-main-window.glade.h:17
+#: ../libempathy-gtk/empathy-status-icon.glade.h:3
+msgid "_Quit"
+msgstr "Çı_x"
+
+#: ../libempathy-gtk/empathy-main-window.glade.h:18
+#: ../libempathy-gtk/gossip-chat.glade.h:25
+msgid "_Room"
+msgstr ""
+
+#: ../libempathy-gtk/empathy-main-window.glade.h:19
+#: ../libempathy-gtk/gossip-chat.glade.h:28
+#: ../libempathy-gtk/gossip-contact-list.c:326
+msgid "_View Previous Conversations"
+msgstr ""
+
+#: ../libempathy-gtk/empathy-status-icon.glade.h:1
+#, fuzzy
+msgid "Status"
+msgstr "<b>Vəziyyət:</b>"
+
+#: ../libempathy-gtk/empathy-status-icon.glade.h:4
+msgid "_Show Contact List"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-about-dialog.c:63
+msgid ""
+"Empathy is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version."
+msgstr ""
+
+#: ../libempathy-gtk/gossip-about-dialog.c:67
+msgid ""
+"Empathy is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+
+#: ../libempathy-gtk/gossip-about-dialog.c:71
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"Empathy; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA 02110-130159 USA"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-about-dialog.c:99
+msgid "An Instant Messaging client for GNOME"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-about-dialog.c:105
+#, fuzzy
+msgid "translator-credits"
+msgstr ""
+"Vasif İsmailoğlu\n"
+"Mətin Əmirov"
+
+#: ../libempathy-gtk/gossip-accounts-dialog.c:224
+msgid "Disable"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-accounts-dialog.c:227
+msgid "Enable"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-accounts-dialog.c:261
+#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:3
+#, fuzzy
+msgid "<b>No Account Selected</b>"
+msgstr "_Gedişatlar"
+
+#: ../libempathy-gtk/gossip-accounts-dialog.c:263
+msgid ""
+"To add a new account, you can click on the 'Add' button and a new entry will "
+"be created for you to start configuring.\n"
+"\n"
+"If you do not want to add an account, simply click on the account you want "
+"to configure in the list on the left."
+msgstr ""
+
+#: ../libempathy-gtk/gossip-accounts-dialog.c:272
+#, fuzzy
+msgid "<b>No Accounts Configured</b>"
+msgstr "_Gedişatlar"
+
+#: ../libempathy-gtk/gossip-accounts-dialog.c:274
+msgid ""
+"To add a new account, you can click on the 'Add' button and a new entry will "
+"be created for you to start configuring."
+msgstr ""
+
+#: ../libempathy-gtk/gossip-accounts-dialog.c:362
+#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:6
+#, fuzzy
+msgid "Accounts"
+msgstr "_Gedişatlar"
+
+#: ../libempathy-gtk/gossip-accounts-dialog.c:857
+#, c-format
+msgid ""
+"You are about to remove your %s account!\n"
+"Are you sure you want to proceed?"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-accounts-dialog.c:863
+msgid ""
+"Any associated conversations and chat rooms will NOT be removed if you "
+"decide to proceed.\n"
+"\n"
+"Should you decide to add the account back at a later time, they will still "
+"be available."
+msgstr ""
+
+#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:1
+#, fuzzy
+msgid "<b>Account</b>"
+msgstr "_Gedişatlar"
+
+#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:2
+#, fuzzy
+msgid "<b>New Account</b>"
+msgstr "_Gedişatlar"
+
+#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:4
+#, fuzzy
+msgid "<b>Settings</b>"
+msgstr "<b>Ad:</b>"
+
+#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:5
+msgid "A unique name for this account to identify it personally to you."
+msgstr ""
+
+#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:7
+msgid "Cr_eate"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:8
+msgid "Imendio "
+msgstr ""
+
+#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:9
+msgid "Jabber"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:10
+msgid ""
+"To add a new account, you can click on the 'Add' button and a new entry will "
+"be created for you to started configuring.\n"
+"\n"
+"If you do not want to add an account, simply click on the account you want "
+"to configure in the list on the left."
+msgstr ""
+
+#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:13
+#, fuzzy
+msgid "_Name:"
+msgstr "Ad:"
+
+#: ../libempathy-gtk/gossip-accounts-dialog.glade.h:14
+msgid "_Type:"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-account-widget-generic.c:144
+#: ../libempathy-gtk/gossip-account-widget-generic.c:186
+#, c-format
+msgid "%s:"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-account-widget-jabber.glade.h:1
+msgid ""
+"<small><b><span foreground=\"#555\">Example: user@jabber.org</span></b></"
+"small>"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-account-widget-jabber.glade.h:2
+msgid "Forget password and clear the entry."
+msgstr ""
+
+#: ../libempathy-gtk/gossip-account-widget-jabber.glade.h:3
+msgid "Login I_D:"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-account-widget-jabber.glade.h:4
+#, fuzzy
+msgid "Pass_word:"
+msgstr "_Şifrə:"
+
+#: ../libempathy-gtk/gossip-account-widget-jabber.glade.h:5
+msgid "Reso_urce:"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-account-widget-jabber.glade.h:6
+msgid "Use encryption (SS_L)"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-account-widget-jabber.glade.h:7
+#, fuzzy
+msgid "_Port:"
+msgstr "Üstünlük:"
+
+#: ../libempathy-gtk/gossip-account-widget-jabber.glade.h:8
+msgid "_Server:"
+msgstr "_Verici:"
+
+#: ../libempathy-gtk/gossip-account-widget-jabber.glade.h:9
+msgid "jabber account settings"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.c:314
+#, fuzzy
+msgid "Disconnected"
+msgstr "_Ayır"
+
+#: ../libempathy-gtk/gossip-chat.c:858
+msgid "Insert Smiley"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.c:906
+msgid "_Check Word Spelling..."
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.c:1244
+#, fuzzy
+msgid "Connected"
+msgstr "Bağlan"
+
+#: ../libempathy-gtk/gossip-chat.glade.h:1
+msgid "C_lear"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:2
+msgid "Change _Topic..."
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:3
+msgid "Chat"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:4
+msgid "Contact Infor_mation"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:5
+msgid "Cu_t"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:6
+msgid "In_vite..."
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:7
+msgid "Insert _Smiley"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:8
+#, fuzzy
+msgid "Invitation _message:"
+msgstr "İsmarış:"
+
+#: ../libempathy-gtk/gossip-chat.glade.h:9
+msgid "Invite"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:11
+msgid "Move Tab _Left"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:12
+msgid "Move Tab _Right"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:13
+msgid "Select who would you like to invite:"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:14
+msgid "You have been invited to join a chat conference."
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:16
+msgid "_Add To Favorites"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:17
+msgid "_Close"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:18
+msgid "_Conversation"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:19
+msgid "_Copy"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:20
+msgid "_Detach Tab"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:22
+msgid "_Next Tab"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:23
+msgid "_Paste"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:24
+msgid "_Previous Tab"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:26
+msgid "_Show Contacts"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat.glade.h:27
+msgid "_Tabs"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat-view.c:544
+msgid "_Copy Link Address"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat-view.c:552
+msgid "_Open Link"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat-view.c:889
+msgid "%A %d %B %Y"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat-window.c:685
+#: ../libempathy-gtk/gossip-chat-window.c:715
+#, fuzzy
+msgid "New Message"
+msgid_plural "New Messages"
+msgstr[0] "İsmarış:"
+msgstr[1] "İsmarış:"
+
+#: ../libempathy-gtk/gossip-chat-window.c:691
+msgid "Chat Room"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-chat-window.c:696
+#: ../libempathy-gtk/gossip-chat-window.c:719
+#, fuzzy, c-format
+msgid "Conversation"
+msgid_plural "Conversations (%d)"
+msgstr[0] "Bağlan"
+msgstr[1] "Bağlan"
+
+#: ../libempathy-gtk/gossip-chat-window.c:1295
+msgid "Typing a message."
+msgstr ""
+
+#: ../libempathy-gtk/gossip-contact-list.c:290
+#, fuzzy
+msgid "_Contact"
+msgstr "Bağlan"
+
+#: ../libempathy-gtk/gossip-contact-list.c:294
+msgid "_Group"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-contact-list.c:298
+msgid "Chat with contact"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-contact-list.c:302
+#, fuzzy
+msgid "Infor_mation"
+msgstr "Bağlan"
+
+#: ../libempathy-gtk/gossip-contact-list.c:302
+msgid "View contact information"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-contact-list.c:306
+#, fuzzy
+msgid "Re_name"
+msgstr "Ad:"
+
+#: ../libempathy-gtk/gossip-contact-list.c:306
+msgid "Rename"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-contact-list.c:310
+msgid "Edit the groups and name for this contact"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-contact-list.c:314
+msgid "_Remove"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-contact-list.c:314
+msgid "Remove contact"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-contact-list.c:318
+msgid "_Invite to Chat Room"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-contact-list.c:318
+msgid "Invite to a currently open chat room"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-contact-list.c:322
+msgid "_Send File..."
+msgstr ""
+
+#: ../libempathy-gtk/gossip-contact-list.c:322
+#, fuzzy
+msgid "Send a file"
+msgstr "İsmarış:"
+
+#: ../libempathy-gtk/gossip-contact-list.c:326
+msgid "View previous conversations with this contact"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-preferences.c:250
+msgid "Language"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:1
+#, fuzzy
+msgid "<b>Appearance</b>"
+msgstr "<b>Ad:</b>"
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:2
+#, fuzzy
+msgid "<b>Audio</b>"
+msgstr "<b>Ad:</b>"
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:3
+#, fuzzy
+msgid "<b>Behaviour</b>"
+msgstr "<b>Ad:</b>"
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:4
+#, fuzzy
+msgid "<b>Contact List</b>"
+msgstr "<b>Ad:</b>"
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:5
+#, fuzzy
+msgid "<b>Languages</b>"
+msgstr "<b>Ad:</b>"
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:6
+#, fuzzy
+msgid "<b>Options</b>"
+msgstr "Bağlan"
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:7
+#, fuzzy
+msgid "<b>Visual</b>"
+msgstr "<b>Ad:</b>"
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:8
+msgid ""
+"<small>The list of languages reflects only the languages for which you have "
+"a dictionary installed.</small>"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:9
+msgid "Avatars are user chosen images shown in the contact list"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:10
+msgid "Chat Th_eme:"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:11
+msgid "Display notifications when contacts come _online"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:12
+msgid "Enable sounds when _away"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:13
+msgid "Enable sounds when _busy"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:14
+msgid "General"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:15
+msgid "Notifications"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:16
+#, fuzzy
+msgid "Preferences"
+msgstr "Qurğular"
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:17
+msgid "Show _avatars"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:18
+msgid "Show _smileys as images"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:19
+msgid "Show co_mpact contact list"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:20
+msgid "Sort by _name"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:21
+msgid "Sort by s_tate"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:22
+msgid "Spell Checking"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:23
+msgid "Themes"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:24
+msgid "_Enable spell checking"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:25
+msgid "_Open new chats in separate windows"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:26
+msgid "_Play sound when messages arrive"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-preferences.glade.h:27
+msgid "_Use for chat rooms"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-presence-chooser.c:702
+msgid "Custom message..."
+msgstr ""
+
+#. Clear list
+#: ../libempathy-gtk/gossip-presence-chooser.c:724
+msgid "Clear List..."
+msgstr ""
+
+#: ../libempathy-gtk/gossip-presence-chooser.c:803
+msgid "Are you sure you want to clear the list?"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-presence-chooser.c:807
+msgid ""
+"This will remove any custom messages you have added to the list of preset "
+"status messages."
+msgstr ""
+
+#: ../libempathy-gtk/gossip-presence-chooser.c:812
+msgid "Clear List"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-presence-chooser.glade.h:1
+#, fuzzy
+msgid "Enter status message:"
+msgstr "İsmarış:"
+
+#: ../libempathy-gtk/gossip-presence-chooser.glade.h:2
+#, fuzzy
+msgid "Status Message Presets"
+msgstr "İsmarış:"
+
+#: ../libempathy-gtk/gossip-presence-chooser.glade.h:3
+#, fuzzy
+msgid "_Add to status message list"
+msgstr "İsmarış:"
+
+#: ../libempathy-gtk/gossip-private-chat.c:198
+#, c-format
+msgid "%s went offline"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-private-chat.c:212
+#, c-format
+msgid "%s has come online"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-theme-manager.c:87
+msgid "Classic"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-theme-manager.c:88
+msgid "Simple"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-theme-manager.c:89
+msgid "Clean"
+msgstr ""
+
+#: ../libempathy-gtk/gossip-theme-manager.c:90
+msgid "Blue"
+msgstr ""
+
+#: ../src/empathy-main.c:145
+msgid "Don't connect on startup"
+msgstr ""
+
+#: ../src/empathy-main.c:155
+#, fuzzy
+msgid "- Empathy Instant Messenger"
+msgstr "İsmarış:"
+
+#, fuzzy
+#~ msgid "Active"
+#~ msgstr "_Gedişatlar"
+
+#, fuzzy
+#~ msgid "Unknown"
+#~ msgstr "Namə'lum xəta"
+
+#, fuzzy
+#~ msgid "An unknown error occurred, check your details are correct."
+#~ msgstr "Namə'lum xəta"
+
+#, fuzzy
+#~ msgid "An unknown error occurred."
+#~ msgstr "Namə'lum xəta"
+
+#, fuzzy
+#~ msgid "Connection refused."
+#~ msgstr "Bağlan"
+
+#, fuzzy
+#~ msgid "Connection timed out."
+#~ msgstr "Bağlan"
+
+#, fuzzy
+#~ msgid "new account"
+#~ msgstr "_Gedişatlar"
+
+#~ msgid "Home"
+#~ msgstr "Ev"
+
+#, fuzzy
+#~ msgid "Disconnect"
+#~ msgstr "_Ayır"
+
+#~ msgid "Connect"
+#~ msgstr "Bağlan"
+
+#, fuzzy
+#~ msgid "%d new message"
+#~ msgid_plural "%d new messages"
+#~ msgstr[0] "İsmarış:"
+#~ msgstr[1] "İsmarış:"
+
+#, fuzzy
+#~ msgid "Name"
+#~ msgstr "Ad:"
+
+#, fuzzy
+#~ msgid "Auto Connect"
+#~ msgstr "Bağlan"
+
+#, fuzzy
+#~ msgid "Information requested..."
+#~ msgstr "Bağlan"
+
+#, fuzzy
+#~ msgid "Unknown error occurred during file transfer."
+#~ msgstr "Namə'lum xəta"
+
+#, fuzzy
+#~ msgid "Connecting..."
+#~ msgstr "Bağlan"
+
+#, fuzzy
+#~ msgid "Retry connection"
+#~ msgstr "Bağlan"
+
+#~ msgid "[default]"
+#~ msgstr "[ön qurğulu]"
+
+#, fuzzy
+#~ msgid "Default"
+#~ msgstr "[ön qurğulu]"
+
+#, fuzzy
+#~ msgid "<b>Topic:</b>"
+#~ msgstr "<b>Ad:</b>"
+
+#, fuzzy
+#~ msgid "N_ame:"
+#~ msgstr "Ad:"
+
+#, fuzzy
+#~ msgid "S_erver:"
+#~ msgstr "_Verici:"
+
+#, fuzzy
+#~ msgid "<b>Groups</b>"
+#~ msgstr "<b>Ad:</b>"
+
+#, fuzzy
+#~ msgid "<b>Name</b>"
+#~ msgstr "<b>Ad:</b>"
+
+#, fuzzy
+#~ msgid "<b>Subscription</b>"
+#~ msgstr "Bağlan"
+
+#, fuzzy
+#~ msgid "Accou_nt:"
+#~ msgstr "_Gedişatlar"
+
+#, fuzzy
+#~ msgid "Con_tact:"
+#~ msgstr "Bağlan"
+
+#, fuzzy
+#~ msgid "Connect on S_tartup"
+#~ msgstr "Bağlan"
+
+#, fuzzy
+#~ msgid "Contacts"
+#~ msgstr "Bağlan"
+
+#, fuzzy
+#~ msgid "Edit Contact"
+#~ msgstr "Bağlan"
+
+#~ msgid "Email:"
+#~ msgstr "ePoçt:"
+
+#~ msgid "Name:"
+#~ msgstr "Ad:"
+
+#~ msgid "Version:"
+#~ msgstr "Buraxılış:"
+
+#, fuzzy
+#~ msgid "_Birthday:"
+#~ msgstr "_Vacibiyyət:"
+
+#, fuzzy
+#~ msgid "_Connect"
+#~ msgstr "Bağlan"
+
+#, fuzzy
+#~ msgid "_Description:"
+#~ msgstr "Buraxılış:"
+
+#~ msgid "_Disconnect"
+#~ msgstr "_Ayır"
+
+#, fuzzy
+#~ msgid "_Email:"
+#~ msgstr "ePoçt:"
+
+#, fuzzy
+#~ msgid "_For:"
+#~ msgstr "Üstünlük:"
+
+#, fuzzy
+#~ msgid "_Full Name:"
+#~ msgstr "Ad:"
+
+#, fuzzy
+#~ msgid "_Nick Name:"
+#~ msgstr "Ad:"
+
+#, fuzzy
+#~ msgid "_Password:"
+#~ msgstr "_Şifrə:"
+
+#, fuzzy
+#~ msgid "_Quit Message:"
+#~ msgstr "İsmarış:"
+
+#, fuzzy
+#~ msgid "Preset status messages"
+#~ msgstr "İsmarış:"
+
+#, fuzzy
+#~ msgid "Preset status messages."
+#~ msgstr "İsmarış:"
+
+#, fuzzy
+#~ msgid "Na_me:"
+#~ msgstr "Ad:"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "Gossip"
+#~ msgstr "Gossip"
+
+#, fuzzy
+#~ msgid "Port:"
+#~ msgstr "Üstünlük:"
+
+#, fuzzy
+#~ msgid "_No"
+#~ msgstr "Xeyir"
+
+#, fuzzy
+#~ msgid "_Yes"
+#~ msgstr "Bəli"
+
+#, fuzzy
+#~ msgid "Por_t:"
+#~ msgstr "Üstünlük:"
+
+#, fuzzy
+#~ msgid "Persian"
+#~ msgstr "Buraxılış:"
+
+#, fuzzy
+#~ msgid "Gossip - Preferences"
+#~ msgstr "Qurğular"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "From:"
+#~ msgstr "Mənbə:"
+
+#~ msgid "To:"
+#~ msgstr "Hədəf:"
+
+#~ msgid "C_onnect"
+#~ msgstr "_Bağlan"
+
+#~ msgid "_Add"
+#~ msgstr "Ə_lavə et"
+
+#, fuzzy
+#~ msgid "About Gossip"
+#~ msgstr "Gossip"
+
+#, fuzzy
+#~ msgid "translator_credits_old"
+#~ msgstr ""
+#~ "Vasif İsmailoğlu <linuxaz@azerimail.net>\n"
+#~ "Mətin Əmirov <metin@karegen.com>"
+
+#~ msgid "Others"
+#~ msgstr "Başqaları"
+
+#~ msgid "minutes"
+#~ msgstr "dəqiqə"

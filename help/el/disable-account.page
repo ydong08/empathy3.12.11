@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="disable-account" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="remove-account"/>
+    <desc>Εμποδίζοντας το <app>Empathy</app> να συνδέεται αυτόματα στους λογαριασμούς.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review"/>
+    <revision pkgversion="2.28" version="0.3" date="2009-08-27" status="review"/>
+    <revision pkgversion="2.28" version="0.4" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.5" date="2010-02-03" status="review"/>
+    <revision pkgversion="3.2" version="0.6" date="2011-12-18" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος,</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.gr</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μιχάλης Κοτσαρίνης</mal:name>
+      <mal:email>mk73628@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Απενεργοποίηση λογαριασμού</title>
+
+  <p>Μπορείτε να απενεργοποιήσετε ένα λογαριασμό για αποφυγή σύνδεσης του <app>Empathy</app> χωρίς πλήρη αφαίρεση του λογαριασμού. Μπορεί να θέλετε να απενεργοποιήσετε και να επανεργοποιήσετε έναν λογαριασμό αν θέλετε μόνο να συνδεθείτε στον λογαριασμό συγκεκριμένες φορές, αλλά να θέλετε να χρησιμοποιήσετε ακόμα το <app>Empathy</app> για άλλους λογαριασμούς.</p>
+
+  <steps>
+    <item>
+      <p>Από το παράθυρο <gui>Λίστα επαφών</gui>, επιλέξτε <guiseq><gui>Επεξεργασία</gui> <gui>Λογαριασμοί</gui></guiseq>, ή πατήστε <key>F4</key>.</p>
+    </item>
+    <item>
+      <p>Επιλέξτε το λογαριασμό που θέλετε να απενεργοποιήσετε από τη λίστα λογαριασμών στην αριστερή πλευρά του παραθύρου.</p>
+    </item>
+    <item>
+      <p>Στη δεξιά πλευρά του παραθύρου, απενεργοποιήστε τον.</p>
+    </item>
+  </steps>
+
+  <p>Για να επανενεργοποιήσετε το λογαριασμό, απλά ενεργοποιήστε τον.</p>
+</page>

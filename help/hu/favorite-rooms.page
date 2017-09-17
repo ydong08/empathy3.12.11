@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="favorite-rooms" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <link type="guide" xref="irc-manage#manage"/>
+    <link type="seealso" xref="irc-join-room"/>
+    <link type="seealso" xref="group-conversations"/>
+    <desc>Kedvenc szobák beállítása, kezelése és csatlakozás azokhoz.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-21" status="draft"/>
+    <revision pkgversion="2.30" version="0.2" date="2010-02-03" status="review"/>    
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2010, 2011, 2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Kedvenc szobák</title>
+
+  <section id="set-favorite">
+  <title>Szoba beállítása kedvencként</title>
+  <steps>
+    <item>
+      <p>Csatlakozás szobához.</p>
+      <list>
+        <item>
+          <p>IRC-szobához csatlakozással kapcsolatos további információkért lásd a <link xref="irc-join-room"/> oldalt.</p>
+        </item>
+        <item>
+          <p>Csoportos társalgáshoz csatlakozással kapcsolatos további információkért lásd a <link xref="group-conversations"/> oldalt.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>A társalgás ablakban válassza a <guiseq><gui>Társalgás</gui><gui>Kedvenc csevegőszoba</gui></guiseq> menüpontot.</p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="join-favorite">
+  <title>Belépés kedvenc szobákba</title>
+  <steps>
+    <item>
+      <p>A <gui>Partnerlista</gui> ablakban hajtsa végre a következők egyikét:</p>
+      <list>
+        <item>
+          <p>Nyomja meg az <key>F5</key> billentyűt.</p>
+        </item>
+        <item>
+          <p>Válassza a <guiseq><gui>Szoba</gui><gui>Csatlakozás a kedvencekhez</gui></guiseq> menüpontot az összes kedvenc szobába való belépéshez.</p>
+        </item>
+        <item>
+          <p>Válassza a <gui>Szoba</gui> menüpontot, majd a kedvenc szobát, amelybe be szeretne lépni.</p>
+        </item>
+      </list>
+    </item>
+  </steps>
+  <note>
+    <p>Kedvenc szobába való belépéshez csatlakozva kell lennie az internethez és fiókjához.</p>
+  </note>
+  </section>
+
+  <section id="manage-favorite">
+  <title>Kedvenc szobák kezelése</title>
+  <steps>
+    <item>
+      <p>A <gui>Partnerlista</gui> ablakban válassza a <guiseq><gui>Szoba</gui><gui>Kedvencek kezelése</gui></guiseq> menüpontot.</p>
+    </item>
+    <item>
+      <p>A <gui>Felhasználói fiók</gui> legördülő listából válassza ki azt a fiókot, amelynek kedvenc szobáit módosítani szeretné.</p>
+      <p>Válassza az <gui>Összes</gui> lehetőséget az összes kedvenc szoba megjelenítéséhez.</p>
+    </item>
+    <item>
+      <p>Válassza ki a kezelni kívánt kedvenc szobát:</p>
+      <list>
+        <item>
+          <p>Jelölje be az <gui>Automatikus kapcsolódás</gui> négyzetet a szobába való automatikus belépéshez a fiókjához kapcsolódáskor.</p>
+        </item>
+        <item>
+          <p>Kattintson az <gui>Eltávolítás</gui> gombra a szoba eltávolításához kedvencei közül.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Ha befejezte, nyomja meg a <gui>Bezárás</gui> gombot.</p>
+    </item>
+  </steps>
+  </section>
+
+</page>

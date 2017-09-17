@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-what-is" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="geolocation#geoloc"/>
+    <link type="seealso" xref="geolocation-supported"/>
+    <desc>Entender a xeolocalización.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Que é a xeolocalización</title>
+
+  <p>A xeolocalización permítelle identificar a localización xeográfica real dun equipo ou un dispositivo conectado a Internet.</p>
+  <p>Coa xeolocalización en <app>Empathy</app> vostede pode:</p>
+  <list>
+    <item>
+      <p>Publicar a súa información xeográfica aos seus contactos.</p>
+    </item>
+    <item>
+      <p>Vexa a localización xeográfica dos seus contactos e contacte con eles rapidamente.</p>
+    </item>
+    <item>
+      <p>Estabeleza a precisión da súa localización e o dispositivo que usar para descubrir a súa localización.</p>
+    </item>
+  </list>
+
+  <note style="tip">
+    <p>Para poder ver as localizacións xeográficas dos seus contactos, estes deben usan un servizo e un aplicativo que admita a xeolocalización.</p>
+  </note>
+
+</page>

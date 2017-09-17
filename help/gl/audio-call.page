@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="audio-call" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index#audio-video"/>
+    <link type="seealso" xref="audio-video"/>
+    <desc>Chamar aos seus contactos a través de Internet.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-07" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-04" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.3" date="2010-02-14" status="review"/>
+    <revision pkgversion="2.32" version="0.4" date="2010-09-09" status="review"/>   
+    <revision pkgversion="3.8" version="0.4" date="2013-04-15" status="review"/>
+
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Comezar unha conversa de son</title>
+
+  <p>Pode chamar aos seus contactos e ter conversas de son con eles. Esta característica só funciona con certo tipo de contas e require que a outra persoa teña un aplicativo que admita chamadas de son.</p>
+
+  <steps>
+    <item>
+      <p>Seleccione o contacto co que desexe ter unha conversa e seleccione <gui style="menuitem">Audiochamada</gui>.</p>
+    </item>
+    <item>
+      <p>Abrirase unha nova xanela. Cando a conexión se estabeleza verá o tempo total da conversa na parte inferior da xanela.</p>
+    </item>
+    <item>
+      <p>Para rematar a conversa, prema o botón de <gui style="button">colgar</gui></p>
+    </item>
+  </steps>
+  
+  <note style="tip">
+    <p>Para trocar unha conversa de son nunha conversa de vídeo, seleccione <guiseq><gui style="menu">Vídeo</gui><gui style="menuitem">Vídeo activado</gui></guiseq>.</p>
+  </note>
+  
+  <section id="audio-meta-contact">
+    <title>Comezar unha conversa de son con un metacontacto.</title>
+    <steps>
+      <item>
+        <p>Desde a xanela <gui>Lista de contactos</gui>, prema co botón dereito sobre un metacontacto.</p>
+      </item>
+      <item>
+        <p>Seleccione o contacto co que desexe ter unha conversa e desde o menú seleccione <gui style="menuitem">Audiochamada</gui>.</p>
+      </item>
+    </steps>
+    <note style="tip">
+      <p>Para recoñecer se un contacto é un <em>metacontacto</em>, mova o rato sobre o contacto na xanela <gui>Lista de contactos</gui> e deteñase sobre el un segundo: aparecerá unha pequena mensaxe emerxente que mostra o número de contactos que forman o metacontacto.</p>
+    </note>
+  </section>
+
+</page>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="audio-video" xml:lang="eu">
+
+  <info>
+    <link type="guide" xref="index#audio-video"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="draft"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-04" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.2" date="2010-02-14" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Partekatu Berdin 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+    <desc>Audio- nahiz bideo-solasaldi bat noiz eduki daitekeen jakinarazten du.</desc>
+
+  </info>
+
+  <title>Audio- eta bideo-euskarria</title>
+
+  <p>You can only have audio and video conversation with contacts who are using
+  an application which also supports this feature.</p>
+
+  <note>
+    <p>Audio-solasaldi bat eduki ahal izateko, zure sistema eragileak onartutako soinu-txartela eta ondo dabilen mikrofonoa behar dituzu.</p>
+    <p>Bideo-solasaldi bat eduki ahal izateko, zure sistema eragileak onartutako web-kamera eta ondo dabilen mikrofonoa behar dituzu.</p>
+  </note>
+
+  <section id="services">
+  
+  <title>Onartutako kontu motak</title>
+
+  <p>Onartutako hainbat zerbitzutako kontuak izan behar dituzu audio- eta bideo-solasaldiak eduki ahal izateko. Ondoko taulako zerrendan kontu mota bakoitzak audioa eta bideoa onartzen dituen ala ez zehazten da.</p>
+
+  <note>
+    <p>Kontu motak pluginek hornitzen dituzte. Agian zure sistemak ez ditu izango mota erabilgarri guztiak, edo agian mota guztiak ez dira zerrendan azaltzen. Bestalde, plugin eguneratuek posible egin ditzakete audio- eta bideo-solasaldiak zerrendan ez onartutako gisa azeltzen diren kontu motekin.</p>
+  </note>
+
+  <table frame="all" rules="rowgroups colgroups" shade="rows">
+    <colgroup><col/></colgroup><colgroup><col/><col/></colgroup>
+    <thead>
+      <tr>
+        <td><p>Zerbitzua</p></td>
+        <td><p>Audioa</p></td>
+        <td><p>Bideoa</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>AIM</p></td>
+        <td><p>Ez</p></td>
+        <td><p>Ez</p></td>
+      </tr>
+      <tr>
+        <td><p>gadugadu</p></td>
+        <td><p>Ez</p></td>
+        <td><p>Ez</p></td>
+      </tr>
+      <tr>
+        <td><p>Google Talk</p></td>
+        <td><p>Bai</p></td>
+        <td><p>Bai</p></td>
+      </tr>
+      <tr>
+        <td><p>Groupwise</p></td>
+        <td><p>Ez</p></td>
+        <td><p>Ez</p></td>
+      </tr>
+      <tr>
+        <td><p>ICQ</p></td>
+        <td><p>Ez</p></td>
+        <td><p>Ez</p></td>
+      </tr>
+      <tr>
+        <td><p>IRC</p></td>
+        <td><p>Ez</p></td>
+        <td><p>Ez</p></td>
+      </tr>
+      <tr>
+        <td><p>Jabber</p></td>
+        <td><p>Bai</p></td>
+        <td><p>Bai</p></td>
+      </tr>
+      <tr>
+        <td><p>myspace</p></td>
+        <td><p>Ez</p></td>
+        <td><p>Ez</p></td>
+      </tr>
+      <tr>
+        <td><p>qq</p></td>
+        <td><p>Ez</p></td>
+        <td><p>Ez</p></td>
+      </tr>
+      <tr>
+        <td><p>Hurbileko jendea</p></td>
+        <td><p>Ez</p></td>
+        <td><p>Ez</p></td>
+      </tr>
+      <tr>
+        <td><p>sametime</p></td>
+        <td><p>Ez</p></td>
+        <td><p>Ez</p></td>
+      </tr>
+      <tr>
+        <td><p>silc</p></td>
+        <td><p>Ez</p></td>
+        <td><p>Ez</p></td>
+      </tr>
+      <tr>
+        <td><p>SIP</p></td>
+        <td><p>Bai</p></td>
+        <td><p>Bai</p></td>
+      </tr>
+      <tr>
+        <td><p>Yahoo!</p></td>
+        <td><p>Ez</p></td>
+        <td><p>Ez</p></td>
+      </tr>
+      <tr>
+        <td><p>zephyr</p></td>
+        <td><p>Ez</p></td>
+        <td><p>Ez</p></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  </section>
+
+</page>

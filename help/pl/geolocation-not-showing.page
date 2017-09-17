@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-not-showing" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="geolocation#problems"/>
+    <desc>Program <app>Empathy</app> nie udostępnia informacji o położeniu geograficznym użytkownika.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Na tych samych warunkach 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Położenie geograficzne nie jest udostępniane</title>
+
+  <p>Jeśli inne kontakty nie mają dostępu do położenia użytkownika, być może program <app>Empathy</app> nie jest w stanie określić z właściwym marginesem dokładności położenia geograficznego użytkownika.</p>
+  <p>W takim wypadku położenie użytkownika nie jest udostępniane, choć wciąż można śledzić położenie innych kontaktów użytkownika.</p>
+  <p>Jeśli chcemy udostępnić swoje położenie geograficzne, można użyć zewnętrznych urządzeń GPS.</p>
+
+  <note>
+    <p>Aby udostępnić położenie geograficzne, wykorzystywany serwer Jabber musi obsługiwać protokół PEP (Personal Eventing Protocal). Lista takich serwerów jest dostępna w Internecie pod <link href="http://coccinella.im/servers/servers_by_pubsub_pep.html">tym adresem</link>. Google Talk nie obsługuje w chwili obecnej tego protokołu.</p>
+  </note>
+
+</page>

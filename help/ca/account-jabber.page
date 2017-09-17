@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-jabber" xml:lang="ca">
+
+  <info>
+    <desc>Opcions avançades per als comptes de Jabber i de Google Talk.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-27" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.12" date="2015-02-03" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Reconeixement-Compartir Igual 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Dades dels comptes de Jabber</title>
+
+  <p>Per connectar-se a la majoria de comptes de Jabber només fa falta el nom d'usuari i la contrasenya. Tot i així, per alguns comptes o tipus de xarxes haureu d'introduir informació addicional a la secció <gui>Avançada</gui>. Normalment, no us farà falta utilitzar les opcions avançades. Vegeu <link xref="add-account"/> per les instruccions generals de com afegir comptes.</p>
+
+  <note>
+    <p>Com que el Google Talk també és un tipus de compte de Jabber, les instruccions següents també serveixen.</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>Es requereix encriptació (TLS/SSL)</gui></title>
+      <title><gui>Ignora els errors del certificat SSL</gui></title>
+      <p>Sempre que sigui possible, es xifren les comunicacions entre l'<app>Empathy</app> i el servidor de Jabber. Si no és possible, s'envien els missatges sense xifrar. Seleccioneu <gui>Es requereix encriptació</gui> per impedir que l'<app>Empathy</app> es comuniqui amb el servidor de Jabber si no es pot establir una comunicació xifrada.</p>
+      <p>Some Jabber servers may encrypt data using invalid certificates,
+      or using certificates signed by unknown authorities.  You can select
+      <gui>Ignore SSL certificate errors</gui> to allow encrypted communication
+      with invalid certificates, but this allows an attacker to intercept your
+      communication with the server (including your password). You might want to
+      use this option for testing purposes, or if your server is broken and you
+      do not care about the security of your communication.</p>
+    </item>
+    <item>
+      <title><gui>Recurs</gui></title>
+      <title><gui>Prioritat</gui></title>
+      <p>Si teniu més d'una aplicació (en ordinadors diferents) connectats al mateix temps al mateix compte, podeu configurar un recurs per identificar de forma inequívoca cadascun d'ells. Per defecte l'<app>Empathy</app> utilitzarà <input>Telepathy</input> com a recurs.</p>
+      <p>Podeu establir la prioritat per especificar quina aplicació rebrà els missatges entrants dels contactes. Els missatges nous s'enviaran a l'aplicació que tingui la màxima prioritat.</p>
+    </item>
+    <item>
+      <title><gui>Sobreescriu els paràmetres del servidor</gui></title>
+      <p>L'<app>Empathy</app> utilitza els paràmetres per defecte, basant-se en el nom d'usuari, per connectar-se al servidor de Jabber. Per alguns servidors de Jabber us caldrà introduir els paràmetres del servidor manualment. Aquests paràmetres els hauria de proporcionar el proveïdor de Jabber.</p>
+    </item>
+  </terms>
+
+</page>

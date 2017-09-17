@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="hide-contacts" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#contacts"/>
+    <desc>Jak v <gui>seznamu kontatků</gui> skrýt kontakty, které jsou odpojené.</desc>
+    <revision pkgversion="2.30" version="0.1" date="2010-03-11" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Martin Picek</mal:name>
+      <mal:email>picek.martin@gnome-cesko.cz</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tomáš Karger</mal:name>
+      <mal:email>tomkarger@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Skrytí odpojených kontatků</title>
+
+  <p>Normálně <app>Empathy</app> zobrazuje všechny vaše kontakty – ty které jsou připojeny a můžete s ními navázat konverzaci, i ty, které jsou odpojeny.</p>
+  <p>Když chcete odpojené kontakty skrýt:</p>
+
+  <steps>
+    <item>
+      <p>V okně <gui>Seznam kontaktů</gui> zvolte <guiseq><gui>Zobrazit</gui> <gui>Odpojené kontakty</gui></guiseq> nebo zmáčkněte <keyseq><key>Ctrl</key> <key>H</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>Pro opětovné zobrazení zopakujte stejný postup.</p>
+    </item>
+  </steps>
+
+</page>

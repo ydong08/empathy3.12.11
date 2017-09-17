@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="group-conversations" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Iniciar ou unirse a un grupo de conversa cos seus contactos.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Conversas en grupo</title>
+  
+  <p>As conversas en grupo permítenlle manter conversas de texto con máis dun contacto ao mesmo tempo.</p>
+  <p>Para ter unha conversa en grupo debe ter rexistrado unha conta en Jabber ou Google Talk, ou en Persoas próximas.</p>
+
+  <note>
+    <p>Pode ter conversas en grupo só cos contactos que usan o mesmo servizo que o seu.</p>
+  </note>
+
+  <section id="start-group-conv">
+
+  <title>Iniciar unha conversa en grupo</title>
+
+  <steps>
+    <item>
+      <p>Desde a xanela <gui>Lista de contactos</gui> elixa <guiseq><gui>Sala</gui><gui>Unirse</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Desde a lista despregábel <gui>Conta</gui> seleccione a conta que queira usar para a conversa en grupo.</p>
+    </item>
+    <item>
+      <p>Na caixa de texto <gui>Servidor</gui> escriba o nome do servidor no que se hospedará a conversa.</p>
+      <p>Déixeo baleiro se será no servidor actual.</p>
+    </item>
+    <item>
+      <p>Na caixa de texto <gui>Sala</gui> escriba o nome que quere darlle á conversa.</p>
+      <note>
+        <p>Este será o nome da sala na que vai ter unha conversa. Este nome estará publicamente dispoñíbel para que outras persoas poidan unirse. Non é posíbel crear unha sala privada.</p>
+      </note>
+    </item>
+    <item>
+      <p>Para invitar a outros contactos a unirse á conversa en grupo, desde a xanela <gui>Lista de contactos</gui> seleccione o contacto que quere invitar e realice unha das seguintes accións:</p>
+      <list>
+        <item>
+          <p>Prema co botón dereito do rato sobre o contacto e elixa <gui>Invitar á sala de conversa</gui>.</p>
+        </item>
+        <item>
+          <p>Seleccione <guiseq><gui>Editar</gui><gui>Contacto</gui><gui>Invitar á sala de conversa</gui></guiseq>.</p>
+        </item>
+      </list> 
+      <p>Se ten máis dunha conversa en grupo aberta seleccione na que quere invitar aos seus contactos.</p>
+    </item>
+  </steps>
+  
+  </section>
+
+  <section id="join-group-conv">
+
+  <title>Unirse a unha conversa en grupo</title>
+
+  <steps>
+    <item>
+      <p>Desde a xanela <gui>Lista de contactos</gui> elixa <guiseq><gui>Sala</gui><gui>Unirse</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Expanda a sección <gui>Lista de salas</gui> para ver todas as salas existentes.</p>
+    </item>
+    <item>
+      <p>Prema dúas veces sobre o nome dunha sala á que queira unirse.</p>
+    </item>
+  </steps>
+
+  <p>Non é posíbel unirse a todas as salas existentes. Algunhas salas poden requirir un contrasinal ou poden ser de só invitación. <app>Empathy</app> non é compatíbel este tipo de salas.</p>
+
+  <!-- TODO: find out where the password protected or invitation only icons are
+  and create a table. -->
+
+  </section>
+
+</page>

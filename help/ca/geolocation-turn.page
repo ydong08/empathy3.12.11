@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="geolocation-turn" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="geolocation#geoloc"/>
+    <link type="seealso" xref="geolocation-privacy"/>
+    <desc>Com activar i desactivar la geolocalització a l'<app>Empathy</app>.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Reconeixement-Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Activeu/Desactiveu la geolocalització</title>
+
+  <steps>
+    <item>
+      <p>Seleccioneu <guiseq><gui>Edita</gui><gui>Preferències</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Seleccioneu la pestanya <gui>Localització</gui>.</p>
+    </item>
+    <item>
+      <p>Seleccioneu <gui>Publica la localització per als meus contactes</gui> per activar-la.</p>
+      <p>Per desactivar la geolocalització, desseleccioneu-ho.</p>
+    </item>
+    <item>
+      <p>Per augmentar l'exactitud de la vostra posició, desseleccioneu <gui>Redueix la precisió de la localització</gui>.</p>
+    </item>
+    <item>
+      <p>Si teniu un dispositiu extern com un GPS o voleu enviar una posició més exacta, seleccioneu l'opció apropiada a la secció <gui>Fonts d'ubicació</gui>.</p>
+    </item>
+  </steps>
+
+</page>

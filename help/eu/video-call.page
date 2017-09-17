@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="video-call" xml:lang="eu">
+
+  <info>
+    <link type="guide" xref="index#audio-video"/>
+    <link type="seealso" xref="audio-video"/>
+    <link type="seealso" xref="audio-call"/>
+    <desc>Hasi bideo-solasdaldi bat zure kontaktuetako batekin.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-04" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.3" date="2010-02-14" status="review"/>
+    <revision pkgversion="3.2" version="0.4" date="2011-12-18" status="review"/>
+    <revision pkgversion="3.8" version="0.4" date="2013-04-15" status="review"/>
+
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Partekatu Berdin 3.0</p>
+    </license>
+  </info>
+  <title>Hasi bideo-solasaldi bat</title>
+
+  <p>If you have a webcam, you can call your contacts and have a video
+  conversation with them. This feature only works with certain types of
+  accounts, and it requires the other person to have an application that
+  supports video calls.</p>
+
+  <steps>
+    <item>
+      <p>Right-click on the contact that you want to call and select
+      <gui style="menuitem">Video Call</gui>.</p>
+    </item>
+    <item>
+      <p>A new window will open. When the connection is established, you will
+      see the total conversation time at the bottom of the window.</p>
+    </item>
+    <item>
+      <p>To end the conversation, click on the <gui style="button">hang
+      up</gui> button.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Bideo-solasaldi bat audio-solasaldi bihurtzeko, aukeratu <guiseq><gui style="menu">Bideoa</gui><gui style="menuitem">Desaktibatu bideoa</gui></guiseq>.</p>
+  </note>
+
+  <section id="video-meta-contact">
+    <title>Hasi bideo-solasaldi bat metakontaktu batekin</title>
+    <steps>
+      <item>
+        <p><gui>Kontaktu-zerrenda</gui> leihoan, egin klik eskuin-botoiarekin metakontaktuan.</p>
+      </item>
+      <item>
+        <p>Hautatu zein kontakturekin eduki nahi duzun solasaldia, eta hautatu menuan <gui style="menuitem">Bideo-deia</gui>.</p>
+      </item>
+    </steps>
+    <note style="tip">
+      <p>Kontaktu bat <em>metakontaktua</em> den jakiteko, mugitu sagua kontaktu batean <gui>Kontaktu-zerrenda</gui> leihoan, eta utzi geldirik segundo batez: laster-leiho txiki bat azalduko da, metakontaktua osatzen duten kontaktuen kopurua erakusteko.</p>
+    </note>
+  </section>
+</page>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="send-message" xml:lang="eu">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Bidali mezu bat zure kontaktuetako bati.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <revision pkgversion="2.32" version="0.3" date="2010-09-09" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Partekatu Berdin 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  </info>
+
+  <title>Bidali mezu bat norbaiti</title>
+
+  <steps>
+    <item>
+      <p><gui>Kontaktu-zerrenda</gui> leihoan, egin klik bikoitza solasaldia izan beharreko kontaktuaren izenean.</p>
+    </item>
+    <item>
+      <p>Leiho berria irekiko da. Idatzi mezu bat leihoaren behealdeko koadroan, eta sakatu <key>Sartu</key>, bidaltzeko.</p>
+    </item>
+  </steps>
+  
+  <section id="send-meta-contact" style="2column">
+    <title>Bidali mezu bat metakontaktu bati</title>
+    <steps>
+      <item>
+        <p><gui>Kontaktu-zerrenda</gui> leihoan, egin klik eskuin-botoiarekin metakontaktuan.</p>
+      </item>
+      <item>
+        <p>Hautatu zein kontakturekin eduki nahi duzun solasaldia, eta hautatu menuan <gui style="menuitem">Berriketa</gui>.</p>
+      </item>
+    </steps>
+    <note style="tip">
+      <p>Kontaktu bat <em>metakontaktua</em> den jakiteko, mugitu sagua kontaktu batean <gui>Kontaktu-zerrenda</gui> leihoan, eta utzi geldirik segundo batez: laster-leiho txiki bat azalduko da, metakontaktua osatzen duten kontaktuen kopurua erakusteko.</p>
+    </note>
+  </section>
+
+</page>

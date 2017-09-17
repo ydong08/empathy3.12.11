@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-privacy" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="geolocation#geoloc"/>
+    <desc>Jaké informace jsou posílány a komu.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Martin Picek</mal:name>
+      <mal:email>picek.martin@gnome-cesko.cz</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tomáš Karger</mal:name>
+      <mal:email>tomkarger@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Soukromí v geolokaci</title>
+
+  <section id="info-sent">
+  <title>Jaké informace jsou posílány</title>
+  <p>Posílat je možné tyto informace o vás: zemi, region, lokalitu, oblast, ulici, budovu, podlaží, místnost, psč, zeměpisnou šířku a délku, rychlost a směr pohybu.</p>
+  <p>Přesnost a množství informací o vaší zeměpisné poloze odvisí od softwaru a infrastruktury použíté ke zjištění vaší polohy.</p>
+  <p>Různé druhy sítí mohou mít nastavenou různou přesnost a mohou posílat různé informace. Použití vhodného zařízení, jako je GPS nebo mobilní telefon, může zvýšit přesnost posílaných informací.</p>
+  <p>Když je zapnutý režim soukromí, nebude se posílat nic přesnějšího, než je město, i když budete používat nějaké přesné zařízení.</p>
+  </section>
+  
+  <section id="see-info">
+  <title>Kdo může posílané informace vidět</title>
+  <p>Vaši zeměpisnou polohu mohou vidět pouze vaše kontakty.</p>
+  </section>
+  
+  <section id="privacy-mode">
+  <title>Co je to režim soukromí</title>
+  <p>Režim soukromí, který je standardně zapnutý, je vlastně režim omezení přesnosti. Záměrně je snížena přesnost vaší zeměpisné polohy posílané vašim kontaktům.</p>
+  </section>
+  
+  <section id="privacy-overview">
+  <title>Informace o soukromí</title>
+  <p>Přehled různých nastavení soukromí geolokace v <app>Empathy</app>.</p>
+  <list>
+    <item>
+      <p>Geolokace není ve výchozím stavu zapnutá.</p>
+    </item>
+    <item>
+      <p>Režim soukromí je ve výchozím stavu zapnutý.</p>
+    </item>
+    <item>
+      <p>Režim soukromí má vyšší prioritu než přesnost specializovaného zařízení pro určování polohy.</p>
+    </item>
+    <item>
+      <p>Vaši polohu mohou vidět jen vaše kontakty.</p>
+    </item>
+  </list>
+  </section>
+
+</page>

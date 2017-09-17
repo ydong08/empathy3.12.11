@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="prob-conn-acctdisabled" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="prob-conn"/>
+    <desc>El compte del servei de missatgeria instantània que voleu utilitzar no està habilitat a la llista de comptes.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review"/>
+    <revision pkgversion="3.2" version="0.3" date="2011-12-18" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Reconeixement-Compartir Igual 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>El meu compte està habilitat</title>
+
+  <p>Si el compte de missatgeria instantània que voleu utilitzar no està habilitat a la llista inferior quan intenteu iniciar una conversa o unir-vos a una sala, els detalls del vostre compte poden no ser correctes.</p>
+
+  <steps>
+    <item>
+      <p>Assegureu-vos que esteu connectats a Internet o a una xarxa d'àrea local.</p>
+    </item>
+    <item>
+      <p>Escolliu <guiseq><gui>Edita</gui><gui>Comptes</gui></guiseq> i seleccioneu el compte que no està funcionant.</p>
+    </item>
+    <item>
+      <p>Escriviu el nom d'usuari i la contrasenya de nou per estar segurs que són correctes.</p>
+    </item>
+    <item>
+      <p>Comproveu a la secció <gui>Avançat</gui> que les dades siguin les correctes. Hauríeu de poder trobar aquestes dades al lloc web del servei de missatgeria.</p>
+    </item>
+    <item>
+      <p>Comproveu que el compte està habilitat.</p>
+    </item>
+  </steps>
+
+</page>

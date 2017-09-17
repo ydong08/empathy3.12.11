@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="salut-protocol" xml:lang="eu">
+
+  <info>
+    <link type="seealso" xref="create-account"/>
+    <desc>Hurbileko jendea eginbidea ulertzea.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-12" status="draft"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Partekatu Berdin 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Zer da Hurbileko jendea?</title>
+
+  <p>Hurbileko jendea eginbidea zerbitzaririk gabeko komunikazio-zerbitzu bat da: ez duzu zerbitzari zentral batekin konektatu eta autentifikatu behar, erabili ahal izateko.</p>
+  <p>Halako zerbitzaririk gabeko mezularitza-sistemak sare lokaletara mugatzen dira, eta ez da Interneteko konexio aktiborik behar.</p>
+  <p>Sare lokal berean zerbitzu hau erabiltzen duen jendea automatikoki detektatuko da, eta mezuak nahiz fitxategiak bidali ahal izango zaizkie, beste zerbitzu batzuekin batera.</p>
+  <p>Sare lokal moderno guztiek gai izan beharko lukete halako zerbitzuak onartzeko.</p>
+</page>

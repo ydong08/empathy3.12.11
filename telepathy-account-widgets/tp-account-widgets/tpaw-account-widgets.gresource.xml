@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/gnome/AccountWidgets">
+    <file>tpaw-irc-networks.dtd</file>
+    <file compressed="true">tpaw-account-widget-generic.ui</file>
+    <file compressed="true">tpaw-account-widget-jabber.ui</file>
+    <file compressed="true">tpaw-account-widget-msn.ui</file>
+    <file compressed="true">tpaw-account-widget-sip.ui</file>
+    <file compressed="true">tpaw-account-widget-local-xmpp.ui</file>
+    <file compressed="true">tpaw-account-widget-irc.ui</file>
+    <file compressed="true">tpaw-account-widget-icq.ui</file>
+    <file compressed="true">tpaw-account-widget-yahoo.ui</file>
+    <file compressed="true">tpaw-account-widget-groupwise.ui</file>
+    <file compressed="true">tpaw-account-widget-aim.ui</file>
+  </gresource>
+</gresources>
+

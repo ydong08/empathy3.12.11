@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-supported" xml:lang="sl">
+
+  <info>
+    <desc>Storitve, ki podpirajo geo-lego in združljivost.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="draft">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Podprte storitve</title>
+
+  <p>Zmožnost geo-lege je trenutno združljiva le s storitvijo Jabber. Za uporabo zmožnosti morate imeti vi in vaš stik račun Jabber.</p>
+  
+  <note>
+    <p>Zahtevano je, da strežnik, ki ga uporabljate, podpira zmožnost geo-lege. Podpira jo večina strežnikov Jabber. Za več podrobnosti si oglejte si dokumentacijo na spletišču vaše storitve.</p>
+  </note>
+  
+  <section id="compatibility">
+  <title>Združljivost</title>
+  
+  <p>Zmožnost geo-lege <app>Empathy</app> ni združljiva z drugimi storitvami geografskih položajev kot so <em>Google Latitude</em>, <em>Yahoo Fire Eagle</em> ali <em>Brightkite</em>.</p>
+  
+  </section>
+  
+</page>

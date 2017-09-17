@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="tasks" id="prev-conv" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>浏览或搜索您之前的会话。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-17" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.2" version="0.2" date="2011-12-19" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>知识共享-相同方式共享 (Creative Commons Share Alike) 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>查看之前的会话</title>
+
+  <p><app>Empathy</app> 自动保存您和联系人的所有文字会话。您可以<link xref="#search">搜索之前全部的会话</link>或者根据联系人和日期<link xref="#browse">浏览之前的会话</link>。</p>
+
+  <note>
+    <p>您不需要连接到网络来查看和搜索您之前的会话。</p>
+  </note>
+
+  <section id="search" style="task">
+  <title>搜索之前的会话</title>
+
+  <p>您可以在之前的所有会话中进行全文搜索。</p>
+
+  <steps>
+    <item>
+      <p>From the <gui>Contact List</gui> window, choose <guiseq><gui>View</gui>
+      <gui>Previous Conversations</gui></guiseq>.  Alternatively, press <key>F3</key>.</p>
+    </item>
+    <item>
+      <p>在顶部的下拉列表中选择一个帐号。下方显示该帐号的联系人列表和聊天室。</p>
+    </item>
+    <item>
+      <p>在<gui>搜索</gui>文本框输入您要搜索的文本。</p>
+    </item>
+    <item>
+      <p>符合搜索条件的会话会显示在下面的列表中。会话默认按日期排序。</p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="browse" style="task">
+  <title>浏览之前的会话</title>
+
+  <p>您可以按时间顺序浏览之前和联系人或在聊天室中的会话。</p>
+
+  <steps>
+    <item>
+      <p>From the <gui>Contact List</gui> window, choose <guiseq><gui>View</gui>
+      <gui>Previous Conversations</gui></guiseq>.  Alternatively, press <key>F3</key>.</p>
+    </item>
+    <item>
+      <p>在左上的下拉列表中选择一个帐号。下方会显示这个帐号的联系人和聊天室列表。</p>
+    </item>
+    <item>
+      <p>选择一个联系人或聊天室以查看之前的会话。默认显示的是最近的会话。</p>
+    </item>
+    <item>
+      <p>您可以按日期浏览您的会话。如果在某日您所选择的帐号有过会话，该日会以粗体显示。点击一个日期以选择它。点击月和年旁的箭头以浏览更早的日期。</p>
+    </item>
+  </steps>
+
+  <p>您可以在顶部的搜索栏中输入文字，以在会话中搜索文字。匹配的会话会显示出来。</p>
+
+  <note style="tip">
+    <p>在 <gui>联系人列表</gui> 窗口中，您可以快速查看与某个联系人之前进行过的会话。右键点击该联系人，选择 <gui>最近回话</gui>。与该联系人的<gui>最近会话</gui>窗口将会打开，并且选中该联系人。</p>
+  </note>
+
+  </section>
+</page>

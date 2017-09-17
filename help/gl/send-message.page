@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="send-message" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Enviar unha mensaxe a un dos seus contactos.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <revision pkgversion="2.32" version="0.3" date="2010-09-09" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Enviar unha mensaxe a alguén</title>
+
+  <steps>
+    <item>
+      <p>Desde a xanela <gui>Lista de contactos</gui>, prema dúas veces sobre o nome do contacto co que quere ter unha conversa.</p>
+    </item>
+    <item>
+      <p>Abrirase unha nova xanela. Escriba a mensaxe na caixa na parte inferior da xanela e prema <placeholder-1/> para enviala.</p>
+    </item>
+  </steps>
+  
+  <section id="send-meta-contact" style="2column">
+    <title>Enviar unha mensaxe a un metacontacto</title>
+    <steps>
+      <item>
+        <p>Desde a xanela <gui>Lista de contactos</gui>, prema co botón dereito sobre un metacontacto.</p>
+      </item>
+      <item>
+        <p>Prema co botón dereito sobre o nome do contacto co que quere manter unha conversa e desde o menú seleccione <gui style="menuitem">Conversa</gui>.</p>
+      </item>
+    </steps>
+    <note style="tip">
+      <p>Para recoñecer se un contacto é un <em>metacontacto</em>, mova o rato sobre o contacto na xanela <gui>Lista de contactos</gui> e deteñase sobre el un segundo: aparecerá unha pequena mensaxe emerxente que mostra o número de contactos que forman o metacontacto.</p>
+    </note>
+  </section>
+
+</page>

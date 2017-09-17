@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="hide-contacts" xml:lang="eu">
+
+  <info>
+    <link type="guide" xref="index#contacts"/>
+    <desc>Ezkutatu lineaz kanpoko kontaktuak <gui>Kontaktu-zerrendan</gui>.</desc>
+    <revision pkgversion="2.30" version="0.1" date="2010-03-11" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Partekatu Berdin 3.0</p>
+    </license>    
+  </info>
+
+  <title>Ezkutatu lineaz kanpoko kontaktuak</title>
+
+  <p>Normalean, <app>Empathy</app>-k zure kontaktu guztiak erakusten ditu: linean daudenak (horiekin solasaldi bat izan dezakezu), eta lineaz kanpo daudenak.</p>
+  <p>Lineaz kanpo dauden kontaktuak ezkutatzeko:</p>
+
+  <steps>
+    <item>
+      <p>From the <gui>Contact List</gui> window, choose <guiseq><gui>View</gui>
+      <gui>Offline Contacts</gui></guiseq>, or press <keyseq><key>Ctrl</key>
+      <key>H</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>Lineaz kanpoko kontaktuak berriro erakusteko, errepikatu goiko prozedura.</p>
+    </item>
+  </steps>
+
+</page>

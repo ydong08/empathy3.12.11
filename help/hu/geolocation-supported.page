@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-supported" xml:lang="hu">
+
+  <info>
+    <desc>A helymeghatározást támogató szolgáltatások és kompatibilitás.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="draft">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2010, 2011, 2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Támogatott szolgáltatások</title>
+
+  <p>Jelenleg a helymeghatározási szolgáltatás csak a Jabber szolgáltatással kompatibilis. Használatához Önnek és partnereinek is Jabber fiókot kell használniuk.</p>
+  
+  <note>
+    <p>Az Ön által használt kiszolgálónak is támogatnia kell a helymeghatározási szolgáltatást. A legtöbb Jabber kiszolgáló támogatja. További információkért nézze meg a szolgáltatás webhelyének dokumentációját.</p>
+  </note>
+  
+  <section id="compatibility">
+  <title>Kompatibilitás</title>
+  
+  <p>Az <app>Empathy</app> helymeghatározási szolgáltatása nem kompatibilis más helymeghatározási szolgáltatásokkal, mint például a <em>Google Latitude</em>, <em>Yahoo Fire Eagle</em> vagy <em>Brightkite</em>.</p>
+  
+  </section>
+  
+</page>

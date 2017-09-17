@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="hide-contacts" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="index#contacts"/>
+    <desc><gui>相手先の一覧</gui>で、オフラインの相手先を隠します。</desc>
+    <revision pkgversion="2.30" version="0.1" date="2010-03-11" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>クリエイティブ・コモンズ・ライセンス 継承 3.0</p>
+    </license>    
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mako N</mal:name>
+      <mal:email>mako@pasero.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>オフラインの相手先を隠す</title>
+
+  <p>通常、<app>Empathy</app> はすべての相手先を表示します。つまり、会話できるオンラインの相手先と、オフラインの相手先です。</p>
+  <p>オフラインの相手先を隠すには、次の手順で行います。</p>
+
+  <steps>
+    <item>
+      <p><gui>相手先の一覧</gui>ウィンドウから、<guiseq><gui>表示</gui><gui>オフラインの相手先を表示</gui></guiseq>を選ぶか、<keyseq><key>Ctrl</key> <key>H</key></keyseq> を押します。</p>
+    </item>
+    <item>
+      <p>オフラインの相手先をふたたび表示するには、上記と同じ手順を行います。</p>
+    </item>
+  </steps>
+
+</page>

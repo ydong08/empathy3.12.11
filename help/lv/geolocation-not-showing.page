@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-not-showing" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="geolocation#problems"/>
+    <desc><app>Empathy</app> nepublicē tavu ģeogrāfisko atrašanās vietu.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0 licence.</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Ģeogrāfiskā atrašanās vieta netiek publicēta</title>
+
+  <p>Ja tavi kontakti neredz tavu atrašanās vietu, <app>Empathy</app>, iespējams, nav to spējusi noteikt ar labu precizitāti.</p>
+  <p>Šajā gadījumā tava atrašanās vieta netiek publicēta, taču tu vēl jo projām var redzēt savu kontaktu atrašanās vietas.</p>
+  <p>Ja tu vēlies publicēt šo atrašanās vietu, izmēģini izmantot kādu ārējo ierīci, piemēram GPS.</p>
+
+  <note>
+    <p>Lai varētu publicēt savu ģeogrāfisko atrašanās vietu, tavam Jabber serverim ir jāatbalsta "Personal Eventing Protocal (PEP)". Saraksts ar  <link href="http://coccinella.im/servers/servers_by_pubsub_pep.html">serveriem, kuri atbalsta PEP</link>, ir pieejams tiešsaistē. Google Talk pagaidām šo funkciju neatbalsta.</p>
+  </note>
+
+</page>

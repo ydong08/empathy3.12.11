@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="prob-conn-neterror" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="prob-conn"/>
+    <desc>「<gui>ネットワークのエラーです</gui>」というエラーメッセージが主ウィンドウに表示されます。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review"/>
+    <revision pkgversion="2.28" version="0.3" date="2010-02-16" status="review"/>
+    <revision pkgversion="3.2" version="0.4" date="2011-12-18" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>クリエイティブ・コモンズ・ライセンス 継承 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mako N</mal:name>
+      <mal:email>mako@pasero.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>「ネットワークのエラーです」というメッセージが表示されます</title>
+
+  <p>この種のエラーは、何らかの理由で <app>Empathy</app> がインスタントメッセージング・サービスに接続できない場合に起こります。</p>
+  <p>また、IRC アカウントを、ニックネームの設定をせずに使おうとする場合にも起こります。</p>
+
+  <steps>
+    <item>
+      <p>インターネットまたはローカルエリアネットワークに接続していることを確認します。</p>
+    </item>
+    <item>
+      <p>Click the <media type="image" mime="image/png" src="figures/gtk-edit.png" its:translate="no"><span its:translate="yes">edit</span></media>
+      icon in the error message.</p>
+    </item>
+    <item>
+      <p><gui>詳細</gui>セクションのすべての情報が正しいことを確認します。これらの情報は、メッセージングサービスのウェブサイトで確認できるでしょう。</p>
+<!--
+        <item>
+          <p>
+            In the case of an IRC account, type your nickname in the <gui>Nickname</gui>
+            text box.
+          </p>
+        </item>
+-->
+    </item>
+    <item>
+      <p>アカウントのスイッチをオフにして再びオンにし、サービスに再接続します。</p>
+    </item>
+  </steps>
+
+  <section id="prob-conn-neterror-proxy">
+    <title>プロキシのサポート</title>
+    <p>現在のところ、<app>Empathy</app> はプロキシの利用についての設定はできません。</p>
+  </section>
+
+</page>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="link-contacts" xml:lang="el">
+      
+  <info>
+    <link type="guide" xref="index#contacts"/>
+    <link type="seealso" xref="send-message"/>
+    <link type="seealso" xref="audio-call"/>
+    <link type="seealso" xref="video-call"/>
+    <desc>Συγχωνεύστε και διαχωρίστε διαφορετικές επαφές σε μία.</desc>
+    <revision pkgversion="2.32" version="0.1" date="2010-09-06" status="draft"/>
+    <revision pkgversion="2.32" version="0.2" date="2010-09-09" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Shobha Tyagi</name>
+      <email>tyagishobha@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος,</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.gr</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μιχάλης Κοτσαρίνης</mal:name>
+      <mal:email>mk73628@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Σύνδεση και αποσύνδεση επαφών</title>
+  <p>Αν μία, ή περισσότερες, από τις επαφές σας έχει πολλαπλούς λογαριασμούς με διαφορετικές υπηρεσίες μηνυμάτων, μπορείτε να συγχωνεύσετε αυτούς τους λογαριασμούς σε έναν μοναδικό λογαριασμό.</p>
+  <p>Η επαφή που προκύπτει ονομάζεται <em>μετα-επαφή</em>: μια επαφή αποτελούμενη από διαφορετικές απλές επαφές.</p>
+  <p>Αν έχετε μια επαφή που λέγεται Μαρία Παπαδοπούλου και χρησιμοποιεί τρεις διαφορετικές υπηρεσίες μηνυμάτων όπως:</p>
+  <list>
+    <item>
+      <p>maria.papad@gmail</p>
+    </item>
+    <item>
+      <p>maria_papad@hotmail</p>
+    </item>
+    <item>
+      <p>janes@yahoo</p>
+    </item>
+  </list>
+  <p>Μπορείτε να συνδυάσετε αυτές τις επαφές σε μία μόνο Μαρία Παπαδοπούλου.</p>
+  <section id="linking">
+  <title>Σύνδεση επαφών</title>
+  <p>Ο τρόπος που μπορείτε να συνδέσετε τις επαφές σας είναι ο εξής:</p>
+    <steps>
+      <item>
+        <p>Πατήστε το κουμπί επιλογής για να επιλέξετε τις καταχωρίσεις που θέλετε να συνδέσετε. Αυτό θα ενεργοποιήσει την <em>κατάσταση επιλογής</em> και θα μπορέσετε να δείτε ένα πλαίσιο ελέγχου για κάθε καταχώριση.</p>
+      </item>
+      <item>
+        <p>Σημειώστε τα πλαίσια ελέγχου που αντιστοιχούν στις καταχωρίσεις <app>Επαφές</app> που ανήκουν στην ίδια επαφή.</p>
+      </item>
+      <item>
+        <p>Πατήστε <gui style="button">Σύνδεση</gui>.</p>
+      </item>
+    </steps>
+    <p>Επαναλάβετε τα βήματα 3 και 4 για να συνδέσετε άλλες επαφές.</p>
+  </section>
+  
+  <section id="unlinking">
+  <title>Αποσύνδεση επαφών</title>
+  <p>Για να αποσυνδέσετε μια συνδεμένη επαφή:</p>
+    <steps>
+      <item>
+        <p>Επιλέξτε την επαφή από τον κατάλογο.</p>
+      </item>
+      <item>
+        <p>Πατήστε <gui style="button">Επεξεργασία</gui> στην πάνω δεξιά γωνία του <app>Επαφές</app>.</p>
+      </item>
+      <item>
+	<p>Πατήστε <gui style="button">Συνδεμένες επαφές</gui>.</p>
+      </item>
+      <item>
+	<p>Πατήστε στο <gui style="button">Αφαίρεση</gui> για να αποσυνδέσετε μια καταχώριση από την συνδεμένη επαφή.</p>
+      </item>
+      <item>
+        <p>Πατήστε <gui style="button">Κλείσιμο</gui> αν δεν θέλετε να αποσυνδέσετε περισσότερες επαφές.</p>
+      </item>
+      <item>
+        <p>Τελικά, πατήστε <gui style="button">Έτοιμο</gui> για να τελειώσετε την επεξεργασία.</p>
+      </item>
+    </steps>
+  </section>
+</page>

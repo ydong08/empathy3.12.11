@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="prob-conn-neterror" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="prob-conn"/>
+    <desc>Apareix un missatge d'error a la finestra principal que diu «<gui>Error de xarxa</gui>».</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review"/>
+    <revision pkgversion="2.28" version="0.3" date="2010-02-16" status="review"/>
+    <revision pkgversion="3.2" version="0.4" date="2011-12-18" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Reconeixement-Compartir Igual 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Veig un missatge que diu «Error de xarxa»</title>
+
+  <p>Aquest tipus d'errada succeeix quan l'<app>Empathy</app> no pot comunicar-se amb el servei de missatgeria instantània per alguna raó.</p>
+  <p>També es pot produir quan intenteu utilitzar un compte d'IRC sense configurar el sobrenom.</p>
+
+  <steps>
+    <item>
+      <p>Assegureu-vos que esteu connectats a Internet o a una xarxa d'àrea local.</p>
+    </item>
+    <item>
+      <p>Click the <media type="image" mime="image/png" src="figures/gtk-edit.png" its:translate="no"><span its:translate="yes">edit</span></media>
+      icon in the error message.</p>
+    </item>
+    <item>
+      <p>Comproveu a la secció <gui>Avançat</gui> que les dades siguin les correctes. Hauríeu de poder trobar aquestes dades al lloc web del servei de missatgeria.</p>
+<!--
+        <item>
+          <p>
+            In the case of an IRC account, type your nickname in the <gui>Nickname</gui>
+            text box.
+          </p>
+        </item>
+-->
+    </item>
+    <item>
+      <p>Desactiveu el compte i torneu-lo a activar de nou per intentar que es connecti de nou al servei.</p>
+    </item>
+  </steps>
+
+  <section id="prob-conn-neterror-proxy">
+    <title>Accés a través de servidor intermediari</title>
+    <p>Ara mateix l'<app>Empathy</app> no es pot configurar perquè funcioni amb un servidor intermediari.</p>
+  </section>
+
+</page>

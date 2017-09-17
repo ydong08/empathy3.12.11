@@ -1,0 +1,94 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+
+data/empathy.desktop.in.in
+data/empathy.appdata.xml.in
+[type: gettext/gsettings]data/org.gnome.Empathy.gschema.xml
+
+libempathy/empathy-ft-handler.c
+libempathy/empathy-message.c
+libempathy/empathy-utils.c
+
+libempathy-gtk/empathy-account-chooser.c
+libempathy-gtk/empathy-avatar-image.c
+libempathy-gtk/empathy-bad-password-dialog.c
+libempathy-gtk/empathy-base-password-dialog.c
+libempathy-gtk/empathy-call-utils.c
+libempathy-gtk/empathy-chat.c
+[type: gettext/glade]libempathy-gtk/empathy-chat.ui
+libempathy-gtk/empathy-contact-blocking-dialog.c
+[type: gettext/glade]libempathy-gtk/empathy-contact-blocking-dialog.ui
+libempathy-gtk/empathy-contact-search-dialog.c
+libempathy-gtk/empathy-contact-widget.c
+[type: gettext/glade]libempathy-gtk/empathy-contact-widget.ui
+libempathy-gtk/empathy-groups-widget.c
+libempathy-gtk/empathy-individual-dialogs.c
+libempathy-gtk/empathy-individual-edit-dialog.c
+libempathy-gtk/empathy-individual-information-dialog.c
+libempathy-gtk/empathy-individual-menu.c
+libempathy-gtk/empathy-individual-view.c
+libempathy-gtk/empathy-individual-widget.c
+[type: gettext/glade]libempathy-gtk/empathy-individual-widget.ui
+libempathy-gtk/empathy-local-xmpp-assistant-widget.c
+libempathy-gtk/empathy-log-window.c
+[type: gettext/glade]libempathy-gtk/empathy-log-window.ui
+libempathy-gtk/empathy-new-account-dialog.c
+libempathy-gtk/empathy-new-call-dialog.c
+libempathy-gtk/empathy-new-message-dialog.c
+libempathy-gtk/empathy-password-dialog.c
+libempathy-gtk/empathy-presence-chooser.c
+libempathy-gtk/empathy-protocol-chooser.c
+libempathy-gtk/empathy-search-bar.c
+[type: gettext/glade]libempathy-gtk/empathy-search-bar.ui
+libempathy-gtk/empathy-sound-manager.c
+libempathy-gtk/empathy-status-preset-dialog.c
+[type: gettext/glade]libempathy-gtk/empathy-status-preset-dialog.ui
+libempathy-gtk/empathy-subscription-dialog.c
+libempathy-gtk/empathy-theme-adium.c
+libempathy-gtk/empathy-theme-manager.c
+libempathy-gtk/empathy-tls-dialog.c
+libempathy-gtk/empathy-ui-utils.c
+libempathy-gtk/empathy-webkit-utils.c
+libempathy-gtk/empathy-roster-model.h
+libempathy-gtk/empathy-roster-contact.c
+
+src/empathy-about-dialog.c
+src/empathy-accounts.c
+src/empathy-accounts-dialog.c
+[type: gettext/glade]src/empathy-accounts-dialog.ui
+src/empathy-auth-client.c
+src/empathy.c
+src/empathy-call.c
+src/empathy-call-observer.c
+src/empathy-call-window.c
+[type: gettext/glade]src/empathy-call-window-fullscreen.ui
+[type: gettext/glade]src/empathy-call-window.ui
+src/empathy-chat.c
+src/empathy-chatrooms-window.c
+[type: gettext/glade]src/empathy-chatrooms-window.ui
+src/empathy-chat-window.c
+[type: gettext/glade]src/empathy-chat-window.ui
+src/empathy-debugger.c
+src/empathy-debug-window.c
+src/empathy-event-manager.c
+src/empathy-ft-manager.c
+[type: gettext/glade]src/empathy-ft-manager.ui
+src/empathy-import-dialog.c
+[type: gettext/glade]src/empathy-import-dialog.ui
+src/empathy-import-widget.c
+src/empathy-import-widget.c
+src/empathy-invite-participant-dialog.c
+src/empathy-new-chatroom-dialog.c
+[type: gettext/glade]src/empathy-new-chatroom-dialog.ui
+src/empathy-notifications-approver.c
+src/empathy-preferences.c
+[type: gettext/glade]src/empathy-preferences.ui
+src/empathy-roster-window.c
+[type: gettext/glade]src/empathy-roster-window-menubar.ui
+[type: gettext/glade]src/empathy-roster-window.ui
+src/empathy-status-icon.c
+[type: gettext/glade]src/empathy-status-icon.ui
+
+ubuntu-online-accounts/cc-plugins/account-plugins/empathy-accounts-plugin-widget.c
+ubuntu-online-accounts/cc-plugins/app-plugin/empathy-app-plugin-widget.c
+[type: gettext/xml]ubuntu-online-accounts/empathy.application.in

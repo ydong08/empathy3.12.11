@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="concept" id="status-icons" xml:lang="ca">
+
+  <info>
+    <desc>Explicació dels diversos estats i icones d'estat.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-07-18" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-07-21" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-01" status="done"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Reconeixement-Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Icones i tipus d'estats</title>
+
+  <terms>
+    <item>
+      <title><media type="image" mime="image/png" src="figures/available.png" its:translate="no"><span its:translate="yes">Available icon</span></media>
+      <gui>Available</gui></title>
+      <p>Utilitzeu l'estat <em>Disponible</em> quan esteu a l'ordinador i esteu disponibles per xatejar. Podeu configurar un missatge personalitzat per aquest estat.</p>
+    </item>
+    <item>
+      <title><media type="image" mime="image/png" src="figures/busy.png" its:translate="no"><span its:translate="yes">Busy icon</span></media>
+      <gui>Busy</gui></title>
+      <p>Utilitzeu l'estat <em>Ocupat</em> per mostrar als contactes que no voleu xatejar ara. Encara podran xatejar si volen, per exemple si tenen alguna cosa urgent a comentar-vos. Per defecte, l'<app>Empathy</app> no utilitzarà finestres emergents ni sons quan esteu ocupats. Podeu configurar un missatge personalitzat per aquest estat.</p>
+    </item>
+    <item>
+      <title><media type="image" mime="image/png" src="figures/away.png" its:translate="no"><span its:translate="yes">Away icon</span></media>
+      <gui>Away</gui></title>
+      <p>Utilitzeu l'estat <em>Absent</em> quan sou lluny de l'ordinador. L'<app>Empathy</app> us posa automàticament l'estat «Absent» si esteu un temps sense utilitzar l'ordinador o si s'activa l'estalvi de pantalla. Per defecte, l'<app>Empathy</app> no utilitzarà finestres emergents ni sons quan esteu absents. Podeu configurar un missatge personalitzat per aquest estat.</p>
+    </item>
+    <item>
+      <title><media type="image" mime="image/png" src="figures/offline.png" its:translate="no"><span its:translate="yes">Offline icon</span></media>
+      <gui>Invisible</gui></title>
+      <p>Quan poseu l'estat com a <em>Invisible</em>, apareixereu com a desconnectat per als contactes. Encara estareu connectat als comptes i podreu veure l'estat dels contactes i xatejar-hi.</p>
+    </item>
+    <item>
+      <title><media type="image" mime="image/png" src="figures/offline.png" its:translate="no"><span its:translate="yes">Offline icon</span></media>
+      <gui>Offline</gui></title>
+      <p>Si establiu l'estat com a <em>Desconnectat</em> us desconnectarà de tots els contactes.</p>
+    </item>
+  </terms>
+
+</page>

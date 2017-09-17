@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="favorite-rooms" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <link type="guide" xref="irc-manage#manage"/>
+    <link type="seealso" xref="irc-join-room"/>
+    <link type="seealso" xref="group-conversations"/>
+    <desc>Nastavite, pridružite se in upravljajte priljubljene sobe.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-21" status="draft"/>
+    <revision pkgversion="2.30" version="0.2" date="2010-02-03" status="review"/>    
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Priljubljene sobe</title>
+
+  <section id="set-favorite">
+  <title>Nastavi sobo kot priljubljeno</title>
+  <steps>
+    <item>
+      <p>Pridružite se sobi.</p>
+      <list>
+        <item>
+          <p>Za več podrobnosti kako se pridružiti sobi IRC si oglejte <link xref="irc-join-room"/>. </p>
+        </item>
+        <item>
+          <p>Za več podrobnosti kako začeti ali se pridružiti skupinskemu pogovoru si oglejte <link xref="group-conversations"/>.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>V oknu pogovora izberite <guiseq><gui>Pogovor</gui><gui>Priljubljena klepetalnica</gui></guiseq>.</p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="join-favorite">
+  <title>Pridruži se priljubljenim sobam</title>
+  <steps>
+    <item>
+      <p>V oknu <gui>Seznam stikov</gui> izvedite eno od naslednjega:</p>
+      <list>
+        <item>
+          <p>Pritisnite <key>F5</key>.</p>
+        </item>
+        <item>
+          <p>Izberite <guiseq><gui>Soba</gui><gui>Pridruži se priljubljenim</gui></guiseq>, za pridružitev vsem vašim priljubljenim sobam.</p>
+        </item>
+        <item>
+          <p>Izberite <gui>Soba</gui> in izberite sobo, ki se ji želite pridružiti.</p>
+        </item>
+      </list>
+    </item>
+  </steps>
+  <note>
+    <p>Za pridružitev priljubljeni sobi morate biti povezani z medmrežjem in z vašim računom.</p>
+  </note>
+  </section>
+
+  <section id="manage-favorite">
+  <title>Upravljanje s priljubljenimi sobami</title>
+  <steps>
+    <item>
+      <p>V oknu <gui>Seznam stikov</gui> izberite <guiseq><gui>Soba</gui><gui>Upravljaj priljubljene</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>V spustnemu seznamu <gui>Račun</gui> izberite račun, katerega priljubljene sobe želite upravljati.</p>
+      <p>Izberite <gui>Vse</gui> za ogled vseh svojih priljubljenih sob.</p>
+    </item>
+    <item>
+      <p>Izberite priljubljeno sobo, ki jo želite upravljati:</p>
+      <list>
+        <item>
+          <p>Izberite izbirno polje <gui>Samodejna povezava</gui> za samodejno povezovanje s to sobo, ko se povežete s svojim računom.</p>
+        </item>
+        <item>
+          <p>Za odstranitev sobe iz svojih priljubljenih kliknite na <gui>Odstrani</gui>.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Ko ste končali, kliknite <gui>Zapri</gui>.</p>
+    </item>
+  </steps>
+  </section>
+
+</page>

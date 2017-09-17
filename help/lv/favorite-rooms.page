@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="favorite-rooms" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <link type="guide" xref="irc-manage#manage"/>
+    <link type="seealso" xref="irc-join-room"/>
+    <link type="seealso" xref="group-conversations"/>
+    <desc>Uzstādi, pievienojies un pārvaldi iecienītās istabas.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-21" status="draft"/>
+    <revision pkgversion="2.30" version="0.2" date="2010-02-03" status="review"/>    
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0 licence.</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Iecienītās istabas</title>
+
+  <section id="set-favorite">
+  <title>Uzstādi istabu kā iecienīto</title>
+  <steps>
+    <item>
+      <p>Pievienojies istabai.</p>
+      <list>
+        <item>
+          <p>Skaties <link xref="irc-join-room"/>, lai iegūtu vairāk informācijas par to, kā piekļūt IRC istabām.</p>
+        </item>
+        <item>
+          <p>Skaties <link xref="group-conversations"/>, lai iegūtu vairāk informācijas par to, kā sākt vai pievienoties grupu sarunām.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>No sarunas loga izvēlies <guiseq><gui>Saruna</gui><gui>Iecienītā tērzēšanas istaba</gui></guiseq></p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="join-favorite">
+  <title>Pievienoties iecienītajām istabām.</title>
+  <steps>
+    <item>
+      <p><gui>Kontaktu saraksta</gui> logā izpildi vienu no sekojošajā:</p>
+      <list>
+        <item>
+          <p>Nospied <key>F5</key>.</p>
+        </item>
+        <item>
+          <p>Izvēlies <guiseq><gui>Istaba</gui><gui>Pievienoties iecienītajām</gui></guiseq>, lai pievienotos visām iecienītajām istabām.</p>
+        </item>
+        <item>
+          <p>Izvēlies <gui>Istaba</gui>, un izvēlies iecienīto istabu, kurai vēlies pievienoties.</p>
+        </item>
+      </list>
+    </item>
+  </steps>
+  <note>
+    <p>Lai pievienotos kādai no iecienītajām istabām, tev ir jābūt interneta savienojumam un savam profilam.</p>
+  </note>
+  </section>
+
+  <section id="manage-favorite">
+  <title>Pārvaldīt iecienītās istabas</title>
+  <steps>
+    <item>
+      <p>No <gui>Kontaktu saraksta</gui> loga, izvēlies <guiseq><gui>Istaba</gui><gui>Pārvaldīt iecienītās</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>No <gui>Konts</gui> saraksta, izvēlies kontu, kura iecienītās istabas vēlies pārvaldīt.</p>
+      <p>Izvēlies <gui>Viss</gui>, lai redzētu visas iecienītās istabas.</p>
+    </item>
+    <item>
+      <p>Izvēlies iecienīto istabu, kuru vēlies pārvaldīt:</p>
+      <list>
+        <item>
+          <p>Izvēlies <gui>Automātiski savienoties</gui> opciju, lai automātiski pievienotos šai istabai, kolīdz esi savienojies ar savu kontu.</p>
+        </item>
+        <item>
+          <p>Nospied uz <gui>Izņemt</gui>, lai izņemtu attiecīgo istabu no iecienīto istabu saraksta.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Kad esi pabeidzis darāmo, spied <gui>Aizvērt</gui>.</p>
+    </item>
+  </steps>
+  </section>
+
+</page>

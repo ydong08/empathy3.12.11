@@ -1,0 +1,107 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* Enable debug code */
+#undef ENABLE_DEBUG
+
+/* Enable GSettings schema */
+#undef ENABLE_SETTINGS
+
+/* Prevent post 3.4 APIs */
+#undef GDK_VERSION_MAX_ALLOWED
+
+/* Ignore post 3.4 deprecations */
+#undef GDK_VERSION_MIN_REQUIRED
+
+/* Gettext package name */
+#undef GETTEXT_PACKAGE
+
+/* Prevent post 2.34 APIs */
+#undef GLIB_VERSION_MAX_ALLOWED
+
+/* Ignore post 2.30 deprecations */
+#undef GLIB_VERSION_MIN_REQUIRED
+
+/* Define to 1 to enable cheese webcam support */
+#undef HAVE_CHEESE
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define if you have gudev */
+#undef HAVE_UDEV
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to 1 to build Ubuntu Online Accounts plugins */
+#undef HAVE_UOA
+
+/* Define if valgrind should be used */
+#undef HAVE_VALGRIND
+
+/* Define to the sub-directory in which libtool stores uninstalled libraries.
+   */
+#undef LT_OBJDIR
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* Name of provider for accounts imported from libaccounts */
+#undef TPAW_UOA_PROVIDER
+
+/* Disable single include header */
+#undef TP_DISABLE_SINGLE_INCLUDE
+
+/* Prevent to use sealed variables */
+#undef TP_SEAL_ENABLE
+
+/* Prevent post 0.22 APIs */
+#undef TP_VERSION_MAX_ALLOWED
+
+/* Ignore post 0.22 deprecations */
+#undef TP_VERSION_MIN_REQUIRED
+
+/* Define to 1 if the X Window System is missing or not being used. */
+#undef X_DISPLAY_MISSING

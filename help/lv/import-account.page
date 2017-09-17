@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="import-account" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="add-account"/>
+    <link type="seealso" xref="remove-account"/>
+    <desc>Importēt kontu no kādas citas tūlītējās tērzēšanas lietotnes.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-22" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-22" status="review"/>
+    <revision pkgversion="2.28" version="0.3" date="2009-09-02" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-02" status="done"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Peter Haslam</name>
+      <email>peter.haslam@freenet.de</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit>
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0 licence.</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Importēt esošu kontu </title>
+
+  <p>Pirmajā <app>Empathy</app> palaišanas reizē, jums piedāvās importēt kontus no citām tūlītējās tērzēšanas lietotnēm. Pagaidām vienīgā atbalstītā lietotne ir <app>Pidgin</app>.</p>
+
+  <steps>
+    <item>
+      <p>Palaist <app>Empathy</app> pirmo reizi. Palīgs jums piedāvās vairākas izvēles konta izveidošanai.</p>
+    </item>
+    <item>
+      <p>Izvēlies <gui>Jā, importēt konta informāciju no</gui> un spied <gui>Turpināt</gui></p>
+    </item>
+    <item>
+      <p>Atzīmē katru kontu, kuru vēlies importēt.</p>
+    </item>
+    <item>
+      <p>Spied <gui style="button">Pielietot</gui>.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>Pagaidām nevar importēt kontus pēc tam, kad esi pabeidzis pirmās palaišanas palīgu.</p>
+  </note>
+
+</page>

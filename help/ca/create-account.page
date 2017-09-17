@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="create-account" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="add-account"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-21" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-07" status="review">
+    <!--
+    <e:review by="shaunm@gnome.org" date="2009-09-02" status="done"/>
+    -->
+    </revision>
+    <revision pkgversion="2.30" version="0.3" date="2010-04-19" status="review"/>
+    <revision pkgversion="2.30" version="0.4" date="2010-10-01" status="review"/>
+    <revision pkgversion="3.10" date="2013-06-23" status="review"/>
+
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Reconeixement-Compartir Igual 3.0</p>
+    </license>    
+
+    <desc>Create an account for one of the supported messaging services.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Register a new account</title>
+
+  <p>Most account types require you to create an account with a service
+  provider before you can use that account with instant messaging applications.
+  You can use <app>Empathy</app> to register for a new account with some
+  account providers using the same steps as you would to
+  <link xref="add-account">add an account</link>.</p>
+
+  <p>Once you create a new account, your account provider should give you a
+  login or a username and a password, as well as any additional information you
+  need to connect using <app>Empathy</app>.</p>
+
+  <section id="irc">
+    <title>IRC</title>
+
+    <p>IRC networks require that you specify a nick (nickname) when you connect
+    to the server. Some IRC networks use a service, such as NickServ, to allow
+    users to <link xref="irc-nick-password">protect their nick</link>. If you
+    did not register your nick or are unable to do so and another user is using
+    it, then you will need to choose a different one.</p>
+
+    <p>Alguns servidors d'IRC estan protegits amb contrasenya. Haureu de saber la contrasenya per connectar-vos-hi. Generalment són xarxes d'IRC privades.</p>
+
+    <note>
+      <p>Many GNOME projects use <code>irc.gnome.org</code> for project-related
+      discussion.</p>
+    </note>
+  </section>
+
+  <section id="jabber">
+    <title>Jabber</title>
+
+    <p>Jabber és un sistema obert de missatgeria instantània. Semblant al correu electrònic, Jabber us permet escollir el vostre proveïdor de comptes i comunicar-vos amb altres usuaris de Jabber, sense que importi el seu proveïdor de comptes.</p>
+
+    <p>You will need to create a new account with a Jabber provider. There are
+    many free providers; one popular provider is
+    <link href="http://register.jabber.org/">jabber.org</link>.</p>
+
+    <note>
+      <p>If you use Gmail or Google+ Hangouts, you already have a Jabber
+      account. Use your Gmail address and password in <app>Empathy</app> to
+      connect.</p>
+    </note>
+  </section>
+
+  <section id="salut">
+    <title>Gent propera</title>
+
+    <p>This service works whenever you are connected to a local network, such
+    as a wireless hotspot, you do not need to create an account with service
+    providor, just set up your account through <app>Empathy</app>. It
+    automatically finds all other users on the network who are also using this
+    service.</p>
+
+    <p>For more information, see the <link xref="salut-protocol">salut
+    protocol</link>.</p>
+  </section>
+
+  <section id="sip-services">
+    <title>SIP</title>
+
+    <p>El SIP és un sistema obert que permet realitzar converses de veu i de vídeo per Internet. Heu de crear un compte amb un proveïdor de SIP. Podeu comunicar-vos amb qualsevol usuari de SIP sense que importi el proveïdor SIP que estiguin utilitzant.</p>
+
+    <p>Alguns proveïdors de SIP us permeten fer trucades a telèfons fixes i mòbils des de l'ordinador. Normalment us cal una subscripció a un servei de pagament per poder-ho realitzar.</p>
+  </section>
+
+  <section id="proprietary-services">
+    <title>Serveis propietaris</title>
+
+    <p>There are many proprietary instant messaging services that have been
+    developed by different companies or organizations. <app>Empathy</app>
+    allows you to connect to an existing account for some of these services.
+    To create a new account with one of these services, you will need to
+    visit the website for the service.</p>
+
+    <list>
+      <item>
+        <p><link href="http://dashboard.aim.com/aim">AIM</link></p>
+      </item>
+      <item>
+        <p><link href="https://www.icq.com/register/">ICQ</link></p>
+      </item>
+      <item>
+        <p><link href="https://login.yahoo.com/config/login">Yahoo!</link></p>
+      </item>
+    </list>
+  </section>
+
+</page>

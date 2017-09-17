@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="prob-conn-acctdisabled" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="prob-conn"/>
+    <desc>アカウントの一覧で、使いたいインスタントメッセージングのアカウントが有効になっていません。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review"/>
+    <revision pkgversion="3.2" version="0.3" date="2011-12-18" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>クリエイティブ・コモンズ・ライセンス 継承 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mako N</mal:name>
+      <mal:email>mako@pasero.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>アカウントが有効ではありません</title>
+
+  <p>新しい会話を始めようとしたり談話室に参加しようとする際に、ドロップダウンのアカウントの一覧で、使いたいインスタントメッセージングのアカウントが有効になっていない場合は、アカウントの詳細情報が正しくない可能性があります。</p>
+
+  <steps>
+    <item>
+      <p>インターネットまたはローカルエリアネットワークに接続していることを確認します。</p>
+    </item>
+    <item>
+      <p><guiseq><gui>編集</gui><gui>アカウント</gui></guiseq> を選び、問題のあるアカウントを指定します。</p>
+    </item>
+    <item>
+      <p>ユーザー名とパスワードを、もう一度正しいことを確認して、入力します。</p>
+    </item>
+    <item>
+      <p><gui>詳細</gui>セクションのすべての情報が正しいことを確認します。これらの情報は、メッセージングサービスのウェブサイトで確認できるでしょう。</p>
+    </item>
+    <item>
+      <p>アカウントのスイッチがオンであることを確認します。</p>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="overview" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <revision pkgversion="3.7" version="0.1" date="2012-11-30" status="draft"/>
+    <desc>Was sind Sofortnachrichten und wie können Sie diese nutzen.</desc>
+    <credit type="author">
+      <name>Aruna S</name>
+      <email its:translate="no">aruna.evam@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Philipp Kerling</mal:name>
+      <mal:email>k.philipp@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>Christian.Kirbach@gmail.com</mal:email>
+      <mal:years>2010-2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Überblick über Sofortnachrichten</title>
+
+  <p>Sofortnachrichten, manchmal abgekürzt »IM« von Instant Messaging, ist eine textbasierte Kommunikationsmöglichkeit, um Nachrichten ohne Verzögerung über das Internet oder ein lokales Netzwerk zu senden. Während einige Anwendungen für Sofortnachrichten nur mit einer bestimmten Art von Konten funktionieren, können andere, wie <link xref="introduction">Empathy</link>, auch <link xref="add-account">Konten</link> von verschiedenen Anbietern nutzen. Einige unterstützen auch Sprach- und Videoanrufe.</p>
+
+  <table frame="all" shade="cols">
+     <tr>
+       <td><p><media type="image" src="figures/video_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+       <td><p><media type="image" src="figures/conf_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+       <td><p><media type="image" src="figures/croom_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+     </tr>
+     <tr>
+       <td><p>Videokonferenz</p></td>
+       <td><p>Gruppenunterhaltungen</p></td>
+       <td><p>Unterhaltungsräume</p></td>
+      </tr>
+  </table>
+
+  <p>Einige Anwendungen für Sofortnachrichten können genutzt werden, um sich mit Unterhaltungsräumen zu verbinden, also virtuellen Plätzen, wo sich Personen treffen, um sich zu unterhalten. Eine beliebte Technik für Unterhaltungsräume ist der »Internet Relay Chat«, auch als <link xref="irc-manage">IRC</link> bekannt. IRC stellt <link xref="irc-join-room">öffentliche</link> Unterhaltungsräume bereit, bei der sich jeder, der ein Konto auf dem IRC-Server erstellt, anmelden kann, und private Unterhaltungsräume, welche <link xref="irc-join-pwd">passwortgeschützt</link> und nur für ausgewählte Personen offen sind.</p>
+
+</page>

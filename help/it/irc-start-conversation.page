@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallrd.org/experimental/" type="topic" style="task" id="irc-start-conversation" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="irc-manage#manage" group="two"/>
+    <desc>Avviare una conversazione con un contatto IRC.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Parlare con qualcuno via IRC</title>
+
+  <p>Con gli utenti IRC è possibile avere delle conversazioni privare, al di fuori delle stanze di conversazione pubbliche. Per avviare una conversazione con un altro utente IRC:</p>
+
+  <steps>
+    <item>
+      <p>Nell'elenco contatti di una stanza di conversazione IRC, fare doppio-clic sul nome dell'utente con cui avviare la conversazione. In alternativa, fare clic col pulsante destro del mouse sul nome e scegliere <gui>Conversazione</gui>.</p>
+    </item>
+  </steps>
+
+  <list>
+    <item>
+      <p>L'elenco contatti di una stanza IRC non è lo stesso dell'elenco contatti di <app>Empathy</app>. Questo contiene un elenco di tutti gli utenti presenti in quella particolare stanza di conversazione IRC. Stanze diverse possono avere contatti diverse elencati.</p>
+    </item>
+    <item>
+      <p>L'elenco contatti di una stanza IRC è solitamente posizionata nella parte destra della finestra della stanza di conversazione. Se non è visualizzato, scegliere <guiseq><gui>Conversazione</gui><gui>Mostra elenco contatti</gui></guiseq>.</p>
+    </item>
+  </list>
+
+</page>

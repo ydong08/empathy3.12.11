@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="create-account" xml:lang="es">
+
+  <info>
+    <link type="guide" xref="add-account"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-21" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-07" status="review">
+    <!--
+    <e:review by="shaunm@gnome.org" date="2009-09-02" status="done"/>
+    -->
+    </revision>
+    <revision pkgversion="2.30" version="0.3" date="2010-04-19" status="review"/>
+    <revision pkgversion="2.30" version="0.4" date="2010-10-01" status="review"/>
+    <revision pkgversion="3.10" date="2013-06-23" status="review"/>
+
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>    
+
+    <desc>Cree una cuenta en uno de los servicios de mensajería soportados.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Mustieles</mal:name>
+      <mal:email>daniel.mustieles@gmail.com</mal:email>
+      <mal:years>2012 - 2015</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jorge González</mal:name>
+      <mal:email>jorgegonz@svn.gnome.org</mal:email>
+      <mal:years>2008-2010</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Registrar una cuenta nueva</title>
+
+  <p>Muchos tipos de cuenta requieren que cree una cuenta con un proveedor de cuentas antes de poder conectarse y usar aplicaciones de mensajería instantánea. Con algunos proveedores de cuentas puede usar <app>Empathy</app> para registrar una cuenta nueva, siguiendo los mismos pasos que seguiría para <link xref="add-account">añadir una cuenta</link>.</p>
+
+  <p>Una vez que haya creado su nueva cuenta, su proveedor de cuentas debería proporcionarle un ID o un nombre de usuario de inicio de sesión y una contraseña, así como otra información adicional que puede necesitar para conectarse usando <app>Empathy</app>.</p>
+
+  <section id="irc">
+    <title>IRC</title>
+
+    <p>Las redes IRC requieren que especifique un alias (nick) cuando se conecta al servidor. Algunas redes IRC usan un servicio, como NickServ, para permitir a los usuarios <link xref="irc-nick-password">proteger su nick</link>. Si no registra su nick o no puede hacerlo y otra persona lo está usando, deberá elegir otro diferente.</p>
+
+    <p>Algunos servidores de IRC están protegidos con contraseña. Necesitará conocer la contraseña para conectarse a esos servidores. Generalmente son redes de IRC privadas.</p>
+
+    <note>
+      <p>Muchos proyectos de GNOME usan <code>irc.gnome.org</code> para discusiones relacionadas con el proyecto.</p>
+    </note>
+  </section>
+
+  <section id="jabber">
+    <title>Jabber</title>
+
+    <p>Jabber es un sistema de mensajería instantánea abierto. Como el correo-e, Jabber le permite elegir su proveedor de la cuenta y comunicarse con otros usuarios de Jabber, independientemente del proveedor de la cuenta.</p>
+
+    <p>Deberá crear una cuenta nueva con un proveedor Jabber. Existen muchos proveedores libres; un proveedor popular es <link href="http://register.jabber.org/">jabber.org</link>.</p>
+
+    <note>
+      <p>Si usa Google Mail o Google+ Hangouts ya tiene una cuenta Jabber. Simplemente use su dirección de GMail y su contraseña en <app>Empathy</app> para conectarse.</p>
+    </note>
+  </section>
+
+  <section id="salut">
+    <title>Gente cerca</title>
+
+    <p>Este servicio funciona siempre que esté conectado a una red local, tal como un punto inalámbrico; no es necesario crear una cuenta con un proveedor del servicio, simplemente configure su cuenta en <app>Empathy</app>. Automáticamente encuentra otros usuarios en la red que estén usando este servicio.</p>
+
+    <p>Para obtener más información consulte el <link xref="salut-protocol">protocolo salut</link>.</p>
+  </section>
+
+  <section id="sip-services">
+    <title>SIP</title>
+
+    <p>SIP es un sistema abierto que permite a los usuarios realizar conversaciones de sonido y vídeo en Internet. Debe crear una cuenta con un proveedor SIP. Puede comunicarse con todos los usuarios SIP, independientemente del proveedor SIP que usen.</p>
+
+    <p>Algunos proveedores SIP le permiten llamar a teléfonos normales desde su equipo. Generalmente deberá suscribirse a un servicio de pago para usar esta característica.</p>
+  </section>
+
+  <section id="proprietary-services">
+    <title>Servicios propietarios</title>
+
+    <p>Existen muchos servicios propietarios de mensajería instantánea desarrollados por diferentes empresas u organizaciones. <app>Empathy</app> le permite conectarse a una cuenta existente de alguno de estos servicios. Para crear una cuenta nueva con uno de esos servicios deberá visitar el sitio web del servicio.</p>
+
+    <list>
+      <item>
+        <p><link href="http://dashboard.aim.com/aim">AIM</link></p>
+      </item>
+      <item>
+        <p><link href="https://www.icq.com/register/">ICQ</link></p>
+      </item>
+      <item>
+        <p><link href="https://login.yahoo.com/config/login">Yahoo!</link></p>
+      </item>
+    </list>
+  </section>
+
+</page>

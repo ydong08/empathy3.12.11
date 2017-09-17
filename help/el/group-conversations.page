@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="group-conversations" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Έναρξη ομαδικών συζητήσεων ή είσοδος σε αυτές.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος,</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.gr</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μιχάλης Κοτσαρίνης</mal:name>
+      <mal:email>mk73628@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ομαδικές συζητήσεις</title>
+  
+  <p>Οι ομαδικές συζητήσεις σας επιτρέπουν να κάνετε γραπτή συζήτηση με περισσότερες από μία επαφές ταυτόχρονα.</p>
+  <p>Για να κάνετε ομαδικές συζητήσεις θα πρέπει να διαθέτετε λογαριασμό Jabber, Google Talk ή λογαριασμό Γειτονικών ατόμων.</p>
+
+  <note>
+    <p>Μπορείτε να κάνετε ομαδικές συζητήσεις μόνο με επαφές που χρησιμοποιούν την ίδια υπηρεσία με εσάς.</p>
+  </note>
+
+  <section id="start-group-conv">
+
+  <title>Έναρξη ομαδικής συζήτησης</title>
+
+  <steps>
+    <item>
+      <p>Από το παράθυρο <gui>Λίστα επαφών</gui>, επιλέξτε <guiseq><gui>Δωμάτιο</gui><gui>Είσοδος</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Από την αναπτυσσόμενη λίστα <gui>Λογαριασμός</gui>, επιλέξτε το λογαριασμό που επιθυμείτε να χρησιμοποιήσετε για την ομαδική συζήτηση.</p>
+    </item>
+    <item>
+      <p>Στο πεδίο <gui>Εξυπηρετητής</gui>, εισάγετε το όνομα του εξυπηρετητή που θα φιλοξενήσει τη συζήτηση.</p>
+      <p>Αφήστε το πεδίο κενό αν σκοπεύετε να χρησιμοποιήσετε τον τρέχοντα εξυπηρετητή.</p>
+    </item>
+    <item>
+      <p>Στο πεδίο <gui>Δωμάτιο</gui>, εισάγετε ένα όνομα για τη νέα συζήτηση.</p>
+      <note>
+        <p>Αυτό θα είναι το όνομα του δωματίου όπου θα διεξαχθεί η συζήτηση. Το όνομα θα είναι δημόσιο και οποιοσδήποτε θα μπορεί να εισέλθει στο δωμάτιο. Δεν είναι δυνατή η δημιουργία ιδιωτικού δωματίου.</p>
+      </note>
+    </item>
+    <item>
+      <p>Για να προσκαλέσετε και άλλες επαφές στην ομαδική συζήτηση, από το παράθυρο <gui>Λίστα επαφών</gui>, επιλέξτε την επαφή που θέλετε να προσκαλέσετε, και ακολουθήστε μία από τις παρακάτω διαδικασίες:</p>
+      <list>
+        <item>
+          <p>Κάνετε δεξί κλικ στην επαφή και επιλέξτε <gui>Πρόσκληση στο δωμάτιο συζήτησης</gui>.</p>
+        </item>
+        <item>
+          <p>Επιλέξτε <guiseq><gui>Επεξεργασία</gui><gui>Επαφή</gui><gui>Πρόσκληση στο δωμάτιο συζήτησης</gui></guiseq>.</p>
+        </item>
+      </list> 
+      <p>Αν έχετε διάφορες ομαδικές συζητήσεις ανοιχτές, επιλέξτε σε ποια θέλετε να προσκαλέσετε τις επαφές σας.</p>
+    </item>
+  </steps>
+  
+  </section>
+
+  <section id="join-group-conv">
+
+  <title>Είσοδος σε ομαδική συζήτηση</title>
+
+  <steps>
+    <item>
+      <p>Από το παράθυρο <gui>Λίστα επαφών</gui>, επιλέξτε <guiseq><gui>Δωμάτιο</gui><gui>Είσοδος</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Αναπτύξτε την ενότητα <gui>Λίστα δωματίων</gui> για να δείτε όλα τα διαθέσιμα δωμάτια.</p>
+    </item>
+    <item>
+      <p>Κάνετε διπλό κλικ στο όνομα ενός δωματίου για να μπείτε σε αυτό.</p>
+    </item>
+  </steps>
+
+  <p>Δεν μπορείτε να μπείτε σε όλα τα δωμάτια. Κάποια δωμάτια μπορεί να απαιτούν συνθηματικό ή να δέχονται μόνο προσκεκλημένα μέλη. Το <app>Empathy</app> δεν υποστηρίζει αυτές τις κατηγορίες δωματίων.</p>
+
+  <!-- TODO: find out where the password protected or invitation only icons are
+  and create a table. -->
+
+  </section>
+
+</page>

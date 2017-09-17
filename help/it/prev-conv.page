@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="tasks" id="prev-conv" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Esplorare o cercare conversazioni precedenti.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-17" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.2" version="0.2" date="2011-12-19" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Visualizzare le conversazioni precedenti</title>
+
+  <p><app>Empathy</app> salva automaticamente tutte le conversazioni testuali con i propri contatti, consentendo di <link xref="#search">eseguire ricerche tra tutte le conversazioni avute</link> o di <link xref="#browse">esplorarle </link> in base al contatto e alla data.</p>
+
+  <note>
+    <p>Non è necessario essere collegati a Internet per visualizzare e cercare le conversazioni precedenti.</p>
+  </note>
+
+  <section id="search" style="task">
+  <title>Eseguire ricerche nelle conversazioni precedenti</title>
+
+  <p>È possibile eseguire delle ricerche per testo in tutte le proprie conversazioni precedenti.</p>
+
+  <steps>
+    <item>
+      <p>From the <gui>Contact List</gui> window, choose <guiseq><gui>View</gui>
+      <gui>Previous Conversations</gui></guiseq>.  Alternatively, press <key>F3</key>.</p>
+    </item>
+    <item>
+      <p>Select an account from the drop-down list in the top.  A list of
+      contacts and chat room for that account will be shown below.</p>
+    </item>
+    <item>
+      <p>Type the text you want to search for in the <gui>Search</gui> text field.
+      </p>
+    </item>
+    <item>
+      <p>
+        Any conversations that matched your search terms will be shown. By
+        default, conversations are ordered by date.
+      </p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="browse" style="task">
+  <title>Esplorare le conversazioni precedenti</title>
+
+  <p>È possibile esplorare per data le conversazioni precedenti con i propri contatti o in una stanza di conversazione.</p>
+
+  <steps>
+    <item>
+      <p>From the <gui>Contact List</gui> window, choose <guiseq><gui>View</gui>
+      <gui>Previous Conversations</gui></guiseq>.  Alternatively, press <key>F3</key>.</p>
+    </item>
+    <item>
+      <p>Selezionare un account dall'elenco a discesa in alto a sinistra. Un elenco dei contatti e delle stanze di conversazione per quel account viene mostrato nel riquadro sottostante.</p>
+    </item>
+    <item>
+      <p>Selezionare un contatto o una stanza di conversazione per visualizzarne le conversazioni avute. Vengono mostrate, in modo predefinito, le conversazioni più recenti.</p>
+    </item>
+    <item>
+      <p>È possibile esplorare le conversazioni per data. I giorni in cui si è avuta una conversazione con il contatto selezionato sono mostrati in grassetto. Fare clic su una data per selezionarla, quindi fare clic sulle frecce a fianco del mese e dell'anno per visualizzare date precedenti.</p>
+    </item>
+  </steps>
+
+  <p>
+    You can search for text in the conversations by typing into the
+    search field at the top. The matching conversations will be showed.
+  </p>
+
+  <note style="tip">
+    <p>You can quickly view the previous conversations with one of your contacts
+    from the <gui>Contact List</gui> window.  Simply right click the contact and
+    choose <gui>Previous Conversations</gui>.  The <gui>Previous
+    Conversations</gui> window will open with that contact already selected.</p>
+  </note>
+
+  </section>
+</page>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="tasks" id="prev-conv" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Navegueu o cerqueu per les converses anteriors.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-17" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.2" version="0.2" date="2011-12-19" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Reconeixement-Compartir Igual 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Visualització de les converses anteriors</title>
+
+  <p>L'<app>Empathy</app> desa automàticament totes les converses que manteniu amb els contactes. Podeu cercar <link xref="#search">per les converses anteriors</link> o <link xref="#browse">navegar per les converses anteriors</link> per contacte i data.</p>
+
+  <note>
+    <p>No us cal estar connectat a Internet per visualitzar i cercar a les converses anteriors.</p>
+  </note>
+
+  <section id="search" style="task">
+  <title>Cerqueu a les converses anteriors</title>
+
+  <p>Podeu utilitzar cerca de texts complets dins les converses anteriors.</p>
+
+  <steps>
+    <item>
+      <p>Des de la finestra <gui>Llista de contactes</gui> escolliu <guiseq><gui>Visualitza</gui><gui>Converses anteriors</gui></guiseq> o premeu <key>F3</key>.</p>
+    </item>
+    <item>
+      <p>Seleccioneu un compte de la llista desplegable situada a la part superior. Es mostrarà a sota la llista de contactes i les sales de xat per aquest compte.</p>
+    </item>
+    <item>
+      <p>Escriviu el text que voleu cercar al camp de text <gui>Cerca</gui>.</p>
+    </item>
+    <item>
+      <p>Es mostrarà totes les converses que compleixin els criteris de cerca. Per defecte, les converses estan ordenades per data.</p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="browse" style="task">
+  <title>Navegueu per les converses anteriors</title>
+
+  <p>Podeu navegar, per data, per les converses anteriors amb els contactes i pels xats a les sales.</p>
+
+  <steps>
+    <item>
+      <p>Des de la finestra <gui>Llista de contactes</gui> escolliu <guiseq><gui>Visualitza</gui><gui>Converses anteriors</gui></guiseq> o premeu <key>F3</key>.</p>
+    </item>
+    <item>
+      <p>Seleccioneu un compte de la llista desplegable de dalt a l'esquerre. Es mostrarà a sota la llista de contactes i les sales de xat per aquest compte.</p>
+    </item>
+    <item>
+      <p>Seleccioneu un contacte o una sala de xat per veure'n les converses anteriors. Per defecte es mostrarà la conversa més recent.</p>
+    </item>
+    <item>
+      <p>Podeu navegar per les converses per data. Els dies en els quals heu mantingut converses amb el contacte es mostraran amb negreta. Feu clic a una data per seleccionar-la. Feu clic a les fletxes al costat del mes i de l'any per navegar entre dates.</p>
+    </item>
+  </steps>
+
+  <p>Podeu cercar alguna paraula o frase de les converses escrivint al camp de cerca situat a la part superior. Es mostraran les converses que coincideixin amb la paraula o la frase cercada.</p>
+
+  <note style="tip">
+    <p>Podeu veure fàcilment les converses anteriors amb algun dels contactes a la finestra <gui>Llista de contactes</gui>. Feu clic sobre el contacte i escolliu <gui>Converses anteriors</gui>. S'obrirà la finestra <gui>Converses anteriors</gui> amb el contacte ja seleccionat.</p>
+  </note>
+
+  </section>
+</page>

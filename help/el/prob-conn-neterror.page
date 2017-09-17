@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="prob-conn-neterror" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="prob-conn"/>
+    <desc>Στο κύριο παράθυρο εμφανίζεται το μήνυμα λάθους “<gui>Σφάλμα δικτύου</gui>”.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review"/>
+    <revision pkgversion="2.28" version="0.3" date="2010-02-16" status="review"/>
+    <revision pkgversion="3.2" version="0.4" date="2011-12-18" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος,</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.gr</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μιχάλης Κοτσαρίνης</mal:name>
+      <mal:email>mk73628@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Λαμβάνω το μήνυμα “Σφάλμα δικτύου”</title>
+
+  <p>Αυτό το σφάλμα εμφανίζεται όταν, για οποιονδήποτε λόγο, το <app>Empathy</app> αδυνατεί να επικοινωνήσει με την υπηρεσία άμεσων μηνυμάτων.</p>
+  <p>Επίσης, αυτό το σφάλμα εμφανίζεται αν προσπαθείτε να χρησιμοποιήσετε λογαριασμό IRC χωρίς να έχετε επιλέξει ψευδώνυμο.</p>
+
+  <steps>
+    <item>
+      <p>Βεβαιωθείτε ότι είστε συνδεδεμένοι στο διαδίκτυο ή στο τοπικό δίκτυο.</p>
+    </item>
+    <item>
+      <p>Πατήστε το εικονίδιο <media type="image" mime="image/png" src="figures/gtk-edit.png" its:translate="no"><span its:translate="yes">επεξεργασία</span></media> στο μήνυμα σφάλματος.</p>
+    </item>
+    <item>
+      <p>Στην ενότητα <gui>Για προχωρημένους</gui>, ελέγξτε ότι όλα τα στοιχεία είναι σωστά. Τα στοιχεία θα πρέπει να είναι διαθέσιμα στον ιστότοπο της υπηρεσίας άμεσων μηνυμάτων.</p>
+<!--
+        <item>
+          <p>
+            In the case of an IRC account, type your nickname in the <gui>Nickname</gui>
+            text box.
+          </p>
+        </item>
+-->
+    </item>
+    <item>
+      <p>Απενεργοποιήστε τον λογαριασμό, και ενεργοποιήστε τον ξανά για να γίνει νέα προσπάθεια σύνδεσης στην υπηρεσία.</p>
+    </item>
+  </steps>
+
+  <section id="prob-conn-neterror-proxy">
+    <title>Υποστήριξη διαμεσολαβητών δικτύου</title>
+    <p>Προς το παρόν, το <app>Empathy</app> δε μπορεί να ρυθμιστεί ώστε να λειτουργεί μέσω διαμεσολαβητή.</p>
+  </section>
+
+</page>

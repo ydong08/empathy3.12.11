@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="guide" id="accounts-window" xml:lang="el">
+
+  <info>
+    <link type="topic" xref="add-account"/>
+    <link type="topic" xref="disable-account"/>
+    <link type="topic" xref="remove-account"/>
+    <desc>Προσθήκη, τροποποίηση και διαγραφή λογαριασμών.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-26" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος,</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.gr</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μιχάλης Κοτσαρίνης</mal:name>
+      <mal:email>mk73628@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Παράθυρο λογαριασμών</title>
+
+  <p>Το παράθυρο με όνομα <gui>Λογαριασμοί</gui> επιτρέπει να προσθέτετε, να τροποποιείτε και να διαγράφετε λογαριασμούς.</p>
+
+  <section id="details">
+    <info>
+      <link type="topic" xref="account-jabber"/>
+      <link type="topic" xref="account-irc"/>
+    </info>
+    <title>Στοιχεία λογαριασμών</title>
+    <p>Για τους περισσότερους τύπους λογαριασμών, αρκεί να εισάγετε το όνομα χρήστη και το συνθηματικό. Ωστόσο, ορισμένοι λογαριασμοί ή τύποι λογαριασμών μπορεί να απαιτούν και επιπλέον στοιχεία.</p>
+  </section>
+
+</page>

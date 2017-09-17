@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="guide" style="task" id="add-account" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="remove-account"/>
+    <desc>Einen neuen Kontakt zu <app>Empathy</app> hinzufügen.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-24" status="draft"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-10" status="review"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-27" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.3" date="2010-02-03" status="review"/>
+    <revision pkgversion="2.30" version="0.4" date="2010-04-19" status="review"/>
+    <revision pkgversion="3.2" version="0.5" date="2011-12-19" status="review"/>
+    <revision pkgversion="3.12.6" date="2014-10-07" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Philipp Kerling</mal:name>
+      <mal:email>k.philipp@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>Christian.Kirbach@gmail.com</mal:email>
+      <mal:years>2010-2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Hinzufügen eines neuen Kontos</title>
+
+  <p>Sie können Sofortnachrichten-Konten für jeden unterstützten Dienst anlegen, um mit allen Ihren Kontakten in <app>Empathy</app> zu kommunizieren. Für einige Dienstanbieter erlauben Ihnen diese Schritte auch die Registrierung eines neuen Kontos. Weitere Details hierzu finden Sie in <link xref="create-account"/>.</p>
+
+  <steps>
+    <item>
+      <p>Wählen Sie auf <guiseq><gui>Empathy</gui><gui>Konten</gui></guiseq> oder drücken Sie <key>F4</key>.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf <gui style="button">+</gui>.</p>
+    </item>
+    <item>
+      <p>Wählen Sie aus der Aufklappliste <gui>Welche Art Chat-Konto haben Sie</gui> den Kontentyp, welchen Sie hinzufügen wollen.</p>
+    </item>
+    <item>
+      <p>Geben Sie die benötigten Informationen ein. Für die meisten Konten wird die Eingabe einer Anmeldekennung und eines Passworts genügen. Einige Konten könnten zusätzliche Angaben erfordern. Weitere Informationen hierzu finden Sie in <link xref="accounts-window#details"/>.</p>
+    </item>
+    <item>
+      <p>Klicken Sie auf <gui style="button">Hinzufügen</gui>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Um den Namen zu ändern, der das Konto im <gui>Sofortnachrichten- und VoIP-Konten</gui>-Fenster identifiziert, wählen Sie das Konto aus der linken Liste aus und klicken Sie anschließend entweder auf den Namen oder drücken Sie die Leertaste. Ändern Sie den Namen des Kontos und drücken Sie die <key>Eingabetaste</key>, sobald Sie fertig sind.</p>
+  </note>
+</page>

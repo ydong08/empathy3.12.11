@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-irc" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="irc-manage#manage"/> 
+    <desc>Επιπλέον στοιχεία που απαιτούνται για τη σύνδεση σε δίκτυα IRC.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.2" date="2010-04-19" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/> 
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος,</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.gr</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μιχάλης Κοτσαρίνης</mal:name>
+      <mal:email>mk73628@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Στοιχεία λογαριασμού IRC</title>
+
+  <p>Οι λογαριασμοί IRC χρησιμοποιούν διαφορετικά στοιχεία σε σχέση με τους υπόλοιπους τύπους λογαριασμών. Για να δημιουργήσετε ένα λογαριασμό IRC, θα χρειαστείτε οπωσδήποτε το όνομα ενός δικτύου IRC και ένα ψευδώνυμο. Σε αυτή τη σελίδα αναφέρονται λεπτομερώς τα στοιχεία που μπορείτε να εισάγετε για ένα λογαριασμό IRC.</p>
+
+  <note style="info package">
+    <p>Πρέπει να έχετε εγκατεστημένο το πακέτο <sys>telepathy-idle</sys> για να χρησιμοποιήσετε το IRC στο <app>Empathy</app>.</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>Δίκτυο</gui></title>
+      <p>Το IRC είναι ένα ανοιχτό σύστημα που σας επιτρέπει να χρησιμοποιείτε διαφορετικά δίκτυα IRC. Κάθε δίκτυο λειτουργεί ξεχωριστά, και διαθέτει τους δικούς του χρήστες και δωμάτια συζήτησης. Το <app>Empathy</app> εμφανίζει τα πιο δημοφιλή δίκτυα στην αναπτυσσόμενη λίστα <gui>Δίκτυο</gui>. Μπορείτε, όμως, να προσθέτετε και άλλα δίκτυα. Για περισσότερες πληροφορίες, δείτε την <link xref="#networks"/> παρακάτω.</p>
+    </item>
+    <item>
+      <title><gui>Ψευδώνυμο</gui></title>
+      <p>Το ψευδώνυμό σας είναι ένα μοναδικό όνομα που χρησιμοποιείται στο δίκτυο IRC. Σε κάθε δίκτυο, μόνο ένα άτομο επιτρέπεται να χρησιμοποιεί κάθε διαφορετικό ψευδώνυμο. Αν εμφανιστεί το μήνυμα σφάλματος <link xref="prob-conn-name" role="error-msg"/>, θα πρέπει να αλλάξετε το ψευδώνυμό σας.</p>
+    </item>
+    <item>
+      <title><gui>Συνθηματικό</gui></title>
+      <p>Ορισμένοι εξυπηρετητές, ιδιαίτερα οι εξυπηρετητές ιδιωτικών δικτύων, απαιτούν συνθηματικό για να επιτρέψουν τη σύνδεση. Αν είστε εξουσιοδοτημένοι χρήστες ενός τέτοιου δικτύου, οι διαχειριστές του δικτύου θα πρέπει να σας έχουν προμηθεύσει το συνθηματικό.</p>
+      <note>
+        <title>Συνθηματικά NickServ</title>
+        <p>Σε ορισμένα δίκτυα, είναι δυνατόν να καταχωρήσετε το ψευδώνυμό σας, χρησιμοποιώντας την υπηρεσία NickServ. Το <app>Empathy</app> δεν υποστηρίζει απευθείας τη χρήση συνθηματικών για τα ψευδώνυμα. Σε ορισμένα δίκτυα, όπως το δημοφιλές δίκτυο FreeNode, τα συνθηματικά του εξυπηρετητή προωθούνται αυτόματα στο NickServ, και άρα μπορείτε να εισάγετε το συνθηματικό σας στο πεδίο αυτό. Για περισσότερες λεπτομέρειες, δείτε την <link xref="irc-nick-password"/>.</p>
+      </note>
+    </item>
+    <item>
+      <title><gui>Πραγματικό όνομα</gui></title>
+      <p>Μπορείτε να εισάγετε και το πραγματικό σας όνομα, μαζί με το ψευδώνυμό σας. Οι υπόλοιποι χρήστες θα μπορούν να το βλέπουν όταν κοιτούν τα στοιχεία σας.</p>
+    </item>
+    <item>
+      <title><gui>Μήνυμα εξόδου</gui></title>
+      <p>Όταν τερματίζεται η σύνδεσή σας, στέλνεται ένα μήνυμα εξόδου σε όλα τα δωμάτια συζήτησης στα οποία συμμετείχατε, καθώς και σε όλους τους χρήστες με τους οποίους είχατε ιδιωτικές συζητήσεις. Μπορείτε να χρησιμοποιήσετε αυτό το πεδίο για να εισάγετε ένα προσαρμοσμένο μήνυμα εξόδου.</p>
+    </item>
+  </terms>
+
+<!--
+telepathy-idle note
+-->
+
+  <section id="networks">
+    <info>
+      <title type="link">Δίκτυα IRC</title>
+    </info>
+
+    <title>Δίκτυα</title>
+
+    <p>Το <app>Empathy</app> συμπεριλαμβάνει μια λίστα με δημοφιλή δίκτυα IRC. Αν θέλετε να συνδεθείτε σε κάποιο άλλο δίκτυο IRC, μπορείτε να το προσθέσετε στη λίστα. Επίσης, μπορείτε να τροποποιείτε ή να διαγράφετε τα δίκτυα της λίστας.</p>
+
+    <list>
+      <item><p>Για να προσθέσετε ένα δίκτυο στον κατάλογο, πατήστε <media type="image" mime="image/png" src="figures/gtk-add.png" width="16" height="16" its:translate="no"><span its:translate="yes">Προσθήκη</span></media>.</p></item>
+      <item><p>Για να τροποποιήσετε ένα δίκτυο του καταλόγου, επιλέξτε το δίκτυο και πατήστε <media type="image" mime="image/png" src="figures/gtk-edit.png" width="16" height="16" its:translate="no"><span its:translate="yes">Επεξεργασία</span></media>.</p></item>
+      <item><p>Για να αφαιρέσετε ένα δίκτυο από τον κατάλογο, επιλέξτε το δίκτυο και πατήστε <media type="image" mime="image/png" src="figures/gtk-remove.png" width="16" height="16" its:translate="no"><span its:translate="yes">Αφαίρεση</span></media>.</p></item>
+    </list>
+
+    <p>Όταν προσθέτετε ή τροποποιείτε δίκτυα, μπορείτε να εισάγετε τα ακόλουθα στοιχεία:</p>
+
+    <terms>
+      <item>
+        <title><gui>Δίκτυο</gui></title>
+        <p>Αυτό είναι το όνομα του δικτύου, όπως θα εμφανίζεται στη λίστα δικτύων.</p>
+      </item>
+      <item>
+        <title><gui>Κωδικοποίηση</gui></title>
+        <p>Ορίζει την κωδικοποίηση χαρακτήρων που χρησιμοποιείται συνήθως στο δίκτυο αυτό. Η κωδικοποίηση χαρακτήρων είναι ένας συγκεκριμένος τρόπος με τον οποίο αποθηκεύει χαρακτήρες ο υπολογιστής. Υπάρχουν πολλές διαθέσιμες κωδικοποιήσεις χαρακτήρων και για να βλέπετε τα μηνύματα των άλλων χρηστών χωρίς προβλήματα, θα πρέπει να χρησιμοποιείτε την ίδια κωδικοποίηση με αυτούς.</p>
+        <!--
+            Translators: Recommend character encodings that are common
+            for your language.
+        -->
+        <p>Η προεπιλογή του <app>Empathy</app> χρησιμοποιεί UTF-8, μια σύγχρονη κωδικοποίηση χαρακτήρων που μπορεί να χειριστεί κείμενο από τις περισσότερες γλώσσες του κόσμου. Μια άλλη κοινή κωδικοποίηση για αγγλικά και μερικές άλλες δυτικές γλώσσες είναι η ISO-8859-1.</p>
+      </item>
+      <item>
+        <title><gui>Εξυπηρετητές</gui></title>
+        <p>Ένα δίκτυο IRC μπορεί να διαθέτει αρκετούς εξυπηρετητές. Αν έχετε συνδεθεί σε έναν εξυπηρετητή ενός δικτύου, θα μπορείτε να επικοινωνείτε με όλους τους χρήστες του δικτύου, όποιον εξυπηρετητή και αν χρησιμοποιούν αυτοί. Μπορείτε να προσθέτετε και να διαγράφετε τους εξυπηρετητές που χρησιμοποιούνται για το συγκεκριμένο δίκτυο, χρησιμοποιώντας τα κουμπιά <gui>Προσθήκη</gui> και <gui>Διαγραφή</gui>.</p>
+        <p>Αφού επιλέξετε έναν εξυπηρετητή, κάνετε κλικ στο πεδίο <gui>Εξυπηρετητής</gui> ή <gui>Θύρα</gui>, για να επεξεργαστείτε τα στοιχεία του. Εναλλακτικά, χρησιμοποιήστε το αριστερό ή το δεξί βέλος για να εστιάσετε στα πεδία, και πατήστε διάστημα για να ξεκινήσετε την επεξεργασία.</p>
+        <p>Σημειώστε την επιλογή στη στήλη <gui>SSL</gui>, για να κρυπτογραφείτε κάθε επικοινωνία σας με τον εξυπηρετητή. Θυμηθείτε ότι οι υπόλοιποι χρήστες του δικτύου εξακολουθούν να μπορούν να διαβάζουν οτιδήποτε γράφετε σε δημόσια δωμάτια συζήτησης.</p>
+      </item>
+    </terms>
+  </section>
+</page>

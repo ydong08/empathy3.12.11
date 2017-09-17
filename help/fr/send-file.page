@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="send-file" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#advanced"/>
+    <desc>Envoyer un fichier de votre ordinateur à l'un de vos contacts.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-07-21" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Paternité - Partage des Conditions Initiales à l'Identique 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2008-2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2008-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yannick Tailliez</mal:name>
+      <mal:email>ytdispatch-libre@yahoo.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Laurent Coudeur</mal:name>
+      <mal:email>laurentc@iol.ie</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Guillemin</mal:name>
+      <mal:email>luc.guillemin@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ajmir BUSGEETH</mal:name>
+      <mal:email>Ajmir.Busgeeth@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andre Matuch</mal:name>
+      <mal:email>andre.matuch@videotron.ca</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Envoi de fichiers</title>
+
+  <steps>
+    <item>
+      <p>Dans la fenêtre <gui>Liste des contacts</gui>, effectuez une des actions suivantes :</p>
+      <list>
+        <item>
+          <p>Faites un clic droit sur le contact à qui vous voulez envoyer un fichier et sélectionnez <gui>Envoyer un fichier</gui>.</p>
+        </item>
+        <item>
+          <p>Cliquez sur le contact à qui vous voulez envoyer un fichier et choisissez <guiseq><gui>Édition</gui><gui>Contact</gui><gui>Envoyer un fichier</gui></guiseq>.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Sélectionnez le fichier à envoyer et cliquez sur <gui>Envoyer</gui>.</p>
+    </item>
+    <item>
+      <p>La fenêtre <gui>Transferts de fichiers</gui> s'affiche.</p>
+      <p>Attendez que votre contact accepte le transfert de fichier, ou cliquez sur <gui>Arrêter</gui> pour stopper le transfert.</p>
+    </item>
+    <item>
+      <p>Une fois que le transfert est terminé, vous pouvez fermer la fenêtre <gui>Transferts de fichiers</gui>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Si vous avez plusieurs transferts terminés listés dans la fenêtre, cliquez sur <gui>Effacer</gui> pour vider la liste. Cela supprimera les fichiers uniquement dans la liste mais pas de votre ordinateur.</p>
+  </note>
+  <note>
+    <p>Il est possible d'envoyer des fichiers uniquement en utilisant les services suivants : <em>Jabber</em>, <em>Google Talk</em> et <em>Personnes à proximité</em>.</p>
+  </note>
+  <note>
+    <p>Pour envoyer un fichier à quelqu'un, vous devez être connecté à Internet ou à un réseau local.</p>
+  </note>
+
+</page>

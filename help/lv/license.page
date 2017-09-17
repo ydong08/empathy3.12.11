@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="license" xml:lang="lv">
+  
+  <info>
+    <link type="seealso" xref="index"/>
+    <revision pkgversion="2.30" version="0.1" date="2009-12-28" status="draft"/>
+    <desc>Juridiskā informācija.</desc>
+  </info>
+
+  <title>License</title>
+  <p>Šis darbs tiek izplatīts balstoties uz CreativeCommons Attribution-Share Alike 3.0 neportēto licenci.</p>
+  <p>Tu drīksti:</p>
+  <terms>
+    <item>
+      <title><em>Izplatīt</em></title>
+      <p>Kopēt, izplatīt un pārraidīt šo darbu.</p>
+    </item>
+    <item>
+      <title><em>Pārveidot</em></title>
+      <p>Piemērot.</p> 
+    </item>
+  </terms>
+  <p>Zem sekojošajiem noteikumiem:</p>
+  <terms>
+    <item>
+      <title><em>Attiecinājums</em></title>
+      <p>Tev ir obligāti jāattiecina darbs veidā, kurš to ir norādījis autors vai licencētājs (bet ne tādā veidā veidā, kas liktu noprast, ka tie atbalsta tevi vai tava darba izmantošanu).</p>
+    </item>
+    <item>
+      <title><em>Share Alike</em></title>
+      <p>Ja tu pamaini, pārveido šo darbu, tu to drīksti izplatīt tikai zem šādas pašas vai savietojamas licences.</p>
+    </item>
+  </terms>
+  <p>Lai iegūtu pilnu licences tekstu, skaties <link href="http://creativecommons.org/licenses/by-sa/3.0/legalcode">CreativeCommons mājaslapā</link>, vai izlasi pilnu <link href="http://creativecommons.org/licenses/by-sa/3.0/">aktu</link>.</p>
+</page>

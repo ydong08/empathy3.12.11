@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="introduction" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-16" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="review"/>
+    <desc>Az <app>Empathy</app> üzenetküldő bemutatása.</desc>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2010, 2011, 2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Bevezetés</title>
+
+  <p>Az <app>Empathy</app> egy üzenetküldő alkalmazás a GNOME asztali környezethez. Támogatja a szöveges üzenetküldést, hang- és videohívásokat, fájlátvitelt és a legtöbbet használt üzenetküldő rendszereket, mint a Jabber és a Google Talk.</p>
+  <p>Az <app>Empathy</app> szolgáltatásai segítik a jobb együttműködést munkahelyén, és lehetővé teszik a kapcsolattartást barátaival.</p>
+  <p>Az <app>Empathy</app> segítségével összes társalgását egyetlen ablakba csoportosíthatja, több ablakban tarthatja a különböző társalgásokat, egyszerűen kereshet a korábbi társalgásokban, és két kattintással megoszthatja asztalát.</p>
+
+  <figure>
+    <title><gui>Partnerlista</gui> ablak</title>
+    <desc>Az <app>Empathy</app> főablaka</desc>
+    <media type="image" src="figures/empathy-main-window.png" mime="image/png" style="right">
+      <p>Az <app>Empathy</app> főablaka.</p>
+    </media>
+  </figure>
+
+</page>

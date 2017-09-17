@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-irc" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="irc-manage#manage"/> 
+    <desc>连接 IRC 网络需要的额外信息。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.2" date="2010-04-19" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>知识共享-相同方式共享 (Creative Commons Share Alike) 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/> 
+-->
+  </info>
+
+  <title>IRC 帐号详情</title>
+
+  <p>IRC 帐号需要与其他类型的帐号不同的信息。要创建 IRC 帐号，您至少需要指定一个 IRC 网络和一个昵称。本页详细介绍了您可以为一个 IRC 帐号提供的信息。</p>
+
+  <note style="info package">
+    <p>要在 <app>Empathy</app> 中使用 IRC，您必须安装 <sys>telepathy-idle</sys> 包。</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>Network</gui></title>
+      <p>IRC 是一种开放的系统，它允许人们运行各自的 IRC 网络。每个网络是独立的，有特有的用户和聊天室。<app>Empathy</app> 在 <gui>网络</gui> 下拉列表中列出了一些最流行的网络。您可以添加其他的网络。参看下面的<link xref="#networks"/>。</p>
+    </item>
+    <item>
+      <title><gui>Nickname</gui></title>
+      <p>您的昵称是您在 IRC 网络上的唯一性的名字。只有一个人可以使用某个特定的昵称。如果您得到<link xref="prob-conn-name" role="error-msg"/>错误信息，您需要改变您的昵称。</p>
+    </item>
+    <item>
+      <title><gui>Password</gui></title>
+      <p>一些服务器，尤其是那些私有网络，需要密码才能连接。如果您被授权使用，网络的管理员应当为您提供了密码。</p>
+      <note>
+        <title>NickServ 密码</title>
+        <p>在某些网络上，昵称可以通过一种叫做 NickServ 的服务被注册。<app>Empathy</app> 并不直接支持昵称密码。在某些网络上，包括流行的 freenode 网络，服务器密码会被自动转发给 NickServ，从而允许您设置此项向 NickServ 证明您自己。更多信息参见<link xref="irc-nick-password"/>。</p>
+      </note>
+    </item>
+    <item>
+      <title><gui>Real name</gui></title>
+      <p>除了昵称，您还可以提供您的真实姓名。其他用户查看您的信息时可以看到您的真实姓名。</p>
+    </item>
+    <item>
+      <title><gui>Quit message</gui></title>
+      <p>当您离线时，一个退出消息会被发送给所有您加入的聊天室和正在与您进行私人聊天的用户。设置此项以提供自定义的退出消息。</p>
+    </item>
+  </terms>
+
+<!--
+telepathy-idle note
+-->
+
+  <section id="networks">
+    <info>
+      <title type="link">IRC Networks</title>
+    </info>
+
+    <title>网络</title>
+
+    <p><app>Empathy</app> 包括了一份常用 IRC 网络的列表。如果您想使用其他的 IRC 网络，您可以将其添加到这个列表中。您也可以修改网络或从列表中删除网络。</p>
+
+    <list>
+      <item><p>To add a network to the list, click <media type="image" mime="image/png" src="figures/gtk-add.png" width="16" height="16" its:translate="no"><span its:translate="yes">Add</span></media>.</p></item>
+      <item><p>To modify a network in the list, select the network and click
+      <media type="image" mime="image/png" src="figures/gtk-edit.png" width="16" height="16" its:translate="no"><span its:translate="yes">Edit</span></media>.</p></item>
+      <item><p>To remove a network from the list, select the network and
+      click <media type="image" mime="image/png" src="figures/gtk-remove.png" width="16" height="16" its:translate="no"><span its:translate="yes">Remove</span></media>.</p></item>
+    </list>
+
+    <p>在添加或修改一个网络时，您可以输入下列信息：</p>
+
+    <terms>
+      <item>
+        <title><gui>Network</gui></title>
+        <p>这是您希望网络显示在网络列表中的名字。</p>
+      </item>
+      <item>
+        <title><gui>Charset</gui></title>
+        <p>这指明了网络上常用的字符编码。字符编码是计算机内部记录字符的一种特定方式。有许多不同的字符编码，您需要与其他用户使用同样的字符编码才能正确地看到他们的信息。</p>
+        <!--
+            Translators: Recommend character encodings that are common
+            for your language.
+        -->
+        <p>默认地，<app>Empathy</app> 使用 UTF-8，一种能够处理世界上大多数语言的现代化的字符编码。简体中文常用的编码还有 GB18030，GBK 和 GB2312。</p>
+      </item>
+      <item>
+        <title><gui>Servers</gui></title>
+        <p>一个 IRC 网络可能有许多服务器供您连接。当您连接到一个特定网络的服务器后，您可以和同一网络中所有服务器的用户交流。您可以为一个网络添加或删除服务器，使用<gui>添加</gui>或<gui>删除</gui>按钮。</p>
+        <p>当一个服务器被选择后，点击<gui>服务器</gui>或<gui>端口</gui>下方的字段来编辑它。或者，使用左右方向键来聚焦某个字段，并按空格键开始编辑。</p>
+        <p>选择 <gui>SSL</gui> 列中的复选框以加密与服务器间的所有通讯。注意这并不能意味着其他用户不能看到您在公共聊天室中的发言。</p>
+      </item>
+    </terms>
+  </section>
+</page>

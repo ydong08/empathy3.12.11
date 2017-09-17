@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-privacy" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="geolocation#geoloc"/>
+    <desc>Kateri podatki so poslani in komu.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Zasebnost Geo-lege</title>
+
+  <section id="info-sent">
+  <title>Kateri podatki so poslani</title>
+  <p>Mogoče je poslati: državo, regijo, krajevnost, področje, ulico, zgradbo, nadstropje, sobo, poštno številko, zemljepisno širino in dolžino, nadmorsko višino, hitrost in smer.</p>
+  <p>Natančnost in kakovost podatkov o vašemu geografskemu položaju je odvisna od programov infrastrukture uporabljene za odkritje vašega položaja.</p>
+  <p>Drugačne vrste omrežij imajo morda različne vrste natančnosti in lahko pošljejo različne podatke. Uporaba zunanjih naprav kot sta GPS in mobilni telefon bo povečalo natančnost poslanih podatkov.</p>
+  <p>Ko je omogočen način zasebnosti, ne bo poslano nič bolj natančno kot vaše mesto, tudi če uporabljate zunanjo napravo.</p>
+  </section>
+  
+  <section id="see-info">
+  <title>Kdo lahko vidi poslane podatke</title>
+  <p>Vaš geografski položaj lahko vidijo le vaši stiki.</p>
+  </section>
+  
+  <section id="privacy-mode">
+  <title>Kaj je način zasebnosti</title>
+  <p>Način zasebnosti je privzeto omogočen način zmanjšane natančnosti, ki bo zmanjšal natančnost geografskega položaja poslanega vašim stikom.</p>
+  </section>
+  
+  <section id="privacy-overview">
+  <title>Pregled zasebnosti</title>
+  <p>Pregled različnih nastavitev zasebnosti geo-lege v <app>Empathy</app>. </p>
+  <list>
+    <item>
+      <p>Geolega privzeto ni omogočena.</p>
+    </item>
+    <item>
+      <p>Način zasebnosti je privzeto omogočen.</p>
+    </item>
+    <item>
+      <p>Način zasebnosti prevlada celo pri uporabi zunanjih in bolj natančnih naprav.</p>
+    </item>
+    <item>
+      <p>Vaš položaj lahko vidijo le vaši stiki.</p>
+    </item>
+  </list>
+  </section>
+
+</page>

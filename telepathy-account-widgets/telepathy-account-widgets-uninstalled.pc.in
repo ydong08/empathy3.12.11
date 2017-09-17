@@ -1,0 +1,13 @@
+prefix=
+exec_prefix=
+abs_top_srcdir=@abs_top_srcdir@
+abs_top_builddir=@abs_top_builddir@
+
+uoa_provider=@TPAW_UOA_PROVIDER@
+
+Name: telepathy-account-widgets (uninstalled copy)
+Description: Widgets and utility functions for configuring Telepathy accounts
+Version: @VERSION@
+Requires: pkg-config >= 0.21, glib-2.0 >= 2.33.3, gobject-2.0 >= 2.33.3, gtk+-3.0 >= 3.5.1, telepathy-glib >= 0.19.9, libxml-2.0, libsecret-1 >= 0.5@REQUIRE_CHEESE@@REQUIRE_UDEV@
+Libs: ${abs_top_builddir}/tp-account-widgets/libtp-account-widgets.la
+Cflags: -I${abs_top_srcdir} -I${abs_top_builddir}

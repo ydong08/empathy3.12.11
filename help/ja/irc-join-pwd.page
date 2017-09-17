@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallrd.org/experimental/" type="topic" style="task nocando" id="irc-join-pwd" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="irc-manage#manage"/>
+    <link type="seealso" xref="irc-join-room"/>
+    <desc>パスワードで保護された IRC 談話室に参加します。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-07" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.2" date="2010-03-12" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>クリエイティブ・コモンズ・ライセンス 継承 3.0</p>
+    </license>    
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mako N</mal:name>
+      <mal:email>mako@pasero.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>保護された IRC 談話室への参加</title>
+
+  <p>IRC ネットワークに、パスワードで保護されたプライベートな IRC 談話室があることがあります。パスワードを知っていれば、次の手順で参加します。</p>
+  <steps>
+    <item>
+      <p>通常と同じように <link xref="irc-join-room">談話室に参加します</link>。</p>
+    </item>
+    <item>
+      <p><app>Empathy</app> はパスワードを入力するよう促します。IRC 談話室のパスワードを入力し、<gui style="button">参加</gui>をクリックします。</p>
+    </item>
+  </steps>
+
+</page>

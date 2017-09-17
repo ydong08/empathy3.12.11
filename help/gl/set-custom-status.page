@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="set-custom-status" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="change-status"/>
+	  <link type="seealso" xref="status-icons"/>
+    <desc>Engadir, editar e borrar un mensaxe persoal para o seu estado.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-30" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review"/>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Estabelecer unha mensaxe personalizada</title>
+
+  <p>En ocasións pode querer usar unha mensaxe persoal para o seu escritorio, por exemplo, para facer saber aos seus contactos que non estará dispoñíbel por un período de tempo.</p>
+  <p>É posíbel estabelecer unha mensaxe personalizada baseada nos diferentes estados dispoñíbeis.</p>
+
+  <steps>
+    <item>
+      <p>Desde a xanela <gui>Lista de contactos</gui>, prema na lista despregábel na parte superior.</p>
+    </item>
+    <item>
+      <p>Seleccione un estado ao que quere engadir a mensaxe personalizada. Ten que seleccionar o identificado coa etiqueta <gui>Mensaxe personalizada</gui>.</p>
+    </item>
+    <item>
+      <p>Introduza a súa mensaxe personalizada na caixa de texto da parte superior da xanela e prema <key>Intro</key> para estabelecer a mensaxe.</p>
+    </item>
+    <item>
+      <p>Se quere estabelecer a mensaxe personalizada como un favorito, gardándoo para usalo de novo, prema na pequena estrela á dereita da caixa de texto onde escribiu a súa mensaxe personalizada.</p>
+      <p>Se non o fai a mensaxe personalizada non estará dispoñíbel a próxima vez que use <app>Empathy</app>. Só se gardará durante a sesión actual.</p>
+    </item>
+  </steps>
+
+  <section id="edit-custom">
+
+  <title>Editar e quitar unha mensaxe personalizada</title>
+
+  <steps>
+    <item>
+     <p>Desde a xanela <gui>Lista de contactos</gui>, prema na lista despregábel na parte superior.</p>
+    </item>
+    <item>
+      <p>Editar a mensaxe personalizada</p>
+    </item>
+	  <item>
+	    <list>
+	      <item>
+	        <p>Para editar unha mensaxe personalizada:</p>
+	        <steps>
+	          <item>
+	            <p>Desde a caixa <gui>Estados gardados</gui>, seleccione a mensaxe de estado que quere editar e prema dúas veces sobre el.</p>
+            </item>
+            <item>
+              <p>Escriba a mensaxe personalizada nova e prema <key>Intro</key> para modificalo.</p>
+            </item>
+          </steps>
+        </item>
+        <item>
+          <p>Para eliminar unha mensaxe personalizada:</p>
+          <steps>
+            <item>
+              <p>Desde a caixa <gui>Estados gardados</gui>, seleccione a mensaxe de estado que quere editar.</p>
+            </item>
+            <item>
+              <p>Prema sobre o botón <placeholder-1/></p>
+            </item>
+          </steps>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Ao rematar, prema en <placeholder-/></p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Cando edita unha mensaxe personalizada nova non se estabelece como a mensaxe de estado actual. Ten que seleccionalo na xanela <gui>Lista de contactos</gui>.</p>
+  </note>
+
+  </section>
+
+</page>

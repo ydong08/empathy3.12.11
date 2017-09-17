@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="favorite-rooms" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <link type="guide" xref="irc-manage#manage"/>
+    <link type="seealso" xref="irc-join-room"/>
+    <link type="seealso" xref="group-conversations"/>
+    <desc>Jak nastavit, připojit a spravovat oblíbené místnosti.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-21" status="draft"/>
+    <revision pkgversion="2.30" version="0.2" date="2010-02-03" status="review"/>    
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Martin Picek</mal:name>
+      <mal:email>picek.martin@gnome-cesko.cz</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tomáš Karger</mal:name>
+      <mal:email>tomkarger@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Oblíbené místnosti</title>
+
+  <section id="set-favorite">
+  <title>Nastavení místnosti jako oblíbené</title>
+  <steps>
+    <item>
+      <p>Vstoupte do místnosti.</p>
+      <list>
+        <item>
+          <p>Viz <link xref="irc-join-room"/> pro více informací o tom, jak se připojit do místnosti IRC.</p>
+        </item>
+        <item>
+          <p>Viz <link xref="group-conversations"/> pro více informací o tom, jak začít nebo se přidat do skupinové konverzace.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>V okně konverzace zvolte <guiseq><gui>Konverzace</gui><gui>Oblíbená diskuzní místnost</gui></guiseq>.</p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="join-favorite">
+  <title>Vstup do oblíbených místností</title>
+  <steps>
+    <item>
+      <p>V okně <gui>Seznam kontaktů</gui> proveďte jedno z následujícího:</p>
+      <list>
+        <item>
+          <p>Zmáčkněte <key>F5</key>.</p>
+        </item>
+        <item>
+          <p>Pro připojení do všech oblíbených místností zvolte <guiseq><gui>Místnost</gui><gui>Vstoupit do oblíbených</gui></guiseq>.</p>
+        </item>
+        <item>
+          <p>Zvolte <gui>Místnost</gui> a vyberte oblíbenou místnost, do které chcete vstoupit.</p>
+        </item>
+      </list>
+    </item>
+  </steps>
+  <note>
+    <p>Aby bylo možné vstoupit do oblíbené místnosti, je nutné připojení k Internetu a k vašemu účtu.</p>
+  </note>
+  </section>
+
+  <section id="manage-favorite">
+  <title>Správa oblíbených místností</title>
+  <steps>
+    <item>
+      <p>V okně <gui>Seznam kontaktů</gui> zvolte <guiseq><gui>Místnost</gui><gui>Spravovat oblíbené</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>V rozbalovacím seznamu <gui>Účet</gui> vyberte účet, pro který chcete upravit oblíbené místnosti.</p>
+      <p>Pro zobrazení všech vaších oblíbených místností vyberte <gui>Vše</gui>.</p>
+    </item>
+    <item>
+      <p>Vyberte oblíbenou místnost, kterou chcete spravovat:</p>
+      <list>
+        <item>
+          <p>Pro automatické vstupování do místnosti při připojení k účtu zatrhněte pole <gui>Automaticky připojit</gui>.</p>
+        </item>
+        <item>
+          <p>Pro odstranění místnosti z oblíbených klikněte na <gui>Odstranit</gui>.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Pro ukončení klikněte na <gui>Zavřít</gui>.</p>
+    </item>
+  </steps>
+  </section>
+
+</page>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="link-contacts" xml:lang="hu">
+      
+  <info>
+    <link type="guide" xref="index#contacts"/>
+    <link type="seealso" xref="send-message"/>
+    <link type="seealso" xref="audio-call"/>
+    <link type="seealso" xref="video-call"/>
+    <desc>Különböző partnerek egyesítése és szétválasztása</desc>
+    <revision pkgversion="2.32" version="0.1" date="2010-09-06" status="draft"/>
+    <revision pkgversion="2.32" version="0.2" date="2010-09-09" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Shobha Tyagi</name>
+      <email>tyagishobha@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2010, 2011, 2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Névjegyek összekapcsolása/szétválasztása</title>
+  <p>Ha egy partnere több fiókkal is rendelkezik különböző szolgáltatóknál, akkor ezeket egyesítheti egyetlen partnerbejegyzéssé.</p>
+  <p>Az eredményül kapott partnert <em>metapartnernek</em> hívjuk: ez egy több önálló partnerbejegyzésből álló partner.</p>
+  <p>Ha például rendelkezik egy Kovács Erzsébet nevű partnerrel, aki három különböző üzenetküldő szolgáltatást használ:</p>
+  <list>
+    <item>
+      <p>erzsebet.kovacs@gmail</p>
+    </item>
+    <item>
+      <p>erzsebet_kovacs@hotmail</p>
+    </item>
+    <item>
+      <p>ekovacs@yahoo</p>
+    </item>
+  </list>
+  <p>Ezeket a partnerbejegyzéseket egyetlen Kovács Erzsébet bejegyzéssé egyesítheti.</p>
+  <section id="linking">
+  <title>Partnerek összekapcsolása</title>
+  <p>Partnerek összekapcsolásához:</p>
+    <steps>
+      <item>
+        <p>Nyomja meg a pipa gombot az összekapcsolni kívánt bejegyzések kijelöléséhez. Ez bekapcsolja a <em>kijelölési módot</em>, és minden bejegyzés mellett megjelenik egy jelölőnégyzet.</p>
+      </item>
+      <item>
+        <p>Jelölje be az azonos partnerhez tartozó <app>Névjegyek</app> alkalmazásbeli bejegyzéseket.</p>
+      </item>
+      <item>
+        <p>Nyomja meg az <gui style="button">Összekapcsolás</gui> gombot.</p>
+      </item>
+    </steps>
+    <p>Ismételje a 3. és 4. lépéseket a további partnerek összekapcsolásához.</p>
+  </section>
+  
+  <section id="unlinking">
+  <title>Partnerek szétválasztása</title>
+  <p>Az összekapcsolt partnerek szétválasztása:</p>
+    <steps>
+      <item>
+        <p>Válassza ki a partnert a partnerlistából.</p>
+      </item>
+      <item>
+        <p>Kattintson a <gui style="button">Szerkesztés</gui> gombra a <app>Névjegyek</app> jobb felső sarkában.</p>
+      </item>
+      <item>
+	<p>Nyomja meg az <gui style="button">Összekapcsolt névjegyek</gui> gombot.</p>
+      </item>
+      <item>
+	<p>Nyomja meg az <gui style="button">Eltávolítás</gui> gombot a bejegyzés leválasztásához a névjegyről.</p>
+      </item>
+      <item>
+        <p>Nyomja meg a <gui style="button">Bezárás</gui> gombot, amikor befejezte a partnerek szétválasztását.</p>
+      </item>
+      <item>
+        <p>Végül nyomja meg a <gui style="button">Kész</gui> gombot a szerkesztés befejezéséhez.</p>
+      </item>
+    </steps>
+  </section>
+</page>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="guide" style="task" id="add-account" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="remove-account"/>
+    <desc>Jak přidat nový účet do <app>Empathy</app>.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-24" status="draft"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-10" status="review"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-27" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.3" date="2010-02-03" status="review"/>
+    <revision pkgversion="2.30" version="0.4" date="2010-04-19" status="review"/>
+    <revision pkgversion="3.2" version="0.5" date="2011-12-19" status="review"/>
+    <revision pkgversion="3.12.6" date="2014-10-07" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Martin Picek</mal:name>
+      <mal:email>picek.martin@gnome-cesko.cz</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tomáš Karger</mal:name>
+      <mal:email>tomkarger@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Přidání nového účtu</title>
+
+  <p>Můžete přidat účty rychlé komunikace kterékoli podporované služby a komunikovat se všemi svými kontakty v <app>Empathy</app>. U některých poskytovatelů umožní následující kroky také registraci nového účtu. Více podrobností viz <link xref="create-account"/>.</p>
+
+  <steps>
+    <item>
+      <p>Klikněte na <guiseq><gui>Empathy</gui> <gui>Účty</gui></guiseq> nebo zmáčkněte <key>F4</key>.</p>
+    </item>
+    <item>
+      <p>Klikněte na <gui style="button">+</gui>.</p>
+    </item>
+    <item>
+      <p>V rozbalovacím seznamu <gui>Jaký typ diskuzního účtu máte?</gui> vyberte typ účtu, který chcete přidat.</p>
+    </item>
+    <item>
+      <p>Zadejte požadované údaje. Pro většinu účtů bude potřeba pouze přihlašovací ID a heslo. Některé účty mohou vyžadovat další údaje. Více informací viz <link xref="accounts-window#details"/>.</p>
+    </item>
+    <item>
+      <p>Klikněte na <gui style="button">Přidat</gui>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Pro změnu názvu, který identifikuje účet, vyberte účet ze seznamu v okně <gui>Účty IM a VoIP</gui> nalevo a klikněte na jeho název, nebo zmáčkněte mezerník. Upravte název účtu a poté zmáčkněte <key>Enter</key>.</p>
+  </note>
+</page>

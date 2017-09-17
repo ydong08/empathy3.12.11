@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="change-status" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="status-icons"/>
+    <desc>Jak změnit svůj stav a ukázat svým kontaktům, jestli jste dostupní.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-01" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.2" version="0.3" date="2011-12-18" status="review">
+      <!--
+      <e:review by="milo@ubuntu.com" date="2011-12-18" status="done"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Martin Picek</mal:name>
+      <mal:email>picek.martin@gnome-cesko.cz</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tomáš Karger</mal:name>
+      <mal:email>tomkarger@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Změna vašeho stavu</title>
+
+  <p>Můžete nastavit svůj stav a ukázat kontaktům, jestli jste dostupní. <app>Empathy</app> poskytuje výběr ze seznamu předem nastavených stavů.</p>
+
+  <steps>
+    <item>
+      <p>Klikněte na rozbalovací seznam ve vrchní části okna <gui>Seznam kontaktů</gui>.</p>
+    </item>
+    <item>
+      <p>Vyberte stav ze seznamu.</p>
+    </item>
+  </steps>
+
+  <p>Seznam předem nastavených stavů a jejich významů viz <link xref="status-icons"/>. Můžete také <link xref="set-custom-status">přidat vlastní stavy</link> a poskytnout tak svým kontaktům více informací o své dostupnosti.</p>
+
+  <note>
+    <p>Pokud nějakou dobu nepoužíváte svůj počítač nebo pokud byl zapnut spořič obrazovky, váš stav bude automaticky nastaven na „nepřítomen“.</p>
+  </note>
+
+</page>

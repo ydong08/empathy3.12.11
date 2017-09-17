@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="tasks" id="prev-conv" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Explorar ou buscar nas súas mensaxes anteriores.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-17" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.2" version="0.2" date="2011-12-19" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ver as conversas anteriores</title>
+
+  <p><app>Empathy</app> garda automaticamente todas as conversas de texto que ten cos seus contactos. Pode <link xref="#search">buscar a través de todas as súas conversas anteriores</link> ou <link xref="#browse">buscar conversas anteriores</link> por contacto e data.</p>
+
+  <note>
+    <p>Non necesita estar conectado a Internet para ver e buscar nas súas conversas anteriores.</p>
+  </note>
+
+  <section id="search" style="task">
+  <title>Buscar conversas anteriores</title>
+
+  <p>Pode realizar unha busca de texto completo sobre todas as súas conversas anteriores.</p>
+
+  <steps>
+    <item>
+      <p>Desde a xanela <gui>Lista de contactos</gui> seleccione <guiseq><gui>Ver</gui><gui>Conversas previas</gui></guiseq>. De forma alternativa prema <key>F3</key>.</p>
+    </item>
+    <item>
+      <p>Seleccione unha conta desde a lista despregábel na parte superior. Mostrarase unha lista de contactos e salas de conversa para dita conta.</p>
+    </item>
+    <item>
+      <p>Escriba o texto que quere buscar no campo de texto <gui>Buscar</gui>.</p>
+    </item>
+    <item>
+      <p>Mostrarase calquera conversa que coincida cos seus termos de busca. Por omisión, as conversas ordénanse por data.</p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="browse" style="task">
+  <title>Explorar as conversas anteriores</title>
+
+  <p>Pode examinar por data as conversas previas cos seus contactos ou en salas de conversa.</p>
+
+  <steps>
+    <item>
+      <p>Desde a xanela <gui>Lista de contactos</gui> seleccione <guiseq><gui>Ver</gui><gui>Conversas previas</gui></guiseq>. De forma alternativa prema <key>F3</key>.</p>
+    </item>
+    <item>
+      <p>Seleccione unha conta desde a lista despregábel na parte superior esquerda. Mostrarase unha lista de contactos e salas de conversa para dita conta.</p>
+    </item>
+    <item>
+      <p>Seleccione un contacto ou sala de conversa desde a que ver as anteriores conversas. Por omisión mostrarase a conversa máis recente.</p>
+    </item>
+    <item>
+      <p>Pode explorar as súas conversas por data. Mostraranse os días nos que tipo unha conversa co contacto seleccionado en texto en negriña. Prema na data para seleccionala e prema nas frechas ao lado do mes e ano para explorar as datas máis cercanas.</p>
+    </item>
+  </steps>
+
+  <p>Pode buscar dentro do texto das conversas escribindo no campo de texto de busca na parte superior. O texto coincidente resaltarase.</p>
+
+  <note style="tip">
+    <p>Pode ver rapidamente as conversas anteriores con un dos seus contactos desde a xanela <gui>Lista de contactos</gui>. Simplemente prema co botón dereito do rato sobre o contacto e seleccione <gui>Conversas anteriores</gui>. Abrirase a xanela <gui>Conversas anteriores</gui> co contacto seleccionado.</p>
+  </note>
+
+  </section>
+</page>

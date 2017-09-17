@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="group-conversations" xml:lang="eu">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Hasi edo sartu talde-solasaldi batean zure kontaktuekin.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Partekatu Berdin 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Talde-solasaldiak</title>
+  
+  <p>Talde-solasaldiek aukera ematen dizute testu-solasaldiak edukitzeko kontaktu batekin baino gehiagorekin batera.</p>
+  <p>Talde-solasaldi bat edukitzeko, Jabber edo Google Talk-en erregistratutako kontu bat eduki behar duzu, edo Hurbileko jendea zerbitzuaren kontu bat.</p>
+
+  <note>
+    <p>Talde-solasaldi bat edukitzeko, kontaktuek zure zerbitzu bera erabili behar dute.</p>
+  </note>
+
+  <section id="start-group-conv">
+
+  <title>Hasi talde-solasaldi bat</title>
+
+  <steps>
+    <item>
+      <p><gui>Kontaktu-zerrenda</gui> leihoan, aukeratu <guiseq><gui>Gela</gui><gui>Sartu</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Goitibeherako <gui>Kontua</gui> zerrendan, hautatu talde-solasaldirako erabili nahi duzun kontua.</p>
+    </item>
+    <item>
+      <p><gui>Zerbitzaria</gui> testu-koadroan, idatzi solasaldiaren ostalaria izango den zerbitzariaren izena.</p>
+      <p>Utzi hutsik, uneko zerbitzarian balitz.</p>
+    </item>
+    <item>
+      <p><gui>Gela</gui> testu-koadroan, idatzi solasaldiari eman nahi diozun izena.</p>
+      <note>
+        <p>Solasaldia izango duzun gelaren izena izango da. Izen hori publikoki erabilgarria izango da sartzen diren besteentzat. Ezin da gela pribaturik sortu.</p>
+      </note>
+    </item>
+    <item>
+      <p>Beste kontaktuak talde-solasaldian sartzeko gonbidatzeko, <gui>Kontaktu-zerrenda</gui> leihoan, hautatu gonbidatu nahi duzun kontaktua, eta egin hauetako bat:</p>
+      <list>
+        <item>
+          <p>Egin klik eskuin-botoiarekin kontaktuan, eta aukeratu <gui>Gonbidatu berriketa-gelara</gui>.</p>
+        </item>
+        <item>
+          <p>Aukeratu <guiseq><gui>Editatu</gui><gui>Kontaktua</gui><gui>Gonbidatu berriketa-gelara</gui></guiseq>.</p>
+        </item>
+      </list> 
+      <p>Talde-solasaldi bat baino gehiago irekita badauzkazu, hautatu kontaktuak gonbidatu nahi dituzuna.</p>
+    </item>
+  </steps>
+  
+  </section>
+
+  <section id="join-group-conv">
+
+  <title>Sartu talde-solasaldi batean</title>
+
+  <steps>
+    <item>
+      <p><gui>Kontaktu-zerrenda</gui> leihoan, aukeratu <guiseq><gui>Gela</gui><gui>Sartu</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Zabaldu <gui>Gelen zerrenda</gui> atala, dauden gela guztiak ikusteko.</p>
+    </item>
+    <item>
+      <p>Egin klik bikoitza gela baten izenean, bertan sartzeko.</p>
+    </item>
+  </steps>
+
+  <p>Ezin da sartu dauden gela guztietan. Gela batzuek pasahitza behar dezakete, edo gonbidapenarekin nahikoa izan daiteke agian. <app>Empathy</app>-k ez ditu horrelako gelak onartzen.</p>
+
+  <!-- TODO: find out where the password protected or invitation only icons are
+  and create a table. -->
+
+  </section>
+
+</page>

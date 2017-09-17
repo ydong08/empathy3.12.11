@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="import-account" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="add-account"/>
+    <link type="seealso" xref="remove-account"/>
+    <desc>Importar unha conta de outro aplicativo de mensaxaría instantánea.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-22" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-22" status="review"/>
+    <revision pkgversion="2.28" version="0.3" date="2009-09-02" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-02" status="done"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Peter Haslam</name>
+      <email>peter.haslam@freenet.de</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit>
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Importar unha conta existente</title>
+
+  <p>A primeira vez que executa <app>Empathy</app> ofreceráselle importar as súas contas de outros aplicativos de mensaxaría instantánea. Actualmente a única aplicación compatíbel é <app>Pidgin</app>.</p>
+
+  <steps>
+    <item>
+      <p>Execute <app>Empathy</app> por primeira vez. Aparecerá un asistente que lle permitirá crear novas contas de distintos servizos.</p>
+    </item>
+    <item>
+      <p>Seleccione <gui>Si, importar os detalles da miña conta desde </gui>e prema en <gui>Seguinte</gui>.</p>
+    </item>
+    <item>
+      <p>Marque a caixa de verificación xunto a cada conta que queira importar</p>
+    </item>
+    <item>
+      <p>Prema <gui style="button">Aplicar</gui>.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>Actualmente non é posíbel importar contas despois de ter completado o asistente de primeira execución.</p>
+  </note>
+
+</page>

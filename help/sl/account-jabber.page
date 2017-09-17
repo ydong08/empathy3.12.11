@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-jabber" xml:lang="sl">
+
+  <info>
+    <desc>Napredne možnosti za račune Jabber in Google Talk. </desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-27" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.12" date="2015-02-03" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Podrobnosti računa Jabber</title>
+
+  <p>Večina računov Jabber bo za povezavo zahtevala le ID prijave in geslo. Za nekatere računa na nekaterih vrstah omrežij boste morda morali vnesti dodatne podatke v odsek <gui>Napredno</gui>. Običajno vam naprednih možnosti spodaj ne bo treba uporabljati. Za splošna navodila o dodajanju računa si oglejte <link xref="add-account"/>.</p>
+
+  <note>
+    <p>Google Talk je vrsta računa Jabber. Ta navodila veljajo tudi za računa Google Talk.</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>Zahtevano je šifriranje (TLS/SSL)</gui></title>
+      <title><gui>Prezri napake potrdil SSL</gui></title>
+      <p>Kadar je mogoče je sporazumevanje med <app>Empathy</app> in strežnikom Jabber šifrirana. V primeru da šifrirana komunikacija ni mogoča, morda morda sporočila poslana nešifrirano. Izberite <gui>Zahtevano šifriranj</gui> za preprečitev komunikacije <app>Empathy</app> s strežniki Jabber, ko šifriranje ni mogoče.</p>
+      <p>Some Jabber servers may encrypt data using invalid certificates,
+      or using certificates signed by unknown authorities.  You can select
+      <gui>Ignore SSL certificate errors</gui> to allow encrypted communication
+      with invalid certificates, but this allows an attacker to intercept your
+      communication with the server (including your password). You might want to
+      use this option for testing purposes, or if your server is broken and you
+      do not care about the security of your communication.</p>
+    </item>
+    <item>
+      <title><b>Vir</b></title>
+      <title><gui>Prednost</gui></title>
+      <p>V primeru da je z vašim računi hkrati povezanih več programov (na primer na ločenih računalnikih) lahko nastavite vir za edinstveno identifikacijo vsakega. Privzeto bo <app>Empathy</app> kot vir uporabil <input>Telepathy</input>.</p>
+      <p>Nastavite lahko prednost za navedbo kateri programi naj prejmejo dohodna sporočila od vaših stikov. Nova sporočila bodo poslana programu z najvišjo prednostjo.</p>
+    </item>
+    <item>
+      <title>Kliknite <gui>Prepiši nastavitve strežnika</gui>.</title>
+      <p><app>Empathy</app> bo uporabljal privzete nastavitve za povezovanje s strežnikom Jabber na osnovi vašega ID-ja prijave. Za nekatere strežnike Jabber boste morali ročno vnesti nastavitve strežnika po meri. Te nastavitve bi vam moral dati vaš ponudnik Jabber.</p>
+    </item>
+  </terms>
+
+</page>

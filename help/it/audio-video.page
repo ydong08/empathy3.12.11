@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="audio-video" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="index#audio-video"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="draft"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-04" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.2" date="2010-02-14" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+    <desc>Informazioni su quando è possibile avere una conversazione audio o video.</desc>
+
+  </info>
+
+  <title>Supporto audio e video</title>
+
+  <p>You can only have audio and video conversation with contacts who are using
+  an application which also supports this feature.</p>
+
+  <note>
+    <p>Per poter avere una conversazione audio è necessario avere una scheda audio supportata dal sistema operativo e un microfono funzionanti.</p>
+    <p>Per poter avere una conversazione video è necessario avere una webcam supportata dal sistema operativo e un microfono funzionanti.</p>
+  </note>
+
+  <section id="services">
+  
+  <title>Account supportati</title>
+
+  <p>È possibile avere conversazioni audio e video utilizzando solo alcune tipologie di servizi supportati. La tabella seguente indica, per ogni account, se le conversazioni audio e video sono supportate.</p>
+
+  <note>
+    <p>Le diverse tipologie di account sono fornite attraverso dei plugin. Il proprio sistema operativo potrebbe non avere tutte queste tipologie di account disponibili o potrebbe averne che non sono elencate qui. Dei plugin aggiornati potrebbero anche rendere possibili le conversazioni audio e video su account che qui vengono indicati come non supportati.</p>
+  </note>
+
+  <table frame="all" rules="rowgroups colgroups" shade="rows">
+    <colgroup><col/></colgroup><colgroup><col/><col/></colgroup>
+    <thead>
+      <tr>
+        <td><p>Servizio</p></td>
+        <td><p>Audio</p></td>
+        <td><p>Video</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>AIM</p></td>
+        <td><p>No</p></td>
+        <td><p>No</p></td>
+      </tr>
+      <tr>
+        <td><p>gadugadu</p></td>
+        <td><p>No</p></td>
+        <td><p>No</p></td>
+      </tr>
+      <tr>
+        <td><p>Google Talk</p></td>
+        <td><p>Sì</p></td>
+        <td><p>Sì</p></td>
+      </tr>
+      <tr>
+        <td><p>Groupwise</p></td>
+        <td><p>No</p></td>
+        <td><p>No</p></td>
+      </tr>
+      <tr>
+        <td><p>ICQ</p></td>
+        <td><p>No</p></td>
+        <td><p>No</p></td>
+      </tr>
+      <tr>
+        <td><p>IRC</p></td>
+        <td><p>No</p></td>
+        <td><p>No</p></td>
+      </tr>
+      <tr>
+        <td><p>Jabber</p></td>
+        <td><p>Sì</p></td>
+        <td><p>Sì</p></td>
+      </tr>
+      <tr>
+        <td><p>myspace</p></td>
+        <td><p>No</p></td>
+        <td><p>No</p></td>
+      </tr>
+      <tr>
+        <td><p>qq</p></td>
+        <td><p>No</p></td>
+        <td><p>No</p></td>
+      </tr>
+      <tr>
+        <td><p>Persone nelle vicinanze</p></td>
+        <td><p>No</p></td>
+        <td><p>No</p></td>
+      </tr>
+      <tr>
+        <td><p>sametime</p></td>
+        <td><p>No</p></td>
+        <td><p>No</p></td>
+      </tr>
+      <tr>
+        <td><p>silc</p></td>
+        <td><p>No</p></td>
+        <td><p>No</p></td>
+      </tr>
+      <tr>
+        <td><p>SIP</p></td>
+        <td><p>Sì</p></td>
+        <td><p>Sì</p></td>
+      </tr>
+      <tr>
+        <td><p>Yahoo!</p></td>
+        <td><p>No</p></td>
+        <td><p>No</p></td>
+      </tr>
+      <tr>
+        <td><p>zephyr</p></td>
+        <td><p>No</p></td>
+        <td><p>No</p></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  </section>
+
+</page>

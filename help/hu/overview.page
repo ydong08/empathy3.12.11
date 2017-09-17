@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="overview" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <revision pkgversion="3.7" version="0.1" date="2012-11-30" status="draft"/>
+    <desc>Mi az azonnali üzenetküldés, és hogyan használhatja.</desc>
+    <credit type="author">
+      <name>Aruna S</name>
+      <email its:translate="no">aruna.evam@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2010, 2011, 2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Azonnali üzenetküldés áttekintése</title>
+
+  <p>Az azonnali üzenetküldés egy szövegalapú helyi hálózati és internetes kommunikációs módszer. Míg sok azonnali üzenő alkalmazás csak egy fióktípussal működik, addig mások, beleértve az <link xref="introduction">Empathyt</link>, számos különböző szolgáltató <link xref="add-account">fiókjainak</link> használatával biztosítanak azonnali üzenetküldést. Ezek közül néhány hang- és videohívást is támogat.</p>
+
+  <table frame="all" shade="cols">
+     <tr>
+       <td><p><media type="image" src="figures/video_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+       <td><p><media type="image" src="figures/conf_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+       <td><p><media type="image" src="figures/croom_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+     </tr>
+     <tr>
+       <td><p>Videokonferencia</p></td>
+       <td><p>Csoportos társalgások</p></td>
+       <td><p>Csevegőszobák</p></td>
+      </tr>
+  </table>
+
+  <p>Egyes azonnali üzenő alkalmazásokkal csevegőszobákhoz is lehet csatlakozni, amelyeket a hasonló gondolkodású emberek használnak beszélgetésre. Az egyik népszerű eszköz számos csevegőszobához csatlakozásra az <link xref="irc-manage">IRC</link>. Az IRC <link xref="irc-join-room">nyilvános</link> csevegőszobákat biztosít, amelyek bárki számára nyitottak, aki létrehoz egy fiókot az IRC kiszolgálón, valamint privát csevegőszobákat, amelyek <link xref="irc-join-pwd">jelszóval védettek</link>, és csak a készítőjük által kiválasztott kevesek léphetnek be.</p>
+
+</page>

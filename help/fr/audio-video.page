@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="audio-video" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#audio-video"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="draft"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-04" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.2" date="2010-02-14" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Paternité - Partage des Conditions Initiales à l'Identique 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+    <desc>Information pour savoir quand il est possible d'avoir une conversation audio ou vidéo.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2008-2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2008-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yannick Tailliez</mal:name>
+      <mal:email>ytdispatch-libre@yahoo.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Laurent Coudeur</mal:name>
+      <mal:email>laurentc@iol.ie</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Guillemin</mal:name>
+      <mal:email>luc.guillemin@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ajmir BUSGEETH</mal:name>
+      <mal:email>Ajmir.Busgeeth@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andre Matuch</mal:name>
+      <mal:email>andre.matuch@videotron.ca</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Prise en charge audio et vidéo</title>
+
+  <p>Vous ne pouvez avoir des conversations audio et vidéo qu'avec des contacts qui utilisent une application prenant aussi en charge cette fonction. </p>
+
+  <note>
+    <p>Pour avoir une conversation audio, il vous faut une carte son prise en charge par votre système d'exploitation et un microphone opérationnel.</p>
+    <p>Pour avoir une conversation vidéo, il vous faut une webcam prise en charge par votre système d'exploitation et un microphone opérationnel.</p>
+  </note>
+
+  <section id="services">
+  
+  <title>Types de comptes pris en charge</title>
+
+  <p>Vous ne pouvez avoir des conversations audio et vidéo qu'avec les comptes de certains services pris en charge. Le tableau suivant indique si l'audio et la vidéo sont pris en charge pour chaque type de compte.</p>
+
+  <note>
+    <p>Les types de comptes sont fournis par des greffons. Il est possible que votre système n'ait pas tous les types suivants disponibles, ou il se peut que certains types ne soient pas présentés ici. La mise à jour des greffons peut permettre des conversations audio ou vidéo sur des types de comptes qui sont répertoriés ici comme incompatibles.</p>
+  </note>
+
+  <table frame="all" rules="rowgroups colgroups" shade="rows">
+    <colgroup><col/></colgroup><colgroup><col/><col/></colgroup>
+    <thead>
+      <tr>
+        <td><p>Service</p></td>
+        <td><p>Audio</p></td>
+        <td><p>Vidéo</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>AIM</p></td>
+        <td><p>Non</p></td>
+        <td><p>Non</p></td>
+      </tr>
+      <tr>
+        <td><p>gadugadu</p></td>
+        <td><p>Non</p></td>
+        <td><p>Non</p></td>
+      </tr>
+      <tr>
+        <td><p>Google Talk</p></td>
+        <td><p>Oui</p></td>
+        <td><p>Oui</p></td>
+      </tr>
+      <tr>
+        <td><p>Groupwise</p></td>
+        <td><p>Non</p></td>
+        <td><p>Non</p></td>
+      </tr>
+      <tr>
+        <td><p>ICQ</p></td>
+        <td><p>Non</p></td>
+        <td><p>Non</p></td>
+      </tr>
+      <tr>
+        <td><p>IRC</p></td>
+        <td><p>Non</p></td>
+        <td><p>Non</p></td>
+      </tr>
+      <tr>
+        <td><p>Jabber</p></td>
+        <td><p>Oui</p></td>
+        <td><p>Oui</p></td>
+      </tr>
+      <tr>
+        <td><p>myspace</p></td>
+        <td><p>Non</p></td>
+        <td><p>Non</p></td>
+      </tr>
+      <tr>
+        <td><p>qq</p></td>
+        <td><p>Non</p></td>
+        <td><p>Non</p></td>
+      </tr>
+      <tr>
+        <td><p>Personnes à proximité</p></td>
+        <td><p>Non</p></td>
+        <td><p>Non</p></td>
+      </tr>
+      <tr>
+        <td><p>sametime</p></td>
+        <td><p>Non</p></td>
+        <td><p>Non</p></td>
+      </tr>
+      <tr>
+        <td><p>silc</p></td>
+        <td><p>Non</p></td>
+        <td><p>Non</p></td>
+      </tr>
+      <tr>
+        <td><p>SIP</p></td>
+        <td><p>Oui</p></td>
+        <td><p>Oui</p></td>
+      </tr>
+      <tr>
+        <td><p>Yahoo!</p></td>
+        <td><p>Non</p></td>
+        <td><p>Non</p></td>
+      </tr>
+      <tr>
+        <td><p>zephyr</p></td>
+        <td><p>Non</p></td>
+        <td><p>Non</p></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  </section>
+
+</page>

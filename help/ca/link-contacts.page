@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="link-contacts" xml:lang="ca">
+      
+  <info>
+    <link type="guide" xref="index#contacts"/>
+    <link type="seealso" xref="send-message"/>
+    <link type="seealso" xref="audio-call"/>
+    <link type="seealso" xref="video-call"/>
+    <desc>Fusiona i separa diferents contactes en un de sol.</desc>
+    <revision pkgversion="2.32" version="0.1" date="2010-09-06" status="draft"/>
+    <revision pkgversion="2.32" version="0.2" date="2010-09-09" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Shobha Tyagi</name>
+      <email>tyagishobha@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Reconeixement-Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Enllaceu i desenllaceu contactes</title>
+  <p>Si algun contacte vostre té més d'un compte a diferents serveis de missatgeria, podeu combinar aquests comptes en un sol contacte.</p>
+  <p>El contacte resultant s'anomena <em>metacontacte</em>: un contacte compost de diferents contactes individuals.</p>
+  <p>Si teniu un contacte, en Marc Garcia, que té tres serveis de missatgeria diferents, com per exemple:</p>
+  <list>
+    <item>
+      <p>marc.garcia@gmail</p>
+    </item>
+    <item>
+      <p>marc_garcia@hotmail</p>
+    </item>
+    <item>
+      <p>
+        janes@yahoo
+      </p>
+    </item>
+  </list>
+  <p>Podeu combinar aquests contactes en un de sol amb el nom de Marc Garcia.</p>
+  <section id="linking">
+  <title>Enllaceu contactes</title>
+  <p>Podeu enllaçar els vostres contactes de la manera següent:</p>
+    <steps>
+      <item>
+        <p>Feu clic al botó de «vist» per seleccionar les entrades que voleu enllaçar. Haureu habilitat el <em>mode de selecció</em>, veureu que cada element té una casella de selecció.</p>
+      </item>
+      <item>
+        <p>Marqueu les caselles de selecció que corresponguin a les entrades de <app>contactes</app> que pertanyen al mateix contacte.</p>
+      </item>
+      <item>
+        <p>Feu clic a <gui style="button">Enllaça</gui>.</p>
+      </item>
+    </steps>
+    <p>Repetiu els passos 3 i 4 per enllaçar altres comptes.</p>
+  </section>
+  
+  <section id="unlinking">
+  <title>Desenllaceu contactes</title>
+  <p>Per desenllaçar un contacte enllaçat:</p>
+    <steps>
+      <item>
+        <p>Seleccioneu el contacte de la vostra llista.</p>
+      </item>
+      <item>
+        <p>Premeu <gui style="button">Edita</gui> a la cantonada de dalt a la dreta del <app>Contactes</app>.</p>
+      </item>
+      <item>
+	<p>Feu clic a <gui style="button">Metacontactes</gui>.</p>
+      </item>
+      <item>
+	<p>Feu clic a <gui style="button">Suprimeix</gui> per desenllaçar una entrada del metacontacte.</p>
+      </item>
+      <item>
+        <p>Feu clic a <gui style="button">Tanca</gui> si no voleu desenllaçar més contactes.</p>
+      </item>
+      <item>
+        <p>Per acabar, feu clic a <gui style="button">Fet</gui> per acabar l'edició.</p>
+      </item>
+    </steps>
+  </section>
+</page>

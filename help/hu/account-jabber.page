@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-jabber" xml:lang="hu">
+
+  <info>
+    <desc>Speciális beállítások Jabber és Google Talk fiókokhoz.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-27" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.12" date="2015-02-03" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2010, 2011, 2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Jabber fiókok részletei</title>
+
+  <p>A legtöbb Jabber fiók csak bejelentkezési azonosítót és jelszót igényel a csatlakozáshoz. Egyes fiókokhoz, vagy bizonyos hálózattípusokon további információk megadására lehet szükség a <gui>Speciális</gui> szakaszban. Általában nincs szükség a lentebbi speciális beállítások használatára. Fiók hozzáadásával kapcsolatban lásd az <link xref="add-account"/> oldalt.</p>
+
+  <note>
+    <p>A Google Talk a Jabber fiókok egy fajtája. Ezek az utasítások Google Talk fiókokra is érvényesek.</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>Titkosítás szükséges (TLS/SSL)</gui></title>
+      <title><gui>SSL-tanúsítványhibák figyelmen kívül hagyása</gui></title>
+      <p>Amikor csak lehetséges, az <app>Empathy</app> és a Jabber kiszolgáló közötti kommunikáció titkosított. Ha a titkosított kommunikáció nem lehetséges, az üzenetek titkosítatlanul kerülhetnek elküldésre. Válassza ki a <gui>Titkosítás szükséges</gui> négyzetet a Jabber kiszolgálóval való kommunikáció megtiltásához az <app>Empathynak</app>, ha a titkosítás nem lehetséges.</p>
+      <p>Néhány Jabber kiszolgáló érvénytelen, vagy ismeretlen hitelesítésszolgáltató által aláírt tanúsítványokkal titkosíthatja az adatokat. Az <gui>SSL-tanúsítványhibák figyelmen kívül hagyása</gui> lehetőség választásával engedélyezheti a titkosított kommunikációt érvénytelen tanúsítványok használatával, de ez lehetővé teheti egy támadó számára a kiszolgálóval folyó kommunikáció (beleértve a jelszót is) eltérítését. Ezt a lehetőséget tesztelési célra érdemes csak használni, vagy ha a kiszolgáló hibás, és nem foglalkozik a kommunikáció biztonságával.</p>
+    </item>
+    <item>
+      <title><gui>Erőforrás</gui></title>
+      <title><gui>Prioritás</gui></title>
+      <p>Ha több alkalmazással (például más számítógépekről) kapcsolódik egyidejűleg fiókjához, akkor beállíthat egy erőforrást ezek egyedi azonosításához. Alapértelmezésben az <app>Empathy</app> erőforrásként a <input>Telepathy</input> értéket használja.</p>
+      <p>Beállíthatja a prioritást annak megadásához, hogy melyik alkalmazás kapja partnereitől a bejövő üzeneteket. Az új üzenetek a legmagasabb prioritású alkalmazásnak kerülnek elküldésre.</p>
+    </item>
+    <item>
+      <title><gui>Kiszolgáló beállításainak felülbírálása</gui></title>
+      <p>Az <app>Empathy</app> az alapértelmezett beállításokat használja a Jabber kiszolgálóhoz való kapcsolódáshoz a bejelentkezési azonosítója alapján. Egyes Jabber kiszolgálókhoz saját kezűleg kell egyéni kiszolgálóbeállításokat megadnia. Ezeket a beállításokat a Jabber szolgáltatója biztosítja.</p>
+    </item>
+  </terms>
+
+</page>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-irc" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="irc-manage#manage"/> 
+    <desc>IRC ネットワークに接続する際に必要な追加情報。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.2" date="2010-04-19" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>クリエイティブ・コモンズ・ライセンス 継承 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/> 
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mako N</mal:name>
+      <mal:email>mako@pasero.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>IRC アカウントの詳細</title>
+
+  <p>IRC アカウントには、他の多くのアカウントの種類とは異なる情報が必要です。IRC アカウントを作成するには、少なくとも IRC ネットワークとニックネームを決める必要があります。このページは、IRC アカウントのための情報を詳しく解説します。</p>
+
+  <note style="info package">
+    <p><app>Empathy</app> で IRC を使うには、<sys>telepathy-idle</sys> パッケージをインストールする必要があります。</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>ネットワーク</gui></title>
+      <p>IRC はオープンなシステムであり、様々な IRC ネットワークが存在します。それぞれのネットワークは切り離されており、それぞれにユーザーがいて、談話室があります。<app>Empathy</app> は、<gui>ネットワーク</gui>ドロップダウンリストに主な人気のあるネットワークの一覧を表示します。ネットワークを追加できます。以下の <link xref="#networks"/> を参照してください。</p>
+    </item>
+    <item>
+      <title><gui>ニックネーム</gui></title>
+      <p>ニックネームは、IRC ネットワーク上で唯一のものです。ひとつのネットワークでは一人だけがそのニックネームを使います。もし <link xref="prob-conn-name" role="error-msg"/> というエラーメッセージが出たら、ニックネームを変更する必要があります。</p>
+    </item>
+    <item>
+      <title><gui>パスワード</gui></title>
+      <p>サーバーによっては、特にプライベートなネットワークでは、接続にパスワードを要求します。そのようなネットワークの使用を認められる場合、ネットワーク管理者がパスワードを提供するはずです。</p>
+      <note>
+        <title>NickServ のパスワード</title>
+        <p>いくつかのネットワークでは、NickServ というサービスでニックネームを登録できます。<app>Empathy</app> は直接にはニックネームのパスワードをサポートしません。人気のある freenode などのいくつかのネットワークでは、サーバーのパスワードを自動的に NickServ に送り、NickServ での個人認証に、この項を使用します。詳しくは <link xref="irc-nick-password"/> を参照してください。</p>
+      </note>
+    </item>
+    <item>
+      <title><gui>実名</gui></title>
+      <p>ニックネームに加えて、実名を提供できます。ほかのユーザーは、あなたの情報を表示する場合に、これを見ることができます。</p>
+    </item>
+    <item>
+      <title><gui>終了時メッセージ</gui></title>
+      <p>オフラインになるとき、参加しているすべての談話室とプライベート会話中のすべての相手先に、終了時のメッセージを送ります。この項は、独自設定の終了時メッセージを提供する場合に使います。</p>
+    </item>
+  </terms>
+
+<!--
+telepathy-idle note
+-->
+
+  <section id="networks">
+    <info>
+      <title type="link">IRC ネットワーク</title>
+    </info>
+
+    <title>ネットワーク</title>
+
+    <p><app>Empathy</app> は、主な IRC ネットワークの一覧を持っています。それ以外のネットワークを追加できます。一覧にあるネットワークの変更や削除もできます。</p>
+
+    <list>
+      <item><p>To add a network to the list, click <media type="image" mime="image/png" src="figures/gtk-add.png" width="16" height="16" its:translate="no"><span its:translate="yes">Add</span></media>.</p></item>
+      <item><p>To modify a network in the list, select the network and click
+      <media type="image" mime="image/png" src="figures/gtk-edit.png" width="16" height="16" its:translate="no"><span its:translate="yes">Edit</span></media>.</p></item>
+      <item><p>To remove a network from the list, select the network and
+      click <media type="image" mime="image/png" src="figures/gtk-remove.png" width="16" height="16" its:translate="no"><span its:translate="yes">Remove</span></media>.</p></item>
+    </list>
+
+    <p>ネットワークの追加や変更の場合、次の情報を入力できます。</p>
+
+    <terms>
+      <item>
+        <title><gui>ネットワーク</gui></title>
+        <p>ネットワークの一覧に表示される、そのネットワークの名前です。</p>
+      </item>
+      <item>
+        <title><gui>文字エンコーディング</gui></title>
+        <p>このネットワークで主として使われる文字エンコーディングを指定します。文字エンコーディングは、コンピューターの内部に文字を記録する方法のことです。多くの文字エンコーディングがありますが、ほかのユーザーのメッセージを正しく表示するには、そのユーザーと同じ文字エンコーディングを使う必要があります。</p>
+        <!--
+            Translators: Recommend character encodings that are common
+            for your language.
+        -->
+        <p>デフォルトでは、<app>Empathy</app> は UTF-8 を使います。UTF-8 は世界中の言語の大部分を扱える文字エンコーディングです。英語およびその他の西欧言語に共通の別の文字エンコーディングは ISO-8859-1 です。</p>
+      </item>
+      <item>
+        <title><gui>サーバー</gui></title>
+        <p>ひとつの IRC ネットワークに接続可能なサーバーが数多くあることがあります。あるネットワークのひとつのサーバーに接続すれば、そのネットワークのほかのすべてのサーバーのすべてのユーザーと交流できます。このネットワークで使用するサーバーを、<gui>追加</gui>と<gui>削除</gui>ボタンで、追加・削除できます。</p>
+        <p>サーバーを指定して、<gui>サーバー</gui>や<gui>ポート</gui>の下の項をクリックして編集します。別の方法として、左右の矢印キーで項を指し、スペースバーを押して編集を始めます。</p>
+        <p><gui>SSL</gui> の列のボックスをチェックすると、サーバーとのすべての通信を暗号化します。これは、公開の談話室に書いたものをネットワークのほかのユーザーが見ることを妨げないことに注意してください。</p>
+      </item>
+    </terms>
+  </section>
+</page>

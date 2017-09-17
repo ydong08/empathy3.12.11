@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="set-custom-status" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="change-status"/>
+	  <link type="seealso" xref="status-icons"/>
+    <desc>Pievieno, rediģē vai dzēs personīgās ziņas no sava statusa.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-30" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review"/>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0 licence.</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  </info>
+
+  <title>Iestatīt pielāgotu ziņojumu</title>
+
+  <p>Dažādos gadījumos varētu vēlēties iestatīt pielāgotu ziņojumu savam statusam, piemēram paust kontaktiem zināmu to, ka kādu laiku nebūsi pieejams.</p>
+  <p>Pielāgotu ziņojumu var iestatīt atkarībā no dažādajiem pieejamajiem statusiem.</p>
+
+  <steps>
+    <item>
+      <p>No <gui>Kontaktu saraksts</gui> loga, izvēlies krītošo izvēlni, kura ir augšpusē.</p>
+    </item>
+    <item>
+      <p>Izvēlies statusu, kuram vēlies iestatīt pielāgotu ziņojumu. Tev vajag izvēlēties to, kurš ir apzīmēts kā <gui>Pielāgots ziņojums</gui>.</p>
+    </item>
+    <item>
+      <p>Ievadi savu pielāgoto ziņojumu teksta laukā, loga augšpusē un nospied taustiņu <key>Enter</key>, lai šo ziņojumu iestatītu.</p>
+    </item>
+    <item>
+      <p>Ja vēlies saglabāt pielāgoto ziņojumu, lai to izmantotu atkal vēlāk, spied uz mazo sirsniņu pa labi no teksta lauka, kurā ievadījāt pielāgoto ziņojumu.</p>
+      <p>Ja to neizdarīsi, pielāgotais ziņojums nebūs pieejams, nākamreiz atverot <app>Empathy</app>. Tas tiks saglabāts tikai šajā sesijā.</p>
+    </item>
+  </steps>
+
+  <section id="edit-custom">
+
+  <title>Rediģēt un izņemt pielāgotu ziņojumu</title>
+
+  <steps>
+    <item>
+     <p>No <gui>Kontaktu saraksts</gui> loga, izvēlies krītošo izvēlni, kura ir augšpusē.</p>
+    </item>
+    <item>
+      <p>Izvēlies <gui>Labot pielāgotos ziņojumus</gui>.</p>
+    </item>
+	  <item>
+	    <list>
+	      <item>
+	        <p>Lai labotu pielāgoto ziņojumu:</p>
+	        <steps>
+	          <item>
+	            <p>No <gui>Saglabātie iepriekšnoteiktie</gui> kastes, izvēlies statusa ziņojumu, kuru vēlies labot, un veic uz tā dubultklikšķi.</p>
+            </item>
+            <item>
+              <p>Ievadi jaunu pielāgoto ziņojumu un nospied <key>Enter</key>, lai to mainītu.</p>
+            </item>
+          </steps>
+        </item>
+        <item>
+          <p>Lai izņemtu pielāgoto ziņojumu:</p>
+          <steps>
+            <item>
+              <p>No <gui>Saglabātie iepriekšnoteiktie</gui> kastes, izvēlies statusa ziņojumu, kuru vēlies izņemt.</p>
+            </item>
+            <item>
+              <p>Nospied uz <gui>Izņemt</gui> pogas.</p>
+            </item>
+          </steps>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Kad esi pabeidzis, spied uz <gui>Aizvērt</gui>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Rediģējot pielāgotu ziņojumu, tas netiks iestatīts kā pašreizējā statusa ziņojums. Tas jāizvēlas no <gui>Kontaktu saraksta</gui> loga.</p>
+  </note>
+
+  </section>
+
+</page>

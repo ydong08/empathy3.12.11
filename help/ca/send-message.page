@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="send-message" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Envieu un missatge a un dels contactes.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <revision pkgversion="2.32" version="0.3" date="2010-09-09" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Reconeixement-Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Enviament de missatges</title>
+
+  <steps>
+    <item>
+      <p>Des de la finestra <gui>Llista de contactes</gui> feu doble clic al nom del contacte amb el qual voleu parlar.</p>
+    </item>
+    <item>
+      <p>S'obrirà una finestra nova. Teclegeu el missatge a la caixa a la part inferior de la finestra i premeu <key>Retorn</key> per enviar-lo.</p>
+    </item>
+  </steps>
+  
+  <section id="send-meta-contact" style="2column">
+    <title>Com enviar un missatge a un metacontacte</title>
+    <steps>
+      <item>
+        <p>Des de la finestra <gui>Llista de contactes</gui>, feu clic amb el botó secundari al metacontacte.</p>
+      </item>
+      <item>
+        <p>Seleccioneu el contacte amb el qual voleu conversar i des del menú seleccioneu <gui style="menuitem">Xat</gui>.</p>
+      </item>
+    </steps>
+    <note style="tip">
+      <p>Per reconèixer si un contacte és un <em>metacontacte</em> situeu el ratolí a sobre d'un contacte de la finestra <gui>Llista de contactes</gui> i mantingueu-lo a sobre durant un segon: apareixerà un petit missatge emergent que mostrarà el nombre de contactes que formen el metacontacte.</p>
+    </note>
+  </section>
+
+</page>

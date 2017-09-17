@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="share-desktop" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#advanced"/>
+    <desc>Montrer son bureau à ses contacts.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review"/>
+    <revision pkgversion="2.28" version="0.3" date="2009-09-05" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Paternité - Partage des Conditions Initiales à l'Identique 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2008-2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2008-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yannick Tailliez</mal:name>
+      <mal:email>ytdispatch-libre@yahoo.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Laurent Coudeur</mal:name>
+      <mal:email>laurentc@iol.ie</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Guillemin</mal:name>
+      <mal:email>luc.guillemin@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ajmir BUSGEETH</mal:name>
+      <mal:email>Ajmir.Busgeeth@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andre Matuch</mal:name>
+      <mal:email>andre.matuch@videotron.ca</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Partage de votre bureau</title>
+
+  <p>Il est possible de partager votre bureau avec certains de vos contacts. Vous pouvez utiliser cette fonctionnalité pour montrer votre bureau à vos contacts pour, par exemple, demander de l'aide ou aider vos contacts à résoudre un problème.</p>
+
+  <note style="tip">
+    <p>Pour pouvoir partager votre bureau, vous devez avoir un serveur VNC qui prend en charge cette fonctionnalité, installé sur votre système. <app>Vino</app>, le serveur VNC de GNOME, dispose du support nécessaire.</p>
+  </note>
+
+  <steps>
+    <item>
+      <p>Dans la fenêtre <gui>Liste des contacts</gui>, faites l'une des actions suivantes :</p>
+      <list>
+        <item>
+          <p>Sélectionnez le contact avec qui vous voulez partager votre bureau et choisissez <guiseq><gui>Édition</gui><gui>Contact</gui><gui>Partager mon bureau</gui></guiseq>.</p>
+        </item>
+        <item>
+          <p>Faites un clic droit sur le nom du contact avec qui vous voulez partager votre bureau et sélectionnez <gui>Partager mon bureau</gui>.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Une invitation à voir votre bureau est envoyée au contact que vous avez sélectionné. Pour afficher votre bureau, il doit accepter l'invitation.</p>
+    </item>
+    <item>
+      <p>Vous pouvez déconnecter le contact depuis votre ordinateur en utilisant votre application de partage de bureau.</p>
+      <note>
+        <p>Pour plus d'informations sur la façon d'utiliser l'application de partage de bureau distant, référez-vous à son manuel d'aide.</p>
+      </note>
+    </item>
+  </steps>
+
+  <p>Lorsque vous partagez votre bureau avec quelqu'un d'autre, il est possible de constater un ralentissement des performances du système et du réseau.</p>
+
+  <note>
+    <p>Certains de vos contacts peuvent ne pas être en mesure d'utiliser cette fonctionnalité. Il leur est nécessaire de disposer au minimum de la version 2.28 d'<app>Empathy</app> et d'une application compatible avec l'affichage de bureau distant, installée sur leur système.</p>
+  </note>
+
+</page>

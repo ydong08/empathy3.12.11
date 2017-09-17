@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="send-file" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#advanced"/>
+    <desc>Wysyłanie plików z własnego komputera do jednego z kontaktów.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-07-21" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Na tych samych warunkach 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  </info>
+
+  <title>Wysyłanie plików</title>
+
+  <steps>
+    <item>
+      <p>W oknie <gui>Lista kontaktów</gui> należy wykonać jedno z poniższych działań:</p>
+      <list>
+        <item>
+          <p>Kliknąć prawym przyciskiem myszy w kontakt, do którego chcemy wysłać plik i wybrać <gui>Wyślij plik</gui>.</p>
+        </item>
+        <item>
+          <p>
+            Click on the contact you want to send a file, and choose <guiseq><gui>Edit</gui>
+            <gui>Contact</gui><gui>Send file</gui></guiseq>.
+          </p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Wybrać plik do wysłania i kliknąć w <gui>Wyślij</gui>.</p>
+    </item>
+    <item>
+      <p>Pojawi się okno <gui>Przesyłanie plików</gui>.</p>
+      <p>Należy poczekać, aż kontakt zaakceptuje przechodzący plik, lub nacisnąć <gui>Zatrzymaj</gui>, aby zatrzymać przesyłanie pliku.</p>
+    </item>
+    <item>
+      <p>Po ukończeniu przesyłania można zamknąć okno <gui>Przesyłanie plików</gui>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Jeśli okno zawiera listę wielu ukończonych przesyłów plików, należy nacisnąć <gui>Wyczyść</gui>, aby wyczyścić listę. W ten sposób zostaną usunięte pliki z listy, jednak nie zostaną usunięte z komputera.</p>
+  </note>
+  <note>
+    <p>Można wysyłać pliki jedynie przez następujące protokoły: <em>Jabber</em>, <em>Google Talk</em> i <em>Osoby w pobliżu</em>.</p>
+  </note>
+  <note>
+    <p>Aby wysłać do kogoś plik, należy być połączonym do Internetu lub sieci lokalnej.</p>
+  </note>
+
+</page>

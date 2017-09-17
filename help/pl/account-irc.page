@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-irc" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="irc-manage#manage"/> 
+    <desc>Dodatkowe informacje potrzebne do połączenia z sieciami IRC.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.2" date="2010-04-19" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Na tych samych warunkach 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/> 
+-->
+  </info>
+
+  <title>Szczegóły konta IRC</title>
+
+  <p>Konta IRC wymagają innych informacji niż wiele innych rodzajów kont. Aby utworzyć konto IRC konieczne jest określenie co najmniej sieci IRC i pseudonimu. Niniejsza strona podaje informacje wymagane przez konta IRC.</p>
+
+  <note style="info package">
+    <p>You must have the <sys>telepathy-idle</sys> package installed to use IRC 
+    in <app>Empathy</app>.</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>Network</gui></title>
+      <p>IRC jest systemem otwartym, który pozwala na działanie oddzielnych sieci IRC. Każda sieć jest inna i ma swoich użytkowników i pokoje rozmów. Program <app>Empathy</app> posiada listę najbardziej popularnych sieci na liście rozwijanej <gui>Sieć</gui>. Można także dodawać sieci. Aby uzyskać więcej informacji, należy zobaczyć <link xref="#networks"/> poniżej</p>
+    </item>
+    <item>
+      <title><gui>Nickname</gui></title>
+      <p>Pseudonim jest jedyny w sieci IRC. Tylko jedna osoba może uzyskać dany pseudonim. Jeśli pojawi się komunikat błędu mówiący, że <link xref="prob-conn-name" role="error-msg"/>, należy zmienić pseudonim.</p>
+    </item>
+    <item>
+      <title><gui>Password</gui></title>
+      <p>Niektóre serwery, w szczególności te w sieciach prywatnych, wymagają hasła podczas połączenia. W przypadku posiadania uprawnień pozwalających na uwierzytelnienie w sieci, administrator sieci powinien dostarczyć odpowiednie hasła.</p>
+      <note>
+        <title>Hasła NickServ</title>
+        <p>On some networks, nicknames can be registered using a service
+        known as NickServ.  <app>Empathy</app> does not directly support
+        nickname passwords.  On some networks, including the popular
+        freenode network, server passwords are automatically forwarded
+        to NickServ, allowing you to set this field to identify yourself
+        with NickServ.  See <link xref="irc-nick-password"/> for more
+        details.</p>
+      </note>
+    </item>
+    <item>
+      <title><gui>Real name</gui></title>
+      <p>Można do pseudonimu dołączyć swoje prawdziwe imię i nazwisko. Inni użytkownicy będą mogli poznać te dane.</p>
+    </item>
+    <item>
+      <title><gui>Quit message</gui></title>
+      <p>Po przejściu do trybu offline, zostanie wysłany komunikat przy zakończeniu do wszystkich pokojów w których przebywa użytkownik oraz do wszystkich  użytkowników z którymi prowadzone są rozmowy prywatne. Należy użyć tego pola do wpisania własnego komunikatu wysyłanego przy zakończeniu.</p>
+    </item>
+  </terms>
+
+<!--
+telepathy-idle note
+-->
+
+  <section id="networks">
+    <info>
+      <title type="link">IRC Networks</title>
+    </info>
+
+    <title>Sieci</title>
+
+    <p>Program <app>Empathy</app> zawiera listę popularnych sieci IRC. Jeśli chcemy używać innej sieci IRC, można ją dodać do listy. Można również edytować sieci i usuwać je z listy. </p>
+
+    <list>
+      <item><p>To add a network to the list, click <media type="image" mime="image/png" src="figures/gtk-add.png" width="16" height="16" its:translate="no"><span its:translate="yes">Add</span></media>.</p></item>
+      <item><p>To modify a network in the list, select the network and click
+      <media type="image" mime="image/png" src="figures/gtk-edit.png" width="16" height="16" its:translate="no"><span its:translate="yes">Edit</span></media>.</p></item>
+      <item><p>To remove a network from the list, select the network and
+      click <media type="image" mime="image/png" src="figures/gtk-remove.png" width="16" height="16" its:translate="no"><span its:translate="yes">Remove</span></media>.</p></item>
+    </list>
+
+    <p>Dodając lub edytując sieć można wprowadzić następujące informacje:</p>
+
+    <terms>
+      <item>
+        <title><gui>Network</gui></title>
+        <p>Jest to nazwa sieci, która ma się pojawiać na liście sieci.</p>
+      </item>
+      <item>
+        <title><gui>Charset</gui></title>
+        <p>To określa kodowanie znaków, które jest zazwyczaj używane w tej sieci. Kodowanie znaków jest specjalnym sposobem zapisywania znaków przez komputer. Istnieje wiele kodować znaków i trzeba użyć tego samego kodowania znaków jak inni użytkownicy, aby wiadomości były wyświetlane były poprawnie.</p>
+        <!--
+            Translators: Recommend character encodings that are common
+            for your language.
+        -->
+        <p>Domyślnie, program <app>Empathy</app> używa kodowania UTF-8, nowoczesnego kodowania znaków, które obsługuje tekst w większości języków świata. Innym powszechnym kodowaniem dla języka polskiego jest ISO-8859-2.</p>
+      </item>
+      <item>
+        <title><gui>Servers</gui></title>
+        <p>W sieci IRC może być wiele serwerów, z którymi można się połączyć. Po połączeniu do serwera w danej sieci, można się komunikować ze wszystkimi użytkownikami wszystkich innych serwerów tej sieci. Można dodać i usunąć serwery dla sieci używając przycisków <gui>Dodaj</gui> i <gui>Usuń</gui>.</p>
+        <p>Po wybraniu serwera należy nacisnąć na pole w kolumnie <gui>Serwer</gui> lub <gui>Port</gui>, aby móc je edytować. Można również użyć strzałek w prawo i w lewo, aby podświetlić odpowiednie pole i nacisnąć przycisk spacji, aby rozpocząć edycję.</p>
+        <p>Należy zaznaczyć pole w kolumnie <gui>SSL</gui>, aby cała komunikacja z serwerem była szyfrowana. Należy jednak zauważyć, że inni użytkownicy danej sieci będą wciąż mogli zobaczyć to, co jest publikowane w publicznych pokojach rozmów.</p>
+      </item>
+    </terms>
+  </section>
+</page>

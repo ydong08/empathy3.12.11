@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallrd.org/experimental/" type="topic" style="task" id="irc-join-room" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="irc-manage#manage" group="one"/>
+    <desc>Entrar nunha canle IRC.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-07-26" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Unirse a unha sala de conversa IRC</title>
+
+  <p>Pode unirse a salas de chat IRC (tamén coñecidas como canles de IRC) en calquera rede de IRC á que estea conectado. Para conectarse a unha rede de IRC consulte a <link xref="add-account"/> e a <link xref="account-irc"/>.</p>
+
+  <steps>
+    <item>
+      <p>Desde a xanela <gui>Lista de contactos</gui> elixa <guiseq><gui>Sala</gui><gui>Unirse</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Desde a lista despregábel <gui>Conta</gui> elixa a conta IRC que corresponda coa rede que quere usar.</p>
+    </item>
+    <item>
+      <p>Na caixa de texto <gui>Sala</gui>, escriba o nome da canle de IRC á que quere unirse. Preceda o nome co carácter almohadilla (<sys>#</sys>).</p>
+    </item>
+    <item>
+      <p>Prema <gui>Unirse</gui> para entrar na sala.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Para entrar en varias salas, debe repetir os pasos anteriores para cada sala.</p>
+  </note>
+</page>

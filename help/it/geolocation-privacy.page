@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-privacy" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="geolocation#geoloc"/>
+    <desc>Quali informazioni sono inviate e a chi.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Privacy della geo-localizzazione</title>
+
+  <section id="info-sent">
+  <title>Informazioni inviate</title>
+  <p>Le informazioni che è possibile inviare sono: il proprio Paese, regione, località, area, via, palazzo, piano, stanza e codice postale, longitudine, latitudine a altitudine, velocità e orientamento.</p>
+  <p>La precisione e la quantità di informazioni della propria posizione geografica sono basate sul software o sull'infrastruttura utilizzata per scoprirla.</p>
+  <p>Diversi tipi di rete possono avere diverse impostazioni relative alla precisione e possono inviare diverse informazioni. L'utilizzo di dispositivi come GPS e telefoni cellulari aumenta la precisione delle informazioni inviate.</p>
+  <p>Quando la modalità privacy è abilitata, non viene inviato niente di più preciso della propria città, anche se viene utilizzato un dispositivo esterno.</p>
+  </section>
+  
+  <section id="see-info">
+  <title>Chi può visualizzare le informazioni inviate</title>
+  <p>Solo i propri contatti possono visualizzare la posizione geografica personale.</p>
+  </section>
+  
+  <section id="privacy-mode">
+  <title>Cos'è la modalità privacy</title>
+  <p>La modalità privacy, abilitata in modo predefinito, è una modalità a precisione ridotta che riduce la precisione della posizione geografica inviata ai propri contatti.</p>
+  </section>
+  
+  <section id="privacy-overview">
+  <title>Panoramica della privacy</title>
+  <p>Panoramica delle varie impostazioni in <app>Empathy</app> per preservare la privacy.</p>
+  <list>
+    <item>
+      <p>La geo-localizzazione non è abilitata in modo predefinito.</p>
+    </item>
+    <item>
+      <p>La modalità privacy è abilitata in modo predefinito.</p>
+    </item>
+    <item>
+      <p>La modalità privacy prevale anche quando sono in uso dispositivi esterni e più precisi.</p>
+    </item>
+    <item>
+      <p>Solo i propri contatti possono visualizzare la posizione geografica personale.</p>
+    </item>
+  </list>
+  </section>
+
+</page>

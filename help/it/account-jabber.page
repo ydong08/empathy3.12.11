@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-jabber" xml:lang="it">
+
+  <info>
+    <desc>Opzioni avanzate degli account Jabber e Google Talk.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-27" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.12" date="2015-02-03" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Dettagli per l'account Jabber</title>
+
+  <p>La maggior parte degli account Jabber richiede solo un ID di accesso e una password per potersi collegare. Alcune tipologie di account su determinate reti potrebbero richiedere informazioni aggiuntive da inserire nella sezione <gui>Avanzate</gui>. Normalmente non è necessario utilizzare le opzioni avanzate. Per informazioni generali su come aggiungere un account, consultare <link xref="add-account"/>.</p>
+
+  <note>
+    <p>Google Talk è un tipo di account Jabber. Queste istruzioni valgono anche per gli account Google Talk.</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>Encryption required (TLS/SSL)</gui></title>
+      <title><gui>Ignore SSL certificate errors</gui></title>
+      <p>Quando possibile, le comunicazioni tra <app>Empathy</app> e il server Jabber vengono cifrate. Se le comunicazioni cifrate non sono possibili, i messaggi potrebbero essere inviati non cifrati. Selezionare <gui>Richiesta cifratura</gui> affinché <app>Empathy</app> comunichi con il server Jabber solo quando è disponibile una canale cifrato.</p>
+      <p>Some Jabber servers may encrypt data using invalid certificates,
+      or using certificates signed by unknown authorities.  You can select
+      <gui>Ignore SSL certificate errors</gui> to allow encrypted communication
+      with invalid certificates, but this allows an attacker to intercept your
+      communication with the server (including your password). You might want to
+      use this option for testing purposes, or if your server is broken and you
+      do not care about the security of your communication.</p>
+    </item>
+    <item>
+      <title><gui>Resource</gui></title>
+      <title><gui>Priority</gui></title>
+      <p>Se si dispone di molteplici applicazioni (per esempio su computer diversi) connesse al proprio account nello stesso momento, è possibile impostare una risorsa per identificarle univocamente. Come impostazione predefinita, <app>Empathy</app> usa <input>Telepathy</input> come nome per la risorsa.</p>
+      <p>È anche possibile impostare la priorità per specificare quale applicazione deve ricevere i messaggi in arrivo dai propri contatti. I nuovi messaggi vengono inviati all'applicazione con la priorità maggiore.</p>
+    </item>
+    <item>
+      <title><gui>Override server settings</gui></title>
+      <p><app>Empathy</app> utilizza le impostazioni predefinite per collegarsi al server Jabber in base al proprio ID di accesso. Con alcuni server Jabber potrebbe essere necessario inserire impostazioni personalizzate. Queste impostazioni dovrebbero essere fornite dal fornitore del servizio Jabber.</p>
+    </item>
+  </terms>
+
+</page>

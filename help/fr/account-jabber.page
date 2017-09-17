@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-jabber" xml:lang="fr">
+
+  <info>
+    <desc>Options avancées pour les comptes Jabber et Google Talk.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-27" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.12" date="2015-02-03" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Paternité - Partage des Conditions Initiales à l'Identique 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2008-2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2008-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yannick Tailliez</mal:name>
+      <mal:email>ytdispatch-libre@yahoo.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Laurent Coudeur</mal:name>
+      <mal:email>laurentc@iol.ie</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Guillemin</mal:name>
+      <mal:email>luc.guillemin@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ajmir BUSGEETH</mal:name>
+      <mal:email>Ajmir.Busgeeth@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andre Matuch</mal:name>
+      <mal:email>andre.matuch@videotron.ca</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Détails du compte Jabber</title>
+
+  <p>La plupart des comptes Jabber n'ont besoin que d'un identifiant de connexion et d'un mot de passe pour se connecter. Pour certains comptes ou sur certains types de réseaux, il vous faudra peut-être saisir des informations supplémentaires dans la section <gui>Avancé</gui>. Normalement, vous n'avez pas à utiliser les options avancées ci-dessous. Pour des instructions générales sur la façon d'ajouter un compte, consultez <link xref="add-account"/>.</p>
+
+  <note>
+    <p>Google Talk est un compte de type Jabber. Ces instructions sont donc aussi valables pour les comptes Google Talk.</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>Chiffrement requis (TLS/SSL)</gui></title>
+      <title><gui>Ignorer les erreurs de certificat SSL</gui></title>
+      <p>Chaque fois que possible, la communication entre <app>Empathy</app> et le serveur Jabber est chiffrée. Si le chiffrement n'est pas possible, le message sera envoyé en clair. Sélectionnez <gui>Chiffrement requis</gui> pour empêcher <app>Empathy</app> de communiquer avec le serveur Jabber lorsque le chiffrement n'est pas possible.</p>
+      <p>Some Jabber servers may encrypt data using invalid certificates,
+      or using certificates signed by unknown authorities.  You can select
+      <gui>Ignore SSL certificate errors</gui> to allow encrypted communication
+      with invalid certificates, but this allows an attacker to intercept your
+      communication with the server (including your password). You might want to
+      use this option for testing purposes, or if your server is broken and you
+      do not care about the security of your communication.</p>
+    </item>
+    <item>
+      <title><gui>Ressource</gui></title>
+      <title><gui>Priorité</gui></title>
+      <p>Si vous avez plusieurs applications (par exemple à partir d'ordinateurs différents) connectées à votre compte en même temps, vous pouvez définir une ressource pour identifier chacune d'elles. Par défaut, <app>Empathy</app> utilise <input>Telepathy</input> en tant que ressource.</p>
+      <p>Vous pouvez définir la priorité pour spécifier quelle application doit recevoir les messages entrants de vos contacts. Les nouveaux messages sont envoyés à l'application possédant la plus haute priorité.</p>
+    </item>
+    <item>
+      <title><gui>Outrepasser les paramètres du serveur</gui></title>
+      <p><app>Empathy</app> utilise les paramètres par défaut pour se connecter au serveur Jabber avec vos informations de connexion. Pour certains serveurs Jabber, vous devez saisir manuellement des paramètres personnalisés. Ces paramètres doivent vous être remis par votre fournisseur Jabber.</p>
+    </item>
+  </terms>
+
+</page>

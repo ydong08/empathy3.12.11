@@ -1,0 +1,2353 @@
+2007-12-06  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-preferences.c:
+	* libempathy-gtk/empathy-preferences.glade:
+	* libempathy/empathy-idle.c: When NM is in sleeping (=disabled) state,
+	do just like if it was connected. Remove option from preference dialog
+	to disabled NM support because NM can be disabled using nm-applet, but
+	let the option in gconf, it can be useful in case of buggy NM.
+
+2007-12-06  Xavier Claessens  <xclaesse@gmail.com>
+
+	* data/empathy.schemas.in:
+	* libempathy-gtk/empathy-preferences.c:
+	* libempathy-gtk/empathy-preferences.glade:
+	* libempathy-gtk/empathy-preferences.h:
+	* libempathy-gtk/empathy-status-icon.c:
+	* libempathy/empathy-idle.c:
+	* libempathy/empathy-idle.h: Add a preference option to disable/enable
+	NM support.
+
+2007-12-05  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-contact-list-view.c:
+	* src/Makefile.am: Ship empathy-call.chandler as extra_dist if not
+	compiled with VoIP support. Fixes bug #501486.
+
+2007-12-03  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac: Bump version to 0.21.4.
+
+2007-12-03  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-chat-window.c:
+	* libempathy-gtk/empathy-chat.c:
+	* libempathy-gtk/empathy-chat.h:
+	* libempathy-gtk/empathy-group-chat.c:
+	* libempathy-gtk/empathy-group-chat.h:
+	* libempathy-gtk/empathy-private-chat.c:
+	* libempathy-gtk/empathy-private-chat.h:
+	* libempathy/empathy-tp-chat.c:
+	* libempathy/empathy-tp-chat.h:
+	* python/pyempathy/pyempathy.defs:
+	* python/pyempathygtk/pyempathygtk.defs:
+	* src/empathy-chat-chandler.c: Cleanup chat objects API and request a
+	new Text channel if account gets reconnected.
+
+2007-12-03  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-debug.c: Call tp_debug_set_flags to get tp-glib
+	debug output.
+
+2007-12-02  Xavier Claessens  <xclaesse@gmail.com>
+
+	 * configure.ac:
+	 * libempathy-gtk/empathy-account-chooser.c:
+	 * libempathy-gtk/empathy-accounts-dialog.c:
+	 * libempathy-gtk/empathy-chat.c:
+	 * libempathy-gtk/empathy-contact-dialogs.c:
+	 * libempathy-gtk/empathy-group-chat.c:
+	 * libempathy-gtk/empathy-main-window.c:
+	 * libempathy-gtk/empathy-presence-chooser.c:
+	 * libempathy-gtk/empathy-status-presets.c:
+	 * libempathy/empathy-avatar.c:
+	 * libempathy/empathy-contact-factory.c:
+	 * libempathy/empathy-contact-manager.c:
+	 * libempathy/empathy-tp-call.c:
+	 * libempathy/empathy-tp-chat.c:
+	 * libempathy/empathy-tp-chat.h:
+	 * libempathy/empathy-tp-contact-list.c:
+	 * libempathy/empathy-tp-group.c:
+	 * libempathy/empathy-tp-roomlist.c:
+	 * libempathy/empathy-utils.c:
+	 * libempathy/empathy-utils.h:
+	 * python/pyempathy/pyempathy.defs:
+	 * src/empathy.c: Do not use deprecated symbols from libtelepathy. We
+	 now link on telepathy-glib, make use of tp_strdiff and
+	 tp_escape_as_identifier instead of using our own copy of those
+	 functions.
+
+2007-12-02  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/Makefile.am:
+	* libempathy-gtk/empathy-main-window.c:
+	* libempathy-gtk/empathy-new-message-dialog.c:
+	* libempathy-gtk/empathy-new-message-dialog.glade:
+	* libempathy-gtk/empathy-new-message-dialog.h:
+	* libempathy-gtk/empathy-status-icon.c: Implement New Message menu
+	entry. Fixes bug #489979.
+
+2007-11-30  Xavier Claessens  <xclaesse@gmail.com>
+
+	* data/empathy.schemas.in:
+	* libempathy-gtk/empathy-group-chat.c:
+	* libempathy-gtk/empathy-preferences.h: Add a gconf key to define the 
+	char to be added for tab completion.
+	Fixes bug #453418 (Matej Cepl, Xavier Claessens).
+
+2007-11-28  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-private-chat.c: Request new Text Channel if
+	the contact is online again and CM don't support offline message.
+
+2007-11-22  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-group-chat.c: use ":" instead of "," for nick
+	completion.
+
+2007-11-21  Xavier Claessens  <xclaesse@gmail.com>
+
+	* TODO: Updated.
+
+2007-11-21  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac: Add x11 to build deps.
+
+2007-11-21  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-group-chat.c:
+	* libempathy-gtk/empathy-chat.c:
+	* libempathy-gtk/empathy-chat.h: Add nick completion for MUCs.
+	Fixes bug #453418.
+
+2007-11-15  Xavier Claessens  <xclaesse@gmail.com>
+
+	* docs/*:
+	* doc/*:
+	* configure.ac:
+	* Makefile.am: Remove doc directory and replace it with a better gtk-doc
+	in docs. More files are auto-generated, we have less files on SVN.
+
+2007-11-15  Xavier Claessens  <xclaesse@gmail.com>
+
+	* src/Makefile.am: Do not build voip chandler if building without voip
+	support. Fixes bug #496861.
+
+2007-11-13  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-chandler.c:
+	* libempathy/empathy-filter.c: Do not use deprecated tp_conn_new(), use
+	tp_conn_new_without_connect() instead.
+
+2007-11-12  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac: Bump version to 0.21.3.
+
+2007-11-12  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-status-icon.c:
+	* src/empathy-call-chandler.c:
+	* src/empathy-call.chandler:
+	* src/org.gnome.Empathy.Call.service.in:
+	* src/empathy-chat.chandler:
+	* src/org.gnome.Empathy.Chat.service.in:
+	* src/empathy-chat-chandler.c: Don't use the same bus name for filter
+	and chandler programs.
+
+2007-11-12  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-account-widget-jabber.glade: Jabber priority is
+	in the range -128 127 (Laurent Bigonville).
+
+2007-11-11  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-chat.c:
+	* src/empathy-call-chandler.c:
+	* src/org.gnome.Empathy.Chat.service.in:
+	* src/empathy-chat-chandler.c:
+	* src/empathy.c:
+	* src/Makefile.am: Move chats to its own process.
+
+2007-11-07  Xavier Claessens  <xclaesse@gmail.com>
+
+	* src/org.gnome.Empathy.Call.service.in:
+	* src/Makefile.am: Install empathy-call-chandler to $libexecdir.
+
+2007-11-06  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-account-widget-jabber.glade:
+	* libempathy-gtk/empathy-account-widget-jabber.c: Allow to change jabber
+	priority. Fixes bug #493992 (Laurent Bigonville).
+
+2007-11-04  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-main-window.c: Display error message when an
+	account failed to connect. Based on Gossip's code.
+
+2007-11-03  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-contact-factory.c: Call ClearAvatar if the data
+	is NULL or size <= 0 in empathy_contact_factory_set_avatar().
+
+2007-11-03  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-contact-widget.c:
+	* libempathy-gtk/empathy-avatar-chooser.c:
+	* libempathy-gtk/empathy-avatar-chooser.h:
+	* python/pyempathy/pyempathy.defs:
+	* libempathy/empathy-contact-factory.c:
+	* libempathy/empathy-contact-factory.h: Rename
+	empathy_contact_factory_set_name() to _set_alias(). Implements
+	empathy_contact_factory_set_avatar(). Return the mime_type in
+	empathy_avatar_chooser_get_image_data().
+
+2007-11-03  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-main-window.c: Unref contact returned by
+	empathy_contact_factory_get_user().
+
+2007-11-03  Xavier Claessens  <xclaesse@gmail.com>
+
+	* src/empathy.c: Make use of gtk_init_with_args for command line
+	parsing. Fixes bug #491985 (Basilio Kublik).
+
+2007-11-03  Xavier Claessens  <xclaesse@gmail.com>
+
+	* data/icons/hicolor_status_scalable_empathy-pending.svg:
+	* data/icons/hicolor_status_16x16_empathy-pending.svg:
+	* data/icons/hicolor_status_scalable_empathy-extended-away.svg:
+	* data/icons/hicolor_status_16x16_empathy-extended-away.svg:
+	* data/icons/hicolor_status_scalable_empathy-away.svg:
+	* data/icons/hicolor_status_16x16_empathy-away.svg:
+	* data/icons/hicolor_status_scalable_empathy-offline.svg:
+	* data/icons/hicolor_status_16x16_empathy-offline.svg:
+	* data/icons/hicolor_status_scalable_empathy-busy.svg:
+	* data/icons/hicolor_status_16x16_empathy-busy.svg:
+	* data/icons/hicolor_status_scalable_empathy-available.svg:
+	* data/icons/hicolor_status_16x16_empathy-available.svg:
+	* data/icons/Makefile.am: Install SVG status images as scalable.
+	Fixes bug #492984.
+
+2007-11-03  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac: Bump version to 0.21.2.
+
+2007-10-28  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-contact-list-view.c:
+	* libempathy-gtk/empathy-contact-list-store.c:
+	* libempathy-gtk/empathy-contact-list-store.h:
+	* doc/libempathy-gtk/libempathy-gtk.types:
+	* doc/libempathy-gtk/tmpl/empathy-contact-list-store.sgml: Rename
+	COL_XXX to EMPATHY_CONTACT_LIST_STORE_COL_XXX since it's in public API.
+	Fixes bug #470804.
+
+2007-10-28  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-status-icon.glade:
+	* libempathy-gtk/empathy-group-chat.glade:
+	* libempathy-gtk/empathy-main-window.glade:
+	* libempathy-gtk/empathy-images.h:
+	* src/empathy.c:
+	* src/Makefile.am:
+	* configure.ac:
+	* data/jabber.profile:
+	* data/salut.profile:
+	* data/msn.profile:
+	* data/gtalk.profile:
+	* data/irc.profile:
+	* data/22x22:
+	* data/32x32:
+	* data/24x24:
+	* data/16x16:
+	* data/48x48:
+	* data/scalable:
+	* data/Makefile.am:
+	* data/icons/*: Rename icons to follow fd.o icon naming spec. Move icons
+	to the right directory. Fixes bug #470418 (Michael Monreal).
+
+2007-10-28  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-smiley-manager.c: Update to new icon naming
+	spec for new avatars. Fixes bug #490173 (Michael Monreal).
+
+2007-10-28  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-contact-dialogs.c: Change edit personal
+	information window title to "Personal Information". Fixes bug #490159.
+	Change add contact window title to "New Contact", need a capitalized
+	'C'. Change edit contact information window title to
+	"Edit Contact Information".
+
+2007-10-25  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-chat.glade: Add Ctr-L accelerator to clear
+	the chat. Fixes bug #490125 (Marco Barisione).
+
+2007-10-25  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-main-window.glade: Change window title to
+	"Contact List", both words should be capitalised according to HIG.
+	Fixes bug #490076 (Michael Monreal).
+
+2007-10-25  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-main-window.glade: Remove "..." from the
+	"Manage Favorites..." menu item. Fixes bug #490086 (Michael Monreal).
+
+2007-10-25  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-images.h:
+	* libempathy-gtk/empathy-contact-list-view.c:
+	* libempathy-gtk/empathy-chat.glade:
+	* libempathy-gtk/empathy-log-window.glade:
+	* libempathy-gtk/empathy-main-window.glade: Use "document-open-recent"
+	icon instead of gtk-justify-left for history icon.
+	Fixes bug #490080 (Michael Monreal, Xavier Claessens).
+
+2007-10-25  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-main-window.glade: Use "user-info" icon for
+	Edit->Personal Information menu item.
+	Fixes bug #490079 (Michael Monreal).
+
+2007-10-25  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-log-window.glade: Use the navigation icons in
+	the history dialog. Fixes bug #490077 (Michael Monreal).
+
+2007-10-25  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-log-window.glade: Set window title to
+	"Previous Conversations". Fixes bug #490075 (Michael Monreal).
+
+2007-10-24  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-account-chooser.c:
+	* libempathy-gtk/empathy-profile-chooser.c:
+	* libempathy-gtk/empathy-account-chooser.h:
+	* libempathy-gtk/empathy-profile-chooser.h:
+	* libempathy-gtk/empathy-images.h:
+	* libempathy-gtk/empathy-main-window.c:
+	* libempathy-gtk/empathy-main-window.h:
+	* libempathy-gtk/empathy-cell-renderer-activatable.c:
+	* libempathy-gtk/empathy-account-widget-salut.c:
+	* libempathy-gtk/empathy-presence-chooser.c:
+	* libempathy-gtk/empathy-cell-renderer-activatable.h:
+	* libempathy-gtk/empathy-account-widget-salut.h:
+	* libempathy-gtk/empathy-account-widget-msn.c:
+	* libempathy-gtk/empathy-presence-chooser.h:
+	* libempathy-gtk/empathy-status-icon.c:
+	* libempathy-gtk/empathy-contact-dialogs.c:
+	* libempathy-gtk/empathy-account-widget-msn.h:
+	* libempathy-gtk/empathy-status-icon.h:
+	* libempathy-gtk/empathy-contact-dialogs.h:
+	* libempathy-gtk/empathy-account-widget-jabber.c:
+	* libempathy-gtk/empathy-account-widget-jabber.h:
+	* libempathy-gtk/empathy-contact-widget.c:
+	* libempathy-gtk/empathy-contact-widget.h:
+	* libempathy-gtk/empathy-smiley-manager.c:
+	* libempathy-gtk/empathy-about-dialog.h:
+	* libempathy-gtk/empathy-smiley-manager.h:
+	* libempathy-gtk/empathy-accounts-dialog.h:
+	* libempathy/empathy-avatar.h:
+	* libempathy/empathy-debug.h: Cleanup licences and copyrights,
+	Modules with 100% collabora code are now relicenced to LGPL.
+
+	* doc/libempathy-gtk/tmpl/empathy-contact-list-store.sgml: Updated.
+
+2007-10-23  Xavier Claessens  <xclaesse@gmail.com>
+
+	* doc/libempathy-gtk/tmpl/empathy-profile-chooser.sgml:
+	* doc/libempathy-gtk/tmpl/empathy-contact-dialogs.sgml:
+	* doc/libempathy-gtk/tmpl/empathy-contact-widget.sgml: Updated.
+
+2007-10-21  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-contact-widget.h: Add
+	EMPATHY_CONTACT_WIDGET_EDIT_NONE to EmpathyContactWidgetFlags.
+
+2007-10-21  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-contact-dialogs.h:
+	* libempathy-gtk/empathy-contact-dialogs.c:
+	* libempathy-gtk/empathy-main-window.c:
+	* libempathy-gtk/empathy-contact-list-view.c: Don't allow to change
+	account if we are editing information of self-contact.
+
+2007-10-21  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-account-chooser.c:
+	* libempathy-gtk/empathy-contact-dialogs.c:
+	* libempathy-gtk/empathy-contact-widget.c:
+	* libempathy-gtk/empathy-contact-widget.h:
+	* libempathy-gtk/empathy-accounts-dialog.c: To know if an account is
+	connected, use mission_control_get_connection_status() instead of
+	mission_control_get_connection(). Update account chooser if an account's
+	status changes or if it get removed.
+	Move account chooser filter func for add-contact's window from
+	EmpathyContactWidget to EmpathyContactDialogs.
+
+2007-10-19  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-accounts-dialog.c: Update Enable/Disable
+	button when "account-enabled" or "account-disabled" are emitted on
+	McAccountMonitor. Set tooltip on protocol icon with the profile's
+	display name.
+
+2007-10-19  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-profile-chooser.c:
+	* libempathy-gtk/empathy-profile-chooser.h:
+	* libempathy-gtk/empathy-accounts-dialog.c: set unsensitive the add
+	button if there is no profile installed and tell the user to install
+	some connection managers.
+
+	* libempathy-gtk/empathy-ui-utils.c: Fix indentation.
+
+2007-10-19  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-chat-window.c: If EmpathyChat object does not
+	exist when DnD a contact, create one. Fixes bug #483168.
+
+2007-10-19  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-status-icon.c: Fix crash when iconifying main
+	window if it's already hiden.
+
+2007-10-19  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-group-chat.c:
+	* libempathy/empathy-tp-chatroom.c:Don't accept invitation if we are
+	not invited.
+
+	* libempathy-gtk/empathy-status-icon.c: Correctly toggle visibility
+	with ALT-F4 on the main windows.
+
+2007-10-18  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-log-manager.c:
+	* libempathy/empathy-log-manager.h:
+	* libempathy/empathy-tp-chat.c:
+	* libempathy/empathy-contact-manager.c:
+	* libempathy/empathy-tp-chat.h:
+	* libempathy/empathy-contact-manager.h:
+	* libempathy/empathy-avatar.c:
+	* libempathy/empathy-chandler.c:
+	* libempathy/empathy-tp-contact-list.c:
+	* libempathy/empathy-chandler.h:
+	* libempathy/empathy-filter.c:
+	* libempathy/empathy-tp-roomlist.c:
+	* libempathy/empathy-tp-contact-list.h:
+	* libempathy/empathy-filter.h:
+	* libempathy/empathy-tp-chatroom.c:
+	* libempathy/empathy-tp-roomlist.h:
+	* libempathy/empathy-contact-factory.c:
+	* libempathy/empathy-tp-chatroom.h:
+	* libempathy/empathy-contact-list.c:
+	* libempathy/empathy-contact-factory.h:
+	* libempathy/empathy-contact-list.h:
+	* libempathy/empathy-chatroom.c:
+	* libempathy/empathy-idle.c:
+	* libempathy/empathy-tp-group.c:
+	* libempathy/empathy-chatroom.h:
+	* libempathy/empathy-idle.h:
+	* libempathy/empathy-tp-group.h: Cleanup licences and copyrights,
+	Modules with 100% collabora code are now relicenced to LGPL.
+
+2007-10-15  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-ui-utils.c: Don't warning if we try to load
+	a NULL icon.
+
+	* data/Makefile.am:
+	* data/aim.profile:
+	* data/sofiasip.profile: Add AIM and SIP profiles. Fixes bug #457740
+	(Jamey Hicks).
+
+2007-10-13  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-chat.c: Set chat state to ACTIVE when receiving
+	a message from a contact, avoid staying in COMPOSING state forever for
+	protocols like MSN that do not notify when contact stoped writing.
+
+2007-10-13  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-chat-view.h:
+	* libempathy-gtk/empathy-main-window.c:
+	* libempathy-gtk/empathy-chat.c:
+	* libempathy-gtk/empathy-chat-window.c:
+	* libempathy-gtk/empathy-chat-view.c:
+	* libempathy/empathy-log-manager.c:
+	* libempathy/empathy-time.c:
+	* libempathy/empathy-tp-chat.c:
+	* libempathy/empathy-time.h:
+	* libempathy/empathy-message.c:
+	* libempathy/empathy-message.h:
+	* libempathy/empathy-presence.c:
+	* configure.ac: Don't use deprecated GtkTooltips API. Add commented out
+	lines in configure.ac to disable GLib and GTK deprecated symbols.
+	Replace EmpathyTime by time_t which is more appropriate for timestamps.
+
+	* doc/*: Updated.
+
+2007-10-13  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-main-window.c:
+	* libempathy-gtk/empathy-presence-chooser.c:
+	* libempathy-gtk/empathy-contact-list-view.c:
+	* libempathy-gtk/empathy-contact-widget.c:
+	* libempathy-gtk/empathy-chat.c:
+	* libempathy-gtk/empathy-contact-list-store.c:
+	* libempathy-gtk/empathy-chat-window.c:
+	* libempathy/empathy-idle.c:
+	* tests/contact-manager.c: Use g_timeout_add_seconds when appropriated
+	to avoid weaking the process too much.
+
+2007-10-11  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-tp-contact-list.c: Set supress_handler to TRUE when
+	creating new group channel.
+
+2007-10-11  Xavier Claessens  <xclaesse@gmail.com>
+
+	* po/POTFILES.in: Add missing files.
+
+2007-10-09  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac: Bump MissionControl version to 4.37, we uses new API
+	introduced in that version.
+
+2007-10-09  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-main-window.c:
+	* libempathy-gtk/empathy-contact-dialogs.c:
+	* libempathy-gtk/empathy-contact-list-view.c:
+	* libempathy-gtk/empathy-contact-dialogs.h:
+	* libempathy-gtk/empathy-contact-widget.c:
+	* libempathy-gtk/empathy-contact-widget.h:
+	* libempathy-gtk/empathy-chat-window.c:
+	* megaphone/src/megaphone-applet.c: More flexible API for
+	EmpathyContactWidget, we now have flags to set editable each fields.
+	Implement personal information menu item in main window.
+
+2007-10-09  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-contact-widget.glade:
+	* libempathy-gtk/empathy-contact-widget.c:
+	* libempathy-gtk/empathy-avatar-chooser.c:
+	* libempathy-gtk/empathy-avatar-image.c: Makes avatar looks better in
+	information and edit dialogs.
+
+2007-10-08  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-ui-utils.c:
+	* libempathy-gtk/empathy-ui-utils.h:
+	* libempathy-gtk/empathy-contact-widget.c:
+	* libempathy-gtk/empathy-contact-widget.h:
+	* libempathy-gtk/empathy-avatar-chooser.c:
+	* libempathy-gtk/empathy-avatar-chooser.h:
+	* libempathy-gtk/empathy-avatar-image.c:
+	* libempathy-gtk/empathy-avatar-image.h:
+	* libempathy-gtk/Makefile.am:
+	* src/empathy.c: Implement EmpathyAvatarChooser and EmpathyAvatarImage
+	and make use of them in contact information windows. That means we can
+	now enlarge avatars when clicking on it and we can set our own avatar if
+	we edit our own contact.
+
+2007-10-03  Marco Barisione  <marco@barisione.org>
+
+	* libempathy/empathy-contact-factory.c:
+	* libempathy/empathy-tp-call.c:
+	* libempathy/empathy-tp-group.c:
+	* libempathy/empathy-utils.c: Initialize every GError to NULL. Fixes
+	bug #482889.
+
+2007-10-02  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-tp-contact-list.c: Add back protocol group.
+
+2007-10-01  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-contact-list-view.c: Add a #ifdef HAVE_VOIP.
+	Fixes bug #482190 (Marco Barisione).
+
+2007-10-01  Xavier Claessens  <xclaesse@gmail.com>
+
+	* data/Makefile.am:
+	* data/empathy.desktop.in.in: Use fd.o standard location for autostart
+	desktop files. Fixes bug #481860 (Stephane Loeuillet).
+
+2007-10-01  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac: Bump version to 0.15.
+
+2007-10-01  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/Makefile.am: Add tp-stream-engine.xml to EXTRA_DIST.
+	* po/POTFILES.in: Add empathy-call-window.glade.
+
+2007-10-01  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac:
+	* NEWS: Update before release.
+
+2007-10-01  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-private-chat.c: Fix refcounting of
+	priv->factory. Fixes bug #473116.
+
+2007-10-01  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-chat-window.c: Adding sanity checks to public
+	functions.
+
+2007-10-01  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-accounts-dialog.c:
+	* libempathy/empathy-utils.c: Add some sanity checks. Fixes bug #463051.
+
+2007-10-01  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-tp-chat.c: Disconnect all signals in finalize.
+	Fixes bug #462815.
+
+2007-10-01  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-chatrooms-window.c: Disconnect signals on
+	chatroom manager. Fixes bug #456619.
+
+2007-10-01  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-contact-list-store.c: Disconnect signals on
+	list and contacts when finalizing the store.
+
+2007-10-01  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-contact-list-view.c:
+	* libempathy-gtk/empathy-chat-window.c: Hide VOIP stuff if empathy is
+	not compiled with --enable-voip=yes. Fixes bug #482111
+	(Sjoerd Simons, Xavier Claessens).
+
+2007-10-01  Xavier Claessens  <xclaesse@gmail.com>
+
+	* megaphone/src/megaphone-applet.c:
+	* megaphone/data/GNOME_Megaphone_Applet.schemas.in: Updated to use new
+	avatar cache.
+
+2007-09-29  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-tp-group.c: ref group when async calls are in
+	flight to avoid destroying the object before receiving the reply.
+	* libempathy/empathy-utils.c: Unref the group to not leak it.
+
+2007-09-29  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-contact-factory.c: Refcount
+	ContactFactoryAccountData struct.
+
+2007-09-29  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-call-window.c:
+	* libempathy-gtk/empathy-call-window.h:
+	* libempathy-gtk/empathy-contact-list-view.c:
+	* libempathy-gtk/empathy-call-window.glade:
+	* libempathy-gtk/Makefile.am:
+	* libempathy-gtk/empathy-chat-window.c:
+	* src/empathy-call-chandler.c:
+	* src/empathy-call.chandler:
+	* src/org.gnome.Empathy.Call.service.in:
+	* src/Makefile.am:
+	* libempathy/empathy-utils.c:
+	* libempathy/empathy-utils.h:
+	* libempathy/empathy-tp-call.c:
+	* libempathy/empathy-tp-call.h:
+	* libempathy/Makefile.am:
+	* libempathy/tp-stream-engine.xml:
+	* configure.ac:
+	* doc/libempathy-gtk/libempathy-gtk-docs.sgml:
+	* doc/libempathy/libempathy.types:
+	* doc/libempathy/libempathy-docs.sgml:
+	* doc/libempathy/Makefile.am:
+	* doc/libempathy/tmpl/empathy-utils.sgml: Initial Voice+Video support
+	Fixes bug #468204 (Elliot Fairweather, Xavier Claessens).
+
+2007-09-28  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac: Bump version to 0.14.
+	* doc/*: Updated.
+
+2007-09-28  Xavier Claessens  <xclaesse@gmail.com>
+
+	* ChangeLog:
+	* configure.ac:
+	* NEWS: Updated for 0.13 release.
+
+2007-09-28  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac:
+	* src/empathy.c: Remove GnomeProgram, not useful anymore, drop libgnome
+	dependency. Fixes bug #442079
+
+	* libempathy/empathy-avatar.c:
+	* libempathy/empathy-avatar.h: Fix Copyright header.
+
+	* libempathy/empathy-contact-factory.c:
+	* libempathy/empathy-tp-group.c: Free return value for async DBus calls,
+	they are not owned by dbus-glib. This fix big leaks, thanks again to
+	valgrind.
+
+2007-09-28  Xavier Claessens  <xclaesse@gmail.com>
+
+	* src/Makefile.am: Correctly modify service.in files to expand bindir.
+
+2007-09-28  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-tp-group.c: Look in the local_pendings list if a
+	contact is already local pending.
+	* tests/contact-manager.c: Fix white space typo.
+
+2007-09-27  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-utils.c:
+	* libempathy/empathy-contact-factory.c: Fix 2 leaks thanks to valgrind.
+
+2007-09-27  Xavier Claessens  <xclaesse@gmail.com>
+
+	* tests/contact-manager.c:
+	* tests/Makefile.am: No need to init gtk, GMainLoop is enough and makes
+	easier to run valgrind.
+
+2007-09-27  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-avatar.c: Fix leak when loading avatar from cache.
+	* libempathy/empathy-contact-factory.c: Do not request avatar for
+	unknown tokens, wait for AvatarUpdate signal.
+
+2007-09-27  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-profile-chooser.c: Set the sort function before
+	begin to sort otherwise we get warnings.
+
+2007-09-26  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-utils.c:
+	* libempathy/empathy-utils.h:
+	* libempathy/empathy-avatar.c:
+	* libempathy/empathy-avatar.h:
+	* libempathy/empathy-contact-factory.c: Cache avatars and RequestAvatars
+	only when needed.
+
+2007-09-26  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-contact-factory.c: Fix capabilities update, the NOT
+	operator is ~ and not !
+
+2007-09-26  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-profile-chooser.c:
+	* libempathy-gtk/empathy-main-window.c: Fix warning when sort criterium
+	is NULL and when there is no profile. Fixes bug #479786
+	(Christian Persch, Xavier Claessens).
+
+2007-09-21  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-log-manager.c: Ignore log files that don't have a
+	good filename. Fixes bug #462046 (Michael Scherer).
+	* configure.ac: Bump GLIB version to 2.14.0.
+
+2007-09-21  Xavier Claessens  <xclaesse@gmail.com>
+
+	* doc/libempathy-gtk/Makefile.am: Explicitely use libempathy from
+	builddir. Fixes bug #478558 (Frederic Peters).
+
+2007-09-21  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-chat.c: Move TP_CHANNEL_CHAT_STATE_PAUSED to
+	the not typing case. Fixes bug #474603 (Cosimo Cecchi).
+
+2007-09-21  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-status-icon.c: Tooltip for subscription request
+	shouldn't display "Message:" if the message is empty. Fixes bug #459538
+	(Cosimo Cecchi).
+	Do not update tooltip each time the icon change.
+
+2007-09-21  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-chat-window.c: Do not set "new message" in
+	the title of conversation windows, it's useless. Fixes bug #459523.
+
+2007-09-21  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-tp-contact-list.c: Fix warnings when finalizing.
+
+	* tests/contact-manager.c:
+	* tests/Makefile.am:
+	* configure.ac:
+	* Makefile.am: Add a test program to track leaks.
+
+2007-09-21  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-contact-list-view.c: Fix ref count error for
+	account objects.
+
+	* libempathy/empathy-contact-manager.c: Disconnect signals from
+	MissionControl object when finalising the contact manager.
+
+	* configure.ac:
+	* megaphone/src/megaphone-applet.c:
+	* megaphone/src/Makefile.am:
+	* megaphone/src/megaphone-applet.h:
+	* megaphone/data/GNOME_Megaphone_Applet.schemas.in:
+	* megaphone/data/Makefile.am:
+	* megaphone/data/GNOME_Megaphone_Applet.server.in.in:
+	* megaphone/data/GNOME_Megaphone_Applet.xml:
+	* megaphone/Makefile.am:
+	* nothere/src/nothere-applet.c:
+	* nothere/src/Makefile.am:
+	* nothere/src/nothere-applet.h:
+	* nothere/data/Makefile.am:
+	* nothere/data/GNOME_NotHere_Applet.server.in.in:
+	* nothere/data/GNOME_NotHere_Applet.xml:
+	* nothere/Makefile.am:
+	* Makefile.am:
+	* po/POTFILES.in:
+	* po/POTFILES.skip: Add Megaphone and Nothere applets. Fixes bug
+	#464954 (Raphael Slinckx, Xavier Claessens).
+
+2007-09-20  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-status-icon.c:
+	* libempathy/empathy-idle.c:
+	* libempathy/empathy-idle.h:
+	* doc/libempathy/tmpl/empathy-idle.sgml: Add 2 properties to EmpathyIdle
+	to activate auto-away and auto-disconnect, default to off. Only empathy
+	main client will turn them on, like that if other processes are
+	running with an EmpathyIdle instance they won't change presence in the
+	same time than Empathy client.
+
+2007-09-19  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-smiley-manager.c: Fix a leak.
+
+2007-09-11  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-main-window.c:
+	* libempathy-gtk/empathy-group-chat.c:
+	* libempathy-gtk/empathy-contact-list-view.c:
+	* libempathy-gtk/empathy-contact-list-view.h:
+	* doc/libempathy-gtk/tmpl/empathy-contact-list-view.sgml: "interactive"
+	property on EmpathyContactListView to enable/disable context menu and
+	action when double-click on a contact.
+
+2007-09-10  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-contact-factory.c: Fix debug message.
+
+	* libempathy/Makefile.am:
+	* configure.ac: Remove useless code.
+
+2007-09-08  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-contact-list-view.c:
+	* libempathy-gtk/empathy-chat-window.c: Request media channel when
+	clicking on call icon.
+
+2007-09-08  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-images.h:
+	* libempathy-gtk/empathy-chat.glade:
+	* libempathy-gtk/empathy-cell-renderer-activatable.c:
+	* libempathy-gtk/empathy-cell-renderer-activatable.h:
+	* libempathy-gtk/empathy-contact-list-view.c:
+	* libempathy-gtk/empathy-contact-list-store.c:
+	* libempathy-gtk/empathy-contact-list-store.h:
+	* libempathy-gtk/Makefile.am:
+	* libempathy-gtk/empathy-chat-window.c:
+	* libempathy/empathy-contact.c:
+	* libempathy/empathy-contact.h: Adding UI to start a VoIP call. It does
+	nothing yet. Most of the code is ported from Gossip patch
+	(Raphael Slinckx, Xavier Claessens).
+
+2007-09-08  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-contact.c:
+	* libempathy/empathy-contact.h:
+	* libempathy/empathy-contact-factory.c: Adding capabilities contact
+	property.
+
+2007-09-08  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-contact-list-view.c:
+	* libempathy-gtk/empathy-contact-list-store.c: Make use of the search
+	function to correctly find when typing in the contact list view.
+	Fixes bug #472309 (Will Thompson, Xavier Claessens).
+
+2007-09-08  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-log-window.c: Fix crash if there is no date 
+	for a conversation. Fixes bug #473510.
+
+2007-09-08  Xavier Claessens  <xclaesse@gmail.com>
+
+	* python/pyempathygtk/pyempathygtk.override:
+	* python/pyempathygtk/pyempathygtk.defs: Updated for new API.
+
+2007-09-08  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac: Bump libtelepathy depend to 0.0.57.
+
+2007-09-08  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-chat-view.h:
+	* libempathy-gtk/empathy-ui-utils.c:
+	* libempathy-gtk/empathy-ui-utils.h:
+	* libempathy-gtk/empathy-chat.c:
+	* libempathy-gtk/empathy-smiley-manager.c:
+	* libempathy-gtk/empathy-smiley-manager.h:
+	* libempathy-gtk/Makefile.am:
+	* libempathy-gtk/empathy-chat-window.c:
+	* libempathy-gtk/empathy-chat-view.c: More dynamic smiley managment and
+	more efficient algorithm to detect smileys in messages.
+	Fixes bug #474167.
+
+	* doc/: Updated
+
+2007-08-31  Xavier Claessens  <xclaesse@gmail.com>
+
+	* doc/libempathy-gtk/Makefile.am:
+	* doc/libempathy-gtk/tmpl/empathy-preferences.sgml:
+	* doc/libempathy-gtk/tmpl/empathy-images.sgml:
+	* doc/libempathy/libempathy.types:
+	* doc/libempathy/libempathy-docs.sgml:
+	* doc/libempathy/Makefile.am:
+	* doc/libempathy/tmpl/empathy-tp-group.sgml:
+	* doc/libempathy/tmpl/empathy-avatar.sgml:
+	* doc/libempathy/tmpl/empathy-contact.sgml:
+	* doc/libempathy/tmpl/empathy-contact-list.sgml: Updated.
+
+2007-08-30  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-contact-factory.c: Don't use deprecated
+	RequestAvatar method.
+
+2007-08-30  Xavier Claessens  <xclaesse@gmail.com>
+
+	* python/pyempathy/pyempathy.defs:
+	* python/pyempathy/pyempathy.override:
+	* python/pyempathygtk/pyempathygtk.defs: Updated for new API.
+	* python/README: Explain how to update python binding.
+
+	* libempathy-gtk/empathy-images.h:
+	* libempathy-gtk/empathy-private-chat.c:
+	* libempathy-gtk/empathy-main-window.c:
+	* libempathy-gtk/empathy-status-icon.c:
+	* libempathy-gtk/empathy-group-chat.c:
+	* libempathy-gtk/empathy-ui-utils.c:
+	* libempathy-gtk/empathy-contact-dialogs.c:
+	* libempathy-gtk/empathy-contact-list-view.c:
+	* libempathy-gtk/empathy-contact-list-view.h:
+	* libempathy-gtk/empathy-contact-widget.c:
+	* libempathy-gtk/empathy-contact-list-store.c:
+	* libempathy-gtk/empathy-contact-list-store.h:
+	* libempathy-gtk/empathy-chat-window.c: Updated to use new libempathy
+	API.
+
+	* libempathy/empathy-log-manager.c:
+	* libempathy/empathy-contact.c:
+	* libempathy/empathy-contact.h:
+	* libempathy/empathy-tp-chat.c:
+	* libempathy/empathy-contact-manager.c:
+	* libempathy/empathy-contact-manager.h:
+	* libempathy/empathy-avatar.c:
+	* libempathy/empathy-avatar.h:
+	* libempathy/empathy-tp-contact-list.c:
+	* libempathy/empathy-tp-contact-list.h:
+	* libempathy/empathy-tp-chatroom.c:
+	* libempathy/empathy-contact-factory.c:
+	* libempathy/empathy-contact-factory.h:
+	* libempathy/empathy-contact-list.c:
+	* libempathy/empathy-contact-list.h:
+	* libempathy/empathy-tp-group.c:
+	* libempathy/empathy-marshal.list:
+	* libempathy/empathy-tp-group.h:
+	* libempathy/Makefile.am:
+	* configure.ac: Completely reworked ContactList API. Fixes bugs
+	#471611,
+	#467280,
+	#459540,
+	#462907.
+
+	* doc/*: Updated.
+
+2007-08-24  Xavier Claessens  <xclaesse@gmail.com>
+
+	* python/pyempathy/Makefile.am:
+	* python/pyempathygtk/Makefile.am:
+	* configure.ac: Make use of AM_PATH_PYTHON to get python variables.
+	Fixes bug #470642 (Daniel Gryniewicz).
+
+2007-08-24  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac: Bump version to 0.13.
+	* NEWS: Last NEWS entry is for version 0.12 and not 0.11.
+
+2007-08-24  Xavier Claessens  <xclaesse@gmail.com>
+
+	 * configure.ac:
+	 * doc/libempathy-gtk/tmpl/empathy-preferences.sgml:
+	 * NEWS:
+	 * po/POTFILES.in: Updated.
+
+2007-08-24  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-new-chatroom-dialog.c:
+	* libempathy-gtk/empathy-contact-widget.c:
+	* libempathy-gtk/empathy-accounts-dialog.c:
+	* libempathy/empathy-tp-contact-list.c:
+	* data/salut.profile: Salut's protocol name is going to change to
+	local-xmpp. Fixes bug #469638 (Sjoerd Simons)
+
+2007-08-24  Xavier Claessens  <xclaesse@gmail.com>
+
+	* src/empathy.c: Check if there is already a Salut account before
+	creating a new one and add more debug messages.
+
+2007-08-24  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac:
+	* data/22x22/Makefile.am:
+	* data/22x22/empathy-proto-jabber.svg:
+	* data/22x22/empathy-proto-jabber.png:
+	* data/48x48/Makefile.am:
+	* data/32x32/Makefile.am:
+	* data/32x32/empathy-proto-jabber.svg:
+	* data/32x32/empathy-proto-jabber.png:
+	* data/24x24:
+	* data/24x24/Makefile.am:
+	* data/24x24/empathy-proto-jabber.png:
+	* data/16x16/empathy-proto-jabber.svg:
+	* data/16x16/Makefile.am:
+	* data/16x16/empathy-proto-jabber.png:
+	* data/scalable/empathy-proto-jabber.svg:
+	* data/scalable/Makefile.am:
+	* data/Makefile.am: Change jabber icon. Fixes bug #466377
+	(Björn Martensen).
+
+2007-08-23  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-account-widget-salut.glade:
+	* libempathy-gtk/empathy-account-widget-salut.c:
+	* libempathy-gtk/empathy-account-widget-salut.h:
+	* libempathy-gtk/empathy-preferences.h:
+	* libempathy-gtk/empathy-accounts-dialog.c:
+	* libempathy-gtk/Makefile.am:
+	* src/empathy.c:
+	* configure.ac:
+	* data/empathy.schemas.in: Add specialised UI for salut settings.
+	Configure a Salut account first time empathy is started with
+	salut CM installed using gnome-about-me information. Fixes bug #447467
+	(Cosimo Cecchi, Xavier Claessens).
+
+2007-08-19  Xavier Claessens  <xclaesse@gmail.com>
+
+	* python/pyempathy/Makefile.am:
+	* python/pyempathy/pyempathy.override:
+	* python/pyempathygtk/Makefile.am: Fix build system, make distcheck now
+	works.
+
+2007-08-19  Xavier Claessens  <xclaesse@gmail.com>
+
+	* python/pyempathy/pyempathy.defs:
+	* python/pyempathy/pyempathymodule.c:
+	* python/pyempathy/Makefile.am:
+	* python/pyempathy/pyempathy.override:
+	* python/pyempathygtk/pyempathygtk.override:
+	* python/pyempathygtk/pyempathygtk.defs:
+	* python/pyempathygtk/Makefile.am:
+	* python/pyempathygtk/pyempathygtkmodule.c:
+	* python/Makefile.am:
+	* libempathy/empathy-time.h:
+	* configure.ac:
+	* Makefile.am: Add python binding. Fixes bug #457660 (Michael Sheldon).
+
+2007-08-19  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-main-window.glade: Edit menu should be second
+	from the left. Fixes bug #467827 (Cosimo Cecchi).
+
+2007-08-13  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-group-chat.c: Only update the topic of it has
+	really be changed, avoid diplaying many times "Topic set to:" message.
+
+	* libempathy-gtk/empathy-chat.c: Some Jabber chatroom sends messages
+	received before we joined the room, this avoid displaying those messages
+	if we already logged them last time we joined that room. Previous
+	workaround prevented Empathy to log offline messages.
+
+2007-08-12  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac: Bump version to 0.12.
+
+2007-08-12  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac: Update libtool version.
+
+	* doc/libempathy-gtk/tmpl/empathy-images.sgml:
+	* doc/libempathy-gtk/tmpl/empathy-status-presets.sgml:
+	* NEWS: Updated.
+
+2007-08-12  Xavier Claessens  <xclaesse@gmail.com>
+
+	* data/irc.profile: Removed spaces in the SupportedPresences key to
+	workaround a MC warning SF bug 1772539.
+
+2007-08-11  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-accounts-dialog.c: Make "Add account" button
+	insensitive when we are creating one. Fixes bug #459170
+	(Jaap A. Haitsma).
+
+2007-08-11  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-tp-contact-list.c: s/Local Network/People nearby/
+	(Sjoerd Simons)
+
+2007-08-10  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-accounts-dialog.c: Unselect accounts when
+	clicking on "add" button. Fixes bug #459173 (Cosimo Cecchi).
+
+2007-08-10  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-presence-chooser.glade: add some spacing in
+	"Custom message" dialog. Fixes bug #465360 (Frederic Peters).
+
+2007-08-10  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-images.h:
+	* libempathy-gtk/empathy-presence-chooser.c:
+	* libempathy-gtk/empathy-ui-utils.c:
+	* libempathy/empathy-presence.c: Add hidden supprot. Fixes bug #455510
+	(Cosimo Cecchi).
+
+	* data/gtalk.profile:
+	* data/jabber.profile:
+	* data/salut.profile:
+	* data/irc.profile:
+	* data/msn.profile: Updated to use SupportedPresences field.
+
+2007-08-09  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-presence-chooser.glade:
+	* libempathy-gtk/empathy-presence-chooser.c:
+	* libempathy-gtk/empathy-status-presets.c:
+	* libempathy-gtk/empathy-status-presets.h:
+	* libempathy-gtk/empathy-ui-utils.c: Remove per-state
+	"Custom message..." item and add one on the bottom of the menu. Add
+	a combobox on the custom message dialog to select the state and change
+	the action of the checkbox, now it add/remove the message from saved
+	messages. Make easier to add other states to the list if needed.
+	Fixes bug #460678.
+
+2007-08-09  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-presence.c:
+	* libempathy/empathy-idle.c:
+	* configure.ac: Remove workaround for mc-enum-types.h not being
+	installed by MC and bump MC minimal version to 4.33.
+
+2007-08-09  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-preferences.c:
+	* libempathy-gtk/empathy-preferences.glade: Useless spell checker
+	option. Fixes bug #459164 (Cosimo Cecchi).
+
+2007-08-08  Xavier Claessens  <xclaesse@gmail.com>
+
+	* autogen.sh: Requier automake 1.9. Fixes bug #464822 (Cosimo Cecchi).
+
+2007-08-08  Xavier Claessens  <xclaesse@gmail.com>
+
+	* MAINTAINERS: Updated the MAINTAINERS file to match new syntax.
+
+2007-08-07  Marco Barisione  <marco@barisione.org>
+
+	* libempathy/Makefile.am:
+	* libempathy/empathy-marshal-main.c: Remove empathy-marshal-main.c and
+	include empathy-marshal.h from empathy-marshal.c.
+
+	* libempathy/Makefile.am:
+	* libempathy-gtk/Makefile.am: Generate files for enum types with
+	glib-mkenums.
+
+	* libempathy/empathy-contact.c:
+	* libempathy/empathy-idle.c:
+	* libempathy/empathy-message.c:
+	* libempathy/empathy-presence.c:
+	* libempathy-gtk/empathy-main-window.c:
+	* libempathy-gtk/empathy-preferences.c:
+	* doc/libempathy-gtk/libempathy-gtk.types:
+	* doc/libempathy-gtk/tmpl/empathy-contact-list-store.sgml: Use
+	g_param_spec_enum() and g_param_spec_flags() instead of
+	g_param_spec_(u)int.
+	Fixes bug #462465.
+
+	* libempathy-gtk/empathy-contact-list-store.c:
+	* libempathy-gtk/empathy-contact-list-store.h: Remove
+	empathy_contact_list_store_sort_get_type() as it's now auto-generated
+	by glib-mkenums.
+
+2007-08-06  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-main-window.glade: Change main window's title
+	to "Contact list".
+
+2007-08-06  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-tp-chat.c: Don't forget to reverse the glist of
+	pending messages.
+
+	* libempathy/empathy-tp-roomlist.c: Fix wrong room list names when
+	listing them.
+
+2007-08-06  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-account-widget-msn.glade:
+	* libempathy-gtk/empathy-account-widget-msn.c: Add an Advanced section
+	and remove size_group. 
+	Fixes bug #463759 (Jaap A. Haitsma, Xavier Claessens).
+
+	* README: Use ./autogen.sh instead of gnome-autogen.sh.
+
+2007-08-02  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-accounts-dialog.glade:
+	* libempathy-gtk/empathy-accounts-dialog.c: Click on the treeview to
+	edit the name of an account. Fixes bug #459166.
+
+2007-08-02  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-account-widget-jabber.c: Do not try to guess
+	the Jabber server from the jid, gabble does that for us.
+
+2007-08-02  Xavier Claessens  <xclaesse@gmail.com>
+
+	* doc/libempathy-gtk/tmpl/empathy-account-chooser.sgml:
+	* doc/libempathy-gtk/tmpl/empathy-ui-utils.sgml:
+	* doc/libempathy-gtk/tmpl/empathy-contact-widget.sgml:
+	* doc/libempathy/tmpl/empathy-message.sgml:
+	* doc/libempathy/tmpl/empathy-utils.sgml: Update doc.
+
+2007-08-02  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-profile-chooser.c: Do not list profiles that
+	don't have the corresponding CM installed when creating a new account.
+	This is a workaround for MC bug: SF #1688779.
+
+2007-08-02  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-account-widget-generic.c: Remove size_group.
+	Fixes bug #462792.
+
+2007-08-02  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-accounts-dialog.c:
+	* libempathy/empathy-utils.c:
+	* libempathy/empathy-utils.h: Adding new empathy_strdiff API stolen from
+	telepathy-glib. It check if strings are != NULL before using strcmp.
+	Using that API to fix bug #461886. Should be used in more places.
+
+2007-08-02  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-status-icon.c: Click on the tray icon shows the
+	window if it's not active and hide if it is. Fixes bug #462057
+	(Olivier Valentin).
+
+2007-08-02  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-group-chat.c: don't display
+	"Topic set to: (null)". Fixes bug #460205 (Michael Scherer).
+
+2007-07-30  Xavier Claessens  <xclaesse@gmail.com>
+
+	* autogen.sh: Added back, it calls gnome-autogen.sh.
+
+2007-07-29  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-profile-chooser.c:
+	* libempathy/empathy-message.c: Add missing include string.h.
+
+2007-07-29  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac: Bump version to 0.11.
+
+2007-07-29  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-account-widget-generic.c:
+	* libempathy-gtk/empathy-account-widget-generic.h: Align param names
+	on the left.
+
+	* libempathy-gtk/empathy-accounts-dialog.glade:
+	* libempathy-gtk/empathy-accounts-dialog.c: Simpler header to describe
+	the selected account. Fixes bug #459169.
+
+	* configure.ac: Set Collabora Ltd. in the Copyright.
+
+2007-07-28  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-profile-chooser.c: Makes easier to change to
+	profile order.
+
+2007-07-28  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-account-widget-jabber.c: Try to guess the
+	server from the jid only if we are using the jabber profile. When we
+	guessed a server don't forget to set the "server" McAccount param,
+	setting the entry's text is not enough.
+
+2007-07-28  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-profile-chooser.c: Improve the sort function
+	a bit to have Jabber before GTalk.
+
+2007-07-28  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-accounts-dialog.glade:
+	* libempathy-gtk/empathy-accounts-dialog.c: Update the Enable/Disable
+	button even if there is no account selected. Set it insensitive if no
+	account is selected. Fixes bug #459012.
+
+2007-07-27  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-profile-chooser.c: Sort profiles to have
+	free protocols first. Fixes bug #460605.
+
+2007-07-27  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-message.c:
+	* libempathy/empathy-message.h:
+	* libempathy/empathy-log-manager.c: Add message type in log files.
+	Fixes bug #459579.
+
+	* doc/*: Updated.
+
+2007-07-26  Xavier Claessens  <xclaesse@gmail.com>
+
+	* po/POTFILES.in: Add missing file
+	libempathy-gtk/empathy-account-widget-msn.glade.
+
+2007-07-26  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-account-widget-jabber.glade:
+	* libempathy-gtk/empathy-account-widget-jabber.c: Hide
+	"advanced options" for jabber in a GtkExpander. Fixes bug #459168
+	(Guillaume Desmottes).
+
+2007-07-26  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-new-chatroom-dialog.c:
+	* libempathy/empathy-tp-roomlist.c: Fix Room listing. Fixes bug #460416
+	(Sjoerd Simons).
+
+2007-07-26  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/Makefile.am:
+	* libempathy/Makefile.am:
+	* configure.ac: Use libtool -version-info. Fixes bug #460579
+	(Laurent Bigonville).
+
+2007-07-26  Xavier Claessens  <xclaesse@gmail.com>
+
+	* README:
+	* autogen.sh: Remove the autogen.sh script and use gnome-autogen.sh
+	instead. Fixes bug #460590.
+
+2007-07-26  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-account-chooser.c:
+	* libempathy-gtk/empathy-new-chatroom-dialog.c:
+	* libempathy-gtk/empathy-account-chooser.h:
+	* libempathy-gtk/empathy-contact-dialogs.c:
+	* libempathy-gtk/empathy-chatrooms-window.c:
+	* libempathy-gtk/empathy-contact-widget.c:
+	* libempathy-gtk/empathy-contact-widget.h:
+	* libempathy-gtk/empathy-log-window.c:
+	* doc/*: Do not show salut accounts in the add contact dialog. Rework
+	a bit EmpathyContactWidget. Fixes bug #459100
+	(Guillaume Desmottes, Xavier Claessens).
+
+2007-07-26  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-accounts-dialog.c: add contact frame is not
+	hidden after cancelling. Fixes bug #458997 (Frederic Peters).
+
+2007-07-26  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-idle.c: Fix problems when NM is not running. Fixes
+	bug #460419.
+
+	* doc/*: Updated documentation.
+
+2007-07-26  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac: Bump version to 0.10
+
+2007-07-25  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-filter.c: Adding more debug output.
+
+2007-07-25  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-tp-contact-list.c: Add a check to be sure the
+	new channel is valid in the NewChannel cb. Fixes bug #451564.
+
+2007-07-20  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/Makefile.am:
+	* libempathy/empathy-tp-roomlist.h:
+	* libempathy/empathy-tp-roomlist.c:
+	* libempathy-gtk/empathy-chatrooms-window.c:
+	* libempathy-gtk/empathy-new-chatroom-dialog.c: Initial room list
+	support. It does not works yet.
+
+	* libempathy-gtk/empathy-account-widget-generic.c: Add support for all
+	types of integer and float. Fixes bug #457740 (Jamey Hicks).
+
+	* libempathy/empathy-tp-chat.c:
+	* libempathy-gtk/empathy-chat.c: If there is an error sending a message,
+	show an error message to the user.
+
+	* libempathy-gtk/empathy-accounts-dialog.c: Fix a leak, profile should
+	be unrefed after mc_account_get_profile.
+
+	* libempathy/empathy-utils.c:
+	* libempathy/empathy-utils.h:
+	* libempathy/empathy-tp-chatroom.c:
+	* libempathy/empathy-tp-group.h:
+	* libempathy/empathy-tp-group.c:
+	* src/empathy.c: Rename empathy_get_channel_id() to
+	empathy_inspect_channel(). We now have empathy_inspect_handle().
+
+	* po/POTFILES.in:
+	* libempathy/empathy-tp-contact-list.c: Set all contacts from salut
+	protocol to the "Local Network" group.
+
+	* libempathy/empathy-idle.c: Fix NetworkManager support.
+
+	* libempathy/empathy-chatroom.h: Fix indentation.
+
+	* libempathy-gtk/empathy-status-icon.c:
+	* libempathy-gtk/empathy-ui-utils.c:
+	* libempathy-gtk/empathy-ui-utils.h:
+	 - Iconify main window to the status icon like in rhythmbox.
+	   Fixes bug #458106 (Jaap A. Haitsma).
+	 - Rounded avatars. Fixes bug #457992 (Raphael Slinckx)
+
+	* Makefile.am: Fix distcheck for gtkdoc (Vincent Untz)
+
+	* data/empathy.desktop.in.in: Change application description
+	(Jaap A. Haitsma).
+
+2007-07-14  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-contact-list-store.c: Show avatars by default.
+
+2007-07-13  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-status-icon.c: If there is no pending msg
+	when a text channel should be filtered wait for the first message
+	instead of not dispatching the channel which may cause messages to be
+	lost.
+
+2007-07-13  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-tp-contact-list.c: Fix avatar request queue.
+
+2007-07-13  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-new-chatroom-dialog.c:
+	* libempathy-gtk/empathy-new-chatroom-dialog.glade: Remove unused
+	nickname entry and use a GtkTable for room information. More work is
+	needed here.
+
+	* libempathy-gtk/empathy-contact-widget.glade: Change padding to 6.
+
+	* libempathy-gtk/empathy-contact-dialogs.c: Set a window title.
+
+	* libempathy-gtk/empathy-contact-widget.c: Fix alignment of widgets.
+
+	* libempathy/empathy-tp-contact-list.c: Add more debug msg for avatar
+	handling.
+
+2007-07-12  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/Makefile.am: Fix missing header for
+	EmpathyAccountWidgetMSN.
+
+	* configure.ac: Fix useless "\".
+
+	* autogen.sh: run gtkdocize if needed.
+
+2007-07-12  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac:
+	* doc/*:
+	* Makefile.am: Adding initial API documentation using gtk-doc.
+
+2007-07-12  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-tp-contact-list.c: Auto-accept to publish presence
+	to contacts that are in our subscribe list. When accepting a pending
+	contact add it to publish and subscribe list.
+
+2007-07-09  Xavier Claessens  <xclaesse@gmail.com>
+
+	* src/empathy.c:
+	* libempathy/empathy-debug.c:
+	* libempathy/empathy-debug.h: Add EMPATHY_LOGFILE env variable. Fixes
+	bug #455240 (Guillaume Desmottes).
+
+2007-07-09  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-account-widget-msn.glade:
+	* libempathy-gtk/empathy-account-widget-msn.c:
+	* libempathy-gtk/empathy-account-widget-msn.h:
+	* libempathy-gtk/empathy-accounts-dialog.c:
+	* libempathy-gtk/Makefile.am: Add MSN setting UI. Fixes bug #443162
+	(Cosimo Cecchi).
+
+	* libempathy-gtk/empathy-chat-view.c:
+	* libempathy/empathy-log-manager.c:
+	* libempathy/empathy-log-manager.h: Add needed API to show chat logs in
+	Tracker. Fixes bug #452536.
+
+2007-07-07  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-account-widget-generic.c: Workaround to fix a 
+	commonly reported crash. Fixes bug #454277
+	* libempathy/empathy-tp-group.c: Add a missing check.
+
+2007-06-30  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac: Bump MC version required to 4.27.
+	* TODO: Updated.
+
+2007-06-30  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-account-widget-generic.c: Fix a leaked ref.
+
+	* src/empathy.c: If we get a chatroom we have to create an
+	EmpathyTpChatroom object.
+
+	* src/Makefile.am: Fix build system, programs links to libempathy-gtk
+	and libempathy.
+
+	* configure.ac: libempathy does not depends on libgnome-vfs.
+
+	* libempathy-gtk/empathy-status-icon.c:
+	* libempathy-gtk/empathy-chat.c:
+	* libempathy/empathy-tp-chat.c:
+	* libempathy/empathy-tp-chat.h:
+	* libempathy/empathy-filter.c:
+	* libempathy/empathy-filter.h:
+	* libempathy/empathy-filter.xml:
+	* libempathy/Makefile.am: Filter incoming text channels and make
+	status icon flash when there we receive a new message. Dispatch the
+	channel only when we get a message and the user click on the icon.
+
+2007-06-22  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/libempathy-gtk.pc.in:
+	* libempathy-gtk/Makefile.am:
+	* libempathy/libempathy.pc.in:
+	* libempathy/Makefile.am:
+	* configure.ac: Install libempathy and libempathy-gtk and make their
+	API public.
+
+2007-06-22  Xavier Claessens  <xclaesse@gmail.com>
+
+	* po/POTFILES.in: s/gossip/empathy/
+
+2007-06-22  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/*.[ch]:
+	* libempathy-gtk/*.[ch]:
+	* src/*.[ch]: Rename all filenames starting with "gossip" by "empathy",
+	change namespace of all gossip_*() functions to empathy_*().
+	Fixes bug #444490 (Mario Danic, Xavier Claessens).
+
+2007-06-21  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac: Bump version to 0.9
+
+2007-06-21  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-tp-contact-list.c: Fix typo causing warnings.
+
+2007-06-21  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-contact-dialogs.c:
+	* libempathy-gtk/gossip-contact-list-store.c:
+	* libempathy-gtk/gossip-contact-list-view.c:
+	* libempathy/empathy-contact-manager.c:
+	* libempathy/empathy-tp-contact-list.c:
+	* libempathy/empathy-contact-list.c:
+	* libempathy/empathy-contact-list.h:
+	* libempathy/gossip-contact.c: We show in our roster all contacts
+	members and remote-pending of subscribe list. Adding/Removing a contact
+	only add/remove from subscribe list. Accept/Reject a contact in
+	local-pending of publish list is done using _process_pending().
+
+2007-06-15  Xavier Claessens  <xclaesse@gmail.com>
+
+	* src/empathy.c:
+	* libempathy/empathy-idle.c: Adding NetworkManager support.
+
+2007-06-15  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-status-icon.c:
+	* libempathy-gtk/gossip-presence-chooser.c:
+	* libempathy-gtk/gossip-presence-chooser.h:
+	* libempathy/empathy-idle.c:
+	* libempathy/empathy-idle.h: Prepare for slack time when coming back
+	from auto away. Not yet fully implemented.
+
+2007-06-14  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-images.h:
+	* libempathy-gtk/gossip-chat.c: Use gtk-info for contact informaiton.
+
+	* data/22x22/empathy-proto-salut.png:
+	* data/22x22/Makefile.am:
+	* data/16x16/empathy-proto-salut.png:
+	* data/16x16/Makefile.am:
+	* data/scalable/empathy-proto-salut.svg:
+	* data/scalable/Makefile.am:
+	* data/salut.profile: Add salut icon. Fixes bug #447659 (Michael Monreal).
+
+2007-06-14  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-contact-list-view.c: Show logs when right
+	click on a contact in the roster.
+
+2007-06-14  Xavier Claessens  <xclaesse@gmail.com>
+
+	* src/org.gnome.Empathy.Chat.service.in:
+	* src/empathy-accounts.c:
+	* src/empathy-accounts-main.c:
+	* src/empathy-chat-main.c:
+	* src/empathy.c:
+	* src/Makefile.am:
+	* src/empathy-main.c:
+	* libempathy/gossip-chatroom-manager.c:
+	* autogen.sh: Empathy is no more splitted into 2 processes. It makes
+	debugging more difficult when emmpathy-chat crashes. It's also more
+	optimised like that since contact objects can be shared.
+
+2007-06-14  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-chat-window.c: Disconnect signals from
+	chatroom_manager. Fixes bug #447178.
+
+2007-06-14  Xavier Claessens  <xclaesse@gmail.com>
+
+	* po/POTFILES.in:
+	* po/POTFILES.skip: Get strings in empathy.desktop.in.in and skip
+	empathy.desktop.in. Fixes bug #446161.
+
+2007-06-14  Xavier Claessens  <xclaesse@gmail.com>
+
+	* po/POTFILES.in: Adding missing files.
+
+2007-06-14  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-log-window.c:
+	* libempathy-gtk/gossip-chat-window.c:
+	* libempathy/empathy-log-manager.c:
+	* libempathy/empathy-log-manager.h: Do not create log directory for a
+	chat if there is no messages to put in. Show logs and information for
+	the contact we are speaking with in the chat window menu.
+
+2007-06-13  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/Makefile.am:
+	* libempathy-gtk/gossip-log-window.glade:
+	* libempathy-gtk/gossip-log-window.h:
+	* libempathy-gtk/gossip-log-window.c:
+	* libempathy/empathy-log-manager.c:
+	* libempathy/empathy-log-manager.h:
+	* libempathy-gtk/gossip-chat.c:
+	* libempathy-gtk/empathy-main-window.c: New window for viewing logs.
+
+	* libempathy-gtk/gossip-chat-view.c: Do not use smooth scroll when
+	resizing the view.
+
+	* libempathy-gtk/gossip-contact-list-store.c: Do not set active
+	contacts when creating the store, and when contact groups changed.
+
+	* src/empathy-main.c: Fix warning when using command-line options.
+
+	* libempathy/empathy-tp-contact-list.c: Check if we have an aliasing
+	iface before setting the alias of a contact.
+
+	* TODO: Updated.
+
+	* data/jabber.profile: Ignore ssl errors by default. This is a security
+	vulnerability but we don't really have the choice.
+
+	* libempathy/gossip-contact.h:
+	* libempathy/gossip-contact.c: Add a "is-user" property to know if
+	it's our self contact.
+
+	* libempathy/gossip-message.h:
+	* libempathy/gossip-message.c: Add a "receiver" property like that we
+	have our self contact for nick highlight.
+
+2007-06-10  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-spell-dialog.glade:
+	* libempathy-gtk/gossip-spell-dialog.c:
+	* libempathy-gtk/gossip-spell-dialog.h:
+	* libempathy-gtk/gossip-chat.c:
+	* libempathy-gtk/Makefile.am:
+	* configure.ac: Adding spellcheck support.
+
+	* libempathy-gtk/gossip-spell.c:
+	* libempathy/gossip-conf.c: Remove useless debug messages.
+
+2007-06-10  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-chat-view.c: Smooth scrolling.
+	Fixes bug #445859 (Raphael Slinckx).
+
+2007-06-09  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/gossip-contact.c: Emit notify signal only if the property
+	value effectively changed.
+
+2007-06-09  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-contact-list-view.c: Fix warning for DnD.
+	patch imported from gossip.
+
+2007-06-09  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac: Bump version to 0.8
+
+	* libempathy-gtk/gossip-ui-utils.c: Fix usage of contact subscription
+	property.
+
+	* data/gtalk.profile:
+	* data/jabber.profile:
+	* data/msn.profile: Add VCardField and VCardDefault to profiles for
+	eds-sync support.
+
+2007-06-09  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-contact-widget.c: Fix a warning.
+
+2007-06-09  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-main-window.c:
+	* libempathy-gtk/empathy-contact-widget.glade:
+	* libempathy-gtk/empathy-contact-dialogs.c:
+	* libempathy-gtk/empathy-contact-dialogs.h:
+	* libempathy-gtk/empathy-contact-widget.c: We can now add a new contact.
+	EmpathyContactWidget can change the contact it's displaying on-the-fly,
+	like that we can display info when typing the contact ID we want to
+	add to our contact list.
+
+	* libempathy/empathy-tp-contact-list.c: Fix a refcount bug.
+
+2007-06-08  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/gossip-chatroom-manager.c: Checks if the chatroom has
+	an account and a room. Fixes bug #444135.
+
+2007-06-08  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-contact-dialogs.c:
+	* libempathy-gtk/empathy-contact-widget.c:
+	* libempathy-gtk/empathy-contact-widget.h: Do not save when closing the
+	dialog. Update information in real-time and just provides a "Close"
+	button. That's more GNOME spirite.
+	* libempathy/empathy-tp-contact-list.c:
+	* libempathy/gossip-contact.h:
+	* libempathy/gossip-contact.c: New methods:
+	gossip_contact_add/remove_group(). This fixes leaks when a contact is
+	added/removed from a group.
+
+2007-06-08  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-chat.c: Fix build on 64bits arch.
+	Fixes bug #444680 (Matej Cepl).
+
+2007-06-06  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-contact-dialogs.glade:
+	* libempathy-gtk/empathy-contact-dialogs.c: Fix response and action
+	buttons.
+
+2007-06-06  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-contact-dialogs.glade:
+	* libempathy-gtk/empathy-contact-widget.glade:
+	* libempathy-gtk/empathy-status-icon.c:
+	* libempathy-gtk/empathy-contact-dialogs.c:
+	* libempathy-gtk/empathy-contact-dialogs.h:
+	* libempathy-gtk/gossip-ui-utils.c:
+	* libempathy-gtk/empathy-subscription-dialog.glade:
+	* libempathy-gtk/empathy-contact-widget.c:
+	* libempathy-gtk/gossip-ui-utils.h:
+	* libempathy-gtk/gossip-contact-list-view.c:
+	* libempathy-gtk/empathy-subscription-dialog.c:
+	* libempathy-gtk/Makefile.am:
+	* libempathy-gtk/empathy-subscription-dialog.h: Implement editing and
+	viewing contact information with right click on the roster.
+
+2007-06-06  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-contact-widget.glade:
+	* libempathy-gtk/empathy-contact-widget.c:
+	* libempathy-gtk/empathy-contact-widget.h:
+	* libempathy-gtk/empathy-subscription-dialog.c: EmpatchContactWidget
+	has 2 modes: editable or not.
+
+2007-06-06  Xavier Claessens  <xclaesse@gmail.com>
+
+	* po/POTFILES.in: Updated with new files.
+
+2007-06-06  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-status-icon.c:
+	* libempathy-gtk/empathy-subscription-dialog.glade:
+	* libempathy-gtk/empathy-contact-widget.c:
+	* libempathy-gtk/gossip-contact-list-view.c:
+	* libempathy-gtk/empathy-subscription-dialog.c:
+	* libempathy-gtk/Makefile.am:
+	* libempathy-gtk/empathy-subscription-dialog.h:
+	* libempathy/empathy-tp-contact-list.c: New dialog:
+	EmpathySubscriptionDialog. It uses EmpathyContactWidget to display
+	information about the contact who wants to get your presence. This
+	dialog appears when clicking on the status icon when it blinks. You
+	can also remove contacts when right-click on it in the roster.
+
+2007-06-06  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-status-icon.c:
+	* libempathy-gtk/empathy-contact-widget.glade:
+	* libempathy-gtk/empathy-contact-widget.c:
+	* libempathy-gtk/empathy-contact-widget.h:
+	* libempathy-gtk/Makefile.am: New widget: EmpathyContactWidget. It
+	displays information about a contact, it can be used in any kind of
+	dialog which needs to display contact information like alias, groups,
+	avatar, etc. If the contact is the selfcontact information are editable.
+
+	* libempathy/empathy-tp-contact-list.c: Do not take care of subscription
+	changes.
+
+	* libempathy/gossip-contact.c: Use
+	gossip_presence_state_get_default_status (MC_PRESENCE_OFFLINE)
+	when there is no presence.
+
+2007-06-06  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-status-icon.c: Add support for blinking when
+	there is an event. Make use of EmpathyIdle for presence handling. Add
+	an event when a contact requets subscription.
+
+	* libempathy-gtk/gossip-contact-list-store.c:
+	* libempathy-gtk/gossip-contact-list-view.c:
+	* libempathy/empathy-contact-manager.c:
+	* libempathy/empathy-tp-contact-list.c:
+	* libempathy/empathy-tp-chatroom.c:
+	* libempathy/empathy-contact-list.c:
+	* libempathy/empathy-contact-list.h: get_contacts() is renamed to
+	get_members(). Adding a signal and a method for local-pending with
+	contacts with the message. Rework completely the contact-list handling in
+	EmpathyTpContactList to follow tp spec.
+
+	* libempathy/empathy-idle.c:
+	* libempathy/empathy-idle.h: Add properties for the state and the 
+	status message. EmpathyIdle is now a singleton to manager self presence.
+
+	* TODO: Updated.
+
+2007-06-03  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-accounts-dialog.glade: Set use_stock for
+	button_connect to False, to avoid a crasher when opening the accounts
+	window with GTK+ trunk. Fixes bug #439931.
+	* libempathy-gtk/gossip-chat.c: Do not add backlog for chatrooms and
+	do not log backlog from jabber server.
+
+2007-06-03  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-ui-utils.c
+	* libempathy-gtk/gossip-accounts-dialog.c
+	* libempathy-gtk/Makefile.am
+	* src/empathy-accounts-main.c
+	* src/empathy-chat-main.c
+	* src/Makefile.am
+	* src/empathy-main.c
+	* libempathy/gossip-utils.c
+	* libempathy/Makefile.am
+	* src/empathy-filter.h
+	* src/empathy-filter-plugin.c
+	* src/empathy-filter.xml
+	* src/empathy-filter.c
+	* libempathy/gossip-paths.c
+	* libempathy/gossip-paths.h: Remove unused code and append DATADIR to
+	dirs where GTK should search icons.
+
+2007-06-03  Xavier Claessens  <xclaesse@gmail.com>
+
+	* po/POTFILES.in:
+	* po/POTFILES.skip: Add missing files that have strings for translation.
+	Skip empathy-desktop.in.in. (Olivier Crete)
+
+2007-06-03  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-group-chat.c:
+	* libempathy-gtk/gossip-private-chat.c:
+	* libempathy-gtk/gossip-chat.c:
+	* libempathy-gtk/gossip-chat.h:
+	* libempathy/empathy-tp-chat.c: Add all properties described by TP spec
+	for the Text channel on EmpathyTpChat. Make use of "name" and "subject"
+	properties in GossipGroupChat.
+
+2007-06-02  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-log-manager.c: Fix crash when there is no log
+	available for a chat.
+	* libempathy/empathy-tp-contact-list.c: Fix a crash when destroy signal
+	is emitted before StatusChanged.
+
+2007-06-02  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-group-chat.c:
+	* libempathy-gtk/gossip-private-chat.c:
+	* libempathy-gtk/gossip-chat.c:
+	* libempathy/empathy-log-manager.c:
+	* libempathy/empathy-log-manager.h:
+	* libempathy/empathy-log-manager.xsl:
+	* libempathy/Makefile.am: Log chats and display 10 last messages when
+	opening a new chat.
+
+2007-06-02  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-group-chat.c:
+	* libempathy/empathy-tp-contact-list.c:
+	* libempathy/gossip-contact.c: Set default presence to available if
+	there is no presence iface.
+
+2007-06-02  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-ui-utils.c:
+	* libempathy-gtk/gossip-ui-utils.h:
+	* configure.ac: Use gnome_vfs_url_show() instead of gnome_url_show()
+	to avoid libgnomeui dependency (Ross Burton).
+
+2007-06-01  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-chatrooms-window.c:
+	* libempathy-gtk/gossip-chat-window.c:
+	* libempathy/gossip-chatroom.c:
+	* libempathy/gossip-chatroom-manager.c:
+	* configure.ac: Monitor changes on chatrooms.xml file and relead it 
+	when it's modified. connect chatroom-added/removed in some places where
+	needed.
+
+2007-06-01  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac: Bump version to 0.7
+
+2007-05-31  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-new-chatroom-dialog.c: No need to RequestHandle,
+	MissionControl has API to request the channel from handle string.
+
+	* libempathy-gtk/empathy-main-window.c: Request room channel when
+	clicking on favorite rooms.
+
+	* TODO: Add a task: supporting registering.
+
+2007-05-31  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-idle.c: Do not restore away presence message when
+	coming back after the user set manually to away.
+
+2007-05-31  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-account-chooser.c: Fix warning when selecting
+	all accounts.
+
+	* src/empathy-accounts-main.c:
+	* libempathy-gtk/empathy-status-icon.c:
+	* libempathy-gtk/gossip-accounts-dialog.h:
+	* libempathy-gtk/gossip-accounts-dialog.c:
+	* libempathy-gtk/gossip-preferences.h:
+	* libempathy-gtk/gossip-preferences.c: Set parent window.
+
+	* libempathy-gtk/empathy-main-window.c: Implement favorite chatroom
+	menu and fix a leak.
+
+	* libempathy-gtk/Makefile.am:
+	* libempathy/Makefile.am:
+	* libempathy/gossip-chatroom.c:
+	* libempathy/gossip-chatroom.h:
+	* libempathy/gossip-chatroom-manager.c:
+	* libempathy/gossip-chatroom-manager.h:
+	* libempathy/gossip-chatroom-manager.dtd:
+	* libempathy-gtk/gossip-chatrooms-window.glade:
+	* libempathy-gtk/gossip-chatrooms-window.c:
+	* libempathy-gtk/gossip-chatrooms-window.h: New files to implement
+	favorite chatrooms and a window to show them.
+
+
+	* libempathy-gtk/gossip-chat.c: Fix tooltip leaked.
+
+	* libempathy-gtk/gossip-chat-window.h:
+	* libempathy-gtk/gossip-chat-window.c: Do not use deprecated
+	gtk_object_sink(). Implement favorite chatroom features. Find a chat
+	by comparing the account AND the chat ID.
+
+	* src/empathy-chat-main.c:
+	* libempathy/empathy-tp-chat.h:
+	* libempathy/empathy-tp-chat.c:
+	* libempathy/gossip-utils.h:
+	* libempathy/gossip-utils.c: empathy_tp_chat_get_id() returns the Text
+	channel's name. The chat ID is unique only for a specified account.
+
+	* libempathy/empathy-tp-contact-list.c: Fix some leaks and add a FIXME
+	comment for a leak not yet fixed.
+
+	* TODO: Would be cool to have a glade catalog for libempathy-gtk.
+
+2007-05-26  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-contact-list-store.c: Do not highlight contacts
+	already known when creating the contact list.
+	* libempathy/empathy-tp-contact-list.c: Do not set alias if DBus
+	returns an error. Fixes bug #442639.
+	* libempathy/empathy-idle.c: Do not set status message to
+	"Extended autoaway", let user's message unchanged.
+
+2007-05-25  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac: Bump version to 0.6
+
+2007-05-25  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-group-chat.c: Fix refcounting of
+	GossipGroupChat.
+	* libempathy/empathy-tp-contact-list.c: Add debug message when alias
+	request fails.
+	* data/22x22/empathy-group-message.png:
+	* data/22x22/Makefile.am: Add group message icon.
+2007-05-25  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-new-chatroom-dialog.c: Do not use the server
+	entry's value if it's hidden.
+	* libempathy-gtk/gossip-contact-list-view.c: Do not highlight groups
+	when adding them in the roster.
+	* libempathy/empathy-tp-contact-list.c: Do not create new GossipContact
+	object in presence/avatar/alias changed signal if we don't already know
+	that contact from a contact list channel. This should fix DBus max
+	pending calls limit reached in some cases.
+
+2007-05-25  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-new-chatroom-dialog.c: Preset the server only
+	for jabber protocol to conference.server. This fixes a warning.
+
+	* libempathy-gtk/gossip-group-chat.h:
+	* libempathy-gtk/gossip-group-chat.c: gossip_group_chat_set_topic() is 
+	a public function.
+
+	* libempathy-gtk/empathy-images.h:
+	* libempathy-gtk/empathy-main-window.glade:
+	* libempathy-gtk/empathy-status-icon.glade: Make use of
+	empathy-new-message icon name.
+
+	* libempathy-gtk/gossip-contact-list-store.c: By default we sort by
+	contacts names.
+
+	* libempathy-gtk/gossip-chat.c: Do not display composing state if
+	it's our own contact that is composing.
+
+	* src/empathy-chat-main.c:
+	* libempathy/empathy-tp-chat.c:
+	* libempathy/empathy-tp-chat.h: Make possible to build the id based on
+	the account and the channel's name. For private chats that means the
+	contact's id.
+
+	* libempathy-gtk/gossip-chat-window.c: Un-comment the code related to
+	chatrooms that is now implemented. We can now Show/Hide contact list
+	for group chats, DnD contact on the window to begin a discussion, join
+	a new chatroom.
+
+	* libempathy-gtk/gossip-account-chooser.c: Add a FIXME message.
+
+	* data/22x22/empathy-new-message.png:
+	* data/22x22/empathy-proto-irc.png:
+	* data/22x22/Makefile.am:
+	* data/32x32/empathy-proto-irc.png:
+	* data/32x32/Makefile.am:
+	* data/gtalk.profile:
+	* data/16x16/empathy-new-message:
+	* data/16x16/empathy-message-new.png:
+	* data/16x16/empathy-proto-irc.png:
+	* data/16x16/Makefile.am:
+	* data/scalable/empathy-proto-irc.svg:
+	* data/scalable/Makefile.am:
+	* data/irc.profile: Adding icons for empathy-new-message and IRC
+	protocol. Make use of the irc icon in the irc profile.
+
+2007-05-24  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-new-chatroom-dialog.c:
+	* libempathy-gtk/empathy-main-window.c: White space fix.
+
+2007-05-24  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-account-chooser.c:
+	* libempathy-gtk/gossip-new-chatroom-dialog.c:
+	* libempathy-gtk/gossip-account-widget-jabber.c:
+	* libempathy-gtk/gossip-account-chooser.h:
+	* libempathy-gtk/gossip-new-chatroom-dialog.h:
+	* libempathy-gtk/gossip-group-chat.c:
+	* libempathy-gtk/empathy-main-window.c:
+	* libempathy-gtk/gossip-new-chatroom-dialog.glade:
+	* libempathy-gtk/gossip-account-widget-jabber.glade:
+	* libempathy-gtk/Makefile.am:
+	* libempathy/empathy-tp-chatroom.c:
+	* data/gtalk.profile:
+	* data/jabber.profile:
+	* data/salut.profile:
+	* data/Makefile.am:
+	* data/empathy.desktop.in.in:
+	* data/msn.profile:
+	* data/irc.profile: New objects: GossipAccountChooser and
+	GossipNewChatroom, we can now join any chatroom. Adding IRC profile.
+
+2007-05-21  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-idle.c: If we are offline do not set away on idle.
+	If we are already away restore to available when we are no mode idle.
+	Do no modify status message.
+
+2007-05-21  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-group-chat.c:
+	* libempathy-gtk/gossip-group-chat.h:
+	* libempathy-gtk/gossip-private-chat.c:
+	* libempathy-gtk/gossip-private-chat.h:
+	* libempathy-gtk/gossip-group-chat.glade:
+	* libempathy-gtk/Makefile.am:
+	* src/empathy-chat-main.c:
+	* libempathy/empathy-tp-contact-list.c:
+	* libempathy/gossip-telepathy-group.c:
+	* libempathy/gossip-telepathy-group.h:
+	* libempathy/empathy-tp-chatroom.c:
+	* libempathy/empathy-tp-chatroom.h: Implementing basic chatroom support.
+	Actually it works only if we get invited in a chatroom.
+
+2007-05-20  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-chat-view.c: Correctly remember the contact
+	who sent last message.
+
+2007-05-20  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-chat-view.c: Correctly remember if last message
+	comes from the self contact or another.
+
+2007-05-20  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-contact-list-model.c:
+	* libempathy-gtk/gossip-contact-list-model.h: Removed.
+	* libempathy-gtk/gossip-contact-list-view.c:
+	* libempathy-gtk/gossip-contact-list-view.h: Added.
+
+2007-05-20  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-contact-list-store.c: Set COL_NAME earlier like
+	that it can directly be sorted.
+	* data/empathy.schemas.in: s/gossip/empathy/
+
+2007-05-20  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac: Bump version to 0.5
+
+2007-05-20  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-contact-list-store.c: Allow to set custom 
+	function for getting groups of a contact. Make possible to have groups
+	for presence or role/affiliation in chatroom for example.
+	* libempathy-gtk/gossip-contact-list-store.h: Allow to set custom
+	function to handle DnD of contact. Useful when a custom function is set
+	for groups.
+	* src/empathy-chat-main.c: Minor fix.
+	* TODO:
+	* po/POTFILES.in: Updated.
+
+2007-05-19  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/Makefile.am:
+	* libempathy/empathy-tp-chat.c:
+	* libempathy/empathy-contact-manager.c:
+	* libempathy/empathy-contact-list.c: Fix indentation
+	* libempathy/empathy-tp-contact-list.c: Fix not returning the contact
+	in tp_contact_list_find()
+	* TODO: Updated.
+
+2007-05-19  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-contact-list-store.c:
+	* libempathy-gtk/gossip-preferences.c:
+	* libempathy-gtk/gossip-contact-list-store.h:
+	* libempathy-gtk/gossip-contact-list.c:
+	* libempathy-gtk/gossip-contact-list.h:
+	* libempathy-gtk/empathy-main-window.c:
+	* libempathy-gtk/gossip-contact-list-model.c:
+	* libempathy-gtk/gossip-contact-list-model.h:
+	* libempathy-gtk/Makefile.am:
+	* libempathy/empathy-marshal.list: Split GossipContactList into
+	two objects: GossipContactListStore inheriting from GtkTreeStore and
+	GossipContactListView inheriting from GtkTreeView. This makes
+	easier to build new UI widgets reusing the GtkTreeModel.
+
+2007-05-19  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-idle.c: Auto away when session id idle, instead of
+	when screensaver is active.
+
+2007-05-18  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-private-chat.h:
+	* libempathy-gtk/gossip-contact-list.c:
+	* libempathy-gtk/gossip-chat.c:
+	* libempathy-gtk/gossip-chat.h:
+	* libempathy-gtk/gossip-chat-window.c:
+	* libempathy-gtk/Makefile.am:
+	* libempathy-gtk/gossip-chat-view.c:
+	* libempathy-gtk/gossip-private-chat.c:
+	* src/empathy-chat-main.c:
+	* libempathy/gossip-utils.c:
+	* libempathy/gossip-contact.h:
+	* libempathy/empathy-tp-chat.c:
+	* libempathy/gossip-utils.h:
+	* libempathy/empathy-contact-manager.c:
+	* libempathy/empathy-contact-manager.h:
+	* libempathy/empathy-tp-contact-list.c:
+	* libempathy/empathy-tp-contact-list.h:
+	* libempathy/empathy-tp-chatroom.c:
+	* libempathy/empathy-tp-chatroom.h:
+	* libempathy/empathy-contact-list.c:
+	* libempathy/empathy-contact-list.h:
+	* libempathy/Makefile.am:
+	* libempathy/gossip-contact.c: EmpathyContactList is now an interface
+	implemented by EmpathyTpContactList, EmpathyContactManager and
+	EmpathyTpChatroom. GossipContactList use that interface to display a 
+	treeview.
+
+2007-05-17  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-chat.c: Display ChatState.
+
+2007-05-16  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-status-icon.c:
+	* libempathy/empathy-idle.c:
+	* libempathy/empathy-idle.h:
+	* libempathy/Makefile.am:
+	* po/POTFILES.in: New object EmpathyIdle to manage autoaway and
+	extended autoaway states.
+
+2007-05-15  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac:
+	* data/empathy.desktop.in:
+	* data/Makefile.am:
+	* data/empathy.desktop.in.in:
+	* po/POTFILES.in: Set bugzilla information in desktop file and add it 
+	to POTFILES.in
+
+2007-05-15  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/empathy-status-icon.glade:
+	* libempathy-gtk/empathy-main-window.glade: Fix using of gossip icons
+	in menus.
+
+2007-05-14  Xavier Claessens  <xclaesse@gmail.com>
+
+	* src/empathy-chat-main.c:
+	* src/empathy-main.c:
+	* configure.ac:
+	* data/22x22/Makefile.am:
+	* data/22x22/empathy.png:
+	* data/48x48:
+	* data/48x48/Makefile.am:
+	* data/48x48/empathy.png:
+	* data/32x32/Makefile.am:
+	* data/32x32/empathy.png:
+	* data/16x16/empathy.png:
+	* data/16x16/Makefile.am:
+	* data/scalable/empathy.svg:
+	* data/scalable/Makefile.am:
+	* data/Makefile.am: Add empathy icon stolen from cohoba.
+
+2007-05-14  Xavier Claessens  <xclaesse@gmail.com>
+
+	* src/empathy-chat-main.c:
+	* src/Makefile.am:
+	* src/empathy-main.c:
+	* po/POTFILES.in
+	* po/LINGUAS:
+	* TODO: Setting up i18n support.
+
+	* po/Makefile.in.in: Removed, it's generated at build time.
+
+2007-05-13  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-account-widget-jabber.glade: Add an example
+	label for jid.
+
+2007-05-13  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy-gtk/gossip-chat-window.c:
+	* libempathy-gtk/gossip-chat-window.h:
+	* src/empathy-chat-main.c:
+	* libempathy/empathy-tp-chat.c:
+	* libempathy/empathy-tp-chat.h: When a new text channel arrives, check
+	if there is no existing GossipChat object for it.
+
+2007-05-13  Xavier Claessens  <xclaesse@gmail.com>
+
+	* src/Makefile.am:
+	* src/empathy-contact-list-main.c: Removing empathy-contact-list
+	program, it's useless.
+
+2007-05-13  Xavier Claessens  <xclaesse@gmail.com>
+
+	* configure.ac: Change version from 0.3darcs to 0.3svn
+
+2007-05-13  Xavier Claessens  <xclaesse@gmail.com>
+
+	* autogen.sh: Set executable
+	* po/POTFILES.in: Update translatable files
+
+2007-03-16  Xavier Claessens  <xclaesse@gmail.com>
+
+	* Initial version
+
+2007-09-28  Xavier Claessens  <xclaesse@gmail.com>
+
+	* libempathy/empathy-tp-group.c: Look in the local_pendings list if a
+	contact is already local pending.
+	* tests/contact-manager.c: Fix white space typo.
+

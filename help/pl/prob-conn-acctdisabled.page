@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="prob-conn-acctdisabled" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="prob-conn"/>
+    <desc>Konto, którego chcemy użyć, nie jest włączone na liście kont.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review"/>
+    <revision pkgversion="3.2" version="0.3" date="2011-12-18" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Na tych samych warunkach 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  </info>
+
+  <title>Konto nie jest włączone</title>
+
+  <p>Jeśli konto komunikatora, którego chcemy użyć, nie jest włączone na rozwijanej liście kont podczas rozpoczynania nowej rozmowy lub dołączania do pokoju, szczegóły tego konta mogą nie być poprawne.</p>
+
+  <steps>
+    <item>
+      <p>Należy się upewnić, że połączenie z Internetem lub siecią lokalną zostało ustanowione.</p>
+    </item>
+    <item>
+      <p>Należy wybrać <guiseq><gui>Edycja</gui><gui>Konta</gui></guiseq> i zaznaczyć konto, które nie działa.</p>
+    </item>
+    <item>
+      <p>Należy ponownie wprowadzić nazwę użytkownika i hasło, aby upewnić się, że są one poprawne.</p>
+    </item>
+    <item>
+      <p>Należy sprawdzić w części <gui>Zaawansowane</gui>, czy wszystkie szczegóły są poprawne. Szczegóły powinny być możliwe do sprawdzenia na stronie usługi komunikatora.</p>
+    </item>
+    <item>
+      <p>
+        Check that the account is switched on.
+      </p>
+    </item>
+  </steps>
+
+</page>

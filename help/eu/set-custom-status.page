@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="set-custom-status" xml:lang="eu">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="change-status"/>
+	  <link type="seealso" xref="status-icons"/>
+    <desc>Gehitu, editatu edo ezabatu mezu pertsonalak zure egoerarako.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-30" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review"/>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Partekatu Berdin 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  </info>
+
+  <title>Ezarri mezu pertsonalizatua</title>
+
+  <p>Batzuetan mezu pertsonalizatu bat ezarri nahiko duzu zure egoeran, esate baterako, jendeari denbora jakin batean ez zarela egongo jakinarazteko.</p>
+  <p>Mezu pertsonalizatu bat ezar daiteke, erabilgarri dauden egoeretan oinarrituta.</p>
+
+  <steps>
+    <item>
+      <p><gui>Kontaktu-zerrenda</gui> leihoan, egin klik goian goitibeherako zerrendan.</p>
+    </item>
+    <item>
+      <p>Hautatu mezu pertsonalizatua gehitu nahi diozun egoera. <gui>Mezu pertsonalizatua</gui> etiketa duena hautatu behar duzu.</p>
+    </item>
+    <item>
+      <p>Sartu zure mezu pertsonalizatua leihoaren goialdeko testu-koadroan, eta sakatu <key>Sartu</key> tekla, mezua ezartzeko.</p>
+    </item>
+    <item>
+      <p>
+        If you want to set the custom message as a favorite, saving it in order to use it
+        again, click on the little heart on the right of the text box where you wrote your
+        custom message.
+      </p>
+      <p>Hala egiten ez baduzu, mezu pertsonalizatua ez da erabilgarri egongo <app>Empathy</app> erabiltzen duzun hurrengoan. Uneko saiorako bakarrik gordeko da.</p>
+    </item>
+  </steps>
+
+  <section id="edit-custom">
+
+  <title>Edit and remove a custom message</title>
+
+  <steps>
+    <item>
+     <p><gui>Kontaktu-zerrenda</gui> leihoan, egin klik goian goitibeherako zerrendan.</p>
+    </item>
+    <item>
+      <p>Hautatu <gui>Editatu mezu pertsonalizatua</gui>.</p>
+    </item>
+	  <item>
+	    <list>
+	      <item>
+	        <p>Mezu pertsonalizatu bat editatzeko:</p>
+	        <steps>
+	          <item>
+	            <p><gui>Gordetako aurrezarpenak</gui> koadroan, hautatu editatu nahi duzun egoera-mezua, eta egin klik bikoitza bertan.</p>
+            </item>
+            <item>
+              <p>Idatzi mezu pertsonalizatu berria, eta sakatu <key>Sartu</key>, editatzeko.</p>
+            </item>
+          </steps>
+        </item>
+        <item>
+          <p>Mezu pertsonalizatu bat kentzeko:</p>
+          <steps>
+            <item>
+              <p><gui>Gordetako aurrezarpenak</gui> koadroan, hautatu kendu nahi duzun egoera-mezua.</p>
+            </item>
+            <item>
+              <p>Egin klik <gui>Kendu</gui> botoian.</p>
+            </item>
+          </steps>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Amaitutakoan, egin klik <gui>Itxi</gui> botoian.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>
+      When you edit a custom message, it will not be set as the current
+      status message. You will need to select it from the <gui>Contact List</gui> window.
+    </p>
+  </note>
+
+  </section>
+
+</page>

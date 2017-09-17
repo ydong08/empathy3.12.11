@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="overview" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <revision pkgversion="3.7" version="0.1" date="2012-11-30" status="draft"/>
+    <desc>Τι άμεσο μήνυμα είναι και πώς μπορείτε να το χρησιμοποιήσετε.</desc>
+    <credit type="author">
+      <name>Aruna S</name>
+      <email its:translate="no">aruna.evam@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος,</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.gr</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μιχάλης Κοτσαρίνης</mal:name>
+      <mal:email>mk73628@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Επισκόπηση άμεσων μηνυμάτων</title>
+
+  <p>Τα άμεσα μηνύματα, μερικές φορές συντομευμένα ως IM, είναι μέσα με βάση κείμενο για στιγμιαία επικοινωνία μέσω διαδικτύου και του τοπικού δικτύου. Ενώ μερικές εφαρμογές IM δουλεύουν με μόνο έναν τύπο λογαριασμού, άλλες, συμπεριλαμβάνουν το <link xref="introduction">Empathy</link>, που παρέχει διευκολύνσεις IM χρησιμοποιώντας <link xref="add-account">λογαριασμούς</link> από διαφορετικούς παρόχους υπηρεσίας. Κάποιοι από αυτούς υποστηρίζουν ακόμα κλήση ήχου και βίντεο.</p>
+
+  <table frame="all" shade="cols">
+     <tr>
+       <td><p><media type="image" src="figures/video_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+       <td><p><media type="image" src="figures/conf_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+       <td><p><media type="image" src="figures/croom_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+     </tr>
+     <tr>
+       <td><p>Βιντεοδιάσκεψη</p></td>
+       <td><p>Ομαδικές συνομιλίες</p></td>
+       <td><p>Δωμάτια συνομιλίας</p></td>
+      </tr>
+  </table>
+
+  <p>Μερικές εφαρμογές άμεσων μηνυμάτων μπορούν να χρησιμοποιηθούν για σύνδεση με δωμάτια συνομιλιών, με δικτυακές θέσεις όπου άτομα με τα ίδια ενδιαφέροντα συναντιούνται για να συζητήσουν. Ένα δημοφιλές μέσο σύνδεσης σε πολλά δωμάτια συνομιλιών είναι οι διαδικτυακές μεταγωγές, γνωστές επίσης ως <link xref="irc-manage">IRC</link>. Το IRC παρέχει <link xref="irc-join-room">δημόσια</link> δωμάτια συνομιλίας, που είναι ανοικτά σε οποιονδήποτε δημιουργήσει έναν λογαριασμό στον εξυπηρετητή IRC και ιδιωτικά δωμάτια συνομιλίας, που <link xref="irc-join-pwd">προστατεύονται με κωδικό</link> και ανοίγουν μόνο σε λίγους επιλεγμένους.</p>
+
+</page>

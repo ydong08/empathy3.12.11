@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="license" xml:lang="ja">
+  
+  <info>
+    <link type="seealso" xref="index"/>
+    <revision pkgversion="2.30" version="0.1" date="2009-12-28" status="draft"/>
+    <desc>法的事項です。</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mako N</mal:name>
+      <mal:email>mako@pasero.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>ライセンス</title>
+  <p>この文書はクリエイティブ・コモンズ 表示 - 継承 3.0 非移植 ライセンスの下に提供されています。</p>
+  <p>あなたは以下の条件に従う場合に限り、自由に</p>
+  <terms>
+    <item>
+      <title> </title>
+      <p>本作品を複製、頒布、展示、実演することができます。 </p>
+    </item>
+    <item>
+      <title> </title>
+      <p>二次的著作物を作成することができます。 </p> 
+    </item>
+  </terms>
+  <p>あなたの従うべき条件は以下の通りです。</p>
+  <terms>
+    <item>
+      <title><em>表示</em></title>
+      <p>あなたは原著作者のクレジットを表示しなければなりません。</p>
+    </item>
+    <item>
+      <title><em>継承</em></title>
+      <p>もしあなたがこの作品を改変、変形または加工した場合、あなたはその結果生じた作品をこの作品と同一の許諾条件の下でのみ頒布することができます。 </p>
+    </item>
+  </terms>
+  <p>このライセンスの全文は <link href="http://creativecommons.org/licenses/by-sa/3.0/legalcode">CreativeCommons website</link> を参照してください。または、<link href="http://creativecommons.org/licenses/by-sa/3.0/">コモンズ証</link> の全文を参照してください。</p>
+</page>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="send-message" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Pošljite sporočilo enemu od vaših stikov.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <revision pkgversion="2.32" version="0.3" date="2010-09-09" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  </info>
+
+  <title>Pošiljanje sporočila nekomu</title>
+
+  <steps>
+    <item>
+      <p>V <gui>Seznamu stikov</gui> dvokliknite ime stika s katerim želite imeti pogovor.</p>
+    </item>
+    <item>
+      <p>Odprlo se bo novo okno. Vpišite sporočilo v polje na dnu okna in pritisnite <key>Enter</key> za pošiljanje.</p>
+    </item>
+  </steps>
+  
+  <section id="send-meta-contact" style="2column">
+    <title>Pošiljanje sporočila meta-stiku</title>
+    <steps>
+      <item>
+        <p>V oknu <gui>Seznam stikov</gui> desno kliknite na meta-stik.</p>
+      </item>
+      <item>
+        <p>Izberite ime stika s katerim želite imeti pogovor in izberite <gui style="menuitem">Klepet</gui>.</p>
+      </item>
+    </steps>
+    <note style="tip">
+      <p>Če želite videti ali je stik <em>meta-stik</em>, premaknite miško na stik v oknu <gui>Seznam stikov</gui> in se nad njim za trenutek zaustavite: pojavilo se bo majhno sporočilo, ki prikazuje število stikov, ki tvorijo meta-stik.</p>
+    </note>
+  </section>
+
+</page>

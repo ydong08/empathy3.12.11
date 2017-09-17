@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallrd.org/experimental/" type="topic" style="task" id="irc-join-room" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="irc-manage#manage" group="one"/>
+    <desc>Łączenie z kanałem IRC.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-07-26" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Na tych samych warunkach 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Łączenie z pokojem rozmów IRC</title>
+
+  <p>Można dołączyć do pokojów rozmów IRC (znanych również jako kanały) w dowolnej sieci IRC do której jesteśmy połączeni. Aby połączyć się do sieci IRC, należy zobaczyć <link xref="add-account"/> i <link xref="account-irc"/>.</p>
+
+  <steps>
+    <item>
+      <p>W oknie <gui>Listy kontaktów</gui> należy wybrać <guiseq><gui>Pokój</gui><gui>Dołącz...</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Z rozwijanej listy <gui>Konto</gui> należy wybrać konto IRC odpowiadające sieci, której chcemy używać.</p>
+    </item>
+    <item>
+      <p>W polu tekstowym <gui>Pokój</gui> należy wpisać nazwę kanały, do którego chcemy dołączyć. Nazwy kanałów IRC rozpoczynają się od symbolu hash (<sys>#</sys>).</p>
+    </item>
+    <item>
+      <p>Należy nacisnąć na przycisk <gui>Dołącz</gui>, aby wejść do pokoju.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Aby dołączyć do wielu pokojów należy powtórzyć powyższe kroki dla każdego pokoju.</p>
+  </note>
+</page>

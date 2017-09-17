@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="audio-video" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#audio-video"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="draft"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-04" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.2" date="2010-02-14" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Na tych samych warunkach 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+    <desc>Informacja dotycząca możliwości nawiązania rozmowy głosowej lub wideo.</desc>
+
+  </info>
+
+  <title>Obsługa rozmów głosowych i wideorozmów</title>
+
+  <p>You can only have audio and video conversation with contacts who are using
+  an application which also supports this feature.</p>
+
+  <note>
+    <p>Aby nawiązywać rozmowy głosowe potrzebna jest karta dźwiękowa obsługiwana przez system operacyjny oraz działający mikrofon.</p>
+    <p>Aby nawiązywać wideorozmowy potrzebna jest kamera internetowa obsługiwana przez system operacyjny oraz działający mikrofon.</p>
+  </note>
+
+  <section id="services">
+  
+  <title>Obsługiwane typy kont</title>
+
+  <p>Można nawiązywać rozmowy głosowe i wideorozmowy jedynie używając kont pewnych obsługiwanych usług. Poniższa tabele pokazuje czy rozmowy głosowe i wideorozmowy są obsługiwane dla każdego rodzaju konta.</p>
+
+  <note>
+    <p>Obsługa typów kont jest zapewniana przez wtyczki. System może nie udostępniać wszystkich z wymienionych typów lub mogą one nie być wymienione. Uaktualnione wtyczki mogą umożliwiać rozmowy głosowe lub wideorozmowy dla rodzajów kont, które oznaczone są tu jako nieobsługiwane.</p>
+  </note>
+
+  <table frame="all" rules="rowgroups colgroups" shade="rows">
+    <colgroup><col/></colgroup><colgroup><col/><col/></colgroup>
+    <thead>
+      <tr>
+        <td><p>Usługa</p></td>
+        <td><p>Rozmowy głosowe</p></td>
+        <td><p>Wideorozmowy</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>AIM</p></td>
+        <td><p>Brak</p></td>
+        <td><p>Brak</p></td>
+      </tr>
+      <tr>
+        <td><p>gadugadu</p></td>
+        <td><p>Brak</p></td>
+        <td><p>Brak</p></td>
+      </tr>
+      <tr>
+        <td><p>Google Talk</p></td>
+        <td><p>Tak</p></td>
+        <td><p>Tak</p></td>
+      </tr>
+      <tr>
+        <td><p>Groupwise</p></td>
+        <td><p>Brak</p></td>
+        <td><p>Brak</p></td>
+      </tr>
+      <tr>
+        <td><p>ICQ</p></td>
+        <td><p>Brak</p></td>
+        <td><p>Brak</p></td>
+      </tr>
+      <tr>
+        <td><p>IRC</p></td>
+        <td><p>Brak</p></td>
+        <td><p>Brak</p></td>
+      </tr>
+      <tr>
+        <td><p>Jabber</p></td>
+        <td><p>Tak</p></td>
+        <td><p>Tak</p></td>
+      </tr>
+      <tr>
+        <td><p>myspace</p></td>
+        <td><p>Brak</p></td>
+        <td><p>Brak</p></td>
+      </tr>
+      <tr>
+        <td><p>qq</p></td>
+        <td><p>Brak</p></td>
+        <td><p>Brak</p></td>
+      </tr>
+      <tr>
+        <td><p>Osoby w pobliżu</p></td>
+        <td><p>Brak</p></td>
+        <td><p>Brak</p></td>
+      </tr>
+      <tr>
+        <td><p>sametime</p></td>
+        <td><p>Brak</p></td>
+        <td><p>Brak</p></td>
+      </tr>
+      <tr>
+        <td><p>silc</p></td>
+        <td><p>Brak</p></td>
+        <td><p>Brak</p></td>
+      </tr>
+      <tr>
+        <td><p>SIP</p></td>
+        <td><p>Tak</p></td>
+        <td><p>Tak</p></td>
+      </tr>
+      <tr>
+        <td><p>Yahoo!</p></td>
+        <td><p>Brak</p></td>
+        <td><p>Brak</p></td>
+      </tr>
+      <tr>
+        <td><p>zephyr</p></td>
+        <td><p>Brak</p></td>
+        <td><p>Brak</p></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  </section>
+
+</page>

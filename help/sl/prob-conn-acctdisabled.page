@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="prob-conn-acctdisabled" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="prob-conn"/>
+    <desc>Račun hipnega sporočanja, ki ga želite uporabiti ni omogočen na seznamu računov.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review"/>
+    <revision pkgversion="3.2" version="0.3" date="2011-12-18" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  </info>
+
+  <title>Moj račun ni omogočen</title>
+
+  <p>V primeru da račun hipnega sporočanja, ki ga želite uporabiti, v spustnemu seznamu računov ob poskusu začetka novega pogovora ali pridružitve sobe ni omogočen, so morda podrobnosti vašega računa nepravilne. </p>
+
+  <steps>
+    <item>
+      <p>Prepričajte se, da ste povezani na medmrežje ali na krajevno omrežje.</p>
+    </item>
+    <item>
+      <p>Izberite <guiseq><gui>Uredi</gui><gui>Računi</gui></guiseq> in izberite račun, ki ne deluje.</p>
+    </item>
+    <item>
+      <p>Ponovno vpišite svoje uporabniško ime in geslo ter se prepričajte da sta pravilna.</p>
+    </item>
+    <item>
+      <p>V odseku <gui>Napredno</gui> preverite, da so vse podrobnosti pravilne. Te podrobnosti bi morali najti na spletišču storitve sporočanja.</p>
+    </item>
+    <item>
+      <p>Preverite, da je račun vklopljen.</p>
+    </item>
+  </steps>
+
+</page>

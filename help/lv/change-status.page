@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="change-status" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="status-icons"/>
+    <desc>Maini savu statusu, lai paziņotu savu pieejamību kontaktiem.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-01" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.2" version="0.3" date="2011-12-18" status="review">
+      <!--
+      <e:review by="milo@ubuntu.com" date="2011-12-18" status="done"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0 licence.</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  </info>
+
+  <title>Mainīt savu statusu</title>
+
+  <p>Tu vari iestatīt savu statusu, lai paziņotu par savu pieejamību kontaktiem. <app>Empathy</app> ļauj tev izvēlēties kādu statusu no iepriekš sagatavota saraksta.</p>
+
+  <steps>
+    <item>
+      <p>Nospied uz izkrītošā saraksta <gui>Kontaktu saraksta</gui> loga augšā.</p>
+    </item>
+    <item>
+      <p>Izvēlies statusu no saraksta.</p>
+    </item>
+  </steps>
+
+  <p>Skati <link xref="status-icons"/>, lai uzzinātu vairāk par iebūvētajiem  statusiem un ko tie nozīmē. Tu vari arī <link xref="set-custom-status">pievienot statusa ziņojumus</link>, lai saviem kontaktiem nodotu vairāk informācijas par savu pieejamību.</p>
+
+  <note>
+    <p>Ja kādu laiku neizmanto datoru, vai ja ir ieslēgts ekrānsaudzētājs, tavs statuss automātiski nomainīsies uz "Prom".</p>
+  </note>
+
+</page>

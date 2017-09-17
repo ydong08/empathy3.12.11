@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallrd.org/experimental/" type="topic" style="task" id="irc-start-conversation" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="irc-manage#manage" group="two"/>
+    <desc>Iniciar unha conversa con un contacto do IRC.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Conversar con alguén no IRC</title>
+
+  <p>Pode manter conversas privadas con outros usuarios do IRC, fora das salas públicas do IRC. Para iniciar unha conversa con outro usuario do IRC:</p>
+
+  <steps>
+    <item>
+      <p>Na lista de contactos para a sala de chat do IRC, prema dúas veces no nome do usuario co que quere falar. De forma alternativa, prema co botón dereito sobre o nome de usuario e elixa <gui>Conversa</gui>.</p>
+    </item>
+  </steps>
+
+  <list>
+    <item>
+      <p>A lista de contactos da sala IRC non é igual que a lista de contactos de <app>Empathy</app>. Contén unha lista de usuarios na sala de chat do IRC á que se uniu. Salas diferentes poden ter diferentes listados de contactos.</p>
+    </item>
+    <item>
+      <p>A lista de contactos dunha sala de IRC xeralmente está na parte dereita da xanela da sala de IRC. Se non a ve elixa <guiseq><gui>Conversa</gui><gui>Mostrar a lista de contactos</gui></guiseq>.</p>
+    </item>
+  </list>
+
+</page>

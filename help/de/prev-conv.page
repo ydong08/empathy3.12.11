@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="tasks" id="prev-conv" xml:lang="de">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Betrachten und Durchsuchen Ihrer früheren Unterhaltungen.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-17" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.2" version="0.2" date="2011-12-19" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mario Blättermann</mal:name>
+      <mal:email>mario.blaettermann@gmail.com</mal:email>
+      <mal:years>2008-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Philipp Kerling</mal:name>
+      <mal:email>k.philipp@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Christian Kirbach</mal:name>
+      <mal:email>Christian.Kirbach@gmail.com</mal:email>
+      <mal:years>2010-2015</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Vorherige Unterhaltungen anschauen</title>
+
+  <p><app>Empathy</app> speichert automatisch alle Ihre Text-Unterhaltungen, die Sie mit Ihren Kontakten führen. Sie können <link xref="#search">alle früheren Unterhaltungen durchsuchen</link> oder <link xref="#browse">frühere Unterhaltungen anhand Kontakt und Datum suchen</link>.</p>
+
+  <note>
+    <p>Sie müssen nicht mit dem Internet verbunden sein, um Ihre vorherigen Unterhaltungen zu betrachten und zu durchsuchen.</p>
+  </note>
+
+  <section id="search" style="task">
+  <title>Vorherige Unterhaltungen durchsuchen</title>
+
+  <p>Sie können den Volltext aller Ihrer vorherigen Unterhaltungen durchsuchen.</p>
+
+  <steps>
+    <item>
+      <p>Wählen Sie im <gui>Kontaktlisten</gui>-Fenster <guiseq><gui>Ansicht</gui> <gui>Vorherige Unterhaltungen</gui></guiseq>. Alternativ drücken Sie <key>F3</key>.</p>
+    </item>
+    <item>
+      <p>Wählen Sie ein Konto in der Auswahlliste oben. Eine Liste der Kontakte und Unterhaltungsräume für dieses Konto wird darunter angezeigt.</p>
+    </item>
+    <item>
+      <p>Geben Sie den zu suchenden Text im <gui>Suchfeld</gui> ein.</p>
+    </item>
+    <item>
+      <p>Jegliche Unterhaltungen, die auf Ihre Suchbegriffe zutreffen, werden in der Liste unterhalb des Suchfeldes angezeigt. Per Vorgabe sind die Unterhaltungen nach Datum geordnet.</p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="browse" style="task">
+  <title>Vorherige Unterhaltungen betrachten</title>
+
+  <p>Sie können Ihre früheren Unterhaltungen mit Ihren Kontakten oder in Unterhaltungsräumen anhand des Datums durchsuchen.</p>
+
+  <steps>
+    <item>
+      <p>Wählen Sie im <gui>Kontaktlisten</gui>-Fenster <guiseq><gui>Ansicht</gui> <gui>Vorherige Unterhaltungen</gui></guiseq>. Alternativ drücken Sie <key>F3</key>.</p>
+    </item>
+    <item>
+      <p>Wählen Sie ein Konto in der Auswahlliste oben links. Eine Liste der Kontakte und Unterhaltungsräume für dieses Konto wird darunter angezeigt.</p>
+    </item>
+    <item>
+      <p>Wählen Sie einen Kontakt oder Unterhaltungsraum, um dessen frühere Unterhaltungen zu betrachten. Per Vorgabe wird die letzte Unterhaltung angezeigt.</p>
+    </item>
+    <item>
+      <p>Sie können Ihre Unterhaltungen anhand des Datums durchsuchen. Die Tage, an denen Sie eine Unterhaltung mit dem ausgewählten Kontakt geführt haben, werden fett hervorgehoben. Klicken Sie auf ein Datum, um es auszuwählen. Klicken Sie auf die Pfeile neben den Monats- und Jahresangaben, um zu früheren Daten zu gehen.</p>
+    </item>
+  </steps>
+
+  <p>Sie können nach Text in den Unterhaltungen suchen, indem Sie ihn in das Suchfeld oben eingeben. Die damit übereinstimmenden unterhaltungen werden hervorgehoben.</p>
+
+  <note style="tip">
+    <p>Im <gui>Kontaktlisten</gui>-Fenster können Sie schnell die früheren Unterhaltungen mit einem Ihrer Kontakte betrachten. Klicken Sie einfach mit der rechten Maustaste auf den Kontakt und wählen Sie <gui>Vorherige Unterhaltungen anschauen</gui>. Das Fenster <gui>Vorherige Unterhaltungen</gui> für den bereits ausgewählten Kontakt wird geöffnet.</p>
+  </note>
+
+  </section>
+</page>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="add-contact" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="index#contacts"/>
+    <link type="seealso" xref="hide-contacts"/>
+    <desc>Pievieno kādu kontaktu sarakstam.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-15" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.28" version="0.3" date="2009-09-05" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0 licence.</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Pievienot7 kādu savam kontaktu sarakstam</title>
+
+  <steps>
+    <item>
+      <p>Izvēlies <guiseq><gui>Tērzēšana</gui><gui>Pievienot kontaktu</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p><gui>Kontu</gui> sarakstā izvēlies kontu, kuru izmantosi, lai savienotos ar savu kontaktu. Tavam kontaktam vajadzēs izmantot to pašu servisu, kuru izmanto tu.</p>
+    </item>
+    <item>
+      <p><gui>Identifikators</gui> lauciņā, ievadi sava kontakta lietotāja ID, lietotājvārdu, ekrāna vārdu vai kādu citu servisam pieejamu identifikatoru.</p>
+    </item>
+    <item>
+      <p><gui>Pseidonīms</gui> lauciņā, ieraksti to vārdu, ar kuru vēlies attēlot kontaktu savā sarakstā.</p>
+    </item>
+    <item>
+      <p>Spied uz <gui>Pievienot</gui>, lai pievienotu personu kontaktu sarakstam.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>Lai pievienotu jaunu personu kontaktu sarakstam, ir jābūt savienotam ar internetu un savu kontu.</p>
+  </note>
+
+</page>

@@ -1,0 +1,3533 @@
+# Traducció del emphaty de l'equip de Softcatalà.
+# Copyright © 2009 Free Software Foundation, Inc.
+# Joan Duran <jodufi@gmail.com>, 2008, 2009.
+# Carles Ferrando Garcia <carles.ferrando@gmail.com>, 2010.
+# Manel Vidal <verduler@gmail.com>, 2013.
+# Gil Forcada <gilforcada@guifi.net>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: emphaty\n"
+"POT-Creation-Date: 2013-05-07 13:30+0000\n"
+"PO-Revision-Date: 2013-05-08 23:43+0200\n"
+"Last-Translator: Gil Forcada <gilforcada@guifi.net>\n"
+"Language-Team: Catalan <tradgnome@softcatala.org>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Joan Duran <jodufi@gmail.com>, 2008, 2009\n"
+"Carles Ferrando <carles.ferrando@gmail.com>, 2010\n"
+"Gil Forcada <gilforcada@guifi.net>, 2011\n"
+"Manel Vidal <verduler@gmail.com>, 2013"
+
+#: C/index.page:8(info/title)
+msgctxt "link"
+msgid "Empathy Internet Messenger"
+msgstr "Missatgeria d'Internet Empathy"
+
+#: C/index.page:9(info/title)
+msgctxt "text"
+msgid "Empathy Internet Messenger"
+msgstr "Missatgeria d'Internet Empathy"
+
+#: C/index.page:20(credit/name) C/add-account.page:21(credit/name)
+#: C/audio-call.page:22(credit/name) C/audio-video.page:17(credit/name)
+#: C/create-account.page:19(credit/name)
+#: C/disable-account.page:21(credit/name)
+#: C/favorite-rooms.page:14(credit/name) C/geolocation.page:17(credit/name)
+#: C/geolocation-not-showing.page:17(credit/name)
+#: C/geolocation-privacy.page:17(credit/name)
+#: C/geolocation-supported.page:16(credit/name)
+#: C/geolocation-turn.page:18(credit/name)
+#: C/geolocation-what-is.page:18(credit/name)
+#: C/group-conversations.page:19(credit/name)
+#: C/hide-contacts.page:11(credit/name) C/import-account.page:23(credit/name)
+#: C/introduction.page:13(credit/name) C/irc-commands.page:10(credit/name)
+#: C/irc-join-pwd.page:17(credit/name) C/irc-join-room.page:16(credit/name)
+#: C/irc-manage.page:19(credit/name) C/irc-nick-password.page:18(credit/name)
+#: C/irc-send-file.page:16(credit/name)
+#: C/irc-start-conversation.page:15(credit/name)
+#: C/link-contacts.page:15(credit/name) C/prev-conv.page:17(credit/name)
+#: C/prob-conn-acctdisabled.page:19(credit/name)
+#: C/prob-conn-auth.page:21(credit/name) C/prob-conn-name.page:18(credit/name)
+#: C/prob-conn-neterror.page:19(credit/name)
+#: C/remove-account.page:19(credit/name) C/salut-protocol.page:18(credit/name)
+#: C/send-file.page:21(credit/name) C/set-custom-status.page:19(credit/name)
+#: C/share-desktop.page:14(credit/name) C/status-icons.page:16(credit/name)
+#: C/video-call.page:25(credit/name)
+msgid "Milo Casagrande"
+msgstr "Milo Casagrande"
+
+#: C/index.page:24(license/p) C/account-irc.page:20(license/p)
+#: C/account-jabber.page:18(license/p) C/accounts-window.page:22(license/p)
+#: C/add-account.page:29(license/p) C/add-contact.page:22(license/p)
+#: C/audio-call.page:31(license/p) C/audio-video.page:21(license/p)
+#: C/change-status.page:28(license/p) C/create-account.page:23(license/p)
+#: C/disable-account.page:29(license/p) C/favorite-rooms.page:18(license/p)
+#: C/geolocation.page:21(license/p)
+#: C/geolocation-not-showing.page:21(license/p)
+#: C/geolocation-privacy.page:21(license/p)
+#: C/geolocation-supported.page:20(license/p)
+#: C/geolocation-turn.page:22(license/p)
+#: C/geolocation-what-is.page:22(license/p)
+#: C/group-conversations.page:23(license/p) C/hide-contacts.page:15(license/p)
+#: C/import-account.page:31(license/p) C/introduction.page:17(license/p)
+#: C/irc-commands.page:14(license/p) C/irc-join-pwd.page:21(license/p)
+#: C/irc-join-room.page:20(license/p) C/irc-manage.page:28(license/p)
+#: C/irc-nick-password.page:22(license/p) C/irc-send-file.page:20(license/p)
+#: C/irc-start-conversation.page:19(license/p)
+#: C/link-contacts.page:23(license/p) C/overview.page:20(license/p)
+#: C/prev-conv.page:25(license/p) C/prob-conn-acctdisabled.page:23(license/p)
+#: C/prob-conn-auth.page:25(license/p) C/prob-conn-name.page:22(license/p)
+#: C/prob-conn-neterror.page:23(license/p) C/prob-conn.page:18(license/p)
+#: C/remove-account.page:23(license/p) C/salut-protocol.page:22(license/p)
+#: C/send-file.page:25(license/p) C/send-message.page:21(license/p)
+#: C/set-custom-status.page:23(license/p) C/share-desktop.page:22(license/p)
+#: C/status-icons.page:24(license/p) C/video-call.page:34(license/p)
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Reconeixement-Compartir Igual 3.0"
+
+#: C/index.page:30(media/span)
+msgid "Empathy Internet Messenger logo"
+msgstr "Logotip del programa de missatgeria d'Internet Empathy"
+
+#: C/index.page:28(page/title)
+msgid "<_:media-1/> Empathy Internet Messenger"
+msgstr "<_:media-1/> Missatgeria d'Internet Empathy"
+
+#: C/index.page:36(section/title)
+msgid "Account Management"
+msgstr "Gestió de comptes"
+
+#: C/index.page:40(section/title)
+msgid "Contact Management"
+msgstr "Gestió de contactes"
+
+#: C/index.page:44(section/title)
+msgid "Text Conversations"
+msgstr "Converses de text"
+
+#: C/index.page:48(section/title)
+msgid "Audio and Video Conversations"
+msgstr "Converses de veu i de vídeo"
+
+#: C/index.page:52(section/title)
+msgid "Advanced Actions"
+msgstr "Opcions avançades"
+
+#: C/index.page:56(section/title) C/irc-manage.page:64(section/title)
+msgid "Common Problems"
+msgstr "Problemes comuns"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/account-irc.page:106(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/gtk-add.png' md5='a856b499d8d4681b70b5ce6f25bc5c6d'"
+msgstr ""
+"external ref='figures/gtk-add.png' md5='a856b499d8d4681b70b5ce6f25bc5c6d'"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/account-irc.page:109(media) C/prob-conn-auth.page:58(media)
+#: C/prob-conn-name.page:44(media) C/prob-conn-neterror.page:59(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/gtk-edit.png' md5='4f21b451732817be0604fe3e2c8da98b'"
+msgstr ""
+"external ref='figures/gtk-edit.png' md5='4f21b451732817be0604fe3e2c8da98b'"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/account-irc.page:112(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/gtk-remove.png' md5='215e3a325a3dd619874e35c30a018bb6'"
+msgstr ""
+"external ref='figures/gtk-remove.png' md5='215e3a325a3dd619874e35c30a018bb6'"
+
+#: C/account-irc.page:8(info/desc)
+msgid "Additional information necessary for connecting to IRC networks."
+msgstr "Informació addicional per connectar-se a xarxes d'IRC."
+
+#: C/account-irc.page:16(credit/name) C/account-jabber.page:14(credit/name)
+#: C/accounts-window.page:18(credit/name) C/add-account.page:25(credit/name)
+#: C/disable-account.page:25(credit/name)
+#: C/import-account.page:27(credit/name) C/prev-conv.page:21(credit/name)
+#: C/status-icons.page:20(credit/name)
+msgid "Shaun McCance"
+msgstr "Shaun McCance"
+
+#: C/account-irc.page:31(page/title)
+msgid "IRC account details"
+msgstr "Dades del compte d'IRC"
+
+#: C/account-irc.page:33(page/p)
+msgid ""
+"IRC accounts require different information than many other types of "
+"accounts. To create an IRC account, you must specify at least an IRC network "
+"and a nickname. This page details the information you can provide for an IRC "
+"account."
+msgstr ""
+"Els comptes d'IRC requereixen una informació diferent que els altres tipus "
+"de comptes. Per crear un compte d'IRC heu d'especificar com a mínim una "
+"xarxa d'IRC i un sobrenom. Aquesta pàgina descriu la informació que podeu "
+"proporcionar pel compte d'IRC."
+
+#: C/account-irc.page:39(note/p) C/irc-manage.page:42(note/p)
+msgid ""
+"You must have the <sys>telepathy-idle</sys> package installed to use IRC in "
+"<app>Empathy</app>."
+msgstr ""
+"Heu de tenir instal·lat el paquet <sys>telepathy-idle</sys> per utilitzar "
+"l'IRC amb l'<app>Empathy</app>."
+
+#: C/account-irc.page:45(item/title) C/account-irc.page:120(item/title)
+msgid "<gui>Network</gui>"
+msgstr "<gui>Xarxa</gui>"
+
+#: C/account-irc.page:46(item/p)
+msgid ""
+"IRC is an open system that allows people to run separate IRC networks. Each "
+"network is distinct and has its own users and chat rooms. <app>Empathy</app> "
+"lists the most popular networks in the <gui>Network</gui> drop-down list. "
+"You can add additional networks. See <link xref=\"#networks\"/> below."
+msgstr ""
+"L'IRC és un sistema obert que permet que puguin haver-hi tantes xarxes d'IRC "
+"com es vulgui. Cada xarxa és diferent de les altres i té els seus propis "
+"usuaris i sales de xat. L'<app>Empathy</app> us mostra les xarxes més "
+"populars a la llista desplegable <gui>Xarxa</gui>. Podeu afegir més xarxes "
+"si voleu. Vegeu <link xref=\"#networks\"/> més avall."
+
+#: C/account-irc.page:53(item/title)
+msgid "<gui>Nickname</gui>"
+msgstr "<gui>Sobrenom</gui>"
+
+#: C/account-irc.page:54(item/p)
+msgid ""
+"Your nickname is your unique name on the IRC network. Only one person on a "
+"network may use a given nickname. If you get an error message that says "
+"<link xref=\"prob-conn-name\" role=\"error-msg\"/> you will need to change "
+"your nickname."
+msgstr ""
+"El vostre sobrenom és el nom únic que us identifica a la xarxa d'IRC. Només "
+"una persona pot utilitzar un sobrenom específic a cada xarxa. Si rebeu un "
+"error que diu <link xref=\"prob-conn-name\" role=\"error-msg\"/> haureu de "
+"canviar el sobrenom."
+
+#: C/account-irc.page:60(item/title)
+msgid "<gui>Password</gui>"
+msgstr "<gui>Contrasenya</gui>"
+
+#: C/account-irc.page:61(item/p)
+msgid ""
+"Some servers, particularly those on private networks, require a password to "
+"connect. If you are authorized to use the network, the network "
+"administrators should provide you with a password."
+msgstr ""
+"Per connectar-se a alguns servidors, en especial els de les xarxes privades, "
+"us farà falta una contrasenya. Si esteu autoritzat a utilitzar la xarxa, els "
+"seus administradors us en proporcionaran la contrasenya."
+
+#: C/account-irc.page:65(note/title)
+msgid "NickServ Passwords"
+msgstr "Contrasenyes de NickServ"
+
+#: C/account-irc.page:66(note/p)
+msgid ""
+"On some networks, nicknames can be registered using a service known as "
+"NickServ. <app>Empathy</app> does not directly support nickname passwords. "
+"On some networks, including the popular freenode network, server passwords "
+"are automatically forwarded to NickServ, allowing you to set this field to "
+"identify yourself with NickServ. See <link xref=\"irc-nick-password\"/> for "
+"more details."
+msgstr ""
+"En algunes xarxes es poden registrar els sobrenoms amb un servei conegut com "
+"a NickServ. L'<app>Empathy</app> encara no permet utilitzar sobrenoms amb "
+"contrasenyes. En algunes xarxes, entre elles la popular xarxa freenode, els "
+"servidors de contrasenyes es reenvien automàticament al NickServ, de manera "
+"que podeu establir aquest camp per identificar-vos amb el NickServ. Vegeu "
+"<link xref=\"irc-nick-password\"/> per més informació."
+
+#: C/account-irc.page:76(item/title)
+msgid "<gui>Real name</gui>"
+msgstr "<gui>Nom real</gui>"
+
+#: C/account-irc.page:77(item/p)
+msgid ""
+"You can provide your real name in addition to your nickname. Other users "
+"will be able to see this when they view your information."
+msgstr ""
+"Podeu proporcionar el vostre nom real conjuntament amb el sobrenom. Els "
+"altres usuaris el podran veure quan vegin la vostra informació."
+
+#: C/account-irc.page:81(item/title)
+msgid "<gui>Quit message</gui>"
+msgstr "<gui>Missatge de desconnexió</gui>"
+
+#: C/account-irc.page:82(item/p)
+msgid ""
+"When you go offline, a quit message is sent to all the chat rooms you’re in "
+"and to all the users you’re having a private conversation with. Use this "
+"field to provide a custom quit message."
+msgstr ""
+"Quan sortiu, s'enviarà un missatge a totes les sales de xat que estigueu i "
+"tots els usuaris amb els quals tingueu xats privats. Utilitzeu aquest camp per "
+"proporcionar un missatge de sortida personalitzat."
+
+#: C/account-irc.page:94(info/title)
+msgctxt "link"
+msgid "IRC Networks"
+msgstr "Xarxes d'IRC"
+
+#: C/account-irc.page:97(section/title)
+msgid "Networks"
+msgstr "Xarxes"
+
+#: C/account-irc.page:99(section/p)
+msgid ""
+"<app>Empathy</app> includes a list of popular IRC networks. If you wish to "
+"another IRC network, you can add it to the list. You can also modify "
+"networks and remove them from the list."
+msgstr ""
+"L'<app>Empathy</app> inclou una llista de les xarxes d'IRC més populars. Si "
+"voleu una altra xarxa, podeu afegir-la a la llista. També podeu modificar "
+"xarxes existents i esborrar-ne de la llista."
+
+#: C/account-irc.page:104(item/p)
+msgid ""
+"To add a network to the list, click <media type=\"image\" mime=\"image/png\" "
+"src=\"figures/gtk-add.png\" width=\"16\" height=\"16\">Add</media>."
+msgstr ""
+"Feu clic a <media type=\"image\" mime=\"image/png\" src=\"figures/gtk-add.png"
+"\" width=\"16\" height=\"16\">Afegeix</media> per afegir una xarxa a la "
+"llista."
+
+#: C/account-irc.page:107(item/p)
+msgid ""
+"To modify a network in the list, select the network and click <media type="
+"\"image\" mime=\"image/png\" src=\"figures/gtk-edit.png\" width=\"16\" "
+"height=\"16\">Edit</media>."
+msgstr ""
+"Seleccioneu una xarxa de la llista i feu clic a <media type=\"image\" mime="
+"\"image/png\" src=\"figures/gtk-edit.png\" width=\"16\" height=\"16\">Edita</"
+"media> per modificar una xarxa de la llista."
+
+#: C/account-irc.page:110(item/p)
+msgid ""
+"To remove a network from the list, select the network and click <media type="
+"\"image\" mime=\"image/png\" src=\"figures/gtk-remove.png\" width=\"16\" "
+"height=\"16\">Remove</media>."
+msgstr ""
+"Seleccioneu una xarxa de la llista i feu clic a <media type=\"image\" mime="
+"\"image/png\" src=\"figures/gtk-remove.png\" width=\"16\" height="
+"\"16\">Suprimeix</media> per suprimir una xarxa de la llista."
+
+#: C/account-irc.page:115(section/p)
+msgid ""
+"When adding or modifying a network, you can enter the following information:"
+msgstr ""
+"Quan afegiu o modifiqueu una xarxa podeu introduir la informació següent:"
+
+#: C/account-irc.page:121(item/p)
+msgid ""
+"This is the name of the network as you want it to appear in the list of "
+"networks."
+msgstr ""
+"Aquest és el nom de la xarxa que voleu que aparegui a la llista de xarxes."
+
+#: C/account-irc.page:125(item/title)
+msgid "<gui>Charset</gui>"
+msgstr "<gui>Joc de caràcters</gui>"
+
+#: C/account-irc.page:126(item/p)
+msgid ""
+"This specifies the character encoding that is typically used on this "
+"network. A character encoding is a specific way of recording characters "
+"internally in a computer. There are many character encodings, and you need "
+"to use the same character encoding as other users to see their messages "
+"correctly."
+msgstr ""
+"Això especifica la codificació de caràcters que s'utilitza en aquesta xarxa. "
+"Una codificació de caràcters és un format específic per enregistrar "
+"caràcters internament a l'ordinador. Hi ha moltes codificacions de caràcters "
+"i heu d'utilitzar la mateixa que els altres usuaris per veure els missatges "
+"de forma correcta."
+
+#: C/account-irc.page:135(item/p)
+msgid ""
+"By default, <app>Empathy</app> uses UTF-8, a modern character encoding that "
+"can handle text from most of the world's languages. Another common encoding "
+"for English and some other Western languages is ISO-8859-1."
+msgstr ""
+"Per defecte l'<app>Empathy</app> utilitza l'UTF-8 , una codificació de "
+"caràcters moderna que pot gestionar text escrit en la immensa majoria de les "
+"llengües del món. Una altra codificació de caràcters per l'anglès i algunes "
+"llengües occidentals és l'ISO-8859-1."
+
+#: C/account-irc.page:141(item/title)
+msgid "<gui>Servers</gui>"
+msgstr "<gui>Servidors</gui>"
+
+#: C/account-irc.page:142(item/p)
+msgid ""
+"An IRC network may have many servers you can connect to. When you are "
+"connected to a server on a particular network, you can communicate with all "
+"users on all other servers on that network. You can add and remove servers "
+"for this network using the <gui>Add</gui> and <gui>Remove</gui> buttons."
+msgstr ""
+"Una xarxa d'IRC pot tenir molts servidors als quals us podeu connectar. Quan "
+"esteu connectat a un servidor d'una xarxa en particular, us podeu comunicar "
+"amb tots els usuaris de tots els servidors d'aquella xarxa. Podeu afegir o "
+"suprimir servidors per a aquesta xarxa utilitzant els botons <gui>Afegeix</"
+"gui> i <gui>Suprimeix</gui>."
+
+#: C/account-irc.page:147(item/p)
+msgid ""
+"When a server is selected, click the field under <gui>Server</gui> or "
+"<gui>Port</gui> to edit it. Alternatively, use the left and right arrow keys "
+"to focus the field, and press the space bar to begin editing."
+msgstr ""
+"Quan seleccioneu un servidor feu clic al camp de <gui>Servidor</gui> o "
+"<gui>Port</gui> per editar-lo. També ho podeu fer amb les tecles de "
+"navegació de cap a la dreta i de cap a l'esquerra per donar el focus al camp "
+"i si feu clic a la barra espaiadora editareu el camp."
+
+#: C/account-irc.page:151(item/p)
+msgid ""
+"Select the check box in the <gui>SSL</gui> column to encrypt all "
+"communication with a server. Note that this does not prevent other users on "
+"the network from seeing what you write on public chat rooms."
+msgstr ""
+"Seleccioneu la casella de selecció de la columna <gui>SSL</gui> per xifrar "
+"totes les comunicacions amb el servidor. Adoneu-vos que això no impedirà que "
+"altres usuaris de la xarxa puguin veure el que escriviu en un xat públic."
+
+#: C/account-jabber.page:7(info/desc)
+msgid "Advanced options for Jabber and Google Talk accounts."
+msgstr "Opcions avançades per als comptes de Jabber i de Google Talk."
+
+#: C/account-jabber.page:29(page/title)
+msgid "Jabber account details"
+msgstr "Dades dels comptes de Jabber"
+
+#: C/account-jabber.page:31(page/p)
+msgid ""
+"Most Jabber accounts will require only a login ID and a password to connect. "
+"For some accounts or on certain types of networks, you may need to enter "
+"additional information in the <gui>Advanced</gui> section. Normally, you "
+"will not need to use the advanced options below. For general instructions on "
+"adding an account, see <link xref=\"add-account\"/>."
+msgstr ""
+"Per connectar-se a la majoria de comptes de Jabber només fa falta el nom "
+"d'usuari i la contrasenya. Tot i així, per alguns comptes o tipus de xarxes "
+"haureu d'introduir informació addicional a la secció <gui>Avançada</gui>. "
+"Normalment, no us farà falta utilitzar les opcions avançades. Vegeu <link "
+"xref=\"add-account\"/> per les instruccions generals de com afegir comptes."
+
+#: C/account-jabber.page:39(note/p)
+msgid ""
+"Google Talk is a type of Jabber account. These instructions hold for Google "
+"Talk accounts as well."
+msgstr ""
+"Com que el Google Talk també és un tipus de compte de Jabber, les "
+"instruccions següents també serveixen."
+
+#: C/account-jabber.page:45(item/title)
+msgid "<gui>Encryption required (TLS/SSL)</gui>"
+msgstr "<gui>Es requereix encriptació (TLS/SSL)</gui>"
+
+#: C/account-jabber.page:46(item/title)
+msgid "<gui>Ignore SSL certificate errors</gui>"
+msgstr "<gui>Ignora els errors del certificat SSL</gui>"
+
+#: C/account-jabber.page:47(item/p)
+msgid ""
+"Whenever possible, communication between <app>Empathy</app> and the Jabber "
+"server is encrypted. If encrypted communication is not possible, messages "
+"may be sent unencrypted. Select <gui>Encryption required</gui> to prevent "
+"<app>Empathy</app> from communicating with the Jabber server when encryption "
+"is not possible."
+msgstr ""
+"Sempre que sigui possible, es xifren les comunicacions entre l'<app>Empathy</"
+"app> i el servidor de Jabber. Si no és possible, s'envien els missatges "
+"sense xifrar. Seleccioneu <gui>Es requereix encriptació</gui> per impedir "
+"que l'<app>Empathy</app> es comuniqui amb el servidor de Jabber si no es pot "
+"establir una comunicació xifrada."
+
+#: C/account-jabber.page:52(item/p)
+msgid ""
+"Some Jabber servers may encrypt data using invalid certificates, or using "
+"certificates from unknown authorities. If you trust the server you are "
+"connecting to, you can select <gui>Ignore SSL certificate errors</gui> to "
+"allow encrypted communication with invalid certificates."
+msgstr ""
+"Alguns servidors de Jabber xifren les dades amb certificats no vàlids o "
+"d'autoritats no reconegudes. Si confieu en el servidor al que us connecteu, "
+"podeu seleccionar <gui>Ignora els errors del certificat SSL</gui> per "
+"permetre la comunicació xifrada amb certificats no vàlids."
+
+#: C/account-jabber.page:59(item/title)
+msgid "<gui>Resource</gui>"
+msgstr "<gui>Recurs</gui>"
+
+#: C/account-jabber.page:60(item/title)
+msgid "<gui>Priority</gui>"
+msgstr "<gui>Prioritat</gui>"
+
+#: C/account-jabber.page:61(item/p)
+msgid ""
+"If you have multiple applications (for instance, on separate computers) "
+"connected to your account at the same time, you can set a resource to "
+"uniquely identify each one. By default, <app>Empathy</app> will use "
+"<input>Telepathy</input> as the resource."
+msgstr ""
+"Si teniu més d'una aplicació (en ordinadors diferents) connectats al mateix "
+"temps al mateix compte, podeu configurar un recurs per identificar de forma "
+"inequívoca cadascun d'ells. Per defecte l'<app>Empathy</app> utilitzarà "
+"<input>Telepathy</input> com a recurs."
+
+#: C/account-jabber.page:65(item/p)
+msgid ""
+"You can set the priority to specify which application should receive "
+"incoming messages from your contacts. New messages will be sent to the "
+"application with the highest priority."
+msgstr ""
+"Podeu establir la prioritat per especificar quina aplicació rebrà els "
+"missatges entrants dels contactes. Els missatges nous s'enviaran a "
+"l'aplicació que tingui la màxima prioritat."
+
+#: C/account-jabber.page:70(item/title)
+msgid "<gui>Override server settings</gui>"
+msgstr "<gui>Sobreescriu els paràmetres del servidor</gui>"
+
+#: C/account-jabber.page:71(item/p)
+msgid ""
+"<app>Empathy</app> will use default settings to connect to the Jabber server "
+"based on your login ID. For some Jabber servers, you will need to enter "
+"custom server settings manually. These settings should be provided for you "
+"by your Jabber provider."
+msgstr ""
+"L'<app>Empathy</app> utilitza els paràmetres per defecte, basant-se en el "
+"nom d'usuari, per connectar-se al servidor de Jabber. Per alguns servidors "
+"de Jabber us caldrà introduir els paràmetres del servidor manualment. "
+"Aquests paràmetres els hauria de proporcionar el proveïdor de Jabber."
+
+#: C/accounts-window.page:11(info/desc)
+msgid "Add, modify, and delete accounts."
+msgstr "Afegiu, modifiqueu i suprimiu comptes."
+
+#: C/accounts-window.page:33(page/title)
+msgid "Accounts Window"
+msgstr "Finestra dels comptes"
+
+#: C/accounts-window.page:35(page/p)
+msgid ""
+"The <gui>Accounts</gui> window allows you to add, modify, and delete "
+"accounts."
+msgstr ""
+"La finestra dels <gui>Comptes</gui> us permet afegir, modificar i suprimir "
+"comptes."
+
+#: C/accounts-window.page:43(section/title)
+msgid "Account Details"
+msgstr "Dades dels comptes"
+
+#: C/accounts-window.page:44(section/p)
+msgid ""
+"For most types of accounts, you can simply enter a login ID and a password. "
+"Certain accounts or account types, however, may require additional "
+"information."
+msgstr ""
+"Per a majoria de tipus de comptes només us caldrà entrar el nom d'usuari i "
+"la contrasenya. Tanmateix alguns comptes o tipus de comptes requereixen "
+"informació addicional."
+
+#: C/add-account.page:9(info/desc)
+msgid "Add a new account to <app>Empathy</app>."
+msgstr "Afegiu un compte nou a l'<app>Empathy</app>."
+
+#: C/add-account.page:40(page/title)
+msgid "Add a new account"
+msgstr "Afegiu un compte nou"
+
+#: C/add-account.page:42(page/p)
+msgid ""
+"You can add instant messaging accounts from any supported service to "
+"communicate with all of your contacts in <app>Empathy</app>. For some "
+"account providers, these steps will also allow you to register for a new "
+"account. For more details, see <link xref=\"create-account\"/>."
+msgstr ""
+"Podeu afegir comptes de missatgeria instantània per a qualsevol servei "
+"habilitat per comunicar-vos amb els contactes a través de l'<app>Empathy</"
+"app>. Per a alguns proveïdors de comptes aquests passos us permeten "
+"registrar-hi un compte nou. Vegeu <link xref=\"create-account\"/> per a més "
+"informació."
+
+#: C/add-account.page:49(item/p) C/disable-account.page:49(item/p)
+#: C/irc-nick-password.page:50(item/p) C/remove-account.page:43(item/p)
+msgid ""
+"From the <gui>Contact List</gui> window, choose <guiseq><gui>Edit</gui> "
+"<gui>Accounts</gui></guiseq>, or press <key>F4</key>."
+msgstr ""
+"Des de la finestra <gui>Llista de contactes</gui> seleccioneu "
+"<guiseq><gui>Edita</gui><gui>Comptes</gui></guiseq> o premeu la tecla "
+"<key>F4</key>."
+
+#: C/add-account.page:53(item/p)
+msgid "Click <gui style=\"button\">+</gui>."
+msgstr "Feu clic a <gui style=\"button\">+</gui>."
+
+#: C/add-account.page:58(item/p)
+msgid ""
+"From the <gui>Protocol</gui> drop-down list, select the type of account you "
+"wish to add."
+msgstr ""
+"Des de la llista desplegable de <gui>Protocol</gui>, seleccioneu el tipus de "
+"compte que vulgueu afegir."
+
+#: C/add-account.page:62(item/p)
+msgid ""
+"If you do not already have a registered account, select <gui>Create a new "
+"account on the server</gui>. This feature is not available for all account "
+"types, and may not work with some account providers. See <link xref=\"create-"
+"account\"/> for more information."
+msgstr ""
+"Si no teniu un compte registrat, seleccioneu <gui>Crea un compte nou al "
+"servidor</gui>. Aquesta característica no està disponible per tots els tipus "
+"de comptes i pot no funcionar amb alguns proveïdors. Vegeu <link xref="
+"\"create-account\"/> per a més informació."
+
+#: C/add-account.page:69(item/p)
+msgid ""
+"Enter the required information. For most accounts, you will only need a "
+"login ID and a password. Some accounts may require additional information. "
+"See <link xref=\"accounts-window#details\"/>for more information."
+msgstr ""
+"Introduïu la informació requerida. Per la majoria de comptes només us caldrà "
+"un nom d'usuari i una contrasenya. En alguns comptes cal més informació. "
+"Vegeu <link xref=\"accounts-window#details\"/> per a més informació."
+
+#: C/add-account.page:74(item/p) C/import-account.page:61(item/p)
+#: C/irc-nick-password.page:63(item/p)
+msgid "Click <gui style=\"button\">Apply</gui>."
+msgstr "Feu clic a <gui style=\"button\">Aplica</gui>."
+
+#: C/add-account.page:81(note/p)
+msgid ""
+"To change the name that identifies the account in the <gui>Accounts</gui> "
+"window, select the account from the list on the left and either click on the "
+"name or press the space bar. Edit the account name and press <key>Enter</"
+"key> when you’re finished."
+msgstr ""
+"Per canviar el nom que identifica el compte a la finestra <gui>Comptes</"
+"gui>, seleccioneu el compte des de la llista de l'esquerra i feu clic sobre "
+"el nom o premeu la barra espaiadora. Editeu el nom del compte i feu clic a "
+"<key>Retorn</key> quan hageu acabat."
+
+#: C/add-contact.page:9(info/desc)
+msgid "Add someone to the contact list."
+msgstr "Afegiu algú a la llista de contactes."
+
+#: C/add-contact.page:18(credit/name) C/change-status.page:24(credit/name)
+#: C/prob-conn-acctdisabled.page:15(credit/name)
+#: C/prob-conn-auth.page:17(credit/name)
+#: C/prob-conn-neterror.page:15(credit/name) C/prob-conn.page:14(credit/name)
+#: C/send-file.page:17(credit/name) C/send-message.page:17(credit/name)
+msgid "Phil Bull"
+msgstr "Phil Bull"
+
+#: C/add-contact.page:33(page/title)
+msgid "Add someone to your list of contacts"
+msgstr "Afegiu algú a la llista de contactes"
+
+#: C/add-contact.page:37(item/p)
+msgid "Choose <guiseq><gui>Chat</gui><gui>Add Contact</gui></guiseq>."
+msgstr ""
+"Seleccioneu <guiseq><gui>Xat</gui><gui>Afegeix contacte</gui></guiseq>."
+
+#: C/add-contact.page:40(item/p)
+msgid ""
+"From the <gui>Account</gui> drop-down list, select the account you wish to "
+"use to connect to your contact. Your contact will need to be using the same "
+"service as the account you select."
+msgstr ""
+"Des de la llista desplegable del <gui>Compte</gui>, seleccioneu el compte "
+"que voleu utilitzar per connectar-vos amb el contacte. Haurà d'utilitzar el "
+"mateix servei que el compte que seleccioneu."
+
+#: C/add-contact.page:45(item/p)
+msgid ""
+"In the <gui>Identifier</gui> field, enter your contact’s login ID, username, "
+"screen name, or other appropriate identifier for the service type."
+msgstr ""
+"Al camp <gui>Identificador</gui> introduïu l'identificador d'entrada del "
+"contacte, el seu nom d'usuari, el nom de pantalla o qualsevol identificador "
+"apropiat per al tipus de servei."
+
+#: C/add-contact.page:49(item/p)
+msgid ""
+"In the <gui>Alias</gui> field, type your contact’s name as you would like it "
+"to appear in your contact list."
+msgstr ""
+"Al camp <gui>Àlies</gui> introduïu el nom del contacte tal com voleu que "
+"aparegui a la llista de contactes."
+
+#: C/add-contact.page:53(item/p)
+msgid "Click <gui>Add</gui> to add the person to your list of contacts."
+msgstr ""
+"Feu clic a <gui>Afegeix</gui> per afegir el contacte a la llista de "
+"contactes."
+
+#: C/add-contact.page:61(note/p)
+msgid ""
+"To add a new person to your list of contacts, you need to be connected to "
+"the Internet and to your account."
+msgstr ""
+"Per afegir una persona nova a la llista de contactes heu d'estar connectat a "
+"Internet i al compte."
+
+#: C/audio-call.page:10(info/desc)
+msgid "Call your contacts over the Internet."
+msgstr "Truqueu els contactes per Internet."
+
+#: C/audio-call.page:26(credit/name) C/overview.page:16(credit/name)
+#: C/share-desktop.page:18(credit/name) C/video-call.page:29(credit/name)
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#: C/audio-call.page:35(page/title)
+msgid "Start an audio conversation"
+msgstr "Inicieu una conversa de veu"
+
+#: C/audio-call.page:37(page/p)
+msgid ""
+"You can call your contacts and have an audio conversation with them. This "
+"features only works with certain types of accounts and it requires the other "
+"person to have an application that supports audio calls."
+msgstr ""
+"Podeu trucar als contactes i mantenir-hi converses de veu. Aquesta "
+"característica només funciona amb alguns tipus de comptes i requereix que "
+"l'altra persona també tingui una aplicació que permeti realitzar trucades de "
+"veu."
+
+#: C/audio-call.page:43(item/p)
+msgid ""
+"Right-click on the contact that you want to call and select <gui style="
+"\"menuitem\">Audio Call</gui>."
+msgstr ""
+"Amb el botó secundari feu clic al contacte amb el qual voleu conversar i "
+"escolliu <gui style=\"menuitem\">Trucada de veu</gui>."
+
+#: C/audio-call.page:49(item/p) C/video-call.page:50(item/p)
+msgid ""
+"A new window will open. When the connection is established, you will see the "
+"total conversation time at the bottom of the window."
+msgstr ""
+"S'obrirà una finestra nova. Quan s'estableixi la connexió veureu que a la "
+"part inferior de la finestra es mostrarà la durada de la conversa."
+
+#: C/audio-call.page:55(item/p)
+msgid ""
+"To end the conversation, click the <gui style=\"button\">hand up</gui> "
+"button."
+msgstr ""
+"Per acabar la conversa feu clic al botó <gui style=\"button\">Penja</gui>."
+
+#: C/audio-call.page:63(note/p)
+msgid ""
+"To turn an audio conversation into a video conversation, choose <guiseq><gui "
+"style=\"menu\">Video</gui> <gui style=\"menuitem\">Video On</gui></guiseq>."
+msgstr ""
+"Per convertir una conversa de veu en una conversa de vídeo, escolliu "
+"<guiseq><gui style=\"menu\">Vídeo</gui> <gui style=\"menuitem\">Activa el "
+"vídeo</gui></guiseq>."
+
+#: C/audio-call.page:71(section/title)
+msgid "Start an audio conversation with a meta-contact"
+msgstr "Inicieu una conversa de veu amb un metacontacte"
+
+#: C/audio-call.page:74(item/p) C/send-message.page:53(item/p)
+#: C/video-call.page:68(item/p)
+msgid ""
+"From the <gui>Contact List</gui> window, right-click on the meta-contact."
+msgstr ""
+"Des de la finestra <gui>Llista de contactes</gui>, feu clic amb el botó "
+"secundari al metacontacte."
+
+#: C/audio-call.page:79(item/p)
+msgid ""
+"Select the contact you want to have the conversation, and from the menu "
+"select <gui style=\"menuitem\">Audio Call</gui>."
+msgstr ""
+"Seleccioneu el contacte amb el qual voleu mantenir la conversa i des del menú "
+"seleccioneu <gui style=\"menuitem\">Trucada de veu</gui>."
+
+#: C/audio-call.page:86(note/p) C/send-message.page:65(note/p)
+#: C/video-call.page:80(note/p)
+msgid ""
+"To recognize if a contact is a <em>meta-contact</em>, move your mouse on a "
+"contact in the <gui>Contact List</gui> window, and stop over it for a "
+"second: a small pop-up message will appear showing the number of the "
+"contacts that form the meta-contact."
+msgstr ""
+"Per reconèixer si un contacte és un <em>metacontacte</em> situeu el ratolí a "
+"sobre d'un contacte de la finestra <gui>Llista de contactes</gui> i "
+"mantingueu-lo a sobre durant un segon: apareixerà un petit missatge emergent "
+"que mostrarà el nombre de contactes que formen el metacontacte."
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/audio-video.page:58(media)
+msgctxt "_"
+msgid "external ref='figures/audio-input-microphone.png' md5='__failed__'"
+msgstr "external ref='figures/audio-input-microphone.png' md5='__failed__'"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/audio-video.page:70(media)
+msgctxt "_"
+msgid "external ref='figures/camera-web.png' md5='__failed__'"
+msgstr "external ref='figures/camera-web.png' md5='__failed__'"
+
+#: C/audio-video.page:8(info/desc)
+msgid ""
+"Information on when it is possible to have an audio or video conversation."
+msgstr ""
+"Informació sobre quan és possible realitzar una conversa de veu o de vídeo."
+
+#: C/audio-video.page:32(page/title)
+msgid "Audio and video support"
+msgstr "Àudio i vídeo"
+
+#: C/audio-video.page:34(page/p)
+msgid ""
+"You can only have audio and video conversation with contacts who are using "
+"an application which also supports this feature. When your contacts support "
+"audio or video conversations, you will see the following icons next to their "
+"names in the contact list:"
+msgstr ""
+"Només podeu realitzar converses de veu i de vídeo amb els contactes que "
+"utilitzin una aplicació que permeti aquestes característiques. Si les "
+"aplicacions dels contactes permeten realitzar converses de veu o de vídeo, "
+"veureu les icones següents al costat del seu nom a la llista de contactes:"
+
+#: C/audio-video.page:43(td/p)
+msgid "Icon"
+msgstr "Icona"
+
+#: C/audio-video.page:48(td/p)
+msgid "Description"
+msgstr "Descripció"
+
+#: C/audio-video.page:57(td/p)
+msgid ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/audio-input-"
+"microphone.png\"> Icon for audio conversation </media>"
+msgstr ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/audio-input-"
+"microphone.png\"> Icona per a una conversa de veu </media>"
+
+#: C/audio-video.page:64(td/p)
+msgid "The contact is able to have an audio conversation."
+msgstr "El contacte pot realitzar converses de veu."
+
+#: C/audio-video.page:69(td/p)
+msgid ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/camera-web.png\"> "
+"Icon for video conversation </media>"
+msgstr ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/camera-web.png\"> "
+"Icona per a una conversa de vídeo </media>"
+
+#: C/audio-video.page:76(td/p)
+msgid "The contact is able to have a video conversation."
+msgstr "El contacte pot realitzar converses de vídeo."
+
+#: C/audio-video.page:83(note/p)
+msgid ""
+"In order to have an audio conversation, you need to have a sound card that "
+"is supported by your operating system, and a working microphone."
+msgstr ""
+"Per realitzar una conversa de veu heu de tenir una targeta de so reconeguda "
+"pel sistema operatiu i un micròfon que funcioni."
+
+#: C/audio-video.page:87(note/p)
+msgid ""
+"In order to have a video conversation, you need to have a webcam that is "
+"supported by your operating system, and a working microphone."
+msgstr ""
+"Per realitzar una conversa de vídeo heu de tenir una càmera web reconeguda "
+"pel sistema operatiu i un micròfon que funcioni."
+
+#: C/audio-video.page:95(section/title)
+msgid "Supported Account Types"
+msgstr "Tipus de comptes permesos"
+
+#: C/audio-video.page:97(section/p)
+msgid ""
+"You can only have audio and video conversations using accounts on certain "
+"supported services. The following table lists whether audio and video is "
+"supported for each type of account."
+msgstr ""
+"Només podeu realitzar converses de veu i de vídeo en comptes d'alguns "
+"proveïdors de serveis. La taula següent mostra si els tipus de compte "
+"permeten converses de veu i de vídeo."
+
+#: C/audio-video.page:102(note/p)
+msgid ""
+"Account types are provided by plugins. Your system may not have all of the "
+"following types available, or it may have types not listed here. Updated "
+"plugins may make audio or video conversations possible on account types that "
+"are listed as unsupported here."
+msgstr ""
+"Els tipus de comptes es proporcionen els connectors. El sistema pot no "
+"disposar de tots el tipus llistats aquí, o pot disposar de tipus de comptes "
+"que no estiguin llistats. Versions més noves dels connectors poden fer "
+"possible les converses de veu i de vídeo en tipus de comptes que estan "
+"classificats com que no ho permeten."
+
+#: C/audio-video.page:128(td/p)
+msgid "Service"
+msgstr "Servei"
+
+#: C/audio-video.page:129(td/p)
+msgid "Audio"
+msgstr "Àudio"
+
+#: C/audio-video.page:130(td/p)
+msgid "Video"
+msgstr "Vídeo"
+
+#: C/audio-video.page:135(td/p)
+msgid "AIM"
+msgstr "AIM"
+
+#: C/audio-video.page:136(td/p) C/audio-video.page:137(td/p)
+#: C/audio-video.page:141(td/p) C/audio-video.page:142(td/p)
+#: C/audio-video.page:146(td/p) C/audio-video.page:147(td/p)
+#: C/audio-video.page:156(td/p) C/audio-video.page:157(td/p)
+#: C/audio-video.page:161(td/p) C/audio-video.page:162(td/p)
+#: C/audio-video.page:166(td/p) C/audio-video.page:167(td/p)
+#: C/audio-video.page:181(td/p) C/audio-video.page:182(td/p)
+#: C/audio-video.page:186(td/p) C/audio-video.page:187(td/p)
+#: C/audio-video.page:191(td/p) C/audio-video.page:192(td/p)
+#: C/audio-video.page:196(td/p) C/audio-video.page:197(td/p)
+#: C/audio-video.page:201(td/p) C/audio-video.page:202(td/p)
+#: C/audio-video.page:211(td/p) C/audio-video.page:212(td/p)
+#: C/audio-video.page:216(td/p) C/audio-video.page:217(td/p)
+msgid "No"
+msgstr "No"
+
+#: C/audio-video.page:140(td/p)
+msgid "Facebook Chat"
+msgstr "Xat de Facebook"
+
+#: C/audio-video.page:145(td/p)
+msgid "gadugadu"
+msgstr "gadugadu"
+
+#: C/audio-video.page:150(td/p)
+msgid "Google Talk"
+msgstr "Google Talk"
+
+#: C/audio-video.page:151(td/p) C/audio-video.page:152(td/p)
+#: C/audio-video.page:171(td/p) C/audio-video.page:172(td/p)
+#: C/audio-video.page:176(td/p) C/audio-video.page:177(td/p)
+#: C/audio-video.page:206(td/p) C/audio-video.page:207(td/p)
+msgid "Yes"
+msgstr "Sí"
+
+#: C/audio-video.page:155(td/p)
+msgid "Groupwise"
+msgstr "Groupwise"
+
+#: C/audio-video.page:160(td/p)
+msgid "ICQ"
+msgstr "ICQ"
+
+#: C/audio-video.page:165(td/p) C/create-account.page:107(section/title)
+msgid "IRC"
+msgstr "IRC"
+
+#: C/audio-video.page:170(td/p) C/create-account.page:60(section/title)
+msgid "Jabber"
+msgstr "Jabber"
+
+#: C/audio-video.page:175(td/p)
+msgid "MSN"
+msgstr "MSN"
+
+#: C/audio-video.page:180(td/p)
+msgid "myspace"
+msgstr "myspace"
+
+#: C/audio-video.page:185(td/p)
+msgid "qq"
+msgstr "qq"
+
+#: C/audio-video.page:190(td/p) C/create-account.page:78(section/title)
+msgid "People Nearby"
+msgstr "Gent propera"
+
+#: C/audio-video.page:195(td/p)
+msgid "sametime"
+msgstr "sametime"
+
+#: C/audio-video.page:200(td/p)
+msgid "silc"
+msgstr "silc"
+
+#: C/audio-video.page:205(td/p) C/create-account.page:89(section/title)
+msgid "SIP"
+msgstr "SIP"
+
+#: C/audio-video.page:210(td/p)
+msgid "Yahoo!"
+msgstr "Yahoo!"
+
+#: C/audio-video.page:215(td/p)
+msgid "zephyr"
+msgstr "zephyr"
+
+#: C/change-status.page:9(info/desc)
+msgid "Change your status to advertise your availability to your contacts."
+msgstr "Canvieu l'estat per avisar la disponibilitat als contactes."
+
+#: C/change-status.page:39(page/title)
+msgid "Change your status"
+msgstr "Canvi de l'estat"
+
+#: C/change-status.page:41(page/p)
+msgid ""
+"You can set your status to indicate your availability to your contacts. "
+"<app>Empathy</app> allows you to select from a list of defined statuses."
+msgstr ""
+"Podeu canviar l'estat per indicar la disponibilitat als contactes. "
+"L'<app>Empathy</app> us permet seleccionar-ne un d'una llista d'estats per "
+"defecte."
+
+#: C/change-status.page:46(item/p)
+msgid ""
+"Click on the drop-down list at the top of the <gui>Contact List</gui> window."
+msgstr ""
+"Feu clic a la llista desplegable a la part de dalt de la finestra "
+"<gui>Llista de contactes</gui>."
+
+#: C/change-status.page:51(item/p)
+msgid "Select a status from the list."
+msgstr "Seleccioneu un estat de la llista."
+
+#: C/change-status.page:57(page/p)
+msgid ""
+"See <link xref=\"status-icons\"/> for a list of the built-in statuses and "
+"what they mean. You can also <link xref=\"set-custom-status\">add custom "
+"status messages</link> to provide more information about your availability "
+"to your contacts."
+msgstr ""
+"Vegeu <link xref=\"status-icons\"/> per veure la llista d'estats possibles i "
+"què signifiquen. També podeu <link xref=\"set-custom-status\">afegir "
+"missatges d'estat personalitzats</link> per proporcionar informació sobre la "
+"disponibilitat als contactes."
+
+#: C/change-status.page:63(note/p)
+msgid ""
+"If you do not use your computer for a while, or if the screensaver is on, "
+"the status will be automatically set to Away."
+msgstr ""
+"Si no utilitzeu l'ordinador durant una estona o s'activa l'estalvi de "
+"pantalla, l'estat es posarà a absent."
+
+#: C/create-account.page:9(info/desc)
+msgid "Register for an account with one of the supported messaging services."
+msgstr "Registreu un compte amb un dels serveis de missatgeria habilitats."
+
+#: C/create-account.page:34(page/title)
+msgid "Register for a new account"
+msgstr "Registreu un compte nou"
+
+#: C/create-account.page:36(page/p)
+msgid ""
+"Most account types require you to create an account with a account provider "
+"before you can connect using instant messaging applications like "
+"<app>Empathy</app>. With some account providers, you can use <app>Empathy</"
+"app> to register for a new account, using the same steps as you would to "
+"<link xref=\"add-account\">add an account</link>."
+msgstr ""
+"La majoria de comptes requereixen que creeu un compte amb un proveïdor abans "
+"de connectar-vos amb aplicacions de missatgeria com l'<app>Empathy</app>. "
+"Amb alguns proveïdors de comptes, podeu utilitzar l'<app>Empathy</app> per "
+"registrar el compte nou, utilitzant el mateixos passos que si <link xref="
+"\"add-account\">afegiu un compte</link>."
+
+#: C/create-account.page:42(page/p)
+msgid ""
+"This page provides information on creating a new account for various types "
+"of accounts. Your account provider should give you a login ID and a "
+"password, as well as any additional information you need to connect using "
+"<app>Empathy</app>."
+msgstr ""
+"Aquesta pàgina proporciona informació sobre la creació de comptes nous de "
+"tipologia variada. El vostre proveïdor de comptes hauria de donar-vos un nom "
+"d'usuari i una contrasenya, així com qualsevol informació addicional que us "
+"pugui fer falta per connectar-vos amb l'<app>Empathy</app>."
+
+#: C/create-account.page:47(section/title)
+msgid "Facebook"
+msgstr "Facebook"
+
+#: C/create-account.page:48(section/p)
+msgid ""
+"Facebook is one of the most-used social networks. It allows users to create "
+"their own profile and to communicate with their friends."
+msgstr ""
+"Facebook és una de les xarxes socials més utilitzades. Permet als usuaris "
+"crear el seu propi perfil i comunicar-se amb els seus amics."
+
+#: C/create-account.page:52(section/p)
+msgid ""
+"To use Facebook to communicate with your friends, you will need to create a "
+"new account from the website: <link href=\"http://www.facebook.com\">www."
+"facebook.com</link>."
+msgstr ""
+"Per utilitzar Facebook per comunicar-vos amb els vostres amics, us cal crear "
+"un compte nou al lloc web: <link href=\"http://www.facebook.com\">www."
+"facebook.com</link>."
+
+#: C/create-account.page:62(section/p)
+msgid ""
+"Jabber is an open instant messaging system. Like email, Jabber allows you to "
+"choose your account provider and communicate with all other Jabber users, "
+"regardless of their account provider."
+msgstr ""
+"Jabber és un sistema obert de missatgeria instantània. Semblant al correu "
+"electrònic, Jabber us permet escollir el vostre proveïdor de comptes i "
+"comunicar-vos amb altres usuaris de Jabber, sense que importi el seu "
+"proveïdor de comptes."
+
+#: C/create-account.page:66(section/p)
+msgid ""
+"You will need to create a new account with a Jabber provider. There are many "
+"free providers; one popular provider is <link href=\"http://register.jabber."
+"org/\">Jabber.org</link>."
+msgstr ""
+"Haureu de crear un compte nou amb algun proveïdor de comptes Jabber. Hi ha "
+"molt proveïdors gratuïts, un dels més populars és <link href=\"http://"
+"register.jabber.org/\">Jabber.org</link>."
+
+#: C/create-account.page:71(note/p)
+msgid ""
+"If you use Google Mail or Google Talk, you already have a Jabber account. "
+"Google Talk is a Jabber service. Simply use your Google Mail address and "
+"password in <app>Empathy</app> to connect."
+msgstr ""
+"Si sou usuaris del Google Mail o del Google Talk, ja teniu un compte de "
+"Jabber. El Google Talk és un servei de Jabber. Només us cal utilitzar "
+"l'adreça i la contrasenya de Google Mail per connectar-vos a l'<app>Empathy</"
+"app>."
+
+#: C/create-account.page:80(section/p)
+msgid ""
+"You do not need to create an account with a service provider to use this "
+"feature. This service works whenever you are connected to a local network, "
+"such as a wireless hotspot. It automatically finds all other users on the "
+"network who are also using this service."
+msgstr ""
+"No us cal crear cap compte a cap proveïdor de serveis per utilitzar aquesta "
+"característica. Aquest servei funciona sempre que estigueu connectats a una "
+"xarxa d'àrea local, com un punt d'accés Wi-Fi. Us mostra tots els usuaris "
+"que fan servir aquest mateix servei de forma automàtica."
+
+#: C/create-account.page:85(section/p)
+msgid "For more information, see <link xref=\"salut-protocol\"/>."
+msgstr "Vegeu <link xref=\"salut-protocol\"/> per a més informació."
+
+#: C/create-account.page:91(section/p)
+msgid ""
+"SIP is an open system which allows users to have audio and video "
+"conversations over the Internet. You need to create an account with a SIP "
+"provider. You can communicate with all other SIP users, regardless of which "
+"SIP provider they use."
+msgstr ""
+"El SIP és un sistema obert que permet realitzar converses de veu i de vídeo "
+"per Internet. Heu de crear un compte amb un proveïdor de SIP. Podeu "
+"comunicar-vos amb qualsevol usuari de SIP sense que importi el proveïdor SIP "
+"que estiguin utilitzant."
+
+#: C/create-account.page:97(note/p)
+msgid ""
+"Due to technical differences, the free <link href=\"https://www.ekiga.net/"
+"index.php?page=register\">Ekiga.net</link> service does not currently work "
+"with <app>Empathy</app>."
+msgstr ""
+"Per motius tècnics, el servei lliure <link href=\"https://www.ekiga.net/"
+"index.php?page=register\">Ekiga.net</link> no funciona amb l'<app>Empathy</"
+"app>."
+
+#: C/create-account.page:102(section/p)
+msgid ""
+"Some SIP providers allow you to call normal phones from your computer. "
+"Generally, you will need to subscribe to a paid service for this feature."
+msgstr ""
+"Alguns proveïdors de SIP us permeten fer trucades a telèfons fixes i mòbils "
+"des de l'ordinador. Normalment us cal una subscripció a un servei de "
+"pagament per poder-ho realitzar."
+
+#: C/create-account.page:109(section/p)
+msgid ""
+"You do not need to register for an account to use IRC. Although you specify "
+"a nickname when you add an IRC account to <app>Empathy</app>, this nickname "
+"is only established each time you connect. If another user is using the "
+"nickname, you will need to choose a new nickname."
+msgstr ""
+"No us cal registrar un compte per utilitzar l'IRC. Encara que especifiqueu "
+"un sobrenom quan afegiu el compte d'IRC a l'<app>Empathy</app>, aquest "
+"sobrenom només s'utilitza cada vegada que us connecteu. Si un altre usuari "
+"està utilitzant aquest sobrenom, us caldrà canviar el sobrenom."
+
+#: C/create-account.page:114(section/p)
+msgid ""
+"Some IRC networks use a service called NickServ to allow users to protect "
+"their nicknames. See <link xref=\"irc-nick-password\"/> for more information."
+msgstr ""
+"Algunes xarxes d'IRC utilitzen un servei anomenat NickServ per permetre als "
+"usuaris protegir el seu sobrenom. Vegeu <link xref=\"irc-nick-password\"/> "
+"per a més informació."
+
+#: C/create-account.page:117(section/p)
+msgid ""
+"Some IRC servers are password protected. You will need to know the password "
+"to connect to these servers. Generally, these are private IRC networks."
+msgstr ""
+"Alguns servidors d'IRC estan protegits amb contrasenya. Haureu de saber la "
+"contrasenya per connectar-vos-hi. Generalment són xarxes d'IRC privades."
+
+#: C/create-account.page:122(section/title)
+msgid "Proprietary Services"
+msgstr "Serveis propietaris"
+
+#: C/create-account.page:124(section/p)
+msgid ""
+"There are many proprietary instant messaging services that have been "
+"developed by different companies or organizations. <app>Empathy</app> allows "
+"you to connect to an existing account for most popular services. To create a "
+"new account with one of these services, you will need to visit the service’s "
+"web site and agree to its terms of use."
+msgstr ""
+"Hi ha molts serveis de missatgeria instantània propietaris desenvolupats per "
+"diverses organitzacions o empreses. L'<app>Empathy</app> us permet connectar-"
+"vos a comptes existent de molts serveis populars. Per crear-vos-hi un compte "
+"nou haureu de visitar el lloc web i acceptar la llicència d'ús."
+
+#: C/create-account.page:132(item/p)
+msgid "<link href=\"http://dashboard.aim.com/aim\">AIM</link>"
+msgstr "<link href=\"http://dashboard.aim.com/aim\">AIM</link>"
+
+#: C/create-account.page:137(item/p)
+msgid "<link href=\"https://www.icq.com/register/\">ICQ</link>"
+msgstr "<link href=\"https://www.icq.com/register/\">ICQ</link>"
+
+#: C/create-account.page:142(item/p)
+msgid "<link href=\"https://accountservices.passport.net\">MSN</link>"
+msgstr "<link href=\"https://accountservices.passport.net\">MSN</link>"
+
+#: C/create-account.page:147(item/p)
+msgid "<link href=\"https://login.yahoo.com/config/login\">Yahoo!</link>"
+msgstr "<link href=\"https://login.yahoo.com/config/login\">Yahoo!</link>"
+
+#: C/disable-account.page:9(info/desc)
+msgid "Prevent <app>Empathy</app> from automatically logging in to an account."
+msgstr ""
+"Impedeix que l'<app>Empathy</app> es connecti de forma automàtica a un "
+"compte."
+
+#: C/disable-account.page:40(page/title)
+msgid "Disable an account"
+msgstr "Inhabiliteu un compte"
+
+#: C/disable-account.page:42(page/p)
+msgid ""
+"You can disable an account to prevent <app>Empathy</app> from logging in to "
+"it without removing the account entirely. You may wish to disable and re-"
+"enable an account if you only want to be logged in to the account at certain "
+"times, but you still want to use <app>Empathy</app> for other accounts."
+msgstr ""
+"Podeu inhabilitar un compte per evitar que l'<app>Empathy</app> es connecti "
+"sense esborrar completament el compte. Podeu desactivar i reactivar el "
+"compte si només voleu connectar-vos al compte esporàdicament, però encara "
+"voleu utilitzar l'<app>Empathy</app> per altres comptes."
+
+#: C/disable-account.page:53(item/p)
+msgid ""
+"Select the account you wish to disable from the accounts list on the left "
+"side of the window."
+msgstr ""
+"Seleccioneu el compte que voleu inhabilitar del llistat de comptes al quadre "
+"de l'esquerra de la finestra."
+
+#: C/disable-account.page:57(item/p)
+msgid "On the right side of the window, switch it off."
+msgstr "A la part dreta de la finestra, inhabiliteu-lo."
+
+#: C/disable-account.page:62(page/p)
+msgid "To re-enable the account, switch it on."
+msgstr "Per tornar a activar el compte, habiliteu-lo."
+
+#: C/favorite-rooms.page:10(info/desc)
+msgid "Set, join and manage favorite rooms."
+msgstr "Com configurar, entrar i gestionar sales preferides."
+
+#: C/favorite-rooms.page:29(page/title)
+msgid "Favorite rooms"
+msgstr "Sales preferides"
+
+#: C/favorite-rooms.page:32(section/title)
+msgid "Set a room as a favorite"
+msgstr "Establiu un sala com a preferida"
+
+#: C/favorite-rooms.page:35(item/p)
+msgid "Join a room."
+msgstr "Com entrar en una sala."
+
+#: C/favorite-rooms.page:40(item/p)
+msgid ""
+"See <link xref=\"irc-join-room\"/> for more information on how to join an "
+"IRC room."
+msgstr ""
+"Per saber-ne més de com entrar en una sala d'IRC vegeu <link xref=\"irc-join-"
+"room\"/>."
+
+#: C/favorite-rooms.page:46(item/p)
+msgid ""
+"See <link xref=\"group-conversations\"/> for more information on how to "
+"start or join a group conversation."
+msgstr ""
+"Per saber-ne més de com iniciar o unir-se a una conversa de grup vegeu <link "
+"xref=\"group-conversations\"/>."
+
+#: C/favorite-rooms.page:54(item/p)
+msgid ""
+"From the conversation window, choose <guiseq><gui>Conversation</"
+"gui><gui>Favorite Chat Room</gui></guiseq>."
+msgstr ""
+"A la finestra de conversa escolliu <guiseq><gui>Conversa</gui><gui>Sala de "
+"xat preferida</gui></guiseq>."
+
+#: C/favorite-rooms.page:63(section/title)
+msgid "Join favorite rooms"
+msgstr "Com entrar a sales preferides"
+
+#: C/favorite-rooms.page:66(item/p) C/send-file.page:40(item/p)
+msgid "From the <gui>Contact List</gui> window, perform one of the following:"
+msgstr ""
+"Des de la finestra <gui>Llista de contactes</gui> executeu una de les "
+"següents accions:"
+
+#: C/favorite-rooms.page:71(item/p)
+msgid "Press <key>F5</key>."
+msgstr "Premeu <key>F5</key>."
+
+#: C/favorite-rooms.page:76(item/p)
+msgid ""
+"Choose <guiseq><gui>Room</gui><gui>Join Favorites</gui></guiseq>, to join "
+"all your favorite rooms."
+msgstr ""
+"Escolliu <guiseq><gui>Sala</gui><gui>Uneix-te als preferits</gui></guiseq>, "
+"per entrar a totes les sales preferides."
+
+#: C/favorite-rooms.page:82(item/p)
+msgid "Choose <gui>Room</gui>, and select the favorite room you want to join."
+msgstr ""
+"Escolliu <gui>Sala</gui> i seleccioneu la sala preferida a la qual voleu "
+"entrar."
+
+#: C/favorite-rooms.page:90(note/p)
+msgid ""
+"To join a favorite room, you need to be connected to the Internet and to "
+"your account."
+msgstr ""
+"Per entrar a una sala preferida us cal estar connectat a Internet i a un "
+"compte."
+
+#: C/favorite-rooms.page:98(section/title)
+msgid "Manage favorite rooms"
+msgstr "Com gestionar les sales preferides"
+
+#: C/favorite-rooms.page:101(item/p)
+msgid ""
+"From the <gui>Contact List</gui> window, choose <guiseq><gui>Room</"
+"gui><gui>Manage Favorites</gui></guiseq>."
+msgstr ""
+"A la finestra <gui>Llista de contactes</gui>, escolliu <guiseq><gui>Sala</"
+"gui><gui>Gestiona les preferides</gui></guiseq>."
+
+#: C/favorite-rooms.page:107(item/p)
+msgid ""
+"From the <gui>Account</gui> drop-down list, select the account you want to "
+"manage the favorite rooms of."
+msgstr ""
+"A la llista desplegable <gui>Compte</gui>, seleccioneu el compte del que "
+"vulgueu gestionar les sales preferides."
+
+#: C/favorite-rooms.page:111(item/p)
+msgid "Select <gui>All</gui> to see all you favorite rooms."
+msgstr "Seleccioneu <gui>Totes</gui> per veure totes les sales preferides."
+
+#: C/favorite-rooms.page:116(item/p)
+msgid "Select the favorite room you want to manage:"
+msgstr "Seleccioneu la sala preferida que voleu gestionar:"
+
+#: C/favorite-rooms.page:121(item/p)
+msgid ""
+"Select the <gui>Auto-Connect</gui> check-box in order to automatically join "
+"that room when you connect to your account."
+msgstr ""
+"Seleccioneu la caixa de verificació <gui>Connecta automàticament</gui> per "
+"entrar de forma automàtica a la sala quan us connecteu amb el compte."
+
+#: C/favorite-rooms.page:127(item/p)
+msgid "Click on <gui>Remove</gui> to remove the room from your favorites."
+msgstr ""
+"Feu clic a <gui>Suprimeix</gui> per esborrar la sala de la llista de "
+"preferides."
+
+#: C/favorite-rooms.page:134(item/p)
+msgid "When done, click <gui>Close</gui>."
+msgstr "Quan acabeu feu clic a <gui>Tanca</gui>."
+
+#: C/geolocation.page:8(info/desc)
+msgid "Use and understand geolocation in <app>Empathy</app>."
+msgstr "Com utilitzar i entendre la geolocalització a l'<app>Empathy</app>."
+
+#: C/geolocation.page:32(page/title)
+msgid "Geographical position"
+msgstr "Posició geogràfica"
+
+#: C/geolocation.page:35(section/title)
+msgid "Geolocation"
+msgstr "Geolocalització"
+
+#: C/geolocation.page:39(section/title)
+msgid "Fix common problems"
+msgstr "Arreglar problemes comuns"
+
+#: C/geolocation-not-showing.page:8(info/desc)
+msgid "<app>Empathy</app> does not publish my geographical position."
+msgstr "L'<app>Empathy</app> no publicarà la meva posició geogràfica."
+
+#: C/geolocation-not-showing.page:32(page/title)
+msgid "Geographical position not published"
+msgstr "Posició geogràfica no publicada"
+
+#: C/geolocation-not-showing.page:34(page/p)
+msgid ""
+"If your contacts cannot see your location, <app>Empathy</app> might not be "
+"able to discover with a good margin of precision your geographical position."
+msgstr ""
+"Si els contactes no poden veure la vostra localització, l'<app>Empathy</app> "
+"no podrà descobrir amb un bon marge de precisió la vostra posició geogràfica."
+
+#: C/geolocation-not-showing.page:38(page/p)
+msgid ""
+"In this case, your position will not be published, but you are still able to "
+"see the location of your contacts."
+msgstr ""
+"En aquest cas, no es publicarà la vostra posició, però podreu veure la "
+"localització dels contactes."
+
+#: C/geolocation-not-showing.page:42(page/p)
+msgid ""
+"If you want to publish your geographical position, you can try to use an "
+"external device such as a GPS."
+msgstr ""
+"Si voleu fer pública la posició geogràfica, podeu utilitzar un dispositiu "
+"extern com un GPS."
+
+#: C/geolocation-not-showing.page:48(note/p)
+msgid ""
+"In order to publish your geographical location, your Jabber server needs to "
+"support the Personal Eventing Protocal (PEP). A list of <link href=\"http://"
+"coccinella.im/servers/servers_by_pubsub_pep.html\">servers which support "
+"PEP</link> is maintained online. Google Talk does not support this feature "
+"at this time."
+msgstr ""
+"Per publicar la posició geogràfica, el servidor de Jabber ha d'implementar "
+"el Protocol personal d'esdeveniments (PEP). Hi ha una llista actualitzada de "
+"<link href=\"http://coccinella.im/servers/servers_by_pubsub_pep.html"
+"\">servidors que implementen el PEP</link> en línia. El Google Talk encara "
+"no l'implementa."
+
+#: C/geolocation-privacy.page:8(info/desc)
+msgid "What information are sent and to who."
+msgstr "Quina informació s'envia i a qui."
+
+#: C/geolocation-privacy.page:32(page/title)
+msgid "Geolocation Privacy"
+msgstr "Privacitat de la geolocalització"
+
+#: C/geolocation-privacy.page:35(section/title)
+msgid "What information is sent"
+msgstr "Quina informació s'envia"
+
+#: C/geolocation-privacy.page:36(section/p)
+msgid ""
+"What is possible to send is: your country, region, locality, area, street, "
+"building, floor, room, and postal code, longitude, latitude and altitude, "
+"speed and bearing."
+msgstr ""
+"Les dades que es poden enviar són: el país, la regió, la població, l'àrea, "
+"el carrer, l'edifici, la planta, la porta, el codi postal, la longitud, la "
+"latitud, l'alçada, la velocitat i la orientació."
+
+#: C/geolocation-privacy.page:40(section/p)
+msgid ""
+"The accuracy and the quantity of information about your geographical "
+"position are based on the software or on the infrastructure used to discover "
+"your position."
+msgstr ""
+"L'exactitud i la quantitat d'informació sobre la posició geogràfica estan "
+"basades en el programari o en la infraestructura utilitzada per descobrir la "
+"posició."
+
+#: C/geolocation-privacy.page:44(section/p)
+msgid ""
+"Different kind of networks may have different accuracy settings, and may "
+"send different information. The use of external devices such as GPS or "
+"mobile phone will increase the accuracy of the information sent."
+msgstr ""
+"Cada tipus de xarxa pot tenir uns paràmetres d'exactitud diferents i poden "
+"enviar informació diferent. L'ús de dispositius externs com un GPS o un "
+"telèfon mòbil incrementarà l'exactitud de la informació enviada."
+
+#: C/geolocation-privacy.page:49(section/p)
+msgid ""
+"When the privacy mode is enabled, nothing more precise than your city will "
+"be sent, even if you are using an external device."
+msgstr ""
+"Quan s'habilita el mode de privacitat, la màxima precisió que s'enviarà serà "
+"la ciutat, encara que feu servir un dispositiu extern."
+
+#: C/geolocation-privacy.page:56(section/title)
+msgid "Who can see the information sent"
+msgstr "Qui pot veure la informació enviada"
+
+#: C/geolocation-privacy.page:57(section/p)
+msgid "Only your contacts can see your geographical position."
+msgstr "Només els contactes poden veure la vostra posició geogràfica."
+
+#: C/geolocation-privacy.page:63(section/title)
+msgid "What is the privacy mode"
+msgstr "Què és el mode de privacitat"
+
+#: C/geolocation-privacy.page:64(section/p)
+msgid ""
+"The privacy mode, enabled by default, is a reduced accuracy mode that will "
+"decrease the accuracy of the geographical position sent to your contacts."
+msgstr ""
+"El mode de privacitat, habilitat per defecte, és un mode que redueix la "
+"precisió de la posició geogràfica que s'envia als contactes."
+
+#: C/geolocation-privacy.page:71(section/title)
+msgid "Privacy overview"
+msgstr "Descripció de la privacitat"
+
+#: C/geolocation-privacy.page:72(section/p)
+msgid ""
+"Overview of the various geolocation privacy settings in <app>Empathy</app>."
+msgstr ""
+"Descripció de diversos paràmetres de geolocalització en l'<app>Empathy</app>."
+
+#: C/geolocation-privacy.page:77(item/p)
+msgid "Geolocation is not enabled by default."
+msgstr "La geolocalització no s'activa per defecte."
+
+#: C/geolocation-privacy.page:82(item/p)
+msgid "Privacy mode is enabled by default."
+msgstr "El mode de privacitat s'activa per defecte."
+
+#: C/geolocation-privacy.page:87(item/p)
+msgid ""
+"Privacy mode prevails even when using external and more precise devices."
+msgstr ""
+"El mode de privacitat preval inclús quan esteu utilitzant dispositius "
+"externs amb més precisió."
+
+#: C/geolocation-privacy.page:92(item/p)
+msgid "Only your contacts can see your position."
+msgstr "Només els contactes poden veure la vostra posició."
+
+#: C/geolocation-supported.page:7(info/desc)
+msgid "Services that supports geolocation and compatibility."
+msgstr "Serveis que utilitzen la geolocalització i la compatibilitat."
+
+#: C/geolocation-supported.page:31(page/title)
+msgid "Supported services"
+msgstr "Serveis que l'utilitzen"
+
+#: C/geolocation-supported.page:33(page/p)
+msgid ""
+"The geolocation feature at the moment is compatible only with the Jabber "
+"service. In order to use it, you and your contacts need to have a Jabber "
+"account."
+msgstr ""
+"La característica de la geolocalització, de moment, només és compatible amb "
+"el servei de Jabber. Per utilitzar-la fa falta que tant vós com els "
+"contactes tinguin un compte de Jabber."
+
+#: C/geolocation-supported.page:39(note/p)
+msgid ""
+"It is necessary that also the server you are using supports the geolocation "
+"feature. Most of the Jabber servers support it. See your service website "
+"documentation for more information."
+msgstr ""
+"És necessari que el servidor que esteu utilitzant també habiliti la "
+"característica de la geolocalització. Molt servidors de Jabber ja ho tenen "
+"habilitat. Per saber-ne més mireu la documentació del servei web."
+
+#: C/geolocation-supported.page:47(section/title)
+msgid "Compatibility"
+msgstr "Compatibilitat"
+
+#: C/geolocation-supported.page:49(section/p)
+msgid ""
+"<app>Empathy</app> geolocation feature is not compatible with other "
+"geographical position services such as <em>Google Latitude</em>, <em>Yahoo "
+"Fire Eagle</em> or <em>Brightkite</em>."
+msgstr ""
+"La característica de geolocalització de l'<app>Empathy</app> no és "
+"compatible amb altres serveis de posicionament geogràfic com el <em>Google "
+"Latitude</em>, el <em>Yahoo Fire Eagle</em> o el <em>Brightkite</em>."
+
+#: C/geolocation-turn.page:9(info/desc)
+msgid "How to activate and deactivate geolocation in <app>Empathy</app>."
+msgstr "Com activar i desactivar la geolocalització a l'<app>Empathy</app>."
+
+#: C/geolocation-turn.page:33(page/title)
+msgid "Activate/Deactivate geolocation"
+msgstr "Activeu/Desactiveu la geolocalització"
+
+#: C/geolocation-turn.page:37(item/p)
+msgid "Choose <guiseq><gui>Edit</gui><gui>Preferences</gui></guiseq>."
+msgstr "Seleccioneu <guiseq><gui>Edita</gui><gui>Preferències</gui></guiseq>."
+
+#: C/geolocation-turn.page:42(item/p)
+msgid "Select the <gui>Location</gui> tab."
+msgstr "Seleccioneu la pestanya <gui>Localització</gui>."
+
+#: C/geolocation-turn.page:47(item/p)
+msgid ""
+"Select <gui>Publish location to my contacts</gui> to activate geolocation."
+msgstr ""
+"Seleccioneu <gui>Publica la localització per als meus contactes</gui> per "
+"activar-la."
+
+#: C/geolocation-turn.page:50(item/p)
+msgid "To deactivate geolocation, deselect it."
+msgstr "Per desactivar la geolocalització, desseleccioneu-ho."
+
+#: C/geolocation-turn.page:55(item/p)
+msgid ""
+"To increase the accuracy of your position, deselect <gui>Reduce location "
+"accuracy</gui>."
+msgstr ""
+"Per augmentar l'exactitud de la vostra posició, desseleccioneu <gui>Redueix "
+"la precisió de la localització</gui>."
+
+#: C/geolocation-turn.page:61(item/p)
+msgid ""
+"If you have an external device like a GPS or want to send a more accurate "
+"position, select the appropriate option in the <gui>Location sources</gui> "
+"section."
+msgstr ""
+"Si teniu un dispositiu extern com un GPS o voleu enviar una posició més "
+"exacta, seleccioneu l'opció apropiada a la secció <gui>Fonts d'ubicació</"
+"gui>."
+
+#: C/geolocation-what-is.page:9(info/desc)
+msgid "Understanding geolocation."
+msgstr "Comprenent la geolocalització."
+
+#: C/geolocation-what-is.page:33(page/title)
+msgid "What is geolocation"
+msgstr "Què és la geolocalització?"
+
+#: C/geolocation-what-is.page:35(page/p)
+msgid ""
+"Geolocation allows you to identify the real geographical location of a "
+"computer or a device connected to the Internet."
+msgstr ""
+"La geolocalització us permet identificar la localització geogràfica real "
+"d'un ordinador o un dispositiu connectat a Internet."
+
+#: C/geolocation-what-is.page:37(page/p)
+msgid "With geolocation in <app>Empathy</app> you can:"
+msgstr "Gràcies a la geolocalització a l'<app>Empathy</app> podeu:"
+
+#: C/geolocation-what-is.page:42(item/p)
+msgid "Publish your geographical location to your contacts."
+msgstr "Fer pública la localització geogràfica als contactes."
+
+#: C/geolocation-what-is.page:47(item/p)
+msgid "See your contacts’ geographical location and quickly contact them."
+msgstr ""
+"Veure la localització geogràfica dels contactes i contactar fàcilment amb "
+"ells."
+
+#: C/geolocation-what-is.page:52(item/p)
+msgid ""
+"Set the accuracy of your location and the device used to discover your "
+"location."
+msgstr ""
+"Fixar l'exactitud de la vostra localització i el dispositiu utilitzat per "
+"descobrir la localització."
+
+#: C/geolocation-what-is.page:60(note/p)
+msgid ""
+"In order to see your contacts’ geographical locations, they need to use a "
+"service and an application that supports geolocation."
+msgstr ""
+"Per veure les localitzacions geogràfiques dels contactes els caldrà un "
+"servei i una aplicació que faci ús de la geolocalització."
+
+#: C/group-conversations.page:8(info/desc)
+msgid "Start or join a group conversation with your contacts."
+msgstr "Inicieu o uniu-vos a una conversa de grup amb els contactes."
+
+#: C/group-conversations.page:34(page/title)
+msgid "Group conversations"
+msgstr "Converses de grup"
+
+#: C/group-conversations.page:36(page/p)
+msgid ""
+"Group conversations permits you to have text conversations with more than "
+"one contact at the same time."
+msgstr ""
+"Les converses de grup us permeten mantenir converses de text amb més d'un "
+"contacte al mateix temps."
+
+#: C/group-conversations.page:40(page/p)
+msgid ""
+"To have a group conversation you need to have a registered account with "
+"either Jabber or Google Talk, or a People Nearby account."
+msgstr ""
+"Per mantenir una conversa de grup us cal tindre un compte registrat a "
+"Jabber, a Google Talk o a Gent propera."
+
+#: C/group-conversations.page:46(note/p)
+msgid ""
+"You can have a group conversation only with the contacts that are using the "
+"same service as yours."
+msgstr ""
+"Sols podeu mantenir converses de grup amb els contactes que estan utilitzant "
+"el mateix servei que vós."
+
+#: C/group-conversations.page:54(section/title)
+msgid "Start a group conversation"
+msgstr "Com iniciar una conversa de grup"
+
+#: C/group-conversations.page:58(item/p)
+#: C/group-conversations.page:122(item/p) C/irc-join-room.page:39(item/p)
+msgid ""
+"From the <gui>Contact List</gui> window, choose <guiseq><gui>Room</"
+"gui><gui>Join</gui></guiseq>."
+msgstr ""
+"A la finestra <gui>Llista de contactes</gui> escolliu <guiseq><gui>Sala</"
+"gui><gui>Entra</gui></guiseq>."
+
+#: C/group-conversations.page:63(item/p)
+msgid ""
+"From the <gui>Account</gui> drop-down list, select the account you want to "
+"use for the group conversation."
+msgstr ""
+"Des de la llista desplegable <gui>Compte</gui> trieu el compte que vulgueu "
+"utilitzar per la conversa de grup."
+
+#: C/group-conversations.page:69(item/p)
+msgid ""
+"In the <gui>Server</gui> text box, type the name of server in which the "
+"conversation will be hosted."
+msgstr ""
+"Al quadre de text <gui>Servidor</gui> introduïu el nom del servidor en el "
+"qual s'hostatjarà la conversa."
+
+#: C/group-conversations.page:73(item/p)
+msgid "Leave it empty if it will be on the current server."
+msgstr "Deixeu el camp buit si serà en el servidor actual."
+
+#: C/group-conversations.page:78(item/p)
+msgid ""
+"In the <gui>Room</gui> text box, type the name you want to give to the "
+"conversation."
+msgstr ""
+"Al quadre de text <gui>Sala</gui> introduïu el nom que vulgueu donar a la "
+"conversa."
+
+#: C/group-conversations.page:82(note/p)
+msgid ""
+"This will be the name of the room you are going to have a conversation. This "
+"name will be publicly available for other people to join. It is not possible "
+"to create a private room."
+msgstr ""
+"Aquest serà el nom de la sala on mantindreu la conversa. El nom serà públic "
+"i altra gent podrà unir-s'hi. No es poden crear sales privades."
+
+#: C/group-conversations.page:90(item/p)
+msgid ""
+"To invite other contacts to join the group conversation, from the "
+"<gui>Contact List</gui> window, select the contact you want to invite, and "
+"perform one of the following:"
+msgstr ""
+"Per convidar altres contactes a unir-se a la conversa de grup, seleccioneu "
+"el contacte que voleu convidar des de la finestra <gui>Llista de contactes</"
+"gui> i feu el següent:"
+
+#: C/group-conversations.page:97(item/p)
+msgid "Right-click on the contact and choose <gui>Invite to chatroom</gui>."
+msgstr ""
+"Feu clic amb el botó secundari sobre el contacte i escolliu <gui>Convida a "
+"la sala de xat</gui>."
+
+#: C/group-conversations.page:102(item/p)
+msgid ""
+"Choose <guiseq><gui>Edit</gui><gui>Contact</gui><gui>Invite to chatroom</"
+"gui></guiseq>."
+msgstr ""
+"Escolliu <guiseq><gui>Edita</gui><gui>Contacte</gui><gui>Convida a la sala "
+"de xat</gui></guiseq>."
+
+#: C/group-conversations.page:107(item/p)
+msgid ""
+"If you have more than one group conversation open, select the one you want "
+"to invite your contacts."
+msgstr ""
+"Si teniu més d'una conversa de grup oberta, seleccioneu la que vulgueu per "
+"convidar els contactes."
+
+#: C/group-conversations.page:118(section/title)
+msgid "Join a group conversation"
+msgstr "Uniu-vos a una conversa de grup"
+
+#: C/group-conversations.page:128(item/p)
+msgid "Expand the <gui>Room List</gui> section to see all the existing rooms."
+msgstr ""
+"Expandiu la secció <gui>Llista de sales</gui> per veure totes les sales "
+"existents."
+
+#: C/group-conversations.page:133(item/p)
+msgid "Double-click on the name of a room to join it."
+msgstr "Feu doble clic sobre el nom de la sala a la qual voleu unir-vos."
+
+#: C/group-conversations.page:139(section/p)
+msgid ""
+"It is not possible to join all existing rooms. Some of the rooms might "
+"require a password, or might be invitation only. <app>Empathy</app> does not "
+"support these kind of rooms."
+msgstr ""
+"No és possible entrar a totes les sales existents. Algunes sales poden "
+"requerir una contrasenya o una invitació per entrar-hi. L'<app>Empathy</app> "
+"encara no permet utilitzar aquest tipus de sales."
+
+#: C/hide-contacts.page:8(info/desc)
+msgid "Hide the offline contacts from your <gui>Contact List</gui>."
+msgstr ""
+"Oculta els contactes fora de línia de la <gui>Llista de contactes</gui>."
+
+#: C/hide-contacts.page:19(page/title)
+msgid "Hide offline contacts"
+msgstr "Amagueu els contactes fora de línia"
+
+#: C/hide-contacts.page:21(page/p)
+msgid ""
+"Normally, <app>Empathy</app> shows all your contacts: those that are online, "
+"with which you can have a conversation, and also those that are offline."
+msgstr ""
+"Normalment, l'<app>Empathy</app> mostra tots els contactes: aquells que són "
+"en línia, amb els quals teniu una conversa i els que són fora de línia."
+
+#: C/hide-contacts.page:25(page/p)
+msgid "To hide the contacts that are offline:"
+msgstr "Per amagar els contactes que són fora de línia:"
+
+#: C/hide-contacts.page:31(item/p)
+msgid ""
+"From the <gui>Contact List</gui> window, choose <guiseq><gui>View</gui> "
+"<gui>Offline Contacts</gui></guiseq>, or press <keyseq><key>Ctrl</key> "
+"<key>H</key></keyseq>."
+msgstr ""
+"Des de la finestra <gui>Llista de contactes</gui> escolliu "
+"<guiseq><gui>Visualitza</gui><gui>Contactes fora de línia</gui></guiseq> o "
+"premeu <keyseq><key>Ctrl</key><key>H</key></keyseq>."
+
+#: C/hide-contacts.page:36(item/p)
+msgid "To show the offline contacts again, repeat the same procedure above."
+msgstr ""
+"Per tornar a mostrar els contactes fora de línia, repetiu els mateixos "
+"passos descrits aquí sobre."
+
+#: C/import-account.page:10(info/desc)
+msgid "Import an account from another instant messaging application."
+msgstr "Importeu un compte d'una altra aplicació de missatgeria instantània."
+
+#: C/import-account.page:19(credit/name)
+msgid "Peter Haslam"
+msgstr "Peter Haslam"
+
+#: C/import-account.page:42(page/title)
+msgid "Import an existing account"
+msgstr "Importeu un compte existent"
+
+#: C/import-account.page:44(page/p)
+msgid ""
+"The first time you run <app>Empathy</app>, it will offer to import your "
+"accounts from other instant messaging applications. Currently, the only "
+"supported application is <app>Pidgin</app>."
+msgstr ""
+"La primera vegada que executeu l'<app>Empathy</app> us oferirà la importació "
+"dels comptes d'una altra aplicació de missatgeria instantània. Ara mateix "
+"l'única aplicació des de la qual es poden importar comptes és el <app>Pidgin</"
+"app>."
+
+#: C/import-account.page:50(item/p)
+msgid ""
+"Run <app>Empathy</app> for the first time. An assistant will offer you a "
+"number of options to create new accounts."
+msgstr ""
+"Executeu l'<app>Empathy</app> per primer cop. Un assistent us oferirà unes "
+"quantes opcions per crear comptes nous."
+
+#: C/import-account.page:54(item/p)
+msgid ""
+"Select <gui>Yes, import my account details from</gui> and click "
+"<gui>Forward</gui>."
+msgstr ""
+"Seleccioneu <gui>Sí, importa les dades dels comptes de</gui> i feu clic a "
+"<gui>Endavant</gui>."
+
+#: C/import-account.page:58(item/p)
+msgid "Select the check box next to each account you wish to import."
+msgstr "Seleccioneu la caixa de selecció de cada compte que vulgueu importar."
+
+#: C/import-account.page:66(note/p)
+msgid ""
+"It is not currently possible to import accounts after you have completed the "
+"first-run assistant."
+msgstr ""
+"No és possible importar comptes nous després d'haver completat l'auxiliar de "
+"la primera execució."
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/introduction.page:41(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/empathy-main-window.png' "
+"md5='54908dcb2588beddb15ef0968d2c2582'"
+msgstr ""
+"external ref='figures/empathy-main-window.png' "
+"md5='54908dcb2588beddb15ef0968d2c2582'"
+
+#: C/introduction.page:9(info/desc)
+msgid "Introduction to the <app>Empathy</app> instant messenger."
+msgstr "Introducció al client de missatgeria instantània <app>Empathy</app>."
+
+#: C/introduction.page:21(page/title)
+msgid "Introduction"
+msgstr "Introducció"
+
+#: C/introduction.page:23(page/p)
+msgid ""
+"<app>Empathy</app> is an instant messaging application for the GNOME "
+"Desktop. It supports text messaging, voice &amp; video calls, file "
+"transfers, and all the most used messaging systems such as MSN and Google "
+"Talk."
+msgstr ""
+"L'<app>Empathy</app> és una aplicació de missatgeria instantània per a "
+"l'escriptori GNOME. Permet utilitzar la missatgeria de text, trucades de veu "
+"i de vídeo, la transmissió de fitxers i tots els sistemes de missatgeria més "
+"utilitzats com el MSN i el Google Talk."
+
+#: C/introduction.page:28(page/p)
+msgid ""
+"<app>Empathy</app> includes features that help you better collaborate while "
+"at work, and that let you easily keep in touch with your friends."
+msgstr ""
+"L'<app>Empathy</app> inclou característiques que us ajuden a col·laborar "
+"mentre treballeu i que us permeten de forma fàcil estar al dia amb els amics."
+
+#: C/introduction.page:32(page/p)
+msgid ""
+"Using <app>Empathy</app>, you can group all the conversations in a single "
+"window, have multiple windows for different kind of conversations, easily "
+"search through your previous conversations, and share your desktop in just "
+"two clicks."
+msgstr ""
+"Amb l'<app>Empathy</app> podeu agrupar totes les converses en una única "
+"finestra, tenir una finestra per a cada tipus de conversa, fer cerques de "
+"forma fàcil a les converses anteriors i compartir el vostre escriptori en "
+"tan sols dos clics."
+
+#: C/introduction.page:39(figure/title)
+msgid "<gui>Contact List</gui> window"
+msgstr "Finestra de la <gui>Llista de contactes</gui>"
+
+#: C/introduction.page:40(figure/desc)
+msgid "<app>Empathy</app> main window"
+msgstr "Finestra principal de l'<app>Empathy</app>"
+
+#: C/introduction.page:42(media/p)
+msgid "<app>Empathy</app> main window."
+msgstr "Finestra principal de l'<app>Empathy</app>."
+
+#: C/irc-commands.page:7(info/desc)
+msgid "The supported IRC commands."
+msgstr "Ordres de l'IRC interpretades per l'Empathy."
+
+#: C/irc-commands.page:18(page/title)
+msgid "Supported IRC commands"
+msgstr "Ordres de l'IRC"
+
+#: C/irc-commands.page:19(page/p)
+msgid ""
+"To see the list of the supported IRC commands, in a chat room type <input>/"
+"help</input> and press <key>Enter</key>."
+msgstr ""
+"Per veure la llista d'ordres interpretades per l'IRC escriviu, en una sala "
+"de xat, <input>/help</input> i premeu <key>Retorn</key>."
+
+#: C/irc-commands.page:24(note/p)
+msgid "All commands available have a small description on their usage."
+msgstr "Totes les ordres disponibles tenen una petita descripció del seu ús."
+
+#: C/irc-join-pwd.page:9(info/desc)
+msgid "Enter password-protected IRC chat rooms."
+msgstr "Entreu la contrasenya per les sales de xat de l'IRC."
+
+#: C/irc-join-pwd.page:25(page/title)
+msgid "Join a protected IRC chat room"
+msgstr "Entreu en una sala de xat d'IRC protegida."
+
+#: C/irc-join-pwd.page:27(page/p)
+msgid ""
+"On some IRC networks, private IRC rooms may be protected with a password. If "
+"you know the password, use the following steps to join:"
+msgstr ""
+"En algunes xarxes d'IRC les sales privades poden estar protegides per "
+"contrasenya, si la sabeu seguiu els següents passos per unir-vos-hi:"
+
+#: C/irc-join-pwd.page:33(item/p)
+msgid "<link xref=\"irc-join-room\">Join the room</link> as normal."
+msgstr "<link xref=\"irc-join-room\">Entra a la sala</link> com sempre."
+
+#: C/irc-join-pwd.page:38(item/p)
+msgid ""
+"Empathy will prompt you for a password. Enter the password for the IRC chat "
+"room and click <gui style=\"button\">Join</gui>."
+msgstr ""
+"L'Empathy us demanarà una contrasenya. Introduïu la contrasenya de la sala "
+"de xat de l'IRC i feu clic a <gui style=\"button\">Uneix-m'hi</gui>."
+
+#: C/irc-join-room.page:8(info/desc)
+msgid "Join an IRC channel."
+msgstr "Uniu-vos a un canal d'IRC."
+
+#: C/irc-join-room.page:31(page/title)
+msgid "Join an IRC chat room"
+msgstr "Uniu-vos a la sala de xat de l'IRC"
+
+#: C/irc-join-room.page:33(page/p)
+msgid ""
+"You can join IRC chat rooms (also known as IRC channels) on any IRC network "
+"you’re connected to. To connect to an IRC network, see <link xref=\"add-"
+"account\"/> and <link xref=\"account-irc\"/>."
+msgstr ""
+"Podeu unir-vos a sales de xat de l'IRC (també conegudes com canals de l'IRC) "
+"a qualsevol xarxa d'IRC a la qual estigueu connectat. Per connectar-vos a "
+"una xarxa d'IRC, vegeu <link xref=\"add-account\"/> i <link xref=\"account-"
+"irc\"/>."
+
+#: C/irc-join-room.page:45(item/p)
+msgid ""
+"From the <gui>Account</gui> drop-down list, select the IRC account that "
+"corresponds to the network you want to use."
+msgstr ""
+"Des de la llista desplegable <gui>Compte</gui>, trieu el compte d'IRC que "
+"correspon a la xarxa que voleu utilitzar."
+
+#: C/irc-join-room.page:51(item/p)
+msgid ""
+"In the <gui>Room</gui> text box, type the name of the channel you want to "
+"join. IRC channel names start with the hash character (<sys>#</sys>)."
+msgstr ""
+"Al quadre de text <gui>Sala</gui> introduïu el nom del canal on voleu "
+"entrar. Els noms dels canals IRC comencen amb el caràcter coixinet (<sys>#</"
+"sys>)."
+
+#: C/irc-join-room.page:57(item/p)
+msgid "Click <gui>Join</gui> to enter the room."
+msgstr "Feu clic a <gui>Entra</gui> per entrar a la sala."
+
+#: C/irc-join-room.page:64(note/p)
+msgid ""
+"To join multiple rooms, you need to repeat the steps above for each room."
+msgstr ""
+"Per entrar en més d'una sala, haureu de repetir els passos de sobre per cada "
+"sala."
+
+#: C/irc-manage.page:9(info/desc)
+msgid "How to use IRC with <app>Empathy</app>."
+msgstr "Com utilitzar IRC amb l'<app>Empathy</app>."
+
+#: C/irc-manage.page:23(credit/name)
+msgid "Sindhu S"
+msgstr "Sindhu S"
+
+#: C/irc-manage.page:39(page/title)
+msgid "Internet Relay Chat (IRC)"
+msgstr "Internet Relay Chat (IRC)"
+
+#: C/irc-manage.page:47(when/p)
+msgid ""
+"<link action=\"install:telepathy-idle\" xref=\"index\"> Install telepathy-"
+"idle</link>"
+msgstr ""
+"<link action=\"install:telepathy-idle\" xref=\"index\"> Instal·la el paquet "
+"telepathy-idle</link>"
+
+#: C/irc-manage.page:55(info/title)
+msgctxt "link"
+msgid "IRC Chat Rooms and Conversations"
+msgstr "Sales de xat de l'IRC i converses"
+
+#: C/irc-manage.page:57(section/title)
+msgid "Chat Rooms and Conversations"
+msgstr "Sales de xat i converses"
+
+#: C/irc-manage.page:62(info/title)
+msgctxt "link"
+msgid "Common IRC Problems"
+msgstr "Problemes de l'IRC més habituals"
+
+#: C/irc-nick-password.page:10(info/desc)
+msgid "Protect your nickname to prevent other IRC users from using it."
+msgstr ""
+"Protegiu el vostre sobrenom per impedir que altres usuaris de l'IRC l'usin."
+
+#: C/irc-nick-password.page:33(page/title)
+msgid "Use a nickname password on IRC"
+msgstr "Utilitzeu un sobrenom amb contrasenya a l'IRC"
+
+#: C/irc-nick-password.page:35(page/p)
+msgid ""
+"On some IRC networks, you can register your nickname with a service called "
+"NickServ. By sending special messages to NickServ, you can set your password "
+"and identify yourself. Some IRC chat rooms may not allow you to join without "
+"a registered nickname."
+msgstr ""
+"En algunes xarxes d'IRC podeu registrar el vostre sobrenom amb un servei "
+"anomenat NickServ. Si envieu uns missatges especials a NickServ podreu "
+"establir la contrasenya i identificar-vos. Algunes sales d'IRC no permeten "
+"entrar si el sobrenom no està registrat."
+
+#: C/irc-nick-password.page:40(page/p)
+msgid ""
+"<app>Empathy</app> does not currently support nickname registration. Some "
+"IRC networks, however, will automatically forward a <em>server password</em> "
+"to NickServ. On these networks, you can use the IRC password in "
+"<app>Empathy</app> to identify yourself to NickServ. The popular freenode "
+"network is known to have this feature."
+msgstr ""
+"L'<app>Empathy</app> no suporta el registre de sobrenoms. Algunes xarxes "
+"d'IRC, tanmateix, us enviaran de forma automàtica una <em>contrasenya de "
+"servidor</em> al NickServ. En aquestes xarxes, podeu utilitzar la "
+"contrasenya d'IRC a l'<app>Empathy</app> per identificar-vos amb NickServ. "
+"La popular xarxa freenode és coneguda per aquesta característica."
+
+#: C/irc-nick-password.page:46(page/p)
+msgid "To set an IRC server password:"
+msgstr "Per establir una contrasenya de servidor d'IRC:"
+
+#: C/irc-nick-password.page:54(item/p)
+msgid "Select the IRC account from the list on the left of the dialog."
+msgstr "Seleccioneu el compte d'IRC al quadre de l'esquerra del diàleg."
+
+#: C/irc-nick-password.page:57(item/p)
+msgid ""
+"In the <gui>Password</gui> field, type the password you used to register "
+"your nikcname."
+msgstr ""
+"Al camp <gui>Contrasenya</gui> escriviu la contrasenya que heu utilitzat per "
+"registrar el sobrenom."
+
+#: C/irc-nick-password.page:69(note/p)
+msgid ""
+"These instructions only allow you to use a password-protected nickname on "
+"certain IRC networks. It is not currently possible to register an IRC "
+"nickname or change your nickname password using <app>Empathy</app>."
+msgstr ""
+"Aquestes instruccions sols us permeten utilitzar un sobrenom protegit per "
+"contrasenya en certes xarxes d'IRC. L'<app>Empathy</app> encara no permet "
+"registrar un sobrenom de l'IRC o canviar-ne la contrasenya."
+
+#: C/irc-send-file.page:9(info/desc)
+msgid "<app>Empathy</app> does not currently support sending files using IRC."
+msgstr ""
+"L'<app>Empathy</app> encara no permet l'enviament de fitxers utilitzant "
+"l'IRC."
+
+#: C/irc-send-file.page:31(page/title)
+msgid "Send files over IRC"
+msgstr "Enviament de fitxer a través de l'IRC."
+
+#: C/irc-send-file.page:33(page/p)
+msgid "It is not currently possible to send files using IRC."
+msgstr "Encara no és possible enviar fitxers a través de l'IRC."
+
+#: C/irc-start-conversation.page:8(info/desc)
+msgid "Start a conversation with an IRC contact."
+msgstr "Inicieu un conversa amb un contacte de l'IRC."
+
+#: C/irc-start-conversation.page:30(page/title)
+msgid "Chat with somebody on IRC"
+msgstr "Xategeu amb algú a l'IRC"
+
+#: C/irc-start-conversation.page:32(page/p)
+msgid ""
+"You can hold private conversations with other IRC users, outside of the "
+"public IRC chat rooms. To start a conversation with another IRC user:"
+msgstr ""
+"Podeu mantenir converses privades amb altres usuaris de l'IRC fora de la "
+"sala pública de l'IRC. Per iniciar una conversa amb un altre usuari de l'IRC:"
+
+#: C/irc-start-conversation.page:37(item/p)
+msgid ""
+"In the contact list for an IRC chat room, double click the name of the user "
+"you want to chat with. Alternatively, right click the name of the user and "
+"choose <gui>Chat</gui>."
+msgstr ""
+"Feu doble clic sobre el nom de l'usuari amb el qual voleu xatejar a la "
+"llista de contactes de la sala de xat de l'IRC. També podeu fer clic amb el "
+"botó secundari sobre l'usuari i escolliu <gui>Xat</gui>."
+
+#: C/irc-start-conversation.page:45(item/p)
+msgid ""
+"The IRC room contact list is not the same as <app>Empathy</app> contact "
+"list. It contains a list of users in the IRC chat room you joined. Different "
+"rooms can have different contacts listed."
+msgstr ""
+"La llista de contactes de la sala de l'IRC no és la mateixa que la llista de "
+"contactes de l'<app>Empathy</app>. Aquesta conté la llista d'usuaris de la "
+"sala de l'IRC a la qual us heu unit. Cada sala tindrà una llista de contactes "
+"diferent."
+
+#: C/irc-start-conversation.page:52(item/p)
+msgid ""
+"The IRC room contact list is usually on the right side of the IRC room "
+"window. If you do not see it, choose <guiseq><gui>Conversation</"
+"gui><gui>Show Contact List</gui></guiseq>."
+msgstr ""
+"La llista de contactes de la sala de l'IRC normalment està a la part dreta "
+"de la finestra de la sala de l'IRC. Si no la veieu, escolliu "
+"<guiseq><gui>Conversa</gui><gui>Mostra la llista de contacte</gui></guiseq>."
+
+#: C/license.page:8(info/desc)
+msgid "Legal information."
+msgstr "Informació legal."
+
+#: C/license.page:11(page/title)
+msgid "License"
+msgstr "Llicència"
+
+#: C/license.page:12(page/p)
+msgid ""
+"This work is distributed under a CreativeCommons Attribution-Share Alike 3.0 "
+"Unported license."
+msgstr ""
+"Aquest treball es distribueix sota la llicència Creative Commons "
+"Reconeixement-Compartir igual 3.0 llicència no adaptada."
+
+#: C/license.page:20(page/p)
+msgid "You are free:"
+msgstr "Sou lliure de:"
+
+#: C/license.page:25(item/title)
+msgid "<em>To share</em>"
+msgstr "<em>Compartir</em>"
+
+#: C/license.page:26(item/p)
+msgid "To copy, distribute and transmit the work."
+msgstr "Copiar, distribuir i transmetre el treball."
+
+#: C/license.page:29(item/title)
+msgid "<em>To remix</em>"
+msgstr "<em>Fer-ne obres derivades</em>"
+
+#: C/license.page:30(item/p)
+msgid "To adapt the work."
+msgstr "Adaptar el treball."
+
+#: C/license.page:33(page/p)
+msgid "Under the following conditions:"
+msgstr "Sota les següents condicions:"
+
+#: C/license.page:38(item/title)
+msgid "<em>Attribution</em>"
+msgstr "<em>Reconeixement</em>"
+
+#: C/license.page:39(item/p)
+msgid ""
+"You must attribute the work in the manner specified by the author or "
+"licensor (but not in any way that suggests that they endorse you or your use "
+"of the work)."
+msgstr ""
+"Cal que reconegueu el treball de la forma especificada per l'autor o el "
+"llicenciatari (però no de forma que suggereixi que us dóna suport personal o "
+"de l'ús del treball)."
+
+#: C/license.page:46(item/title)
+msgid "<em>Share Alike</em>"
+msgstr "<em>Compartir igual</em>"
+
+#: C/license.page:47(item/p)
+msgid ""
+"If you alter, transform, or build upon this work, you may distribute the "
+"resulting work only under the same, similar or a compatible license."
+msgstr ""
+"Si altereu, transformeu, o construïu a partir d'aquest treball heu de "
+"distribuir el treball resultant sota la mateixa llicència o una de "
+"compatible."
+
+#: C/license.page:53(page/p)
+msgid ""
+"For the full text of the license, see the <link href=\"http://"
+"creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
+"link>, or read the full <link href=\"http://creativecommons.org/licenses/by-"
+"sa/3.0/\">Commons Deed</link>."
+msgstr ""
+"Per veure el text de la llicència completa vegeu el <link href=\"http://"
+"creativecommons.org/licenses/by-sa/3.0/legalcode\">Lloc web de Creative "
+"Commons </link>, o llegiu la pàgina <link href=\"http://creativecommons.org/"
+"licenses/by-sa/3.0/\">Commons Deed</link>."
+
+#: C/link-contacts.page:11(info/desc)
+msgid "Merge and separate different contacts into a single one."
+msgstr "Fusiona i separa diferents contactes en un de sol."
+
+#: C/link-contacts.page:19(credit/name)
+msgid "Shobha Tyagi"
+msgstr "Shobha Tyagi"
+
+#: C/link-contacts.page:29(page/title)
+msgid "Link and unlink contacts"
+msgstr "Enllaceu i desenllaceu contactes"
+
+#: C/link-contacts.page:30(page/p)
+msgid ""
+"If one or more of your contacts has multiple accounts with different "
+"messaging services, you can combine these accounts into a single contact."
+msgstr ""
+"Si algun contacte vostre té més d'un compte a diferents serveis de "
+"missatgeria, podeu combinar aquests comptes en un sol contacte."
+
+#: C/link-contacts.page:34(page/p)
+msgid ""
+"The resulting contact is called a <em>meta-contact</em>: a contact composed "
+"from different single contacts."
+msgstr ""
+"El contacte resultant s'anomena <em>metacontacte</em>: un contacte compost "
+"de diferents contactes individuals."
+
+#: C/link-contacts.page:38(page/p)
+msgid ""
+"Suppose you have a contact called Jane Smith who is using three different "
+"messaging services like:"
+msgstr ""
+"Si teniu un contacte, en Marc Garcia, que té tres serveis de missatgeria "
+"diferents, com per exemple:"
+
+#: C/link-contacts.page:44(item/p)
+msgid "janes@facebook"
+msgstr "marc@facebook"
+
+#: C/link-contacts.page:49(item/p)
+msgid "jane.smith@gmail"
+msgstr "marc.garcia@gmail"
+
+#: C/link-contacts.page:54(item/p)
+msgid "jane_smith@hotmail"
+msgstr "marc_garcia@hotmail"
+
+#: C/link-contacts.page:59(page/p)
+msgid "You can combine these contacts into a single Jane Smith one."
+msgstr ""
+"Podeu combinar aquests contactes en un de sol amb el nom de Marc Garcia."
+
+#: C/link-contacts.page:63(section/title)
+msgid "Link contacts"
+msgstr "Enllaceu contactes"
+
+#: C/link-contacts.page:64(section/p)
+msgid "The way you can link your contacts is as follows:"
+msgstr "Podeu enllaçar els vostres contactes de la manera següent:"
+
+#: C/link-contacts.page:69(item/p)
+msgid ""
+"Press the tick button to select entries you want to link. This will enable "
+"<em>selection mode</em> and you can see a checkbox for each entry."
+msgstr ""
+"Feu clic al botó de «vist» per seleccionar les entrades que voleu enllaçar. "
+"Haureu habilitat el <em>mode de selecció</em>, veureu que cada element té "
+"una casella de selecció."
+
+#: C/link-contacts.page:75(item/p)
+msgid ""
+"Tick the checkboxes that correspond to the <app>Contacts</app> entries which "
+"belong to the same contact."
+msgstr ""
+"Marqueu les caselles de selecció que corresponguin a les entrades de "
+"<app>contactes</app> que pertanyen al mateix contacte."
+
+#: C/link-contacts.page:81(item/p)
+msgid "Press <gui style=\"button\">Link</gui>."
+msgstr "Feu clic a <gui style=\"button\">Enllaça</gui>."
+
+#: C/link-contacts.page:86(section/p)
+msgid "Repeat steps 3 and 4 in order to link other contacts."
+msgstr "Repetiu els passos 3 i 4 per enllaçar altres comptes."
+
+#: C/link-contacts.page:92(section/title)
+msgid "Unlink contacts"
+msgstr "Desenllaceu contactes"
+
+#: C/link-contacts.page:93(section/p)
+msgid "To unlink a linked contact:"
+msgstr "Per desenllaçar un contacte enllaçat:"
+
+#: C/link-contacts.page:98(item/p)
+msgid "Select the contact from your list."
+msgstr "Seleccioneu el contacte de la vostra llista."
+
+#: C/link-contacts.page:103(item/p)
+msgid ""
+"Press <gui style=\"button\">Edit</gui> in the top-right corner of "
+"<app>Contacts</app>."
+msgstr ""
+"Premeu <gui style=\"button\">Edita</gui> a la cantonada de dalt a la dreta "
+"del <app>Contactes</app>."
+
+#: C/link-contacts.page:108(item/p)
+msgid "Press <gui style=\"button\">Linked Contacts</gui>."
+msgstr "Feu clic a <gui style=\"button\">Metacontactes</gui>."
+
+#: C/link-contacts.page:113(item/p)
+msgid ""
+"Press <gui style=\"button\">Remove</gui> to unlink an entry from the linked "
+"contact."
+msgstr ""
+"Feu clic a <gui style=\"button\">Suprimeix</gui> per desenllaçar una entrada "
+"del metacontacte."
+
+#: C/link-contacts.page:118(item/p)
+msgid ""
+"Press <gui style=\"button\">Close</gui> if you do not want to unlink any "
+"more contacts."
+msgstr ""
+"Feu clic a <gui style=\"button\">Tanca</gui> si no voleu desenllaçar més "
+"contactes."
+
+#: C/link-contacts.page:123(item/p)
+msgid "Finally, press <gui style=\"button\">Done</gui> to finish editing."
+msgstr ""
+"Per acabar, feu clic a <gui style=\"button\">Fet</gui> per acabar l'edició."
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/overview.page:37(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/video_overview.png' "
+"md5='6cfcfbd833bf2234537d402185c40596'"
+msgstr ""
+"external ref='figures/video_overview.png' "
+"md5='6cfcfbd833bf2234537d402185c40596'"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/overview.page:38(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/conf_overview.png' "
+"md5='74c58668fe89c84060f12f6b70a6b903'"
+msgstr ""
+"external ref='figures/conf_overview.png' "
+"md5='74c58668fe89c84060f12f6b70a6b903'"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/overview.page:39(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/croom_overview.png' "
+"md5='e9619d2c8420bc48a880c03dbc1ae084'"
+msgstr ""
+"external ref='figures/croom_overview.png' "
+"md5='e9619d2c8420bc48a880c03dbc1ae084'"
+
+#: C/overview.page:8(info/desc)
+msgid "What instant messaging is and how you can use it."
+msgstr "Què és la missatgeria instantània i com la podeu utilitzar?"
+
+#: C/overview.page:12(credit/name)
+msgid "Aruna S"
+msgstr "Aruna S"
+
+#: C/overview.page:24(page/title)
+msgid "Overview of instant messaging"
+msgstr "Visió general de la missatgeria instantània"
+
+#: C/overview.page:26(page/p)
+msgid ""
+"Instant messaging, sometimes abbreviated to IM, is a text-based means to "
+"communicate instantly over the internet and the local network. While some IM "
+"applications work with only one type of account, others, including <link "
+"xref=\"introduction\">Empathy</link>, provide IM facilities by using <link "
+"xref=\"add-account\">accounts</link> from different service providers. Some "
+"of these even support audio and video calling."
+msgstr ""
+"La missatgeria instantània, que de vegades s'abreuja com «IM», és un mitjà "
+"de comunicació instantani en format text i que funciona a través d'Internet "
+"i de les xarxes locals. Tot i que algunes aplicacions d'IM funcionen només "
+"amb un tipus de compte, d'altres com l'<link xref=\"introduction\">Empathy</"
+"link> permeten l'ús de <link xref=\"add-account\">comptes</link> de "
+"diferents proveïdors, fent més còmode l'ús de la missatgeria instantània. "
+"Alguns d'aquests proveïdors fins i tot permeten fer trucades de veu i de "
+"vídeo."
+
+#: C/overview.page:42(td/p)
+msgid "Video Conference"
+msgstr "Conferència de vídeo"
+
+#: C/overview.page:43(td/p)
+msgid "Group chats"
+msgstr "Xats de grup"
+
+#: C/overview.page:44(td/p)
+msgid "Chat rooms"
+msgstr "Sales de xats"
+
+#: C/overview.page:48(page/p)
+msgid ""
+"Some instant messaging applications can be used to connect to chat rooms, "
+"online places where like-minded people meet to talk. One popular means to "
+"connect to several chat rooms is the Internet Relay Chat, also known as "
+"<link xref=\"irc-manage\">IRC</link>. IRC provides <link xref=\"irc-join-room"
+"\">public</link> chat rooms, which are open to anyone who creates an account "
+"on the IRC Server, and private chat rooms, which are <link xref=\"irc-join-"
+"pwd\">password protected</link> and open only to a select few."
+msgstr ""
+"Algunes aplicacions de missatgeria instantània es poden utilitzar per "
+"connectar-se a sales de xat, llocs en línia on persones amb les mateixes "
+"inquietuds es troben per parlar. Una de les vies més populars per connectar-"
+"se a moltes sales de xat és l'Internet Relay Chat, també conegut com <link "
+"xref=\"irc-manage\">IRC</link>. L'IRC proporciona sales <link xref=\"irc-"
+"join-room\">públiques</link> de xat, obertes a tothom que tingui un compte "
+"al servidor de l'IRC i sales privades de xat protegides amb <link xref=\"irc-"
+"join-pwd\">contrasenya</link> i obertes només a un cert grup de persones."
+
+#: C/prev-conv.page:8(info/desc)
+msgid "Browse or search your previous conversations."
+msgstr "Navegueu o cerqueu per les converses anteriors."
+
+#: C/prev-conv.page:36(page/title)
+msgid "View previous conversations"
+msgstr "Visualització de les converses anteriors"
+
+#: C/prev-conv.page:38(page/p)
+msgid ""
+"<app>Empathy</app> automatically saves all your text conversations you have "
+"with your contacts. You can <link xref=\"#search\">search through all of "
+"your previous conversations</link> or <link xref=\"#browse\">browse previous "
+"conversations</link> by contact and date."
+msgstr ""
+"L'<app>Empathy</app> desa automàticament totes les converses que manteniu "
+"amb els contactes. Podeu cercar <link xref=\"#search\">per les converses "
+"anteriors</link> o <link xref=\"#browse\">navegar per les converses "
+"anteriors</link> per contacte i data."
+
+#: C/prev-conv.page:46(note/p)
+msgid ""
+"You do not need to be connected to the Internet to view and search your "
+"previous conversations."
+msgstr ""
+"No us cal estar connectat a Internet per visualitzar i cercar a les "
+"converses anteriors."
+
+#: C/prev-conv.page:53(section/title)
+msgid "Search previous conversations"
+msgstr "Cerqueu a les converses anteriors"
+
+#: C/prev-conv.page:55(section/p)
+msgid ""
+"You can perform a full-text search through all of your previous "
+"conversations."
+msgstr "Podeu utilitzar cerca de texts complets dins les converses anteriors."
+
+#: C/prev-conv.page:59(item/p) C/prev-conv.page:87(item/p)
+msgid ""
+"From the <gui>Contact List</gui> window, choose <guiseq><gui>View</gui> "
+"<gui>Previous Conversations</gui></guiseq>. Alternatively, press <key>F3</"
+"key>."
+msgstr ""
+"Des de la finestra <gui>Llista de contactes</gui> escolliu "
+"<guiseq><gui>Visualitza</gui><gui>Converses anteriors</gui></guiseq> o "
+"premeu <key>F3</key>."
+
+#: C/prev-conv.page:63(item/p)
+msgid ""
+"Select an account from the drop-down list in the top. A list of contacts and "
+"chat room for that account will be shown below."
+msgstr ""
+"Seleccioneu un compte de la llista desplegable situada a la part superior. "
+"Es mostrarà a sota la llista de contactes i les sales de xat per aquest "
+"compte."
+
+#: C/prev-conv.page:67(item/p)
+msgid ""
+"Type the text you want to search for in the <gui>Search</gui> text field."
+msgstr "Escriviu el text que voleu cercar al camp de text <gui>Cerca</gui>."
+
+#: C/prev-conv.page:71(item/p)
+msgid ""
+"Any conversations that matched your search terms will be shown. By default, "
+"conversations are ordered by date."
+msgstr ""
+"Es mostrarà totes les converses que compleixin els criteris de cerca. Per "
+"defecte, les converses estan ordenades per data."
+
+#: C/prev-conv.page:80(section/title)
+msgid "Browse previous conversations"
+msgstr "Navegueu per les converses anteriors"
+
+#: C/prev-conv.page:82(section/p)
+msgid ""
+"You can browse your previous conversations with your contacts or in chat "
+"rooms by date."
+msgstr ""
+"Podeu navegar, per data, per les converses anteriors amb els contactes i "
+"pels xats a les sales."
+
+#: C/prev-conv.page:91(item/p)
+msgid ""
+"Select an account from the drop-down list in the top left. A list of "
+"contacts and chat room for that account will be shown below."
+msgstr ""
+"Seleccioneu un compte de la llista desplegable de dalt a l'esquerre. Es "
+"mostrarà a sota la llista de contactes i les sales de xat per aquest compte."
+
+#: C/prev-conv.page:95(item/p)
+msgid ""
+"Select a contact or chat room to view your previous conversations from. By "
+"default the most recent conversation will be shown."
+msgstr ""
+"Seleccioneu un contacte o una sala de xat per veure'n les converses "
+"anteriors. Per defecte es mostrarà la conversa més recent."
+
+#: C/prev-conv.page:99(item/p)
+msgid ""
+"You can browse your conversations by date. Days on which you had a "
+"conversation with the selected contact will be shown in bold text. Click a "
+"date to select it. Click the arrows next to the month and year to browse "
+"earlier dates."
+msgstr ""
+"Podeu navegar per les converses per data. Els dies en els quals heu "
+"mantingut converses amb el contacte es mostraran amb negreta. Feu clic a una "
+"data per seleccionar-la. Feu clic a les fletxes al costat del mes i de l'any "
+"per navegar entre dates."
+
+#: C/prev-conv.page:105(section/p)
+msgid ""
+"You can search for text in the conversations by typing into the search field "
+"at the top. The matching conversations will be showed."
+msgstr ""
+"Podeu cercar alguna paraula o frase de les converses escrivint al camp de "
+"cerca situat a la part superior. Es mostraran les converses que coincideixin "
+"amb la paraula o la frase cercada."
+
+#: C/prev-conv.page:111(note/p)
+msgid ""
+"You can quickly view the previous conversations with one of your contacts "
+"from the <gui>Contact List</gui> window. Simply right click the contact and "
+"choose <gui>Previous Conversations</gui>. The <gui>Previous Conversations</"
+"gui> window will open with that contact already selected."
+msgstr ""
+"Podeu veure fàcilment les converses anteriors amb algun dels contactes a la "
+"finestra <gui>Llista de contactes</gui>. Feu clic sobre el contacte i "
+"escolliu <gui>Converses anteriors</gui>. S'obrirà la finestra <gui>Converses "
+"anteriors</gui> amb el contacte ja seleccionat."
+
+#: C/prob-conn-acctdisabled.page:7(info/desc)
+msgid ""
+"The instant messaging account that you want to use is not enabled in the "
+"list of accounts."
+msgstr ""
+"El compte del servei de missatgeria instantània que voleu utilitzar no està "
+"habilitat a la llista de comptes."
+
+#: C/prob-conn-acctdisabled.page:34(page/title)
+msgid "My account is not enabled"
+msgstr "El meu compte està habilitat"
+
+#: C/prob-conn-acctdisabled.page:36(page/p)
+msgid ""
+"If the instant messaging account that you want to use is not enabled in the "
+"drop-down account list when you try to start a new conversation or join a "
+"room, your account details may not be correct."
+msgstr ""
+"Si el compte de missatgeria instantània que voleu utilitzar no està "
+"habilitat a la llista inferior quan intenteu iniciar una conversa o unir-vos "
+"a una sala, els detalls del vostre compte poden no ser correctes."
+
+#: C/prob-conn-acctdisabled.page:44(item/p) C/prob-conn-auth.page:45(item/p)
+#: C/prob-conn-neterror.page:53(item/p)
+msgid ""
+"Make sure that you are connected to the Internet, or to a local area network."
+msgstr ""
+"Assegureu-vos que esteu connectats a Internet o a una xarxa d'àrea local."
+
+#: C/prob-conn-acctdisabled.page:49(item/p)
+msgid ""
+"Choose <guiseq><gui>Edit</gui><gui>Accounts</gui></guiseq> and select the "
+"account that is not working."
+msgstr ""
+"Escolliu <guiseq><gui>Edita</gui><gui>Comptes</gui></guiseq> i seleccioneu "
+"el compte que no està funcionant."
+
+#: C/prob-conn-acctdisabled.page:55(item/p) C/prob-conn-auth.page:63(item/p)
+msgid ""
+"Type your username and password again to make sure that they are correct."
+msgstr ""
+"Escriviu el nom d'usuari i la contrasenya de nou per estar segurs que són "
+"correctes."
+
+#: C/prob-conn-acctdisabled.page:60(item/p)
+#: C/prob-conn-neterror.page:64(item/p)
+msgid ""
+"Check in the <gui>Advanced</gui> section that all the details are correct. "
+"You should be able to find these details from the website of the messaging "
+"service."
+msgstr ""
+"Comproveu a la secció <gui>Avançat</gui> que les dades siguin les correctes. "
+"Hauríeu de poder trobar aquestes dades al lloc web del servei de missatgeria."
+
+#: C/prob-conn-acctdisabled.page:66(item/p)
+msgid "Check that the account is switched on."
+msgstr "Comproveu que el compte està habilitat."
+
+#: C/prob-conn-auth.page:8(info/desc)
+msgid ""
+"An error message which says “<gui>Authentication failed</gui>” appears in "
+"the main window."
+msgstr ""
+"Apareix un missatge d'error a la finestra principal que diu «<gui>Errada en "
+"l'autenticació</gui>»."
+
+#: C/prob-conn-auth.page:36(page/title)
+msgid "I get a message that says “Authentication failed”"
+msgstr "Teniu un missatge que diu «Errada en l'autenticació»."
+
+#: C/prob-conn-auth.page:38(page/p)
+msgid ""
+"This kind of error happens when your instant messaging service is not "
+"allowing you to connect because it does not recognize your username or "
+"password for some reason."
+msgstr ""
+"Aquest tipus d'errors apareix quan el servei de missatgeria instantània no "
+"permet la connexió perquè no reconeix el vostre nom d'usuari o contrasenya "
+"per alguna raó."
+
+#: C/prob-conn-auth.page:50(item/p)
+msgid ""
+"Make sure that you have registered an account with the service you are "
+"trying to connect to. If you do not have an account, most services will not "
+"allow you to connect."
+msgstr ""
+"Comproveu que heu registrat un compte amb el servei amb el qual intenteu "
+"connectar-vos. Si no teniu un compte, molts serveis no us permetran "
+"connectar-vos."
+
+#: C/prob-conn-auth.page:57(item/p) C/prob-conn-name.page:43(item/p)
+#: C/prob-conn-neterror.page:58(item/p)
+msgid ""
+"Click the <media type=\"image\" mime=\"image/png\" src=\"figures/gtk-edit.png"
+"\">edit</media> icon in the error message."
+msgstr ""
+"Feu clic a la icona <media type=\"image\" mime=\"image/png\" src=\"figures/"
+"gtk-edit.png\">Edita</media> del missatge d'error."
+
+#: C/prob-conn-auth.page:68(item/p)
+msgid ""
+"Deselect the <gui>Enabled</gui>, and then select it again to try to "
+"reconnect to the service."
+msgstr ""
+"Desactiveu <gui>Activat</gui> i torneu-lo a activar de nou per comprovar si "
+"es reconnecta el servei."
+
+#: C/prob-conn-name.page:9(info/title)
+msgctxt "link:error-msg"
+msgid "“Name in use”"
+msgstr "«Nom ja utilitzat»"
+
+#: C/prob-conn-name.page:10(info/desc)
+msgid ""
+"An error message which says “<gui>Name in use</gui>” appears in the main "
+"window."
+msgstr ""
+"Apareix un missatge a la finestra principal que diu «<gui>Nom utilitzat</"
+"gui>»."
+
+#: C/prob-conn-name.page:33(page/title)
+msgid "I get a message that says “Name in use”"
+msgstr "Teniu un missatge que diu «Nom utilitzat»"
+
+#: C/prob-conn-name.page:35(page/p)
+msgid ""
+"This kind of error happens when you try to connect to your IRC account and "
+"you are using a nickname that is already being used by someone else on that "
+"particular network."
+msgstr ""
+"Aquests tipus d'errades apareixen quan intenteu connectar-vos a comptes "
+"d'IRC i utilitzeu un sobrenom que ja l'utilitza algú altre en aquella xarxa."
+
+#: C/prob-conn-name.page:51(item/p)
+msgid "In the <gui>Nickname</gui> text box, type a new nickname."
+msgstr "Al quadre de text <gui>Sobrenom</gui> introduïu el sobrenom nou."
+
+#: C/prob-conn-name.page:56(item/p)
+msgid ""
+"If you have registered that nickname within the network you are using, set "
+"the password for that nickname. For more information, see <link xref=\"irc-"
+"nick-password\"/>."
+msgstr ""
+"Si heu registrat el sobrenom a la xarxa on sou ara, poseu la contrasenya per "
+"aquest sobrenom. Vegeu <link xref=\"irc-nick-password\"/> per més informació."
+
+#: C/prob-conn-name.page:65(item/p) C/prob-conn-neterror.page:79(item/p)
+msgid ""
+"Switch the account off, and then switch it on to try to reconnect to the "
+"service."
+msgstr ""
+"Desactiveu el compte i torneu-lo a activar de nou per intentar que es "
+"connecti de nou al servei."
+
+#: C/prob-conn-neterror.page:7(info/desc)
+msgid ""
+"An error message which says “<gui>Network error</gui>” appears in the main "
+"window."
+msgstr ""
+"Apareix un missatge d'error a la finestra principal que diu «<gui>Error de "
+"xarxa</gui>»."
+
+#: C/prob-conn-neterror.page:34(page/title)
+msgid "I get a message that says “Network error”"
+msgstr "Veig un missatge que diu «Error de xarxa»"
+
+#: C/prob-conn-neterror.page:42(page/p)
+msgid ""
+"This kind of error happens when <app>Empathy</app> cannot communicate with "
+"the instant messaging service for some reason."
+msgstr ""
+"Aquest tipus d'errada succeeix quan l'<app>Empathy</app> no pot comunicar-se "
+"amb el servei de missatgeria instantània per alguna raó."
+
+#: C/prob-conn-neterror.page:46(page/p)
+msgid ""
+"Also, this kind of error happens when you try to use an IRC account without "
+"setting a nickname."
+msgstr ""
+"També es pot produir quan intenteu utilitzar un compte d'IRC sense "
+"configurar el sobrenom."
+
+#: C/prob-conn-neterror.page:87(section/title)
+msgid "Proxy support"
+msgstr "Accés a través de servidor intermediari"
+
+#: C/prob-conn-neterror.page:88(section/p)
+msgid ""
+"At the moment <app>Empathy</app> can not be configured to work with a proxy."
+msgstr ""
+"Ara mateix l'<app>Empathy</app> no es pot configurar perquè funcioni amb un "
+"servidor intermediari."
+
+#: C/prob-conn.page:7(info/desc)
+msgid "Diagnose common problems connecting to an instant messaging service."
+msgstr ""
+"Diagnostiqueu problemes comuns en intentar-se connectar a un servei de "
+"missatgeria instantània."
+
+#: C/prob-conn.page:29(page/title)
+msgid "Problems connecting to an instant messaging service"
+msgstr "Problemes connectant a un servei de missatgeria instantània"
+
+#: C/remove-account.page:8(info/desc)
+msgid "Completely remove an account from <app>Empathy</app>."
+msgstr "Suprimeix un compte completament de l'<app>Empathy</app>."
+
+#: C/remove-account.page:34(page/title)
+msgid "Remove an account"
+msgstr "Suprimiu un compte"
+
+#: C/remove-account.page:36(page/p)
+msgid ""
+"You can completely remove an account from <app>Empathy</app> if you no "
+"longer wish to use the account. If you wish to use the account in "
+"<app>Empathy</app> again in the future, you will have to add your account "
+"details again."
+msgstr ""
+"Podeu suprimir un compte completament de l'<app>Empathy</app> si no voleu "
+"utilitzar-lo més. Si voleu utilitzar el compte un altre cop amb "
+"l'<app>Empathy</app> en un futur haureu de tornar a crear el compte amb "
+"totes les seves dades."
+
+#: C/remove-account.page:47(item/p)
+msgid ""
+"Select the account you wish to remove from the accounts list on the left "
+"side of the window."
+msgstr ""
+"Seleccioneu el compte que vulgueu suprimir de la llista de comptes a la part "
+"esquerra de la finestra."
+
+#: C/remove-account.page:51(item/p)
+msgid "Click <gui style=\"button\">-</gui>."
+msgstr "Feu clic a <gui style=\"button\">-</gui>."
+
+#: C/remove-account.page:54(item/p)
+msgid ""
+"A dialog will be shown asking for confirmation. Click the <gui>Remove</gui> "
+"button to permanently remove the account."
+msgstr ""
+"Es mostrarà un diàleg sol·licitant la confirmació. Feu clic al botó "
+"<gui>Suprimeix</gui> per a suprimir el compte permanentment."
+
+#: C/remove-account.page:60(note/p)
+msgid ""
+"Even after removing an account, <app>Empathy</app> does not delete your "
+"conversation history for that account."
+msgstr ""
+"Fins i tot després de la supressió d'un compte l'<app>Empathy</app> no "
+"esborrarà l'historial de converses del compte."
+
+#: C/salut-protocol.page:8(info/desc)
+msgid "Understanding the People Nearby feature."
+msgstr "Explicació sobre la funció de «Gent propera»."
+
+#: C/salut-protocol.page:33(page/title)
+msgid "What is People Nearby?"
+msgstr "Què és la «Gent propera»?"
+
+#: C/salut-protocol.page:40(page/p)
+msgid ""
+"The People Nearby service is a serverless communication service: you do not "
+"need to connect and authenticate to a central server in order to use it."
+msgstr ""
+"El servei de «Gent propera» és un servei de comunicació descentralitzat: no "
+"us cal estar connectat ni autenticar-vos amb un servidor central per "
+"utilitzar-lo."
+
+#: C/salut-protocol.page:45(page/p)
+msgid ""
+"This kind of serverless messaging system is restricted to a local area "
+"network and an active Internet connection is not necessary."
+msgstr ""
+"Aquest tipus de sistema de missatgeria descentralitzat està restringit a una "
+"xarxa local i no cal una connexió a Internet activa."
+
+#: C/salut-protocol.page:49(page/p)
+msgid ""
+"The people that use this service inside the same local area network will be "
+"auto-discovered, and it will be possible to send them messages and files as "
+"with other services."
+msgstr ""
+"La gent que utilitza aquest servei dins de la xarxa local apareixeran "
+"automàticament i es podran enviar missatges i fitxers igual com en els "
+"altres serveis."
+
+#: C/salut-protocol.page:54(page/p)
+msgid ""
+"All the modern local area networks should be able to support this kind of "
+"service."
+msgstr ""
+"Totes les xarxes locals modernes haurien de permetre aquest tipus de servei."
+
+#: C/send-file.page:8(info/desc)
+msgid "Send a file from your computer to one of your contacts."
+msgstr "Envieu un fitxer des del vostre ordinador a un dels contactes."
+
+#: C/send-file.page:36(page/title)
+msgid "Send files"
+msgstr "Envieu fitxers"
+
+#: C/send-file.page:45(item/p)
+msgid ""
+"Right click on the contact you want to send a file to, and choose <gui>Send "
+"file</gui>."
+msgstr ""
+"Feu clic amb el botó secundari al contacte que li voleu enviar el fitxer i "
+"seleccioneu <gui>Envia un fitxer</gui>."
+
+#: C/send-file.page:50(item/p)
+msgid ""
+"Click on the contact you want to send a file, and choose <guiseq><gui>Edit</"
+"gui> <gui>Contact</gui><gui>Send file</gui></guiseq>."
+msgstr ""
+"Feu clic al contacte a qui voleu enviar un fitxer i seleccioneu "
+"<guiseq><gui>Edita</gui><gui>Contacte</gui> <gui>Envia un fitxer</gui></"
+"guiseq>."
+
+#: C/send-file.page:58(item/p)
+msgid "Select the file to send, and click on <gui>Send</gui>."
+msgstr "Seleccioneu el fitxer a enviar i feu clic a <gui>Envia</gui>."
+
+#: C/send-file.page:63(item/p)
+msgid "The <gui>File Transfers</gui> window will appear."
+msgstr "Apareixerà la finestra <gui>Transferències de fitxers</gui>."
+
+#: C/send-file.page:66(item/p)
+msgid ""
+"Wait for your contact to accept the file transfer, or click <gui>Stop</gui> "
+"to halt the transfer."
+msgstr ""
+"Espereu que el contacte accepti la transferència del fitxer o feu clic a "
+"<gui>Atura</gui> per aturar la transferència."
+
+#: C/send-file.page:72(item/p)
+msgid ""
+"Once the transfer is finished, it is possible to close the <gui>File "
+"Transfers</gui> window."
+msgstr ""
+"Una vegada s'hagi acabat la transferència podeu tancar la finestra "
+"<gui>Transferències de fitxers</gui>."
+
+#: C/send-file.page:80(note/p)
+msgid ""
+"If you have multiple finished transfers listed in the window, click on "
+"<gui>Clear</gui> to empty the list. This will only remove the files from the "
+"list and will not delete them from your computer."
+msgstr ""
+"Si teniu llistades múltiples transferències acabades a la finestra, feu clic "
+"a <gui>Neteja</gui> per buidar la llista. Només s'esborraran de la llista, "
+"no s'esborraran els fitxers de l'ordinador."
+
+#: C/send-file.page:87(note/p)
+msgid ""
+"It is possible to send files only using the following services: <em>Jabber</"
+"em>, <em>Google Talk</em> and <em>People Nearby</em>."
+msgstr ""
+"Només podeu enviar fitxers amb els serveis següents: <em>Jabber</em>, "
+"<em>Google Talk</em> i <em>Gent propera</em>."
+
+#: C/send-file.page:93(note/p)
+msgid ""
+"In order to send a file to someone, you need to be connected to the "
+"Internet, or to a local area network."
+msgstr ""
+"Per enviar un fitxer a algú us cal estar connectat a Internet o a una xarxa "
+"d'àrea local."
+
+#: C/send-message.page:8(info/desc)
+msgid "Send a message to one of your contacts."
+msgstr "Envieu un missatge a un dels contactes."
+
+#: C/send-message.page:32(page/title)
+msgid "Send a message to someone"
+msgstr "Enviament de missatges"
+
+#: C/send-message.page:36(item/p)
+msgid ""
+"From the <gui>Contact List</gui> window, double-click the name of the "
+"contact that you want to have a conversation with."
+msgstr ""
+"Des de la finestra <gui>Llista de contactes</gui> feu doble clic al nom del "
+"contacte amb el qual voleu parlar."
+
+#: C/send-message.page:42(item/p)
+msgid ""
+"A new window will open. Type a message into the box at the bottom of the "
+"window and press <key>Enter</key> to send it."
+msgstr ""
+"S'obrirà una finestra nova. Teclegeu el missatge a la caixa a la part "
+"inferior de la finestra i premeu <key>Retorn</key> per enviar-lo."
+
+#: C/send-message.page:50(section/title)
+msgid "Send a message to a meta-contact"
+msgstr "Com enviar un missatge a un metacontacte"
+
+#: C/send-message.page:58(item/p)
+msgid ""
+"Select the contact you want to have the conversation, and from the menu "
+"select <gui style=\"menuitem\">Chat</gui>."
+msgstr ""
+"Seleccioneu el contacte amb el qual voleu conversar i des del menú "
+"seleccioneu <gui style=\"menuitem\">Xat</gui>."
+
+#: C/set-custom-status.page:9(info/desc)
+msgid "Add, edit or delete personal messages for your status."
+msgstr "Afegiu, editeu o suprimiu missatges personals dels vostres estats."
+
+#: C/set-custom-status.page:15(credit/name)
+msgid "Jim Campbell"
+msgstr "Jim Campbell"
+
+#: C/set-custom-status.page:34(page/title)
+msgid "Set a custom message"
+msgstr "Establiu un missatge personalitzat"
+
+#: C/set-custom-status.page:36(page/p)
+msgid ""
+"Sometimes you may want to set a custom message for your status, for example "
+"to let people know that you will be unavailable for a certain period of time."
+msgstr ""
+"A vegades voleu deixar un missatge personalitzat pel vostre estat, per "
+"exemple per fer saber als contactes que no estareu disponible durant una "
+"estona."
+
+#: C/set-custom-status.page:40(page/p)
+msgid ""
+"It is possible to set a custom message based on the different statuses "
+"available."
+msgstr "Podeu deixar un missatge personalitzat per a cada estat disponible."
+
+#: C/set-custom-status.page:46(item/p) C/set-custom-status.page:82(item/p)
+msgid ""
+"From the <gui>Contact List</gui> window, click on the drop-down list at the "
+"top."
+msgstr ""
+"Des de la finestra <gui>Llista de contactes</gui> feu clic a la llista "
+"desplegable de la part superior."
+
+#: C/set-custom-status.page:52(item/p)
+msgid ""
+"Select the status you want to add a custom message to. You have to select "
+"the one identified with the label <gui>Custom Message</gui>."
+msgstr ""
+"Seleccioneu l'estat al qual voleu afegir-li el missatge personalitzat. Heu de "
+"seleccionar el que està identificat amb l'etiqueta <gui>Missatge "
+"personalitzat</gui>."
+
+#: C/set-custom-status.page:58(item/p)
+msgid ""
+"Enter your custom message in the text box at the top of the window, and "
+"press <key>Enter</key> to set the message."
+msgstr ""
+"Introduïu el missatge personalitzat a la caixa de text de dalt de la "
+"finestra i premeu <key>Retorn</key> per establir el missatge."
+
+#: C/set-custom-status.page:64(item/p)
+msgid ""
+"If you want to set the custom message as a favorite, saving it in order to "
+"use it again, click on the little heart on the right of the text box where "
+"you wrote your custom message."
+msgstr ""
+"Si voleu establir el missatge personalitzat com a preferit, per poder-lo "
+"utilitzar en un altre moment, feu clic al cor petit a la dreta de la caixa "
+"de text on heu escrit el missatge personalitzat."
+
+#: C/set-custom-status.page:69(item/p)
+msgid ""
+"If you do not do it, the custom message will not be available the next time "
+"you use <app>Empathy</app>. It will be saved only for the current session."
+msgstr ""
+"So no el deseu com a preferit quan torneu a iniciar l'<app>Empathy</app> no "
+"estarà disponible com a missatge personalitzat. Només es desarà per la "
+"sessió actual."
+
+#: C/set-custom-status.page:78(section/title)
+msgid "Edit and remove a custom message"
+msgstr "Edició i supressió dels missatges personalitzats"
+
+#: C/set-custom-status.page:88(item/p)
+msgid "Select <gui>Edit Custom Message</gui>."
+msgstr "Seleccioneu <gui>Edita el missatge personalitzat</gui>."
+
+#: C/set-custom-status.page:95(item/p)
+msgid "To edit a custom message:"
+msgstr "Per editar un missatge personalitzat:"
+
+#: C/set-custom-status.page:100(item/p)
+msgid ""
+"From the <gui>Saved Presets</gui> box, select the status message you want to "
+"edit and double-click on it."
+msgstr ""
+"Des de la caixa <gui>Preestablerts desats</gui>, seleccioneu el missatge "
+"d'estat que voleu editar i feu-hi doble clic."
+
+#: C/set-custom-status.page:106(item/p)
+msgid "Type the new custom message and press <key>Enter</key> to modify it."
+msgstr ""
+"Teclegeu el missatge personalitzat nou i premeu <key>Retorn</key> per "
+"modificar-lo."
+
+#: C/set-custom-status.page:113(item/p)
+msgid "To remove a custom message:"
+msgstr "Per suprimir un missatge personalitzat:"
+
+#: C/set-custom-status.page:118(item/p)
+msgid ""
+"From the <gui>Saved Presets</gui> box, select the status message you want to "
+"remove."
+msgstr ""
+"Des de la caixa <gui>Preestablerts desats</gui>, seleccioneu el missatge "
+"d'estat que voleu suprimir."
+
+#: C/set-custom-status.page:124(item/p)
+msgid "Click on the <gui>Remove</gui> button."
+msgstr "Feu clic al botó <gui>Suprimeix</gui>."
+
+#: C/set-custom-status.page:133(item/p)
+msgid "When finished, click on <gui>Close</gui>."
+msgstr "Feu clic a <gui>Tanca</gui> quan hàgiu acabat."
+
+#: C/set-custom-status.page:140(note/p)
+msgid ""
+"When you edit a custom message, it will not be set as the current status "
+"message. You will need to select it from the <gui>Contact List</gui> window."
+msgstr ""
+"Quan editeu un missatge personalitzat, aquest no s'establirà com el missatge "
+"actual. L'haureu de seleccionar a la finestra <gui>Llista de contactes</gui>."
+
+#: C/share-desktop.page:7(info/desc)
+msgid "Show your desktop to your contacts."
+msgstr "Mostreu l'escriptori als contactes."
+
+#: C/share-desktop.page:33(page/title)
+msgid "Share your desktop"
+msgstr "Compartició de l'escriptori"
+
+#: C/share-desktop.page:35(page/p)
+msgid ""
+"It is possible to share your desktop with some of your contacts. You can use "
+"this functionality to show your desktop to your contacts to, for example, "
+"ask for help or help your contacts resolve a problem."
+msgstr ""
+"Podeu compartir l'escriptori amb algun contacte. Podeu utilitzar-ho per "
+"mostrar l'escriptori als contactes, per exemple per demanar-los ajuda o "
+"ajudar-los a resoldre un problema."
+
+#: C/share-desktop.page:42(note/p)
+msgid ""
+"To be able to share your desktop, you need to have a VNC server, which has "
+"support for the feature, installed on your system. <app>Vino</app>, the "
+"GNOME VNC server, has the required support."
+msgstr ""
+"Per poder compartir l'escriptori, cal que tingueu instal·lat al sistema un "
+"servidor de VNC que permeti aquesta funció. El <app>Vino</app>, el servidor "
+"de VNC del GNOME, ja ho permet."
+
+#: C/share-desktop.page:51(item/p)
+msgid "From the <gui>Contact List</gui> window, do one of the following:"
+msgstr ""
+"Des de la finestra <gui>Llista de contactes</gui> executeu una de les "
+"accions següents:"
+
+#: C/share-desktop.page:56(item/p)
+msgid ""
+"Select the contact you want to share your desktop with and choose "
+"<guiseq><gui>Edit</gui><gui>Contact</gui> <gui>Share My Desktop</gui></"
+"guiseq>."
+msgstr ""
+"Seleccioneu el contacte amb el qual voleu compartir l'escriptori i escolliu "
+"<guiseq><gui>Edita</gui><gui>Contacte</gui><gui>Comparteix el meu "
+"escriptori</gui></guiseq>."
+
+#: C/share-desktop.page:63(item/p)
+msgid ""
+"Right-click on the name of the contact you want to share your desktop with "
+"and select <gui>Share My Desktop</gui>."
+msgstr ""
+"Feu clic amb el botó secundari sobre el contacte amb el qual voleu compartir "
+"l'escriptori i seleccioneu <gui>Comparteix el meu escriptori</gui>."
+
+#: C/share-desktop.page:71(item/p)
+msgid ""
+"An invitation to view your desktop will be sent to the contact you have "
+"selected. To view your desktop, they will need to accept it."
+msgstr ""
+"Perquè pugui veure el vostre escriptori, al contacte que hàgeu seleccionat "
+"se li enviarà una invitació que haurà d'acceptar."
+
+#: C/share-desktop.page:77(item/p)
+msgid ""
+"You can disconnect the contact from your computer using your desktop sharing "
+"application."
+msgstr ""
+"Podeu desconnectar el contacte del vostre ordinador mitjançat l'aplicació de "
+"compartició d'escriptoris."
+
+#: C/share-desktop.page:82(note/p)
+msgid ""
+"For more information about how to use the remote desktop sharing "
+"application, refer to its help."
+msgstr ""
+"Per més informació sobre com utilitzar l'aplicació de compartició "
+"d'escriptoris remots mireu la seva ajuda."
+
+#: C/share-desktop.page:90(page/p)
+msgid ""
+"When you share your desktop with someone else, it is possible to experience "
+"system performance slowdown and low Internet speed."
+msgstr ""
+"Quan compartiu l'escriptori amb algú altre, podeu notar un alentiment del "
+"sistema i una disminució de la velocitat d'Internet."
+
+#: C/share-desktop.page:96(note/p)
+msgid ""
+"Some of your contacts may not be able to use this feature. It is necessary "
+"for them to have version 2.28, or newer, of <app>Empathy</app> and a "
+"compatible remote desktop viewer application installed in their system."
+msgstr ""
+"Potser no tots els contactes podran utilitzar aquesta funció. Cal que "
+"tinguin la versió 2.28 o una més nova de l'<app>Empathy</app> i una "
+"aplicació de visualització d'escriptoris remots compatible instal·lada al "
+"sistema."
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/status-icons.page:39(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/available.png' md5='2196b2f0ad4ce26fdb7b9d48e75d1947'"
+msgstr ""
+"external ref='figures/available.png' md5='2196b2f0ad4ce26fdb7b9d48e75d1947'"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/status-icons.page:45(media)
+msgctxt "_"
+msgid "external ref='figures/busy.png' md5='15eb2adff5faedf97b0cb9105d09410a'"
+msgstr "external ref='figures/busy.png' md5='15eb2adff5faedf97b0cb9105d09410a'"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/status-icons.page:53(media)
+msgctxt "_"
+msgid "external ref='figures/away.png' md5='9c504d6ffa0cf1a9cc8933d16e1bea33'"
+msgstr "external ref='figures/away.png' md5='9c504d6ffa0cf1a9cc8933d16e1bea33'"
+
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#.
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/status-icons.page:62(media) C/status-icons.page:69(media)
+msgctxt "_"
+msgid ""
+"external ref='figures/offline.png' md5='c5b0c21181cbd6e13f8909243c0fa964'"
+msgstr ""
+"external ref='figures/offline.png' md5='c5b0c21181cbd6e13f8909243c0fa964'"
+
+#: C/status-icons.page:7(info/desc)
+msgid "Understanding the various statuses and status icons."
+msgstr "Explicació dels diversos estats i icones d'estat."
+
+#: C/status-icons.page:35(page/title)
+msgid "Status Types and Icons"
+msgstr "Icones i tipus d'estats"
+
+#: C/status-icons.page:39(item/title)
+msgid ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/available.png"
+"\">Available icon</media> <gui>Available</gui>"
+msgstr ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/available.png\">Icona "
+"de disponible</media> <gui>Disponible</gui>"
+
+#: C/status-icons.page:41(item/p)
+msgid ""
+"Use the <em>Available</em> status when you are at your computer and able to "
+"chat with your contacts. You can set a custom message for this status."
+msgstr ""
+"Utilitzeu l'estat <em>Disponible</em> quan esteu a l'ordinador i esteu "
+"disponibles per xatejar. Podeu configurar un missatge personalitzat per "
+"aquest estat."
+
+#: C/status-icons.page:45(item/title)
+msgid ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/busy.png\">Busy icon</"
+"media> <gui>Busy</gui>"
+msgstr ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/busy.png\">Icona "
+"d'ocupat</media> <gui>Ocupat</gui>"
+
+#: C/status-icons.page:47(item/p)
+msgid ""
+"Use the <em>Busy</em> status to let your contacts know that you don’t want "
+"to chat right now. They can still contact you, for instance if they have "
+"something urgent they need to discuss. By default, <app>Empathy</app> will "
+"not use notification bubbles and sounds when you are busy. You can set a "
+"custom message for this status."
+msgstr ""
+"Utilitzeu l'estat <em>Ocupat</em> per mostrar als contactes que no voleu "
+"xatejar ara. Encara podran xatejar si volen, per exemple si tenen alguna "
+"cosa urgent a comentar-vos. Per defecte, l'<app>Empathy</app> no utilitzarà "
+"finestres emergents ni sons quan esteu ocupats. Podeu configurar un missatge "
+"personalitzat per aquest estat."
+
+#: C/status-icons.page:53(item/title)
+msgid ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/away.png\">Away icon</"
+"media> <gui>Away</gui>"
+msgstr ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/away.png\">Icona "
+"d'absent</media> <gui>Absent</gui>"
+
+#: C/status-icons.page:55(item/p)
+msgid ""
+"Use the <em>Away</em> status when you are going away from your computer. "
+"<app>Empathy</app> automatically sets your status to Away if you do not use "
+"your computer for a while, or if your screensaver is on. By default, "
+"<app>Empathy</app> will not use notification bubbles and sounds when you are "
+"away. You can set a custom message for this status."
+msgstr ""
+"Utilitzeu l'estat <em>Absent</em> quan sou lluny de l'ordinador. "
+"L'<app>Empathy</app> us posa automàticament l'estat «Absent» si esteu un "
+"temps sense utilitzar l'ordinador o si s'activa l'estalvi de pantalla. Per "
+"defecte, l'<app>Empathy</app> no utilitzarà finestres emergents ni sons quan "
+"esteu absents. Podeu configurar un missatge personalitzat per aquest estat."
+
+#: C/status-icons.page:62(item/title)
+msgid ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/offline.png\">Offline "
+"icon</media> <gui>Invisible</gui>"
+msgstr ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/offline.png\">Icona "
+"d'invisible</media> <gui>Invisible</gui>"
+
+#: C/status-icons.page:64(item/p)
+msgid ""
+"When you set your status to <em>Invisible</em>, you will appear as offline "
+"to your contacts. You will still be connected to your accounts, and you "
+"still see your contacts’ statuses and start conversations with them."
+msgstr ""
+"Quan poseu l'estat com a <em>Invisible</em>, apareixereu com a desconnectat "
+"per als contactes. Encara estareu connectat als comptes i podreu veure "
+"l'estat dels contactes i xatejar-hi."
+
+#: C/status-icons.page:69(item/title)
+msgid ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/offline.png\">Offline "
+"icon</media> <gui>Offline</gui>"
+msgstr ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/offline.png\">Icona "
+"de fora de línia</media> <gui>Fora de línia</gui>"
+
+#: C/status-icons.page:71(item/p)
+msgid ""
+"Setting your status to <em>Offline</em> disconnects you from all of your "
+"accounts."
+msgstr ""
+"Si establiu l'estat com a <em>Desconnectat</em> us desconnectarà de tots els "
+"contactes."
+
+#: C/video-call.page:11(info/desc)
+msgid "Start a video conversation with one of your contacts."
+msgstr "Inicieu una conversa de vídeo amb un dels contactes."
+
+#: C/video-call.page:37(page/title)
+msgid "Start a video conversation"
+msgstr "Inicieu una conversa de vídeo"
+
+#: C/video-call.page:39(page/p)
+msgid ""
+"If you have a webcam, you can call your contacts and have a video "
+"conversation with them. This feature only works with certain types of "
+"accounts, and it requires the other person to have an application that "
+"supports video calls."
+msgstr ""
+"Si teniu una càmera web, podeu trucar els contactes i tindre una vídeo "
+"conferencia amb ells. Aquesta característica sols funciona amb certs tipus "
+"de comptes, i requereix que l'altra persona tingui una aplicació que permeti "
+"fer vídeo trucades."
+
+#: C/video-call.page:46(item/p)
+msgid ""
+"Right-click on the contact that you want to call and select <gui style="
+"\"menuitem\">Video Call</gui>."
+msgstr ""
+"Feu clic amb el botó secundari al contacte que voleu trucar i des del menú "
+"seleccioneu <gui style=\"menuitem\">Trucada de vídeo</gui>."
+
+#: C/video-call.page:54(item/p)
+msgid ""
+"To end the conversation, click on the <gui style=\"button\">hang up</gui> "
+"button."
+msgstr "Per acabar la conversa feu clic a <gui style=\"button\">Penja</gui>."
+
+#: C/video-call.page:60(note/p)
+msgid ""
+"To turn a video conversation into an audio conversation, choose <guiseq><gui "
+"style=\"menu\">Video</gui><gui style=\"menuitem\">Video Off</gui></guiseq>."
+msgstr ""
+"Per canviar d'una conversa de vídeo a una conversa de veu, escolliu "
+"<guiseq><gui style=\"menu\">Vídeo</gui><gui style=\"menuitem\">Apaga el "
+"vídeo</gui></guiseq>."
+
+#: C/video-call.page:65(section/title)
+msgid "Start a video conversation with a meta-contact"
+msgstr "Inicia una conversa de vídeo amb un metacontacte"
+
+#: C/video-call.page:73(item/p)
+msgid ""
+"Select the contact you want to have the conversation, and from the menu "
+"select <gui style=\"menuitem\">Video Call</gui>."
+msgstr ""
+"Seleccioneu el contacte amb el qual voleu realitzar la conversa i des del "
+"menú seleccioneu <gui style=\"menuitem\">Trucada de vídeo</gui>."

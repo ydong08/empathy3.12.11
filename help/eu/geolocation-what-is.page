@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-what-is" xml:lang="eu">
+
+  <info>
+    <link type="guide" xref="geolocation#geoloc"/>
+    <link type="seealso" xref="geolocation-supported"/>
+    <desc>Geokokalekua ulertzea.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Partekatu Berdin 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Zer da geokokalekua?</title>
+
+  <p>Geokokalekuak aukera ematen dizu Internetekin konektatutako ordenagailu nahiz gailu baten benetako kokaleku geografikoa identifikatzeko.</p>
+  <p>Geokokalekuari esker, hau dena egin dezakezu <app>Empathy</app>-n:</p>
+  <list>
+    <item>
+      <p>Zure kokaleku geografikoa zure kontaktuei argitaratu.</p>
+    </item>
+    <item>
+      <p>Ikusi zure kontaktuen kokaleku geografikoa, eta jarri haiekin bizkor harremanetan.</p>
+    </item>
+    <item>
+      <p>Ezarri zure kokalekuaren zehaztasuna, eta zure kokalekua aurkitzeko erabilitako gailua.</p>
+    </item>
+  </list>
+
+  <note style="tip">
+    <p>Zure kontaktuen kokaleku geografikoak ikusi ahal izateko, geokokalekua onartzen duten zerbitzua eta aplikazioa erabili behar dituzte.</p>
+  </note>
+
+</page>

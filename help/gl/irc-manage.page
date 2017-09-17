@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" xmlns:if="http://projectmallard.org/experimental/if/" type="guide" style="2column" id="irc-manage" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Como usar IRC con <placeholder-1/>.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-07-25" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-27" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.3" date="2010-04-19" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Internet Relay Chat (IRC)</title>
+  
+  <note style="info package">
+    <p>Vostede debe ter instalado o paquete <placeholder-1/> para usar o IRC en <placeholder-2/>.</p>
+
+    <if:choose xmlns:if="http://projectmallard.org/if/1.0/">
+      <if:when test="action:install">
+        <p><link action="install:telepathy-idle" xref="index">Instalar telepathy-idle</link></p>
+      </if:when>
+    </if:choose>
+  </note>
+
+  <section id="manage" style="2column">
+    <info>
+      <title type="link">Salas de chat e conversas de IRC.</title>
+    </info>
+    <title>Salas de char e conversas</title>
+  </section>
+
+  <section id="problems">
+    <info>
+      <title type="link">Problemas comúns no IRC</title>
+    </info>
+    <title>Problemas comúns.</title>
+  </section>
+
+</page>

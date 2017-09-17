@@ -1,0 +1,42 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+
+[type: gettext/gsettings]data/org.gnome.telepathy-account-widgets.gschema.xml
+
+tp-account-widgets/totem-subtitle-encoding.c
+tp-account-widgets/tpaw-account-settings.c
+[type: gettext/glade]tp-account-widgets/tpaw-account-widget-aim.ui
+tp-account-widgets/tpaw-account-widget.c
+[type: gettext/glade]tp-account-widgets/tpaw-account-widget-generic.ui
+[type: gettext/glade]tp-account-widgets/tpaw-account-widget-groupwise.ui
+[type: gettext/glade]tp-account-widgets/tpaw-account-widget-icq.ui
+tp-account-widgets/tpaw-account-widget-irc.c
+[type: gettext/glade]tp-account-widgets/tpaw-account-widget-irc.ui
+[type: gettext/glade]tp-account-widgets/tpaw-account-widget-jabber.ui
+[type: gettext/glade]tp-account-widgets/tpaw-account-widget-local-xmpp.ui
+[type: gettext/glade]tp-account-widgets/tpaw-account-widget-msn.ui
+tp-account-widgets/tpaw-account-widget-sip.c
+[type: gettext/glade]tp-account-widgets/tpaw-account-widget-sip.ui
+[type: gettext/glade]tp-account-widgets/tpaw-account-widget-yahoo.ui
+tp-account-widgets/tpaw-avatar-chooser.c
+tp-account-widgets/tpaw-builder.c
+tp-account-widgets/tpaw-calendar-button.c
+tp-account-widgets/tpaw-camera-monitor.c
+tp-account-widgets/tpaw-connection-managers.c
+tp-account-widgets/tpaw-contactinfo-utils.c
+tp-account-widgets/tpaw-debug.c
+tp-account-widgets/tpaw-irc-network.c
+tp-account-widgets/tpaw-irc-network-chooser.c
+tp-account-widgets/tpaw-irc-network-chooser-dialog.c
+tp-account-widgets/tpaw-irc-network-dialog.c
+tp-account-widgets/tpaw-irc-network-manager.c
+tp-account-widgets/tpaw-irc-server.c
+tp-account-widgets/tpaw-keyring.c
+tp-account-widgets/tpaw-live-search.c
+tp-account-widgets/tpaw-pixbuf-utils.c
+tp-account-widgets/tpaw-protocol.c
+tp-account-widgets/tpaw-string-parser.c
+tp-account-widgets/tpaw-time.c
+tp-account-widgets/tpaw-uoa-utils.c
+tp-account-widgets/tpaw-user-info.c
+tp-account-widgets/tpaw-utils.c

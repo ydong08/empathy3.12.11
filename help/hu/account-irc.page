@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-irc" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="irc-manage#manage"/> 
+    <desc>IRC-hálózatokhoz való csatlakozáshoz szükséges további információk</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.2" date="2010-04-19" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/> 
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2010, 2011, 2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>IRC-fiók részletei</title>
+
+  <p>Az IRC-fiókok sok más fióktípustól eltérő információkat igényelnek. IRC-fiók létrehozásához meg kell adnia legalább az IRC-hálózatot és egy becenevet. Ez az oldal részletesen leírja az IRC-fiókhoz megadható információkat.</p>
+
+  <note style="info package">
+    <p>Az IRC protokoll <app>Empathyban</app> való használatához telepíteni kell a <sys>telepathy-idle</sys> csomagot.</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>Hálózat</gui></title>
+      <p>Az IRC egy nyílt rendszer, amely lehetővé teszi független IRC-hálózatok futtatását. Az egyes hálózatok egyediek, és saját felhasználókkal és csevegőszobákkal rendelkeznek. Az <app>Empathy</app> a <gui>Hálózat</gui> legördülő listában felsorolja a legnépszerűbb hálózatokat. Ezen kívül továbbiakat is felvehet. Részletekért lásd a <link xref="#networks"/> részt lentebb.</p>
+    </item>
+    <item>
+      <title><gui>Becenév</gui></title>
+      <p>Beceneve az Ön egyedi neve az IRC-hálózaton. A hálózaton csak egy személy rendelkezhet egy adott becenévvel. Ha az <link xref="prob-conn-name" role="error-msg"/> hibaüzenetet kapja, akkor módosítania kell becenevét.</p>
+    </item>
+    <item>
+      <title><gui>Jelszó</gui></title>
+      <p>Egyes kiszolgálók, különösen a magánhálózatokon lévők, jelszót igényelnek a csatlakozáshoz. Ha jogosult a hálózat használatára, akkor a hálózat rendszergazdái megadják a jelszót.</p>
+      <note>
+        <title>NickServ jelszavak</title>
+        <p>Egyes hálózatokon a becenevek regisztrálhatók a NickServ néven ismert szolgáltatással. Az <app>Empathy</app> közvetlenül nem támogatja a becenevek jelszavait. Egyes hálózatokon, beleértve a népszerű FreeNode-ot, a kiszolgálójelszavak automatikusan továbbításra kerülnek a NickServnek, így ezen mező beállításával azonosíthatja magát a NickServ felé. További részletekért lásd a <link xref="irc-nick-password"/> oldalt.</p>
+      </note>
+    </item>
+    <item>
+      <title><gui>Valódi név</gui></title>
+      <p>Beceneve mellett megadhatja valódi nevét is. Más felhasználók láthatják ezt az Ön információinak megjelenítésekor.</p>
+    </item>
+    <item>
+      <title><gui>Kilépési üzenet</gui></title>
+      <p>Amikor kilép, egy kilépési üzenet kerül elküldésre minden csevegőszobába, amelyben jelen van, és minden felhasználónak, akivel éppen társalog. Ebben a mezőben megadhat egy egyéni kilépési üzenetet.</p>
+    </item>
+  </terms>
+
+<!--
+telepathy-idle note
+-->
+
+  <section id="networks">
+    <info>
+      <title type="link">IRC-hálózatok</title>
+    </info>
+
+    <title>Hálózatok</title>
+
+    <p>Az <app>Empathy</app> tartalmazza a népszerű IRC-hálózatok listáját. Ha másik IRC-hálózathoz szeretne csatlakozni, akkor hozzá kell adnia a listához. A hálózatokat módosíthatja is, és a listából is eltávolíthatja azokat.</p>
+
+    <list>
+      <item><p>Hálózat listához adásához nyomja meg a <media type="image" mime="image/png" src="figures/gtk-add.png" width="16" height="16" its:translate="no"><span its:translate="yes">Hozzáadás</span></media> gombot.</p></item>
+      <item><p>A módosításhoz válassza ki a hálózatot, és nyomja meg a <media type="image" mime="image/png" src="figures/gtk-edit.png" width="16" height="16" its:translate="no"><span its:translate="yes">Szerkesztés</span></media> gombot.</p></item>
+      <item><p>Az eltávolításhoz válassza ki a hálózatot, és nyomja meg az <media type="image" mime="image/png" src="figures/gtk-remove.png" width="16" height="16" its:translate="no"><span its:translate="yes">Eltávolítás</span></media> gombot.</p></item>
+    </list>
+
+    <p>Hálózat hozzáadásakor vagy módosításakor a következő információkat adhatja meg:</p>
+
+    <terms>
+      <item>
+        <title><gui>Hálózat</gui></title>
+        <p>Ez a hálózat neve, ahogyan a hálózatok listájában meg szeretné jeleníteni.</p>
+      </item>
+      <item>
+        <title><gui>Karakterkészlet</gui></title>
+        <p>Itt megadhatja a hálózaton általában használt karakterkódolást. A karakterkódolás a karakterek egy adott, számítógépen belüli tárolási módja. Számos karakterkódolás van, és az üzenetek megfelelő megjelenítéséhez ugyanazt a karakterkódolást kell használnia, mint a többi felhasználó.</p>
+        <!--
+            Translators: Recommend character encodings that are common
+            for your language.
+        -->
+        <p>Alapértelmezésben az <app>Empathy</app> az UTF-8-at használja, ez a modern karakterkódolás képes a világ sok nyelvének kezelésére, így a magyaréra is. A magyar nyelv gyakori kódolása még az ISO-8859-2.</p>
+      </item>
+      <item>
+        <title><gui>Kiszolgálók</gui></title>
+        <p>Az IRC-hálózat több kiszolgálóval rendelkezhet. Ha egy adott hálózat egy kiszolgálójához csatlakozik, a hálózat többi kiszolgálójához csatlakozó összes felhasználóval is képes kommunikálni. A hálózathoz a <gui>Hozzáadás</gui> gombbal vehet fel kiszolgálókat, és az <gui>Eltávolítás</gui> gombbal törölheti azokat.</p>
+        <p>Amikor egy kiszolgáló ki van választva, kattintson a <gui>Kiszolgáló</gui> vagy a <gui>Port</gui> alatti mezőre annak szerkesztéséhez. Ennek alternatívájaként a balra és jobbra nyilakkal is átviheti a fókuszt a mezők közt, és a szóköz megnyomásával szerkesztheti azokat.</p>
+        <p>Jelölje be az <gui>SSL</gui> oszlop alatti jelölőnégyzetet a kiszolgálóval történő összes kommunikáció titkosításához. Ne feledje, hogy ez nem akadályoz meg senkit a hálózaton a nyilvános csevegőszobákba írt szavai elolvasásában.</p>
+      </item>
+    </terms>
+  </section>
+</page>

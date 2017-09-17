@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="introduction" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-16" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="review"/>
+    <desc>Úvod do rychlého komunikátoru <app>Empathy</app>.</desc>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Martin Picek</mal:name>
+      <mal:email>picek.martin@gnome-cesko.cz</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tomáš Karger</mal:name>
+      <mal:email>tomkarger@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Úvod</title>
+
+  <p><app>Empathy</app> je aplikace pro rychlou komunikaci v pracovním prostředí GNOME. Podporuje textové zprávy, hlasové a videohovory, přenos souborů a další věci používané komunikačními systémy, jako je Jabber nebo Google Talk.</p>
+  <p>Součástí <app>Empathy</app> jsou funkce, které vám pomohou lépe spolupracovat v zaměstnání i udržovat kontakt s práteli.</p>
+  <p>S <app>Empathy</app> můžete seskupit všechny své konverzace do jediného okna, mít více okne pro různé druhy konverzací, jednoduše vyhledávat v dřívějších konverzacích a sdílet svoji pracovní plochu na pouhá dvě kliknutí.</p>
+
+  <figure>
+    <title>Okno <gui>Seznam kontaktů</gui></title>
+    <desc>Hlavní okno <app>Empathy</app></desc>
+    <media type="image" src="figures/empathy-main-window.png" mime="image/png" style="right">
+      <p>Hlavní okno aplikace <app>Empathy</app>.</p>
+    </media>
+  </figure>
+
+</page>

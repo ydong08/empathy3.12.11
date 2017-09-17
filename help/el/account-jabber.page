@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-jabber" xml:lang="el">
+
+  <info>
+    <desc>Επιλογές για προχωρημένους σε λογαριασμούς Jabber και Google Talk.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-27" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.12" date="2015-02-03" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος,</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.gr</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μιχάλης Κοτσαρίνης</mal:name>
+      <mal:email>mk73628@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Στοιχεία λογαριασμού Jabber</title>
+
+  <p>Για να συνδεθείτε στους περισσότερους λογαριασμούς Jabber χρειάζεστε μόνο το όνομα χρήστη και το συνθηματικό σας. Ωστόσο, για ορισμένους λογαριασμούς ή τύπους λογαριασμών μπορεί να χρειαστεί να συμπληρώσετε ορισμένα επιπλέον στοιχεία στην ενότητα <gui>Για προχωρημένους</gui>. Υπό φυσιολογικές συνθήκες, δε χρειάζεται να ασχοληθείτε με τις παρακάτω προχωρημένες επιλογές. Για τις γενικές οδηγίες προσθήκης νέων λογαριασμών, δείτε την <link xref="add-account"/>.</p>
+
+  <note>
+    <p>Το Google Talk είναι λογαριασμός Jabber. Αυτές οι οδηγίες ισχύουν και για τους λογαριασμούς Google Talk.</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>Απαιτείται κρυπτογράφηση (TLS/SSL)</gui></title>
+      <title><gui>Παράβλεψη σφαλμάτων πιστοποιητικών SSL</gui></title>
+      <p>Όπου είναι δυνατό, η επικοινωνία μεταξύ <app>Empathy</app> και εξυπηρετητή Jabber κρυπτογραφείται. Αν δεν είναι δυνατή η κρυπτογράφηση της επικοινωνίας, μπορεί να σταλούν μηνύματα χωρίς κρυπτογράφηση. Επιλέξτε <gui>Απαιτείται κρυπτογράφηση</gui> για να απαγορεύσετε στο <app>Empathy</app> να επικοινωνεί με τον εξυπηρετητή Jabber αν δεν υπάρχει δυνατότητα κρυπτογράφησης.</p>
+      <p>Μερικοί διακομιστές Jabber μπορεί να κρυπτογραφούν δεδομένα με χρήση μη έγκυρων πιστοποιητικών, ή με την χρήση πιστοποιητικών που έχουν υπογραφεί από άγνωστες αρχές Μπορείτε να επιλέξετε <gui>Αγνόηση σφαλμάτων πιστοποιητικών SSL</gui> για να επιτρέψετε την κρυπτογραφημένη επικοινωνία με μη έγκυρα πιστοποιητικά, αλλά αυτό επιτρέπει σε έναν εισβολέα να υποκλέψει την επικοινωνία σας με το διακομιστή (συμπεριλαμβανομένου του κωδικού πρόσβασης σας). Μπορεί να θέλετε να χρησιμοποιήσετε αυτή την επιλογή για δοκιμαστικούς σκοπούς, ή αν ο διακομιστής σας έχει καταρρεύσει και δεν νοιάζεστε για την ασφάλεια της επικοινωνίας σας.</p>
+    </item>
+    <item>
+      <title><gui>Πόρος</gui></title>
+      <title><gui>Προτεραιότητα</gui></title>
+      <p>Αν υπάρχουν πολλαπλές εφαρμογές που είναι συνδεδεμένες στο λογαριασμό σας ταυτόχρονα (π.χ. από διαφορετικούς υπολογιστές), μπορείτε να ορίσετε έναν πόρο που θα ταυτοποιεί κάθε εφαρμογή. Το <app>Empathy</app> χρησιμοποιεί το <input>Telepathy</input> ως τον προεπιλεγμένο πόρο.</p>
+      <p>Μπορείτε να ορίσετε προτεραιότητες, για να προσδιορίσετε ποια εφαρμογή θα λαμβάνει τα εισερχόμενα μηνύματα των επαφών σας. Τα νέα μηνύματα θα αποστέλλονται στην εφαρμογή με την υψηλότερη προτεραιότητα.</p>
+    </item>
+    <item>
+      <title><gui>Παράκαμψη ρυθμίσεων του εξυπηρετητή</gui></title>
+      <p>Το <app>Empathy</app> χρησιμοποιεί τις προεπιλεγμένες ρυθμίσεις για να συνδέεται στον εξυπηρετητή Jabber. Για ορισμένους εξυπηρετητές Jabber μπορεί να χρειαστεί να εισάγετε χειροκίνητα κάποιες ειδικές ρυθμίσεις. Τις ρυθμίσεις αυτές θα πρέπει να τις έχετε λάβει από τον πάροχό σας.</p>
+    </item>
+  </terms>
+
+</page>

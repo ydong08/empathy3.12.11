@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="irc-commands" xml:lang="gl">
+      
+  <info>
+    <link type="guide" xref="irc-manage#manage"/>
+    <desc>As ordes de IRC admitidas.</desc>
+    <revision pkgversion="2.30" version="0.1" date="2010-02-14" status="draft"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ordes IRC admitidas</title>
+  <p>Para ver unha lista de ordes de IRC admitidos, nunha sala de conversa escriba <input>/help</input> e prema <key>Intro</key>.</p>
+  <note>
+    <p>Todos as ordes dispoñíbeis teñen unha pequena descrición sobre o se uso.</p>
+  </note>
+</page>

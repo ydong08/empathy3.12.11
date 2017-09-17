@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="prob-conn-acctdisabled" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="prob-conn"/>
+    <desc>L'account di messaggistica istantanea da usare non è abilitato nell'elenco degli account.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review"/>
+    <revision pkgversion="3.2" version="0.3" date="2011-12-18" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  </info>
+
+  <title>L'account non è abilitato</title>
+
+  <p>Se l'account di messaggistica istantanea da usare non è abilitato nell'elenco a discesa degli account quando si avvia una nuova conversazione o quando si entra in una stanza, i dettagli dell'account potrebbero non essere corretti.</p>
+
+  <steps>
+    <item>
+      <p>Assicurarsi di essere connessi a Internet o a una rete locale.</p>
+    </item>
+    <item>
+      <p>Scegliere <guiseq><gui>Modifica</gui><gui>Account</gui></guiseq> e selezionare l'account che non funziona.</p>
+    </item>
+    <item>
+      <p>Digitare nuovamente il proprio nome utente e la password per assicurarsi che siano corretti.</p>
+    </item>
+    <item>
+      <p>Verificare che nella sezione <gui>Avanzate</gui> tutti i dettagli siano corretti. Questi dettagli dovrebbero essere disponibili nel sito web del servizio di messaggistica.</p>
+    </item>
+    <item>
+      <p>
+        Check that the account is switched on.
+      </p>
+    </item>
+  </steps>
+
+</page>

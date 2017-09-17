@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="create-account" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="add-account"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-21" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-07" status="review">
+    <!--
+    <e:review by="shaunm@gnome.org" date="2009-09-02" status="done"/>
+    -->
+    </revision>
+    <revision pkgversion="2.30" version="0.3" date="2010-04-19" status="review"/>
+    <revision pkgversion="2.30" version="0.4" date="2010-10-01" status="review"/>
+    <revision pkgversion="3.10" date="2013-06-23" status="review"/>
+
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Share Alike 3.0 licence.</p>
+    </license>    
+
+    <desc>Izveido kontu, izmantojot vienu no atbalstītajiem ziņojumu servisiem.</desc>
+
+  </info>
+
+  <title>Reģistrēt jaunu kontu</title>
+
+  <p>Vairums kontu tipu pieprasa tos reģistrēt pie pakalpojuma sniedzēja, pirms tos var sākt izmantot TZ lietotnēs. Pie dažiem kontu sniedzējiem, varat izmantot <app>Empathy</app> lietotni, lai reģistrētu jaunu kontu, izmantojot tos pašus soļus, kurus tu izmantotu, lai <link xref="add-account">pievienotu kontu</link>.</p>
+
+  <p>Kad esat izveidojuši jaunu kontu, konta sniedzējam vajadzētu nodrošināt lietotājvārdu un paroli, kā arī ar papildu informāciju, kura ir nepieciešama <app>Empathy</app> izmantošanai.</p>
+
+  <section id="irc">
+    <title>IRC</title>
+
+    <p>IRC tīklos, savienojoties ar serveri, jānorāda segvārds jeb iesauka. Daži IRC tīkli izmanto servisu, piemēram NickServ, lai ļautu lietotājiem <link xref="irc-nick-password">aizsargāt savus segvārdus</link>. Ja neesat reģistrējuši savu segvārdu vai nevarat to izdarīt un kāds cits lietotājs to izmanto, jums būs jāizvēlas cits segvārds.</p>
+
+    <p>Daži IRC serveri ir aizsargāti ar paroli. Lai pieslēgtos šiem serveriem, tev vajadzēs paroli. Pārsvarā šādi serveri ir privātie IRC tīkli.</p>
+
+    <note>
+      <p>Daudzi GNOME projekti izmanto <code>irc.gnome.org</code> sarunām, kas saistītas ar projektu.</p>
+    </note>
+  </section>
+
+  <section id="jabber">
+    <title>Jabber</title>
+
+    <p>Jabber ir atvērta tiešo ziņojumu sistēma. Tā pat kā epasts, Jabber ļauj tev izvēlēties tavu konta sniedzēju un sazināties ar citiem Jabber lietotājiem, neatkarīgi no viņu konta sniedzēja.</p>
+
+    <p>Tev vajadzēs izveidot jaunu profilu, izmantojot Jabber pakalpojumu sniedzēju. Ir vairāki bezmaksas pakalpojumu sniedzēji; viens no populārākajiem ir <link href="http://register.jabber.org/">jabber.org</link>.</p>
+
+    <note>
+      <p>Ja izmantojat Gmail vai Google+ Hangouts, jums jau ir Jabber konts. Izmantojiet savu Gmail adresi un paroli <app>Empathy</app> lietotnē, lai savienotos.</p>
+    </note>
+  </section>
+
+  <section id="salut">
+    <title>People Nearby (cilvēki tuvumā)</title>
+
+    <p>Šis pakalpojums strādā jebkad, kad vien esat savienojies ar lokālo tīklu, piemēram bezvadu pieejas punktam. Jums nevajag veidot kontu pie pakalpojuma sniedzēja, vienkārši jāizveido konts caur <app>Empathy</app>. Tas automātiski atradīs visus lietotājus tajā pašā tīklā, kuri izmanto šo servisu.</p>
+
+    <p>Lai uzzinātu vairāk, skaties <link xref="salut-protocol">salut protokolu</link>.</p>
+  </section>
+
+  <section id="sip-services">
+    <title>SIP</title>
+
+    <p>SIP ir atvērta sistēma, kura ļauj lietotājiem sazināties audio un video veidā caur internetu. Tam ir jāizveido konts, izmantojot SIP pakalpojumu sniedzēju. Tu vari sazināties ar jebkuru SIP lietotāju, neatkarīgi no tā, kādu SIP pakalpojumu sniedzēju viņš/-a izmanto.</p>
+
+    <p>Daži SIP pakalpojumu sniedzēji ļauj tev zvanīt uz parastajiem telefoniem no tava datora. Lai šo pakalpojumu izmantotu, tev vajadzēs lietot maksas pakalpojumu.</p>
+  </section>
+
+  <section id="proprietary-services">
+    <title>Īpašnieka servisi</title>
+
+    <p>Pastāv vairāki īpašnieka TZ servisi kurus ir izstrādājušas dažādas kompānijas vai organizācijas. <app>Empathy</app> ļauj tev savienoties ar jau esošu kontu kādā no šiem servisu. Lai izveidotu jaunu kontu ar kādu no šiem servisiem, tev vajadzēs apmeklēt attiecīgā servisa tīmekļa vietni.</p>
+
+    <list>
+      <item>
+        <p><link href="http://dashboard.aim.com/aim">AIM</link></p>
+      </item>
+      <item>
+        <p><link href="https://www.icq.com/register/">ICQ</link></p>
+      </item>
+      <item>
+        <p><link href="https://login.yahoo.com/config/login">Yahoo!</link></p>
+      </item>
+    </list>
+  </section>
+
+</page>

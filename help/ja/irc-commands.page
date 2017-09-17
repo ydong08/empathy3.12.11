@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="irc-commands" xml:lang="ja">
+      
+  <info>
+    <link type="guide" xref="irc-manage#manage"/>
+    <desc>サポートしている IRC コマンドです。</desc>
+    <revision pkgversion="2.30" version="0.1" date="2010-02-14" status="draft"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>クリエイティブ・コモンズ・ライセンス 継承 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mako N</mal:name>
+      <mal:email>mako@pasero.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>サポートしている IRC コマンド</title>
+  <p>サポートしている IRC コマンドの一覧を見るには、談話室で<input>/help</input> と入力して <key>Enter</key> を押します。</p>
+  <note>
+    <p>すべてのコマンドに使い方の簡単な説明が付いています。</p>
+  </note>
+</page>

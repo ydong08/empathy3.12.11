@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-jabber" xml:lang="gl">
+
+  <info>
+    <desc>Opcións avanzadas para contas Jabber e Google Talk.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-27" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.12" date="2015-02-03" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Detalles da conta Jabber</title>
+
+  <p>A maioría das contas Jabber, para conectarse, só requiren un ID de inicio de sesión e un contrasinal. Para algunhas contas en certo tipo de redes, pode necesitar introducir información adicional na sección <gui>Avanzadas</gui>. Xeralmente non necesita usar as opcións avanzadas de embaixo. Consulte a <link xref="add-account"/> para obter instrucións xerais para engadir unha conta.</p>
+
+  <note>
+    <p>Google Talk é un tipo de conta Jabber. Estas instrucións tamén funcionan para contas de Google Talk.</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>Requírese cifrado (TLS/SSL)</gui></title>
+      <title><gui>Ignorar os erros de certificados SSL</gui></title>
+      <p>Sempre que sexa posíbel, a comunicación entre <app>Empathy</app> e o servidor Jabber está cifrada. Se a comunicación cifrada non é posíbel, pode que as mensaxes se envíen sen cifrar. Seleccione <gui>Require cifrado</gui> para evitar que <app>Empathy</app> se comunique co servidor Jabber cando non é posíbel cifrar a comunicación.</p>
+      <p>Some Jabber servers may encrypt data using invalid certificates,
+      or using certificates signed by unknown authorities.  You can select
+      <gui>Ignore SSL certificate errors</gui> to allow encrypted communication
+      with invalid certificates, but this allows an attacker to intercept your
+      communication with the server (including your password). You might want to
+      use this option for testing purposes, or if your server is broken and you
+      do not care about the security of your communication.</p>
+    </item>
+    <item>
+      <title><gui>Recurso</gui></title>
+      <title><gui>Prioridade</gui></title>
+      <p>Se ten múltiples aplicativos (en equipos diferentes, por exemplo) conectados á súa conta ao mesmo tempo, pode configurar un recurso para identificar univocamente cada unha. De forma predefinida <app>Empathy</app> usará <input>Telepathy</input> como recurso.</p>
+      <p>Pode estabelecer a prioridade para especificar que aplicativo debería recibir mensaxes entrantes dos seus contactos. As mensaxes novas enviaranse ao aplicativo coa prioridade máis alta.</p>
+    </item>
+    <item>
+      <title><gui>Ignorar as configuracións do servidor</gui></title>
+      <p><app>Empathy</app> usará a configuración predeterminada para conectarse ao servidor Jabber en función do seu ID de inicio de sesión. Para algúns servidores Jabber precisará introducir manualmente os axustes do servidor. O seu fornecedor de Jabber deberíalle fornecer ditos axustes.</p>
+    </item>
+  </terms>
+
+</page>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallrd.org/experimental/" type="topic" style="task" id="irc-start-conversation" xml:lang="eu">
+
+  <info>
+    <link type="guide" xref="irc-manage#manage" group="two"/>
+    <desc>Start a conversation with an IRC contact.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Partekatu Berdin 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Egin berriketan IRCko norbaitekin</title>
+
+  <p>Solasaldi pribatuak izan ditzakezu IRC erabiltzaileekin, IRC berriketa-gela publikoetatik kanpo. Solasaldi bat hasteko beste IRC erabiltzaile batekin:</p>
+
+  <steps>
+    <item>
+      <p>IRC berriketa-gela bateko kontaktu-zerrendan, egin klik bikoitza berriketan egin nahi duzun erabiltzailean. Bestela, egin klik eskuin-botoiarekin erabiltzailean, eta aukeratu <gui>Berriketa</gui>.</p>
+    </item>
+  </steps>
+
+  <list>
+    <item>
+      <p>IRC gelako kontaktu-zerrenda ez da <app>Empathy</app>-ren kontaktu-zerrenda bera. Zu sartu zaren IRC berriketa-gelako erabiltzaileen zerrenda dauka. Gela bakoitzak kontaktu desberdinak izan ditzake zerrendan.</p>
+    </item>
+    <item>
+      <p>IRC gelako kontaktu-zerrenda IRC gelaren leihoaren eskuinaldean egoten da normalean. Ez baduzu ikusten, aukeratu <guiseq><gui>Solasaldia</gui><gui>Erakutsi kontaktu-zerrenda</gui></guiseq>.</p>
+    </item>
+  </list>
+
+</page>

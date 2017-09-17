@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="favorite-rooms" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <link type="guide" xref="irc-manage#manage"/>
+    <link type="seealso" xref="irc-join-room"/>
+    <link type="seealso" xref="group-conversations"/>
+    <desc>Ustawianie, dołączanie i zarządzanie ulubionymi pokojami.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-21" status="draft"/>
+    <revision pkgversion="2.30" version="0.2" date="2010-02-03" status="review"/>    
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Na tych samych warunkach 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Ulubione pokoje</title>
+
+  <section id="set-favorite">
+  <title>Ustawianie ulubionego pokoju</title>
+  <steps>
+    <item>
+      <p>Należy dołączyć do pokoju.</p>
+      <list>
+        <item>
+          <p>Aby uzyskać więcej informacji na temat dołączania do pokojów IRC, należy zobaczyć <link xref="irc-join-room"/></p>
+        </item>
+        <item>
+          <p>Aby uzyskać więcej informacji na temat rozpoczynania i dołączania do rozmów grupowych, należy zobaczyć <link xref="group-conversations"/>.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>W oknie rozmowy należy wybrać <guiseq><gui>Rozmowa</gui><gui>Ulubiony pokój</gui></guiseq>.</p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="join-favorite">
+  <title>Dołączanie do ulubionych pokoi</title>
+  <steps>
+    <item>
+      <p>W oknie <gui>Lista kontaktów</gui> należy wykonać jedno z poniższych działań:</p>
+      <list>
+        <item>
+          <p>Należy nacisnąć przycisk <key>F5</key>.</p>
+        </item>
+        <item>
+          <p>Należy wybrać <guiseq><gui>Pokój</gui><gui>Dołącz do ulubionych</gui></guiseq>, aby dołączyć do ulubionych pokoi.</p>
+        </item>
+        <item>
+          <p>Należy wybrać <gui>Pokój</gui> i zaznaczyć ulubione pokoje, do których chcemy dołączyć.</p>
+        </item>
+      </list>
+    </item>
+  </steps>
+  <note>
+    <p>Aby dołączyć do ulubionego pokoju, należy być podłączonym do Internetu i swojego konta.</p>
+  </note>
+  </section>
+
+  <section id="manage-favorite">
+  <title>Zarządzanie ulubionymi pokojami</title>
+  <steps>
+    <item>
+      <p>W oknie <gui>Listy kontaktów</gui> należy wybrać <guiseq><gui>Pokój</gui><gui>Zarządzaj ulubionymi</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Z listy rozwijanej <gui>Konto</gui> należy wybrać konto, którego ulubionymi pokojami chcemy zarządzać.</p>
+      <p>Należy wybrać <gui>Wszystkie</gui>, aby zobaczyć wszystkie swoje ulubione pokoje.</p>
+    </item>
+    <item>
+      <p>Należy zaznaczyć ulubione pokoje, którymi chcemy zarządzać:</p>
+      <list>
+        <item>
+          <p>Należy zaznaczyć pole <gui>Automatyczne łączenie</gui>, aby automatycznie dołączyć do danego pokoju po połączeniu z kontem.</p>
+        </item>
+        <item>
+          <p>Należy nacisnąć na <gui>Usuń</gui>, aby usunąć pokój ze swoich ulubionych.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Po zakończeniu należy nacisnąć przycisk <gui>Zamknij</gui>.</p>
+    </item>
+  </steps>
+  </section>
+
+</page>

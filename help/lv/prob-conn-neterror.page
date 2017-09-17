@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="prob-conn-neterror" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="prob-conn"/>
+    <desc>Kļūdas paziņojums, kurš saka “<gui>Tīkla kļūda</gui>” parādās galvenajā logā.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review"/>
+    <revision pkgversion="2.28" version="0.3" date="2010-02-16" status="review"/>
+    <revision pkgversion="3.2" version="0.4" date="2011-12-18" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0 licence.</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  </info>
+
+  <title>Es saņemu "Tīkla kļūda” ziņojumu</title>
+
+  <p>Šāda kļūda notiek tad, kad <app>Empathy</app> nevar sazināties ar TZ serveri, kāda iemesla dēļ.</p>
+  <p>Kā arī, šī kļūda notiek tad, kad mēģini izmantot IRC kontu bez segvārda iestatīšanas.</p>
+
+  <steps>
+    <item>
+      <p>Pārliecinies, ka ir savienojums ar internetu vai ar lokālo tīklu.</p>
+    </item>
+    <item>
+      <p>Spiediet ikonu <media type="image" mime="image/png" src="figures/gtk-edit.png" its:translate="no"><span its:translate="yes">rediģēt</span></media> kļūdas paziņojumā.</p>
+    </item>
+    <item>
+      <p>Pārbaudi, ka visa informācija, <gui>Paplašināti</gui> sadaļā ir pareiza. Tev vajadzētu atrast šo informāciju mājaslapā, kuras ziņojumu servisu izmanto.</p>
+<!--
+        <item>
+          <p>
+            In the case of an IRC account, type your nickname in the <gui>Nickname</gui>
+            text box.
+          </p>
+        </item>
+-->
+    </item>
+    <item>
+      <p>Izslēdz kontu un pēc tam atkal to ieslēdz, lai mēģinātu atkal savienoties ar servisu.</p>
+    </item>
+  </steps>
+
+  <section id="prob-conn-neterror-proxy">
+    <title>Starpniekserveru atbalsts</title>
+    <p>Šobrīd <app>Empathy</app> nevar nokonfigurēt tā, lai tas strādātu caur starpniekserveri.</p>
+  </section>
+
+</page>

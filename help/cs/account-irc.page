@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-irc" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="irc-manage#manage"/> 
+    <desc>Další informace potřebné k připojení do sítí IRC.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.2" date="2010-04-19" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/> 
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Martin Picek</mal:name>
+      <mal:email>picek.martin@gnome-cesko.cz</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tomáš Karger</mal:name>
+      <mal:email>tomkarger@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Podrobnosti účtu IRC</title>
+
+  <p>Účty IRC vyžadují jiné údaje než ostatní typy účtů. Pro vytvoření účtu IRC je nutné uvést minimálně název sítě IRC a přezdívku. Tato stránka popisuje údaje, které je možné u účtu IRC zadat.</p>
+
+  <note style="info package">
+    <p>Pro používání IRC v <app>Empathy</app> je nutné mít nainstalovaný balíček <sys>telepathy-idle</sys>.</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>Síť</gui></title>
+      <p>IRC je otevřený systém, který umožňuje lidem provozovat oddělené sítě IRC. Každá síť tvoří samostatný celek s vlastními uživateli a místnostmi. Seznam nejpopulárnějších sítí se v <app>Empathy</app> nachází v rozbalovacím seznamu <gui>Síť</gui>. Je možné přidat i další sítě. Viz <link xref="#networks"/> níže.</p>
+    </item>
+    <item>
+      <title><gui>Přezdívka</gui></title>
+      <p>Přezdívka představuje jedinečné jméno v síti IRC. Pouze jeden uživatel v síti může používat danou přezdívku. Pokud se objeví chybové hlášení ve znění <link xref="prob-conn-name" role="error-msg"/>, je nutné přezdívku změnit.</p>
+    </item>
+    <item>
+      <title><gui>Heslo</gui></title>
+      <p>Některé servery, především ty v soukromých sítích, vyžadují pro připojení heslo. Pokud je uživatel oprávněn síť používat, administrátoři sítě by mu měli heslo poskytnout.</p>
+      <note>
+        <title>Hesla NickServ</title>
+        <p>V některých sítích mohou být přezdívky registrovány pomocí služby NickServ. <app>Empathy</app> nepodporuje tento typ hesel přímo. Na některých sítích, včetně populární sítě freenode, jsou ale hesla ze serveru automaticky předávána službě NickServ, což umožňuje uživatelům nastavit tento parametr pro identifikaci službou NickServ. Pro podrobnosti viz <link xref="irc-nick-password"/> </p>
+      </note>
+    </item>
+    <item>
+      <title><gui>Skutečné jméno</gui></title>
+      <p>Společně s přezdívkou je možné poskytnout skutečné jméno. Bude přístupné ostatním uživatelům při prohlížení informací o účtu.</p>
+    </item>
+    <item>
+      <title><gui>Rozloučení</gui></title>
+      <p>Rozloučení je zpráva, která je odeslána do všech místností, do nichž je uživatel připojen, a všem uživatelům, se kterými vede soukromou konverzaci. Toto pole slouží k zadání vlastní zprávy na rozloučenou.</p>
+    </item>
+  </terms>
+
+<!--
+telepathy-idle note
+-->
+
+  <section id="networks">
+    <info>
+      <title type="link">Sítě IRC</title>
+    </info>
+
+    <title>Sítě</title>
+
+    <p><app>Empathy</app> obsahuje seznam populárních sítí IRC. Pokud si přejete navštívit jinou síť IRC, můžete ji přidat do seznamu. Sítě můžete také upravit nebo odstranit ze seznamu.</p>
+
+    <list>
+      <item><p>Chcete-li přidat síť do seznamu, klikněte na <media type="image" mime="image/png" src="figures/gtk-add.png" width="16" height="16" its:translate="no"><span its:translate="yes">Přidání</span></media>.</p></item>
+      <item><p>Chcete-li upravit síť na seznamu, vyberte ji a klikněte na <media type="image" mime="image/png" src="figures/gtk-edit.png" width="16" height="16" its:translate="no"><span its:translate="yes">Úprava</span></media>.</p></item>
+      <item><p>Chcete-li odstranit síť ze seznamu, vyberte ji a klikněte na <media type="image" mime="image/png" src="figures/gtk-remove.png" width="16" height="16" its:translate="no"><span its:translate="yes">Odstranění</span></media>.</p></item>
+    </list>
+
+    <p>Při přidávání nebo upravování sítě můžete zadat následující údaje:</p>
+
+    <terms>
+      <item>
+        <title><gui>Síť</gui></title>
+        <p>Toto je název sítě, který se bude zobrazovat v seznamu sítí.</p>
+      </item>
+      <item>
+        <title><gui>Znaková sada</gui></title>
+        <p>Tímto je určeno kódování znaků, které je obvykle užíváno na této síti. Kódování je způsob zaznamenávání znaků, které používá počítač. Existuje mnoho způsobů kódování a pro správné zobrazování zpráv je nutné používat stejné kódování jako ostatní uživatelé.</p>
+        <!--
+            Translators: Recommend character encodings that are common
+            for your language.
+        -->
+        <p>Ve výchozím nastavení používá <app>Empathy</app> UTF-8, moderní kódování znaků, které dokáže zpracovat text většiny světových jazyků. Dalším obvyklým kódováním pro angličtinu a některé ostatní západní jazyky je ISO-8859-1 a pro češtinu a některé ostatní středoevropské jazyky ISO-8859-2.</p>
+      </item>
+      <item>
+        <title><gui>Servery</gui></title>
+        <p>Jedna síť IRC může mít několik serverů, ke kterým je možné se připojit. Pokud jste připojeni k serveru určité sítě, můžete komunikovat se všemi uživateli na všech ostatních serverech této sítě. Je možné přidat nebo odstranit servery dané sítě pomocí tlačítek <gui>Přidat</gui> a <gui>Odstranit</gui>.</p>
+        <p>Po vybrání serveru klikněte do pole pod <gui>Server</gui> nebo <gui>Port</gui> a upravte je. Je také možné použít šipky doleva a doprava k zaměření pole a zmáčknout mezerník k jeho úpravě.</p>
+        <p>Pro šifrování veškeré komunikace se serverem zatrhněte políčko ve sloupci <gui>SSL</gui>. Toto nastavení ale nezabrání ostatním uživatelům na síti vidět, co píšete ve veřejných místnostech.</p>
+      </item>
+    </terms>
+  </section>
+</page>

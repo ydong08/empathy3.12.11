@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-jabber" xml:lang="cs">
+
+  <info>
+    <desc>Pokročilé volby účtů Jabber a Google Talk.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-27" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.12" date="2015-02-03" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Martin Picek</mal:name>
+      <mal:email>picek.martin@gnome-cesko.cz</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tomáš Karger</mal:name>
+      <mal:email>tomkarger@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Podrobnosti účtu Jabber</title>
+
+  <p>Většina účtů Jabber vyžaduje pro připojení pouze přihlašovací ID a heslo. Některé účty nebo některé typy sítí vyžadují zadání dalších údajů v oddíle <gui>Pokročilé</gui>. Obvykle ale není nutné používat níže uvedené pokročilé volby. Obecný návod na přidání účtu viz <link xref="add-account"/>.</p>
+
+  <note>
+    <p>Google Talk je typ účtu Jabber. Tento návod platí i pro účty Google Talk.</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>Vyžadováno šifrování (TLS/SSL)</gui></title>
+      <title><gui>Ignorovat chyby certifikátu SSL</gui></title>
+      <p>Pokud je to možné, je komunikace mezi <app>Empathy</app> a serverem Jabber šifrovaná. Pokud není šifrování možné, mohou být zprávy odeslány nešifrované. Vyberte <gui>Šifrování vyžadováno</gui> a <app>Empathy</app> nebude se serverem komunikovat, když šifrování nebude možné.</p>
+      <p>Některé servery Jabber mohou šifrovat data pomocí neplatných certifikátů nebo certifikátů podepsaných neznámými autoritami. Můžete vybrat <gui>Ignorovat chyby certifikátů SSL</gui>, aby se povolila šifrovaná komunikace s neplatnými certifikáty, ale útočníci tím získají možnost proniknout do vaší komunikace se serverem (včetně vašeho hesla). Proto se tato volba hodí spíše pro testovací účely nebo, když je server poškozený a vy se neobáváte o bezpečnost své komunikace.</p>
+    </item>
+    <item>
+      <title><gui>Zdroj</gui></title>
+      <title><gui>Priorita</gui></title>
+      <p>Pokud ke svému účtu připojujete více aplikací současně (například na různých počítačích), můžete nastavit zdroj tak, aby se každé jednoznačně identifikoval. Ve výchozím nastavení použije <app>Empathy</app> jako zdroj <input>Telepathy</input>.</p>
+      <p>Můžete nastavit prioritu a určit tak, která aplikace by měla přijímat příchozí zprávy od vašich kontaktů. Nové zprávy budou posílány aplikaci s nejvyšší prioritou.</p>
+    </item>
+    <item>
+      <title><gui>Přepsat nastavení serveru</gui></title>
+      <p><app>Empathy</app> použije výchozí nastavení a přihlašovací ID pro připojení k serveru Jabber. U některých serverů Jabber je nutné ručně zadat vlastní nastavení serveru. Toto nastavení by mělo být upřesněno poskytovatelem serveru Jabber.</p>
+    </item>
+  </terms>
+
+</page>

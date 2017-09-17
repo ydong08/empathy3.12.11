@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="link-contacts" xml:lang="gl">
+      
+  <info>
+    <link type="guide" xref="index#contacts"/>
+    <link type="seealso" xref="send-message"/>
+    <link type="seealso" xref="audio-call"/>
+    <link type="seealso" xref="video-call"/>
+    <desc>Unir e separar diferentes contactos nun só.</desc>
+    <revision pkgversion="2.32" version="0.1" date="2010-09-06" status="draft"/>
+    <revision pkgversion="2.32" version="0.2" date="2010-09-09" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Shobha Tyagi</name>
+      <email>tyagishobha@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Ligar e desligar contactos</title>
+  <p>Se un, ou máis, dos seus contactos ten múltiples contas con diferentes servizos de mensaxaría, pode combinar estas contas nun único contacto.</p>
+  <p>O contacto resultante chámase un <em>meta-contacto</em>: un contacto composto por diferentes contactos sinxelos.</p>
+  <p>Supoña que ten un contacto Xoán Souto que está usando tres servizos de mensaxaría diferentes como:</p>
+  <list>
+    <item>
+      <p>xoan.souto@gmail</p>
+    </item>
+    <item>
+      <p>xoan_souto@hotmail</p>
+    </item>
+    <item>
+      <p>
+        janes@yahoo
+      </p>
+    </item>
+  </list>
+  <p>Pode combinar estes contactos nun só Xoán Souto</p>
+  <section id="linking">
+  <title>Ligar contactos</title>
+  <p>A forma de ligar os seus contactos é como segue:</p>
+    <steps>
+      <item>
+        <p>Prema o botón de marcado para seleccionar as entradas que quere ligar. Isto activará o <em>modo de selección</em> e pode ver unha caixa de verificación por cada entrada.</p>
+      </item>
+      <item>
+        <p>Marque as caixas que corresponden ás entradas de <app>Contactos</app> que pertencen ao mesmo contacto.</p>
+      </item>
+      <item>
+        <p>Prema <gui style="button">Ligar</gui>.</p>
+      </item>
+    </steps>
+    <p>Repita os pasos 3 e 4 en orde para ligar outros contactos.</p>
+  </section>
+  
+  <section id="unlinking">
+  <title>Desligar contactos</title>
+  <p>Para desligar un contacto ligado:</p>
+    <steps>
+      <item>
+        <p>Seleccione o estado desde a lista.</p>
+      </item>
+      <item>
+        <p>Prema <gui style="button">Editar</gui> na esquina superior dereita de <app>Contactos</app>.</p>
+      </item>
+      <item>
+	<p>Prema <gui style="button">Ligar contactos</gui>.</p>
+      </item>
+      <item>
+	<p>Prema <gui style="button">Eliminar</gui> para desligar unha entrada do contacto ligado.</p>
+      </item>
+      <item>
+        <p>Prema <gui style="button">Pechar</gui> se non quere desligar ningún contacto máis.</p>
+      </item>
+      <item>
+        <p>Finalmente, prema <gui style="button">Feito</gui> para rematar a edición.</p>
+      </item>
+    </steps>
+  </section>
+</page>

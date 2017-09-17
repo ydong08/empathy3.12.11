@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="prob-conn-neterror" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="prob-conn"/>
+    <desc>V hlavním okně se objevila chybová zpráva znějící „<gui>Chyba sítě</gui>“.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review"/>
+    <revision pkgversion="2.28" version="0.3" date="2010-02-16" status="review"/>
+    <revision pkgversion="3.2" version="0.4" date="2011-12-18" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Martin Picek</mal:name>
+      <mal:email>picek.martin@gnome-cesko.cz</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tomáš Karger</mal:name>
+      <mal:email>tomkarger@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Obdržel(a) jsem zprávu znějící „Chyba sítě“</title>
+
+  <p>Tento druh chyb se vyskytne, když <app>Empathy</app> nemůže z nějakého důvodu komunikovat se službou rychlých zpráv.</p>
+  <p>Tento druh chyby se objeví také v případě, je se pokusíte použít účet IRC bez nastavené přezdívky.</p>
+
+  <steps>
+    <item>
+      <p>Ujistěte se, že jste připojeni k Internetu nebo k místní síti.</p>
+    </item>
+    <item>
+      <p>Klikněte na ikonu <media type="image" mime="image/png" src="figures/gtk-edit.png" its:translate="no"><span its:translate="yes">upravit</span></media> v chybové zprávě.</p>
+    </item>
+    <item>
+      <p>V části <gui>Pokročilé</gui> zkontrolujte, jestli jsou všechny údaje správné. Správné hodnoty by měly být dohledatelné na webových stránkách dané komunikační služby.</p>
+<!--
+        <item>
+          <p>
+            In the case of an IRC account, type your nickname in the <gui>Nickname</gui>
+            text box.
+          </p>
+        </item>
+-->
+    </item>
+    <item>
+      <p>Vypněte účet a pak jej znovu zapněte, abyste je přiměli znovu se připojit ke službě.</p>
+    </item>
+  </steps>
+
+  <section id="prob-conn-neterror-proxy">
+    <title>Podpora proxy</title>
+    <p>V současnosti nelze aplikaci <app>Empathy</app> nastavit, aby používala proxy.</p>
+  </section>
+
+</page>

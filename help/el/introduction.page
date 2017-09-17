@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="introduction" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-16" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="review"/>
+    <desc>Εισαγωγή στα άμεσα μηνύματα του <app>Empathy</app>.</desc>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος,</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.gr</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μιχάλης Κοτσαρίνης</mal:name>
+      <mal:email>mk73628@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Εισαγωγή</title>
+
+  <p>Το <app>Empathy</app> είναι μια εφαρμογή αποστολής άμεσων μηνυμάτων για την επιφάνεια εργασίας του GNOME. Παρέχει υποστήριξη για αποστολή γραπτών μηνυμάτων, φωνητικές κλήσεις &amp; βιντεοκλήσεις, μεταφορά αρχείων, και όλα τα πιο δημοφιλή συστήματα αποστολής μηνυμάτων, όπως το Jabber και το Google Talk.</p>
+  <p>Το <app>Empathy</app> περιλαμβάνει λειτουργίες που διευκολύνουν τις επαγγελματικές σας συνεργασίες και σας επιτρέπουν να παραμένετε σε επαφή με τους φίλους σας.</p>
+  <p>Χρησιμοποιώντας το <app>Empathy</app>, μπορείτε να ομαδοποιείτε όλες τις συζητήσεις σε ένα ενιαίο παράθυρο, ή να έχετε πολλαπλά παράθυρα για διαφορετικά είδη συνομιλιών, να αναζητήσετε εύκολα τις προηγούμενες συζητήσεις σας και να μοιράζεστε την επιφάνεια εργασίας σας με δύο μόνο πατήματα.</p>
+
+  <figure>
+    <title>Παράθυρο <gui>Λίστα επαφών</gui></title>
+    <desc>Βασικό παράθυρο του <app>Empathy</app></desc>
+    <media type="image" src="figures/empathy-main-window.png" mime="image/png" style="right">
+      <p>Βασικό παράθυρο του <app>Empathy</app>.</p>
+    </media>
+  </figure>
+
+</page>

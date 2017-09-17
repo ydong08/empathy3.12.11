@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/gnome/Empathy">
+    <file>empathy-status-presets.dtd</file>
+    <file>empathy-contact-groups.dtd</file>
+    <file>empathy-chatroom-manager.dtd</file>
+  </gresource>
+</gresources>
+

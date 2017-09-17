@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-irc" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="irc-manage#manage"/> 
+    <desc>Información adicional necesaria para conectarse a redes IRC.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.2" date="2010-04-19" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/> 
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Detalles da conta IRC</title>
+
+  <p>As contas de IRC requiren información diferente que outros tipos de contas. Para crear unha conta IRC debe especificar cando menos a rede IRC e o alcume. Esta páxina detalla a información que pode fornecer para unha conta de IRC.</p>
+
+  <note style="info package">
+    <p>Vostede debe ter instalado o paquete <placeholder-1/> para usar o IRC en <placeholder-2/>.</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>Rede</gui></title>
+      <p>IRC é un sistema aberto que permite á xente estar en diferentes redes IRC. Cada rede é distinta e ten os seus propios usuarios e salas de chat. <app>Empathy</app> lista as redes máis populares na lista despregábel <gui>Rede</gui>. Aínda así engadir máis redes. Consulte embaixo a <link xref="#networks"/>.</p>
+    </item>
+    <item>
+      <title><gui>Alcume</gui></title>
+      <p>O seu alcume é un nome único na rede IRC. Só unha persoa nunha rede pode usar certo alcume. Se obtén unha mensaxe que dí <link xref="prob-conn-name" role="error-msg"/> deberá cambiar o seu alcume.</p>
+    </item>
+    <item>
+      <title><gui>Contrasinal</gui></title>
+      <p>Algúns servidores, particularmente aqueles en redes privadas, requiren un contrasinal para a conexión. Se está autorizado a usar a rede, os administradores da rede forneceranlle un contrasinal.</p>
+      <note>
+        <title>Contrasinais NickServ</title>
+        <p>Nalgunhas redes pode rexistrar os alcumes con un servizo coñecido como «NickServ». <app>Empathy</app> non admite directamente contrasinais para alcumes. Nalgunhas redes, incluíndo a popular rede freenode, os contrasinais do servidor redirecciónanse automaticamente a NickServ, permitíndolle usar este campo para identificarse con NickServ. Para obter máis información contacte a <link xref="irc-nick-password"/>.</p>
+      </note>
+    </item>
+    <item>
+      <title><gui>Nome real</gui></title>
+      <p>Pode fornecer o seu nome real ademais do seu alcume. Outros usuarios poderán velo ao ver a súa información.</p>
+    </item>
+    <item>
+      <title><gui>Mensaxe de saída</gui></title>
+      <p>Cando se desconecta enviase unha mensaxe de saída todas as salas de conversa nas que está e a todos os usuarios cos que ten unha conversa privada. Use este campo para fornecer unha mensaxe personalizada.</p>
+    </item>
+  </terms>
+
+<!--
+telepathy-idle note
+-->
+
+  <section id="networks">
+    <info>
+      <title type="link">Redes IRC</title>
+    </info>
+
+    <title>Redes</title>
+
+    <p><app>Empathy</app> inclúe unha lista de redes IRC populares. Se quere usar outra rede IRC pode engadila á lista. Tamén pode modificar e eliminar redes da lista.</p>
+
+    <list>
+      <item><p>Para engadir unha rede á lista prema <media type="image" mime="image/png" src="figures/gtk-add.png" width="16" height="16" its:translate="no"><span its:translate="yes">Engadir</span></media>.</p></item>
+      <item><p>Para modificar unha rede da lista seleccione a rede e prema <media type="image" mime="image/png" src="figures/gtk-edit.png" width="16" height="16" its:translate="no"><span its:translate="yes">Editar</span></media>.</p></item>
+      <item><p>Para quitar unha rede da lista seleccione a rede e prema <media type="image" mime="image/png" src="figures/gtk-remove.png" width="16" height="16" its:translate="no"><span its:translate="yes">Quitar</span></media>.</p></item>
+    </list>
+
+    <p>Ao engadir ou modificar unha rede pode introducir a seguinte información:</p>
+
+    <terms>
+      <item>
+        <title><gui>Rede</gui></title>
+        <p>Este é o nome da rede como quere que apareza na lista de redes.</p>
+      </item>
+      <item>
+        <title><gui>Codificación de caracteres</gui></title>
+        <p>Isto especifica a codificación de caracteres usada xeralmente nesta rede. Unha codificación de caracteres é unha forma específica de gravar os caracteres internamente nun computador. Existen moitas configuracións de caracteres e debe usar a mesma configuración de caracteres que o resto de usuarios para poder ver as súas mensaxes correctamente.</p>
+        <!--
+            Translators: Recommend character encodings that are common
+            for your language.
+        -->
+        <p>De forma predefinida <app>Empathy</app> usa UTF-8, unha codificación de caracteres moderna que pode xestionar texto na maioría dos idiomas do mundo. Outra configuración de caracteres común para inglés e outros idiomas occidentais é ISO-8859-1.</p>
+      </item>
+      <item>
+        <title><gui>Servidores</gui></title>
+        <p>Unha rede IRC pode ter moitos servidores aos que se pode conectar. Cando está conectado a un servidor nunha rede en particular, pode comunicarse con todos os usuarios en todos os servidores desa rede. Pode engadir e quitar servidores para esa rede usando os botóns <gui>Engadir</gui> e <gui>Eliminar</gui>.</p>
+        <p>Cando un servidor estea seleccionado prema o campo baixo <gui>Servidor</gui> ou <gui>Porto</gui> para editalo. De forma alternativa, use as frechas esquerda e dereita para dar o foco ao campo e prema a barra espazadora para comezar a editalo.</p>
+        <p>Seleccione a caixa de verificación na columna <gui>SSL</gui> para cifrar toda a comunicación co servidor. Note que isto non prevén que outros usuarios na rede vexan o que escribe en salas de conversa públicas.</p>
+      </item>
+    </terms>
+  </section>
+</page>

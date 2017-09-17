@@ -1,0 +1,4504 @@
+# Persian translation of empathy
+# Copyright (C) 2010-2011 Iranian Free Software Users Group (IFSUG.org)translation team.
+# This file is distributed under the same license as the empathy package.
+# Mahyar Moghimi <mahyar.moqimi@gmail.com>, 2010.
+# Arash Mousavi <mousavi.arash@gmail.com>, 2011, 2012, 2013, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: empathy 2.28.1.1\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=empathy&keywords=I18N+L10N&component=General\n"
+"POT-Creation-Date: 2014-10-06 15:26+0000\n"
+"PO-Revision-Date: 2014-10-10 22:38+0330\n"
+"Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
+"Language-Team: Persian <>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.6.9\n"
+
+#: ../data/empathy.desktop.in.in.h:1
+msgid "Empathy"
+msgstr "اِمپاتی"
+
+#: ../data/empathy.desktop.in.in.h:2
+msgid "IM Client"
+msgstr "کارگیر پیام‌رسان فوری"
+
+#: ../data/empathy.desktop.in.in.h:3
+msgid "Empathy Internet Messaging"
+msgstr "پیام‌رسان اینترنتی اِمپاتی"
+
+#: ../data/empathy.desktop.in.in.h:4
+msgid "Chat on Google Talk, Facebook, MSN and many other chat services"
+msgstr "گپ در گوگل تاک، فیس بوک، ام‌اس‌ان، و بسیاری سرویس‌های دیگر گپ"
+
+#: ../data/empathy.desktop.in.in.h:5
+msgid "chat;talk;im;message;irc;voip;gtalk;facebook;jabber;"
+msgstr ""
+"chat;talk;im;message;irc;voip;gtalk;facebook;jabber;گپ;گفتگو;پیام رسان;پیام;"
+"فیس‌بوک;"
+
+#: ../data/empathy.appdata.xml.in.h:1
+msgid ""
+"Empathy is the official instant messaging application of the GNOME desktop "
+"environment.  Empathy can connect to AIM, MSN, Jabber (including Facebook "
+"and Google Talk), IRC, and many other messaging networks. You can chat with "
+"text, make audio and video calls, or even transfer files, depending on what "
+"your contact’s chat application allows."
+msgstr ""
+"امپاتی برنامه پیام‌رسان رسمی محیط رومیزی گنوم است. امپاتی می‌تواند به AIM، MSN "
+"و Jabber (شامل فیس‌بوک و گوگل‌تاک)، IRC و بسیاری از شبکه‌های پیام‌رسان دیگر متصل "
+"شود. شما می‌توانید با متن گپ بزنید، تماس‌های صوتی و تصویری بگیرید یا حتی "
+"پرونده‌ها را منتفل کنید، به شرط اینکه برنامه گپ آشنای شما این امکان را داشته "
+"باشد."
+
+#: ../data/empathy.appdata.xml.in.h:2
+msgid ""
+"Empathy provides integrated messaging for the GNOME desktop, so you’ll never "
+"miss a message.  You can respond to your contacts without even having to "
+"open Empathy!"
+msgstr ""
+"امپاتی یک محیط یکپارچه‌ی پیام‌رسان برای رومیزی گنوم است، پس هیچ‌وقت پیامی را از "
+"دست نخواهید داد. شما می‌توانید به آشناهای خود جواب بدهید، حتی بدون باز کردن "
+"امپاتی!"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:1
+msgid "Connection managers should be used"
+msgstr "از مدیرهای اتصال باید استفاده شود"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:2
+msgid ""
+"Whether connectivity managers should be used to automatically disconnect/"
+"reconnect."
+msgstr ""
+"این‌که مدیر‌های اتصال برای قطع کردنِ/اتصال مجددِ خودکار استفاده شود یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:3
+msgid "Empathy should auto-connect on startup"
+msgstr "امپاتی در زمان راه‌اندازی به طور خودکار متصل شود"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:4
+msgid "Whether Empathy should automatically log into your accounts on startup."
+msgstr "این‌که امپاتی در هنگام راه‌اندازی، خودکار به حساب شما وارد شود یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:5
+msgid "Empathy should auto-away when idle"
+msgstr "امپاتی در صورت بی‌کار بودن کاربر، خودکار به حالت «غایب» برود"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:6
+msgid ""
+"Whether Empathy should go into away mode automatically if the user is idle."
+msgstr ""
+"این‌که امپاتی در صورت بی‌کار بودن کاربر، خودکار به حالت «غایب» برود یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:7
+msgid "Empathy default download folder"
+msgstr "پوشه‌ی پیش‌فرض بارگیری امپاتی"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:8
+msgid "The default folder to save file transfers in."
+msgstr "پوشه‌ی پیش‌فرض برای ذخیره‌ی پرونده‌های انتقالی."
+
+#. translators: Automatic tasks which are run once to port/update account settings. Ideally, this shouldn't be exposed to users at all, we just use a gsettings key here as an optimization to only run it only once.
+#: ../data/org.gnome.Empathy.gschema.xml.h:10
+msgid "Magic number used to check if sanity cleaning tasks should be run"
+msgstr "عدد جادویی برای بررسی وضعیت پاک‌سازی جهت اجرا"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:11
+msgid ""
+"empathy-sanity-cleaning.c uses this number to check if the cleaning tasks "
+"should be executed or not. Users should not change this key manually."
+msgstr ""
+"پرونده empathy-sanity-cleaning.c این عدد را بررسی می‌کند تا متوجه شود که "
+"پاک‌سازی باید اجرا شود یا خیر. کاربران نباید این کلید را بصورت دستی تغییر "
+"دهند."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:12
+#: ../src/empathy-preferences.ui.h:1
+msgid "Show offline contacts"
+msgstr "نمایش آشنا‌های برون‌خط"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:13
+msgid "Whether to show contacts that are offline in the contact list."
+msgstr "این‌که آشناهایی که برون‌خط هستند در فهرست آشناها دیده شوند یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:14
+msgid "Show Balance in contact list"
+msgstr "نمایش اعتبار در فهرست آشناها"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:15
+msgid "Whether to show account balances in the contact list."
+msgstr "این‌که در فهرست آشناها، اعتبار حساب‌ها نمایش داده شود یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:16
+msgid "Hide main window"
+msgstr "مخفی کردن پنجره‌ی اصلی"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:17
+msgid "Hide the main window."
+msgstr "مخفی کردن پنجره‌ی اصلی."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:18
+msgid "Default directory to select an avatar image from"
+msgstr "شاخه‌ی پیش‌فرض برای انتخاب تصویر آواتار از آن"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:19
+msgid "The last directory that an avatar image was chosen from."
+msgstr "آخرین شاخه‌ای که یک آواتار از آن انتخاب شده بود."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:20
+msgid "Open new chats in separate windows"
+msgstr "گپ‌های جدید در پنجره‌ی مجزا باز شود"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:21
+msgid "Always open a separate chat window for new chats."
+msgstr "برای گپ‌های جدید، همیشه یک پنجره‌ی جدید گپ باز شود."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:22
+msgid "Display incoming events in the status area"
+msgstr "رویدادهای ورودی در منطقه‌ی وضعیت نمایش داده شوند"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:23
+msgid ""
+"Display incoming events in the status area. If false, present them to the "
+"user immediately."
+msgstr ""
+"رویدادهای ورودی در منطقه‌ی وضعیت نمایش داده شوند. اگر نادرست باشد، مستقیما به "
+"کاربر نمایش داده شوند."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:24
+msgid "The position for the chat window side pane"
+msgstr "مکان قاب کناری پنجره‌ی گپ"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:25
+msgid "The stored position (in pixels) of the chat window side pane."
+msgstr "مکان ذخیره شده‌ی (به نقطه) قاب کناری پنجره‌ی گپ."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:26
+msgid "Show contact groups"
+msgstr "نمایش گروه آشناها"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:27
+msgid "Whether to show groups in the contact list."
+msgstr "این‌که آیا در فهرست آشناها گروه‌ها نمایش داده شود یا نه."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:28
+msgid "Use notification sounds"
+msgstr "به کار انداختن صداهای اخطارها"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:29
+msgid "Whether to play a sound to notify of events."
+msgstr "این‌که برای اطلاع رویدادها صدایی پخش بشود یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:30
+msgid "Disable sounds when away"
+msgstr "در حالت «غایب»، صداها از کار بیافتند"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:31
+msgid "Whether to play sound notifications when away or busy."
+msgstr "این‌که هنگام تغییر حالت به «مشغول» یا «غایب» صدایی پخش شود یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:32
+msgid "Play a sound for incoming messages"
+msgstr "هنگام دریافت پیام، صدایی پخش شود"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:33
+msgid "Whether to play a sound to notify of incoming messages."
+msgstr "این‌که برای اطلاع از پیام‌های ورودی صدایی پخش شود یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:34
+msgid "Play a sound for outgoing messages"
+msgstr "برای پیام‌های خروجی صدایی پخش شود"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:35
+msgid "Whether to play a sound to notify of outgoing messages."
+msgstr "این‌که برای اطلاع از پیام‌های خروجی صدایی پخش شود یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:36
+msgid "Play a sound for new conversations"
+msgstr "برای مکالمه‌های جدید صدایی پخش شود"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:37
+msgid "Whether to play a sound to notify of new conversations."
+msgstr "این‌که برای اطلاع از گفتگوهای جدید صدایی پخش شود یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:38
+msgid "Play a sound when a contact logs in"
+msgstr "وقتی آشنایی وارد می‌شود صدایی پخش شود"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:39
+msgid "Whether to play a sound to notify of contacts logging into the network."
+msgstr "این‌که برای اطلاع دادن از ورود آشناها به شبکه، صدایی پخش شود یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:40
+msgid "Play a sound when a contact logs out"
+msgstr "وقتی کاربری خارج می‌شود صدایی پخش شود"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:41
+msgid ""
+"Whether to play a sound to notify of contacts logging out of the network."
+msgstr "این‌که برای اطلاع دادن از خروج آشناها از شبکه، صدای پخش شود یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:42
+msgid "Play a sound when we log in"
+msgstr "وقتی وارد می‌شویم صدایی پخش شود"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:43
+msgid "Whether to play a sound when logging into a network."
+msgstr "این‌که هنگام ورود به شبکه صدایی پخش شود یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:44
+msgid "Play a sound when we log out"
+msgstr "وقتی خارج می‌شویم صدایی پخش شود"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:45
+msgid "Whether to play a sound when logging out of a network."
+msgstr "این‌که هنگام خروج از شبکه صدایی پخش شود یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:46
+msgid "Enable popup notifications for new messages"
+msgstr "فعال‌سازی اطلاعیه‌های واشو برای پیام‌های جدید"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:47
+msgid "Whether to show a popup notification when receiving a new message."
+msgstr ""
+"این‌که هنگام دریافت یک پیام جدید، یک اطلاعیه‌ی واشو نمایش داده شود یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:48
+msgid "Disable popup notifications when away"
+msgstr "در حالت «غایب»، اطلاعیه‌های واشو از کار بیافتند"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:49
+msgid "Whether to show popup notifications when away or busy."
+msgstr ""
+"این‌که در حالت «غایب» یا «مشغول»، اطلاعیه‌های واشو نمایش داده شوند یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:50
+msgid "Pop up notifications if the chat isn't focused"
+msgstr "در صورتیکه پنجره‌ی گپ در مرکز توجه نیست، اطلاعیه‌های واشو انجام شود"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:51
+msgid ""
+"Whether to show a popup notification when receiving a new message even if "
+"the chat is already opened, but not focused."
+msgstr ""
+"این‌که هنگام دریافت پیام جدید، یک اطلاعیه‌ی واشو نمایش داده شود، حتی اگر "
+"پنجره‌ی گپ پیشاپیش باز شده باشد، ولی در مرکز توجه نباشد، یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:52
+msgid "Pop up notifications when a contact logs in"
+msgstr "وقتی آشنایی وارد می‌شود، اطلاعیه‌های واشو انجام شود"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:53
+msgid "Whether to show a popup notification when a contact goes online."
+msgstr "این‌که وقتی آشنایی برخط می‌شود، یک اطلاعیه‌ی واشو نمایش داده شود یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:54
+msgid "Pop up notifications when a contact logs out"
+msgstr "وقتی آشنایی خارج می‌شود، اطلاعیه‌های واشو انجام شود"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:55
+msgid "Whether to show a popup notification when a contact goes offline."
+msgstr ""
+"این‌که وقتی آشنایی برون‌خط می‌شود، یک اطلاعیه‌ی واشو نمایش داده شود یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:56
+msgid "Use graphical smileys"
+msgstr "استفاده از صورتک‌های گرافیکی"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:57
+msgid "Whether to convert smileys into graphical images in conversations."
+msgstr "این‌که در گفتگوها، صورتک‌ها تبدیل به تصویر گرافیکی شوند یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:58
+msgid "Show contact list in rooms"
+msgstr "نمایش فهرست افراد در اتاق‌ها"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:59
+msgid "Whether to show the contact list in chat rooms."
+msgstr "این‌که فهرست آشناها در اتاق‌های گپ دیده شود یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:60
+msgid "Chat window theme"
+msgstr "تم پنجره‌ی گپ"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:61
+msgid "The theme that is used to display the conversation in chat windows."
+msgstr "تمی که برای نشان دادن گفتگو در پنجره‌ی چت استفاده می‌شود."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:62
+msgid "Chat window theme variant"
+msgstr "گزینه‌های تم پنجره‌ی گپ"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:63
+msgid ""
+"The theme variant that is used to display the conversation in chat windows."
+msgstr "گزینه تمی که برای نمایش گفتگو پنجره گپ استفاده می‌شود."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:64
+msgid "Path of the Adium theme to use"
+msgstr "مسیر تم Adium برای استفاده"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:65
+msgid ""
+"Path of the Adium theme to use if the theme used for chat is Adium. "
+"Deprecated."
+msgstr ""
+"مسیر تم Adium برای استفاده چناچه تم مورد استفاده برای گپ Adium باشد. منسوخ "
+"شده."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:66
+msgid "Enable WebKit Developer Tools"
+msgstr "فعال‌سازی ابزارهای توسعه‌ی WebKit"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:67
+msgid ""
+"Whether WebKit developer tools, such as the Web Inspector, should be enabled."
+msgstr ""
+"این‌که ابزارهای توسعه‌ی WebKit، مانند Web Inspector، باید به کار بیافتد یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:68
+msgid "Inform other users when you are typing to them"
+msgstr "هنگامی که شما در حال تایپ هستید به کاربران دیگر اطلاع داده شود"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:69
+msgid ""
+"Whether to send the 'composing' or 'paused' chat states. Does not currently "
+"affect the 'gone' state."
+msgstr ""
+"این‌که آیا وضعیت‌های «درحال ارسال» یا «مکث» ارسال شود یا نه. درحال حاضر در "
+"وضعیت «غایب» تاثیری ندارد."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:70
+msgid "Use theme for chat rooms"
+msgstr "استفاده از تم برای اتاق‌های گپ"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:71
+msgid "Whether to use the theme for chat rooms."
+msgstr "این‌که از تم برای اتاق‌های گپ استفاده شود یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:72
+msgid "Spell checking languages"
+msgstr "زبان‌ها برای غلط‌یابی املایی"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:73
+msgid ""
+"Comma-separated list of spell checker languages to use (e.g. \"en, fr, nl\")."
+msgstr ""
+"فهرست زبان‌ها جهت غلط‌یابی املایی، جدا شده با ویرگول (مثال: «en, fr, nl»)."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:74
+msgid "Enable spell checker"
+msgstr "به کار انداختن غلط‌یابی املایی"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:75
+msgid ""
+"Whether to check words typed against the languages you want to check with."
+msgstr ""
+"این‌که کلماتی که تایپ می‌کنید براساس زبان‌هایی که می‌خواهید بررسی شود، یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:76
+msgid "Nick completed character"
+msgstr "نویسه‌ی کامل شده لقب"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:77
+msgid ""
+"Character to add after nickname when using nick completion (tab) in group "
+"chat."
+msgstr ""
+"نویسه‌ای که هنگام کامل کردن اسم (با کلید جهش) در گپ گروهی، بعد از نام مستعار "
+"اضافه می‌شود."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:78
+msgid "Empathy should use the avatar of the contact as the chat window icon"
+msgstr "امپاتی از آواتار برای شمایل پنجره‌ی گپ استفاده کند"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:79
+msgid ""
+"Whether Empathy should use the avatar of the contact as the chat window icon."
+msgstr "این‌که امپاتی از آواتار آشنا برای شمایل پنجره‌ی گپ استفاده کند یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:80
+msgid "Last account selected in Join Room dialog"
+msgstr "آخرین حساب انتخاب شده در محاوره‌ی «پیوستن به اتاق»"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:81
+msgid "D-Bus object path of the last account selected to join a room."
+msgstr "مسیر شی در D-Bus برای آخرین حساب انتخاب شده برای پیوستن به یک اتاق."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:82
+msgid "Camera device"
+msgstr "دوربین"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:83
+msgid "Default camera device to use in video calls, e.g. /dev/video0."
+msgstr "دستگاه دوربین پیش‌فرض جهت استفاده در تماس‌های ویدئویی، مثال dev/video0/."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:84
+msgid "Camera position"
+msgstr "محل دوربین"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:85
+msgid "Position the camera preview should be during a call."
+msgstr "موقعیتی که پیش‌نمایش دوربین باید در حین تماس آنجا باشد."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:86
+msgid "Echo cancellation support"
+msgstr "پشتیبانی از لغو پژواک صدا"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:87
+msgid "Whether to enable Pulseaudio's echo cancellation filter."
+msgstr "این‌که آیا فیلتر لغو پژواک صدای Pulseaudio فعال شود یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:88
+msgid "Show hint about closing the main window"
+msgstr "هنگام بستن پنجره، راهنمایی نشان داده شود"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:89
+msgid ""
+"Whether to show the message dialog about closing the main window with the "
+"'x' button in the title bar."
+msgstr ""
+"این‌که در صورت بستن برنامه توسط دکمه‌ی «x»، محاوره‌ی پیام در این مورد نشان داده "
+"شود یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:90
+msgid "Empathy can publish the user's location"
+msgstr "امپاتی می‌تواند مکان کاربر را منتشر کند"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:91
+msgid "Whether Empathy can publish the user's location to their contacts."
+msgstr ""
+"این‌که امپاتی اجازه داشته باشد، مکان کاربر را برای آشنایان منتشر کنند یا خیر."
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:92
+msgid "Empathy should reduce the location's accuracy"
+msgstr "امپاتی دقت مکان را کاهش دهد"
+
+#: ../data/org.gnome.Empathy.gschema.xml.h:93
+msgid ""
+"Whether Empathy should reduce the location's accuracy for privacy reasons."
+msgstr "این‌که امپاتی دقت مکان را به دلیل حریم خصوصی کاهش دهد یا خیر."
+
+#: ../libempathy/empathy-ft-handler.c:730
+msgid "No reason was specified"
+msgstr "هیچ دلیلی مشخص نشده بود"
+
+#: ../libempathy/empathy-ft-handler.c:733
+msgid "The change in state was requested"
+msgstr "درخواست تغییر در حالت داده شده بود"
+
+#: ../libempathy/empathy-ft-handler.c:736
+msgid "You canceled the file transfer"
+msgstr "شما انتقال پرونده را لغو کردید"
+
+#: ../libempathy/empathy-ft-handler.c:739
+msgid "The other participant canceled the file transfer"
+msgstr "مشترک طرف دیگر انتقال پرونده را لغو کرد"
+
+#: ../libempathy/empathy-ft-handler.c:742
+msgid "Error while trying to transfer the file"
+msgstr "در حین تلاش برای انتقال پرونده خطایی رخ داد"
+
+#: ../libempathy/empathy-ft-handler.c:745
+msgid "The other participant is unable to transfer the file"
+msgstr "مشترک طرف دیگر نمی‌تواند پرونده را منتقل کند"
+
+#: ../libempathy/empathy-ft-handler.c:748 ../libempathy/empathy-utils.c:260
+msgid "Unknown reason"
+msgstr "دلیل ناشناخته"
+
+#: ../libempathy/empathy-ft-handler.c:895
+msgid "File transfer completed, but the file was corrupted"
+msgstr "انتقال پرونده کامل شد، اما پرونده خراب بود"
+
+#: ../libempathy/empathy-ft-handler.c:1176
+msgid "File transfer not supported by remote contact"
+msgstr "انتقال پرونده توسط آشنای دوردست پشتیبانی نمی‌شود"
+
+#: ../libempathy/empathy-ft-handler.c:1232
+msgid "The selected file is not a regular file"
+msgstr "پرونده‌ی انتخاب شده، پرونده‌ی عادی‌ای نیست"
+
+#: ../libempathy/empathy-ft-handler.c:1241
+msgid "The selected file is empty"
+msgstr "پرونده‌ی انتخاب شده خالی است"
+
+#: ../libempathy/empathy-message.c:385 ../src/empathy-call-observer.c:108
+#, c-format
+msgid "Missed call from %s"
+msgstr "تماس از دست رفته از %s"
+
+#. Translators: this is an outgoing call, e.g. 'Called Alice'
+#: ../libempathy/empathy-message.c:389
+#, c-format
+msgid "Called %s"
+msgstr "تماس به %s"
+
+#: ../libempathy/empathy-message.c:392
+#, c-format
+msgid "Call from %s"
+msgstr "تماس از %s"
+
+#: ../libempathy/empathy-utils.c:180
+msgid "Available"
+msgstr "در دسترس"
+
+#: ../libempathy/empathy-utils.c:182
+msgid "Busy"
+msgstr "مشغول"
+
+#: ../libempathy/empathy-utils.c:185
+msgid "Away"
+msgstr "غایب"
+
+#: ../libempathy/empathy-utils.c:187
+msgid "Invisible"
+msgstr "مخفی"
+
+#: ../libempathy/empathy-utils.c:189
+msgid "Offline"
+msgstr "برون‌خط"
+
+#. translators: presence type is unknown
+#: ../libempathy/empathy-utils.c:192
+msgctxt "presence"
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: ../libempathy/empathy-utils.c:232
+msgid "No reason specified"
+msgstr "هیچ دلیلی مشخص نشده است"
+
+#: ../libempathy/empathy-utils.c:234 ../libempathy/empathy-utils.c:290
+msgid "Status is set to offline"
+msgstr "وضعیت روی برون‌خط تنظیم شده است"
+
+#: ../libempathy/empathy-utils.c:236 ../libempathy/empathy-utils.c:270
+#: ../libempathy-gtk/empathy-call-utils.c:42
+#: ../libempathy-gtk/empathy-new-message-dialog.c:70
+msgid "Network error"
+msgstr "خطای شبکه"
+
+#: ../libempathy/empathy-utils.c:238 ../libempathy/empathy-utils.c:272
+msgid "Authentication failed"
+msgstr "تأیید هویت شکست خورد"
+
+#: ../libempathy/empathy-utils.c:240 ../libempathy/empathy-utils.c:274
+msgid "Encryption error"
+msgstr "خطای رمزنگاری"
+
+#: ../libempathy/empathy-utils.c:242
+msgid "Name in use"
+msgstr "نام استفاده شده"
+
+#: ../libempathy/empathy-utils.c:244 ../libempathy/empathy-utils.c:276
+msgid "Certificate not provided"
+msgstr "گواهی فراهم نشده است"
+
+#: ../libempathy/empathy-utils.c:246 ../libempathy/empathy-utils.c:278
+msgid "Certificate untrusted"
+msgstr "گواهی غیر قابل اعتماد"
+
+#: ../libempathy/empathy-utils.c:248 ../libempathy/empathy-utils.c:280
+msgid "Certificate expired"
+msgstr "گواهی منقضی شده است"
+
+#: ../libempathy/empathy-utils.c:250 ../libempathy/empathy-utils.c:282
+msgid "Certificate not activated"
+msgstr "گواهی فعال نشده است"
+
+#: ../libempathy/empathy-utils.c:252 ../libempathy/empathy-utils.c:284
+msgid "Certificate hostname mismatch"
+msgstr "عدم تطابق گواهی در نام میزبان"
+
+#: ../libempathy/empathy-utils.c:254 ../libempathy/empathy-utils.c:286
+msgid "Certificate fingerprint mismatch"
+msgstr "عدم تطابق گواهی در اثر انگشت"
+
+#: ../libempathy/empathy-utils.c:256 ../libempathy/empathy-utils.c:288
+msgid "Certificate self-signed"
+msgstr "گواهی خود امضا شده"
+
+#: ../libempathy/empathy-utils.c:258
+msgid "Certificate error"
+msgstr "خطای گواهی"
+
+#: ../libempathy/empathy-utils.c:292
+msgid "Encryption is not available"
+msgstr "رمزنگاری در دسترس نیست"
+
+#: ../libempathy/empathy-utils.c:294
+msgid "Certificate is invalid"
+msgstr "گواهی نامعتبر است"
+
+#: ../libempathy/empathy-utils.c:296
+msgid "Connection has been refused"
+msgstr "اتصال رد شده است"
+
+#: ../libempathy/empathy-utils.c:298
+msgid "Connection can't be established"
+msgstr "اتصال برقرار نمی‌شود"
+
+#: ../libempathy/empathy-utils.c:300
+msgid "Connection has been lost"
+msgstr "اتصال از دست رفت"
+
+#: ../libempathy/empathy-utils.c:302
+msgid "This account is already connected to the server"
+msgstr "این منبع از قبل به کارگزار متصل شده است"
+
+#: ../libempathy/empathy-utils.c:304
+msgid ""
+"Connection has been replaced by a new connection using the same resource"
+msgstr "اتصال با یک اتصال جدید با استفاده از همان منبع، جایگزین شده است"
+
+#: ../libempathy/empathy-utils.c:307
+msgid "The account already exists on the server"
+msgstr "حساب پیشاپیش بر روی کارگزار وجود دارد"
+
+#: ../libempathy/empathy-utils.c:309
+msgid "Server is currently too busy to handle the connection"
+msgstr "کارگزار فعلا خیلی مشغول است و نمی‌تواند اتصال را برقرار کند"
+
+#: ../libempathy/empathy-utils.c:311
+msgid "Certificate has been revoked"
+msgstr "گواهی لغو شده است"
+
+#: ../libempathy/empathy-utils.c:313
+msgid ""
+"Certificate uses an insecure cipher algorithm or is cryptographically weak"
+msgstr ""
+"گواهی از یک الگوریتم رمز نا‌امن استفاده می‌کند یا از نظر رمزنگاری ضعیف است"
+
+#: ../libempathy/empathy-utils.c:316
+msgid ""
+"The length of the server certificate, or the depth of the server certificate "
+"chain, exceed the limits imposed by the cryptography library"
+msgstr ""
+"طول گواهی کارگزار، یا عمق زنجیر گواهی کارگزار از حد محدود شده توسط کتابخانه "
+"cryptography رد می‌شود"
+
+#: ../libempathy/empathy-utils.c:320
+msgid "Your software is too old"
+msgstr "نرم‌افزار شما خیلی قدیمی است"
+
+#: ../libempathy/empathy-utils.c:322
+msgid "Internal error"
+msgstr "خطا داخلی"
+
+#: ../libempathy-gtk/empathy-account-chooser.c:687
+msgid "All accounts"
+msgstr "تمام حساب‌ها"
+
+#: ../libempathy-gtk/empathy-avatar-image.c:320
+msgid "Click to enlarge"
+msgstr "برای بزرگ کردن کلیک کنید"
+
+#: ../libempathy-gtk/empathy-bad-password-dialog.c:128
+#, c-format
+msgid "Authentication failed for account <b>%s</b>"
+msgstr "تأیید هویتِ برای حساب <b>%s</b> شکست خورد"
+
+#: ../libempathy-gtk/empathy-bad-password-dialog.c:140
+#: ../libempathy-gtk/empathy-chat.c:3828
+msgid "Retry"
+msgstr "تلاش مجدد"
+
+#: ../libempathy-gtk/empathy-base-password-dialog.c:225
+#: ../libempathy-gtk/empathy-password-dialog.c:134
+#, c-format
+msgid ""
+"Enter your password for account\n"
+"<b>%s</b>"
+msgstr ""
+"گذرواژه خود را برای حساب زیر وارد کنید\n"
+"<b>%s</b>"
+
+#. remember password ticky box
+#: ../libempathy-gtk/empathy-base-password-dialog.c:262
+msgid "Remember password"
+msgstr "به خاطر سپردن گذرواژه"
+
+#: ../libempathy-gtk/empathy-call-utils.c:37
+#: ../libempathy-gtk/empathy-call-utils.c:55
+msgid "There was an error starting the call"
+msgstr "خطایی در هنگام شروع تماس بود"
+
+#: ../libempathy-gtk/empathy-call-utils.c:44
+msgid "The specified contact doesn't support calls"
+msgstr "آشنای مشخص شده از تماس پشتیبانی نمی‌کند"
+
+#: ../libempathy-gtk/empathy-call-utils.c:46
+msgid "The specified contact is offline"
+msgstr "آشنای انتخاب شده برون‌خط است"
+
+#: ../libempathy-gtk/empathy-call-utils.c:48
+msgid "The specified contact is not valid"
+msgstr "آشنای انتخاب شده صحیح نیست"
+
+#: ../libempathy-gtk/empathy-call-utils.c:50
+msgid "Emergency calls are not supported on this protocol"
+msgstr "تماس‌های اضطراری بر روی این پروتکل پشتیبانی نمی‌شوند"
+
+#: ../libempathy-gtk/empathy-call-utils.c:52
+msgid "You don't have enough credit in order to place this call"
+msgstr "شما اعتبار کافی برای برقرار این تماس را ندارید"
+
+#: ../libempathy-gtk/empathy-chat.c:729
+msgid "Failed to open private chat"
+msgstr "شکست در باز کردن گپ خصوصی"
+
+#: ../libempathy-gtk/empathy-chat.c:787
+msgid "Topic not supported on this conversation"
+msgstr "در این گفتگو سرفصل پشتیبانی نمی‌شود"
+
+#: ../libempathy-gtk/empathy-chat.c:793
+msgid "You are not allowed to change the topic"
+msgstr "شما اجازه‌ی تغییرسرفصل را ندارید"
+
+#: ../libempathy-gtk/empathy-chat.c:964
+msgid "Invalid contact ID"
+msgstr "شناسه آشنای نامعتبر"
+
+#: ../libempathy-gtk/empathy-chat.c:1051
+msgid "/clear: clear all messages from the current conversation"
+msgstr "/clear: تمام پیام‌ها در گفتگوی جاری را پاک می‌کند"
+
+#: ../libempathy-gtk/empathy-chat.c:1054
+msgid "/topic <topic>: set the topic of the current conversation"
+msgstr "/topic <topic>: بدینوسیله سرفصل گفتگو مشخص می‌شود"
+
+#: ../libempathy-gtk/empathy-chat.c:1057
+msgid "/join <chat room ID>: join a new chat room"
+msgstr "/join <chat room ID>: پیوستن به یک اتاق گپ جدید"
+
+#: ../libempathy-gtk/empathy-chat.c:1060
+msgid "/j <chat room ID>: join a new chat room"
+msgstr "/j <chat room ID>: پیوستن به یک اتاق گپ جدید"
+
+#: ../libempathy-gtk/empathy-chat.c:1064
+msgid ""
+"/part [<chat room ID>] [<reason>]: leave the chat room, by default the "
+"current one"
+msgstr ""
+"/part [<chat room ID>] [<reason>]: ترک اطاق گپ، به طور پیش‌فرض مورد فعلی"
+
+#: ../libempathy-gtk/empathy-chat.c:1068
+msgid "/query <contact ID> [<message>]: open a private chat"
+msgstr "/query <contact ID> [<message>]: باز کردن یک گپ خصوصی"
+
+#: ../libempathy-gtk/empathy-chat.c:1071
+msgid "/msg <contact ID> <message>: open a private chat"
+msgstr "/msg <contact ID> <message>: باز کردن یک گپ خصوصی"
+
+#: ../libempathy-gtk/empathy-chat.c:1074
+msgid "/nick <nickname>: change your nickname on the current server"
+msgstr "/nick <nickname>: تغییر لقب شما در کارگزار جاری"
+
+#: ../libempathy-gtk/empathy-chat.c:1077
+msgid "/me <message>: send an ACTION message to the current conversation"
+msgstr "/me <message>: فرستادن یک پیام وضعیت به گفتگوی فعلی"
+
+#: ../libempathy-gtk/empathy-chat.c:1080
+msgid ""
+"/say <message>: send <message> to the current conversation. This is used to "
+"send a message starting with a '/'. For example: \"/say /join is used to "
+"join a new chat room\""
+msgstr ""
+"/say <message>: فرستادن یک پیام به گفتگوی فعلی، از این می‌توان برای فرستادن "
+"پیام‌های خاص استفاده کرد، مثلا اگر پیامی با '/' شروع شده باشد مثلا: «/say /"
+"join is used to join a new chat room»"
+
+#: ../libempathy-gtk/empathy-chat.c:1085
+msgid "/whois <contact ID>: display information about a contact"
+msgstr "/whois <contact ID>: نمایش اطلاعات در خصوص یک آشنا"
+
+#: ../libempathy-gtk/empathy-chat.c:1088
+msgid ""
+"/help [<command>]: show all supported commands. If <command> is defined, "
+"show its usage."
+msgstr ""
+"/help [<command>]: نشان دادن تمام پیام‌های پشتیبانی شده. اگر <command> مشخص "
+"شده باشد، استفاده‌ی آن نمایش داده می‌شود."
+
+#: ../libempathy-gtk/empathy-chat.c:1107
+#, c-format
+msgid "Usage: %s"
+msgstr "کاربرد: %s"
+
+#: ../libempathy-gtk/empathy-chat.c:1152
+msgid "Unknown command"
+msgstr "فرمان ناشناخته"
+
+#: ../libempathy-gtk/empathy-chat.c:1278
+msgid "Unknown command; see /help for the available commands"
+msgstr "دستور ناشناخته؛ help/ را برای دیدن دستورهای موجود ببینید"
+
+#: ../libempathy-gtk/empathy-chat.c:1533
+msgid "insufficient balance to send message"
+msgstr "مانده اعتبار برای ارسای پیام کافی نیست"
+
+#: ../libempathy-gtk/empathy-chat.c:1537 ../libempathy-gtk/empathy-chat.c:1551
+#: ../libempathy-gtk/empathy-chat.c:1614
+#, c-format
+msgid "Error sending message '%s': %s"
+msgstr "خطا در فرستان پیام «%s»: %s"
+
+#: ../libempathy-gtk/empathy-chat.c:1539 ../libempathy-gtk/empathy-chat.c:1556
+#: ../libempathy-gtk/empathy-chat.c:1618
+#, c-format
+msgid "Error sending message: %s"
+msgstr "خطا در فرستان پیام: %s"
+
+#. translators: error used when user doesn't have enough credit on his
+#. * account to send the message.
+#: ../libempathy-gtk/empathy-chat.c:1545
+#, c-format
+msgid "insufficient balance to send message. <a href='%s'>Top up</a>."
+msgstr "مانده اعتبار برای ارسال پیام کافی نیست. <a href='%s'>بالا بردن</a>."
+
+#: ../libempathy-gtk/empathy-chat.c:1585
+msgid "not capable"
+msgstr "قابلیت لازم را ندارد"
+
+#: ../libempathy-gtk/empathy-chat.c:1592
+msgid "offline"
+msgstr "برون‌خط"
+
+#: ../libempathy-gtk/empathy-chat.c:1595
+msgid "invalid contact"
+msgstr "آشنای نامعتبر"
+
+#: ../libempathy-gtk/empathy-chat.c:1598
+msgid "permission denied"
+msgstr "مجوز رد شد"
+
+#: ../libempathy-gtk/empathy-chat.c:1601
+msgid "too long message"
+msgstr "پیام خیلی بلند است"
+
+#: ../libempathy-gtk/empathy-chat.c:1604
+msgid "not implemented"
+msgstr "پیاده‌سازی نشده است"
+
+#: ../libempathy-gtk/empathy-chat.c:1608
+msgid "unknown"
+msgstr "ناشناخته"
+
+#: ../libempathy-gtk/empathy-chat.c:1675 ../src/empathy-chat-window.c:973
+msgid "Topic:"
+msgstr "سرفصل:"
+
+#: ../libempathy-gtk/empathy-chat.c:1690
+#, c-format
+msgid "Topic set to: %s"
+msgstr "سرفصل تنظیم شد: %s"
+
+#: ../libempathy-gtk/empathy-chat.c:1692
+#, c-format
+msgid "Topic set by %s to: %s"
+msgstr "سرفصل توسط %s تنظیم شد: %s"
+
+#. No need to display this 'event' is no topic can be defined anyway
+#: ../libempathy-gtk/empathy-chat.c:1697
+msgid "No topic defined"
+msgstr "هیچ سرفصلی تعریف نشده است"
+
+#: ../libempathy-gtk/empathy-chat.c:2215
+msgid "(No Suggestions)"
+msgstr "(پیشنهادی نیست)"
+
+#. translators: %s is the selected word
+#: ../libempathy-gtk/empathy-chat.c:2283
+#, c-format
+msgid "Add '%s' to Dictionary"
+msgstr "اضافه کردن «%s» به لغت‌نامه"
+
+#. translators: first %s is the selected word,
+#. * second %s is the language name of the target dictionary
+#: ../libempathy-gtk/empathy-chat.c:2320
+#, c-format
+msgid "Add '%s' to %s Dictionary"
+msgstr "اضافه‌کردن «%s» به لغت‌نامه «%s»"
+
+#: ../libempathy-gtk/empathy-chat.c:2390
+msgid "Insert Smiley"
+msgstr "درج صورتک"
+
+#. send button
+#: ../libempathy-gtk/empathy-chat.c:2408
+#: ../libempathy-gtk/empathy-ui-utils.c:809
+msgid "_Send"
+msgstr "_ارسال"
+
+#. Spelling suggestions
+#: ../libempathy-gtk/empathy-chat.c:2465
+msgid "_Spelling Suggestions"
+msgstr "پیشنهادات _املایی"
+
+#: ../libempathy-gtk/empathy-chat.c:2570
+msgid "Failed to retrieve recent logs"
+msgstr "بازیابی وقایع ثبت شده، شکست خورد"
+
+#: ../libempathy-gtk/empathy-chat.c:2808
+#, c-format
+msgid "%s has disconnected"
+msgstr "مورد %s قطع شده است"
+
+#. translators: reverse the order of these arguments
+#. * if the kicked should come before the kicker in your locale.
+#.
+#: ../libempathy-gtk/empathy-chat.c:2815
+#, c-format
+msgid "%1$s was kicked by %2$s"
+msgstr "فرد %1$s توسط %2$s شوت شد"
+
+#: ../libempathy-gtk/empathy-chat.c:2818
+#, c-format
+msgid "%s was kicked"
+msgstr "فرد %s شوت شد"
+
+#. translators: reverse the order of these arguments
+#. * if the banned should come before the banner in your locale.
+#.
+#: ../libempathy-gtk/empathy-chat.c:2826
+#, c-format
+msgid "%1$s was banned by %2$s"
+msgstr "فرد %1$s توسط %2$s تحریم شد"
+
+#: ../libempathy-gtk/empathy-chat.c:2829
+#, c-format
+msgid "%s was banned"
+msgstr "فرد %s تحریم شد"
+
+#: ../libempathy-gtk/empathy-chat.c:2833
+#, c-format
+msgid "%s has left the room"
+msgstr "فرد %s از اتاق خارج شد"
+
+#. Note to translators: this string is appended to
+#. * notifications like "foo has left the room", with the message
+#. * given by the user living the room. If this poses a problem,
+#. * please let us know. :-)
+#.
+#: ../libempathy-gtk/empathy-chat.c:2842
+#, c-format
+msgid " (%s)"
+msgstr " (%s)"
+
+#: ../libempathy-gtk/empathy-chat.c:2867
+#, c-format
+msgid "%s has joined the room"
+msgstr "فرد %s به اتاق پیوست"
+
+#: ../libempathy-gtk/empathy-chat.c:2892
+#, c-format
+msgid "%s is now known as %s"
+msgstr "فرد %s اکنون با %s شناخته می‌شود"
+
+#. We don't know if the incoming call has been accepted or not, so we
+#. * assume it hasn't and if it has, we'll set the proper status when
+#. * we get the new handler.
+#: ../libempathy-gtk/empathy-chat.c:3079 ../src/empathy-call-window.c:1526
+#: ../src/empathy-call-window.c:1576 ../src/empathy-call-window.c:2655
+#: ../src/empathy-call-window.c:2954 ../src/empathy-event-manager.c:1141
+msgid "Disconnected"
+msgstr "قطع شد"
+
+#. Add message
+#: ../libempathy-gtk/empathy-chat.c:3768
+msgid "Would you like to store this password?"
+msgstr "آیا مایلید این گذرواژه را ذخیره کنید؟"
+
+#: ../libempathy-gtk/empathy-chat.c:3774
+msgid "Remember"
+msgstr "به خاطر بسپار"
+
+#: ../libempathy-gtk/empathy-chat.c:3784
+msgid "Not now"
+msgstr "الان خیر"
+
+#: ../libempathy-gtk/empathy-chat.c:3832
+msgid "Wrong password; please try again:"
+msgstr "گذرواژه اشتباه است؛ لطفا دوباره سعی کنید:"
+
+#. Add message
+#: ../libempathy-gtk/empathy-chat.c:3956
+msgid "This room is protected by a password:"
+msgstr "این اتاق توسط یک گذرواژه محافظت می‌شود:"
+
+#: ../libempathy-gtk/empathy-chat.c:3983
+#: ../src/empathy-new-chatroom-dialog.c:787
+msgid "Join"
+msgstr "پیوستن"
+
+#: ../libempathy-gtk/empathy-chat.c:4175 ../src/empathy-event-manager.c:1162
+msgid "Connected"
+msgstr "متصل شد"
+
+#: ../libempathy-gtk/empathy-chat.c:4227
+msgid "Conversation"
+msgstr "گفتگو"
+
+#. Translators: this string is a something like
+#. * "Escher Cat (SMS)"
+#: ../libempathy-gtk/empathy-chat.c:4232
+#, c-format
+msgid "%s (SMS)"
+msgstr "%s (اس‌ام‌اس)"
+
+#: ../libempathy-gtk/empathy-contact-blocking-dialog.c:263
+msgid "Unknown or invalid identifier"
+msgstr "شناساگر نامعتبر و یا ناشناس است"
+
+#: ../libempathy-gtk/empathy-contact-blocking-dialog.c:265
+msgid "Contact blocking temporarily unavailable"
+msgstr "امکان مسدود کردن آشنا به صورت موقت غیرفعال است"
+
+#: ../libempathy-gtk/empathy-contact-blocking-dialog.c:267
+msgid "Contact blocking unavailable"
+msgstr "امکان مسدود کردن کاربر در دسترس نیست"
+
+#: ../libempathy-gtk/empathy-contact-blocking-dialog.c:269
+msgid "Permission Denied"
+msgstr "مجوز رد شد"
+
+#: ../libempathy-gtk/empathy-contact-blocking-dialog.c:273
+msgid "Could not block contact"
+msgstr "نمی‌توان آشنا را مسدود کرد"
+
+#: ../libempathy-gtk/empathy-contact-blocking-dialog.c:612
+msgid "Edit Blocked Contacts"
+msgstr "ویرایش آشناهای مسدود شده"
+
+#. Account and Identifier
+#: ../libempathy-gtk/empathy-contact-blocking-dialog.ui.h:1
+#: ../libempathy-gtk/empathy-contact-search-dialog.c:559
+#: ../libempathy-gtk/empathy-individual-widget.c:1540
+#: ../src/empathy-chatrooms-window.ui.h:2
+#: ../src/empathy-new-chatroom-dialog.ui.h:6
+msgid "Account:"
+msgstr "حساب:"
+
+#: ../libempathy-gtk/empathy-contact-blocking-dialog.ui.h:2
+msgid "Blocked Contacts"
+msgstr "آشناهای مسدود شده"
+
+#: ../libempathy-gtk/empathy-contact-blocking-dialog.ui.h:3
+#: ../libempathy-gtk/empathy-status-preset-dialog.ui.h:1
+#: ../src/empathy-accounts-dialog.ui.h:2
+#: ../src/empathy-chatrooms-window.ui.h:3
+msgid "Remove"
+msgstr "حذف"
+
+#. Title
+#: ../libempathy-gtk/empathy-contact-search-dialog.c:552
+msgid "Search contacts"
+msgstr "جستجو آشناها"
+
+#: ../libempathy-gtk/empathy-contact-search-dialog.c:582
+msgid "Search: "
+msgstr "جستجو: "
+
+#: ../libempathy-gtk/empathy-contact-search-dialog.c:640
+msgid "_Add Contact"
+msgstr "ا_فزودن آشنا"
+
+#: ../libempathy-gtk/empathy-contact-search-dialog.c:659
+msgid "No contacts found"
+msgstr "هیچ آشنایی پیدا نشد"
+
+#: ../libempathy-gtk/empathy-contact-search-dialog.c:660
+msgid "Contact search is not supported on this account"
+msgstr "در این حساب جستجو آشنا پشتیبانی نمی‌شود"
+
+#: ../libempathy-gtk/empathy-contact-search-dialog.c:666
+msgid "Your message introducing yourself:"
+msgstr "پیام شما برای معرفی خودتان:"
+
+#: ../libempathy-gtk/empathy-contact-search-dialog.c:674
+msgid "Please let me see when you're online. Thanks!"
+msgstr "لطفا اجازه بدهید بدانم چه زمانی برخط هستید. تشکر!"
+
+#: ../libempathy-gtk/empathy-contact-widget.c:158
+#: ../libempathy-gtk/empathy-individual-widget.c:955
+msgid "Save Avatar"
+msgstr "ذخیره‌ی آواتار"
+
+#: ../libempathy-gtk/empathy-contact-widget.c:214
+#: ../libempathy-gtk/empathy-individual-widget.c:1013
+msgid "Unable to save avatar"
+msgstr "ذخیره‌ی آواتار ممکن نیست"
+
+#: ../libempathy-gtk/empathy-contact-widget.ui.h:1
+#: ../src/empathy-import-widget.c:319
+msgid "Account"
+msgstr "حساب"
+
+#. Identifier to connect to Instant Messaging network
+#: ../libempathy-gtk/empathy-contact-widget.ui.h:3
+msgid "Identifier"
+msgstr "شناسه"
+
+#: ../libempathy-gtk/empathy-contact-widget.ui.h:4
+msgid "Alias"
+msgstr "نام مستعار"
+
+#: ../libempathy-gtk/empathy-contact-widget.ui.h:5
+#: ../libempathy-gtk/empathy-individual-widget.ui.h:3
+msgid "Contact Details"
+msgstr "جزئیات آشنا"
+
+#: ../libempathy-gtk/empathy-contact-widget.ui.h:6
+#: ../libempathy-gtk/empathy-individual-widget.ui.h:4
+msgid "Information requested…"
+msgstr "اطلاعات درخواست شده است..."
+
+#: ../libempathy-gtk/empathy-contact-widget.ui.h:7
+msgid "<b>Location</b> at (date)\t"
+msgstr "<b>مکان</b> در (تاریخ)\t"
+
+#: ../libempathy-gtk/empathy-contact-widget.ui.h:8
+msgid "Client Information"
+msgstr "اطلاعات کارگیر"
+
+#: ../libempathy-gtk/empathy-contact-widget.ui.h:9
+msgid "OS"
+msgstr "سیستم عامل"
+
+#: ../libempathy-gtk/empathy-contact-widget.ui.h:10
+msgid "Version"
+msgstr "نسخه"
+
+#: ../libempathy-gtk/empathy-contact-widget.ui.h:11
+msgid "Client"
+msgstr "کارگیر"
+
+#: ../libempathy-gtk/empathy-groups-widget.c:318
+msgid "Groups"
+msgstr "گروه‌ها"
+
+#: ../libempathy-gtk/empathy-groups-widget.c:330
+msgid ""
+"Select the groups you want this contact to appear in.  Note that you can "
+"select more than one group or no groups."
+msgstr ""
+"گروه‌هایی که می‌خواهید این آشنا در آن‌ها دیده شود. می‌توانید بیش از یک گروه "
+"انتخاب کنید یا هیچ گروهی را انتخاب نکنید."
+
+#: ../libempathy-gtk/empathy-groups-widget.c:349
+msgid "_Add Group"
+msgstr "_افزودن گروه"
+
+#: ../libempathy-gtk/empathy-groups-widget.c:384
+msgctxt "verb in a column header displaying group names"
+msgid "Select"
+msgstr "انتخاب"
+
+#: ../libempathy-gtk/empathy-groups-widget.c:394
+msgid "Group"
+msgstr "گروه"
+
+#: ../libempathy-gtk/empathy-individual-dialogs.c:109
+msgid "New Contact"
+msgstr "آشنای جدید"
+
+#: ../libempathy-gtk/empathy-individual-dialogs.c:184
+#: ../libempathy-gtk/empathy-subscription-dialog.c:121
+#, c-format
+msgid "Block %s?"
+msgstr "مسدود کردن %s؟"
+
+#: ../libempathy-gtk/empathy-individual-dialogs.c:239
+#: ../libempathy-gtk/empathy-subscription-dialog.c:125
+#, c-format
+msgid "Are you sure you want to block '%s' from contacting you again?"
+msgstr ""
+"آیا مطمئنید که می‌خواهید «%s» را از برقراری دوباره ارتباط با خود مسدود کنید؟"
+
+#: ../libempathy-gtk/empathy-individual-dialogs.c:244
+msgid "The following identity will be blocked:"
+msgid_plural "The following identities will be blocked:"
+msgstr[0] "هویت مقابل مسدود خواهد شد:"
+msgstr[1] "هویت‌های مقابل مسدود خواهند شد:"
+
+#: ../libempathy-gtk/empathy-individual-dialogs.c:251
+msgid "The following identity can not be blocked:"
+msgid_plural "The following identities can not be blocked:"
+msgstr[0] "هویت مقابل را نمی‌توان مسدود کرد:"
+msgstr[1] "هویت‌های مقابل را نمی‌توان مسدود کرد:"
+
+#: ../libempathy-gtk/empathy-individual-dialogs.c:261
+#: ../libempathy-gtk/empathy-subscription-dialog.c:130
+#: ../libempathy-gtk/empathy-subscription-dialog.c:275
+msgid "_Block"
+msgstr "_مسدود کردن"
+
+#: ../libempathy-gtk/empathy-individual-dialogs.c:270
+#: ../libempathy-gtk/empathy-subscription-dialog.c:150
+msgid "_Report this contact as abusive"
+msgid_plural "_Report these contacts as abusive"
+msgstr[0] "_گزارش این آشنا به عنوان سوء استفاده‌گر"
+msgstr[1] "_گزارش این آشناها به عنوان سوء استفاده‌گر"
+
+#: ../libempathy-gtk/empathy-individual-edit-dialog.c:237
+msgid "Edit Contact Information"
+msgstr "ویرایش اطلاعات فرد آشنا"
+
+#. Translators: the heading at the top of the Information dialogue
+#: ../libempathy-gtk/empathy-individual-information-dialog.c:283
+msgid "Linked Contacts"
+msgstr "آشناهای پیوند شده"
+
+#: ../libempathy-gtk/empathy-individual-information-dialog.c:322
+msgid "gnome-contacts not installed"
+msgstr "برنامه‌ی gnome-contacts نصب نشده است"
+
+#: ../libempathy-gtk/empathy-individual-information-dialog.c:325
+msgid "Please install gnome-contacts to access contacts details."
+msgstr "لطفا gnome-contacts را برای دسترسی به جزئیات آشناها نصب کنید."
+
+#. Translators: this is used in the context menu for a contact. The first
+#. * parameter is a contact ID (e.g. foo@jabber.org) and the second is one
+#. * of the user's account IDs (e.g. me@hotmail.com).
+#: ../libempathy-gtk/empathy-individual-menu.c:181
+#, c-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:342
+msgid "Select account to use to place the call"
+msgstr "یک حساب جهت استفاده برای برقراری ارتباط انتخاب کنید"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:346
+#: ../libempathy-gtk/empathy-log-window.ui.h:6
+#: ../src/empathy-call-window.ui.h:20
+msgid "Call"
+msgstr "تماس"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:412
+msgid "Mobile"
+msgstr "تلفن همراه"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:414
+msgid "Work"
+msgstr "شغل"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:416
+msgid "HOME"
+msgstr "خانه"
+
+#. translators: first argument is a phone number like +32123456 and
+#. * the second one is something like 'home' or 'work'.
+#: ../libempathy-gtk/empathy-individual-menu.c:457
+#, c-format
+msgid "Call %s (%s)"
+msgstr "تماس با %s (%s)"
+
+#. translators: argument is a phone number like +32123456
+#: ../libempathy-gtk/empathy-individual-menu.c:462
+#, c-format
+msgid "Call %s"
+msgstr "تماس با %s"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:674
+msgid "_Block Contact"
+msgstr "_مسدود کردن آشنا"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:729
+#, c-format
+msgid "Remove from _Group '%s'"
+msgstr "حذف از _گروه «%s»"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:750
+msgid "Delete and _Block"
+msgstr "حذف و _مسدود کن"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:838
+#, c-format
+msgid "Do you really want to remove the contact '%s'?"
+msgstr "جدا می‌خواهید آشنای «%s» را حذف کنید؟"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:847
+#, c-format
+msgid ""
+"Do you really want to remove the linked contact '%s'? Note that this will "
+"remove all the contacts which make up this linked contact."
+msgstr ""
+"آیا واقعا می‌خواهید آشنای پیوند داده شده «%s» را حذف کنید؟ دقت کنید که این "
+"کار باعث می‌شود تمام آشناهایی که به این آشنا پیوند داده شده‌اند حذف شوند."
+
+#: ../libempathy-gtk/empathy-individual-menu.c:858
+msgid "Removing contact"
+msgstr "در حال حذف آشنا"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:934
+#: ../libempathy-gtk/empathy-individual-view.c:2444
+msgid "_Remove"
+msgstr "_حذف"
+
+#. add chat button
+#: ../libempathy-gtk/empathy-individual-menu.c:1351
+#: ../libempathy-gtk/empathy-new-message-dialog.c:308
+msgid "_Chat"
+msgstr "_گپ"
+
+#. add SMS button
+#: ../libempathy-gtk/empathy-individual-menu.c:1418
+#: ../libempathy-gtk/empathy-new-message-dialog.c:302
+msgid "_SMS"
+msgstr "_اس‌ام‌اس"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:1484
+msgctxt "menu item"
+msgid "_Audio Call"
+msgstr "تماس _صوتی"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:1550
+msgctxt "menu item"
+msgid "_Video Call"
+msgstr "تماس _تصویری"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:1632
+#: ../src/empathy-roster-window-menubar.ui.h:11
+msgid "_Previous Conversations"
+msgstr "گفتگوی _پیشین"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:1689
+msgid "Send File"
+msgstr "ارسال پرونده"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:1751
+msgid "Share My Desktop"
+msgstr "میزکارم به اشتراک گذاشته شود"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:1809
+#: ../libempathy-gtk/empathy-individual-widget.c:1423
+msgid "Favorite"
+msgstr "علاقه‌مندی‌ها"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:1838
+msgid "Infor_mation"
+msgstr "_اطلاعات"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:1887
+msgctxt "Edit individual (contextual menu)"
+msgid "_Edit"
+msgstr "_ویرایش"
+
+#. send invitation
+#: ../libempathy-gtk/empathy-individual-menu.c:2003
+#: ../src/empathy-chat-window.c:1274
+msgid "Inviting you to this room"
+msgstr "در حال دعوت شما به این اتاق"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:2049
+msgid "_Invite to Chat Room"
+msgstr "_دعوت به اتاق گپ"
+
+#: ../libempathy-gtk/empathy-individual-menu.c:2245
+#: ../src/empathy-roster-window.ui.h:4
+msgid "_Add Contact…"
+msgstr "ا_فزودن آشنا..."
+
+#: ../libempathy-gtk/empathy-individual-view.c:2364
+#, c-format
+msgid "Do you really want to remove the group '%s'?"
+msgstr "جدا می‌خواهید گروه «%s» را حذف کنید؟"
+
+#: ../libempathy-gtk/empathy-individual-view.c:2367
+msgid "Removing group"
+msgstr "در حال حذف گروه"
+
+#: ../libempathy-gtk/empathy-individual-view.c:2435
+msgid "Re_name"
+msgstr "ت_غییر نام"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:361
+msgid "Channels:"
+msgstr "کانال‌ها:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:512
+msgid "Country ISO Code:"
+msgstr "کد ISO کشور:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:514
+msgid "Country:"
+msgstr "کشور:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:516
+msgid "State:"
+msgstr "ایالت:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:518
+msgid "City:"
+msgstr "شهر:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:520
+msgid "Area:"
+msgstr "منطقه:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:522
+msgid "Postal Code:"
+msgstr "کد پستی:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:524
+msgid "Street:"
+msgstr "خیابان:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:526
+msgid "Building:"
+msgstr "ساختمان:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:528
+msgid "Floor:"
+msgstr "طبقه:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:530
+msgid "Room:"
+msgstr "اتاق:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:532
+msgid "Text:"
+msgstr "متن:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:534
+msgid "Description:"
+msgstr "توضیحات:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:536
+msgid "URI:"
+msgstr "نشانی اینترنتی:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:538
+msgid "Accuracy Level:"
+msgstr "سطح دقت:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:540
+msgid "Error:"
+msgstr "خطا:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:542
+msgid "Vertical Error (meters):"
+msgstr "خطای عمودی (متر):"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:544
+msgid "Horizontal Error (meters):"
+msgstr "خطای افقی (متر):"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:546
+msgid "Speed:"
+msgstr "سرعت:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:548
+msgid "Bearing:"
+msgstr "جهت:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:550
+msgid "Climb Speed:"
+msgstr "سرعت بالا رفتن:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:552
+msgid "Last Updated on:"
+msgstr "آخرین به‌روزرسانی در:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:554
+msgid "Longitude:"
+msgstr "طول جغرافیایی:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:556
+msgid "Latitude:"
+msgstr "عرض جغرافیایی:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:558
+msgid "Altitude:"
+msgstr "بلندی:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:650
+#: ../libempathy-gtk/empathy-individual-widget.c:665
+#: ../src/empathy-preferences.ui.h:35
+msgid "Location"
+msgstr "مکان"
+
+#. translators: format is "Location, $date"
+#: ../libempathy-gtk/empathy-individual-widget.c:667
+#, c-format
+msgid "%s, %s"
+msgstr "%s، %s"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:716
+msgid "%B %e, %Y at %R UTC"
+msgstr "%Od %B، سال %Oy در %OH:%OM UTC"
+
+#. Alias
+#: ../libempathy-gtk/empathy-individual-widget.c:1359
+msgid "Alias:"
+msgstr "نام مستعار:"
+
+#. Translators: Identifier to connect to Instant Messaging network
+#: ../libempathy-gtk/empathy-individual-widget.c:1568
+msgid "Identifier:"
+msgstr "شناسه:"
+
+#: ../libempathy-gtk/empathy-individual-widget.c:1707
+#, c-format
+msgid "Linked contact containing %u contact"
+msgid_plural "Linked contacts containing %u contacts"
+msgstr[0] "آشنای پیوند شده شامل %Iu آشنا است"
+msgstr[1] "آشناهای پیوند شده شامل %Iu آشنا هستند"
+
+#: ../libempathy-gtk/empathy-individual-widget.ui.h:1
+msgid "<b>Location</b> at (date)"
+msgstr "<b>مکان</b> در (تاریخ)"
+
+#: ../libempathy-gtk/empathy-individual-widget.ui.h:2
+msgid "Online from a phone or mobile device"
+msgstr "برخط توسط تلفن یا دستگاه بی‌سیم"
+
+#: ../libempathy-gtk/empathy-local-xmpp-assistant-widget.c:82
+msgid ""
+"Empathy can automatically discover and chat with the people connected on the "
+"same network as you. If you want to use this feature, please check that the "
+"details below are correct."
+msgstr ""
+"امپاتی می‌تواند به طور خودکار افرادی که بر روی شبکه مشابه هستند را پیدا کند "
+"تا با آن‌ها گپ بزنید. اگر می‌خواهید از این قابلیت استفاده کنید، بررسی کنید که "
+"جزئیات زیر درست باشند."
+
+#: ../libempathy-gtk/empathy-local-xmpp-assistant-widget.c:102
+msgid "People nearby"
+msgstr "افراد دور و بر"
+
+#: ../libempathy-gtk/empathy-local-xmpp-assistant-widget.c:117
+msgid ""
+"You can change these details later or disable this feature by choosing <span "
+"style=\"italic\">Edit → Accounts</span> in the Contact List."
+msgstr ""
+"شما می‌توانید این جزئیات را بعدا تغییر دهید یا این امکان را با انتخاب <span "
+"style=\"italic\">ویرایش ‍⃪    حساب‌ها</span> در فهرست آشناها غیرفعال کنید."
+
+#: ../libempathy-gtk/empathy-log-window.c:631
+msgid "History"
+msgstr "تاریخچه"
+
+#: ../libempathy-gtk/empathy-log-window.c:686
+msgid "Show"
+msgstr "نمایش"
+
+#: ../libempathy-gtk/empathy-log-window.c:708
+msgid "Search"
+msgstr "جستجو"
+
+#: ../libempathy-gtk/empathy-log-window.c:1152
+#, c-format
+msgid "Chat in %s"
+msgstr "گپ در %s"
+
+#: ../libempathy-gtk/empathy-log-window.c:1154
+#, c-format
+msgid "Chat with %s"
+msgstr "گپ با %s"
+
+#: ../libempathy-gtk/empathy-log-window.c:1204
+#: ../libempathy-gtk/empathy-log-window.c:1348
+msgctxt "A date with the time"
+msgid "%A, %e %B %Y %X"
+msgstr "%A, %e %B %Y %X"
+
+#. Translators: this is an emote: '* Danielle waves'
+#: ../libempathy-gtk/empathy-log-window.c:1291
+#, c-format
+msgid "<i>* %s %s</i>"
+msgstr "<i>* %s %s</i>"
+
+#. Translators: this is a message: 'Danielle: hello'
+#. * The string in bold is the sender's name
+#: ../libempathy-gtk/empathy-log-window.c:1297
+#, c-format
+msgid "<b>%s:</b> %s"
+msgstr "<b>%s:</b> %s"
+
+#: ../libempathy-gtk/empathy-log-window.c:1372
+#, c-format
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s ثانیه"
+msgstr[1] "%s ثانیه"
+
+#: ../libempathy-gtk/empathy-log-window.c:1379
+#, c-format
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s دقیقه"
+msgstr[1] "%s دقیقه"
+
+#: ../libempathy-gtk/empathy-log-window.c:1387
+#, c-format
+msgid "Call took %s, ended at %s"
+msgstr "تماس در %s گرفته شد، در %s پایان یافت"
+
+#: ../libempathy-gtk/empathy-log-window.c:1718
+msgid "Today"
+msgstr "امروز"
+
+#: ../libempathy-gtk/empathy-log-window.c:1722
+msgid "Yesterday"
+msgstr "دیروز"
+
+#. Translators: A date such as '23 May 2010' (strftime format)
+#: ../libempathy-gtk/empathy-log-window.c:1737
+msgid "%e %B %Y"
+msgstr "%e %B %Y"
+
+#: ../libempathy-gtk/empathy-log-window.c:1841
+#: ../libempathy-gtk/empathy-log-window.c:3464
+msgid "Anytime"
+msgstr "هرزمانی"
+
+#: ../libempathy-gtk/empathy-log-window.c:1940
+#: ../libempathy-gtk/empathy-log-window.c:2399
+msgid "Anyone"
+msgstr "هرکسی"
+
+#: ../libempathy-gtk/empathy-log-window.c:2712
+msgid "Who"
+msgstr "چه کسی"
+
+#: ../libempathy-gtk/empathy-log-window.c:2921
+msgid "When"
+msgstr "چه زمانی"
+
+#: ../libempathy-gtk/empathy-log-window.c:3039
+msgid "Anything"
+msgstr "هرچیزی"
+
+#: ../libempathy-gtk/empathy-log-window.c:3041
+msgid "Text chats"
+msgstr "گپ‌های متنی"
+
+#: ../libempathy-gtk/empathy-log-window.c:3042
+#: ../src/empathy-preferences.ui.h:29
+msgid "Calls"
+msgstr "تماس‌ها"
+
+#: ../libempathy-gtk/empathy-log-window.c:3046
+msgid "Incoming calls"
+msgstr "تماس‌های ورودی"
+
+#: ../libempathy-gtk/empathy-log-window.c:3047
+msgid "Outgoing calls"
+msgstr "تماس خروجی"
+
+#: ../libempathy-gtk/empathy-log-window.c:3048
+msgid "Missed calls"
+msgstr "تماس‌های از دست رفته"
+
+#: ../libempathy-gtk/empathy-log-window.c:3068
+msgid "What"
+msgstr "کدام"
+
+#: ../libempathy-gtk/empathy-log-window.c:3757
+msgid "Are you sure you want to delete all logs of previous conversations?"
+msgstr "آیا مطمئنید که می‌خواهید تمام وقایع ثبت شده گفتگوهای قبلی را حذف کنید؟"
+
+#: ../libempathy-gtk/empathy-log-window.c:3761
+msgid "Clear All"
+msgstr "پاک کردن همه"
+
+#: ../libempathy-gtk/empathy-log-window.c:3768
+msgid "Delete from:"
+msgstr "پاک کردن از:"
+
+#: ../libempathy-gtk/empathy-log-window.ui.h:1
+msgid "_File"
+msgstr "_پرونده"
+
+#: ../libempathy-gtk/empathy-log-window.ui.h:2
+#: ../src/empathy-call-window.ui.h:2 ../src/empathy-chat-window.ui.h:11
+msgid "_Edit"
+msgstr "_ویرایش"
+
+#: ../libempathy-gtk/empathy-log-window.ui.h:3
+msgid "Delete All History…"
+msgstr "پاک کردن تمام تاریخچه..."
+
+#: ../libempathy-gtk/empathy-log-window.ui.h:4
+msgid "Profile"
+msgstr "مجموعه تنظیمات"
+
+#: ../libempathy-gtk/empathy-log-window.ui.h:5
+#: ../src/empathy-chat-window.c:1490 ../src/empathy-preferences.ui.h:11
+msgid "Chat"
+msgstr "گپ"
+
+#: ../libempathy-gtk/empathy-log-window.ui.h:7
+#: ../src/empathy-call-window.ui.h:26
+msgid "Video"
+msgstr "ویدئو"
+
+#: ../libempathy-gtk/empathy-log-window.ui.h:8
+msgid "page 2"
+msgstr "صفحه ۲"
+
+#: ../libempathy-gtk/empathy-log-window.ui.h:9
+msgid "<span size=\"x-large\">Loading…</span>"
+msgstr "<span size=\"x-large\">بارگیری…</span>"
+
+#: ../libempathy-gtk/empathy-new-account-dialog.c:130
+msgid "What kind of chat account do you have?"
+msgstr "چه نوع حساب گپی دارید؟"
+
+#: ../libempathy-gtk/empathy-new-account-dialog.c:152
+msgid "Add new account"
+msgstr "اضافه کردن حساب جدید"
+
+#: ../libempathy-gtk/empathy-new-call-dialog.c:189
+#: ../libempathy-gtk/empathy-new-message-dialog.c:279
+msgid "Enter a contact identifier or phone number:"
+msgstr "شناسه‌ی یک آشنا یا شماره تلفن‌اش را وارد کنید:"
+
+#. add video button
+#: ../libempathy-gtk/empathy-new-call-dialog.c:212
+msgid "_Video Call"
+msgstr "تماس _تصویری"
+
+#. add audio button
+#: ../libempathy-gtk/empathy-new-call-dialog.c:222
+msgid "_Audio Call"
+msgstr "تماس _صوتی"
+
+#. Tweak the dialog
+#: ../libempathy-gtk/empathy-new-call-dialog.c:232
+msgid "New Call"
+msgstr "تماس جدید"
+
+#: ../libempathy-gtk/empathy-new-message-dialog.c:72
+msgid "The contact is offline"
+msgstr "آشنا برون‌خط است"
+
+#: ../libempathy-gtk/empathy-new-message-dialog.c:74
+msgid "The specified contact is either invalid or unknown"
+msgstr "آشنای مشخص شده یا نامعتبر است یا ناشناس"
+
+#: ../libempathy-gtk/empathy-new-message-dialog.c:76
+msgid "The contact does not support this kind of conversation"
+msgstr "آشنا از این نوع گفتگو پشتیبانی نمی‌کند"
+
+#: ../libempathy-gtk/empathy-new-message-dialog.c:78
+msgid "The requested functionality is not implemented for this protocol"
+msgstr "عملکرد درخواست شده برای این پروتکل اجرایی نشده است"
+
+#: ../libempathy-gtk/empathy-new-message-dialog.c:84
+msgid "Could not start a conversation with the given contact"
+msgstr "نمی‌توان گفتگوای را با آشنا وارد شده آغاز کرد."
+
+#: ../libempathy-gtk/empathy-new-message-dialog.c:86
+msgid "You are banned from this channel"
+msgstr "ورود شما به این کانال توقیف شده است"
+
+#: ../libempathy-gtk/empathy-new-message-dialog.c:88
+msgid "This channel is full"
+msgstr "این کانال پُر است"
+
+#: ../libempathy-gtk/empathy-new-message-dialog.c:90
+msgid "You must be invited to join this channel"
+msgstr "شما باید به این اتاق دعوت شده باشید تا به آن بپیوندید"
+
+#: ../libempathy-gtk/empathy-new-message-dialog.c:92
+msgid "Can't proceed while disconnected"
+msgstr "نمی‌توان هنگام قطع ارتباط ادامه داد"
+
+#: ../libempathy-gtk/empathy-new-message-dialog.c:94
+msgid "Permission denied"
+msgstr "مجوز رد شد"
+
+#: ../libempathy-gtk/empathy-new-message-dialog.c:100
+msgid "There was an error starting the conversation"
+msgstr "خطایی در هنگام شروع گفتگو رُخ داد"
+
+#. Tweak the dialog
+#: ../libempathy-gtk/empathy-new-message-dialog.c:322
+msgid "New Conversation"
+msgstr "گفتگوی جدید"
+
+#: ../libempathy-gtk/empathy-password-dialog.c:132
+msgid "Password Required"
+msgstr "گذرواژه لازم است"
+
+#. COL_STATUS_TEXT
+#. COL_STATE_ICON_NAME
+#. COL_STATE
+#. COL_DISPLAY_MARKUP
+#. COL_STATUS_CUSTOMISABLE
+#. COL_TYPE
+#: ../libempathy-gtk/empathy-presence-chooser.c:158
+#: ../libempathy-gtk/empathy-presence-chooser.c:194
+msgid "Custom Message…"
+msgstr "پیام سفارشی..."
+
+#: ../libempathy-gtk/empathy-presence-chooser.c:211
+#: ../libempathy-gtk/empathy-presence-chooser.c:213
+msgid "Edit Custom Messages…"
+msgstr "ویرایش پیام‌های سفارشی..."
+
+#: ../libempathy-gtk/empathy-presence-chooser.c:335
+msgid "Click to remove this status as a favorite"
+msgstr "برای برداشتن این مورد از فهرست علاقه‌مندی‌ها، کلیک کنید"
+
+#: ../libempathy-gtk/empathy-presence-chooser.c:344
+msgid "Click to make this status a favorite"
+msgstr "برای افزودن این وضعیت به علاقه‌مندی‌ها کلیک کنید"
+
+#. Translators: %s is a status message like 'At the pub' for example
+#: ../libempathy-gtk/empathy-presence-chooser.c:378
+#, c-format
+msgid ""
+"<b>Current message: %s</b>\n"
+"<small><i>Press Enter to set the new message or Esc to cancel.</i></small>"
+msgstr ""
+"<b>پیام فعلی: %s</b>\n"
+"<small><i>لطفا کلید اینتر را برای ثبت پیام بزنید یا برای لغو کلید Esc را "
+"بزنید..</i></small>"
+
+#: ../libempathy-gtk/empathy-presence-chooser.c:387
+msgid "Set status"
+msgstr "تنظیم وضعیت"
+
+#. Custom messages
+#: ../libempathy-gtk/empathy-presence-chooser.c:1098
+msgid "Custom messages…"
+msgstr "پیام‌های دلخواه..."
+
+#: ../libempathy-gtk/empathy-search-bar.c:239
+msgid "_Match case"
+msgstr "_تطابق کوچک و بزرگی حروف"
+
+#: ../libempathy-gtk/empathy-search-bar.ui.h:1
+msgid "Find:"
+msgstr "یافتن:"
+
+#: ../libempathy-gtk/empathy-search-bar.ui.h:2
+msgid "_Previous"
+msgstr "_قبلی"
+
+#: ../libempathy-gtk/empathy-search-bar.ui.h:3
+msgid "_Next"
+msgstr "_بعدی"
+
+#: ../libempathy-gtk/empathy-search-bar.ui.h:4
+msgid "Mat_ch case"
+msgstr "_تطابق کوچک و بزرگی حروف"
+
+#: ../libempathy-gtk/empathy-search-bar.ui.h:5
+msgid "Phrase not found"
+msgstr "عبارت یافت نشد"
+
+#: ../libempathy-gtk/empathy-sound-manager.c:50
+msgid "Received an instant message"
+msgstr "پیام فوری دریافت شد"
+
+#: ../libempathy-gtk/empathy-sound-manager.c:52
+msgid "Sent an instant message"
+msgstr "پیام فوری فرستاده شد"
+
+#: ../libempathy-gtk/empathy-sound-manager.c:54
+msgid "Incoming chat request"
+msgstr "درخواست گپ ورودی"
+
+#: ../libempathy-gtk/empathy-sound-manager.c:56
+msgid "Contact connected"
+msgstr "آشنا متصل شد"
+
+#: ../libempathy-gtk/empathy-sound-manager.c:58
+msgid "Contact disconnected"
+msgstr "آشنا قطع شد"
+
+#: ../libempathy-gtk/empathy-sound-manager.c:60
+msgid "Connected to server"
+msgstr "اتصال به سرور"
+
+#: ../libempathy-gtk/empathy-sound-manager.c:62
+msgid "Disconnected from server"
+msgstr "از کارگزار قطع شدیم"
+
+#: ../libempathy-gtk/empathy-sound-manager.c:64
+msgid "Incoming voice call"
+msgstr "درحال دریافت تماس صوتی"
+
+#: ../libempathy-gtk/empathy-sound-manager.c:66
+msgid "Outgoing voice call"
+msgstr "تماس صوتی خروجی"
+
+#: ../libempathy-gtk/empathy-sound-manager.c:68
+msgid "Voice call ended"
+msgstr "تماس صوتی پایان یافت"
+
+#: ../libempathy-gtk/empathy-status-preset-dialog.c:295
+msgid "Edit Custom Messages"
+msgstr "پیام‌های سفارشی را ویرایش کنید"
+
+#: ../libempathy-gtk/empathy-subscription-dialog.c:234
+msgid "Subscription Request"
+msgstr "درخواست اشتراک"
+
+#: ../libempathy-gtk/empathy-subscription-dialog.c:240
+#: ../src/empathy-event-manager.c:1079
+#, c-format
+msgid "%s would like permission to see when you are online"
+msgstr "آشنا %s اجازه می‌خواهد تا ببیند چه زمانی برخط هستید"
+
+#: ../libempathy-gtk/empathy-subscription-dialog.c:281
+#: ../src/empathy-event-manager.c:694
+msgid "_Decline"
+msgstr "_چشم پوشی"
+
+#: ../libempathy-gtk/empathy-subscription-dialog.c:282
+msgid "_Accept"
+msgstr "_پذیرش"
+
+#: ../libempathy-gtk/empathy-theme-adium.c:1218
+#, c-format
+msgid "Message edited at %s"
+msgstr "پیام ویرایش شده در %s"
+
+#: ../libempathy-gtk/empathy-theme-adium.c:1920
+msgid "Normal"
+msgstr "معمولی"
+
+#: ../libempathy-gtk/empathy-tls-dialog.c:147
+msgid "The identity provided by the chat server cannot be verified."
+msgstr "هویت مشخص شده توسط کارگزارِ گپ قابل تصدیق نیست."
+
+#: ../libempathy-gtk/empathy-tls-dialog.c:154
+msgid "The certificate is not signed by a Certification Authority."
+msgstr "گواهی توسط یک منبع معتبر صدور گواهینامه امضا نشده است."
+
+#: ../libempathy-gtk/empathy-tls-dialog.c:158
+msgid "The certificate has expired."
+msgstr "گواهی منقضی شده است."
+
+#: ../libempathy-gtk/empathy-tls-dialog.c:161
+msgid "The certificate hasn't yet been activated."
+msgstr "گواهی هنوز فعال نشده است."
+
+#: ../libempathy-gtk/empathy-tls-dialog.c:164
+msgid "The certificate does not have the expected fingerprint."
+msgstr "گواهی شامل اثر انگشت مورد انتظار نیست."
+
+#: ../libempathy-gtk/empathy-tls-dialog.c:167
+msgid "The hostname verified by the certificate doesn't match the server name."
+msgstr "نام میزبان تایید شده توسط گواهی با نام کارگزار مطابقت ندارد."
+
+#: ../libempathy-gtk/empathy-tls-dialog.c:171
+msgid "The certificate is self-signed."
+msgstr "گواهی خود امضا شده است."
+
+#: ../libempathy-gtk/empathy-tls-dialog.c:174
+msgid ""
+"The certificate has been revoked by the issuing Certification Authority."
+msgstr "گواهی به دلیل گزارش به منبع صدور گواهینامه لغو شده است."
+
+#: ../libempathy-gtk/empathy-tls-dialog.c:178
+msgid "The certificate is cryptographically weak."
+msgstr ""
+"گواهی از یک الگوریتم رمز نا‌امن استفاده می‌کند یا از نظر رمزنگاری ضعیف است."
+
+#: ../libempathy-gtk/empathy-tls-dialog.c:181
+msgid "The certificate length exceeds verifiable limits."
+msgstr "طول گواهی از حد قابل تایید رد می‌شود."
+
+#: ../libempathy-gtk/empathy-tls-dialog.c:185
+msgid "The certificate is malformed."
+msgstr "گواهی ناقص است."
+
+#: ../libempathy-gtk/empathy-tls-dialog.c:203
+#, c-format
+msgid "Expected hostname: %s"
+msgstr "نام میزبان مورد انتظار: %s"
+
+#: ../libempathy-gtk/empathy-tls-dialog.c:206
+#, c-format
+msgid "Certificate hostname: %s"
+msgstr "گواهی نام میزبان: %s"
+
+#: ../libempathy-gtk/empathy-tls-dialog.c:278
+msgid "C_ontinue"
+msgstr "_ادامه"
+
+#: ../libempathy-gtk/empathy-tls-dialog.c:284
+msgid "Untrusted connection"
+msgstr "اتصالِ غیرقابل اعتماد"
+
+#: ../libempathy-gtk/empathy-tls-dialog.c:285
+msgid "This connection is untrusted. Would you like to continue anyway?"
+msgstr "این اتصال غیرقابل اعتماد است. به هر حال می‌خواهید ادامه دهید؟"
+
+#: ../libempathy-gtk/empathy-tls-dialog.c:295
+msgid "Remember this choice for future connections"
+msgstr "این انتخاب را برای اتصال‌های آینده به خاطر بسپار"
+
+#: ../libempathy-gtk/empathy-tls-dialog.c:301
+msgid "Certificate Details"
+msgstr "جزئیات گواهی"
+
+#: ../libempathy-gtk/empathy-ui-utils.c:679
+msgid "Unable to open URI"
+msgstr "بازکردن نشانی اینترنتی مقدور نیست"
+
+#: ../libempathy-gtk/empathy-ui-utils.c:803
+msgid "Select a file"
+msgstr "یک پرونده انتخاب کنید"
+
+#: ../libempathy-gtk/empathy-ui-utils.c:877
+msgid "Insufficient free space to save file"
+msgstr "فضای آزاد ناکافی برای ذخیره پرونده"
+
+#: ../libempathy-gtk/empathy-ui-utils.c:885
+#, c-format
+msgid ""
+"%s of free space are required to save this file, but only %s is available. "
+"Please choose another location."
+msgstr ""
+"میزان %s فضای آزاد برای ذخیره کردن این پرونده لازم است، اما فقط %s موجود "
+"است. لطفا یک محل دیگر را انتخاب کنید."
+
+#: ../libempathy-gtk/empathy-ui-utils.c:931
+#, c-format
+msgid "Incoming file from %s"
+msgstr "در حال دریافت پرونده از %s"
+
+#. Copy Link Address menu item
+#: ../libempathy-gtk/empathy-webkit-utils.c:285
+msgid "_Copy Link Address"
+msgstr "_رونوشت از نشانی پیوند"
+
+#. Open Link menu item
+#: ../libempathy-gtk/empathy-webkit-utils.c:292
+msgid "_Open Link"
+msgstr "_باز کردن پیوند"
+
+#. Inspector
+#: ../libempathy-gtk/empathy-webkit-utils.c:306
+msgid "Inspect HTML"
+msgstr "بررسی HTML"
+
+#: ../libempathy-gtk/empathy-roster-model.h:27
+msgid "Top Contacts"
+msgstr "آشناهای برتر"
+
+#: ../libempathy-gtk/empathy-roster-model.h:28
+msgid "People Nearby"
+msgstr "افراد دور و بر"
+
+#: ../libempathy-gtk/empathy-roster-model.h:29
+msgid "Ungrouped"
+msgstr "از گروه خارج شده"
+
+#. Add a prefix explaining that something goes wrong when trying to
+#. * fetch contact's presence.
+#: ../libempathy-gtk/empathy-roster-contact.c:202
+#, c-format
+msgid "Server cannot find contact: %s"
+msgstr "کارگزار نمی‌تواند آشنا را پیدا کند: %s"
+
+#: ../src/empathy-about-dialog.c:82
+msgid "An Instant Messaging client for GNOME"
+msgstr "یک کارگیر پیام‌رسان فوری برای گنوم"
+
+#: ../src/empathy-about-dialog.c:88
+msgid "translator-credits"
+msgstr ""
+"مهیار مقیمی <mahyar.moqimi@gmail.com>‏\n"
+"آرش موسوی <mousavi.arash@gmail.com>"
+
+#: ../src/empathy-accounts.c:171
+msgid "Don't display any dialogs; do any work (eg, importing) and exit"
+msgstr "هیچ محاوره‌ای نشان نده؛ کاری هم نکن (مثل وارد کردن) و خارج شو"
+
+#: ../src/empathy-accounts.c:175
+msgid ""
+"Don't display any dialogs unless there are only \"People Nearby\" accounts"
+msgstr "هیچ محاوره‌ای را نشان نده فقط زمانی که حساب «افراد دور و بر» باشد"
+
+#: ../src/empathy-accounts.c:179
+msgid "Initially select given account (eg, gabble/jabber/foo_40example_2eorg0)"
+msgstr ""
+"در آغاز حساب داده شده انتخاب شود (مثل gabble/jabber/foo_40example_2eorg0)"
+
+#: ../src/empathy-accounts.c:181
+msgid "<account-id>"
+msgstr "<شناسه‌ی حساب>"
+
+#: ../src/empathy-accounts.c:186
+msgid "- Empathy Accounts"
+msgstr "- حساب‌های امپاتی"
+
+#: ../src/empathy-accounts.c:240
+msgid "Empathy Accounts"
+msgstr "حساب‌های امپاتی"
+
+#. The primary text of the dialog shown to the user when he is about to lose
+#. * unsaved changes
+#: ../src/empathy-accounts-dialog.c:55
+#, c-format
+msgid "There are unsaved modifications to your %.50s account."
+msgstr "تغییرات ذخیره نشده برای حساب %.50s شما وجود دارد."
+
+#. The primary text of the dialog shown to the user when he is about to lose
+#. * an unsaved new account
+#: ../src/empathy-accounts-dialog.c:59
+msgid "Your new account has not been saved yet."
+msgstr "حساب جدید شما هنوز ذخیره نشده است."
+
+#: ../src/empathy-accounts-dialog.c:387 ../src/empathy-call-window.c:1267
+msgid "Connecting…"
+msgstr "در حال اتصال..."
+
+#: ../src/empathy-accounts-dialog.c:428
+#, c-format
+msgid "Offline — %s"
+msgstr "برون‌خط — %s"
+
+#: ../src/empathy-accounts-dialog.c:440
+#, c-format
+msgid "Disconnected — %s"
+msgstr "قطع شد — %s"
+
+#: ../src/empathy-accounts-dialog.c:451
+msgid "Offline — No Network Connection"
+msgstr "برون‌خط — هیچ اتصال شبکه‌ای نیست"
+
+#: ../src/empathy-accounts-dialog.c:458
+msgid "Unknown Status"
+msgstr "وضعیت ناشناخته"
+
+#: ../src/empathy-accounts-dialog.c:475
+msgid ""
+"This account has been disabled because it relies on an old, unsupported "
+"backend. Please install telepathy-haze and restart your session to migrate "
+"the account."
+msgstr ""
+"این حساب به دلیل استفاده از یک پسانه‌ی قدیمی و پشتیبانی نشده غیرفعال شده است. "
+"لطفا telepathy-haze را نصب و نشست را مجددا راه‌اندازی کنید تا حساب منتقل شود."
+
+#: ../src/empathy-accounts-dialog.c:485
+msgid "Offline — Account Disabled"
+msgstr "برون‌خط — حساب غیرفعال شد"
+
+#: ../src/empathy-accounts-dialog.c:591
+msgid "Edit Connection Parameters"
+msgstr "ویرایش پارامترهای اتصال"
+
+#: ../src/empathy-accounts-dialog.c:718
+msgid "_Edit Connection Parameters…"
+msgstr "_ویرایش پارامترهای اتصال..."
+
+#: ../src/empathy-accounts-dialog.c:1248
+#, c-format
+msgid "Do you want to remove %.50s from your computer?"
+msgstr "آیا می‌خواهید %.50s را از رایانه‌تان حذف کنید؟"
+
+#: ../src/empathy-accounts-dialog.c:1252
+msgid "This will not remove your account on the server."
+msgstr "این کار حساب شما بر روی کارگزار را پاک نخواهد کرد."
+
+#: ../src/empathy-accounts-dialog.c:1457
+msgid ""
+"You are about to select another account, which will discard\n"
+"your changes. Are you sure you want to proceed?"
+msgstr ""
+"شما درحال انتخاب حساب دیگری هستید، که این کار تغییرات شما را نادیده\n"
+"خواهد گرفت. آیا مطمئنید که میخواهید ادامه دهید؟"
+
+#. Menu item: to enabled/disable the account
+#: ../src/empathy-accounts-dialog.c:1648
+msgid "_Enabled"
+msgstr "_فعال شده"
+
+#. Menu item: Rename
+#: ../src/empathy-accounts-dialog.c:1671
+msgid "Rename"
+msgstr "تغییر نام"
+
+#: ../src/empathy-accounts-dialog.c:2073
+msgid "_Skip"
+msgstr "_نادیده گرفتن"
+
+#: ../src/empathy-accounts-dialog.c:2077
+msgid "_Connect"
+msgstr "_اتصال"
+
+#: ../src/empathy-accounts-dialog.c:2256
+msgid ""
+"You are about to close the window, which will discard\n"
+"your changes. Are you sure you want to proceed?"
+msgstr ""
+"شما درحال بستن پنجره هستید، که این کار تغییرات شما را نادیده\n"
+"خواهد گرفت. آیا مطمئنید که می‌خواهید ادامه دهید؟"
+
+#. Tweak the dialog
+#: ../src/empathy-accounts-dialog.c:2400
+msgid "Messaging and VoIP Accounts"
+msgstr "حساب‌های پیام‌رسانی و VoIP"
+
+#: ../src/empathy-accounts-dialog.ui.h:1
+msgid "Add…"
+msgstr "افزودن..."
+
+#: ../src/empathy-accounts-dialog.ui.h:3
+msgid "_Import…"
+msgstr "_وارد کردن..."
+
+#: ../src/empathy-accounts-dialog.ui.h:4
+msgid "Loading account information"
+msgstr "بارگیری اطلاعات حساب"
+
+#: ../src/empathy-accounts-dialog.ui.h:5
+msgid ""
+"To add a new account, you first have to install a backend for each protocol "
+"you want to use."
+msgstr ""
+"برای افزودن حساب جدید، اول از همه باید پسانه‌ی لازم برای هر قراردادی را که "
+"می‌خواهید استفاده کنید، نصب کنید."
+
+#: ../src/empathy-accounts-dialog.ui.h:6
+msgid "No protocol backends installed"
+msgstr "هیچ پسانه‌ی قراردادی نصب نشده است"
+
+#: ../src/empathy-auth-client.c:285
+msgid " - Empathy authentication client"
+msgstr " - کارگیر تصدیق هویت امپاتی"
+
+#: ../src/empathy-auth-client.c:301
+msgid "Empathy authentication client"
+msgstr "کارگیر تصدیق هویت امپاتی"
+
+#: ../src/empathy.c:407
+msgid "Don't connect on startup"
+msgstr "امپاتی هنگام راه‌اندازی اولیه متصل نشود"
+
+#: ../src/empathy.c:411
+msgid "Don't display the contact list or any other dialogs on startup"
+msgstr "در هنگام راه‌اندازی فهرست آشناها یا هر محاوره‌ی دیگری را نشان نده"
+
+#: ../src/empathy.c:440
+msgid "- Empathy IM Client"
+msgstr "- کارگیر پیام رسانی اینترنتی امپاتی"
+
+#: ../src/empathy.c:626
+msgid "Error contacting the Account Manager"
+msgstr "خطا در برقراری ارتباط با مدیریت حساب"
+
+#: ../src/empathy.c:628
+#, c-format
+msgid ""
+"There was an error while trying to connect to the Telepathy Account Manager. "
+"The error was:\n"
+"\n"
+"%s"
+msgstr ""
+"هنگام اتصال به مدیریت حساب تلپاتی خطایی رخ داد. خطا این بود:\n"
+"\n"
+"%s"
+
+#: ../src/empathy-call.c:115
+msgid "In a call"
+msgstr "در تماس"
+
+#: ../src/empathy-call.c:223
+msgid "- Empathy Audio/Video Client"
+msgstr "- کارگیر صوتی/تصویری امپاتی"
+
+#: ../src/empathy-call.c:247
+msgid "Empathy Audio/Video Client"
+msgstr "کارگیر صوتی/تصویری امپاتی"
+
+#: ../src/empathy-call-observer.c:111
+#, c-format
+msgid "%s just tried to call you, but you were in another call."
+msgstr ""
+"لحظاتی پیش %s سعی کرد تا با شما تماس بگیرد، ولی شما در یک تماس دیگر بودید."
+
+#: ../src/empathy-call-window.c:1543 ../src/empathy-event-manager.c:474
+msgid "Incoming call"
+msgstr "در حال دریافت تماس"
+
+#: ../src/empathy-call-window.c:1549 ../src/empathy-event-manager.c:877
+#, c-format
+msgid "Incoming video call from %s"
+msgstr "ویدئو ورودی از %s"
+
+#: ../src/empathy-call-window.c:1549 ../src/empathy-event-manager.c:482
+#: ../src/empathy-event-manager.c:877
+#, c-format
+msgid "Incoming call from %s"
+msgstr "در حال دریافت تماس از %s"
+
+#: ../src/empathy-call-window.c:1553
+#: ../src/empathy-notifications-approver.c:191
+msgid "Reject"
+msgstr "رَد"
+
+#: ../src/empathy-call-window.c:1554
+#: ../src/empathy-notifications-approver.c:196
+#: ../src/empathy-notifications-approver.c:201
+msgid "Answer"
+msgstr "پاسخ"
+
+#. translators: Call is a noun and %s is the contact name. This string
+#. * is used in the window title
+#: ../src/empathy-call-window.c:1924
+#, c-format
+msgid "Call with %s"
+msgstr "تماس با %s"
+
+#: ../src/empathy-call-window.c:2176
+msgid "The IP address as seen by the machine"
+msgstr "نشانی IP همانطور که توسط ماشین دیده می‌شود"
+
+#: ../src/empathy-call-window.c:2178
+msgid "The IP address as seen by a server on the Internet"
+msgstr "آدرس IP همانطور که توسط کارگزار روی اینترنت دیده می‌شود"
+
+#: ../src/empathy-call-window.c:2180
+msgid "The IP address of the peer as seen by the other side"
+msgstr "آدرس IP مربوط به peer همانطور که توسط طرف مقابل دیده می‌شود"
+
+#: ../src/empathy-call-window.c:2182
+msgid "The IP address of a relay server"
+msgstr "آدرس IP مربوط به سرور بازپخش"
+
+#: ../src/empathy-call-window.c:2184
+msgid "The IP address of the multicast group"
+msgstr "آدرس IP مربوط به گروه چندگانه"
+
+#: ../src/empathy-call-window.c:2598 ../src/empathy-call-window.c:2599
+#: ../src/empathy-call-window.c:2600 ../src/empathy-call-window.c:2601
+#: ../src/empathy-call-window.ui.h:28
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: ../src/empathy-call-window.c:2952
+msgid "On hold"
+msgstr "نگه داشتن پشت خط"
+
+#: ../src/empathy-call-window.c:2956
+msgid "Mute"
+msgstr "بی‌صدا"
+
+#: ../src/empathy-call-window.c:2958
+msgid "Duration"
+msgstr "مدت"
+
+#. Translators: 'status - minutes:seconds' the caller has been connected
+#: ../src/empathy-call-window.c:2961
+#, c-format
+msgid "%s — %d:%02dm"
+msgstr "%s — %Id:%I02dm"
+
+#: ../src/empathy-call-window.c:3057
+msgid "Technical Details"
+msgstr "جزئیات فنی"
+
+#: ../src/empathy-call-window.c:3096
+#, c-format
+msgid ""
+"%s's software does not understand any of the audio formats supported by your "
+"computer"
+msgstr ""
+"نرم‌افزار %s هیچ‌کدام از قالب‌های صوتی پشتیبانی شده توسط رایانه‌ی شما را تشخیص "
+"نمی‌دهد"
+
+#: ../src/empathy-call-window.c:3101
+#, c-format
+msgid ""
+"%s's software does not understand any of the video formats supported by your "
+"computer"
+msgstr ""
+"نرم‌افزار %s هیچ‌کدام از قالب‌های ویدئویی پشتیبانی شده توسط رایانه‌ی شما را "
+"تشخیص نمی‌دهد"
+
+#: ../src/empathy-call-window.c:3107
+#, c-format
+msgid ""
+"Can't establish a connection to %s. One of you might be on a network that "
+"does not allow direct connections."
+msgstr ""
+"نمی‌توان ارتباطی به %s برقرار کرد. ممکن است یکی از شما در شبکه‌ای باشد که "
+"اجازه‌ی اتصال مستقیم را نمی‌دهد."
+
+#: ../src/empathy-call-window.c:3113
+msgid "There was a failure on the network"
+msgstr "یک خرابی در شبکه بوجود آمده بود"
+
+#: ../src/empathy-call-window.c:3117
+msgid ""
+"The audio formats necessary for this call are not installed on your computer"
+msgstr "قالب‌های صوتی لازم برای برقراری این تماس روی رایانه‌ی شما نصب نشده‌اند"
+
+#: ../src/empathy-call-window.c:3120
+msgid ""
+"The video formats necessary for this call are not installed on your computer"
+msgstr "قالب‌های ویدئویی لازم برای برقراری این تماس روی رایانه‌ی شما نصب نشده‌اند"
+
+#: ../src/empathy-call-window.c:3132
+#, c-format
+msgid ""
+"Something unexpected happened in a Telepathy component. Please <a href=\"%s"
+"\">report this bug</a> and attach logs gathered from the 'Debug' window in "
+"the Help menu."
+msgstr ""
+"اتفاقی ناخواسته در یک مؤلفه‌ی تله‌پاتی رخ داد. لطفا <a href=\"%s\"> این ایراد "
+"را گزارش دهید</a> و ثبت وقایع جمع‌آوری شده از پنجره‌ی اشکال‌زدایی در منوی "
+"راهنما، را پیوست کنید."
+
+#: ../src/empathy-call-window.c:3141
+msgid "There was a failure in the call engine"
+msgstr "یک خرابی در موتور تماس بوجود آمده بود"
+
+#: ../src/empathy-call-window.c:3144
+msgid "The end of the stream was reached"
+msgstr "به انتهای جریان رسیدیم"
+
+#: ../src/empathy-call-window.c:3184
+msgid "Can't establish audio stream"
+msgstr "نمی‌توان جریان صوتی را برقرار کرد"
+
+#: ../src/empathy-call-window.c:3194
+msgid "Can't establish video stream"
+msgstr "نمی‌توان جریان ویدئویی را برقرار کرد"
+
+#: ../src/empathy-call-window.c:3231
+#, c-format
+msgid "Your current balance is %s."
+msgstr "اعتبار فعلی شما %s."
+
+#: ../src/empathy-call-window.c:3235
+msgid "Sorry, you don’t have enough credit for that call."
+msgstr "متاسفم، شما برای این تماس اعتبار کافی ندارید."
+
+#: ../src/empathy-call-window.c:3237
+msgid "Top Up"
+msgstr "بالا بردن"
+
+#: ../src/empathy-call-window.ui.h:1
+msgid "_Call"
+msgstr "_تماس"
+
+#: ../src/empathy-call-window.ui.h:3
+msgid "_Microphone"
+msgstr "_میکروفون"
+
+#: ../src/empathy-call-window.ui.h:4
+msgid "_Camera"
+msgstr "_دوربین"
+
+#: ../src/empathy-call-window.ui.h:5
+msgid "_Settings"
+msgstr "_تنظیمات"
+
+#: ../src/empathy-call-window.ui.h:6
+msgid "_View"
+msgstr "_نما"
+
+#: ../src/empathy-call-window.ui.h:7 ../src/empathy-chat-window.ui.h:19
+msgid "_Help"
+msgstr "_راهنما"
+
+#: ../src/empathy-call-window.ui.h:8 ../src/empathy-chat-window.ui.h:20
+msgid "_Contents"
+msgstr "_محتویات"
+
+#: ../src/empathy-call-window.ui.h:9
+msgid "_Debug"
+msgstr "_اشکال‌زدایی"
+
+#: ../src/empathy-call-window.ui.h:10
+msgid "_GStreamer"
+msgstr "_GStreamer"
+
+#: ../src/empathy-call-window.ui.h:11
+msgid "_Telepathy"
+msgstr "_Telepathy"
+
+#: ../src/empathy-call-window.ui.h:12
+msgid "Swap camera"
+msgstr "جایجایی دوربین"
+
+#: ../src/empathy-call-window.ui.h:13
+msgid "Minimise me"
+msgstr "حداقل کردن من"
+
+#: ../src/empathy-call-window.ui.h:14
+msgid "Maximise me"
+msgstr " حداکثر کردن من"
+
+#: ../src/empathy-call-window.ui.h:15
+msgid "Disable camera"
+msgstr "غیرفعال‌کردن دوربین"
+
+#: ../src/empathy-call-window.ui.h:16
+msgid "Hang up"
+msgstr "قطع کردن"
+
+#: ../src/empathy-call-window.ui.h:17
+msgid "Hang up current call"
+msgstr "تماس جاری قطع شود"
+
+#: ../src/empathy-call-window.ui.h:18
+msgid "Video call"
+msgstr "تماس ویدئویی"
+
+#: ../src/empathy-call-window.ui.h:19
+msgid "Start a video call"
+msgstr "شروع یک تماس ویدئویی"
+
+#: ../src/empathy-call-window.ui.h:21
+msgid "Start an audio call"
+msgstr "شروع یک تماس صوتی"
+
+#: ../src/empathy-call-window.ui.h:22
+msgid "Show dialpad"
+msgstr "نمایش شماره‌گیر"
+
+#: ../src/empathy-call-window.ui.h:23
+msgid "Display the dialpad"
+msgstr "نمایش صفحه شماره‌گیر"
+
+#: ../src/empathy-call-window.ui.h:24
+msgid "Toggle video transmission"
+msgstr "تغییر حالت ارسال ویدئو"
+
+#: ../src/empathy-call-window.ui.h:25
+msgid "Toggle audio transmission"
+msgstr "تغییر حالت ارسال صدا"
+
+#: ../src/empathy-call-window.ui.h:27
+msgid "Encoding Codec:"
+msgstr "رمزنگاری کُدک:"
+
+#: ../src/empathy-call-window.ui.h:29
+msgid "Decoding Codec:"
+msgstr "رمزگشایی کُدک:"
+
+#: ../src/empathy-call-window.ui.h:30
+msgid "Remote Candidate:"
+msgstr "کاندیدای دوردست:"
+
+#: ../src/empathy-call-window.ui.h:31
+msgid "Local Candidate:"
+msgstr "کاندیدای محلی:"
+
+#: ../src/empathy-call-window.ui.h:32 ../src/empathy-preferences.ui.h:28
+msgid "Audio"
+msgstr "صدا"
+
+#: ../src/empathy-chat.c:100
+msgid "- Empathy Chat Client"
+msgstr "- کارگیر گپ امپاتی"
+
+#: ../src/empathy-chatrooms-window.c:244
+msgid "Name"
+msgstr "نام"
+
+#: ../src/empathy-chatrooms-window.c:262
+msgid "Room"
+msgstr "اتاق"
+
+#: ../src/empathy-chatrooms-window.c:270
+msgid "Auto-Connect"
+msgstr "اتصال خودکار"
+
+#: ../src/empathy-chatrooms-window.ui.h:1
+msgid "Manage Favorite Rooms"
+msgstr "مدیریت اتاق‌های مورد پسند"
+
+#: ../src/empathy-chat-window.c:278
+msgid "Close this window?"
+msgstr "بستن این پنجره؟"
+
+#: ../src/empathy-chat-window.c:284
+#, c-format
+msgid ""
+"Closing this window will leave %s. You will not receive any further messages "
+"until you rejoin it."
+msgstr ""
+"بستن این پنجره %s را ترک می‌کند. شما هیچ پیام دیگری تا زمان پیوستن مجدد "
+"دریافت نخواهید کرد."
+
+#: ../src/empathy-chat-window.c:297
+#, c-format
+msgid ""
+"Closing this window will leave a chat room. You will not receive any further "
+"messages until you rejoin it."
+msgid_plural ""
+"Closing this window will leave %u chat rooms. You will not receive any "
+"further messages until you rejoin them."
+msgstr[0] ""
+"بستن این پنجره باعث ترک اتاق گپ می‌شود. شما هیچی پیام دیگری تا زمان پیوستن "
+"مجدد دریافت نخواهید کرد."
+msgstr[1] ""
+"بستن این پنجره باعث ترک %Iu اتاق گپ می‌شود. شما هیچ پیام دیگری تا زمان پیوستن "
+"مجدد دریافت نخواهید کرد."
+
+#: ../src/empathy-chat-window.c:308
+#, c-format
+msgid "Leave %s?"
+msgstr "ترک %s؟"
+
+#: ../src/empathy-chat-window.c:310
+msgid ""
+"You will not receive any further messages from this chat room until you "
+"rejoin it."
+msgstr "شما هیچ پیام دیگری تا زمان پیوستن مجدد دریافت نخواهید کرد."
+
+#: ../src/empathy-chat-window.c:329
+msgid "Close window"
+msgstr "بستن پنجره"
+
+#: ../src/empathy-chat-window.c:329
+msgid "Leave room"
+msgstr "ترک اتاق"
+
+#: ../src/empathy-chat-window.c:671 ../src/empathy-chat-window.c:694
+#, c-format
+msgid "%s (%d unread)"
+msgid_plural "%s (%d unread)"
+msgstr[0] "%s (%Id نخوانده)"
+msgstr[1] "%s (%Id نخوانده)"
+
+#: ../src/empathy-chat-window.c:686
+#, c-format
+msgid "%s (and %u other)"
+msgid_plural "%s (and %u others)"
+msgstr[0] "%s (و %Iu دیگر)"
+msgstr[1] "%s (و %Iu دیگر)"
+
+#: ../src/empathy-chat-window.c:702
+#, c-format
+msgid "%s (%d unread from others)"
+msgid_plural "%s (%d unread from others)"
+msgstr[0] "%s (%Id نخوانده از بین دیگران)"
+msgstr[1] "%s (%Id نخوانده از بین دیگران)"
+
+#: ../src/empathy-chat-window.c:711
+#, c-format
+msgid "%s (%d unread from all)"
+msgid_plural "%s (%d unread from all)"
+msgstr[0] "%s (%Id نخوانده از بین همه)"
+msgstr[1] "%s (%Id نخوانده از بین همه)"
+
+#: ../src/empathy-chat-window.c:948
+msgid "SMS:"
+msgstr "اس‌ام‌اس:"
+
+#: ../src/empathy-chat-window.c:956
+#, c-format
+msgid "Sending %d message"
+msgid_plural "Sending %d messages"
+msgstr[0] "درحال ارسال %Id پیام"
+msgstr[1] "درحال ارسال %Id پیام"
+
+#: ../src/empathy-chat-window.c:976
+msgid "Typing a message."
+msgstr "درحال تایپ یک پیام."
+
+#: ../src/empathy-chat-window.ui.h:1
+msgid "_Conversation"
+msgstr "_گفتگو"
+
+#: ../src/empathy-chat-window.ui.h:2
+msgid "C_lear"
+msgstr "پا_ک کردن"
+
+#: ../src/empathy-chat-window.ui.h:3
+msgid "Insert _Smiley"
+msgstr "درج صورتک"
+
+#: ../src/empathy-chat-window.ui.h:4
+msgid "_Favorite Chat Room"
+msgstr "_اتاق گپ مورد پسند"
+
+#: ../src/empathy-chat-window.ui.h:5
+msgid "Notify for All Messages"
+msgstr "برای همه‌ی پیام‌ها اخطار داده شود"
+
+#: ../src/empathy-chat-window.ui.h:6 ../src/empathy-status-icon.ui.h:1
+msgid "_Show Contact List"
+msgstr "_نمایش فهرست آشنایان"
+
+#: ../src/empathy-chat-window.ui.h:7
+msgid "Invite _Participant…"
+msgstr "دعوت _شرکت‌کننده..."
+
+#: ../src/empathy-chat-window.ui.h:8
+msgid "_Join Chat"
+msgstr "_پیوستن به گپ"
+
+#: ../src/empathy-chat-window.ui.h:9
+msgid "Le_ave Chat"
+msgstr "_ترک گپ"
+
+#: ../src/empathy-chat-window.ui.h:10
+msgid "C_ontact"
+msgstr "آ_شنا"
+
+#: ../src/empathy-chat-window.ui.h:12
+msgid "_Tabs"
+msgstr "_زبانه‌ها"
+
+#: ../src/empathy-chat-window.ui.h:13
+msgid "_Previous Tab"
+msgstr "زبانه‌ی _قبلی"
+
+#: ../src/empathy-chat-window.ui.h:14
+msgid "_Next Tab"
+msgstr "زبانه‌ی _بعدی"
+
+#: ../src/empathy-chat-window.ui.h:15
+msgid "_Undo Close Tab"
+msgstr "_برگردان بستن زبانه"
+
+#: ../src/empathy-chat-window.ui.h:16
+msgid "Move Tab _Left"
+msgstr "جابه‌جایی زبانه به _چپ"
+
+#: ../src/empathy-chat-window.ui.h:17
+msgid "Move Tab _Right"
+msgstr "جابه‌جایی زبانه به _راست"
+
+#: ../src/empathy-chat-window.ui.h:18
+msgid "_Detach Tab"
+msgstr "_جداکردن زبانه"
+
+#: ../src/empathy-debugger.c:76
+msgid "Show a particular service"
+msgstr "نمایش یک سرویس خاص"
+
+#: ../src/empathy-debugger.c:81
+msgid "- Empathy Debugger"
+msgstr "- اشکال‌زدای امپاتی"
+
+#: ../src/empathy-debugger.c:141
+msgid "Empathy Debugger"
+msgstr "اشکال‌زدای امپاتی"
+
+#: ../src/empathy-debug-window.c:1564
+msgid "Save"
+msgstr "ذخیره"
+
+#: ../src/empathy-debug-window.c:1624
+msgid "Pastebin link"
+msgstr "پیوند Pastebin"
+
+#: ../src/empathy-debug-window.c:1633
+msgid "Pastebin response"
+msgstr "پاسخ Pastebin"
+
+#: ../src/empathy-debug-window.c:1640
+msgid "Data too large for a single paste. Please save logs to file."
+msgstr ""
+"داده‌ها برای یک ارسال بسیار بزرگ است. لطفا رویدادها را بر روی یک پرونده ذخیره "
+"کنید."
+
+#: ../src/empathy-debug-window.c:1822
+msgid "Debug Window"
+msgstr "پنجره اشکال‌زدایی"
+
+#: ../src/empathy-debug-window.c:1882
+msgid "Send to pastebin"
+msgstr "ارسال به Pastebin"
+
+#: ../src/empathy-debug-window.c:1926
+msgid "Pause"
+msgstr "مکث"
+
+#: ../src/empathy-debug-window.c:1938
+msgid "Level "
+msgstr "سطح "
+
+#: ../src/empathy-debug-window.c:1957
+msgid "Debug"
+msgstr "اشکال‌زدایی"
+
+#: ../src/empathy-debug-window.c:1962
+msgid "Info"
+msgstr "اطلاعات"
+
+#: ../src/empathy-debug-window.c:1967 ../src/empathy-debug-window.c:2047
+msgid "Message"
+msgstr "پیغام"
+
+#: ../src/empathy-debug-window.c:1972
+msgid "Warning"
+msgstr "اخطار"
+
+#: ../src/empathy-debug-window.c:1977
+msgid "Critical"
+msgstr "حیاتی"
+
+#: ../src/empathy-debug-window.c:1982
+msgid "Error"
+msgstr "خطا"
+
+#: ../src/empathy-debug-window.c:1995
+msgid ""
+"Even if they don't display passwords, logs can contain sensitive information "
+"such as your list of contacts or the messages you recently sent or "
+"received.\n"
+"If you don't want to see such information available in a public bug report, "
+"you can choose to limit the visibility of your bug to Empathy developers "
+"when reporting it by displaying the advanced fields in the <a href=\"https://"
+"bugzilla.gnome.org/enter_bug.cgi?product=empathy\">bug report</a>."
+msgstr ""
+"حتی اگر گذرواژه‌ها را نمایش ندهند، وقایع ممکن است حاوی اطلاعات حساسی نظیر "
+"فهرست آشنایان شما یا پیام‌هایی که اخیرا ارسال و دریافت کرده‌اید باشند.\n"
+"اگر نمی‌خواهید این اطلاعات در یک گزارش باگ عمومی قابل دیدن باشند، می‌توانید "
+"نمایش باگ خود را با استفاده از نمایش فیلدهای پیشرفته در <a href=\"https://"
+"bugzilla.gnome.org/enter_bug.cgi?product=empathy\">گزارش باگ</a> محدود به "
+"توسعه‌دهندگان امپاتی کنید."
+
+#: ../src/empathy-debug-window.c:2027
+msgid "Time"
+msgstr "زمان"
+
+#: ../src/empathy-debug-window.c:2030
+msgid "Domain"
+msgstr "دامنه"
+
+#: ../src/empathy-debug-window.c:2033
+msgid "Category"
+msgstr "دسته‌بندی"
+
+#: ../src/empathy-debug-window.c:2036
+msgid "Level"
+msgstr "سطح"
+
+#: ../src/empathy-debug-window.c:2070
+msgid ""
+"The selected connection manager does not support the remote debugging "
+"extension."
+msgstr "مدیر اتصال انتخاب شده، از افزونه‌ی اشکال‌زدایی دوردست پشتیبانی نمی‌کند."
+
+#: ../src/empathy-event-manager.c:474
+msgid "Incoming video call"
+msgstr "در حال دریافت تماس ویدئویی"
+
+#: ../src/empathy-event-manager.c:478
+#, c-format
+msgid "%s is video calling you. Do you want to answer?"
+msgstr "فرد %s تماس ویدئویی با شما گرفته است، آیا جواب می‌دهید؟"
+
+#: ../src/empathy-event-manager.c:479
+#, c-format
+msgid "%s is calling you. Do you want to answer?"
+msgstr "فرد %s با شما تماس گرفته است، آیا جواب می‌دهید؟"
+
+#: ../src/empathy-event-manager.c:507
+msgid "_Reject"
+msgstr "_رَد"
+
+#: ../src/empathy-event-manager.c:515 ../src/empathy-event-manager.c:523
+msgid "_Answer"
+msgstr "_پاسخگویی"
+
+#: ../src/empathy-event-manager.c:523
+msgid "_Answer with video"
+msgstr "_پاسخگویی با ویدئو"
+
+#: ../src/empathy-event-manager.c:677
+msgid "Room invitation"
+msgstr "دعوتنامه‌ی اتاق"
+
+#: ../src/empathy-event-manager.c:679
+#, c-format
+msgid "Invitation to join %s"
+msgstr "دعوتنامه برای پیوستن به %s"
+
+#: ../src/empathy-event-manager.c:686
+#, c-format
+msgid "%s is inviting you to join %s"
+msgstr "آشنای %s از شما دعوت می‌کند تا به %s بپیوندید"
+
+#: ../src/empathy-event-manager.c:699
+msgid "_Join"
+msgstr "_پیوستن"
+
+#: ../src/empathy-event-manager.c:725
+#, c-format
+msgid "%s invited you to join %s"
+msgstr "آشنای %s از شما دعوت کرد تا به %s بپیوندید"
+
+#: ../src/empathy-event-manager.c:731
+#, c-format
+msgid "You have been invited to join %s"
+msgstr "شما دعوت شده‌اید تا به %s بپیوندید"
+
+#: ../src/empathy-event-manager.c:920
+#, c-format
+msgid "Incoming file transfer from %s"
+msgstr "پرونده‌ی دریافت شده از %s"
+
+#: ../src/empathy-event-manager.c:948 ../src/empathy-roster-window.c:214
+msgid "Password required"
+msgstr "گذرواژه لازم است"
+
+#: ../src/empathy-event-manager.c:1085
+#, c-format
+msgid ""
+"\n"
+"Message: %s"
+msgstr ""
+"\n"
+"پیام: %s"
+
+#. Translators: time left, when it is more than one hour
+#: ../src/empathy-ft-manager.c:94
+#, c-format
+msgid "%u:%02u.%02u"
+msgstr "%Iu:%I02u.%I02u"
+
+#. Translators: time left, when is is less than one hour
+#: ../src/empathy-ft-manager.c:97
+#, c-format
+msgid "%02u.%02u"
+msgstr "%I02u.%I02u"
+
+#: ../src/empathy-ft-manager.c:173
+msgctxt "file transfer percent"
+msgid "Unknown"
+msgstr "ناشناس"
+
+#: ../src/empathy-ft-manager.c:268
+#, c-format
+msgid "%s of %s at %s/s"
+msgstr "مقدار %s از %s در %s/ثانیه"
+
+#: ../src/empathy-ft-manager.c:269
+#, c-format
+msgid "%s of %s"
+msgstr "%s از %s"
+
+#. translators: first %s is filename, second %s is the contact name
+#: ../src/empathy-ft-manager.c:300
+#, c-format
+msgid "Receiving \"%s\" from %s"
+msgstr "در حال دریافت «%s» از %s"
+
+#. translators: first %s is filename, second %s is the contact name
+#: ../src/empathy-ft-manager.c:303
+#, c-format
+msgid "Sending \"%s\" to %s"
+msgstr "در حال فرستادن «%s» به %s"
+
+#. translators: first %s is filename, second %s
+#. * is the contact name
+#: ../src/empathy-ft-manager.c:333
+#, c-format
+msgid "Error receiving \"%s\" from %s"
+msgstr "خطا در هنگام دریافت «%s» از %s"
+
+#: ../src/empathy-ft-manager.c:336
+msgid "Error receiving a file"
+msgstr "خطا در دریافت یک پرونده"
+
+#: ../src/empathy-ft-manager.c:341
+#, c-format
+msgid "Error sending \"%s\" to %s"
+msgstr "خطا در هنگام ارسال «%s» به %s"
+
+#: ../src/empathy-ft-manager.c:344
+msgid "Error sending a file"
+msgstr "خطا در فرستادن یک پرونده"
+
+#. translators: first %s is filename, second %s
+#. * is the contact name
+#: ../src/empathy-ft-manager.c:483
+#, c-format
+msgid "\"%s\" received from %s"
+msgstr "پرونده‌ی «%s» از %s دریافت شد"
+
+#. translators: first %s is filename, second %s
+#. * is the contact name
+#: ../src/empathy-ft-manager.c:488
+#, c-format
+msgid "\"%s\" sent to %s"
+msgstr "پرونده‌ی «%s» به %s فرستاده شد"
+
+#: ../src/empathy-ft-manager.c:491
+msgid "File transfer completed"
+msgstr "انتقال پرونده کامل شد"
+
+#: ../src/empathy-ft-manager.c:610 ../src/empathy-ft-manager.c:774
+msgid "Waiting for the other participant's response"
+msgstr "در حال انتظار برای گرفتن جواب دیگر شرکت کنندگان"
+
+#: ../src/empathy-ft-manager.c:636 ../src/empathy-ft-manager.c:674
+#, c-format
+msgid "Checking integrity of \"%s\""
+msgstr "آزمایش درستی «%s»"
+
+#: ../src/empathy-ft-manager.c:639 ../src/empathy-ft-manager.c:677
+#, c-format
+msgid "Hashing \"%s\""
+msgstr "در حال درهم کردن «%s»"
+
+#: ../src/empathy-ft-manager.c:1020
+msgid "%"
+msgstr "٪"
+
+#: ../src/empathy-ft-manager.c:1032
+msgid "File"
+msgstr "پرونده"
+
+#: ../src/empathy-ft-manager.c:1054
+msgid "Remaining"
+msgstr "باقی مانده"
+
+#: ../src/empathy-ft-manager.ui.h:1
+msgid "File Transfers"
+msgstr "انتقال پرونده‌ها"
+
+#: ../src/empathy-ft-manager.ui.h:2
+msgid "Remove completed, canceled and failed file transfers from the list"
+msgstr "انتقال‌های کامل شده، لغو شده و خراب شده از فهرست حذف شوند"
+
+#: ../src/empathy-import-dialog.c:70
+msgid "_Import"
+msgstr "_وارد کردن"
+
+#: ../src/empathy-import-dialog.c:82
+msgid ""
+"No accounts to import could be found. Empathy currently only supports "
+"importing accounts from Pidgin."
+msgstr ""
+"هیچ حسابی برای وارد کردن پیدا نشد. امپاتی در حال حاظر تنها وارد کردن حساب‌ها "
+"از پیجین را پشتیبانی می‌کند."
+
+#: ../src/empathy-import-dialog.c:203
+msgid "Import Accounts"
+msgstr "وارد کردن حساب‌ها"
+
+#. Translators: this is the header of a treeview column
+#: ../src/empathy-import-widget.c:299
+msgid "Import"
+msgstr "وارد کردن"
+
+#: ../src/empathy-import-widget.c:308
+msgid "Protocol"
+msgstr "قرارداد"
+
+#: ../src/empathy-import-widget.c:332
+msgid "Source"
+msgstr "منبع"
+
+#: ../src/empathy-invite-participant-dialog.c:197
+#: ../src/empathy-invite-participant-dialog.c:225
+msgid "Invite Participant"
+msgstr "دعوت از شرکت‌کنندگان"
+
+#: ../src/empathy-invite-participant-dialog.c:198
+msgid "Choose a contact to invite into the conversation:"
+msgstr "آشنایی انتخاب کنید تا به گفتگو دعوت شود:"
+
+#: ../src/empathy-invite-participant-dialog.c:221
+msgid "Invite"
+msgstr "دعوت"
+
+#: ../src/empathy-new-chatroom-dialog.c:186
+msgid "Chat Room"
+msgstr "اتاق گپ"
+
+#: ../src/empathy-new-chatroom-dialog.c:201
+msgid "Members"
+msgstr "اعضا"
+
+#: ../src/empathy-new-chatroom-dialog.c:402
+msgid "Failed to list rooms"
+msgstr "فهرست کردن اتاق‌ها شکست خورد"
+
+#: ../src/empathy-new-chatroom-dialog.c:437
+#, c-format
+msgid ""
+"%s\n"
+"Invite required: %s\n"
+"Password required: %s\n"
+"Members: %s"
+msgstr ""
+"%s\n"
+"نیاز به دعوتنامه: %s\n"
+"نیاز به گذرواژه: %s\n"
+"اعضا: %s"
+
+#: ../src/empathy-new-chatroom-dialog.c:439
+#: ../src/empathy-new-chatroom-dialog.c:440
+msgid "Yes"
+msgstr "بله"
+
+#: ../src/empathy-new-chatroom-dialog.c:439
+#: ../src/empathy-new-chatroom-dialog.c:440
+msgid "No"
+msgstr "خیر"
+
+#: ../src/empathy-new-chatroom-dialog.c:791
+msgid "Join Room"
+msgstr "پیوستن به اتاق"
+
+#: ../src/empathy-new-chatroom-dialog.ui.h:1
+msgid ""
+"Enter the room name to join here or click on one or more rooms in the list."
+msgstr ""
+"نام اتاق را اینجا وارد کنید تا به آن بپیوندید یا روی یک یا تعدادی از موارد "
+"فهرست کلیک کنید."
+
+#: ../src/empathy-new-chatroom-dialog.ui.h:2
+msgid "_Room:"
+msgstr "_اتاق:"
+
+#: ../src/empathy-new-chatroom-dialog.ui.h:3
+msgid ""
+"Enter the server which hosts the room, or leave it empty if the room is on "
+"the current account&apos;s server"
+msgstr ""
+"نام کارگزاری که اتاق را میزبانی می‌کند را وارد کنید، یا آن را خالی بگذارید "
+"چناچه اتاق بر روی کارگزار حساب جاری است"
+
+#: ../src/empathy-new-chatroom-dialog.ui.h:4
+msgid ""
+"Enter the server which hosts the room, or leave it empty if the room is on "
+"the current account's server"
+msgstr ""
+"نام کارگزاری را که اتاق را میزبانی می‌کند را وارد کنید، یا آن را خالی بگذارید "
+"چناچه اتاق بر روی کارگزار حساب جاری است"
+
+#: ../src/empathy-new-chatroom-dialog.ui.h:5
+msgid "_Server:"
+msgstr "_کارگزار:"
+
+#: ../src/empathy-new-chatroom-dialog.ui.h:7
+msgid "Couldn't load room list"
+msgstr "فهرست اتاق بارگیری نشد"
+
+#: ../src/empathy-new-chatroom-dialog.ui.h:8
+msgid "Room List"
+msgstr "فهرست اتاق"
+
+#: ../src/empathy-notifications-approver.c:182
+msgid "Respond"
+msgstr "پاسخ"
+
+#: ../src/empathy-notifications-approver.c:201
+msgid "Answer with video"
+msgstr "پاسخگویی با ویدئو"
+
+#: ../src/empathy-notifications-approver.c:209
+#: ../src/empathy-notifications-approver.c:219
+msgid "Decline"
+msgstr "چشم پوشی"
+
+#: ../src/empathy-notifications-approver.c:213
+#: ../src/empathy-notifications-approver.c:224
+msgid "Accept"
+msgstr "پذیرش"
+
+#. translators: the 'Provide' button is displayed in a notification
+#. * bubble when Empathy is asking for an account password; clicking on it
+#. * brings the password popup.
+#: ../src/empathy-notifications-approver.c:234
+msgid "Provide"
+msgstr "فراهم کردن"
+
+#: ../src/empathy-preferences.c:138
+msgid "Message received"
+msgstr "پیام دریافت شد"
+
+#: ../src/empathy-preferences.c:139
+msgid "Message sent"
+msgstr "پیام فرستاده‌شده"
+
+#: ../src/empathy-preferences.c:140
+msgid "New conversation"
+msgstr "گفتگوی جدید"
+
+#: ../src/empathy-preferences.c:141
+msgid "Contact comes online"
+msgstr "آشنا برخط می‌شود"
+
+#: ../src/empathy-preferences.c:142
+msgid "Contact goes offline"
+msgstr "آشنا برون‌خط می‌شود"
+
+#: ../src/empathy-preferences.c:143
+msgid "Account connected"
+msgstr "حساب متصل شد"
+
+#: ../src/empathy-preferences.c:144
+msgid "Account disconnected"
+msgstr "حساب قطع شد"
+
+#: ../src/empathy-preferences.c:369
+msgid "Language"
+msgstr "زبان"
+
+#. translators: Contact name for the chat theme preview
+#: ../src/empathy-preferences.c:620
+msgid "Juliet"
+msgstr "مرد مست"
+
+#. translators: Contact name for the chat theme preview
+#: ../src/empathy-preferences.c:627
+msgid "Romeo"
+msgstr "شازده کوچولو"
+
+#. translators: Quote from Romeo & Julier, for chat theme preview
+#: ../src/empathy-preferences.c:633
+msgid "O Romeo, Romeo, wherefore art thou Romeo?"
+msgstr "چه کار داری می‌کنی؟"
+
+#. translators: Quote from Romeo & Julier, for chat theme preview
+#: ../src/empathy-preferences.c:637
+msgid "Deny thy father and refuse thy name;"
+msgstr "مِی می‌زنم."
+
+#. translators: Quote from Romeo & Julier, for chat theme preview
+#: ../src/empathy-preferences.c:640
+msgid "Or if thou wilt not, be but sworn my love"
+msgstr "مِی می‌زنی که چی؟"
+
+#. translators: Quote from Romeo & Julier, for chat theme preview
+#: ../src/empathy-preferences.c:643
+msgid "And I'll no longer be a Capulet."
+msgstr "که فراموش کنم."
+
+#. translators: Quote from Romeo & Julier, for chat theme preview
+#: ../src/empathy-preferences.c:646
+msgid "Shall I hear more, or shall I speak at this?"
+msgstr "چی رو فراموش کنی؟"
+
+#. translators: Quote from Romeo & Julier, for chat theme preview
+#: ../src/empathy-preferences.c:649
+msgid "Juliet has disconnected"
+msgstr "ژولیت قطع شده است"
+
+#: ../src/empathy-preferences.c:1015
+msgid "Preferences"
+msgstr "ترجیحات"
+
+#: ../src/empathy-preferences.ui.h:2
+msgid "Show groups"
+msgstr "نمایش گروه‌ها"
+
+#: ../src/empathy-preferences.ui.h:3
+msgid "Show account balances"
+msgstr "نمایش اعتبار حساب"
+
+#: ../src/empathy-preferences.ui.h:4 ../src/empathy-roster-window.c:2301
+msgid "Contact List"
+msgstr "فهرست آشناها"
+
+#: ../src/empathy-preferences.ui.h:5
+msgid "Start chats in:"
+msgstr "شروع گپ در:"
+
+#: ../src/empathy-preferences.ui.h:6
+msgid "new ta_bs"
+msgstr "_زبانه جدید"
+
+#: ../src/empathy-preferences.ui.h:7
+msgid "new _windows"
+msgstr "_پنجره جدید"
+
+#: ../src/empathy-preferences.ui.h:8
+msgid "Show _smileys as images"
+msgstr "نمایش _صورتک‌ها به صورت تصویر"
+
+#: ../src/empathy-preferences.ui.h:9
+msgid "Show contact _list in rooms"
+msgstr "نمایش _فهرست آشناها در اتاق‌ها"
+
+#: ../src/empathy-preferences.ui.h:10
+msgid "Log conversations"
+msgstr "ثبت وقایع مکالمات"
+
+#: ../src/empathy-preferences.ui.h:12
+msgid "Display incoming events in the notification area"
+msgstr "رویداد‌های ورودی در منطقه‌ی اطلاعیه‌ها نشان داده شوند"
+
+#: ../src/empathy-preferences.ui.h:13
+msgid "_Automatically connect on startup"
+msgstr "اتصال _خودکار در هنگام راه‌اندازی اولیه"
+
+#: ../src/empathy-preferences.ui.h:14
+msgid "Behavior"
+msgstr "رفتار"
+
+#: ../src/empathy-preferences.ui.h:15
+msgid "General"
+msgstr "عمومی"
+
+#: ../src/empathy-preferences.ui.h:16
+msgid "_Enable bubble notifications"
+msgstr "_فعال کردن اطلاعیه‌های حبابی"
+
+#: ../src/empathy-preferences.ui.h:17
+msgid "Disable notifications when _away or busy"
+msgstr "در حالت «_غایب» یا «مشغول» اطلاعیه‌ها از کار بیافتند"
+
+#: ../src/empathy-preferences.ui.h:18
+msgid "Enable notifications when the _chat is not focused"
+msgstr "وقتی تمرکز بر پنجره‌ی _گپ نیست، اطلاعیه‌ها به کار بیافتد"
+
+#: ../src/empathy-preferences.ui.h:19
+msgid "Enable notifications when a contact comes online"
+msgstr "وقتی آشنایی برخط می‌شود، اطلاعیه‌ها به کار افتد"
+
+#: ../src/empathy-preferences.ui.h:20
+msgid "Enable notifications when a contact goes offline"
+msgstr "وقتی آشنایی برون‌خط می‌شود، اطلاعیه‌ها به کار افتد"
+
+#: ../src/empathy-preferences.ui.h:21
+msgid "Notifications"
+msgstr "اطلاعیه‌ها"
+
+#: ../src/empathy-preferences.ui.h:22
+msgid "_Enable sound notifications"
+msgstr "_فعال کردن اطلاعیه‌های صوتی"
+
+#: ../src/empathy-preferences.ui.h:23
+msgid "Disable sounds when _away or busy"
+msgstr "در حالت «_غایب» یا «مشغول» صداها از کار بیافتند"
+
+#: ../src/empathy-preferences.ui.h:24
+msgid "Play sound for events"
+msgstr "پخش صدا برای رویدادها"
+
+#: ../src/empathy-preferences.ui.h:25
+msgid "Sounds"
+msgstr "صداها"
+
+#: ../src/empathy-preferences.ui.h:26
+msgid "Use _echo cancellation to improve call quality"
+msgstr "استفاده از لغو _پژواک صدا جهت بالا بردن کیفیت تماس"
+
+#: ../src/empathy-preferences.ui.h:27
+msgid ""
+"Echo cancellation helps to make your voice sound clearer to the other "
+"person, but may cause problems on some computers. If you or the other person "
+"hear strange noises or glitches during calls, try turning echo cancellation "
+"off and restarting the call."
+msgstr ""
+"لغو پژواک کمک می‌کند تا صدای شما برای طرف مقابل واضح‌تر شنیده شود، اما ممکن "
+"است باعث بروز مشکلاتی در برخی رایانه‌ها بشود. اگر شما یا طرف دیگر خش خش یا "
+"اشکالاتی را در هنگام تماس می‌شنوید، سعی کنید سیستم لغو پژواک را غیرفعال و "
+"مجددا تماس را برقرار کنید."
+
+#: ../src/empathy-preferences.ui.h:30
+msgid "_Publish location to my contacts"
+msgstr "_انتشار مکان برای آشناهای من"
+
+#: ../src/empathy-preferences.ui.h:31
+msgid ""
+"Reduced location accuracy means that nothing more precise than your city, "
+"state and country will be published.  GPS coordinates will be accurate to 1 "
+"decimal place."
+msgstr ""
+"«دقت کاهش یافته‌ی مکان» به این معناست که هیچ چیزی دقیق‌تر از شهر، ایالت و کشور "
+"منتشر نخواهد شد. مختصات‌های موقعیت‌یاب جغرافیایی (GPS) به میزان یک رقم اعشار "
+"دقیق خواهند بود."
+
+#. To translators: The longitude and latitude are rounded to closest 0,1 degrees, so for example 146,2345° is rounded to round(146,2345*10)/10 = 146,2 degrees.
+#: ../src/empathy-preferences.ui.h:33
+msgid "_Reduce location accuracy"
+msgstr "_کاهش دقت مکان"
+
+#: ../src/empathy-preferences.ui.h:34
+msgid "Privacy"
+msgstr "حریم خصوصی"
+
+#: ../src/empathy-preferences.ui.h:36
+msgid ""
+"The list of languages reflects only the languages for which you have a "
+"dictionary installed."
+msgstr ""
+"فهرست زبان‌هایی که اینجا آمده‌اند تنها شامل زبان‌هایی است که شما برایشان "
+"لغت‌نامه نصب کرده‌اید."
+
+#: ../src/empathy-preferences.ui.h:37
+msgid "Enable spell checking for languages:"
+msgstr "غلط‌یاب املایی به کار افتد برای زبان:"
+
+#: ../src/empathy-preferences.ui.h:38
+msgid "Spell Checking"
+msgstr "غلط‌یاب املایی"
+
+#: ../src/empathy-preferences.ui.h:39
+msgid "Chat Th_eme:"
+msgstr "_تم گپ:"
+
+#: ../src/empathy-preferences.ui.h:40
+msgid "Variant:"
+msgstr "گزینه:"
+
+#: ../src/empathy-preferences.ui.h:41
+msgid "Themes"
+msgstr "تم‌ها"
+
+#: ../src/empathy-roster-window.c:231
+msgid "Provide Password"
+msgstr "فراهم کردن گذرواژه"
+
+#: ../src/empathy-roster-window.c:237
+msgid "Disconnect"
+msgstr "قطع اتصال"
+
+#: ../src/empathy-roster-window.c:494
+msgid "You need to set up an account to see contacts here."
+msgstr "شما باید یک حساب بسازید تا بتوانید آشناهایتان را اینجا ببینید."
+
+#: ../src/empathy-roster-window.c:570
+#, c-format
+msgid "Sorry, %s accounts can’t be used until your %s software is updated."
+msgstr "متاسفم، حساب‌های %s تا زمان بروزرسانی نرم‌افزار %s قابل استفاده نیست."
+
+#: ../src/empathy-roster-window.c:671
+msgid "Windows Live"
+msgstr "ویندوز لایو"
+
+#: ../src/empathy-roster-window.c:673
+msgid "Google Talk"
+msgstr "گوگل تاک"
+
+#: ../src/empathy-roster-window.c:675
+msgid "Facebook"
+msgstr "فیس‌بوک"
+
+#. translators: %s is an account name like 'Facebook' or 'Google Talk'
+#: ../src/empathy-roster-window.c:690
+#, c-format
+msgid "%s account requires authorisation"
+msgstr "حساب %s احتیاج به تصدیق‌هویت دارد"
+
+#: ../src/empathy-roster-window.c:701
+msgid "Online Accounts"
+msgstr "حساب‌های برخط"
+
+#: ../src/empathy-roster-window.c:748
+msgid "Update software…"
+msgstr "بروزرسانی نرم‌افزار..."
+
+#: ../src/empathy-roster-window.c:754
+msgid "Reconnect"
+msgstr "اتصال مجدد"
+
+#: ../src/empathy-roster-window.c:758
+msgid "Edit Account"
+msgstr "ویرایش حساب"
+
+#: ../src/empathy-roster-window.c:763
+msgid "Close"
+msgstr "بستن"
+
+#: ../src/empathy-roster-window.c:905
+msgid "Top up account"
+msgstr "افزایش مانده اعتبار حساب"
+
+#: ../src/empathy-roster-window.c:1626
+msgid "You need to enable one of your accounts to see contacts here."
+msgstr "لازم است شما یکی از حساب‌ها را برای دیدن آشناهایتان فعال کنید."
+
+#. translators: argument is an account name
+#: ../src/empathy-roster-window.c:1634
+#, c-format
+msgid "You need to enable %s to see contacts here."
+msgstr "لازم است شما %s را برای دیدن آشناهایتان فعال کنید."
+
+#: ../src/empathy-roster-window.c:1712
+msgid "Change your presence to see contacts here"
+msgstr "حضور خود را تغییر دهید تا آشناها اینجا را ببینید"
+
+#: ../src/empathy-roster-window.c:1721
+msgid "No match found"
+msgstr "هیچ مطابقتی پیدا نشد"
+
+#: ../src/empathy-roster-window.c:1728
+msgid "You haven't added any contacts yet"
+msgstr "شما هنوز هیچ آشنایی اضافه نکرده‌اید"
+
+#: ../src/empathy-roster-window.c:1731
+msgid "No online contacts"
+msgstr "هیچ آشنا برخطی وجود ندارد"
+
+#: ../src/empathy-roster-window-menubar.ui.h:1
+#: ../src/empathy-status-icon.ui.h:2
+msgid "_New Conversation…"
+msgstr "_گفتگوی جدید..."
+
+#: ../src/empathy-roster-window-menubar.ui.h:2
+#: ../src/empathy-status-icon.ui.h:3
+msgid "New _Call…"
+msgstr "تماس _جدید..."
+
+#: ../src/empathy-roster-window-menubar.ui.h:3
+msgid "Contacts"
+msgstr "آشناها"
+
+#: ../src/empathy-roster-window-menubar.ui.h:4
+msgid "_Add Contacts…"
+msgstr "ا_فزودن آشنا..."
+
+#: ../src/empathy-roster-window-menubar.ui.h:5
+msgid "_Search for Contacts…"
+msgstr "_جستجو برای آشناها..."
+
+#: ../src/empathy-roster-window-menubar.ui.h:6
+msgid "_Blocked Contacts"
+msgstr "آشناهای _مسدود شده"
+
+#: ../src/empathy-roster-window-menubar.ui.h:7
+msgid "_Rooms"
+msgstr "_اتاق‌ها"
+
+#: ../src/empathy-roster-window-menubar.ui.h:8
+msgid "_Join…"
+msgstr "_پیوستن..."
+
+#: ../src/empathy-roster-window-menubar.ui.h:9
+msgid "Join _Favorites"
+msgstr "پیوستن به فهرست _علاقه‌مندی‌ها"
+
+#: ../src/empathy-roster-window-menubar.ui.h:10
+msgid "_Manage Favorites"
+msgstr "_مدیریت علاقه‌مندی‌ها"
+
+#: ../src/empathy-roster-window-menubar.ui.h:12
+msgid "_File Transfers"
+msgstr "انتقال _پرونده‌ها"
+
+#: ../src/empathy-roster-window-menubar.ui.h:13
+msgid "_Accounts"
+msgstr "_حساب‌ها"
+
+#: ../src/empathy-roster-window-menubar.ui.h:14
+msgid "P_references"
+msgstr "_ترجیحات"
+
+#: ../src/empathy-roster-window-menubar.ui.h:15
+msgid "Help"
+msgstr "راهنما"
+
+#: ../src/empathy-roster-window-menubar.ui.h:16
+msgid "About"
+msgstr "راهنما"
+
+#: ../src/empathy-roster-window-menubar.ui.h:17
+#: ../src/empathy-status-icon.ui.h:5
+msgid "_Quit"
+msgstr "_خروج"
+
+#: ../src/empathy-roster-window.ui.h:1
+msgid "Account settings"
+msgstr "تنظیمات حساب"
+
+#: ../src/empathy-roster-window.ui.h:2
+msgid "Go _Online"
+msgstr "_برخط شدن"
+
+#: ../src/empathy-roster-window.ui.h:3
+msgid "Show _Offline Contacts"
+msgstr "نمایش آشنا‌های _برون‌خط"
+
+#: ../src/empathy-status-icon.ui.h:4
+msgid "Status"
+msgstr "وضعیت"
+
+#: ../ubuntu-online-accounts/cc-plugins/account-plugins/empathy-accounts-plugin-widget.c:183
+#: ../ubuntu-online-accounts/cc-plugins/app-plugin/empathy-app-plugin-widget.c:126
+msgid "Done"
+msgstr "انجام شد"
+
+#: ../ubuntu-online-accounts/cc-plugins/account-plugins/empathy-accounts-plugin-widget.c:214
+msgid "Please enter your account details"
+msgstr "لطفا جزئیات حساب خود را وارد کنید"
+
+#: ../ubuntu-online-accounts/cc-plugins/app-plugin/empathy-app-plugin-widget.c:160
+#, c-format
+msgid "Edit %s account options"
+msgstr "ویرایش ترجیحات حساب %s"
+
+#: ../ubuntu-online-accounts/empathy.application.in.h:1
+msgid "Integrate your IM accounts"
+msgstr "یکپارچه‌سازی حساب‌های پیام‌رسان‌فوری"
+
+#~ msgid "No error message"
+#~ msgstr "پیغام خطایی وجود ندارد"
+
+#~ msgid "Instant Message (Empathy)"
+#~ msgstr "پیام فوری (امپاتی)"
+
+#~ msgid ""
+#~ "Empathy is free software; you can redistribute it and/or modify it under "
+#~ "the terms of the GNU General Public License as published by the Free "
+#~ "Software Foundation; either version 2 of the License, or (at your option) "
+#~ "any later version."
+#~ msgstr ""
+#~ "امپاتی یک نرم افزار آزاد است. شما می توانید بر اساس شروط مجوز GPL که توسط "
+#~ "بنیاد نرم افزار های آزاد (FSF) منتشر شده است، آنرا تغییر داده و/یا توزیع "
+#~ "مجدد نمایید شما می‌توانید با صلاحدید خودتان از نسخه ۲ مجوز GPL یا نسخه های "
+#~ "بعدی استفاده کنید."
+
+#~ msgid ""
+#~ "Empathy is distributed in the hope that it will be useful, but WITHOUT "
+#~ "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+#~ "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+#~ "more details."
+#~ msgstr ""
+#~ "امپاتی به این امید توزیع می شود که کارآیی لازم را داشته باشد، ولی هیچ "
+#~ "تضمینی نمی‌دهد. حتی تضمین ضمنی برای کارآمدی یا مناسب بودن برای یک کاربرد "
+#~ "خاص. برای اطلاعات بیشتر مجوز GPL را ملاحظه نمایید."
+
+#~ msgid ""
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with Empathy; if not, write to the Free Software Foundation, Inc., 51 "
+#~ "Franklin Street, Fifth Floor, Boston, MA 02110-130159 USA"
+#~ msgstr ""
+#~ "شما باید به همراه امپاتی نسخه‌ای از اجازه‌نامه‌ی همگانی عمومی گنو دریافت "
+#~ "کرده باشد؛ اگر این طور نیست برای شرکت بنیاد نرم افزارهای آزاد به آدرس زیر "
+#~ "بنویسید:59Free Software Foundation, Inc., 51 Franklin Street, Fifth "
+#~ "Floor, Boston, MA 02110-130159 USA"
+
+#~ msgid "About Empathy"
+#~ msgstr "درباره اِمپاتی"
+
+#~ msgid "Empathy can use the network to guess the location"
+#~ msgstr "امپاتی می‌تواند از شبکه برای حدس مکان استفاده کند"
+
+#~ msgid "Whether Empathy can use the network to guess the location."
+#~ msgstr ""
+#~ "این‌که امپاتی اجازه داشته باشد، از شبکه برای حدس مکان استفاده کند یا خیر."
+
+#~ msgid "Empathy can use the cellular network to guess the location"
+#~ msgstr "امپاتی می‌تواند از شبکه‌ی سلولی برای حدس مکان استفاده کند"
+
+#~ msgid "Whether Empathy can use the cellular network to guess the location."
+#~ msgstr ""
+#~ "این‌که امپاتی اجازه داشته باشد، از شبکه‌ی سلولی برای حدس مکان استفاده کند "
+#~ "یا خیر."
+
+#~ msgid "Empathy can use the GPS to guess the location"
+#~ msgstr ""
+#~ "امپاتی می‌تواند از مکان‌یاب جغرافیایی (جی‌پی‌اس) استفاده کند تا مکان کاربر را "
+#~ "حدس بزند"
+
+#~ msgid "Whether Empathy can use the GPS to guess the location."
+#~ msgstr ""
+#~ "این‌که امپاتی اجازه داشته باشد، از مکان‌یاب جغرافیایی (جی‌پی‌اس) برای حدس "
+#~ "مکان استفاده کند یا خیر."
+
+#~ msgid "Password not found"
+#~ msgstr "گذرواژه یافت نشد"
+
+#~ msgid "IM account password for %s (%s)"
+#~ msgstr "گذوراژه برای حساب %s (%s)"
+
+#~ msgid "Password for chatroom '%s' on account %s (%s)"
+#~ msgstr "گذرواژه بری اتاق گپ «%s» بر روی حساب %s (%s)"
+
+#~ msgid "%d second ago"
+#~ msgid_plural "%d seconds ago"
+#~ msgstr[0] "%Id ثانیه قبل"
+#~ msgstr[1] "%Id ثانیه قبل"
+
+#~ msgid "%d minute ago"
+#~ msgid_plural "%d minutes ago"
+#~ msgstr[0] "%Id دقیقه قبل"
+#~ msgstr[1] "%Id دقیقه قبل"
+
+#~ msgid "%d hour ago"
+#~ msgid_plural "%d hours ago"
+#~ msgstr[0] "%Id ساعت قبل"
+#~ msgstr[1] "%Id ساعت قبل"
+
+#~ msgid "%d day ago"
+#~ msgid_plural "%d days ago"
+#~ msgstr[0] "%Id روز قبل"
+#~ msgstr[1] "%Id روز قبل"
+
+#~ msgid "%d week ago"
+#~ msgid_plural "%d weeks ago"
+#~ msgstr[0] "%Id هفته قبل"
+#~ msgstr[1] "%Id هفته قبل"
+
+#~ msgid "%d month ago"
+#~ msgid_plural "%d months ago"
+#~ msgstr[0] "%Id ماه قبل"
+#~ msgstr[1] "%Id ماه قبل"
+
+#~ msgid "in the future"
+#~ msgstr "در آینده"
+
+#~ msgid "Yahoo! Japan"
+#~ msgstr " یاهو! ژاپن"
+
+#~ msgid "Facebook Chat"
+#~ msgstr "گپ فیس‌بوک"
+
+#~ msgid "Pass_word"
+#~ msgstr "_گذرواژه"
+
+#~ msgid "Screen _Name"
+#~ msgstr "نام _روی صفحه نمایش"
+
+#~ msgid "<b>Example:</b> MyScreenName"
+#~ msgstr "<b>مثال:</b> MyScreenName"
+
+#~ msgid "_Port"
+#~ msgstr "_درگاه"
+
+#~ msgid "_Server"
+#~ msgstr "_کارگزار"
+
+#~ msgid "Advanced"
+#~ msgstr "پیشرفته"
+
+#~ msgid "What is your AIM screen name?"
+#~ msgstr "نام روی صفحه‌ی شما در AIM چیست؟"
+
+#~ msgid "What is your AIM password?"
+#~ msgstr "گذرواژه‌ی AIM شما چیست؟"
+
+#~ msgid "Remember Password"
+#~ msgstr "به خاطر سپردن گذرواژه"
+
+#~ msgid "Password"
+#~ msgstr "گذرواژه"
+
+#~ msgid "Server"
+#~ msgstr "کارگزار"
+
+#~ msgid "Port"
+#~ msgstr "درگاه"
+
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid "%s:"
+#~ msgstr "%s:"
+
+#~ msgid "Username:"
+#~ msgstr "نام کاربری:"
+
+#~ msgid "A_pply"
+#~ msgstr "_اعمال"
+
+#~ msgid "L_og in"
+#~ msgstr "_ورود به سیستم"
+
+#~ msgid "This account already exists on the server"
+#~ msgstr "این حساب از قبل بر روی کارگزار وجود دارد"
+
+#~ msgid "Create a new account on the server"
+#~ msgstr "ایجاد یک حساب جدید بر روی کارگزار"
+
+#~ msgid "%1$s on %2$s"
+#~ msgstr "%1$s در %2$s"
+
+#~ msgid "%s Account"
+#~ msgstr "حساب %s"
+
+#~ msgid "New account"
+#~ msgstr "حساب جدید"
+
+#~ msgid "Login I_D"
+#~ msgstr "شناسه‌ی _ورود"
+
+#~ msgid "<b>Example:</b> username"
+#~ msgstr "<b>مثال:</b> username"
+
+#~ msgid "What is your GroupWise User ID?"
+#~ msgstr "نام کاربری GroupWise شما چیست؟"
+
+#~ msgid "What is your GroupWise password?"
+#~ msgstr "گذرواژه‌ی GroupWise شما چیست؟"
+
+#~ msgid "ICQ _UIN"
+#~ msgstr "ICQ _UIN"
+
+#~ msgid "<b>Example:</b> 123456789"
+#~ msgstr "<b>مثال:</b> 123456789"
+
+#~ msgid "Ch_aracter set"
+#~ msgstr "تنظیم ‫_نویسه‌گان‬"
+
+#~ msgid "What is your ICQ UIN?"
+#~ msgstr "نام کاربری (UIN) شما در ICQ چیست؟"
+
+#~ msgid "What is your ICQ password?"
+#~ msgstr "گذرواژه‌ی ICQ شما چیست؟"
+
+#~ msgid "Network"
+#~ msgstr "شبکه"
+
+#~ msgid "Character set"
+#~ msgstr "‫نویسه‌گان‬"
+
+#~ msgid "Up"
+#~ msgstr "بالا"
+
+#~ msgid "Down"
+#~ msgstr "پایین"
+
+#~ msgid "Servers"
+#~ msgstr "کارگزارها"
+
+#~ msgid ""
+#~ "Most IRC servers don't need a password, so if you're not sure, don't "
+#~ "enter a password."
+#~ msgstr ""
+#~ "بیشتر کارگزارهای IRC احتیاجی به گذرواژه ندارند، بنابراین چناچه مطمئن "
+#~ "نیستید، هیچ گذرواژه‌ای وارد نکنید."
+
+#~ msgid "Nickname"
+#~ msgstr "نام مستعار"
+
+#~ msgid "Quit message"
+#~ msgstr "پیغام ترک"
+
+#~ msgid "Real name"
+#~ msgstr "نام واقعی"
+
+#~ msgid "Username"
+#~ msgstr "نام‌کاربری"
+
+#~ msgid "Which IRC network?"
+#~ msgstr "کدام شبکه IRC؟"
+
+#~ msgid "What is your IRC nickname?"
+#~ msgstr "نام مستعار شما در IRC چیست؟"
+
+#~ msgid "What is your Facebook username?"
+#~ msgstr "نام کاربری فیس‌بوک شما چیست؟"
+
+#~ msgid ""
+#~ "This is your username, not your normal Facebook login.\n"
+#~ "If you are facebook.com/<b>badger</b>, enter <b>badger</b>.\n"
+#~ "Use <a href=\"http://www.facebook.com/username/\">this page</a> to choose "
+#~ "a Facebook username if you don't have one."
+#~ msgstr ""
+#~ "این نام کاربری شماست، و نه ورود به سیستم فیس‌بوک معمول شما.\n"
+#~ "اگر شما facebook.com/<b>badger</b> هستید، <b>badger</b> را وارد کنید.\n"
+#~ "اگر نام کاربری فیس‌بوک ندارید به <a href=\"http://www.facebook.com/"
+#~ "username/\">این آدرس</a> بروید تا یکی بسازید."
+
+#~ msgid "What is your Facebook password?"
+#~ msgstr "گذرواژه‌ی فیس‌بوک شما چیست؟"
+
+#~ msgid "What is your Google ID?"
+#~ msgstr "شناسه‌ی کاربری گوگل شما چیست؟"
+
+#~ msgid "<b>Example:</b> user@gmail.com"
+#~ msgstr "<b>مثال:</b> user@gmail.com"
+
+#~ msgid "What is your Google password?"
+#~ msgstr "گذرواژه‌ی گوگل شما چیست؟"
+
+#~ msgid "<b>Example:</b> user@jabber.org"
+#~ msgstr "<b>مثال:</b> user@jabber.org"
+
+#~ msgid "I_gnore SSL certificate errors"
+#~ msgstr "از خطاهای گواهینامه SSL _چشم‌پوشی شود"
+
+#~ msgid "Priori_ty"
+#~ msgstr "ا_لویت"
+
+#~ msgid "Reso_urce"
+#~ msgstr "_منبع"
+
+#~ msgid "Encr_yption required (TLS/SSL)"
+#~ msgstr "_رمزنگاری مورد نیاز بود (TLS/SSL)"
+
+#~ msgid "Override server settings"
+#~ msgstr "لغو کردن تنظیمات کارگزار"
+
+#~ msgid "Use old SS_L"
+#~ msgstr "استفاده ا_ز SSL قدیمی"
+
+#~ msgid "What is your Jabber ID?"
+#~ msgstr "شناسه‌ی کاربری گوگل شما چیست؟"
+
+#~ msgid "What is your desired Jabber ID?"
+#~ msgstr "شناسه‌ی کاربری Jabber مورد نظر شما چیست؟"
+
+#~ msgid "What is your Jabber password?"
+#~ msgstr "گذرواژه‌ی Jabber شما چیست؟"
+
+#~ msgid "What is your desired Jabber password?"
+#~ msgstr "گذرواژه‌ی Jabber مورد نظر شما چیست؟"
+
+#~ msgid "Nic_kname"
+#~ msgstr "نام _مستعار"
+
+#~ msgid "_Last Name"
+#~ msgstr "_نام خانوادگی"
+
+#~ msgid "_First Name"
+#~ msgstr "_نام"
+
+#~ msgid "_Published Name"
+#~ msgstr "_نام منتشره"
+
+#~ msgid "_Jabber ID"
+#~ msgstr "_شناسه‌ی Jabber"
+
+#~ msgid "E-_mail address"
+#~ msgstr "نشانی _پست‌الکترونیکی"
+
+#~ msgid "<b>Example:</b> user@hotmail.com"
+#~ msgstr "<b>مثال:</b> user@hotmail.com"
+
+#~ msgid "What is your Windows Live ID?"
+#~ msgstr "شناسه‌ی کاربری ویندوز لایو شما چیست؟"
+
+#~ msgid "What is your Windows Live password?"
+#~ msgstr "گذرواژه‌ی ویندوز لایو شما چیست؟"
+
+#~ msgid "Auto"
+#~ msgstr "خودکار"
+
+#~ msgid "UDP"
+#~ msgstr "UDP"
+
+#~ msgid "TCP"
+#~ msgstr "TCP"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "Register"
+#~ msgstr "Register"
+
+#~ msgid "Options"
+#~ msgstr "Options"
+
+#~ msgid "None"
+#~ msgstr "هیچ‌کدام"
+
+#~ msgid "_Username"
+#~ msgstr "نام _کاربری"
+
+#~ msgid "<b>Example:</b> user@my.sip.server"
+#~ msgstr "<b>مثال:</b> user@my.sip.server"
+
+#~ msgid "Use this account to call _landlines and mobile phones"
+#~ msgstr "از این حساب برای تماس‌های _خطوط زمینی و تلفن‌های همراه استفاده کن"
+
+#~ msgid "NAT Traversal Options"
+#~ msgstr "گزینه‌های پیمایش NAT"
+
+#~ msgid "Proxy Options"
+#~ msgstr "گزینه‌های پیشکار"
+
+#~ msgid "Miscellaneous Options"
+#~ msgstr "گزینه‌های متفرقه"
+
+#~ msgid "STUN Server"
+#~ msgstr "کارگزار STUN"
+
+#~ msgid "Discover the STUN server automatically"
+#~ msgstr "کارگزار STUN، خودکار پیدا شود"
+
+#~ msgid "Discover Binding"
+#~ msgstr "پیدا کردن مقیدسازی"
+
+#~ msgid "Keep-Alive Options"
+#~ msgstr "گزینه‌های زنده‌ماندن"
+
+#~ msgid "Mechanism"
+#~ msgstr "سازوکار"
+
+#~ msgid "Interval (seconds)"
+#~ msgstr "بازه‌ی زمانی (بر حسب ثانیه)"
+
+#~ msgid "Authentication username"
+#~ msgstr "نام کاربری برای تأیید هویت"
+
+#~ msgid "Transport"
+#~ msgstr "انتقال"
+
+#~ msgid "Loose Routing"
+#~ msgstr "مسیریابی سست"
+
+#~ msgid "Ignore TLS Errors"
+#~ msgstr "نادیده گرفتن خطاهای TLS"
+
+#~ msgid "Local IP Address"
+#~ msgstr "آدرس IP محلی"
+
+#~ msgid "What is your SIP login ID?"
+#~ msgstr "شناسه‌ی ورود SIP شما چیست؟"
+
+#~ msgid "What is your SIP account password?"
+#~ msgstr "گذرواژه‌ی حساب SIP شما چیست؟"
+
+#~ msgid "Pass_word:"
+#~ msgstr "_گذرواژه:"
+
+#~ msgid "Yahoo! I_D:"
+#~ msgstr "_شناسه‌ی یاهو!:"
+
+#~ msgid "I_gnore conference and chat room invitations"
+#~ msgstr "از _دعوت‌نامه‌های کنفرانس و اتاق گپ چشم پوشی شوند"
+
+#~ msgid "_Room List locale:"
+#~ msgstr "کدبومی _فهرست اتاق:"
+
+#~ msgid "Ch_aracter set:"
+#~ msgstr "تنظیم ‫_نویسه‌گان‬:"
+
+#~ msgid "_Port:"
+#~ msgstr "_درگاه:"
+
+#~ msgid "What is your Yahoo! ID?"
+#~ msgstr "شناسه‌ی کاربری یاهو! شما چیست؟"
+
+#~ msgid "What is your Yahoo! password?"
+#~ msgstr "گذرواژه‌ی یاهو! شما چیست؟"
+
+#~ msgid "Couldn't convert image"
+#~ msgstr "تصویر تبدیل نشد"
+
+#~ msgid "None of the accepted image formats are supported on your system"
+#~ msgstr "هیچ‌کدام از قالب‌های تصویر پذیرفته در سیستم شما پشتیبانی نمی‌شوند"
+
+#~ msgid "Couldn't save picture to file"
+#~ msgstr "نمی‌توان تصویر را در پرونده ذخیره کرد"
+
+#~ msgid "Select Your Avatar Image"
+#~ msgstr "آواتار خود را انتخاب کنید"
+
+#~ msgid "Take a picture..."
+#~ msgstr "یک عکس بگیرید..."
+
+#~ msgid "No Image"
+#~ msgstr "بدون تصویر"
+
+#~ msgid "Images"
+#~ msgstr "تصویرها"
+
+#~ msgid "All Files"
+#~ msgstr "همه‌ی پرونده‌ها"
+
+#~ msgid "Select..."
+#~ msgstr "انتخاب..."
+
+#~ msgid "_Select"
+#~ msgstr "_انتخاب"
+
+#~ msgid "Full name"
+#~ msgstr "نام کامل"
+
+#~ msgid "Phone number"
+#~ msgstr "شماره‌ی تلفن"
+
+#~ msgid "E-mail address"
+#~ msgstr "نشانی پست‌الکترونیکی"
+
+#~ msgid "Website"
+#~ msgstr "پایگاه‌وب"
+
+#~ msgid "Birthday"
+#~ msgstr "روز تولد"
+
+#~ msgid "Last seen:"
+#~ msgstr "آخرین حضور:"
+
+#~ msgid "Server:"
+#~ msgstr "کارگزار:"
+
+#~ msgid "Connected from:"
+#~ msgstr "متصل شد از:"
+
+#~ msgid "Away message:"
+#~ msgstr "پیغام ترک:"
+
+#~ msgid "work"
+#~ msgstr "کار"
+
+#~ msgid "home"
+#~ msgstr "خانه"
+
+#~ msgid "mobile"
+#~ msgstr "تلفن همراه"
+
+#~ msgid "voice"
+#~ msgstr "صوتی"
+
+#~ msgid "preferred"
+#~ msgstr "ترجیح داده شده"
+
+#~ msgid "postal"
+#~ msgstr "کد پستی"
+
+#~ msgid "parcel"
+#~ msgstr "بسته"
+
+#~ msgid "New Network"
+#~ msgstr "شبکه جدید"
+
+#~ msgid "Choose an IRC network"
+#~ msgstr "یک شبکه IRC انتخاب کنید"
+
+#~ msgid "Reset _Networks List"
+#~ msgstr "تنظیم دوباره فهرست _شبکه‌ها"
+
+#~ msgctxt "verb displayed on a button to select an IRC network"
+#~ msgid "Select"
+#~ msgstr "انتخاب"
+
+#~ msgid "new server"
+#~ msgstr "کارگزار جدید"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#~ msgid "New %s account"
+#~ msgstr "حساب جدید %s"
+
+#~ msgid "Go online to edit your personal information."
+#~ msgstr "برای ویرایش اطلاعات شخصی برخط شوید."
+
+#~ msgid "<b>Personal Details</b>"
+#~ msgstr "<b>جزئیات شخصی</b>"
+
+#~ msgid "Current Locale"
+#~ msgstr "محلی جاری"
+
+#~ msgid "Arabic"
+#~ msgstr "عربی"
+
+#~ msgid "Armenian"
+#~ msgstr "ارمنی"
+
+#~ msgid "Baltic"
+#~ msgstr "بالتیک"
+
+#~ msgid "Celtic"
+#~ msgstr "سلتیک"
+
+#~ msgid "Central European"
+#~ msgstr "اروپای مرکزی"
+
+#~ msgid "Chinese Simplified"
+#~ msgstr "چینی ساده شده"
+
+#~ msgid "Chinese Traditional"
+#~ msgstr "چینی قدیمی"
+
+#~ msgid "Croatian"
+#~ msgstr "کرواسیایی"
+
+#~ msgid "Cyrillic"
+#~ msgstr "سیریلیک"
+
+#~ msgid "Cyrillic/Russian"
+#~ msgstr "سیریلیک/روسی"
+
+#~ msgid "Cyrillic/Ukrainian"
+#~ msgstr "سیریلیک/اوکراینی"
+
+#~ msgid "Georgian"
+#~ msgstr "گرجی"
+
+#~ msgid "Greek"
+#~ msgstr "یونانی"
+
+#~ msgid "Gujarati"
+#~ msgstr "گجراتی"
+
+#~ msgid "Gurmukhi"
+#~ msgstr "گورماخی"
+
+#~ msgid "Hebrew"
+#~ msgstr "عبری"
+
+#~ msgid "Hebrew Visual"
+#~ msgstr "عبری تصویری"
+
+#~ msgid "Hindi"
+#~ msgstr "هندی"
+
+#~ msgid "Icelandic"
+#~ msgstr "ایسلندی"
+
+#~ msgid "Japanese"
+#~ msgstr "ژاپنی"
+
+#~ msgid "Korean"
+#~ msgstr "کره‌ای"
+
+#~ msgid "Nordic"
+#~ msgstr "شمال اروپا"
+
+#~ msgid "Persian"
+#~ msgstr "فارسی"
+
+#~ msgid "Romanian"
+#~ msgstr "رومانیای"
+
+#~ msgid "South European"
+#~ msgstr "جنوب اروپا"
+
+#~ msgid "Thai"
+#~ msgstr "تایلندی"
+
+#~ msgid "Turkish"
+#~ msgstr "ترکی"
+
+#~ msgid "Unicode"
+#~ msgstr "یونیکد"
+
+#~ msgid "Western"
+#~ msgstr "وسترن (غربی)"
+
+#~ msgid "Vietnamese"
+#~ msgstr "ویتنامی"
+
+#~ msgid "_Edit Connection Parameters..."
+#~ msgstr "_ویرایش پارامترهای اتصال"
+
+#~ msgid "_GPS"
+#~ msgstr "_موقعیت‌یاب جغرافیایی (GPS)"
+
+#~ msgid "_Cellphone"
+#~ msgstr "_موبایل"
+
+#~ msgid "_Network (IP, Wi-Fi)"
+#~ msgstr "_شبکه (IP, Wi-Fi)"
+
+#~ msgid "Location sources:"
+#~ msgstr "منابع مکان‌ها:"
+
+#~ msgid "_New Conversation..."
+#~ msgstr "گفتگوی _جدید"
+
+#~ msgid "New _Call..."
+#~ msgstr "_تماس جدید"
+
+#~ msgid "_Add Contacts..."
+#~ msgstr "ا_فزودن آشنا"
+
+#~ msgid "_Join..."
+#~ msgstr "_پیوستن..."
+
+#~| msgid "_Add Contacts..."
+#~ msgid "_Add Contact..."
+#~ msgstr "ا_فزودن آشنا..."
+
+#~ msgid "i"
+#~ msgstr "ر"
+
+#~ msgid "Manage Messaging and VoIP accounts"
+#~ msgstr "مدیریت حساب‌های پیام‌رسانی و VoIP"
+
+#~ msgid "Show avatars"
+#~ msgstr "نشان دادن آواتارها"
+
+#~ msgid ""
+#~ "Whether to show avatars for contacts in the contact list and chat windows."
+#~ msgstr ""
+#~ "این‌که آواتار برای آشناها در فهرست آشنایان و پنجره‌ی گپ نشان داده شوند یا "
+#~ "خیر."
+
+#~ msgid "Show protocols"
+#~ msgstr "نشان دادن پروتکل‌ها"
+
+#~ msgid "Whether to show protocols for contacts in the contact list."
+#~ msgstr ""
+#~ "این‌که در فهرست آشناها، پروتکل‌های مورد استفاده برای آشناها هم دیده شوند یا "
+#~ "خیر."
+
+#~ msgid "Compact contact list"
+#~ msgstr "فهرست فشرده‌ی آشناها"
+
+#~ msgid "Whether to show the contact list in compact mode."
+#~ msgstr "این‌که فهرست آشنا‌ها در حالت فشرده نمایش داده شود یا خیر."
+
+#~ msgid "Contact list sort criterion"
+#~ msgstr "معیارهای مرتب‌سازی فهرست آشناها"
+
+#~ msgid ""
+#~ "Which criterion to use when sorting the contact list. Default is to sort "
+#~ "by the contact's state with the value \"state\". A value of \"name\" will "
+#~ "sort the contact list by name."
+#~ msgstr ""
+#~ "کدام معیار برای مرتب کردن فهرست آشناها بکار گرفته شود. پیش فرض بر روی "
+#~ "مرتب کردن بر اساس وضعیت آشنا با مقدار «state» است. مقدار «name» فهرست را "
+#~ "بر اساس نام آشنا مرتب می‌کند."
+
+#~ msgid "Network:"
+#~ msgstr "شبکه:"
+
+#~ msgid "Password:"
+#~ msgstr "گذرواژه:"
+
+#~ msgid "Port:"
+#~ msgstr "درگاه:"
+
+#~ msgid "“%s” is not a valid contact ID"
+#~ msgstr "شناسه آشنای «%s» صحیح نیست"
+
+#~ msgid "%A %B %d %Y"
+#~ msgstr "%A %Od %B"
+
+#~ msgid "_Block User"
+#~ msgstr "_مسدود کردن کاربر"
+
+#~ msgid "Decide _Later"
+#~ msgstr "بعدا _تصمیم می‌گیرم"
+
+#~ msgid "Classic"
+#~ msgstr "کلاسیک"
+
+#~ msgid "Simple"
+#~ msgstr "ساده"
+
+#~ msgid "Clean"
+#~ msgstr "تمیز"
+
+#~ msgid "Blue"
+#~ msgstr "آبی"
+
+#~ msgid "Failed to retrieve your personal information from the server."
+#~ msgstr "دریافت اطلاعات شخصی شما از کارگزار شکست خورد."
+
+#~ msgid "Contrast"
+#~ msgstr "سایه روشن تصویر"
+
+#~ msgid "Brightness"
+#~ msgstr "روشنی"
+
+#~ msgid "Gamma"
+#~ msgstr "گاما"
+
+#~ msgid "Volume"
+#~ msgstr "بلندی صدا"
+
+#~ msgid "_Sidebar"
+#~ msgstr "نوار _جانبی"
+
+#~ msgid "Audio input"
+#~ msgstr "ورودی صدا"
+
+#~ msgid "Video input"
+#~ msgstr "ورودی ویدئو"
+
+#~ msgid "Dialpad"
+#~ msgstr "شماره‌گیر"
+
+#~ msgid "Details"
+#~ msgstr "جزئیات"
+
+#~ msgctxt "codec"
+#~ msgid "Unknown"
+#~ msgstr "ناشناس"
+
+#~ msgid "Connected — %d:%02dm"
+#~ msgstr "متصل شد — %Id: %I02dm"
+
+#~ msgid "Send Video"
+#~ msgstr "فرستادن ویدئو"
+
+#~ msgid "Send Audio"
+#~ msgstr "فرستادن صدا"
+
+#~ msgid "Top up %s (%s)..."
+#~ msgstr "بالا بردن %s (%s)..."
+
+#~ msgid "Top Up..."
+#~ msgstr "بالا بردن..."
+
+#~ msgid "_Offline Contacts"
+#~ msgstr "آ_شناهای برون‌خط"
+
+#~ msgid "Show P_rotocols"
+#~ msgstr "نشان دادن _قراردادها"
+
+#~ msgid "Credit Balance"
+#~ msgstr "مانده اعتبار"
+
+#~ msgid "Contacts on a _Map"
+#~ msgstr "آشناها روی یک _نقشه"
+
+#~ msgid "Find in Contact _List"
+#~ msgstr "جستجو در _فهرست آشناها"
+
+#~ msgid "Sort by _Name"
+#~ msgstr "مرتب‌سازی بر اساس _نام"
+
+#~ msgid "Sort by _Status"
+#~ msgstr "مرتب‌سازی بر اساس _وضعیت"
+
+#~ msgid "Normal Size With _Avatars"
+#~ msgstr "اندازه‌ی عادی به همراه آ_واتار"
+
+#~ msgid "N_ormal Size"
+#~ msgstr "ا_ندازه‌ی معمولی"
+
+#~ msgid "_Compact Size"
+#~ msgstr "اندازه‌ی _فشرده"
+
+#~ msgid "Could not start room listing"
+#~ msgstr "شروع به فهرست کردن اتاق ممکن نبود"
+
+#~ msgid "Could not stop room listing"
+#~ msgstr "توقف فهرست کردن اتاق امکان پذیر نشد"
+
+#~ msgid "Appearance"
+#~ msgstr "ظاهر"
+
+#~ msgid "Redial"
+#~ msgstr "تماس دوباره"
+
+#~ msgid "V_ideo"
+#~ msgstr "_ویدئو"
+
+#~ msgid "Video Off"
+#~ msgstr "خاموش کردن ویدئو"
+
+#~ msgid "Video Preview"
+#~ msgstr "پیش‌نمایش ویدئو"
+
+#~ msgid "Video On"
+#~ msgstr "روشن کردن ویدئو"
+
+#~ msgid "Call the contact again"
+#~ msgstr "دوباره با آشنای مورد نظر تماس گرفته شود"
+
+#~ msgid "Camera Off"
+#~ msgstr "خاموش کردن دوربین"
+
+#~ msgid "Disable camera and stop sending video"
+#~ msgstr "دوربین از کار بیافتد و فرستادن ویدئو متوقف شود"
+
+#~ msgid "Preview"
+#~ msgstr "پیش‌نمایش"
+
+#~ msgid "Enable camera but don't send video"
+#~ msgstr "دوربین به کار بیافتد ولی ویدئو فرستاد نشود"
+
+#~ msgid "Camera On"
+#~ msgstr "روشن کردن دوربین"
+
+#~ msgid "Enable camera and send video"
+#~ msgstr "دوربین به کار بیافتد و ویدئو ارسال شود"
+
+#~ msgid "Contact Map View"
+#~ msgstr "نمایش نقشه‌ی آشنایان"
+
+#~ msgid "_Disable"
+#~ msgstr "_غیرفعال‌کردن"

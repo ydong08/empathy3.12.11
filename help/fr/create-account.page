@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="create-account" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="add-account"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-21" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-07" status="review">
+    <!--
+    <e:review by="shaunm@gnome.org" date="2009-09-02" status="done"/>
+    -->
+    </revision>
+    <revision pkgversion="2.30" version="0.3" date="2010-04-19" status="review"/>
+    <revision pkgversion="2.30" version="0.4" date="2010-10-01" status="review"/>
+    <revision pkgversion="3.10" date="2013-06-23" status="review"/>
+
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Paternité - Partage des Conditions Initiales à l'Identique 3.0</p>
+    </license>    
+
+    <desc>Créer un compte pour un des services de messagerie instantanée pris en charge.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2008-2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2008-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yannick Tailliez</mal:name>
+      <mal:email>ytdispatch-libre@yahoo.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Laurent Coudeur</mal:name>
+      <mal:email>laurentc@iol.ie</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Guillemin</mal:name>
+      <mal:email>luc.guillemin@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ajmir BUSGEETH</mal:name>
+      <mal:email>Ajmir.Busgeeth@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andre Matuch</mal:name>
+      <mal:email>andre.matuch@videotron.ca</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Enregistrement d'un nouveau compte</title>
+
+  <p>Dans la plupart des cas, un compte doit être créé chez un fournisseur de service avant de pouvoir l'utiliser avec une application de messagerie instantanée. Vous pouvez utiliser <app>Empathy</app> pour enregistrer un nouveau compte chez quelques fournisseurs en suivant les mêmes étapes qu'en passant par <link xref="add-account">Ajouter un compte</link>.</p>
+
+  <p>Après avoir créé un nouveau compte, votre fournisseur doit vous fournir un identifiant de connexion ou un nom d'utilisateur et un mot de passe, ainsi que toutes informations supplémentaires requises pour vous connecter avec <app>Empathy</app>.</p>
+
+  <section id="irc">
+    <title>IRC</title>
+
+    <p>Pour vous connecter à un serveur de réseaux IRC, vous devez renseigner un pseudonyme. Certains réseaux IRC utilisent un service extérieur tel que NickServ pour permettre aux utilisateurs de <link xref="irc-nick-password">protéger leur pseudo</link>. Si vous n'enregistrez pas votre pseudo, ou ne pouvez le faire parce qu'un autre l'utilise déjà, alors vous devez en changer.</p>
+
+    <p>Certains serveurs IRC sont protégés par mot de passe. Vous devez connaître ce mot de passe pour vous y connecter. En général, ce sont des réseaux IRC privés.</p>
+
+    <note>
+      <p>Beaucoup de projets GNOME sont débattus sur <code>irc.gnome.org</code>.</p>
+    </note>
+  </section>
+
+  <section id="jabber">
+    <title>Jabber</title>
+
+    <p>Jabber est un système de messagerie instantanée libre. Tout comme avec les courriels, Jabber vous permet de choisir votre fournisseur de compte et de communiquer avec tous les autres utilisateurs de Jabber, indépendamment de leur fournisseur de compte.</p>
+
+    <p>Vous devez créer un nouveau compte avec un fournisseur Jabber. Il y a plusieurs fournisseurs gratuits ; un des plus populaires est <link href="http://register.jabber.org/">jabber.org</link>.</p>
+
+    <note>
+      <p>Si vous utilisez les Hangouts de Gmail ou Google+, vous avez déjà un compte Jabber. Utilisez votre adresse Gmail et son mot de passe associé dans <app>Empathy</app> pour vous y connecter.</p>
+    </note>
+  </section>
+
+  <section id="salut">
+    <title>Personnes à proximité</title>
+
+    <p>Ce service fonctionne dès que vous êtes connecté à un réseau local, comme à un réseau sans fil. Vous n'avez pas besoin de créer un autre compte avec un fournisseur de services, paramétrez-le tout simplement dans <app>Empathy</app> et il trouvera automatiquement tous les autres utilisateurs du réseau utilisant ce même service.</p>
+
+    <p>Pour plus d'informations, consultez le <link xref="salut-protocol">protocole salut</link>.</p>
+  </section>
+
+  <section id="sip-services">
+    <title>SIP</title>
+
+    <p>SIP est un système libre qui permet aux utilisateurs d'avoir des conversations audio et vidéo par Internet. Vous devez créer un compte chez un fournisseur SIP. Vous pouvez communiquer avec tous les autres utilisateurs SIP, indépendamment du fournisseur SIP qu'ils utilisent.</p>
+
+    <p>Certains fournisseurs SIP vous permettent de faire des appels vers des téléphones fixes à partir de votre ordinateur. Généralement, vous devez souscrire à un service payant pour utiliser cette fonction.</p>
+  </section>
+
+  <section id="proprietary-services">
+    <title>Services propriétaires</title>
+
+    <p>Il existe plusieurs services de messagerie instantanée propriétaires qui ont été développés par différentes sociétés ou organisations. <app>Empathy</app> vous permet de vous connecter à un compte existant pour la plupart des services. Pour créer un nouveau compte avec un de ces services, vous devez visiter le site Web du service.</p>
+
+    <list>
+      <item>
+        <p><link href="http://dashboard.aim.com/aim">AIM</link></p>
+      </item>
+      <item>
+        <p><link href="https://www.icq.com/register/">ICQ</link></p>
+      </item>
+      <item>
+        <p><link href="https://login.yahoo.com/config/login">Yahoo!</link></p>
+      </item>
+    </list>
+  </section>
+
+</page>

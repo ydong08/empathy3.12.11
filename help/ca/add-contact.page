@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="add-contact" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#contacts"/>
+    <link type="seealso" xref="hide-contacts"/>
+    <desc>Afegiu algú a la llista de contactes.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-15" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.28" version="0.3" date="2009-09-05" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Reconeixement-Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Afegiu algú a la llista de contactes</title>
+
+  <steps>
+    <item>
+      <p>Seleccioneu <guiseq><gui>Xat</gui><gui>Afegeix contacte</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Des de la llista desplegable del <gui>Compte</gui>, seleccioneu el compte que voleu utilitzar per connectar-vos amb el contacte. Haurà d'utilitzar el mateix servei que el compte que seleccioneu.</p>
+    </item>
+    <item>
+      <p>Al camp <gui>Identificador</gui> introduïu l'identificador d'entrada del contacte, el seu nom d'usuari, el nom de pantalla o qualsevol identificador apropiat per al tipus de servei.</p>
+    </item>
+    <item>
+      <p>Al camp <gui>Àlies</gui> introduïu el nom del contacte tal com voleu que aparegui a la llista de contactes.</p>
+    </item>
+    <item>
+      <p>Feu clic a <gui>Afegeix</gui> per afegir el contacte a la llista de contactes.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>Per afegir una persona nova a la llista de contactes heu d'estar connectat a Internet i al compte.</p>
+  </note>
+
+</page>

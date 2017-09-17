@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="prob-conn-acctdisabled" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="prob-conn"/>
+    <desc>A conta de mensaxaría instantánea que quere usar non está activada na lista de contas.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review"/>
+    <revision pkgversion="3.2" version="0.3" date="2011-12-18" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>A miña conta non está activada</title>
+
+  <p>Se a conta de mensaxaría instantánea que quere usar non está activada na lista despregábel de contas, cando tenta iniciar unha conversa nova ou unirse a unha charla, pode que os detalles da súa conta non sexa correctos.</p>
+
+  <steps>
+    <item>
+      <p>Asegúrese de que está conectado a Internet ou a unha rede de área local.</p>
+    </item>
+    <item>
+      <p>Elixa <guiseq><gui>Editar</gui><gui>Contas</gui></guiseq> e seleccione a conta que non está funcionando.</p>
+    </item>
+    <item>
+      <p>Escriba o seu nome de usuario e contrasinal de novo e asegúrese de que son correctos.</p>
+    </item>
+    <item>
+      <p>Comprobe na sección <placeholder-1/> que todos os detalles son correctos. Vostede poderá encontrar estes detalles no sitio web do seu servizo de mensaxería.</p>
+    </item>
+    <item>
+      <p>Comprobe que a conta está activada.</p>
+    </item>
+  </steps>
+
+</page>

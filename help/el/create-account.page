@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="create-account" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="add-account"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-21" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-07" status="review">
+    <!--
+    <e:review by="shaunm@gnome.org" date="2009-09-02" status="done"/>
+    -->
+    </revision>
+    <revision pkgversion="2.30" version="0.3" date="2010-04-19" status="review"/>
+    <revision pkgversion="2.30" version="0.4" date="2010-10-01" status="review"/>
+    <revision pkgversion="3.10" date="2013-06-23" status="review"/>
+
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+
+    <desc>Δημιουργήστε έναν λογαριασμό σε μία από τις υποστηριζόμενες υπηρεσίες μηνυμάτων.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος,</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.gr</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μιχάλης Κοτσαρίνης</mal:name>
+      <mal:email>mk73628@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Καταχωρίστε έναν νέο λογαριασμό</title>
+
+  <p>Οι περισσότεροι τύποι λογαριασμών απαιτούν τη δημιουργία λογαριασμού με έναν πάροχο υπηρεσίας πριν να μπορέσετε να χρησιμοποιήσετε αυτόν τον λογαριασμό με εφαρμογές άμεσων μηνυμάτων. Μπορείτε να χρησιμοποιήσετε το <app>Empathy</app> για να καταχωρίσετε έναν νέο λογαριασμό με κάποιους παρόχους λογαριασμού χρησιμοποιώντας τα ίδια βήματα όπως θα κάνατε με την <link xref="add-account">προσθήκη ενός λογαριασμού</link>.</p>
+
+  <p>Αφού δημιουργήσετε έναν νέο λογαριασμό, ο πάροχος λογαριασμού πρέπει να σας δώσει μια σύνδεση ή ένα όνομα χρήστη και έναν κωδικό πρόσβασης, καθώς και οποιεσδήποτε άλλες πληροφορίες απαιτούνται για τη σύνδεση χρησιμοποιώντας το <app>Empathy</app>.</p>
+
+  <section id="irc">
+    <title>IRC</title>
+
+    <p>Τα δίκτυα IRC απαιτούν να ορίσετε ένα ψευδώνυμο όταν συνδέετε με τον διακομιστή. Κάποια δίκτυα IRC χρησιμοποιούν μια υπηρεσία, όπως NickServ, για να επιτρέψουν στους χρήστες να <link xref="irc-nick-password">προστατεύσουν το ψευδώνυμό τους</link>. Αν δεν καταχωρήσατε το ψευδώνυμό σας ή δεν μπορείτε να το κάνετε και κάποιος άλλος χρήστης το χρησιμοποιεί, τότε θα χρειαστείτε να επιλέξετε ένα διαφορετικό.</p>
+
+    <p>Ορισμένοι εξυπηρετητές IRC προστατεύονται από συνθηματικό. Για να συνδεθείτε σε αυτούς τους εξυπηρετητές θα πρέπει να γνωρίζετε το συνθηματικό τους. Συνήθως πρόκειται για ιδιωτικά δίκτυα IRC.</p>
+
+    <note>
+      <p>Πολλά έργα GNOME χρησιμοποιούν <code>irc.gnome.org</code> για συζήτηση σχετική με το έργο.</p>
+    </note>
+  </section>
+
+  <section id="jabber">
+    <title>Jabber</title>
+
+    <p>Το Jabber είναι ένα ανοιχτό σύστημα άμεσων μηνυμάτων. Όπως και η ηλεκτρονική αλληλογραφία, το Jabber σας επιτρέπει να επιλέξετε τον πάροχο του λογαριασμού σας και να επικοινωνήσετε με όλους τους άλλους χρήστες, ανεξάρτητα από τον πάροχο λογαριασμού τους.</p>
+
+    <p>Θα πρέπει να δημιουργήσετε έναν λογαριασμό με έναν πάροχο Jabber. Υπάρχουν πολλοί δωρεάν πάροχοι· ένας δημοφιλής πάροχος είναι το <link href="http://register.jabber.org/">Jabber.org</link>.</p>
+
+    <note>
+      <p>Αν χρησιμοποιείτε το Gmail ή το Google+ Hangouts, τότε διαθέτετε ήδη λογαριασμό Jabber. Χρησιμοποιήστε τη διεύθυνσή σας του Gmail και τον κωδικό πρόσβασης στο <app>Empathy</app> για να συνδεθείτε.</p>
+    </note>
+  </section>
+
+  <section id="salut">
+    <title>Γειτονικά άτομα</title>
+
+    <p>Αυτή η υπηρεσία δουλεύει όποτε είσαστε συνδεμένοι με ένα τοπικό δίκτυο, όπως ένα ασύρματο σημείο αναμετάδοσης, δεν χρειάζεστε τη δημιουργία ενός λογαριασμού με τον πάροχο της υπηρεσίας, ρυθμίστε μόνο τον λογαριασμό σας μέσα από το <app>Empathy</app>. Βρίσκει αυτόματα όλους τους άλλους χρήστες στο δίκτυο που χρησιμοποιούν επίσης αυτήν την υπηρεσία.</p>
+
+    <p>Για περισσότερες πληροφορίες, δείτε το <link xref="salut-protocol">πρωτόκολλο χαιρετισμού</link>.</p>
+  </section>
+
+  <section id="sip-services">
+    <title>SIP</title>
+
+    <p>Το SIP είναι ένα ανοιχτό σύστημα που επιτρέπει στους χρήστες του να κάνουν φωνητικές κλήσεις και βιντεοκλήσεις μέσω διαδικτύου. Θα πρέπει να δημιουργήσετε λογαριασμό σε έναν πάροχο SIP. Στη συνέχεια, θα μπορείτε να επικοινωνείτε με όλους τους υπόλοιπους χρήστες SIP, ανεξάρτητα από τον πάροχό τους.</p>
+
+    <p>Ορισμένοι πάροχοι SIP σας επιτρέπουν να καλείτε κανονικά τηλέφωνα από τον υπολογιστή σας. Συνήθως, θα πρέπει να έχετε εγγραφεί σε μια υπηρεσία που προσφέρεται επί πληρωμή για να εκμεταλλευτείτε αυτή τη δυνατότητα.</p>
+  </section>
+
+  <section id="proprietary-services">
+    <title>Ιδιοταγείς υπηρεσίες</title>
+
+    <p>Υπάρχουν πολλές ιδιοταγείς υπηρεσίες άμεσων μηνυμάτων που έχουν αναπτυχθεί από διαφορετικές εταιρείες ή οργανισμούς. Το <app>Empathy</app> σας επιτρέπει να συνδέεστε με έναν υπάρχοντα λογαριασμό για κάποιες από αυτές τις υπηρεσίες. Για να δημιουργήσετε ένα νέο λογαριασμό για μία από αυτές τις υπηρεσίες, θα πρέπει να επισκεφθείτε την ιστοσελίδα της υπηρεσίας.</p>
+
+    <list>
+      <item>
+        <p><link href="http://dashboard.aim.com/aim">AIM</link></p>
+      </item>
+      <item>
+        <p><link href="https://www.icq.com/register/">ICQ</link></p>
+      </item>
+      <item>
+        <p><link href="https://login.yahoo.com/config/login">Yahoo!</link></p>
+      </item>
+    </list>
+  </section>
+
+</page>

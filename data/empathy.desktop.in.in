@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.0
+_Name=Empathy
+_GenericName=IM Client
+_X-GNOME-FullName=Empathy Internet Messaging
+_Comment=Chat on Google Talk, Facebook, MSN and many other chat services
+_Keywords=chat;talk;im;message;irc;voip;gtalk;facebook;jabber;
+Exec=empathy
+Icon=empathy
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Network;InstantMessaging;
+X-GNOME-UsesNotifications=true
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=empathy
+X-GNOME-Bugzilla-Component=General
+X-GNOME-Bugzilla-Version=@VERSION@

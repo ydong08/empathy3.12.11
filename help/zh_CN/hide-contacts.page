@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="hide-contacts" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="index#contacts"/>
+    <desc>在 <gui>联系人列表</gui> 中隐藏离线联系人。</desc>
+    <revision pkgversion="2.30" version="0.1" date="2010-03-11" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>知识共享-相同方式共享 (Creative Commons Share Alike) 3.0</p>
+    </license>    
+  </info>
+
+  <title>隐藏离线的联系人</title>
+
+  <p>一般情况下，<app>Empathy</app> 会显示您所有的联系人：您可以与之进行会话的在线的联系人，和那些离线的联系人。</p>
+  <p>要隐藏离线的联系人：</p>
+
+  <steps>
+    <item>
+      <p>From the <gui>Contact List</gui> window, choose <guiseq><gui>View</gui>
+      <gui>Offline Contacts</gui></guiseq>, or press <keyseq><key>Ctrl</key>
+      <key>H</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>要再次显示离线的联系人，重复上面的步骤。</p>
+    </item>
+  </steps>
+
+</page>

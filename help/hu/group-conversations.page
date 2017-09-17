@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="group-conversations" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Csoportos társalgás indítása partnereivel, vagy csatlakozás egyhez</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2010, 2011, 2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Csoportos társalgások</title>
+  
+  <p>A csoportos társalgások lehetővé teszik a szöveges társalgást egyszerre több partnerrel.</p>
+  <p>Csoportos társalgáshoz regisztrált Jabber, Google Talk vagy Közeli emberek fiókkal kell rendelkeznie.</p>
+
+  <note>
+    <p>Csak az Ön által is használt szolgáltatást használó partnerekkel folytathat csoportos társalgást.</p>
+  </note>
+
+  <section id="start-group-conv">
+
+  <title>Csoportos társalgás indítása</title>
+
+  <steps>
+    <item>
+      <p>A <gui>Partnerlista</gui> ablakban válassza a <guiseq><gui>Szoba</gui><gui>Csatlakozás</gui></guiseq> menüpontot.</p>
+    </item>
+    <item>
+      <p>A <gui>Felhasználói fiók</gui> legördülő listában válassza ki a csoportos társalgáshoz használandó fiókot.</p>
+    </item>
+    <item>
+      <p>A <gui>Kiszolgáló</gui> szövegmezőbe írja be a kiszolgáló nevét, amelyen a társalgás helyet kap.</p>
+      <p>Üresen hagyva az aktuális kiszolgáló lesz használatban.</p>
+    </item>
+    <item>
+      <p>A <gui>Szoba</gui> szövegmezőbe írja be a társalgásnak adandó nevet.</p>
+      <note>
+        <p>Ez a szoba neve lesz, amelyben a társalgás folyni fog. Ez a név nyilvánosan elérhető lesz mások számára, és szabadon csatlakozhatnak. Privát szoba létrehozása nem lehetséges.</p>
+      </note>
+    </item>
+    <item>
+      <p>A <gui>Partnerlista</gui> ablakban válassza ki a meghívni kívánt partnert más partnerek meghívásához a csoportos társalgásba, és tegye a következők egyikét:</p>
+      <list>
+        <item>
+          <p>Kattintson a jobb egérgombbal a partnerre, és válassza a <gui>Meghívás csevegőszobába</gui> menüpontot.</p>
+        </item>
+        <item>
+          <p>Válassza a <guiseq><gui>Szerkesztés</gui><gui>Partner</gui><gui>Meghívás csevegőszobába</gui></guiseq> menüpontot.</p>
+        </item>
+      </list> 
+      <p>Ha több csoportos társalgás is meg van nyitva, akkor válassza ki azt, amelyikbe meg szeretné hívni partnereit.</p>
+    </item>
+  </steps>
+  
+  </section>
+
+  <section id="join-group-conv">
+
+  <title>Csatlakozás csoportos társalgáshoz</title>
+
+  <steps>
+    <item>
+      <p>A <gui>Partnerlista</gui> ablakban válassza a <guiseq><gui>Szoba</gui><gui>Csatlakozás</gui></guiseq> menüpontot.</p>
+    </item>
+    <item>
+      <p>Nyissa ki a <gui>Szobalista</gui> fejezetet az összes létező szoba megjelenítéséhez.</p>
+    </item>
+    <item>
+      <p>Kattintson duplán a szoba nevére a belépéshez.</p>
+    </item>
+  </steps>
+
+  <p>Nem feltétlenül lehet minden létező szobába belépni. Egyes szobák jelszót kérhetnek, vagy csak meghívással lehetnek láthatók. Az <app>Empathy</app> nem támogatja az ilyen szobákat.</p>
+
+  <!-- TODO: find out where the password protected or invitation only icons are
+  and create a table. -->
+
+  </section>
+
+</page>

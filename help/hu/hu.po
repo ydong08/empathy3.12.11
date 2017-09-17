@@ -1,0 +1,4291 @@
+# Hungarian translation of empathy-docs
+# Copyright (C) 2010, 2011. Free Software Foundation, Inc.
+# This file is distributed under the same license as the empathy help.
+#
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2010, 2011, 2012, 2013, 2014, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: empathy-docs master\n"
+"POT-Creation-Date: 2015-04-12 03:29+0000\n"
+"PO-Revision-Date: 2015-04-12 11:06+0200\n"
+"Last-Translator: Gabor Kelemen <kelemeng at ubuntu dot com>\n"
+"Language-Team: Hungarian <openscope at googlegroups dot com>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Kelemen Gábor <kelemeng at gnome dot hu>, 2010, 2011, 2012, 2013"
+
+#. (itstool) path: info/desc
+#: C/account-irc.page:9
+msgid "Additional information necessary for connecting to IRC networks."
+msgstr "IRC-hálózatokhoz való csatlakozáshoz szükséges további információk"
+
+#. (itstool) path: credit/name
+#: C/account-irc.page:17 C/account-jabber.page:15 C/accounts-window.page:17
+#: C/add-account.page:26 C/disable-account.page:25 C/import-account.page:27
+#: C/prev-conv.page:21 C/status-icons.page:21
+msgid "Shaun McCance"
+msgstr "Shaun McCance"
+
+#. (itstool) path: license/p
+#: C/account-irc.page:21 C/account-jabber.page:19 C/accounts-window.page:21
+#: C/add-account.page:30 C/add-contact.page:22 C/audio-call.page:31
+#: C/audio-video.page:21 C/change-status.page:28 C/create-account.page:29
+#: C/disable-account.page:29 C/favorite-rooms.page:18 C/geolocation.page:21
+#: C/geolocation-not-showing.page:21 C/geolocation-privacy.page:21
+#: C/geolocation-supported.page:20 C/geolocation-turn.page:22
+#: C/geolocation-what-is.page:22 C/group-conversations.page:23
+#: C/hide-contacts.page:15 C/import-account.page:31 C/index.page:25
+#: C/introduction.page:17 C/irc-commands.page:14 C/irc-join-pwd.page:21
+#: C/irc-join-room.page:20 C/irc-manage.page:28 C/irc-nick-password.page:22
+#: C/irc-send-file.page:20 C/irc-start-conversation.page:19
+#: C/link-contacts.page:23 C/overview.page:21 C/prev-conv.page:25
+#: C/prob-conn-acctdisabled.page:23 C/prob-conn-auth.page:26
+#: C/prob-conn-name.page:23 C/prob-conn-neterror.page:24 C/prob-conn.page:18
+#: C/remove-account.page:23 C/salut-protocol.page:22 C/send-file.page:25
+#: C/send-message.page:21 C/set-custom-status.page:23 C/share-desktop.page:22
+#: C/status-icons.page:25 C/video-call.page:34
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Share Alike 3.0"
+
+#. (itstool) path: page/title
+#: C/account-irc.page:32
+msgid "IRC account details"
+msgstr "IRC-fiók részletei"
+
+#. (itstool) path: page/p
+#: C/account-irc.page:34
+msgid ""
+"IRC accounts require different information than many other types of "
+"accounts. To create an IRC account, you must specify at least an IRC network "
+"and a nickname. This page details the information you can provide for an IRC "
+"account."
+msgstr ""
+"Az IRC-fiókok sok más fióktípustól eltérő információkat igényelnek. IRC-fiók "
+"létrehozásához meg kell adnia legalább az IRC-hálózatot és egy becenevet. Ez "
+"az oldal részletesen leírja az IRC-fiókhoz megadható információkat."
+
+#. (itstool) path: note/p
+#: C/account-irc.page:40 C/irc-manage.page:42
+msgid ""
+"You must have the <sys>telepathy-idle</sys> package installed to use IRC in "
+"<app>Empathy</app>."
+msgstr ""
+"Az IRC protokoll <app>Empathyban</app> való használatához telepíteni kell a "
+"<sys>telepathy-idle</sys> csomagot."
+
+#. (itstool) path: item/title
+#: C/account-irc.page:46 C/account-irc.page:124
+msgid "<gui>Network</gui>"
+msgstr "<gui>Hálózat</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:47
+msgid ""
+"IRC is an open system that allows people to run separate IRC networks. Each "
+"network is distinct and has its own users and chat rooms. <app>Empathy</app> "
+"lists the most popular networks in the <gui>Network</gui> drop-down list. "
+"You can add additional networks. See <link xref=\"#networks\"/> below."
+msgstr ""
+"Az IRC egy nyílt rendszer, amely lehetővé teszi független IRC-hálózatok "
+"futtatását. Az egyes hálózatok egyediek, és saját felhasználókkal és "
+"csevegőszobákkal rendelkeznek. Az <app>Empathy</app> a <gui>Hálózat</gui> "
+"legördülő listában felsorolja a legnépszerűbb hálózatokat. Ezen kívül "
+"továbbiakat is felvehet. Részletekért lásd a <link xref=\"#networks\"/> "
+"részt lentebb."
+
+#. (itstool) path: item/title
+#: C/account-irc.page:54
+msgid "<gui>Nickname</gui>"
+msgstr "<gui>Becenév</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:55
+msgid ""
+"Your nickname is your unique name on the IRC network. Only one person on a "
+"network may use a given nickname. If you get an error message that says "
+"<link xref=\"prob-conn-name\" role=\"error-msg\"/> you will need to change "
+"your nickname."
+msgstr ""
+"Beceneve az Ön egyedi neve az IRC-hálózaton. A hálózaton csak egy személy "
+"rendelkezhet egy adott becenévvel. Ha az <link xref=\"prob-conn-name\" role="
+"\"error-msg\"/> hibaüzenetet kapja, akkor módosítania kell becenevét."
+
+#. (itstool) path: item/title
+#: C/account-irc.page:61
+msgid "<gui>Password</gui>"
+msgstr "<gui>Jelszó</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:62
+msgid ""
+"Some servers, particularly those on private networks, require a password to "
+"connect. If you are authorized to use the network, the network "
+"administrators should provide you with a password."
+msgstr ""
+"Egyes kiszolgálók, különösen a magánhálózatokon lévők, jelszót igényelnek a "
+"csatlakozáshoz. Ha jogosult a hálózat használatára, akkor a hálózat "
+"rendszergazdái megadják a jelszót."
+
+#. (itstool) path: note/title
+#: C/account-irc.page:66
+msgid "NickServ Passwords"
+msgstr "NickServ jelszavak"
+
+#. (itstool) path: note/p
+#: C/account-irc.page:67
+msgid ""
+"On some networks, nicknames can be registered using a service known as "
+"NickServ. <app>Empathy</app> does not directly support nickname passwords. "
+"On some networks, including the popular freenode network, server passwords "
+"are automatically forwarded to NickServ, allowing you to set this field to "
+"identify yourself with NickServ. See <link xref=\"irc-nick-password\"/> for "
+"more details."
+msgstr ""
+"Egyes hálózatokon a becenevek regisztrálhatók a NickServ néven ismert "
+"szolgáltatással. Az <app>Empathy</app> közvetlenül nem támogatja a becenevek "
+"jelszavait. Egyes hálózatokon, beleértve a népszerű FreeNode-ot, a "
+"kiszolgálójelszavak automatikusan továbbításra kerülnek a NickServnek, így "
+"ezen mező beállításával azonosíthatja magát a NickServ felé. További "
+"részletekért lásd a <link xref=\"irc-nick-password\"/> oldalt."
+
+#. (itstool) path: item/title
+#: C/account-irc.page:77
+msgid "<gui>Real name</gui>"
+msgstr "<gui>Valódi név</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:78
+msgid ""
+"You can provide your real name in addition to your nickname. Other users "
+"will be able to see this when they view your information."
+msgstr ""
+"Beceneve mellett megadhatja valódi nevét is. Más felhasználók láthatják ezt "
+"az Ön információinak megjelenítésekor."
+
+#. (itstool) path: item/title
+#: C/account-irc.page:82
+msgid "<gui>Quit message</gui>"
+msgstr "<gui>Kilépési üzenet</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:83
+msgid ""
+"When you go offline, a quit message is sent to all the chat rooms you’re in "
+"and to all the users you’re having a private conversation with. Use this "
+"field to provide a custom quit message."
+msgstr ""
+"Amikor kilép, egy kilépési üzenet kerül elküldésre minden csevegőszobába, "
+"amelyben jelen van, és minden felhasználónak, akivel éppen társalog. Ebben a "
+"mezőben megadhat egy egyéni kilépési üzenetet."
+
+#. (itstool) path: info/title
+#: C/account-irc.page:95
+msgctxt "link"
+msgid "IRC Networks"
+msgstr "IRC-hálózatok"
+
+#. (itstool) path: section/title
+#: C/account-irc.page:98
+msgid "Networks"
+msgstr "Hálózatok"
+
+#. (itstool) path: section/p
+#: C/account-irc.page:100
+msgid ""
+"<app>Empathy</app> includes a list of popular IRC networks. If you wish to "
+"another IRC network, you can add it to the list. You can also modify "
+"networks and remove them from the list."
+msgstr ""
+"Az <app>Empathy</app> tartalmazza a népszerű IRC-hálózatok listáját. Ha "
+"másik IRC-hálózathoz szeretne csatlakozni, akkor hozzá kell adnia a "
+"listához. A hálózatokat módosíthatja is, és a listából is eltávolíthatja "
+"azokat."
+
+#. (itstool) path: media/span
+#: C/account-irc.page:108
+msgid "Add"
+msgstr "Hozzáadás"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:105
+msgid "To add a network to the list, click <_:media-1/>."
+msgstr "Hálózat listához adásához nyomja meg a <_:media-1/> gombot."
+
+#. (itstool) path: media/span
+#: C/account-irc.page:112
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:109
+msgid ""
+"To modify a network in the list, select the network and click <_:media-1/>."
+msgstr ""
+"A módosításhoz válassza ki a hálózatot, és nyomja meg a <_:media-1/> gombot."
+
+#. (itstool) path: media/span
+#: C/account-irc.page:116
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:113
+msgid ""
+"To remove a network from the list, select the network and click <_:media-1/>."
+msgstr ""
+"Az eltávolításhoz válassza ki a hálózatot, és nyomja meg az <_:media-1/> "
+"gombot."
+
+#. (itstool) path: section/p
+#: C/account-irc.page:119
+msgid ""
+"When adding or modifying a network, you can enter the following information:"
+msgstr ""
+"Hálózat hozzáadásakor vagy módosításakor a következő információkat adhatja "
+"meg:"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:125
+msgid ""
+"This is the name of the network as you want it to appear in the list of "
+"networks."
+msgstr ""
+"Ez a hálózat neve, ahogyan a hálózatok listájában meg szeretné jeleníteni."
+
+#. (itstool) path: item/title
+#: C/account-irc.page:129
+msgid "<gui>Charset</gui>"
+msgstr "<gui>Karakterkészlet</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:130
+msgid ""
+"This specifies the character encoding that is typically used on this "
+"network. A character encoding is a specific way of recording characters "
+"internally in a computer. There are many character encodings, and you need "
+"to use the same character encoding as other users to see their messages "
+"correctly."
+msgstr ""
+"Itt megadhatja a hálózaton általában használt karakterkódolást. A "
+"karakterkódolás a karakterek egy adott, számítógépen belüli tárolási módja. "
+"Számos karakterkódolás van, és az üzenetek megfelelő megjelenítéséhez "
+"ugyanazt a karakterkódolást kell használnia, mint a többi felhasználó."
+
+#. (itstool) path: item/p
+#: C/account-irc.page:139
+msgid ""
+"By default, <app>Empathy</app> uses UTF-8, a modern character encoding that "
+"can handle text from most of the world's languages. Another common encoding "
+"for English and some other Western languages is ISO-8859-1."
+msgstr ""
+"Alapértelmezésben az <app>Empathy</app> az UTF-8-at használja, ez a modern "
+"karakterkódolás képes a világ sok nyelvének kezelésére, így a magyaréra is. "
+"A magyar nyelv gyakori kódolása még az ISO-8859-2."
+
+#. (itstool) path: item/title
+#: C/account-irc.page:145
+msgid "<gui>Servers</gui>"
+msgstr "<gui>Kiszolgálók</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:146
+msgid ""
+"An IRC network may have many servers you can connect to. When you are "
+"connected to a server on a particular network, you can communicate with all "
+"users on all other servers on that network. You can add and remove servers "
+"for this network using the <gui>Add</gui> and <gui>Remove</gui> buttons."
+msgstr ""
+"Az IRC-hálózat több kiszolgálóval rendelkezhet. Ha egy adott hálózat egy "
+"kiszolgálójához csatlakozik, a hálózat többi kiszolgálójához csatlakozó "
+"összes felhasználóval is képes kommunikálni. A hálózathoz a <gui>Hozzáadás</"
+"gui> gombbal vehet fel kiszolgálókat, és az <gui>Eltávolítás</gui> gombbal "
+"törölheti azokat."
+
+#. (itstool) path: item/p
+#: C/account-irc.page:151
+msgid ""
+"When a server is selected, click the field under <gui>Server</gui> or "
+"<gui>Port</gui> to edit it. Alternatively, use the left and right arrow keys "
+"to focus the field, and press the space bar to begin editing."
+msgstr ""
+"Amikor egy kiszolgáló ki van választva, kattintson a <gui>Kiszolgáló</gui> "
+"vagy a <gui>Port</gui> alatti mezőre annak szerkesztéséhez. Ennek "
+"alternatívájaként a balra és jobbra nyilakkal is átviheti a fókuszt a mezők "
+"közt, és a szóköz megnyomásával szerkesztheti azokat."
+
+#. (itstool) path: item/p
+#: C/account-irc.page:155
+msgid ""
+"Select the check box in the <gui>SSL</gui> column to encrypt all "
+"communication with a server. Note that this does not prevent other users on "
+"the network from seeing what you write on public chat rooms."
+msgstr ""
+"Jelölje be az <gui>SSL</gui> oszlop alatti jelölőnégyzetet a kiszolgálóval "
+"történő összes kommunikáció titkosításához. Ne feledje, hogy ez nem "
+"akadályoz meg senkit a hálózaton a nyilvános csevegőszobákba írt szavai "
+"elolvasásában."
+
+#. (itstool) path: info/desc
+#: C/account-jabber.page:7
+msgid "Advanced options for Jabber and Google Talk accounts."
+msgstr "Speciális beállítások Jabber és Google Talk fiókokhoz."
+
+#. (itstool) path: page/title
+#: C/account-jabber.page:30
+msgid "Jabber account details"
+msgstr "Jabber fiókok részletei"
+
+#. (itstool) path: page/p
+#: C/account-jabber.page:32
+msgid ""
+"Most Jabber accounts will require only a login ID and a password to connect. "
+"For some accounts or on certain types of networks, you may need to enter "
+"additional information in the <gui>Advanced</gui> section. Normally, you "
+"will not need to use the advanced options below. For general instructions on "
+"adding an account, see <link xref=\"add-account\"/>."
+msgstr ""
+"A legtöbb Jabber fiók csak bejelentkezési azonosítót és jelszót igényel a "
+"csatlakozáshoz. Egyes fiókokhoz, vagy bizonyos hálózattípusokon további "
+"információk megadására lehet szükség a <gui>Speciális</gui> szakaszban. "
+"Általában nincs szükség a lentebbi speciális beállítások használatára. Fiók "
+"hozzáadásával kapcsolatban lásd az <link xref=\"add-account\"/> oldalt."
+
+#. (itstool) path: note/p
+#: C/account-jabber.page:40
+msgid ""
+"Google Talk is a type of Jabber account. These instructions hold for Google "
+"Talk accounts as well."
+msgstr ""
+"A Google Talk a Jabber fiókok egy fajtája. Ezek az utasítások Google Talk "
+"fiókokra is érvényesek."
+
+#. (itstool) path: item/title
+#: C/account-jabber.page:46
+msgid "<gui>Encryption required (TLS/SSL)</gui>"
+msgstr "<gui>Titkosítás szükséges (TLS/SSL)</gui>"
+
+#. (itstool) path: item/title
+#: C/account-jabber.page:47
+msgid "<gui>Ignore SSL certificate errors</gui>"
+msgstr "<gui>SSL-tanúsítványhibák figyelmen kívül hagyása</gui>"
+
+#. (itstool) path: item/p
+#: C/account-jabber.page:48
+msgid ""
+"Whenever possible, communication between <app>Empathy</app> and the Jabber "
+"server is encrypted. If encrypted communication is not possible, messages "
+"may be sent unencrypted. Select <gui>Encryption required</gui> to prevent "
+"<app>Empathy</app> from communicating with the Jabber server when encryption "
+"is not possible."
+msgstr ""
+"Amikor csak lehetséges, az <app>Empathy</app> és a Jabber kiszolgáló közötti "
+"kommunikáció titkosított. Ha a titkosított kommunikáció nem lehetséges, az "
+"üzenetek titkosítatlanul kerülhetnek elküldésre. Válassza ki a "
+"<gui>Titkosítás szükséges</gui> négyzetet a Jabber kiszolgálóval való "
+"kommunikáció megtiltásához az <app>Empathynak</app>, ha a titkosítás nem "
+"lehetséges."
+
+#. (itstool) path: item/p
+#: C/account-jabber.page:53
+msgid ""
+"Some Jabber servers may encrypt data using invalid certificates, or using "
+"certificates signed by unknown authorities. You can select <gui>Ignore SSL "
+"certificate errors</gui> to allow encrypted communication with invalid "
+"certificates, but this allows an attacker to intercept your communication "
+"with the server (including your password). You might want to use this option "
+"for testing purposes, or if your server is broken and you do not care about "
+"the security of your communication."
+msgstr ""
+"Néhány Jabber kiszolgáló érvénytelen, vagy ismeretlen hitelesítésszolgáltató "
+"által aláírt tanúsítványokkal titkosíthatja az adatokat. Az <gui>SSL-"
+"tanúsítványhibák figyelmen kívül hagyása</gui> lehetőség választásával "
+"engedélyezheti a titkosított kommunikációt érvénytelen tanúsítványok "
+"használatával, de ez lehetővé teheti egy támadó számára a kiszolgálóval "
+"folyó kommunikáció (beleértve a jelszót is) eltérítését. Ezt a lehetőséget "
+"tesztelési célra érdemes csak használni, vagy ha a kiszolgáló hibás, és nem "
+"foglalkozik a kommunikáció biztonságával."
+
+#. (itstool) path: item/title
+#: C/account-jabber.page:62
+msgid "<gui>Resource</gui>"
+msgstr "<gui>Erőforrás</gui>"
+
+#. (itstool) path: item/title
+#: C/account-jabber.page:63
+msgid "<gui>Priority</gui>"
+msgstr "<gui>Prioritás</gui>"
+
+#. (itstool) path: item/p
+#: C/account-jabber.page:64
+msgid ""
+"If you have multiple applications (for instance, on separate computers) "
+"connected to your account at the same time, you can set a resource to "
+"uniquely identify each one. By default, <app>Empathy</app> will use "
+"<input>Telepathy</input> as the resource."
+msgstr ""
+"Ha több alkalmazással (például más számítógépekről) kapcsolódik egyidejűleg "
+"fiókjához, akkor beállíthat egy erőforrást ezek egyedi azonosításához. "
+"Alapértelmezésben az <app>Empathy</app> erőforrásként a <input>Telepathy</"
+"input> értéket használja."
+
+#. (itstool) path: item/p
+#: C/account-jabber.page:68
+msgid ""
+"You can set the priority to specify which application should receive "
+"incoming messages from your contacts. New messages will be sent to the "
+"application with the highest priority."
+msgstr ""
+"Beállíthatja a prioritást annak megadásához, hogy melyik alkalmazás kapja "
+"partnereitől a bejövő üzeneteket. Az új üzenetek a legmagasabb prioritású "
+"alkalmazásnak kerülnek elküldésre."
+
+#. (itstool) path: item/title
+#: C/account-jabber.page:73
+msgid "<gui>Override server settings</gui>"
+msgstr "<gui>Kiszolgáló beállításainak felülbírálása</gui>"
+
+#. (itstool) path: item/p
+#: C/account-jabber.page:74
+msgid ""
+"<app>Empathy</app> will use default settings to connect to the Jabber server "
+"based on your login ID. For some Jabber servers, you will need to enter "
+"custom server settings manually. These settings should be provided for you "
+"by your Jabber provider."
+msgstr ""
+"Az <app>Empathy</app> az alapértelmezett beállításokat használja a Jabber "
+"kiszolgálóhoz való kapcsolódáshoz a bejelentkezési azonosítója alapján. "
+"Egyes Jabber kiszolgálókhoz saját kezűleg kell egyéni "
+"kiszolgálóbeállításokat megadnia. Ezeket a beállításokat a Jabber "
+"szolgáltatója biztosítja."
+
+#. (itstool) path: info/desc
+#: C/accounts-window.page:10
+msgid "Add, modify, and delete accounts."
+msgstr "Fiókok hozzáadása, módosítása és törlése."
+
+#. (itstool) path: page/title
+#: C/accounts-window.page:32
+msgid "Accounts Window"
+msgstr "Fiókok ablak"
+
+#. (itstool) path: page/p
+#: C/accounts-window.page:34
+msgid ""
+"The <gui>Accounts</gui> window allows you to add, modify, and delete "
+"accounts."
+msgstr ""
+"A <gui>Fiókok</gui> ablak lehetővé teszi fiókok hozzáadását, módosítását és "
+"törlését."
+
+#. (itstool) path: section/title
+#: C/accounts-window.page:42
+msgid "Account Details"
+msgstr "Fiók részletei"
+
+#. (itstool) path: section/p
+#: C/accounts-window.page:43
+msgid ""
+"For most types of accounts, you can simply enter a login ID and a password. "
+"Certain accounts or account types, however, may require additional "
+"information."
+msgstr ""
+"A legtöbb fióktípushoz csak a bejelentkezési azonosítót és a jelszót kell "
+"megadnia. Bizonyos fiókok vagy fióktípusok azonban további információkat is "
+"igényelhetnek."
+
+#. (itstool) path: info/desc
+#: C/add-account.page:9
+msgid "Add a new account to <app>Empathy</app>."
+msgstr "Új fiók felvétele az <app>Empathyba</app>."
+
+#. (itstool) path: credit/name
+#: C/add-account.page:22 C/audio-call.page:22 C/audio-video.page:16
+#: C/create-account.page:20 C/disable-account.page:21 C/favorite-rooms.page:14
+#: C/geolocation.page:17 C/geolocation-not-showing.page:17
+#: C/geolocation-privacy.page:17 C/geolocation-supported.page:16
+#: C/geolocation-turn.page:18 C/geolocation-what-is.page:18
+#: C/group-conversations.page:19 C/hide-contacts.page:11
+#: C/import-account.page:23 C/index.page:20 C/introduction.page:13
+#: C/irc-commands.page:10 C/irc-join-pwd.page:17 C/irc-join-room.page:16
+#: C/irc-manage.page:19 C/irc-nick-password.page:18 C/irc-send-file.page:16
+#: C/irc-start-conversation.page:15 C/link-contacts.page:15
+#: C/prev-conv.page:17 C/prob-conn-acctdisabled.page:19
+#: C/prob-conn-auth.page:22 C/prob-conn-name.page:19
+#: C/prob-conn-neterror.page:20 C/remove-account.page:19
+#: C/salut-protocol.page:18 C/send-file.page:21 C/set-custom-status.page:19
+#: C/share-desktop.page:14 C/status-icons.page:17 C/video-call.page:25
+msgid "Milo Casagrande"
+msgstr "Milo Casagrande"
+
+#. (itstool) path: page/title
+#: C/add-account.page:41
+msgid "Add a new account"
+msgstr "Új fiók hozzáadása"
+
+#. (itstool) path: page/p
+#: C/add-account.page:43
+msgid ""
+"You can add instant messaging accounts from any supported service to "
+"communicate with all of your contacts in <app>Empathy</app>. For some "
+"account providers, these steps will also allow you to register for a new "
+"account. For more details, see <link xref=\"create-account\"/>."
+msgstr ""
+"Az <app>Empathyba</app> bármely támogatott szolgáltatás azonnaliüzenő-"
+"fiókjait felveheti, hogy kommunikálhasson partnereivel. Egyes szolgáltatók "
+"esetén ezekkel a lépésekkel egy új fiók regisztrálását is elvégezheti. "
+"További részletekért lásd az <link xref=\"create-account\"/> oldalt."
+
+#. (itstool) path: item/p
+#: C/add-account.page:50
+msgid ""
+"Click <guiseq><gui>Empathy</gui><gui>Accounts</gui></guiseq>, or press "
+"<key>F4</key>."
+msgstr ""
+"Válassza az <guiseq><gui>Empathy</gui><gui>Fiókok</gui></guiseq> menüpontot, "
+"vagy nyomja meg az <key>F4</key> billentyűt."
+
+#. (itstool) path: item/p
+#: C/add-account.page:54
+msgid "Click <gui style=\"button\">+</gui>."
+msgstr "Nyomja meg a <gui style=\"button\">+</gui> gombot."
+
+#. (itstool) path: item/p
+#: C/add-account.page:59
+msgid ""
+"From the <gui>What kind of chat account do you have?</gui> drop-down list, "
+"select the type of account you wish to add."
+msgstr ""
+"A <gui>Milyen típusú csevegőfiókja van?</gui> legördülő listából válassza ki "
+"a felvenni kívánt fiók típusát."
+
+#. (itstool) path: item/p
+#: C/add-account.page:63
+msgid ""
+"Enter the required information. For most accounts, you will only need a "
+"login ID and a password. Some accounts may require additional information. "
+"See <link xref=\"accounts-window#details\"/>for more information."
+msgstr ""
+"Adja meg a szükséges információkat. A legtöbb fiókhoz csak egy "
+"bejelentkezési azonosító és jelszó kell. Egyes fiókok további információkat "
+"igényelhetnek, lásd: <link xref=\"accounts-window#details\"/>."
+
+#. (itstool) path: item/p
+#: C/add-account.page:68
+msgid "Click <gui style=\"button\">Add</gui>."
+msgstr "Nyomja meg a <gui style=\"button\">Hozzáadás</gui> gombot."
+
+#. (itstool) path: note/p
+#: C/add-account.page:73
+msgid ""
+"To change the name that identifies the account in the <gui>Messaging and "
+"VoIP Accounts</gui> window, select the account from the list on the left and "
+"either click on the name or press the space bar. Edit the account name and "
+"press <key>Enter</key> when you’re finished."
+msgstr ""
+"A fiókot az <gui>Üzenetküldő- és VoIP-fiókok</gui> ablakban azonosító név "
+"módosításához válassza ki a fiókot a bal oldali listából, és kattintson a "
+"nevére, vagy nyomja meg a szóköz billentyűt. Módosítsa a fiók nevét, és "
+"nyomja meg az <key>Enter</key> billentyűt ha befejezte."
+
+#. (itstool) path: info/desc
+#: C/add-contact.page:9
+msgid "Add someone to the contact list."
+msgstr "A partnerlista bővítése."
+
+#. (itstool) path: credit/name
+#: C/add-contact.page:18 C/change-status.page:24
+#: C/prob-conn-acctdisabled.page:15 C/prob-conn-auth.page:18
+#: C/prob-conn-neterror.page:16 C/prob-conn.page:14 C/send-file.page:17
+#: C/send-message.page:17
+msgid "Phil Bull"
+msgstr "Phil Bull"
+
+#. (itstool) path: page/title
+#: C/add-contact.page:33
+msgid "Add someone to your list of contacts"
+msgstr "Egy személy felvétele a partnerlistájára"
+
+#. (itstool) path: item/p
+#: C/add-contact.page:37
+msgid "Choose <guiseq><gui>Chat</gui><gui>Add Contact</gui></guiseq>."
+msgstr ""
+"Válassza a <guiseq><gui>Csevegés</gui><gui>Partner felvétele</gui></guiseq> "
+"menüpontot."
+
+#. (itstool) path: item/p
+#: C/add-contact.page:40
+msgid ""
+"From the <gui>Account</gui> drop-down list, select the account you wish to "
+"use to connect to your contact. Your contact will need to be using the same "
+"service as the account you select."
+msgstr ""
+"A <gui>Felhasználói fiók</gui> legördülő listából válassza ki a "
+"csatlakozáshoz használandó fiókot. A partnerének az itt kiválasztott "
+"fiókéval egyező szolgáltatást kell használnia."
+
+#. (itstool) path: item/p
+#: C/add-contact.page:45
+msgid ""
+"In the <gui>Identifier</gui> field, enter your contact’s login ID, username, "
+"screen name, or other appropriate identifier for the service type."
+msgstr ""
+"Az <gui>Azonosító</gui> mezőben adja meg partnere bejelentkezési "
+"azonosítóját, felhasználónevét, becenevét, vagy a szolgáltatástípushoz "
+"megfelelő egyéb azonosítóját."
+
+#. (itstool) path: item/p
+#: C/add-contact.page:49
+msgid ""
+"In the <gui>Alias</gui> field, type your contact’s name as you would like it "
+"to appear in your contact list."
+msgstr ""
+"Az <gui>Álnév</gui> mezőben adja meg a partner nevét, ahogyan azt a "
+"partnerlistában szeretné látni."
+
+#. (itstool) path: item/p
+#: C/add-contact.page:53
+msgid "Click <gui>Add</gui> to add the person to your list of contacts."
+msgstr ""
+"Kattintson a <gui>Hozzáadás</gui> gombra a személy felvételéhez a "
+"partnerlistájára."
+
+#. (itstool) path: note/p
+#: C/add-contact.page:61
+msgid ""
+"To add a new person to your list of contacts, you need to be connected to "
+"the Internet and to your account."
+msgstr ""
+"Új személy partnerlistára való felvételéhez csatlakoznia kell az internethez "
+"és fiókjához."
+
+#. (itstool) path: info/desc
+#: C/audio-call.page:10
+msgid "Call your contacts over the Internet."
+msgstr "Hívja fel partnereit az interneten."
+
+#. (itstool) path: credit/name
+#: C/audio-call.page:26 C/create-account.page:24 C/overview.page:17
+#: C/share-desktop.page:18 C/video-call.page:29
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#. (itstool) path: page/title
+#: C/audio-call.page:35
+msgid "Start an audio conversation"
+msgstr "Hanghívás kezdeményezése"
+
+#. (itstool) path: page/p
+#: C/audio-call.page:37
+msgid ""
+"You can call your contacts and have an audio conversation with them. This "
+"features only works with certain types of accounts and it requires the other "
+"person to have an application that supports audio calls."
+msgstr ""
+"Felhívhatja partnereit, és beszélgethet velük. Ez a szolgáltatás csak "
+"bizonyos fióktípusokkal működik, és a másik személynek is a hanghívásokat "
+"támogató alkalmazást kell használnia."
+
+#. (itstool) path: item/p
+#: C/audio-call.page:43
+msgid ""
+"Right-click on the contact that you want to call and select <gui style="
+"\"menuitem\">Audio Call</gui>."
+msgstr ""
+"Kattintson a jobb egérgombbal a felhívni kívánt partnerre, majd válassza a "
+"menüből a <gui style=\"menuitem\">Hanghívás</gui> menüpontot."
+
+#. (itstool) path: item/p
+#: C/audio-call.page:49 C/video-call.page:50
+msgid ""
+"A new window will open. When the connection is established, you will see the "
+"total conversation time at the bottom of the window."
+msgstr ""
+"Egy új ablak nyílik meg. A kapcsolat létrejöttekor az ablak alján a "
+"beszélgetés teljes ideje jelenik meg."
+
+#. (itstool) path: item/p
+#: C/audio-call.page:55
+msgid ""
+"To end the conversation, click the <gui style=\"button\">hand up</gui> "
+"button."
+msgstr ""
+"A beszélgetés befejezéséhez kattintson a <gui style=\"button\">feltartott "
+"kéz</gui> gombra."
+
+#. (itstool) path: note/p
+#: C/audio-call.page:63
+msgid ""
+"To turn an audio conversation into a video conversation, choose <guiseq><gui "
+"style=\"menu\">Video</gui> <gui style=\"menuitem\">Video On</gui></guiseq>."
+msgstr ""
+"Hanghívás videohívássá változtatásához válassza a <guiseq><gui style=\"menu"
+"\">Videó</gui><gui style=\"menuitem\">Videó be</gui></guiseq> menüpontot."
+
+#. (itstool) path: section/title
+#: C/audio-call.page:71
+msgid "Start an audio conversation with a meta-contact"
+msgstr "Hanghívás indítása metapartnerrel"
+
+#. (itstool) path: item/p
+#: C/audio-call.page:74 C/send-message.page:53 C/video-call.page:68
+msgid ""
+"From the <gui>Contact List</gui> window, right-click on the meta-contact."
+msgstr ""
+"A <gui>Partnerlista</gui> ablakban kattintson a jobb egérgombbal a "
+"metapartnerre."
+
+#. (itstool) path: item/p
+#: C/audio-call.page:79
+msgid ""
+"Select the contact you want to have the conversation, and from the menu "
+"select <gui style=\"menuitem\">Audio Call</gui>."
+msgstr ""
+"Válassza ki a felhívni kívánt partnert, majd a menüből a <gui style="
+"\"menuitem\">Hanghívás</gui> menüpontot."
+
+#. (itstool) path: note/p
+#: C/audio-call.page:86 C/send-message.page:65 C/video-call.page:80
+msgid ""
+"To recognize if a contact is a <em>meta-contact</em>, move your mouse on a "
+"contact in the <gui>Contact List</gui> window, and stop over it for a "
+"second: a small pop-up message will appear showing the number of the "
+"contacts that form the meta-contact."
+msgstr ""
+"Annak eldöntéséhez, hogy egy partner <em>metapartner</em>-e, vigye "
+"egérmutatóját a partnerre a <gui>Partnerlista</gui> ablakban, és a megjelenő "
+"üzenet megadja a metapartnert alkotó partnerek számát."
+
+#. (itstool) path: info/desc
+#: C/audio-video.page:30
+msgid ""
+"Information on when it is possible to have an audio or video conversation."
+msgstr "Információk arról, hogy mikor kezdhet hang- vagy videohívást."
+
+#. (itstool) path: page/title
+#: C/audio-video.page:35
+msgid "Audio and video support"
+msgstr "Hang- és videotámogatás"
+
+#. (itstool) path: page/p
+#: C/audio-video.page:37
+msgid ""
+"You can only have audio and video conversation with contacts who are using "
+"an application which also supports this feature."
+msgstr ""
+"Csak olyan partnerekkel folytathat hang- és videohívást, akik maguk is ezt a "
+"szolgáltatást támogató klienst használnak."
+
+#. (itstool) path: note/p
+#: C/audio-video.page:41
+msgid ""
+"In order to have an audio conversation, you need to have a sound card that "
+"is supported by your operating system, and a working microphone."
+msgstr ""
+"Hanghíváshoz az operációs rendszer által támogatott hangkártyára, és működő "
+"mikrofonra van szüksége."
+
+#. (itstool) path: note/p
+#: C/audio-video.page:43
+msgid ""
+"In order to have a video conversation, you need to have a webcam that is "
+"supported by your operating system, and a working microphone."
+msgstr ""
+"Videohíváshoz az operációs rendszer által támogatott webkamerára, és működő "
+"mikrofonra van szüksége."
+
+#. (itstool) path: section/title
+#: C/audio-video.page:49
+msgid "Supported Account Types"
+msgstr "Támogatott fióktípusok"
+
+#. (itstool) path: section/p
+#: C/audio-video.page:51
+msgid ""
+"You can only have audio and video conversations using accounts on certain "
+"supported services. The following table lists whether audio and video is "
+"supported for each type of account."
+msgstr ""
+"Csak bizonyos támogatott szolgáltatások fiókjainak használatakor van "
+"lehetősége hang- és videohívásokra. A következő táblázat felsorolja, hogy a "
+"hang és videó támogatott-e az egyes fióktípusokban."
+
+#. (itstool) path: note/p
+#: C/audio-video.page:56
+msgid ""
+"Account types are provided by plugins. Your system may not have all of the "
+"following types available, or it may have types not listed here. Updated "
+"plugins may make audio or video conversations possible on account types that "
+"are listed as unsupported here."
+msgstr ""
+"A fióktípusokat bővítmények biztosítják. Rendszerén lehet, hogy a következő "
+"típusok nem mindegyike érhető el, de rendelkezhet itt fel nem sorolt "
+"típusokkal is. A frissített bővítmények lehetővé tehetik a hang- és "
+"videohívásokat az itt nem támogatottként felsorolt fióktípusokkal."
+
+#. (itstool) path: td/p
+#: C/audio-video.page:74
+msgid "Service"
+msgstr "Szolgáltatás"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:75
+msgid "Audio"
+msgstr "Hang"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:76
+msgid "Video"
+msgstr "Videó"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:81
+msgid "AIM"
+msgstr "AIM"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:82 C/audio-video.page:83 C/audio-video.page:87
+#: C/audio-video.page:88 C/audio-video.page:97 C/audio-video.page:98
+#: C/audio-video.page:102 C/audio-video.page:103 C/audio-video.page:107
+#: C/audio-video.page:108 C/audio-video.page:117 C/audio-video.page:118
+#: C/audio-video.page:122 C/audio-video.page:123 C/audio-video.page:127
+#: C/audio-video.page:128 C/audio-video.page:132 C/audio-video.page:133
+#: C/audio-video.page:137 C/audio-video.page:138 C/audio-video.page:147
+#: C/audio-video.page:148 C/audio-video.page:152 C/audio-video.page:153
+msgid "No"
+msgstr "Nem"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:86
+msgid "gadugadu"
+msgstr "Gadu-Gadu"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:91
+msgid "Google Talk"
+msgstr "Google Talk"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:92 C/audio-video.page:93 C/audio-video.page:112
+#: C/audio-video.page:113 C/audio-video.page:142 C/audio-video.page:143
+msgid "Yes"
+msgstr "Igen"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:96
+msgid "Groupwise"
+msgstr "Groupwise"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:101
+msgid "ICQ"
+msgstr "ICQ"
+
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/audio-video.page:106 C/create-account.page:49
+msgid "IRC"
+msgstr "IRC"
+
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/audio-video.page:111 C/create-account.page:68
+msgid "Jabber"
+msgstr "Jabber"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:116
+msgid "myspace"
+msgstr "MySpace"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:121
+msgid "qq"
+msgstr "QQ"
+
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/audio-video.page:126 C/create-account.page:86
+msgid "People Nearby"
+msgstr "Közeli emberek"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:131
+msgid "sametime"
+msgstr "Sametime"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:136
+msgid "silc"
+msgstr "Silc"
+
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/audio-video.page:141 C/create-account.page:99
+msgid "SIP"
+msgstr "SIP"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:146
+msgid "Yahoo!"
+msgstr "Yahoo!"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:151
+msgid "zephyr"
+msgstr "Zephyr"
+
+#. (itstool) path: info/desc
+#: C/change-status.page:9
+msgid "Change your status to advertise your availability to your contacts."
+msgstr ""
+"Módosítsa állapotát elérhetőségének közzétételéhez a partnerei számára."
+
+#. (itstool) path: page/title
+#: C/change-status.page:39
+msgid "Change your status"
+msgstr "Módosítsa állapotát"
+
+#. (itstool) path: page/p
+#: C/change-status.page:41
+msgid ""
+"You can set your status to indicate your availability to your contacts. "
+"<app>Empathy</app> allows you to select from a list of defined statuses."
+msgstr ""
+"Beállíthatja állapotát az elérhetőségének jelzéséhez partnerei felé. Az "
+"<app>Empathy</app> lehetővé teszi a mentett állapotok listából való "
+"kiválasztását."
+
+#. (itstool) path: item/p
+#: C/change-status.page:46
+msgid ""
+"Click on the drop-down list at the top of the <gui>Contact List</gui> window."
+msgstr ""
+"Kattintson a <gui>Partnerlista</gui> ablak tetején lévő legördülő listára."
+
+#. (itstool) path: item/p
+#: C/change-status.page:51
+msgid "Select a status from the list."
+msgstr "Válasszon egy állapotot a listából."
+
+#. (itstool) path: page/p
+#: C/change-status.page:57
+msgid ""
+"See <link xref=\"status-icons\"/> for a list of the built-in statuses and "
+"what they mean. You can also <link xref=\"set-custom-status\">add custom "
+"status messages</link> to provide more information about your availability "
+"to your contacts."
+msgstr ""
+"A beépített állapotok listájával és jelentésével kapcsolatban lásd az <link "
+"xref=\"status-icons\"/> oldalt. Felvehet <link xref=\"set-custom-status"
+"\">egyéni állapotüzeneteket</link> további információk közléséhez "
+"partnereivel az elérhetőségéről."
+
+#. (itstool) path: note/p
+#: C/change-status.page:63
+msgid ""
+"If you do not use your computer for a while, or if the screensaver is on, "
+"the status will be automatically set to Away."
+msgstr ""
+"Ha egy ideig nem használja a számítógépet, vagy a képernyővédő bekapcsol, az "
+"állapot automatikusan „Távol” lesz."
+
+#. (itstool) path: info/desc
+#: C/create-account.page:32
+msgid "Create an account for one of the supported messaging services."
+msgstr "Fiók létrehozása valamelyik támogatott üzenetküldő szolgáltatáshoz."
+
+#. (itstool) path: page/title
+#: C/create-account.page:36
+msgid "Register a new account"
+msgstr "Új fiók regisztrálása"
+
+#. (itstool) path: page/p
+#: C/create-account.page:38
+msgid ""
+"Most account types require you to create an account with a service provider "
+"before you can use that account with instant messaging applications. You can "
+"use <app>Empathy</app> to register for a new account with some account "
+"providers using the same steps as you would to <link xref=\"add-account"
+"\">add an account</link>."
+msgstr ""
+"A legtöbb fióktípus megköveteli fiók létrehozását egy szolgáltatónál ahhoz, "
+"hogy az <app>Empathyhoz</app> hasonló azonnaliüzenő alkalmazásokkal azt a "
+"fiókot használhassa. Egyes szolgáltatók esetén használhatja az "
+"<app>Empathyt</app> új fiók regisztrálására, a <link xref=\"add-account"
+"\">fiók hozzáadásánál</link> használt lépéseket követve."
+
+#. (itstool) path: page/p
+#: C/create-account.page:44
+msgid ""
+"Once you create a new account, your account provider should give you a login "
+"or a username and a password, as well as any additional information you need "
+"to connect using <app>Empathy</app>."
+msgstr ""
+"Az új fiók létrehozása után a szolgáltatónak meg kell adnia a bejelentkezési "
+"azonosítót és jelszót, valamint az <app>Empathy</app> használatával való "
+"csatlakozáshoz esetleg szükséges további információkat."
+
+#. (itstool) path: section/p
+#: C/create-account.page:51
+msgid ""
+"IRC networks require that you specify a nick (nickname) when you connect to "
+"the server. Some IRC networks use a service, such as NickServ, to allow "
+"users to <link xref=\"irc-nick-password\">protect their nick</link>. If you "
+"did not register your nick or are unable to do so and another user is using "
+"it, then you will need to choose a different one."
+msgstr ""
+"Az IRC hálózatok megkövetelik egy becenév megadását a kiszolgálóhoz való "
+"csatlakozáskor. Egyes IRC hálózatok rendelkeznek NickServ szolgáltatással, "
+"amely lehetővé teszi a <link xref=\"irc-nick-password\">becenevek védelmét</"
+"link>. Ha nem regisztrálja becenevét, vagy nincs erre lehetősége és közben "
+"másik felhasználó vette használatba, akkor másikat kell választania."
+
+#. (itstool) path: section/p
+#: C/create-account.page:57
+msgid ""
+"Some IRC servers are password protected. You will need to know the password "
+"to connect to these servers. Generally, these are private IRC networks."
+msgstr ""
+"Egyes IRC-kiszolgálók jelszóval védettek. Az ilyen kiszolgálókhoz "
+"csatlakozáskor ismernie kell a jelszót. Ezek általában privát IRC-hálózatok."
+
+#. (itstool) path: note/p
+#: C/create-account.page:62
+msgid ""
+"Many GNOME projects use <code>irc.gnome.org</code> for project-related "
+"discussion."
+msgstr ""
+"Számos GNOME projekt az <code>irc.gnome.org</code> hálózatot használja a "
+"projekttel kapcsolatos beszélgetéshez."
+
+#. (itstool) path: section/p
+#: C/create-account.page:70
+msgid ""
+"Jabber is an open instant messaging system. Like email, Jabber allows you to "
+"choose your account provider and communicate with all other Jabber users, "
+"regardless of their account provider."
+msgstr ""
+"A Jabber egy nyílt azonnaliüzenő-rendszer. Az e-mailhez hasonlóan a Jabber "
+"lehetővé teszi a szolgáltató megválasztását, és az összes Jabber "
+"felhasználóval való kommunikációt a szolgáltatótól függetlenül."
+
+#. (itstool) path: section/p
+#: C/create-account.page:74
+msgid ""
+"You will need to create a new account with a Jabber provider. There are many "
+"free providers; one popular provider is <link href=\"http://register.jabber."
+"org/\">jabber.org</link>."
+msgstr ""
+"Egy Jabber szolgáltatónál létre kell hoznia az új fiókot. Számos ingyenes "
+"szolgáltató van, az egyik népszerű a <link href=\"http://register.jabber.org/"
+"\">jabber.org</link>."
+
+#. (itstool) path: note/p
+#: C/create-account.page:79
+msgid ""
+"If you use Gmail or Google+ Hangouts, you already have a Jabber account. Use "
+"your Gmail address and password in <app>Empathy</app> to connect."
+msgstr ""
+"Ha a GMail vagy a Google+ Hangout szolgáltatást használja, akkor már van "
+"Jabber fiókja. Használja GMail címét és jelszavát az <app>Empathyban</app> a "
+"kapcsolódáshoz."
+
+#. (itstool) path: section/p
+#: C/create-account.page:88
+msgid ""
+"This service works whenever you are connected to a local network, such as a "
+"wireless hotspot, you do not need to create an account with service "
+"providor, just set up your account through <app>Empathy</app>. It "
+"automatically finds all other users on the network who are also using this "
+"service."
+msgstr ""
+"Ez a szolgáltatás mindig működik, amikor helyi hálózathoz, például vezeték "
+"nélküli hotspothoz kapcsolódik. Használatához nem kell fiókot regisztrálni "
+"egy szolgáltatónál, csak egy fiókot kell beállítani az <app>Empathyban</"
+"app>. Ezután automatikusan megtalálja a szolgáltatás többi felhasználóját az "
+"adott hálózaton."
+
+#. (itstool) path: section/p
+#: C/create-account.page:94
+msgid ""
+"For more information, see the <link xref=\"salut-protocol\">salut protocol</"
+"link>."
+msgstr ""
+"További információkért lásd a <link xref=\"salut-protocol\">salut protokoll</"
+"link> oldalt."
+
+#. (itstool) path: section/p
+#: C/create-account.page:101
+msgid ""
+"SIP is an open system which allows users to have audio and video "
+"conversations over the Internet. You need to create an account with a SIP "
+"provider. You can communicate with all other SIP users, regardless of which "
+"SIP provider they use."
+msgstr ""
+"A SIP egy nyílt rendszer, amely lehetővé teszi felhasználóinak hang- és "
+"videohívások bonyolítását az interneten. Létre kell hoznia egy fiókot egy "
+"SIP-szolgáltatónál. Az összes SIP-felhasználóval kommunikálhat, függetlenül "
+"az általuk használt szolgáltatótól."
+
+#. (itstool) path: section/p
+#: C/create-account.page:106
+msgid ""
+"Some SIP providers allow you to call normal phones from your computer. "
+"Generally, you will need to subscribe to a paid service for this feature."
+msgstr ""
+"Egyes SIP-szolgáltatók lehetővé teszik normál telefonok hívását a "
+"számítógépéről. Az ilyen szolgáltatásra általában elő kell fizetni."
+
+#. (itstool) path: section/title
+#: C/create-account.page:112
+msgid "Proprietary Services"
+msgstr "Zárt szolgáltatások"
+
+#. (itstool) path: section/p
+#: C/create-account.page:114
+msgid ""
+"There are many proprietary instant messaging services that have been "
+"developed by different companies or organizations. <app>Empathy</app> allows "
+"you to connect to an existing account for some of these services. To create "
+"a new account with one of these services, you will need to visit the website "
+"for the service."
+msgstr ""
+"Számos zárt azonnaliüzenő-szolgáltatást fejlesztettek különböző cégek és "
+"szervezetek. Az <app>Empathy</app> lehetővé teszi a kapcsolódást meglévő "
+"fiókjával néhány ilyen szolgáltatáshoz. Új fiók létrehozásához fel kell "
+"keresnie a szolgáltató weboldalát."
+
+#. (itstool) path: item/p
+#: C/create-account.page:122
+msgid "<link href=\"http://dashboard.aim.com/aim\">AIM</link>"
+msgstr "<link href=\"http://dashboard.aim.com/aim\">AIM</link>"
+
+#. (itstool) path: item/p
+#: C/create-account.page:125
+msgid "<link href=\"https://www.icq.com/register/\">ICQ</link>"
+msgstr "<link href=\"https://www.icq.com/register/\">ICQ</link>"
+
+#. (itstool) path: item/p
+#: C/create-account.page:128
+msgid "<link href=\"https://login.yahoo.com/config/login\">Yahoo!</link>"
+msgstr "<link href=\"https://login.yahoo.com/config/login\">Yahoo!</link>"
+
+#. (itstool) path: info/desc
+#: C/disable-account.page:9
+msgid "Prevent <app>Empathy</app> from automatically logging in to an account."
+msgstr ""
+"A fiókba való automatikus bejelentkezés megtiltása az <app>Empathynak</app>."
+
+#. (itstool) path: page/title
+#: C/disable-account.page:40
+msgid "Disable an account"
+msgstr "Fiók letiltása"
+
+#. (itstool) path: page/p
+#: C/disable-account.page:42
+msgid ""
+"You can disable an account to prevent <app>Empathy</app> from logging in to "
+"it without removing the account entirely. You may wish to disable and re-"
+"enable an account if you only want to be logged in to the account at certain "
+"times, but you still want to use <app>Empathy</app> for other accounts."
+msgstr ""
+"A fiókok letilthatók, ekkor az <app>Empathy</app> nem fog bejelentkezni, de "
+"a fiók sem kerül eltávolításra. Bizonyos helyzetekben szükség lehet a fiók "
+"letiltására és újraengedélyezésére, ha csak néha szeretne bejelentkezni a "
+"fiókba, de más fiókokhoz továbbra is az <app>Empathyt</app> szeretné "
+"használni."
+
+#. (itstool) path: item/p
+#: C/disable-account.page:49 C/irc-nick-password.page:50
+#: C/remove-account.page:43
+msgid ""
+"From the <gui>Contact List</gui> window, choose <guiseq><gui>Edit</gui> "
+"<gui>Accounts</gui></guiseq>, or press <key>F4</key>."
+msgstr ""
+"A <gui>Partnerlista</gui> ablakban válassza a <guiseq><gui>Szerkesztés</"
+"gui><gui>Fiókok</gui></guiseq> menüpontot, vagy nyomja meg az <key>F4</key> "
+"billentyűt."
+
+#. (itstool) path: item/p
+#: C/disable-account.page:53
+msgid ""
+"Select the account you wish to disable from the accounts list on the left "
+"side of the window."
+msgstr ""
+"Az ablak bal oldalán lévő fióklistában válassza ki a letiltani kívánt fiókot."
+
+#. (itstool) path: item/p
+#: C/disable-account.page:57
+msgid "On the right side of the window, switch it off."
+msgstr "Az ablak jobb oldalán kapcsolja ki."
+
+#. (itstool) path: page/p
+#: C/disable-account.page:62
+msgid "To re-enable the account, switch it on."
+msgstr "A fiók újraengedélyezéséhez kapcsolja be azt."
+
+#. (itstool) path: info/desc
+#: C/favorite-rooms.page:10
+msgid "Set, join and manage favorite rooms."
+msgstr "Kedvenc szobák beállítása, kezelése és csatlakozás azokhoz."
+
+#. (itstool) path: page/title
+#: C/favorite-rooms.page:29
+msgid "Favorite rooms"
+msgstr "Kedvenc szobák"
+
+#. (itstool) path: section/title
+#: C/favorite-rooms.page:32
+msgid "Set a room as a favorite"
+msgstr "Szoba beállítása kedvencként"
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:35
+msgid "Join a room."
+msgstr "Csatlakozás szobához."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:40
+msgid ""
+"See <link xref=\"irc-join-room\"/> for more information on how to join an "
+"IRC room."
+msgstr ""
+"IRC-szobához csatlakozással kapcsolatos további információkért lásd a <link "
+"xref=\"irc-join-room\"/> oldalt."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:46
+msgid ""
+"See <link xref=\"group-conversations\"/> for more information on how to "
+"start or join a group conversation."
+msgstr ""
+"Csoportos társalgáshoz csatlakozással kapcsolatos további információkért "
+"lásd a <link xref=\"group-conversations\"/> oldalt."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:54
+msgid ""
+"From the conversation window, choose <guiseq><gui>Conversation</"
+"gui><gui>Favorite Chat Room</gui></guiseq>."
+msgstr ""
+"A társalgás ablakban válassza a <guiseq><gui>Társalgás</gui><gui>Kedvenc "
+"csevegőszoba</gui></guiseq> menüpontot."
+
+#. (itstool) path: section/title
+#: C/favorite-rooms.page:63
+msgid "Join favorite rooms"
+msgstr "Belépés kedvenc szobákba"
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:66 C/send-file.page:40
+msgid "From the <gui>Contact List</gui> window, perform one of the following:"
+msgstr "A <gui>Partnerlista</gui> ablakban hajtsa végre a következők egyikét:"
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:71
+msgid "Press <key>F5</key>."
+msgstr "Nyomja meg az <key>F5</key> billentyűt."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:76
+msgid ""
+"Choose <guiseq><gui>Room</gui><gui>Join Favorites</gui></guiseq>, to join "
+"all your favorite rooms."
+msgstr ""
+"Válassza a <guiseq><gui>Szoba</gui><gui>Csatlakozás a kedvencekhez</gui></"
+"guiseq> menüpontot az összes kedvenc szobába való belépéshez."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:82
+msgid "Choose <gui>Room</gui>, and select the favorite room you want to join."
+msgstr ""
+"Válassza a <gui>Szoba</gui> menüpontot, majd a kedvenc szobát, amelybe be "
+"szeretne lépni."
+
+#. (itstool) path: note/p
+#: C/favorite-rooms.page:90
+msgid ""
+"To join a favorite room, you need to be connected to the Internet and to "
+"your account."
+msgstr ""
+"Kedvenc szobába való belépéshez csatlakozva kell lennie az internethez és "
+"fiókjához."
+
+#. (itstool) path: section/title
+#: C/favorite-rooms.page:98
+msgid "Manage favorite rooms"
+msgstr "Kedvenc szobák kezelése"
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:101
+msgid ""
+"From the <gui>Contact List</gui> window, choose <guiseq><gui>Room</"
+"gui><gui>Manage Favorites</gui></guiseq>."
+msgstr ""
+"A <gui>Partnerlista</gui> ablakban válassza a <guiseq><gui>Szoba</"
+"gui><gui>Kedvencek kezelése</gui></guiseq> menüpontot."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:107
+msgid ""
+"From the <gui>Account</gui> drop-down list, select the account you want to "
+"manage the favorite rooms of."
+msgstr ""
+"A <gui>Felhasználói fiók</gui> legördülő listából válassza ki azt a fiókot, "
+"amelynek kedvenc szobáit módosítani szeretné."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:111
+msgid "Select <gui>All</gui> to see all you favorite rooms."
+msgstr ""
+"Válassza az <gui>Összes</gui> lehetőséget az összes kedvenc szoba "
+"megjelenítéséhez."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:116
+msgid "Select the favorite room you want to manage:"
+msgstr "Válassza ki a kezelni kívánt kedvenc szobát:"
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:121
+msgid ""
+"Select the <gui>Auto-Connect</gui> check-box in order to automatically join "
+"that room when you connect to your account."
+msgstr ""
+"Jelölje be az <gui>Automatikus kapcsolódás</gui> négyzetet a szobába való "
+"automatikus belépéshez a fiókjához kapcsolódáskor."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:127
+msgid "Click on <gui>Remove</gui> to remove the room from your favorites."
+msgstr ""
+"Kattintson az <gui>Eltávolítás</gui> gombra a szoba eltávolításához "
+"kedvencei közül."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:134
+msgid "When done, click <gui>Close</gui>."
+msgstr "Ha befejezte, nyomja meg a <gui>Bezárás</gui> gombot."
+
+#. (itstool) path: info/desc
+#: C/geolocation.page:8
+msgid "Use and understand geolocation in <app>Empathy</app>."
+msgstr "A helymeghatározás megismerése és használata az <app>Empathyban</app>."
+
+#. (itstool) path: page/title
+#: C/geolocation.page:32
+msgid "Geographical position"
+msgstr "Földrajzi hely"
+
+#. (itstool) path: section/title
+#: C/geolocation.page:35
+msgid "Geolocation"
+msgstr "Helymeghatározás"
+
+#. (itstool) path: section/title
+#: C/geolocation.page:39
+msgid "Fix common problems"
+msgstr "Gyakori problémák javítása"
+
+#. (itstool) path: info/desc
+#: C/geolocation-not-showing.page:8
+msgid "<app>Empathy</app> does not publish my geographical position."
+msgstr "Az <app>Empathy</app> nem teszi közzé a földrajzi helyet."
+
+#. (itstool) path: page/title
+#: C/geolocation-not-showing.page:32
+msgid "Geographical position not published"
+msgstr "A földrajzi hely nem kerül közzétételre"
+
+#. (itstool) path: page/p
+#: C/geolocation-not-showing.page:34
+msgid ""
+"If your contacts cannot see your location, <app>Empathy</app> might not be "
+"able to discover with a good margin of precision your geographical position."
+msgstr ""
+"Ha partnerei nem látják földrajzi helyét, akkor az <app>Empathy</app> lehet, "
+"hogy nem képes elégséges pontossággal meghatározni azt."
+
+#. (itstool) path: page/p
+#: C/geolocation-not-showing.page:38
+msgid ""
+"In this case, your position will not be published, but you are still able to "
+"see the location of your contacts."
+msgstr ""
+"Ebben az esetben az Ön földrajzi helye nem kerül közzétételre, de partnerei "
+"helyét továbbra is látni fogja."
+
+#. (itstool) path: page/p
+#: C/geolocation-not-showing.page:42
+msgid ""
+"If you want to publish your geographical position, you can try to use an "
+"external device such as a GPS."
+msgstr ""
+"Ha közzé szeretné tenni földrajzi helyét, akkor megpróbálhat külső eszközt, "
+"például GPS-t  használni."
+
+#. (itstool) path: note/p
+#: C/geolocation-not-showing.page:48
+msgid ""
+"In order to publish your geographical location, your Jabber server needs to "
+"support the Personal Eventing Protocal (PEP). A list of <link href=\"http://"
+"coccinella.im/servers/servers_by_pubsub_pep.html\">servers which support "
+"PEP</link> is maintained online. Google Talk does not support this feature "
+"at this time."
+msgstr ""
+"Földrajzi helyének közzétételéhez az Ön által használt Jabber kiszolgálónak "
+"támogatnia kell a PEP specifikációt. A <link href=\"http://coccinella.im/"
+"servers/servers_by_pubsub_pep.html\">PEP-et támogató kiszolgálók</link> "
+"listája online elérhető. A Google Talk jelenleg nem támogatja ezt a "
+"szolgáltatást."
+
+#. (itstool) path: info/desc
+#: C/geolocation-privacy.page:8
+msgid "What information are sent and to who."
+msgstr "Milyen információk kerülnek elküldésre és kinek."
+
+#. (itstool) path: page/title
+#: C/geolocation-privacy.page:32
+msgid "Geolocation Privacy"
+msgstr "Helymeghatározás és adatvédelem"
+
+#. (itstool) path: section/title
+#: C/geolocation-privacy.page:35
+msgid "What information is sent"
+msgstr "Milyen információk kerülnek elküldésre"
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:36
+msgid ""
+"What is possible to send is: your country, region, locality, area, street, "
+"building, floor, room, and postal code, longitude, latitude and altitude, "
+"speed and bearing."
+msgstr ""
+"A következők elküldése lehetséges: ország, régió, helység, terület, utca, "
+"épület, emelet, szoba, irányítószám, hosszúság, szélesség, magasság, "
+"sebesség és irány."
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:40
+msgid ""
+"The accuracy and the quantity of information about your geographical "
+"position are based on the software or on the infrastructure used to discover "
+"your position."
+msgstr ""
+"A földrajzi helyével kapcsolatos információk pontossága és mennyisége a "
+"szoftveren, vagy a helymeghatározásra használt infrastruktúrán alapul."
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:44
+msgid ""
+"Different kind of networks may have different accuracy settings, and may "
+"send different information. The use of external devices such as GPS or "
+"mobile phone will increase the accuracy of the information sent."
+msgstr ""
+"A különböző hálózatok különböző pontossági beállításokkal rendelkezhetnek, "
+"és különböző információkat küldhetnek. A külső eszközök, például GPS vagy "
+"mobiltelefonok használata növeli az elküldött információk pontosságát."
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:49
+msgid ""
+"When the privacy mode is enabled, nothing more precise than your city will "
+"be sent, even if you are using an external device."
+msgstr ""
+"Az adatvédelmi módot bekapcsolva a városnál pontosabb információ nem kerül "
+"elküldésre, még ha külső eszközt is használ."
+
+#. (itstool) path: section/title
+#: C/geolocation-privacy.page:56
+msgid "Who can see the information sent"
+msgstr "Ki láthatja az elküldött információkat"
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:57
+msgid "Only your contacts can see your geographical position."
+msgstr "Csak partnerei láthatják az Ön földrajzi helyzetét."
+
+#. (itstool) path: section/title
+#: C/geolocation-privacy.page:63
+msgid "What is the privacy mode"
+msgstr "Mi az adatvédelmi mód"
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:64
+msgid ""
+"The privacy mode, enabled by default, is a reduced accuracy mode that will "
+"decrease the accuracy of the geographical position sent to your contacts."
+msgstr ""
+"Az alapértelmezésben engedélyezett adatvédelmi mód egy csökkentett "
+"pontosságú mód, amely csökkenti a partnereinek küldött földrajzi hely "
+"pontosságát."
+
+#. (itstool) path: section/title
+#: C/geolocation-privacy.page:71
+msgid "Privacy overview"
+msgstr "Adatvédelem áttekintése"
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:72
+msgid ""
+"Overview of the various geolocation privacy settings in <app>Empathy</app>."
+msgstr ""
+"Az <app>Empathy</app> helymeghatározással kapcsolatos adatvédelmi "
+"beállításainak áttekintése."
+
+#. (itstool) path: item/p
+#: C/geolocation-privacy.page:77
+msgid "Geolocation is not enabled by default."
+msgstr "A helymeghatározás alapértelmezésben nincs bekapcsolva."
+
+#. (itstool) path: item/p
+#: C/geolocation-privacy.page:82
+msgid "Privacy mode is enabled by default."
+msgstr "Az adatvédelmi mód alapértelmezésben be van kapcsolva."
+
+#. (itstool) path: item/p
+#: C/geolocation-privacy.page:87
+msgid ""
+"Privacy mode prevails even when using external and more precise devices."
+msgstr ""
+"Az adatvédelmi mód külső és pontosabb eszközök használata esetén is "
+"bekapcsolva marad."
+
+#. (itstool) path: item/p
+#: C/geolocation-privacy.page:92
+msgid "Only your contacts can see your position."
+msgstr "Csak partnerei láthatják földrajzi helyét."
+
+#. (itstool) path: info/desc
+#: C/geolocation-supported.page:7
+msgid "Services that supports geolocation and compatibility."
+msgstr "A helymeghatározást támogató szolgáltatások és kompatibilitás."
+
+#. (itstool) path: page/title
+#: C/geolocation-supported.page:31
+msgid "Supported services"
+msgstr "Támogatott szolgáltatások"
+
+#. (itstool) path: page/p
+#: C/geolocation-supported.page:33
+msgid ""
+"The geolocation feature at the moment is compatible only with the Jabber "
+"service. In order to use it, you and your contacts need to have a Jabber "
+"account."
+msgstr ""
+"Jelenleg a helymeghatározási szolgáltatás csak a Jabber szolgáltatással "
+"kompatibilis. Használatához Önnek és partnereinek is Jabber fiókot kell "
+"használniuk."
+
+#. (itstool) path: note/p
+#: C/geolocation-supported.page:39
+msgid ""
+"It is necessary that also the server you are using supports the geolocation "
+"feature. Most of the Jabber servers support it. See your service website "
+"documentation for more information."
+msgstr ""
+"Az Ön által használt kiszolgálónak is támogatnia kell a helymeghatározási "
+"szolgáltatást. A legtöbb Jabber kiszolgáló támogatja. További információkért "
+"nézze meg a szolgáltatás webhelyének dokumentációját."
+
+#. (itstool) path: section/title
+#: C/geolocation-supported.page:47
+msgid "Compatibility"
+msgstr "Kompatibilitás"
+
+#. (itstool) path: section/p
+#: C/geolocation-supported.page:49
+msgid ""
+"<app>Empathy</app> geolocation feature is not compatible with other "
+"geographical position services such as <em>Google Latitude</em>, <em>Yahoo "
+"Fire Eagle</em> or <em>Brightkite</em>."
+msgstr ""
+"Az <app>Empathy</app> helymeghatározási szolgáltatása nem kompatibilis más "
+"helymeghatározási szolgáltatásokkal, mint például a <em>Google Latitude</"
+"em>, <em>Yahoo Fire Eagle</em> vagy <em>Brightkite</em>."
+
+#. (itstool) path: info/desc
+#: C/geolocation-turn.page:9
+msgid "How to activate and deactivate geolocation in <app>Empathy</app>."
+msgstr "Helymeghatározás be- és kikapcsolása <app>Empathyban</app>."
+
+#. (itstool) path: page/title
+#: C/geolocation-turn.page:33
+msgid "Activate/Deactivate geolocation"
+msgstr "Helymeghatározás be- és kikapcsolása"
+
+#. (itstool) path: item/p
+#: C/geolocation-turn.page:37
+msgid "Choose <guiseq><gui>Edit</gui><gui>Preferences</gui></guiseq>."
+msgstr ""
+"Válassza a <guiseq><gui>Szerkesztés</gui><gui>Beállítások</gui></guiseq> "
+"menüpontot."
+
+#. (itstool) path: item/p
+#: C/geolocation-turn.page:42
+msgid "Select the <gui>Location</gui> tab."
+msgstr "Válassza a <gui>Hely</gui> lapot."
+
+#. (itstool) path: item/p
+#: C/geolocation-turn.page:47
+msgid ""
+"Select <gui>Publish location to my contacts</gui> to activate geolocation."
+msgstr ""
+"Jelölje be a <gui>Hely közzététele a partnereimnek</gui> négyzetet a "
+"helymeghatározás aktiválásához."
+
+#. (itstool) path: item/p
+#: C/geolocation-turn.page:50
+msgid "To deactivate geolocation, deselect it."
+msgstr "A helymeghatározás kikapcsolásához törölje a négyzetet."
+
+#. (itstool) path: item/p
+#: C/geolocation-turn.page:55
+msgid ""
+"To increase the accuracy of your position, deselect <gui>Reduce location "
+"accuracy</gui>."
+msgstr ""
+"A földrajzi hely pontosságának növeléséhez törölje a <gui>Hely pontosságának "
+"csökkentése</gui> négyzetet."
+
+#. (itstool) path: item/p
+#: C/geolocation-turn.page:61
+msgid ""
+"If you have an external device like a GPS or want to send a more accurate "
+"position, select the appropriate option in the <gui>Location sources</gui> "
+"section."
+msgstr ""
+"Ha rendelkezik külső eszközzel, például GPS-szel, vagy pontosabb helyet "
+"szeretne küldeni, akkor válassza ki a megfelelő lehetőséget a "
+"<gui>Helyforrások</gui> szakaszban."
+
+#. (itstool) path: info/desc
+#: C/geolocation-what-is.page:9
+msgid "Understanding geolocation."
+msgstr "A helymeghatározás bemutatása."
+
+#. (itstool) path: page/title
+#: C/geolocation-what-is.page:33
+msgid "What is geolocation"
+msgstr "Mi az a helymeghatározás"
+
+#. (itstool) path: page/p
+#: C/geolocation-what-is.page:35
+msgid ""
+"Geolocation allows you to identify the real geographical location of a "
+"computer or a device connected to the Internet."
+msgstr ""
+"A helymeghatározás lehetővé teszi egy internetre csatlakozó számítógép vagy "
+"eszköz valódi földrajzi helyét."
+
+#. (itstool) path: page/p
+#: C/geolocation-what-is.page:37
+msgid "With geolocation in <app>Empathy</app> you can:"
+msgstr "Az <app>Empathy</app> helymeghatározása segítségével:"
+
+#. (itstool) path: item/p
+#: C/geolocation-what-is.page:42
+msgid "Publish your geographical location to your contacts."
+msgstr "Közzéteheti földrajzi helyét partnerei számára."
+
+#. (itstool) path: item/p
+#: C/geolocation-what-is.page:47
+msgid "See your contacts’ geographical location and quickly contact them."
+msgstr "Láthatja partnerei földrajzi helyét."
+
+#. (itstool) path: item/p
+#: C/geolocation-what-is.page:52
+msgid ""
+"Set the accuracy of your location and the device used to discover your "
+"location."
+msgstr ""
+"Beállíthatja a földrajzi hely és a hely meghatározására használt eszköz "
+"pontosságát."
+
+#. (itstool) path: note/p
+#: C/geolocation-what-is.page:60
+msgid ""
+"In order to see your contacts’ geographical locations, they need to use a "
+"service and an application that supports geolocation."
+msgstr ""
+"A partnerei földrajzi helyének megjelenítéséhez partnereinek "
+"helymeghatározást támogató szolgáltatást és alkalmazást kell használniuk."
+
+#. (itstool) path: info/desc
+#: C/group-conversations.page:8
+msgid "Start or join a group conversation with your contacts."
+msgstr "Csoportos társalgás indítása partnereivel, vagy csatlakozás egyhez"
+
+#. (itstool) path: page/title
+#: C/group-conversations.page:34
+msgid "Group conversations"
+msgstr "Csoportos társalgások"
+
+#. (itstool) path: page/p
+#: C/group-conversations.page:36
+msgid ""
+"Group conversations permits you to have text conversations with more than "
+"one contact at the same time."
+msgstr ""
+"A csoportos társalgások lehetővé teszik a szöveges társalgást egyszerre több "
+"partnerrel."
+
+#. (itstool) path: page/p
+#: C/group-conversations.page:40
+msgid ""
+"To have a group conversation you need to have a registered account with "
+"either Jabber or Google Talk, or a People Nearby account."
+msgstr ""
+"Csoportos társalgáshoz regisztrált Jabber, Google Talk vagy Közeli emberek "
+"fiókkal kell rendelkeznie."
+
+#. (itstool) path: note/p
+#: C/group-conversations.page:46
+msgid ""
+"You can have a group conversation only with the contacts that are using the "
+"same service as yours."
+msgstr ""
+"Csak az Ön által is használt szolgáltatást használó partnerekkel folytathat "
+"csoportos társalgást."
+
+#. (itstool) path: section/title
+#: C/group-conversations.page:54
+msgid "Start a group conversation"
+msgstr "Csoportos társalgás indítása"
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:58 C/group-conversations.page:122
+#: C/irc-join-room.page:39
+msgid ""
+"From the <gui>Contact List</gui> window, choose <guiseq><gui>Room</"
+"gui><gui>Join</gui></guiseq>."
+msgstr ""
+"A <gui>Partnerlista</gui> ablakban válassza a <guiseq><gui>Szoba</"
+"gui><gui>Csatlakozás</gui></guiseq> menüpontot."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:63
+msgid ""
+"From the <gui>Account</gui> drop-down list, select the account you want to "
+"use for the group conversation."
+msgstr ""
+"A <gui>Felhasználói fiók</gui> legördülő listában válassza ki a csoportos "
+"társalgáshoz használandó fiókot."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:69
+msgid ""
+"In the <gui>Server</gui> text box, type the name of server in which the "
+"conversation will be hosted."
+msgstr ""
+"A <gui>Kiszolgáló</gui> szövegmezőbe írja be a kiszolgáló nevét, amelyen a "
+"társalgás helyet kap."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:73
+msgid "Leave it empty if it will be on the current server."
+msgstr "Üresen hagyva az aktuális kiszolgáló lesz használatban."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:78
+msgid ""
+"In the <gui>Room</gui> text box, type the name you want to give to the "
+"conversation."
+msgstr "A <gui>Szoba</gui> szövegmezőbe írja be a társalgásnak adandó nevet."
+
+#. (itstool) path: note/p
+#: C/group-conversations.page:82
+msgid ""
+"This will be the name of the room you are going to have a conversation. This "
+"name will be publicly available for other people to join. It is not possible "
+"to create a private room."
+msgstr ""
+"Ez a szoba neve lesz, amelyben a társalgás folyni fog. Ez a név nyilvánosan "
+"elérhető lesz mások számára, és szabadon csatlakozhatnak. Privát szoba "
+"létrehozása nem lehetséges."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:90
+msgid ""
+"To invite other contacts to join the group conversation, from the "
+"<gui>Contact List</gui> window, select the contact you want to invite, and "
+"perform one of the following:"
+msgstr ""
+"A <gui>Partnerlista</gui> ablakban válassza ki a meghívni kívánt partnert "
+"más partnerek meghívásához a csoportos társalgásba, és tegye a következők "
+"egyikét:"
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:97
+msgid "Right-click on the contact and choose <gui>Invite to chatroom</gui>."
+msgstr ""
+"Kattintson a jobb egérgombbal a partnerre, és válassza a <gui>Meghívás "
+"csevegőszobába</gui> menüpontot."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:102
+msgid ""
+"Choose <guiseq><gui>Edit</gui><gui>Contact</gui><gui>Invite to chatroom</"
+"gui></guiseq>."
+msgstr ""
+"Válassza a <guiseq><gui>Szerkesztés</gui><gui>Partner</gui><gui>Meghívás "
+"csevegőszobába</gui></guiseq> menüpontot."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:107
+msgid ""
+"If you have more than one group conversation open, select the one you want "
+"to invite your contacts."
+msgstr ""
+"Ha több csoportos társalgás is meg van nyitva, akkor válassza ki azt, "
+"amelyikbe meg szeretné hívni partnereit."
+
+#. (itstool) path: section/title
+#: C/group-conversations.page:118
+msgid "Join a group conversation"
+msgstr "Csatlakozás csoportos társalgáshoz"
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:128
+msgid "Expand the <gui>Room List</gui> section to see all the existing rooms."
+msgstr ""
+"Nyissa ki a <gui>Szobalista</gui> fejezetet az összes létező szoba "
+"megjelenítéséhez."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:133
+msgid "Double-click on the name of a room to join it."
+msgstr "Kattintson duplán a szoba nevére a belépéshez."
+
+#. (itstool) path: section/p
+#: C/group-conversations.page:139
+msgid ""
+"It is not possible to join all existing rooms. Some of the rooms might "
+"require a password, or might be invitation only. <app>Empathy</app> does not "
+"support these kind of rooms."
+msgstr ""
+"Nem feltétlenül lehet minden létező szobába belépni. Egyes szobák jelszót "
+"kérhetnek, vagy csak meghívással lehetnek láthatók. Az <app>Empathy</app> "
+"nem támogatja az ilyen szobákat."
+
+#. (itstool) path: info/desc
+#: C/hide-contacts.page:8
+msgid "Hide the offline contacts from your <gui>Contact List</gui>."
+msgstr "A kilépett partnerek elrejtése a <gui>Partnerlistáról</gui>."
+
+#. (itstool) path: page/title
+#: C/hide-contacts.page:19
+msgid "Hide offline contacts"
+msgstr "Kilépett partnerek elrejtése"
+
+#. (itstool) path: page/p
+#: C/hide-contacts.page:21
+msgid ""
+"Normally, <app>Empathy</app> shows all your contacts: those that are online, "
+"with which you can have a conversation, and also those that are offline."
+msgstr ""
+"Általában az <app>Empathy</app> megjeleníti az összes partnert: az "
+"elérhetőket, akikkel társalgást kezdhet, és a kilépetteket is."
+
+#. (itstool) path: page/p
+#: C/hide-contacts.page:25
+msgid "To hide the contacts that are offline:"
+msgstr "A kilépett partnerek elrejtése:"
+
+#. (itstool) path: item/p
+#: C/hide-contacts.page:31
+msgid ""
+"From the <gui>Contact List</gui> window, choose <guiseq><gui>View</gui> "
+"<gui>Offline Contacts</gui></guiseq>, or press <keyseq><key>Ctrl</key> "
+"<key>H</key></keyseq>."
+msgstr ""
+"A <gui>Partnerlista</gui> ablakban válassza a <guiseq><gui>Nézet</"
+"gui><gui>Kilépett partnerek</gui></guiseq> menüpontot, vagy nyomja meg a "
+"<keyseq><key>Ctrl</key><key>H</key></keyseq> billentyűkombinációt."
+
+#. (itstool) path: item/p
+#: C/hide-contacts.page:36
+msgid "To show the offline contacts again, repeat the same procedure above."
+msgstr ""
+"A kilépett partnerek ismételt megjelenítéséhez ismételje meg a fenti "
+"eljárást."
+
+#. (itstool) path: info/desc
+#: C/import-account.page:10
+msgid "Import an account from another instant messaging application."
+msgstr "Felhasználói fiók importálása másik azonnaliüzenő alkalmazásból."
+
+#. (itstool) path: credit/name
+#: C/import-account.page:19
+msgid "Peter Haslam"
+msgstr "Peter Haslam"
+
+#. (itstool) path: page/title
+#: C/import-account.page:42
+msgid "Import an existing account"
+msgstr "Meglévő fiók importálása"
+
+#. (itstool) path: page/p
+#: C/import-account.page:44
+msgid ""
+"The first time you run <app>Empathy</app>, it will offer to import your "
+"accounts from other instant messaging applications. Currently, the only "
+"supported application is <app>Pidgin</app>."
+msgstr ""
+"Az <app>Empathy</app> első futtatásakor felajánlja felhasználói fiókjainak "
+"importálását más azonnaliüzenő alkalmazásokból. Jelenleg az egyetlen "
+"támogatott ilyen alkalmazás a <app>Pidgin</app>."
+
+#. (itstool) path: item/p
+#: C/import-account.page:50
+msgid ""
+"Run <app>Empathy</app> for the first time. An assistant will offer you a "
+"number of options to create new accounts."
+msgstr ""
+"Az <app>Empathy</app> első futtatásakor egy asszisztens számos lehetőséget "
+"kínál fel új felhasználói fiókok létrehozásához."
+
+#. (itstool) path: item/p
+#: C/import-account.page:54
+msgid ""
+"Select <gui>Yes, import my account details from</gui> and click "
+"<gui>Forward</gui>."
+msgstr ""
+"Válassza az <gui>Igen, fiókadatok importálása ebből:</gui> lehetőséget, és "
+"nyomja meg a <gui>Tovább</gui> gombot."
+
+#. (itstool) path: item/p
+#: C/import-account.page:58
+msgid "Select the check box next to each account you wish to import."
+msgstr ""
+"Válassza ki az egyes importálni kívánt fiókok melletti jelölőnégyzeteket."
+
+#. (itstool) path: item/p
+#: C/import-account.page:61 C/irc-nick-password.page:63
+msgid "Click <gui style=\"button\">Apply</gui>."
+msgstr "Nyomja meg az <gui style=\"button\">Alkalmaz</gui> gombot."
+
+#. (itstool) path: note/p
+#: C/import-account.page:66
+msgid ""
+"It is not currently possible to import accounts after you have completed the "
+"first-run assistant."
+msgstr ""
+"Jelenleg nincs lehetőség fiókok importálására az első futtatáskor megjelenő "
+"asszisztens bezárása után."
+
+#. (itstool) path: info/desc
+#: C/index.page:28
+msgid ""
+"Empathy is the instant messaging application for GNOME. It supports text, "
+"voice and video chat over many protocols."
+msgstr ""
+"Az Empathy egy azonnaliüzenő alkalmazás a GNOME-hoz. Támogatja a szöveges "
+"üzenetküldést, valamint a hang- és videohívásokat számos protokollon."
+
+#. (itstool) path: info/title
+#: C/index.page:30
+msgctxt "link"
+msgid "Empathy"
+msgstr "Empathy"
+
+#. (itstool) path: info/title
+#: C/index.page:31
+msgctxt "text"
+msgid "Empathy"
+msgstr "Empathy"
+
+#. (itstool) path: page/title
+#: C/index.page:34
+msgid "<_:media-1/> Empathy"
+msgstr "<_:media-1/> Empathy"
+
+#. (itstool) path: section/title
+#: C/index.page:40
+msgid "Account Management"
+msgstr "Fiókkezelés"
+
+#. (itstool) path: section/title
+#: C/index.page:44
+msgid "Contact Management"
+msgstr "Partnerkezelés"
+
+#. (itstool) path: section/title
+#: C/index.page:48
+msgid "Text Conversations"
+msgstr "Szöveges csevegések"
+
+#. (itstool) path: section/title
+#: C/index.page:52
+msgid "Audio and Video Conversations"
+msgstr "Hang- és videocsevegések"
+
+#. (itstool) path: section/title
+#: C/index.page:56
+msgid "Advanced Actions"
+msgstr "Speciális műveletek"
+
+#. (itstool) path: section/title
+#: C/index.page:60 C/irc-manage.page:64
+msgid "Common Problems"
+msgstr "Gyakori problémák"
+
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/introduction.page:41
+msgctxt "_"
+msgid ""
+"external ref='figures/empathy-main-window.png' "
+"md5='54908dcb2588beddb15ef0968d2c2582'"
+msgstr ""
+"external ref='figures/empathy-main-window.png' "
+"md5='54908dcb2588beddb15ef0968d2c2582'"
+
+#. (itstool) path: info/desc
+#: C/introduction.page:9
+msgid "Introduction to the <app>Empathy</app> instant messenger."
+msgstr "Az <app>Empathy</app> üzenetküldő bemutatása."
+
+#. (itstool) path: page/title
+#: C/introduction.page:21
+msgid "Introduction"
+msgstr "Bevezetés"
+
+#. (itstool) path: page/p
+#: C/introduction.page:23
+#| msgid ""
+#| "<app>Empathy</app> is an instant messaging application for the GNOME "
+#| "Desktop. It supports text messaging, voice &amp; video calls, file "
+#| "transfers, and all the most used messaging systems such as MSN and Google "
+#| "Talk."
+msgid ""
+"<app>Empathy</app> is an instant messaging application for the GNOME "
+"Desktop. It supports text messaging, voice &amp; video calls, file "
+"transfers, and all the most used messaging systems such as Jabber and Google "
+"Talk."
+msgstr ""
+"Az <app>Empathy</app> egy üzenetküldő alkalmazás a GNOME asztali "
+"környezethez. Támogatja a szöveges üzenetküldést, hang- és videohívásokat, "
+"fájlátvitelt és a legtöbbet használt üzenetküldő rendszereket, mint a Jabber "
+"és a Google Talk."
+
+#. (itstool) path: page/p
+#: C/introduction.page:28
+msgid ""
+"<app>Empathy</app> includes features that help you better collaborate while "
+"at work, and that let you easily keep in touch with your friends."
+msgstr ""
+"Az <app>Empathy</app> szolgáltatásai segítik a jobb együttműködést "
+"munkahelyén, és lehetővé teszik a kapcsolattartást barátaival."
+
+#. (itstool) path: page/p
+#: C/introduction.page:32
+msgid ""
+"Using <app>Empathy</app>, you can group all the conversations in a single "
+"window, have multiple windows for different kind of conversations, easily "
+"search through your previous conversations, and share your desktop in just "
+"two clicks."
+msgstr ""
+"Az <app>Empathy</app> segítségével összes társalgását egyetlen ablakba "
+"csoportosíthatja, több ablakban tarthatja a különböző társalgásokat, "
+"egyszerűen kereshet a korábbi társalgásokban, és két kattintással "
+"megoszthatja asztalát."
+
+#. (itstool) path: figure/title
+#: C/introduction.page:39
+msgid "<gui>Contact List</gui> window"
+msgstr "<gui>Partnerlista</gui> ablak"
+
+#. (itstool) path: figure/desc
+#: C/introduction.page:40
+msgid "<app>Empathy</app> main window"
+msgstr "Az <app>Empathy</app> főablaka"
+
+#. (itstool) path: media/p
+#: C/introduction.page:42
+msgid "<app>Empathy</app> main window."
+msgstr "Az <app>Empathy</app> főablaka."
+
+#. (itstool) path: info/desc
+#: C/irc-commands.page:7
+msgid "The supported IRC commands."
+msgstr "A támogatott IRC-parancsok."
+
+#. (itstool) path: page/title
+#: C/irc-commands.page:18
+msgid "Supported IRC commands"
+msgstr "Támogatott IRC-parancsok"
+
+#. (itstool) path: page/p
+#: C/irc-commands.page:19
+msgid ""
+"To see the list of the supported IRC commands, in a chat room type <input>/"
+"help</input> and press <key>Enter</key>."
+msgstr ""
+"A támogatott IRC-parancsok listájának megjelenítéséhez a csevegőszobában "
+"írja be a <input>/help</input> utasítást, és nyomja meg az <key>Enter</key> "
+"billentyűt."
+
+#. (itstool) path: note/p
+#: C/irc-commands.page:24
+msgid "All commands available have a small description on their usage."
+msgstr "Minden elérhető parancshoz tartozik egy rövid használati utasítás."
+
+#. (itstool) path: info/desc
+#: C/irc-join-pwd.page:9
+msgid "Enter password-protected IRC chat rooms."
+msgstr "Belépés jelszóval védett IRC-csevegőszobákba."
+
+#. (itstool) path: page/title
+#: C/irc-join-pwd.page:25
+msgid "Join a protected IRC chat room"
+msgstr "Csatlakozás védett IRC-csevegőszobához"
+
+#. (itstool) path: page/p
+#: C/irc-join-pwd.page:27
+msgid ""
+"On some IRC networks, private IRC rooms may be protected with a password. If "
+"you know the password, use the following steps to join:"
+msgstr ""
+"Egyes IRC-hálózatokon a privát IRC-szobák jelszóval védettek lehetnek. Ha "
+"ismeri a jelszót, akkor tegye a következőket a csatlakozáshoz:"
+
+#. (itstool) path: item/p
+#: C/irc-join-pwd.page:33
+msgid "<link xref=\"irc-join-room\">Join the room</link> as normal."
+msgstr ""
+"<link xref=\"irc-join-room\">Csatlakozzon a szobához</link> a szokásos módon."
+
+#. (itstool) path: item/p
+#: C/irc-join-pwd.page:38
+msgid ""
+"Empathy will prompt you for a password. Enter the password for the IRC chat "
+"room and click <gui style=\"button\">Join</gui>."
+msgstr ""
+"Az Empathy bekéri a jelszót. Adja meg az IRC-csevegőszoba jelszavát, és "
+"nyomja meg a <gui style=\"button\">Csatlakozás</gui> gombot."
+
+#. (itstool) path: info/desc
+#: C/irc-join-room.page:8
+msgid "Join an IRC channel."
+msgstr "Csatlakozás IRC-csatornához."
+
+#. (itstool) path: page/title
+#: C/irc-join-room.page:31
+msgid "Join an IRC chat room"
+msgstr "Csatlakozás IRC-csevegőszobához"
+
+#. (itstool) path: page/p
+#: C/irc-join-room.page:33
+msgid ""
+"You can join IRC chat rooms (also known as IRC channels) on any IRC network "
+"you’re connected to. To connect to an IRC network, see <link xref=\"add-"
+"account\"/> and <link xref=\"account-irc\"/>."
+msgstr ""
+"Az IRC-csevegőszobákba (IRC-csatornákra) bármely IRC-hálózaton beléphet, "
+"amelyhez csatlakozva van. Az IRC-hálózatokhoz való csatlakozással "
+"kapcsolatban lásd az <link xref=\"add-account\"/> és <link xref=\"account-irc"
+"\"/> témákat."
+
+#. (itstool) path: item/p
+#: C/irc-join-room.page:45
+msgid ""
+"From the <gui>Account</gui> drop-down list, select the IRC account that "
+"corresponds to the network you want to use."
+msgstr ""
+"A <gui>Felhasználói fiók</gui> legördülő listában válassza ki a használni "
+"kívánt hálózatnak megfelelő IRC-fiókot."
+
+#. (itstool) path: item/p
+#: C/irc-join-room.page:51
+msgid ""
+"In the <gui>Room</gui> text box, type the name of the channel you want to "
+"join. IRC channel names start with the hash character (<sys>#</sys>)."
+msgstr ""
+"A <gui>Szoba</gui> szövegmezőbe írja be a csatorna nevét, amelyhez "
+"csatlakozni kíván. Az IRC-csatornák neve a kettős kereszt karakterrel "
+"(<sys>#</sys>) kezdődik."
+
+#. (itstool) path: item/p
+#: C/irc-join-room.page:57
+msgid "Click <gui>Join</gui> to enter the room."
+msgstr "Nyomja meg a <gui>Csatlakozás</gui> gombot a szobába való belépéshez."
+
+#. (itstool) path: note/p
+#: C/irc-join-room.page:64
+msgid ""
+"To join multiple rooms, you need to repeat the steps above for each room."
+msgstr ""
+"Több szobához is csatlakozhat, minden szobához megismételve a fenti "
+"lépéseket."
+
+#. (itstool) path: info/desc
+#: C/irc-manage.page:9
+msgid "How to use IRC with <app>Empathy</app>."
+msgstr "IRC használata az <app>Empathyval</app>."
+
+#. (itstool) path: credit/name
+#: C/irc-manage.page:23
+msgid "Sindhu S"
+msgstr "Sindhu S"
+
+#. (itstool) path: page/title
+#: C/irc-manage.page:39
+msgid "Internet Relay Chat (IRC)"
+msgstr "Interneten továbbított csevegés (IRC)"
+
+#. (itstool) path: when/p
+#: C/irc-manage.page:47
+msgid ""
+"<link action=\"install:telepathy-idle\" xref=\"index\"> Install telepathy-"
+"idle</link>"
+msgstr ""
+"<link action=\"install:telepathy-idle\" xref=\"index\">A telepathy-idle "
+"telepítése</link>"
+
+#. (itstool) path: info/title
+#: C/irc-manage.page:55
+msgctxt "link"
+msgid "IRC Chat Rooms and Conversations"
+msgstr "IRC-csevegőszobák és társalgások"
+
+#. (itstool) path: section/title
+#: C/irc-manage.page:57
+msgid "Chat Rooms and Conversations"
+msgstr "Csevegőszobák és társalgások"
+
+#. (itstool) path: info/title
+#: C/irc-manage.page:62
+msgctxt "link"
+msgid "Common IRC Problems"
+msgstr "Gyakori IRC-problémák"
+
+#. (itstool) path: info/desc
+#: C/irc-nick-password.page:10
+msgid "Protect your nickname to prevent other IRC users from using it."
+msgstr "Védje meg becenevét, hogy más IRC-felhasználók ne használhassák azt."
+
+#. (itstool) path: page/title
+#: C/irc-nick-password.page:33
+msgid "Use a nickname password on IRC"
+msgstr "Jelszó használata IRC becenévhez"
+
+#. (itstool) path: page/p
+#: C/irc-nick-password.page:35
+msgid ""
+"On some IRC networks, you can register your nickname with a service called "
+"NickServ. By sending special messages to NickServ, you can set your password "
+"and identify yourself. Some IRC chat rooms may not allow you to join without "
+"a registered nickname."
+msgstr ""
+"Egyes IRC-hálózatokon lehetősége van becenevének regisztrálására a NickServ "
+"nevű szolgáltatásnál. A NickServnek küldött speciális üzenetekkel "
+"beállíthatja jelszavát, és azonosíthatja magát. Egyes IRC-csevegőszobák nem "
+"engedik belépni regisztrált becenév nélkül."
+
+#. (itstool) path: page/p
+#: C/irc-nick-password.page:40
+msgid ""
+"<app>Empathy</app> does not currently support nickname registration. Some "
+"IRC networks, however, will automatically forward a <em>server password</em> "
+"to NickServ. On these networks, you can use the IRC password in "
+"<app>Empathy</app> to identify yourself to NickServ. The popular freenode "
+"network is known to have this feature."
+msgstr ""
+"Az <app>Empathy</app> jelenleg nem támogatja a becenév regisztrálását. Egyes "
+"IRC-hálózatok azonban automatikusan továbbítanak egy <em>kiszolgálójelszót</"
+"em> a NickServnek. Ezeken a hálózatokon az IRC-jelszavát az <app>Empathy</"
+"app> segítségével használhatja azonosításra a NickServ felé. A népszerű "
+"FreeNode hálózat rendelkezik ezzel a szolgáltatással."
+
+#. (itstool) path: page/p
+#: C/irc-nick-password.page:46
+msgid "To set an IRC server password:"
+msgstr "IRC-kiszolgálójelszó beállítása:"
+
+#. (itstool) path: item/p
+#: C/irc-nick-password.page:54
+msgid "Select the IRC account from the list on the left of the dialog."
+msgstr "Válassza ki az IRC-fiókot az ablak bal oldalán lévő listából."
+
+#. (itstool) path: item/p
+#: C/irc-nick-password.page:57
+msgid ""
+"In the <gui>Password</gui> field, type the password you used to register "
+"your nikcname."
+msgstr ""
+"A <gui>Jelszó</gui> mezőben írja be a beceneve regisztrálásához használt "
+"jelszót."
+
+#. (itstool) path: note/p
+#: C/irc-nick-password.page:69
+msgid ""
+"These instructions only allow you to use a password-protected nickname on "
+"certain IRC networks. It is not currently possible to register an IRC "
+"nickname or change your nickname password using <app>Empathy</app>."
+msgstr ""
+"Ezek az utasítások csak bizonyos IRC-hálózatokon teszik lehetővé jelszóval "
+"védett becenév használatát. Jelenleg az <app>Empathy</app> használatával nem "
+"lehet IRC-becenevet regisztrálni, vagy a becenév jelszavát módosítani."
+
+#. (itstool) path: info/desc
+#: C/irc-send-file.page:9
+msgid "<app>Empathy</app> does not currently support sending files using IRC."
+msgstr ""
+"Az <app>Empathy</app> jelenleg nem támogatja a fájlküldést IRC használatával."
+
+#. (itstool) path: page/title
+#: C/irc-send-file.page:31
+msgid "Send files over IRC"
+msgstr "Fájlok küldése IRC használatával."
+
+#. (itstool) path: page/p
+#: C/irc-send-file.page:33
+msgid "It is not currently possible to send files using IRC."
+msgstr "Jelenleg nem lehetséges a fájlok küldése IRC használatával."
+
+#. (itstool) path: info/desc
+#: C/irc-start-conversation.page:8
+msgid "Start a conversation with an IRC contact."
+msgstr "Társalgás kezdése IRC-partnerrel."
+
+#. (itstool) path: page/title
+#: C/irc-start-conversation.page:30
+msgid "Chat with somebody on IRC"
+msgstr "Csevegjen IRC-n"
+
+#. (itstool) path: page/p
+#: C/irc-start-conversation.page:32
+msgid ""
+"You can hold private conversations with other IRC users, outside of the "
+"public IRC chat rooms. To start a conversation with another IRC user:"
+msgstr ""
+"Személyes társalgást folytathat más IRC-felhasználókkal a nyilvános IRC-"
+"csevegőszobákon kívül. Társalgás kezdeményezéséhez egy másik IRC-"
+"felhasználóval:"
+
+#. (itstool) path: item/p
+#: C/irc-start-conversation.page:37
+msgid ""
+"In the contact list for an IRC chat room, double click the name of the user "
+"you want to chat with. Alternatively, right click the name of the user and "
+"choose <gui>Chat</gui>."
+msgstr ""
+"Egy IRC-csevegőszoba partnerlistájában kattintson duplán a felhasználó "
+"nevére, akivel csevegni szeretne. Ezen kívül rákattinthat a jobb egérgombbal "
+"is a felhasználó nevére, és kiválaszthatja a <gui>Csevegés</gui> menüpontot."
+
+#. (itstool) path: item/p
+#: C/irc-start-conversation.page:45
+msgid ""
+"The IRC room contact list is not the same as <app>Empathy</app> contact "
+"list. It contains a list of users in the IRC chat room you joined. Different "
+"rooms can have different contacts listed."
+msgstr ""
+"Az IRC-szoba partnerlistája nem azonos az <app>Empathy</app> "
+"partnerlistájával. Ez az adott IRC-szoba felhasználóinak listáját "
+"tartalmazza. A különböző szobákban különböző partnerek vannak felsorolva."
+
+#. (itstool) path: item/p
+#: C/irc-start-conversation.page:52
+msgid ""
+"The IRC room contact list is usually on the right side of the IRC room "
+"window. If you do not see it, choose <guiseq><gui>Conversation</"
+"gui><gui>Show Contact List</gui></guiseq>."
+msgstr ""
+"Az IRC-szoba partnerlistája általában az IRC-szoba ablakának jobb oldalán "
+"van. Ha nem látja, akkor válassza a <guiseq><gui>Társalgás</"
+"gui><gui>Partnerlista megjelenítése</gui></guiseq> menüpontot."
+
+#. (itstool) path: info/desc
+#: C/license.page:8
+msgid "Legal information."
+msgstr "Jogi információk."
+
+#. (itstool) path: page/title
+#: C/license.page:11
+msgid "License"
+msgstr "Licenc"
+
+#. (itstool) path: page/p
+#: C/license.page:12
+msgid ""
+"This work is distributed under a CreativeCommons Attribution-Share Alike 3.0 "
+"Unported license."
+msgstr ""
+"Ez a mű a CreativeCommons Attribution-Share Alike 3.0 Unported licenc "
+"feltételei szerint terjeszthető."
+
+#. (itstool) path: page/p
+#: C/license.page:20
+msgid "You are free:"
+msgstr "Jogodban áll:"
+
+#. (itstool) path: item/title
+#: C/license.page:25
+msgid "<em>To share</em>"
+msgstr "<em>Megosztani</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:26
+msgid "To copy, distribute and transmit the work."
+msgstr "Másolni, terjeszteni és továbbítani a művet."
+
+#. (itstool) path: item/title
+#: C/license.page:29
+msgid "<em>To remix</em>"
+msgstr "<em>Feldolgozni</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:30
+msgid "To adapt the work."
+msgstr "Módosítani a művet."
+
+#. (itstool) path: page/p
+#: C/license.page:33
+msgid "Under the following conditions:"
+msgstr "A következő feltételek szerint:"
+
+#. (itstool) path: item/title
+#: C/license.page:38
+msgid "<em>Attribution</em>"
+msgstr "<em>Nevezd meg!</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:39
+msgid ""
+"You must attribute the work in the manner specified by the author or "
+"licensor (but not in any way that suggests that they endorse you or your use "
+"of the work)."
+msgstr ""
+"A szerző vagy a jogosult által meghatározott módon fel kell tüntetned a "
+"műhöz kapcsolódó információkat (pl. a szerző nevét vagy álnevét, a Mű címét)."
+
+#. (itstool) path: item/title
+#: C/license.page:46
+msgid "<em>Share Alike</em>"
+msgstr "<em>Így add tovább!</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:47
+msgid ""
+"If you alter, transform, or build upon this work, you may distribute the "
+"resulting work only under the same, similar or a compatible license."
+msgstr ""
+"Ha megváltoztatod, átalakítod, feldolgozod ezt a művet, az így létrejött "
+"alkotást csak a jelenlegivel megegyező licenc alatt terjesztheted."
+
+#. (itstool) path: page/p
+#: C/license.page:53
+msgid ""
+"For the full text of the license, see the <link href=\"http://"
+"creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
+"link>, or read the full <link href=\"http://creativecommons.org/licenses/by-"
+"sa/3.0/\">Commons Deed</link>."
+msgstr ""
+"A licenc teljes szövegéért lásd a <link href=\"http://creativecommons.org/"
+"licenses/by-sa/3.0/legalcode\">CreativeCommons weboldalát</link>, vagy a "
+"teljes <link href=\"http://creativecommons.org/licenses/by-sa/3.0/\">Commons "
+"összefoglalót</link>."
+
+#. (itstool) path: info/desc
+#: C/link-contacts.page:11
+msgid "Merge and separate different contacts into a single one."
+msgstr "Különböző partnerek egyesítése és szétválasztása"
+
+#. (itstool) path: credit/name
+#: C/link-contacts.page:19
+msgid "Shobha Tyagi"
+msgstr "Shobha Tyagi"
+
+#. (itstool) path: page/title
+#: C/link-contacts.page:29
+msgid "Link and unlink contacts"
+msgstr "Névjegyek összekapcsolása/szétválasztása"
+
+#. (itstool) path: page/p
+#: C/link-contacts.page:30
+msgid ""
+"If one or more of your contacts has multiple accounts with different "
+"messaging services, you can combine these accounts into a single contact."
+msgstr ""
+"Ha egy partnere több fiókkal is rendelkezik különböző szolgáltatóknál, akkor "
+"ezeket egyesítheti egyetlen partnerbejegyzéssé."
+
+#. (itstool) path: page/p
+#: C/link-contacts.page:34
+msgid ""
+"The resulting contact is called a <em>meta-contact</em>: a contact composed "
+"from different single contacts."
+msgstr ""
+"Az eredményül kapott partnert <em>metapartnernek</em> hívjuk: ez egy több "
+"önálló partnerbejegyzésből álló partner."
+
+#. (itstool) path: page/p
+#: C/link-contacts.page:38
+msgid ""
+"Suppose you have a contact called Jane Smith who is using three different "
+"messaging services like:"
+msgstr ""
+"Ha például rendelkezik egy Kovács Erzsébet nevű partnerrel, aki három "
+"különböző üzenetküldő szolgáltatást használ:"
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:44
+msgid "jane.smith@gmail"
+msgstr "erzsebet.kovacs@gmail"
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:49
+msgid "jane_smith@hotmail"
+msgstr "erzsebet_kovacs@hotmail"
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:54
+#| msgid "janes@facebook"
+msgid "janes@yahoo"
+msgstr "ekovacs@yahoo"
+
+#. (itstool) path: page/p
+#: C/link-contacts.page:59
+msgid "You can combine these contacts into a single Jane Smith one."
+msgstr ""
+"Ezeket a partnerbejegyzéseket egyetlen Kovács Erzsébet bejegyzéssé "
+"egyesítheti."
+
+#. (itstool) path: section/title
+#: C/link-contacts.page:63
+msgid "Link contacts"
+msgstr "Partnerek összekapcsolása"
+
+#. (itstool) path: section/p
+#: C/link-contacts.page:64
+msgid "The way you can link your contacts is as follows:"
+msgstr "Partnerek összekapcsolásához:"
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:69
+msgid ""
+"Press the tick button to select entries you want to link. This will enable "
+"<em>selection mode</em> and you can see a checkbox for each entry."
+msgstr ""
+"Nyomja meg a pipa gombot az összekapcsolni kívánt bejegyzések kijelöléséhez. "
+"Ez bekapcsolja a <em>kijelölési módot</em>, és minden bejegyzés mellett "
+"megjelenik egy jelölőnégyzet."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:75
+msgid ""
+"Tick the checkboxes that correspond to the <app>Contacts</app> entries which "
+"belong to the same contact."
+msgstr ""
+"Jelölje be az azonos partnerhez tartozó <app>Névjegyek</app> alkalmazásbeli "
+"bejegyzéseket."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:81
+msgid "Press <gui style=\"button\">Link</gui>."
+msgstr "Nyomja meg az <gui style=\"button\">Összekapcsolás</gui> gombot."
+
+#. (itstool) path: section/p
+#: C/link-contacts.page:86
+msgid "Repeat steps 3 and 4 in order to link other contacts."
+msgstr "Ismételje a 3. és 4. lépéseket a további partnerek összekapcsolásához."
+
+#. (itstool) path: section/title
+#: C/link-contacts.page:92
+msgid "Unlink contacts"
+msgstr "Partnerek szétválasztása"
+
+#. (itstool) path: section/p
+#: C/link-contacts.page:93
+msgid "To unlink a linked contact:"
+msgstr "Az összekapcsolt partnerek szétválasztása:"
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:98
+msgid "Select the contact from your list."
+msgstr "Válassza ki a partnert a partnerlistából."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:103
+msgid ""
+"Press <gui style=\"button\">Edit</gui> in the top-right corner of "
+"<app>Contacts</app>."
+msgstr ""
+"Kattintson a <gui style=\"button\">Szerkesztés</gui> gombra a "
+"<app>Névjegyek</app> jobb felső sarkában."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:108
+msgid "Press <gui style=\"button\">Linked Contacts</gui>."
+msgstr ""
+"Nyomja meg az <gui style=\"button\">Összekapcsolt névjegyek</gui> gombot."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:113
+msgid ""
+"Press <gui style=\"button\">Remove</gui> to unlink an entry from the linked "
+"contact."
+msgstr ""
+"Nyomja meg az <gui style=\"button\">Eltávolítás</gui> gombot a bejegyzés "
+"leválasztásához a névjegyről."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:118
+msgid ""
+"Press <gui style=\"button\">Close</gui> if you do not want to unlink any "
+"more contacts."
+msgstr ""
+"Nyomja meg a <gui style=\"button\">Bezárás</gui> gombot, amikor befejezte a "
+"partnerek szétválasztását."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:123
+msgid "Finally, press <gui style=\"button\">Done</gui> to finish editing."
+msgstr ""
+"Végül nyomja meg a <gui style=\"button\">Kész</gui> gombot a szerkesztés "
+"befejezéséhez."
+
+#. (itstool) path: info/desc
+#: C/overview.page:9
+msgid "What instant messaging is and how you can use it."
+msgstr "Mi az azonnali üzenetküldés, és hogyan használhatja."
+
+#. (itstool) path: credit/name
+#: C/overview.page:13
+msgid "Aruna S"
+msgstr "Aruna S"
+
+#. (itstool) path: page/title
+#: C/overview.page:25
+msgid "Overview of instant messaging"
+msgstr "Azonnali üzenetküldés áttekintése"
+
+#. (itstool) path: page/p
+#: C/overview.page:27
+msgid ""
+"Instant messaging, sometimes abbreviated to IM, is a text-based means to "
+"communicate instantly over the internet and the local network. While some IM "
+"applications work with only one type of account, others, including <link "
+"xref=\"introduction\">Empathy</link>, provide IM facilities by using <link "
+"xref=\"add-account\">accounts</link> from different service providers. Some "
+"of these even support audio and video calling."
+msgstr ""
+"Az azonnali üzenetküldés egy szövegalapú helyi hálózati és internetes "
+"kommunikációs módszer. Míg sok azonnali üzenő alkalmazás csak egy "
+"fióktípussal működik, addig mások, beleértve az <link xref=\"introduction"
+"\">Empathyt</link>, számos különböző szolgáltató <link xref=\"add-account"
+"\">fiókjainak</link> használatával biztosítanak azonnali üzenetküldést. Ezek "
+"közül néhány hang- és videohívást is támogat."
+
+#. (itstool) path: td/p
+#: C/overview.page:43
+msgid "Video Conference"
+msgstr "Videokonferencia"
+
+#. (itstool) path: td/p
+#: C/overview.page:44
+msgid "Group chats"
+msgstr "Csoportos társalgások"
+
+#. (itstool) path: td/p
+#: C/overview.page:45
+msgid "Chat rooms"
+msgstr "Csevegőszobák"
+
+#. (itstool) path: page/p
+#: C/overview.page:49
+msgid ""
+"Some instant messaging applications can be used to connect to chat rooms, "
+"online places where like-minded people meet to talk. One popular means to "
+"connect to several chat rooms is the Internet Relay Chat, also known as "
+"<link xref=\"irc-manage\">IRC</link>. IRC provides <link xref=\"irc-join-room"
+"\">public</link> chat rooms, which are open to anyone who creates an account "
+"on the IRC Server, and private chat rooms, which are <link xref=\"irc-join-"
+"pwd\">password protected</link> and open only to a select few."
+msgstr ""
+"Egyes azonnali üzenő alkalmazásokkal csevegőszobákhoz is lehet csatlakozni, "
+"amelyeket a hasonló gondolkodású emberek használnak beszélgetésre. Az egyik "
+"népszerű eszköz számos csevegőszobához csatlakozásra az <link xref=\"irc-"
+"manage\">IRC</link>. Az IRC <link xref=\"irc-join-room\">nyilvános</link> "
+"csevegőszobákat biztosít, amelyek bárki számára nyitottak, aki létrehoz egy "
+"fiókot az IRC kiszolgálón, valamint privát csevegőszobákat, amelyek <link "
+"xref=\"irc-join-pwd\">jelszóval védettek</link>, és csak a készítőjük által "
+"kiválasztott kevesek léphetnek be."
+
+#. (itstool) path: info/desc
+#: C/prev-conv.page:8
+msgid "Browse or search your previous conversations."
+msgstr "Böngéssze korábbi társalgásait, vagy keressen bennük."
+
+#. (itstool) path: page/title
+#: C/prev-conv.page:36
+msgid "View previous conversations"
+msgstr "Korábbi társalgások megjelenítése"
+
+#. (itstool) path: page/p
+#: C/prev-conv.page:38
+msgid ""
+"<app>Empathy</app> automatically saves all your text conversations you have "
+"with your contacts. You can <link xref=\"#search\">search through all of "
+"your previous conversations</link> or <link xref=\"#browse\">browse previous "
+"conversations</link> by contact and date."
+msgstr ""
+"Az <app>Empathy</app> automatikusan menti az összes szöveges társalgását "
+"partnereivel. Lehetősége van <link xref=\"#search\">keresni az összes "
+"korábbi társalgásában</link>, vagy partner és dátum szerint <link xref="
+"\"#browse\">böngészni a korábbi társalgásokat</link>."
+
+#. (itstool) path: note/p
+#: C/prev-conv.page:46
+msgid ""
+"You do not need to be connected to the Internet to view and search your "
+"previous conversations."
+msgstr ""
+"A korábbi társalgások megjelenítéséhez és az azokban való kereséshez nem "
+"kell az internethez kapcsolódni."
+
+#. (itstool) path: section/title
+#: C/prev-conv.page:53
+msgid "Search previous conversations"
+msgstr "Keresés korábbi társalgásokban"
+
+#. (itstool) path: section/p
+#: C/prev-conv.page:55
+msgid ""
+"You can perform a full-text search through all of your previous "
+"conversations."
+msgstr "Teljes szöveges keresést végezhet minden korábbi társalgásban."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:59 C/prev-conv.page:87
+msgid ""
+"From the <gui>Contact List</gui> window, choose <guiseq><gui>View</gui> "
+"<gui>Previous Conversations</gui></guiseq>. Alternatively, press <key>F3</"
+"key>."
+msgstr ""
+"A <gui>Partnerlista</gui> ablakban válassza a <guiseq><gui>Nézet</"
+"gui><gui>Korábbi társalgások</gui></guiseq> menüpontot. Az <key>F3</key> "
+"billentyűt is megnyomhatja."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:63
+msgid ""
+"Select an account from the drop-down list in the top. A list of contacts and "
+"chat room for that account will be shown below."
+msgstr ""
+"Válassza ki a fiókot a felső legördülő listából. A fiókhoz tartozó partnerek "
+"és csevegőszobák listája alul megjelenik."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:67
+msgid ""
+"Type the text you want to search for in the <gui>Search</gui> text field."
+msgstr "A <gui>Keresés</gui> mezőbe írja be a keresendő szöveget."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:71
+msgid ""
+"Any conversations that matched your search terms will be shown. By default, "
+"conversations are ordered by date."
+msgstr ""
+"Megjelennek azok a társalgások, amelyekben megtalálható a keresőkifejezés. A "
+"társalgások alapértelmezésben dátum szerint vannak rendezve."
+
+#. (itstool) path: section/title
+#: C/prev-conv.page:80
+msgid "Browse previous conversations"
+msgstr "Korábbi társalgások tallózása"
+
+#. (itstool) path: section/p
+#: C/prev-conv.page:82
+msgid ""
+"You can browse your previous conversations with your contacts or in chat "
+"rooms by date."
+msgstr ""
+"A partnereivel vagy a csevegőszobákban folytatott korábbi társalgásokat "
+"dátum szerint tallózhatja."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:91
+msgid ""
+"Select an account from the drop-down list in the top left. A list of "
+"contacts and chat room for that account will be shown below."
+msgstr ""
+"Válassza ki a fiókot a bal felső legördülő listából. A fiókhoz tartozó "
+"partnerek és csevegőszobák listája alul megjelenik."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:95
+msgid ""
+"Select a contact or chat room to view your previous conversations from. By "
+"default the most recent conversation will be shown."
+msgstr ""
+"Válassza ki a partnert vagy csevegőszobát a korábbi társalgások "
+"megjelenítéséhez. Alapértelmezésben a legújabb társalgás jelenik meg."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:99
+msgid ""
+"You can browse your conversations by date. Days on which you had a "
+"conversation with the selected contact will be shown in bold text. Click a "
+"date to select it. Click the arrows next to the month and year to browse "
+"earlier dates."
+msgstr ""
+"A társalgásokat dátum szerint böngészheti. Azok a napok, amelyeken a "
+"kiválasztott partnerrel társalgást folytatott, félkövéren jelennek meg. "
+"Kattintson a dátumra a kiválasztásához. Kattintson a hónap és az év melletti "
+"nyilakra a korábbi dátumok böngészéséhez."
+
+#. (itstool) path: section/p
+#: C/prev-conv.page:105
+msgid ""
+"You can search for text in the conversations by typing into the search field "
+"at the top. The matching conversations will be showed."
+msgstr ""
+"A társalgásokban a felső keresőmezőbe gépelve kereshet szöveget. Ezután az "
+"illeszkedő társalgások megjelennek."
+
+#. (itstool) path: note/p
+#: C/prev-conv.page:111
+msgid ""
+"You can quickly view the previous conversations with one of your contacts "
+"from the <gui>Contact List</gui> window. Simply right click the contact and "
+"choose <gui>Previous Conversations</gui>. The <gui>Previous Conversations</"
+"gui> window will open with that contact already selected."
+msgstr ""
+"A <gui>Partnerlista</gui> ablakból gyorsan megjelenítheti az egyes "
+"partnereivel folytatott korábbi társalgásait. Csak kattintson a jobb "
+"egérgombbal a partnerre, és válassza a <gui>Korábbi társalgások</gui> "
+"menüpontot. Megnyílik a <gui>Korábbi társalgások</gui> ablak, és az adott "
+"partner lesz kiválasztva."
+
+#. (itstool) path: info/desc
+#: C/prob-conn-acctdisabled.page:7
+msgid ""
+"The instant messaging account that you want to use is not enabled in the "
+"list of accounts."
+msgstr ""
+"A használni kívánt azonnaliüzenő-fiókja nincs engedélyezve a fióklistában."
+
+#. (itstool) path: page/title
+#: C/prob-conn-acctdisabled.page:34
+msgid "My account is not enabled"
+msgstr "A fiókom nincs engedélyezve"
+
+#. (itstool) path: page/p
+#: C/prob-conn-acctdisabled.page:36
+msgid ""
+"If the instant messaging account that you want to use is not enabled in the "
+"drop-down account list when you try to start a new conversation or join a "
+"room, your account details may not be correct."
+msgstr ""
+"Ha a használni kívánt azonnaliüzenő-fiók nincs engedélyezve a legördülő "
+"fióklistában, amikor új társalgást akar kezdeni vagy be akar lépni egy "
+"csevegőszobába, akkor a fiók adatai hibásak lehetnek."
+
+#. (itstool) path: item/p
+#: C/prob-conn-acctdisabled.page:44 C/prob-conn-auth.page:46
+#: C/prob-conn-neterror.page:54
+msgid ""
+"Make sure that you are connected to the Internet, or to a local area network."
+msgstr ""
+"Győződjön meg róla, hogy csatlakozik az internethez vagy helyi hálózathoz."
+
+#. (itstool) path: item/p
+#: C/prob-conn-acctdisabled.page:49
+msgid ""
+"Choose <guiseq><gui>Edit</gui><gui>Accounts</gui></guiseq> and select the "
+"account that is not working."
+msgstr ""
+"Válassza a <guiseq><gui>Szerkesztés</gui><gui>Fiókok</gui></guiseq> "
+"menüpontot, majd a nem működő fiókot."
+
+#. (itstool) path: item/p
+#: C/prob-conn-acctdisabled.page:55 C/prob-conn-auth.page:62
+msgid ""
+"Type your username and password again to make sure that they are correct."
+msgstr ""
+"Írja be újra felhasználónevét és jelszavát, így ellenőrizve hogy nem gépelte "
+"el azokat."
+
+#. (itstool) path: item/p
+#: C/prob-conn-acctdisabled.page:60 C/prob-conn-neterror.page:63
+msgid ""
+"Check in the <gui>Advanced</gui> section that all the details are correct. "
+"You should be able to find these details from the website of the messaging "
+"service."
+msgstr ""
+"Ellenőrizze a <gui>Speciális</gui> szakaszban, hogy minden adat helyes-e. "
+"Ezeket az adatokat az üzenetküldő szolgáltatás weboldalán találhatja meg."
+
+#. (itstool) path: item/p
+#: C/prob-conn-acctdisabled.page:66
+msgid "Check that the account is switched on."
+msgstr "Ellenőrizze, hogy a fiók be van-e kapcsolva."
+
+#. (itstool) path: info/desc
+#: C/prob-conn-auth.page:9
+msgid ""
+"An error message which says “<gui>Authentication failed</gui>” appears in "
+"the main window."
+msgstr ""
+"A főablakban az „<gui>A hitelesítés meghiúsult</gui>” üzenet jelenik meg."
+
+#. (itstool) path: page/title
+#: C/prob-conn-auth.page:37
+msgid "I get a message that says “Authentication failed”"
+msgstr "Az „A hitelesítés meghiúsult” üzenetet kapom"
+
+#. (itstool) path: page/p
+#: C/prob-conn-auth.page:39
+msgid ""
+"This kind of error happens when your instant messaging service is not "
+"allowing you to connect because it does not recognize your username or "
+"password for some reason."
+msgstr ""
+"Ez a hiba akkor következik be, ha az azonnaliüzenő-szolgáltatás nem "
+"engedélyezi a csatlakozást, mert valamiért nem ismeri fel az Ön "
+"felhasználónevét vagy jelszavát."
+
+#. (itstool) path: item/p
+#: C/prob-conn-auth.page:51
+msgid ""
+"Make sure that you have registered an account with the service you are "
+"trying to connect to. If you do not have an account, most services will not "
+"allow you to connect."
+msgstr ""
+"Győződjön meg róla, hogy már regisztrált fiókot annál a szolgáltatásnál, "
+"amelyhez csatlakozni próbál. Ha nincs fiókja, a legtöbb szolgáltatás nem "
+"engedélyezi a csatlakozást."
+
+#. (itstool) path: media/span
+#: C/prob-conn-auth.page:58 C/prob-conn-name.page:44
+#: C/prob-conn-neterror.page:59
+msgid "edit"
+msgstr "szerkesztés"
+
+#. (itstool) path: item/p
+#: C/prob-conn-auth.page:58 C/prob-conn-name.page:44
+#: C/prob-conn-neterror.page:59
+msgid "Click the <_:media-1/> icon in the error message."
+msgstr "Kattintson a hibaüzenetben a <_:media-1/> ikonra."
+
+#. (itstool) path: item/p
+#: C/prob-conn-auth.page:67
+msgid ""
+"Deselect the <gui>Enabled</gui>, and then select it again to try to "
+"reconnect to the service."
+msgstr ""
+"Törölje az <gui>Engedélyezett</gui> jelölését, majd jelölje be újra a "
+"szolgáltatáshoz való ismételt csatlakozás megpróbálásához."
+
+#. (itstool) path: info/title
+#: C/prob-conn-name.page:10
+msgctxt "link:error-msg"
+msgid "“Name in use”"
+msgstr "„A név használatban”"
+
+#. (itstool) path: info/desc
+#: C/prob-conn-name.page:11
+msgid ""
+"An error message which says “<gui>Name in use</gui>” appears in the main "
+"window."
+msgstr "A főablakban az „<gui>A név használatban</gui>” üzenet jelenik meg."
+
+#. (itstool) path: page/title
+#: C/prob-conn-name.page:34
+msgid "I get a message that says “Name in use”"
+msgstr "Az „A név használatban” üzenetet kapom"
+
+#. (itstool) path: page/p
+#: C/prob-conn-name.page:36
+msgid ""
+"This kind of error happens when you try to connect to your IRC account and "
+"you are using a nickname that is already being used by someone else on that "
+"particular network."
+msgstr ""
+"Ez a hiba akkor következik be, ha az IRC-fiókjához próbál csatlakozni, és "
+"olyan becenevet használ, amit az adott hálózaton már valaki más használ."
+
+#. (itstool) path: item/p
+#: C/prob-conn-name.page:50
+msgid "In the <gui>Nickname</gui> text box, type a new nickname."
+msgstr "A <gui>Becenév</gui> szövegdobozban adjon meg egy új becenevet."
+
+#. (itstool) path: item/p
+#: C/prob-conn-name.page:55
+msgid ""
+"If you have registered that nickname within the network you are using, set "
+"the password for that nickname. For more information, see <link xref=\"irc-"
+"nick-password\"/>."
+msgstr ""
+"Ha regisztrálta a becenevet az éppen használt hálózaton, akkor adja meg a "
+"jelszót az adott becenévhez. További információkért lásd a <link xref=\"irc-"
+"nick-password\"/> részt."
+
+#. (itstool) path: item/p
+#: C/prob-conn-name.page:64 C/prob-conn-neterror.page:78
+msgid ""
+"Switch the account off, and then switch it on to try to reconnect to the "
+"service."
+msgstr ""
+"Kapcsolja ki, majd újra be a fiókot a szolgáltatáshoz való ismételt "
+"csatlakozás megpróbálásához."
+
+#. (itstool) path: info/desc
+#: C/prob-conn-neterror.page:8
+msgid ""
+"An error message which says “<gui>Network error</gui>” appears in the main "
+"window."
+msgstr "A főablakban a „<gui>Hálózati hiba</gui>” üzenet jelenik meg."
+
+#. (itstool) path: page/title
+#: C/prob-conn-neterror.page:35
+msgid "I get a message that says “Network error”"
+msgstr "A „Hálózati hiba” üzenetet kapom"
+
+#. (itstool) path: page/p
+#: C/prob-conn-neterror.page:43
+msgid ""
+"This kind of error happens when <app>Empathy</app> cannot communicate with "
+"the instant messaging service for some reason."
+msgstr ""
+"Ez a hiba akkor következik be, ha az <app>Empathy</app> valamilyen okból nem "
+"tud kommunikálni az azonnaliüzenő-szolgáltatással."
+
+#. (itstool) path: page/p
+#: C/prob-conn-neterror.page:47
+msgid ""
+"Also, this kind of error happens when you try to use an IRC account without "
+"setting a nickname."
+msgstr ""
+"Ez a hiba következik be akkor is, ha becenév megadása nélkül próbál IRC-"
+"fiókot használni."
+
+#. (itstool) path: section/title
+#: C/prob-conn-neterror.page:86
+msgid "Proxy support"
+msgstr "Proxytámogatás"
+
+#. (itstool) path: section/p
+#: C/prob-conn-neterror.page:87
+msgid ""
+"At the moment <app>Empathy</app> can not be configured to work with a proxy."
+msgstr ""
+"Jelenleg az <app>Empathy</app> nem állítható be proxyval való használatra."
+
+#. (itstool) path: info/desc
+#: C/prob-conn.page:7
+msgid "Diagnose common problems connecting to an instant messaging service."
+msgstr ""
+"Üzenetküldő-szolgáltatásokhoz való kapcsolódás általános problémáinak "
+"felismerése."
+
+#. (itstool) path: page/title
+#: C/prob-conn.page:29
+msgid "Problems connecting to an instant messaging service"
+msgstr "Azonnaliüzenet-küldő szolgáltatásokhoz kapcsolódás problémái"
+
+#. (itstool) path: info/desc
+#: C/remove-account.page:8
+msgid "Completely remove an account from <app>Empathy</app>."
+msgstr "Fiók teljes eltávolítása az <app>Empathyból</app>."
+
+#. (itstool) path: page/title
+#: C/remove-account.page:34
+msgid "Remove an account"
+msgstr "Fiók eltávolítása"
+
+#. (itstool) path: page/p
+#: C/remove-account.page:36
+msgid ""
+"You can completely remove an account from <app>Empathy</app> if you no "
+"longer wish to use the account. If you wish to use the account in "
+"<app>Empathy</app> again in the future, you will have to add your account "
+"details again."
+msgstr ""
+"Ha egy fiókot már nem kíván használni, teljesen eltávolíthatja azt az "
+"<app>Empathyból</app>. Ha a fiókot később újra használni szeretné az "
+"<app>Empathyban</app>, akkor újra meg kell adnia a fiók részleteit."
+
+#. (itstool) path: item/p
+#: C/remove-account.page:47
+msgid ""
+"Select the account you wish to remove from the accounts list on the left "
+"side of the window."
+msgstr ""
+"Az ablak bal oldalán válassza ki a fióklistából eltávolítani kívánt fiókot."
+
+#. (itstool) path: item/p
+#: C/remove-account.page:51
+msgid "Click <gui style=\"button\">-</gui>."
+msgstr "Nyomja meg a <gui style=\"button\">-</gui> gombot."
+
+#. (itstool) path: item/p
+#: C/remove-account.page:54
+msgid ""
+"A dialog will be shown asking for confirmation. Click the <gui>Remove</gui> "
+"button to permanently remove the account."
+msgstr ""
+"Megjelenik egy megerősítést kérő ablak. Kattintson az <gui>Eltávolítás</gui> "
+"gombra a fiók végleges eltávolításához."
+
+#. (itstool) path: note/p
+#: C/remove-account.page:60
+msgid ""
+"Even after removing an account, <app>Empathy</app> does not delete your "
+"conversation history for that account."
+msgstr ""
+"Az <app>Empathy</app> még a fiók eltávolítása után sem törli a fiókhoz "
+"tartozó csevegéselőzményeket."
+
+#. (itstool) path: info/desc
+#: C/salut-protocol.page:8
+msgid "Understanding the People Nearby feature."
+msgstr "A Közeli emberek szolgáltatás bemutatása."
+
+#. (itstool) path: page/title
+#: C/salut-protocol.page:33
+msgid "What is People Nearby?"
+msgstr "Mi az a Közeli emberek?"
+
+#. (itstool) path: page/p
+#: C/salut-protocol.page:40
+msgid ""
+"The People Nearby service is a serverless communication service: you do not "
+"need to connect and authenticate to a central server in order to use it."
+msgstr ""
+"A Közeli emberek egy kiszolgáló nélküli kommunikációs szolgáltatás: "
+"használatához nincs szükség központi kiszolgálóhoz való csatlakozásra és "
+"bejelentkezésre."
+
+#. (itstool) path: page/p
+#: C/salut-protocol.page:45
+msgid ""
+"This kind of serverless messaging system is restricted to a local area "
+"network and an active Internet connection is not necessary."
+msgstr ""
+"Ez a fajta kiszolgáló nélküli üzenetküldő rendszer a helyi hálózatra van "
+"korlátozva, és használatához nincs szükség internetkapcsolatra."
+
+#. (itstool) path: page/p
+#: C/salut-protocol.page:49
+msgid ""
+"The people that use this service inside the same local area network will be "
+"auto-discovered, and it will be possible to send them messages and files as "
+"with other services."
+msgstr ""
+"Az azonos helyi hálózaton ezt a szolgáltatást használó embereket a program "
+"automatikusan megtalálja, és ugyanúgy küldhet nekik üzeneteket és fájlokat, "
+"mint más szolgáltatások esetén."
+
+#. (itstool) path: page/p
+#: C/salut-protocol.page:54
+msgid ""
+"All the modern local area networks should be able to support this kind of "
+"service."
+msgstr ""
+"Ezt a szolgáltatástípust minden korszerű helyi hálózatnak tudnia kell "
+"támogatni."
+
+#. (itstool) path: info/desc
+#: C/send-file.page:8
+msgid "Send a file from your computer to one of your contacts."
+msgstr "Fájl küldése a számítógépéről egy partnerének."
+
+#. (itstool) path: page/title
+#: C/send-file.page:36
+msgid "Send files"
+msgstr "Fájlok küldése"
+
+#. (itstool) path: item/p
+#: C/send-file.page:45
+msgid ""
+"Right click on the contact you want to send a file to, and choose <gui>Send "
+"file</gui>."
+msgstr ""
+"Kattintson a jobb egérgombbal a partnerre, akinek fájlt szeretne küldeni, és "
+"válassza a <gui>Fájl küldése</gui> menüpontot."
+
+#. (itstool) path: item/p
+#: C/send-file.page:50
+msgid ""
+"Click on the contact you want to send a file, and choose <guiseq><gui>Edit</"
+"gui> <gui>Contact</gui><gui>Send file</gui></guiseq>."
+msgstr ""
+"Kattintson a partnerre, akinek fájlt szeretne küldeni, majd válassza a "
+"<guiseq><gui>Szerkesztés</gui><gui>Partner</gui><gui>Fájl küldése</gui></"
+"guiseq> menüpontot."
+
+#. (itstool) path: item/p
+#: C/send-file.page:58
+msgid "Select the file to send, and click on <gui>Send</gui>."
+msgstr ""
+"Válassza ki az elküldeni kívánt fájlt, és kattintson a <gui>Küldés</gui> "
+"gombra."
+
+#. (itstool) path: item/p
+#: C/send-file.page:63
+msgid "The <gui>File Transfers</gui> window will appear."
+msgstr "Megjelenik a <gui>Fájlátvitelek</gui> ablak."
+
+#. (itstool) path: item/p
+#: C/send-file.page:66
+msgid ""
+"Wait for your contact to accept the file transfer, or click <gui>Stop</gui> "
+"to halt the transfer."
+msgstr ""
+"Várjon, amíg partnere elfogadja a fájlátvitelt, vagy kattintson a "
+"<gui>Leállítás</gui> gombra az átvitel leállításához."
+
+#. (itstool) path: item/p
+#: C/send-file.page:72
+msgid ""
+"Once the transfer is finished, it is possible to close the <gui>File "
+"Transfers</gui> window."
+msgstr ""
+"Az átvitel befejeződése után bezárhatja a <gui>Fájlátvitelek</gui> ablakot."
+
+#. (itstool) path: note/p
+#: C/send-file.page:80
+msgid ""
+"If you have multiple finished transfers listed in the window, click on "
+"<gui>Clear</gui> to empty the list. This will only remove the files from the "
+"list and will not delete them from your computer."
+msgstr ""
+"Ha az ablakban több befejeződött átvitel is fel van sorolva, akkor "
+"kattintson a <gui>Törlés</gui> gombra a lista kiürítéséhez. Ez a fájlokat "
+"csak a listából törli, a számítógépéről nem."
+
+#. (itstool) path: note/p
+#: C/send-file.page:87
+msgid ""
+"It is possible to send files only using the following services: <em>Jabber</"
+"em>, <em>Google Talk</em> and <em>People Nearby</em>."
+msgstr ""
+"Fájlok küldése csak a következő szolgáltatások használatával lehetséges: "
+"<em>Jabber</em>, <em>Google Talk</em> és <em>Közeli emberek</em>."
+
+#. (itstool) path: note/p
+#: C/send-file.page:93
+msgid ""
+"In order to send a file to someone, you need to be connected to the "
+"Internet, or to a local area network."
+msgstr ""
+"Ahhoz, hogy valakinek fájlt tudjon küldeni, csatlakoznia kell az "
+"internethez, vagy helyi hálózathoz."
+
+#. (itstool) path: info/desc
+#: C/send-message.page:8
+msgid "Send a message to one of your contacts."
+msgstr "Üzenet küldése egyik partnerének."
+
+#. (itstool) path: page/title
+#: C/send-message.page:32
+msgid "Send a message to someone"
+msgstr "Üzenetek küldése"
+
+#. (itstool) path: item/p
+#: C/send-message.page:36
+msgid ""
+"From the <gui>Contact List</gui> window, double-click the name of the "
+"contact that you want to have a conversation with."
+msgstr ""
+"A <gui>Partnerlista</gui> ablakban kattintson duplán azon partner nevére, "
+"akivel csevegni szeretne."
+
+#. (itstool) path: item/p
+#: C/send-message.page:42
+msgid ""
+"A new window will open. Type a message into the box at the bottom of the "
+"window and press <key>Enter</key> to send it."
+msgstr ""
+"Megnyílik egy új ablak. Írja be az üzenetet az ablak alján lévő "
+"szövegmezőbe, és nyomja meg az <key>Enter</key> billentyűt az elküldéséhez."
+
+#. (itstool) path: section/title
+#: C/send-message.page:50
+msgid "Send a message to a meta-contact"
+msgstr "Üzenet küldése metapartnernek"
+
+#. (itstool) path: item/p
+#: C/send-message.page:58
+msgid ""
+"Select the contact you want to have the conversation, and from the menu "
+"select <gui style=\"menuitem\">Chat</gui>."
+msgstr ""
+"Válassza ki a partnert, akivel csevegni szeretne, és a menüből válassza a "
+"<gui style=\"menuitem\">Csevegés</gui> pontot."
+
+#. (itstool) path: info/desc
+#: C/set-custom-status.page:9
+msgid "Add, edit or delete personal messages for your status."
+msgstr "Személyes állapotüzenetek hozzáadása, szerkesztése vagy törlése."
+
+#. (itstool) path: credit/name
+#: C/set-custom-status.page:15
+msgid "Jim Campbell"
+msgstr "Jim Campbell"
+
+#. (itstool) path: page/title
+#: C/set-custom-status.page:34
+msgid "Set a custom message"
+msgstr "Egyéni üzenet beállítása"
+
+#. (itstool) path: page/p
+#: C/set-custom-status.page:36
+msgid ""
+"Sometimes you may want to set a custom message for your status, for example "
+"to let people know that you will be unavailable for a certain period of time."
+msgstr ""
+"Egyes esetekben szüksége lehet egyéni állapotüzenet beállítására, például "
+"közölni ismerőseivel, hogy egy ideig nem lesz elérhető."
+
+#. (itstool) path: page/p
+#: C/set-custom-status.page:40
+msgid ""
+"It is possible to set a custom message based on the different statuses "
+"available."
+msgstr ""
+"A különböző elérhető állapotok alapján lehetőség van egyéni üzenet "
+"beállítására."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:46 C/set-custom-status.page:82
+msgid ""
+"From the <gui>Contact List</gui> window, click on the drop-down list at the "
+"top."
+msgstr ""
+"A <gui>Partnerlista</gui> ablakban kattintson a felső legördülő listára."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:52
+msgid ""
+"Select the status you want to add a custom message to. You have to select "
+"the one identified with the label <gui>Custom Message</gui>."
+msgstr ""
+"Állítsa be azt az állapotot, amelyhez az egyéni üzenetet meg kívánja adni. "
+"Az <gui>Egyéni üzenet</gui> címkével jelöltet válassza."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:58
+msgid ""
+"Enter your custom message in the text box at the top of the window, and "
+"press <key>Enter</key> to set the message."
+msgstr ""
+"Adja meg egyéni üzenetét az ablak tetején lévő szövegdobozba, és nyomja meg "
+"az <key>Enter</key> billentyűt az üzenet beállításához."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:64
+msgid ""
+"If you want to set the custom message as a favorite, saving it in order to "
+"use it again, click on the little heart on the right of the text box where "
+"you wrote your custom message."
+msgstr ""
+"Ha az egyéni üzenetet szeretné kedvencként beállítani, így elmentve az "
+"ismételt felhasználáshoz, akkor kattintson az egyéni üzenetet tartalmazó "
+"szövegdoboz jobb oldalán lévő kis szívre."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:69
+msgid ""
+"If you do not do it, the custom message will not be available the next time "
+"you use <app>Empathy</app>. It will be saved only for the current session."
+msgstr ""
+"Ha ezt nem teszi meg, akkor az egyéni üzenet nem lesz elérhető az "
+"<app>Empathy</app> következő használatakor. Az üzenet alapértelmezésben csak "
+"az aktuális munkamenetben marad meg."
+
+#. (itstool) path: section/title
+#: C/set-custom-status.page:78
+msgid "Edit and remove a custom message"
+msgstr "Egyéni üzenet szerkesztése és eltávolítása"
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:88
+msgid "Select <gui>Edit Custom Message</gui>."
+msgstr "Válassza az <gui>Egyéni üzenetek szerkesztése</gui> lehetőséget."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:95
+msgid "To edit a custom message:"
+msgstr "Egyéni üzenet szerkesztéséhez:"
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:100
+msgid ""
+"From the <gui>Saved Presets</gui> box, select the status message you want to "
+"edit and double-click on it."
+msgstr ""
+"A <gui>Mentett érték</gui> dobozból válassza ki a szerkeszteni kívánt "
+"állapotüzenetet, és kattintson rá duplán."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:106
+msgid "Type the new custom message and press <key>Enter</key> to modify it."
+msgstr ""
+"Írja be az új egyéni üzenetet, és nyomja meg az <key>Enter</key> billentyűt "
+"a módosításához."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:113
+msgid "To remove a custom message:"
+msgstr "Egyéni üzenet eltávolításához:"
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:118
+msgid ""
+"From the <gui>Saved Presets</gui> box, select the status message you want to "
+"remove."
+msgstr ""
+"A <gui>Mentett érték</gui> dobozból válassza ki az eltávolítani kívánt "
+"állapotüzenetet."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:124
+msgid "Click on the <gui>Remove</gui> button."
+msgstr "Kattintson az <gui>Eltávolítás</gui> gombra."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:133
+msgid "When finished, click on <gui>Close</gui>."
+msgstr "Ha elkészült, kattintson a <gui>Bezárás</gui> gombra."
+
+#. (itstool) path: note/p
+#: C/set-custom-status.page:140
+msgid ""
+"When you edit a custom message, it will not be set as the current status "
+"message. You will need to select it from the <gui>Contact List</gui> window."
+msgstr ""
+"Egyéni üzenet szerkesztésekor az nem kerül beállításra aktuális "
+"állapotüzenetként. Ehhez ki kell választania azt a <gui>Partnerlista</gui> "
+"ablakban."
+
+#. (itstool) path: info/desc
+#: C/share-desktop.page:7
+msgid "Show your desktop to your contacts."
+msgstr "Asztalának megmutatása partnereinek."
+
+#. (itstool) path: page/title
+#: C/share-desktop.page:33
+msgid "Share your desktop"
+msgstr "Asztal megosztása"
+
+#. (itstool) path: page/p
+#: C/share-desktop.page:35
+msgid ""
+"It is possible to share your desktop with some of your contacts. You can use "
+"this functionality to show your desktop to your contacts to, for example, "
+"ask for help or help your contacts resolve a problem."
+msgstr ""
+"Egyes partnereivel megoszthatja asztalát, vagy elkezdheti használni az "
+"övéket. Ezt a funkciót asztala partnereinek való megmutatására használhatja, "
+"így például segítséget kérhet, vagy segíthet nekik megoldani egy problémát."
+
+#. (itstool) path: note/p
+#: C/share-desktop.page:42
+msgid ""
+"To be able to share your desktop, you need to have a VNC server, which has "
+"support for the feature, installed on your system. <app>Vino</app>, the "
+"GNOME VNC server, has the required support."
+msgstr ""
+"Asztalának megosztásához rendszerére telepítve kell lennie egy VNC-"
+"kiszolgálónak, amely támogatja ezt a szolgáltatást. A <app>Vino</app>, a "
+"GNOME VNC-kiszolgálója tartalmazza a szükséges támogatást."
+
+#. (itstool) path: item/p
+#: C/share-desktop.page:51
+msgid "From the <gui>Contact List</gui> window, do one of the following:"
+msgstr "A <gui>Partnerlista</gui> ablakban tegye a következők egyikét:"
+
+#. (itstool) path: item/p
+#: C/share-desktop.page:56
+msgid ""
+"Select the contact you want to share your desktop with and choose "
+"<guiseq><gui>Edit</gui><gui>Contact</gui> <gui>Share My Desktop</gui></"
+"guiseq>."
+msgstr ""
+"Válassza ki a partnert, akivel meg szeretné osztani az asztalát, és válassza "
+"a <guiseq><gui>Szerkesztés</gui><gui>Partner</gui><gui>Az asztalom "
+"megosztása</gui></guiseq> menüpontot."
+
+#. (itstool) path: item/p
+#: C/share-desktop.page:63
+msgid ""
+"Right-click on the name of the contact you want to share your desktop with "
+"and select <gui>Share My Desktop</gui>."
+msgstr ""
+"Kattintson a jobb egérgombbal a partner nevére, akivel meg szeretné osztani "
+"az asztalát, és válassza <gui>Az asztalom megosztása</gui> menüpontot."
+
+#. (itstool) path: item/p
+#: C/share-desktop.page:71
+msgid ""
+"An invitation to view your desktop will be sent to the contact you have "
+"selected. To view your desktop, they will need to accept it."
+msgstr ""
+"A kiválasztott partner kap egy meghívást az asztala megjelenítésére. Az "
+"asztal megjelenítéséhez ezt a partnernek el kell fogadnia."
+
+#. (itstool) path: item/p
+#: C/share-desktop.page:77
+msgid ""
+"You can disconnect the contact from your computer using your desktop sharing "
+"application."
+msgstr ""
+"A partnerét az asztal megosztására használt alkalmazás segítségével "
+"választhatja le a számítógépéről."
+
+#. (itstool) path: note/p
+#: C/share-desktop.page:82
+msgid ""
+"For more information about how to use the remote desktop sharing "
+"application, refer to its help."
+msgstr ""
+"A távoliasztal-megosztó alkalmazás használatával kapcsolatos további "
+"információkért nézze meg annak súgóját."
+
+#. (itstool) path: page/p
+#: C/share-desktop.page:90
+msgid ""
+"When you share your desktop with someone else, it is possible to experience "
+"system performance slowdown and low Internet speed."
+msgstr ""
+"Amikor megosztja asztalát, a rendszer teljesítményének romlását és az "
+"internetkapcsolat lassulását tapasztalhatja."
+
+#. (itstool) path: note/p
+#: C/share-desktop.page:96
+msgid ""
+"Some of your contacts may not be able to use this feature. It is necessary "
+"for them to have version 2.28, or newer, of <app>Empathy</app> and a "
+"compatible remote desktop viewer application installed in their system."
+msgstr ""
+"Egyes partnerek lehet, hogy nem tudják ezt a szolgáltatást használni. Ehhez "
+"a rendszerükre az <app>Empathy</app> és egy kompatibilis távoliasztal-"
+"megjelenítő 2.28-as vagy újabb verziójának kell telepítve lennie."
+
+#. (itstool) path: info/desc
+#: C/status-icons.page:8
+msgid "Understanding the various statuses and status icons."
+msgstr "A különböző állapotok és állapotikonok ismertetése."
+
+#. (itstool) path: page/title
+#: C/status-icons.page:36
+msgid "Status Types and Icons"
+msgstr "Állapottípusok és ikonok"
+
+#. (itstool) path: media/span
+#: C/status-icons.page:40
+msgid "Available icon"
+msgstr "Elérhető ikon"
+
+#. (itstool) path: item/title
+#: C/status-icons.page:40
+msgid "<_:media-1/> <gui>Available</gui>"
+msgstr "<_:media-1/> <gui>Elérhető</gui>"
+
+#. (itstool) path: item/p
+#: C/status-icons.page:42
+msgid ""
+"Use the <em>Available</em> status when you are at your computer and able to "
+"chat with your contacts. You can set a custom message for this status."
+msgstr ""
+"Az <em>Elérhető</em> állapottal jelezheti, hogy a számítógépénél van, és "
+"ráér partnereivel csevegni. Ehhez az állapothoz beállíthat egyéni üzenetet."
+
+#. (itstool) path: media/span
+#: C/status-icons.page:46
+msgid "Busy icon"
+msgstr "Elfoglalt ikon"
+
+#. (itstool) path: item/title
+#: C/status-icons.page:46
+msgid "<_:media-1/> <gui>Busy</gui>"
+msgstr "<_:media-1/> <gui>Elfoglalt</gui>"
+
+#. (itstool) path: item/p
+#: C/status-icons.page:48
+msgid ""
+"Use the <em>Busy</em> status to let your contacts know that you don’t want "
+"to chat right now. They can still contact you, for instance if they have "
+"something urgent they need to discuss. By default, <app>Empathy</app> will "
+"not use notification bubbles and sounds when you are busy. You can set a "
+"custom message for this status."
+msgstr ""
+"Az <em>Elfoglalt</em> állapottal hozhatja partnerei tudomására, hogy éppen "
+"nem szeretne csevegni velük. Ennek ellenére felvehetik Önnel a kapcsolatot, "
+"ha valami igazán sürgős megbeszélnivalójuk van. Alapértelmezésben az "
+"<app>Empathy</app> értesítési buborékokat és hangokat használ, ha Ön "
+"elfoglalt. Ehhez az állapothoz beállíthat egyéni üzenetet."
+
+#. (itstool) path: media/span
+#: C/status-icons.page:54
+msgid "Away icon"
+msgstr "Távol ikon"
+
+#. (itstool) path: item/title
+#: C/status-icons.page:54
+msgid "<_:media-1/> <gui>Away</gui>"
+msgstr "<_:media-1/> <gui>Távol</gui>"
+
+#. (itstool) path: item/p
+#: C/status-icons.page:56
+msgid ""
+"Use the <em>Away</em> status when you are going away from your computer. "
+"<app>Empathy</app> automatically sets your status to Away if you do not use "
+"your computer for a while, or if your screensaver is on. By default, "
+"<app>Empathy</app> will not use notification bubbles and sounds when you are "
+"away. You can set a custom message for this status."
+msgstr ""
+"A <em>Távol</em> állapotot akkor használja, ha eltávolodik számítógépétől. "
+"Az <app>Empathy</app> automatikusan Távolra állítja állapotát, ha egy ideig "
+"nem használja számítógépét, vagy a képernyővédő aktiválódik. "
+"Alapértelmezésben az <app>Empathy</app> nem használ értesítő buborékokat és "
+"hangokat, ha Ön távol van. Ehhez az állapothoz beállíthat egyéni üzenetet."
+
+#. (itstool) path: media/span
+#: C/status-icons.page:63 C/status-icons.page:70
+msgid "Offline icon"
+msgstr "Kilépett ikon"
+
+#. (itstool) path: item/title
+#: C/status-icons.page:63
+msgid "<_:media-1/> <gui>Invisible</gui>"
+msgstr "<_:media-1/> <gui>Láthatatlan</gui>"
+
+#. (itstool) path: item/p
+#: C/status-icons.page:65
+msgid ""
+"When you set your status to <em>Invisible</em>, you will appear as offline "
+"to your contacts. You will still be connected to your accounts, and you "
+"still see your contacts’ statuses and start conversations with them."
+msgstr ""
+"Amikor állapotát <em>Láthatatlanra</em> állítja, partnerei számára "
+"kilépettként jelenik meg. Fiókjaihoz ekkor is csatlakozni fog, láthatja "
+"partnerei állapotát, és társalgásokat indíthat velük."
+
+#. (itstool) path: item/title
+#: C/status-icons.page:70
+msgid "<_:media-1/> <gui>Offline</gui>"
+msgstr "<_:media-1/> <gui>Kilépett</gui>"
+
+#. (itstool) path: item/p
+#: C/status-icons.page:72
+msgid ""
+"Setting your status to <em>Offline</em> disconnects you from all of your "
+"accounts."
+msgstr ""
+"Állapotának <em>Kilépettre</em> állítása megszünteti kapcsolatát fiókjaihoz."
+
+#. (itstool) path: info/desc
+#: C/video-call.page:11
+msgid "Start a video conversation with one of your contacts."
+msgstr "Videobeszélgetés kezdése egyik partnerével."
+
+#. (itstool) path: page/title
+#: C/video-call.page:37
+msgid "Start a video conversation"
+msgstr "Videobeszélgetés kezdése"
+
+#. (itstool) path: page/p
+#: C/video-call.page:39
+msgid ""
+"If you have a webcam, you can call your contacts and have a video "
+"conversation with them. This feature only works with certain types of "
+"accounts, and it requires the other person to have an application that "
+"supports video calls."
+msgstr ""
+"Ha rendelkezik webkamerával, akkor felhívhatja partnereit, és "
+"videobeszélgetést folytathat velük. Ez a szolgáltatás csak bizonyos "
+"fióktípusokkal működik, és a másik félnek is rendelkeznie kell a videohívást "
+"támogató alkalmazással."
+
+#. (itstool) path: item/p
+#: C/video-call.page:46
+msgid ""
+"Right-click on the contact that you want to call and select <gui style="
+"\"menuitem\">Video Call</gui>."
+msgstr ""
+"Kattintson a jobb egérgombbal arra a partnerre, akit fel szeretne hívni, és "
+"válassza a <gui style=\"menuitem\">Videohívás</gui> lehetőséget."
+
+#. (itstool) path: item/p
+#: C/video-call.page:54
+msgid ""
+"To end the conversation, click on the <gui style=\"button\">hang up</gui> "
+"button."
+msgstr ""
+"A beszélgetés befejezéséhez kattintson a <gui style=\"button\">lerakás</gui> "
+"gombra."
+
+#. (itstool) path: note/p
+#: C/video-call.page:60
+msgid ""
+"To turn a video conversation into an audio conversation, choose <guiseq><gui "
+"style=\"menu\">Video</gui><gui style=\"menuitem\">Video Off</gui></guiseq>."
+msgstr ""
+"Videobeszélgetés hangbeszélgetéssé alakításához válassza a <guiseq><gui "
+"style=\"menu\">Videó</gui><gui style=\"menuitem\">Videó ki</gui></guiseq> "
+"menüpontot."
+
+#. (itstool) path: section/title
+#: C/video-call.page:65
+msgid "Start a video conversation with a meta-contact"
+msgstr "Videobeszélgetés indítása metapartnerrel"
+
+#. (itstool) path: item/p
+#: C/video-call.page:73
+msgid ""
+"Select the contact you want to have the conversation, and from the menu "
+"select <gui style=\"menuitem\">Video Call</gui>."
+msgstr ""
+"Válassza ki a partnert, akivel beszélgetni szeretne, és a menüből válassza a "
+"<gui style=\"menuitem\">Videohívás</gui> lehetőséget."
+
+#~ msgid "Facebook Chat"
+#~ msgstr "Facebook csevegés"
+
+#~ msgid "MSN"
+#~ msgstr "MSN"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid ""
+#~ "Facebook is one of the more popular social networks. It allows users to "
+#~ "create their own profile and to communicate with their friends."
+#~ msgstr ""
+#~ "A Facebook az egyik legnépszerűbb közösségi hálózat. Segítségével a "
+#~ "felhasználók saját profilt hozhatnak létre, és kommunikálhatnak "
+#~ "barátaikkal."
+
+#~ msgid ""
+#~ "To use Facebook to communicate with your friends, you will need to create "
+#~ "a new account from the website: <link href=\"https://www.facebook.com"
+#~ "\">www.facebook.com</link>."
+#~ msgstr ""
+#~ "A Facebook használatához a <link href=\"https://www.facebook.com\">www."
+#~ "facebook.com</link> weboldalon kell létrehoznia egy új fiókot."
+
+#~ msgid "<link href=\"https://accountservices.passport.net\">MSN</link>"
+#~ msgstr "<link href=\"https://accountservices.passport.net\">MSN</link>"
+
+#~ msgid ""
+#~ "Some Jabber servers may encrypt data using invalid certificates, or using "
+#~ "certificates from unknown authorities. If you trust the server you are "
+#~ "connecting to, you can select <gui>Ignore SSL certificate errors</gui> to "
+#~ "allow encrypted communication with invalid certificates."
+#~ msgstr ""
+#~ "Egyes Jabber kiszolgálók az adatokat érvénytelen, vagy ismeretlen "
+#~ "hitelesítésszolgáltatóktól származó tanúsítványokkal titkosíthatják. Ha "
+#~ "megbízik a kiszolgálóban, amelyhez csatlakozik, akkor kiválaszthatja az "
+#~ "<gui>SSL-tanúsítványhibák figyelmen kívül hagyása</gui> négyzetet az "
+#~ "érvénytelen tanúsítvánnyal történő titkosított kommunikáció "
+#~ "engedélyezéséhez."
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/empathy-logo.png' "
+#~ "md5='1afc419a644e90b16393807e35cb5cb2'"
+#~ msgstr ""
+#~ "external ref='figures/empathy-logo.png' "
+#~ "md5='1afc419a644e90b16393807e35cb5cb2'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/gtk-add.png' md5='a856b499d8d4681b70b5ce6f25bc5c6d'"
+#~ msgstr ""
+#~ "external ref='figures/gtk-add.png' md5='a856b499d8d4681b70b5ce6f25bc5c6d'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/gtk-edit.png' md5='4f21b451732817be0604fe3e2c8da98b'"
+#~ msgstr ""
+#~ "external ref='figures/gtk-edit.png' md5='4f21b451732817be0604fe3e2c8da98b'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/gtk-remove.png' "
+#~ "md5='215e3a325a3dd619874e35c30a018bb6'"
+#~ msgstr ""
+#~ "external ref='figures/gtk-remove.png' "
+#~ "md5='215e3a325a3dd619874e35c30a018bb6'"
+
+#~ msgid ""
+#~ "If you do not already have a registered account, select <gui>Create a new "
+#~ "account on the server</gui>. This feature is not available for all "
+#~ "account types, and may not work with some account providers. See <link "
+#~ "xref=\"create-account\"/> for more information."
+#~ msgstr ""
+#~ "Ha még nincs regisztrált fiókja, válassza az <gui>Új fiók létrehozása a "
+#~ "kiszolgálón</gui> lehetőséget. Ez a szolgáltatás nem érhető el minden "
+#~ "fióktípushoz, és egyes szolgáltatók esetén lehet hogy nem működik. "
+#~ "További információkért lásd az <link xref=\"create-account\"/> oldalt."
+
+#~| msgctxt "_"
+#~| msgid ""
+#~| "external ref='figures/audio-input-microphone.png' "
+#~| "md5='8d89026b66a263a3bc5b1f0665948567'"
+#~ msgctxt "_"
+#~ msgid "external ref='figures/audio-input-microphone.png' md5='__failed__'"
+#~ msgstr "external ref='figures/audio-input-microphone.png' md5='__failed__'"
+
+#~| msgctxt "_"
+#~| msgid ""
+#~| "external ref='figures/camera-web.png' "
+#~| "md5='8166b4372f25b78cbf5a64fe2eac2ce5'"
+#~ msgctxt "_"
+#~ msgid "external ref='figures/camera-web.png' md5='__failed__'"
+#~ msgstr "external ref='figures/camera-web.png' md5='__failed__'"
+
+#~ msgid "Icon"
+#~ msgstr "Ikon"
+
+#~ msgid "Description"
+#~ msgstr "Leírás"
+
+#~ msgid ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/audio-input-"
+#~ "microphone.png\"> Icon for audio conversation </media>"
+#~ msgstr ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/audio-input-"
+#~ "microphone.png\">Hanghívások ikonja</media>"
+
+#~ msgid "The contact is able to have an audio conversation."
+#~ msgstr "A partner képes hanghívás fogadására."
+
+#~ msgid ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/camera-web.png\"> "
+#~ "Icon for video conversation </media>"
+#~ msgstr ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/camera-web.png"
+#~ "\">Videohívások ikonja</media>"
+
+#~ msgid "The contact is able to have a video conversation."
+#~ msgstr "A partner képes videohívás fogadására."
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/video_overview.png' "
+#~ "md5='6cfcfbd833bf2234537d402185c40596'"
+#~ msgstr ""
+#~ "external ref='figures/video_overview.png' "
+#~ "md5='6cfcfbd833bf2234537d402185c40596'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/conf_overview.png' "
+#~ "md5='74c58668fe89c84060f12f6b70a6b903'"
+#~ msgstr ""
+#~ "external ref='figures/conf_overview.png' "
+#~ "md5='74c58668fe89c84060f12f6b70a6b903'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/croom_overview.png' "
+#~ "md5='e9619d2c8420bc48a880c03dbc1ae084'"
+#~ msgstr ""
+#~ "external ref='figures/croom_overview.png' "
+#~ "md5='e9619d2c8420bc48a880c03dbc1ae084'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/available.png' "
+#~ "md5='2196b2f0ad4ce26fdb7b9d48e75d1947'"
+#~ msgstr ""
+#~ "external ref='figures/available.png' "
+#~ "md5='2196b2f0ad4ce26fdb7b9d48e75d1947'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/busy.png' md5='15eb2adff5faedf97b0cb9105d09410a'"
+#~ msgstr ""
+#~ "external ref='figures/busy.png' md5='15eb2adff5faedf97b0cb9105d09410a'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/away.png' md5='9c504d6ffa0cf1a9cc8933d16e1bea33'"
+#~ msgstr ""
+#~ "external ref='figures/away.png' md5='9c504d6ffa0cf1a9cc8933d16e1bea33'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/offline.png' md5='c5b0c21181cbd6e13f8909243c0fa964'"
+#~ msgstr ""
+#~ "external ref='figures/offline.png' md5='c5b0c21181cbd6e13f8909243c0fa964'"
+
+#~ msgctxt "link"
+#~ msgid "Empathy Internet Messenger"
+#~ msgstr "Empathy üzenetküldő"
+
+#~ msgctxt "text"
+#~ msgid "Empathy Internet Messenger"
+#~ msgstr "Empathy üzenetküldő"
+
+#~ msgid ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/empathy-logo.png"
+#~ "\"> Empathy Internet Messenger logo </media> Empathy Internet Messenger"
+#~ msgstr ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/empathy-logo.png"
+#~ "\"> Empathy üzenetküldő logója </media> Empathy üzenetküldő"
+
+#~ msgid ""
+#~ "To add a network to the list, click <media type=\"image\" mime=\"image/png"
+#~ "\" src=\"figures/gtk-add.png\" width=\"16\" height=\"16\">Add</media>."
+#~ msgstr ""
+#~ "Hálózat listához adásához nyomja meg a <media type=\"image\" mime=\"image/"
+#~ "png\" src=\"figures/gtk-add.png\" width=\"16\" height=\"16\">Hozzáadás</"
+#~ "media> gombot."
+
+#~ msgid ""
+#~ "From the <gui>Contact List</gui> window, click the <media type=\"image\" "
+#~ "mime=\"image/png\" src=\"figures/camera-web.png\">video call</media> icon "
+#~ "next to the name of the contact you wish to call and choose <gui style="
+#~ "\"menuitem\">Audio Call</gui>."
+#~ msgstr ""
+#~ "A <gui>Partnerlista</gui> ablakban kattintson a <media type=\"image\" "
+#~ "mime=\"image/png\" src=\"figures/camera-web.png\">videohívás</media> "
+#~ "ikonra a felhívni kívánt partner neve mellett, és válassza a <gui style="
+#~ "\"menuitem\">Hanghívás</gui> lehetőséget."
+
+#~ msgid ""
+#~ "Due to technical differences, the free <link href=\"https://www.ekiga.net/"
+#~ "index.php?page=register\">Ekiga.net</link> service does not currently "
+#~ "work with <app>Empathy</app>."
+#~ msgstr ""
+#~ "Technikai nehézségek miatt az ingyenes <link href=\"https://www.ekiga.net/"
+#~ "index.php?page=register\">Ekiga.net</link> szolgáltatás jelenleg nem "
+#~ "működik az <app>Empathyval</app>."
+
+#~ msgid ""
+#~ "You do not need to register for an account to use IRC. Although you "
+#~ "specify a nickname when you add an IRC account to <app>Empathy</app>, "
+#~ "this nickname is only established each time you connect. If another user "
+#~ "is using the nickname, you will need to choose a new nickname."
+#~ msgstr ""
+#~ "Az IRC használatához nem kell fiókot regisztrálni. Noha meg kell adnia "
+#~ "egy becenevet az IRC-fiók felvételekor az <app>Empathyba</app>, ez a "
+#~ "becenév csak az egyes csatlakozásokkor jön létre. Ha másik felhasználó "
+#~ "használja a becenevet, akkor újat kell választania."
+
+#~ msgid ""
+#~ "Some IRC networks use a service called NickServ to allow users to protect "
+#~ "their nicknames. See <link xref=\"irc-nick-password\"/> for more "
+#~ "information."
+#~ msgstr ""
+#~ "Egyes IRC-hálózatok egy NickServ nevű szolgáltatást használnak, amely "
+#~ "lehetővé teszi felhasználóiknak beceneveik megvédését. További "
+#~ "információkért lásd a <link xref=\"irc-nick-password\"/> oldalt."
+
+#~ msgid "Combine and separate contacts"
+#~ msgstr "Partnerek egyesítése és szétválasztása"
+
+#~ msgid ""
+#~ "From the <gui>Contact List</gui> window, right-click one of the contact "
+#~ "that has different accounts, and select <gui style=\"menuitem\">Link "
+#~ "Contacts...</gui>."
+#~ msgstr ""
+#~ "A <gui>Partnerlista</gui> ablakban kattintson a jobb egérgombbal a "
+#~ "különböző fiókokkal rendelkező partnerére, és válassza a <gui style="
+#~ "\"menuitem\">Partnerek összekapcsolása…</gui> menüpontot."
+
+#~ msgid ""
+#~ "From the left pane in the <gui>Link Contacts</gui> window, select the "
+#~ "contacts you want to combine."
+#~ msgstr ""
+#~ "A <gui>Partnerek összekapcsolása</gui> ablak bal oldalán válassza ki az "
+#~ "egyesíteni kívánt partnereket."
+
+#~ msgid ""
+#~ "When a meta-contact has been created, the default contact that will be "
+#~ "used to have a conversation with when you double-click on it, is the "
+#~ "contact with the highest presence on-line."
+#~ msgstr ""
+#~ "Metapartner létrehozása esetén az alapértelmezett partner, amellyel dupla "
+#~ "kattintással társalgást kezdeményez, a leghosszabb online jelenléttel "
+#~ "rendelkező partnerbejegyzés lesz."
+
+#~ msgid "Separating contacts"
+#~ msgstr "Metapartnerek szétválasztása"
+
+#~ msgid ""
+#~ "From the <gui>Contact List</gui>, right-click the contact to separate, "
+#~ "and select <gui style=\"menuitem\">Link Contacts...</gui>."
+#~ msgstr ""
+#~ "A <gui>Partnerlistában</gui> kattintson a jobb egérgombbal a "
+#~ "szétválasztani kívánt metapartnerre, és válassza a <gui style=\"menuitem"
+#~ "\">Partnerek összekapcsolása</gui> menüpontot."
+
+#~ msgid "Click <gui style=\"button\">Unlink</gui>."
+#~ msgstr "Nyomja meg a <gui style=\"button\">Szétválasztás</gui> gombot."
+
+#~ msgid ""
+#~ "Click the <media type=\"image\" mime=\"image/png\" src=\"figures/gtk-edit."
+#~ "png\">edit</media> icon in the error message."
+#~ msgstr ""
+#~ "Kattintson a hibaüzenetben a <media type=\"image\" mime=\"image/png\" src="
+#~ "\"figures/gtk-edit.png\">Szerkesztés</media> ikonra."
+
+#~ msgid ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/available.png"
+#~ "\">Available icon</media> <gui>Available</gui>"
+#~ msgstr ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/available.png"
+#~ "\">Elérhető ikon</media> <gui>Elérhető</gui>"
+
+#~ msgid ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/busy.png\">Busy "
+#~ "icon</media> <gui>Busy</gui>"
+#~ msgstr ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/busy.png"
+#~ "\">Elfoglalt ikon</media> <gui>Elfoglalt</gui>"
+
+#~ msgid ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/away.png\">Away "
+#~ "icon</media> <gui>Away</gui>"
+#~ msgstr ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/away.png\">Távol "
+#~ "ikon</media> <gui>Távol</gui>"
+
+#~ msgid ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/offline.png"
+#~ "\">Offline icon</media> <gui>Invisible</gui>"
+#~ msgstr ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/offline.png"
+#~ "\">Láthatatlan ikon</media> <gui>Láthatatlan</gui>"
+
+#~ msgid ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/offline.png"
+#~ "\">Offline icon</media> <gui>Offline</gui>"
+#~ msgstr ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/offline.png"
+#~ "\">Kilépett ikon</media> <gui>Kilépett</gui>"
+
+#~ msgid ""
+#~ "From the <gui>Contact List</gui> window, click the <media type=\"image\" "
+#~ "mime=\"image/png\" src=\"figures/camera-web.png\">video call</media> icon "
+#~ "next to the name of the contact you wish to call and choose <gui style="
+#~ "\"menuitem\">Video Call</gui>."
+#~ msgstr ""
+#~ "A <gui>Partnerlista</gui> ablakban kattintson a <media type=\"image\" "
+#~ "mime=\"image/png\" src=\"figures/camera-web.png\">videohívás</media> "
+#~ "ikonra a felhívni kívánt partner neve mellett, és válassza a <gui style="
+#~ "\"menuitem\">Videohívás</gui> menüpontot."
+
+#~ msgid "milo@ubuntu.com"
+#~ msgstr "milo@ubuntu.com"
+
+#~ msgid "shaunm@gnome.org"
+#~ msgstr "shaunm@gnome.org"
+
+#~ msgid "Available"
+#~ msgstr "Elérhető"
+
+#~ msgid "Busy"
+#~ msgstr "Elfoglalt"
+
+#~ msgid "Away"
+#~ msgstr "Távol"
+
+#~ msgid "Invisible"
+#~ msgstr "Láthatatlan"
+
+#~ msgid "Offline"
+#~ msgstr "Kilépett"
+
+#~ msgid "kittykat3756@gmail.com"
+#~ msgstr "kittykat3756@gmail.com"
+
+#~ msgid "jwcampbell@gmail.com"
+#~ msgstr "jwcampbell@gmail.com"
+
+#~ msgid "Edit, remove and add a custom message"
+#~ msgstr "Egyéni üzenet szerkesztése, eltávolítása és hozzáadása"
+
+#~ msgid ""
+#~ "To add a new custom message, from the <gui>Add New Preset</gui> section:"
+#~ msgstr ""
+#~ "Egyéni üzenet hozzáadásához az <gui>Új érték hozzáadása</gui> szakaszban:"
+
+#~ msgid ""
+#~ "Click on the drop-down list to select the status you want to set a custom "
+#~ "message to."
+#~ msgstr ""
+#~ "Kattintson a legördülő listára azon állapot kiválasztásához, amelyhez új "
+#~ "egyéni üzenetet kíván megadni."
+
+#~ msgid "Click on the text box, and type the new custom message."
+#~ msgstr "Kattintson a szövegdobozba, és írja be az új egyéni üzenetet."
+
+#~ msgid "Click on <gui>Add</gui> to add the new message to the presets ones."
+#~ msgstr ""
+#~ "Kattintson a <gui>Hozzáadás</gui> gombra az új üzenet felvételéhez a "
+#~ "Mentett értékek közé."
+
+#~ msgid "philbull@gmail.com"
+#~ msgstr "philbull@gmail.com"
+
+#~ msgid "I'd like to see this played up a bit more."
+#~ msgstr "I'd like to see this played up a bit more."
+
+#~ msgid "shaunm"
+#~ msgstr "shaunm"
+
+#~ msgid ""
+#~ "Empathy no longer allows you to create an IRC account without a valid "
+#~ "nick. I've removed the guide link. Remove the text."
+#~ msgstr ""
+#~ "Empathy no longer allows you to create an IRC account without a valid "
+#~ "nick. I've removed the guide link. Remove the text."
+
+#~ msgid ""
+#~ "Deselect the <gui>Enabled</gui> check-box next to the name of your "
+#~ "account, and then select it again to try to reconnect to the service."
+#~ msgstr ""
+#~ "Törölje az <gui>Engedélyezett</gui> négyzet jelölését a fiók neve "
+#~ "mellett, majd jelölje be újra a szolgáltatáshoz való ismételt csatlakozás "
+#~ "megpróbálásához."
+
+#~ msgid ""
+#~ "Check that the <gui style=\"checkbox\">Enabled</gui> check-box is "
+#~ "selected. If it is not, select the check-box to enable the account."
+#~ msgstr ""
+#~ "Ellenőrizze, hogy az <gui style=\"checkbox\">Engedélyezve</gui> "
+#~ "jelölőnégyzet be van-e jelölve. Ha nincs, akkor jelölje be a négyzetet a "
+#~ "fiók engedélyezéséhez."
+
+#~ msgid ""
+#~ "Highlighting text is quirky: <link href=\"http://bugzilla.gnome.org/"
+#~ "show_bug.cgi?id=593733\">#593733</link>. If there's an actual "
+#~ "highlighting going on, independent of the selection (like in yellow or "
+#~ "something), we can use the term \"highlight\". Otherwise we need to use "
+#~ "the term \"select\". Watch that bug."
+#~ msgstr ""
+#~ "Highlighting text is quirky: <link href=\"http://bugzilla.gnome.org/"
+#~ "show_bug.cgi?id=593733\">#593733</link>. If there's an actual "
+#~ "highlighting going on, independent of the selection (like in yellow or "
+#~ "something), we can use the term \"highlight\". Otherwise we need to use "
+#~ "the term \"select\". Watch that bug."
+
+#~ msgid "Select the <gui>Search</gui> tab."
+#~ msgstr "Válassza a <gui>Keresés</gui> lapot."
+
+#~ msgid ""
+#~ "In the <gui>For</gui> field, type the text you want to search for. Click "
+#~ "<gui>Find</gui> or press <key>Enter</key>."
+#~ msgstr ""
+#~ "Az <gui>Erre</gui> mezőbe írja be a keresendő szöveget. Nyomja meg a "
+#~ "<gui>Keresés</gui> gombot, vagy az <key>Enter</key> billentyűt."
+
+#~ msgid ""
+#~ "Click on a conversation to view it. <app>Empathy</app> will select the "
+#~ "text in the conversation that matched your search terms."
+#~ msgstr ""
+#~ "Kattintson a társalgásra a megjelenítéséhez. Az <app>Empathy</app> "
+#~ "kijelöli a keresőkifejezésre illeszkedő részt a társalgás szövegében."
+
+#~ msgid "Select the <gui>Conversations</gui> tab."
+#~ msgstr "Válassza a <gui>Társalgások</gui> lapot."
+
+#~ msgid "Install telepathy-idle"
+#~ msgstr "A telepathy-idle telepítése"
+
+#~ msgid "peter.haslam@freenet.de"
+#~ msgstr "peter.haslam@freenet.de"
+
+#~ msgid ""
+#~ "Deselect <gui style=\"checkbox\">Enabled</gui> on the right side of the "
+#~ "window."
+#~ msgstr ""
+#~ "Törölje az <gui style=\"checkbox\">Engedélyezve</gui> négyzetet az ablak "
+#~ "jobb oldalán."
+
+#~ msgid "Icon for audio conversation"
+#~ msgstr "Hanghívások ikonja"
+
+#~ msgid "Icon for video conversation"
+#~ msgstr "Videohívások ikonja"
+
+#~ msgid ""
+#~ "I'd like to do tables like this using nothing for No and ✔ for Yes, but "
+#~ "we need to look at the accessibility impact. I've <link href=\"http://"
+#~ "mail.gnome.org/archives/gnome-doc-list/2009-September/msg00006.html"
+#~ "\">asked the accessibility team</link> for input."
+#~ msgstr ""
+#~ "I'd like to do tables like this using nothing for No and ✔ for Yes, but "
+#~ "we need to look at the accessibility impact. I've <link href=\"http://"
+#~ "mail.gnome.org/archives/gnome-doc-list/2009-September/msg00006.html"
+#~ "\">asked the accessibility team</link> for input."
+
+#~ msgid ""
+#~ "There's recent work on telepathy-butterfly and papyon to support audio "
+#~ "and video for MSN. It might be released in time for 2.28, but since it "
+#~ "doesn't follow the Gnome release schedule, I can't be sure. If it looks "
+#~ "like it's going to ship, let's mark it Yes."
+#~ msgstr ""
+#~ "There's recent work on telepathy-butterfly and papyon to support audio "
+#~ "and video for MSN. It might be released in time for 2.28, but since it "
+#~ "doesn't follow the Gnome release schedule, I can't be sure. If it looks "
+#~ "like it's going to ship, let's mark it Yes."
+
+#~ msgid "Click <gui style=\"button\">Log in</gui>."
+#~ msgstr "Nyomja meg a <gui style=\"button\">Bejelentkezés</gui> gombot."
+
+#~ msgid "Resource"
+#~ msgstr "Erőforrás"
+
+#~ msgid "Priority"
+#~ msgstr "Prioritás"
+
+#~ msgid "Network"
+#~ msgstr "Hálózat"
+
+#~ msgid "Nickname"
+#~ msgstr "Becenév"
+
+#~ msgid "Password"
+#~ msgstr "Jelszó"
+
+#~ msgid "Quit message"
+#~ msgstr "Kilépési üzenet"
+
+#~ msgid "Charset"
+#~ msgstr "Karakterkészlet"
+
+#~ msgid "Servers"
+#~ msgstr "Kiszolgálók"
+
+#~ msgid ""
+#~ "In order to be able to share your desktop or to remotely use your "
+#~ "contacts desktop, it is necessary to have a remote desktop viewer "
+#~ "application installed in your system."
+#~ msgstr ""
+#~ "Ahhoz, hogy megoszthassa asztalát, vagy távolról használhassa "
+#~ "partnereiét, a távoliasztal-megjelenítő alkalmazásnak telepítve kell "
+#~ "lennie rendszerén."
+
+#~ msgid ""
+#~ "A request will be sent to the contact you want to share your desktop "
+#~ "with. If they accept, the default remote desktop viewer application will "
+#~ "be launched in order to permit you to disconnect the user that is "
+#~ "controlling your desktop."
+#~ msgstr ""
+#~ "Elküldésre kerül egy kérés a partnerének, akivel meg szeretné osztani az "
+#~ "asztalát. Ha elfogadja, elindul az alapértelmezett távoliasztal-"
+#~ "megjelenítő, ezzel lehetővé téve az asztalát vezérlő felhasználó "
+#~ "kapcsolatának megszakítását."

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-jabber" xml:lang="zh-CN">
+
+  <info>
+    <desc>Jabber 和 Google Talk 帐号的高级选项。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-27" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.12" date="2015-02-03" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>知识共享-相同方式共享 (Creative Commons Share Alike) 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Jabber 帐号详情</title>
+
+  <p>大多 Jabber 帐号只需要登录 ID 和密码就可以连接。但对于某些帐号或某些网络，您可能需要在<gui>高级</gui>选项卡中输入一些额外的信息。通常，您不需要使用下面的这些高级选项。添加帐号的一般指导参见<link xref="add-account"/>。</p>
+
+  <note>
+    <p>Google Talk 是一种 Jabber 帐号。这些指南对 Google Talk 帐号同样适用。</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>Encryption required (TLS/SSL)</gui></title>
+      <title><gui>Ignore SSL certificate errors</gui></title>
+      <p>只要有可能，<app>Empathy</app> 与 Jabber 服务器之间的通讯就会被加密。如果不可能加密，消息就可能被明文发送。选择<gui>需要加密</gui>以阻止不能加密时 <app>Empathy</app> 与 Jabber 服务器进行明文通讯。</p>
+      <p>Some Jabber servers may encrypt data using invalid certificates,
+      or using certificates signed by unknown authorities.  You can select
+      <gui>Ignore SSL certificate errors</gui> to allow encrypted communication
+      with invalid certificates, but this allows an attacker to intercept your
+      communication with the server (including your password). You might want to
+      use this option for testing purposes, or if your server is broken and you
+      do not care about the security of your communication.</p>
+    </item>
+    <item>
+      <title><gui>Resource</gui></title>
+      <title><gui>Priority</gui></title>
+      <p>如果您有多个应用程序(比如，在另一台计算机上)同时连接了您的帐号，您可以设置“资源”以唯一地标识每一个连接的程序。默认地，<app>Empathy</app> 会使用 <input>Telepathy</input> 作为“资源”。</p>
+      <p>您可以设置优先级以指定哪一个程序优先收到您的联系人发送来的消息。新的消息会被发送给优先级最高的程序。</p>
+    </item>
+    <item>
+      <title><gui>Override server settings</gui></title>
+      <p><app>Empathy</app> 会根据您的登录 ID 以默认的设置连接 Jabber 服务器。对某些 Jabber 服务器，您需要人工输入一些服务器设置。这些设置应该由您的 Jabber 服务提供商提供。</p>
+    </item>
+  </terms>
+
+</page>

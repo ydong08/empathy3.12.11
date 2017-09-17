@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="create-account" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="add-account"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-21" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-07" status="review">
+    <!--
+    <e:review by="shaunm@gnome.org" date="2009-09-02" status="done"/>
+    -->
+    </revision>
+    <revision pkgversion="2.30" version="0.3" date="2010-04-19" status="review"/>
+    <revision pkgversion="2.30" version="0.4" date="2010-10-01" status="review"/>
+    <revision pkgversion="3.10" date="2013-06-23" status="review"/>
+
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+
+    <desc>Jak vytvořit účet u jedné z podporovaných komunikačních služeb.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Martin Picek</mal:name>
+      <mal:email>picek.martin@gnome-cesko.cz</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tomáš Karger</mal:name>
+      <mal:email>tomkarger@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Registrace nového účtu</title>
+
+  <p>Většina typů účtů vyžaduje vytvoření účtu u poskytovatele služby, než je možné používat tento účet s aplikacemi rychlé komunikace. <app>Empathy</app> můžete použít k registraci nového účtu u některých poskytovatelů pomocí stejných kroků jako při <link xref="add-account">přidávání účtu</link>.</p>
+
+  <p>Jakmile je nový účet vytvořen, měli byste mít od poskytovatele k dispozici přihlašovací nebo uživatelské jméno, heslo a další údaje potřebné pro připojení pomocí <app>Empathy</app>.</p>
+
+  <section id="irc">
+    <title>IRC</title>
+
+    <p>Sítě IRC vyžadují pro připojení k serveru zadání přezdívky. Některé sítě IRC používají služby, jako například NickServ, aby umožnily uživatelům <link xref="irc-nick-password">chránit svoji přezdívku</link>. Pokud jste nezaregistrovali svoji přezdívku nebo ji zaregistrovat nemůžete, protože ji používá jiný uživatel, budete muset zvolit jinou.</p>
+
+    <p>Některé servery IRC jsou chráněny heslem. Pokud se chcete k takovým serverům připojit, musíte heslo znát. Obecně se jedná o soukromé sítě IRC.</p>
+
+    <note>
+      <p>Mnoho projektů GNOME používá <code>irc.gnome.org</code> pro komunikaci týkající se těchto projektů.</p>
+    </note>
+  </section>
+
+  <section id="jabber">
+    <title>Jabber</title>
+
+    <p>Jabber je otevřený systém pro rychlou komunikaci. Podobně jako email, Jabber vám umožňuje výběr poskytovatele účtu a komunikaci se všemi ostatními uživateli Jabberu bez ohledu na to, jakého poskytovatele mají.</p>
+
+    <p>Pro používání Jabberu je nutné si založit účet u jednoho z poskytovatelů. Existuje mnoho poskytovatelů, kteří tuto službu provozují zdarma. Mezi oblíbených patří <link href="http://register.jabber.org/">jabber.org</link> nebo v česku <link href="https://secure.jabbim.com/reg/">Jabbim</link>.</p>
+
+    <note>
+      <p>Pokud používáte Gmail nebo Google+ Hangouts, máte již účet Jabber vytvořený. Pro jeho připojení v <app>Empathy</app> použijte svoji adresu z Gmailu a příslušné heslo.</p>
+    </note>
+  </section>
+
+  <section id="salut">
+    <title>People Nearby</title>
+
+    <p>Tato služba funguje kdykoli jste připojeni k místní síti, například přes Wi-Fi hotspot. Nemusíte si zakládat účet u poskytovatele, stačí si nastavit účet v <app>Empathy</app>. Všichni ostatní uživatelé na síti používající tuto službu budou automaticky vyhledáni.</p>
+
+    <p>Více informací viz <link xref="salut-protocol">protokol salut</link>.</p>
+  </section>
+
+  <section id="sip-services">
+    <title>SIP</title>
+
+    <p>SIP je otevřený systém, který umožňuje uživatelům hlasové a videoknoverzace přes Internet. Je nutné si založit účet u poskytovatele SIP. Budete pak moci komunikovat se všemi ostatními uživateli SIP bez ohledu na to, jakého poskytovatele používají.</p>
+
+    <p>Někteří poskytovatelé SIP vám umožňují volat z počítače i na telefon. Tato funkce je ale většinou poskytována v rámci placených služeb.</p>
+  </section>
+
+  <section id="proprietary-services">
+    <title>Proprietární služby</title>
+
+    <p>Existuje mnoho proprietárních služeb pro rychlou komunikaci, které byly vyvinuty různými společnostmi nebo organizacemi. <app>Empathy</app> vám umožňuje připojit se k existujícímu účtu některých z těchto služeb. K založení účtu u těchto služeb budete muset navštívit jejich webové stránky.</p>
+
+    <list>
+      <item>
+        <p><link href="http://dashboard.aim.com/aim">AIM</link></p>
+      </item>
+      <item>
+        <p><link href="https://www.icq.com/register/">ICQ</link></p>
+      </item>
+      <item>
+        <p><link href="https://login.yahoo.com/config/login">Yahoo!</link></p>
+      </item>
+    </list>
+  </section>
+
+</page>

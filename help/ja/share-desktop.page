@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="share-desktop" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="index#advanced"/>
+    <desc>相手先にあなたのデスクトップを表示します。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review"/>
+    <revision pkgversion="2.28" version="0.3" date="2009-09-05" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>クリエイティブ・コモンズ・ライセンス 継承 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mako N</mal:name>
+      <mal:email>mako@pasero.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>デスクトップの共有</title>
+
+  <p>あなたのデスクトップを相手先と共有できます。この機能で、あなたのデスクトップを相手先に見せることができ、たとえば、問題解決の手助けを求めたり、また相手先を手助けすることができます。</p>
+
+  <note style="tip">
+    <p>デスクトップを共有するには この機能をサポートしている VNC サーバーがシステムにインストールされていることが必要です。GNOME の VNC サーバー <app>Vino</app> はこの要件を満たしています。</p>
+  </note>
+
+  <steps>
+    <item>
+      <p><gui>相手先の一覧</gui>ウィンドウから、次のいずれかを行います。</p>
+      <list>
+        <item>
+          <p>デスクトップを共有したい相手先を指定し、<guiseq><gui>編集</gui><gui>相手先</gui><gui>デスクトップの共有</gui></guiseq>を選びます。</p>
+        </item>
+        <item>
+          <p>デスクトップを共有したい相手先の名前で右クリックし、<gui>デスクトップの共有</gui> を指定します。</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>あなたのデスクトップを見るよう、指定した相手先に招待が送られます。相手先は、その招待を受諾するとあなたのデスクトップを見ることができます。</p>
+    </item>
+    <item>
+      <p>デスクトップ共有アプリケーションで、相手先の接続を切ることができます。</p>
+      <note>
+        <p>リモートデスクトップ共有アプリケーションの詳細な情報は、そのヘルプを参照してください。</p>
+      </note>
+    </item>
+  </steps>
+
+  <p>デスクトップをだれかと共有しているとき、システムの体感速度は遅くなり、インターネットの速度も遅くなります。</p>
+
+  <note>
+    <p>相手先によってはこの機能を使えない場合があります。相手先には <app>Empathy</app> のバージョン 2.28 またはそれ以降が必要です。また、相手先のシステムに互換性のあるリモートデスクトップビューアーがインストールされている必要があります。</p>
+  </note>
+
+</page>

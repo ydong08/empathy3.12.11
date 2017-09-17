@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="disable-account" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="remove-account"/>
+    <desc><app>Empathy</app> が自動的にアカウントにログインすることを止めます。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review"/>
+    <revision pkgversion="2.28" version="0.3" date="2009-08-27" status="review"/>
+    <revision pkgversion="2.28" version="0.4" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.5" date="2010-02-03" status="review"/>
+    <revision pkgversion="3.2" version="0.6" date="2011-12-18" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>クリエイティブ・コモンズ・ライセンス 継承 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mako N</mal:name>
+      <mal:email>mako@pasero.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>アカウントの無効化</title>
+
+  <p>アカウントを完全に削除することなく、<app>Empathy</app> がログインしないよう、アカウントを無効化できます。あるアカウントは無効化しておき、望むときだけ有効化したい、しかし <app>Empathy</app> で別のアカウントを使い続けたいという場合です。</p>
+
+  <steps>
+    <item>
+      <p><gui>相手先の一覧</gui>ウィンドウから、<guiseq><gui>編集</gui><gui>アカウント</gui></guiseq>を選ぶか、<key>F4</key> を押します。</p>
+    </item>
+    <item>
+      <p>ウィンドウの左側のアカウント一覧から、無効化したいアカウントを指定します。</p>
+    </item>
+    <item>
+      <p>ウィンドウの右側で、スイッチをオフにします。</p>
+    </item>
+  </steps>
+
+  <p>アカウントをふたたび有効化するには、スイッチをオンにします。</p>
+</page>

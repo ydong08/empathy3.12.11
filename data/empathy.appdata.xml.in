@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <id type="desktop">empathy.desktop</id>
+  <licence>CC0</licence>
+  <description>
+    <_p>
+      Empathy is the official instant messaging application of the GNOME desktop environment.  Empathy can connect to AIM, MSN, Jabber (including Facebook and Google Talk), IRC, and many other messaging networks. You can chat with text, make audio and video calls, or even transfer files, depending on what your contact’s chat application allows.
+    </_p>
+    <_p>
+      Empathy provides integrated messaging for the GNOME desktop, so you’ll never miss a message.  You can respond to your contacts without even having to open Empathy!
+    </_p>
+  </description>
+  <url type="homepage">https://wiki.gnome.org/Empathy</url>
+  <screenshots>
+    <screenshot type="default">https://wiki.gnome.org/Empathy?action=AttachFile&amp;do=get&amp;target=empathy.png</screenshot>
+  </screenshots>
+  <updatecontact>telepathy@lists.freedesktop.org</updatecontact>
+</application>

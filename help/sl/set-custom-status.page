@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="set-custom-status" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="change-status"/>
+	  <link type="seealso" xref="status-icons"/>
+    <desc>Dodajanje, urejanje ali brisanje osebnih sporočil za vaša stanja.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-30" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review"/>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  </info>
+
+  <title>Nastavitev sporočila po meri</title>
+
+  <p>Včasih si morda želite nastaviti sporočilo po meri za vaše stanje, na primer da ljudem sporočite da določen čas ne boste na voljo.</p>
+  <p>Sporočilo po meri je mogoče nastaviti na osnovi različnih razpoložljivih stanj.</p>
+
+  <steps>
+    <item>
+      <p>V oknu <gui>Seznam stikov</gui> kliknite na spustni seznam na vrhu.</p>
+    </item>
+    <item>
+      <p>Izberite stanje, kateremu želite dodati sporočilu po meri. Izbrati morate sporočilo z oznako <gui>Sporočilo po meri</gui>.</p>
+    </item>
+    <item>
+      <p>V besedilno polje na vrhu okna vnesite sporočilo po meri in pritisnite <key>Enter</key> za nastavitev sporočila. </p>
+    </item>
+    <item>
+      <p>V primeru da želite nastaviti sporočilo po meri kot priljubljeno in ga shraniti za ponovno uporabo, kliknite na majhno zvezdico na desni besedilnega polja, kjer ste napisali sporočilo po meri.</p>
+      <p>V primeru da tega ne storite sporočilo ne bo na voljo, ko naslednjič uporabite <app>Empathy</app>. Shranjeno bo le za trenutno sejo.</p>
+    </item>
+  </steps>
+
+  <section id="edit-custom">
+
+  <title>Urejanje, odstranjevanje in dodajanje sporočila po meri</title>
+
+  <steps>
+    <item>
+     <p>V oknu <gui>Seznam stikov</gui> kliknite na spustni seznam na vrhu.</p>
+    </item>
+    <item>
+      <p>Izberite <gui>Uredi sporočilo po meri</gui>.</p>
+    </item>
+	  <item>
+	    <list>
+	      <item>
+	        <p>Za urejanje sporočila po meri:</p>
+	        <steps>
+	          <item>
+	            <p>V polju <gui>Shranjene prednastavljene</gui> izberite sporočilo stanja, ki ga želite uredi, in ga dvokliknite.</p>
+            </item>
+            <item>
+              <p>Vnesite novo sporočilo po meri in pritisnite <key>Enter</key> za njegovo spremembo.</p>
+            </item>
+          </steps>
+        </item>
+        <item>
+          <p>Za odstranitev sporočila po meri:</p>
+          <steps>
+            <item>
+              <p>V polju <gui>Shranjene prednastavljene</gui> izberite sporočilo stanja, ki ga želite odstraniti.</p>
+            </item>
+            <item>
+              <p>Kliknite na gumb <gui>Odstrani</gui>.</p>
+            </item>
+          </steps>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Ko ste končali kliknite na <gui>Zapri</gui>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Ko urejate ali dodajate novo sporočilo po meri, ne bo nastavljeno kot trenutno sporočilo stanja. Morali ga boste izbrati v oknu <gui>Seznam stikov</gui>.</p>
+  </note>
+
+  </section>
+
+</page>

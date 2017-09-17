@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="irc-commands" xml:lang="sl">
+      
+  <info>
+    <link type="guide" xref="irc-manage#manage"/>
+    <desc>Podprti ukazi IRC</desc>
+    <revision pkgversion="2.30" version="0.1" date="2010-02-14" status="draft"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>
+  </info>
+
+  <title>Podprti ukazi IRC</title>
+  <p>Za ogled seznama podprtih ukazov IRC v klepetalnico vpišite <input>/help</input> in pritisnite <key>Enter</key>.</p>
+  <note>
+    <p>Vsi razpoložljivi ukazi imajo kratek opis njihove uporabe. </p>
+  </note>
+</page>

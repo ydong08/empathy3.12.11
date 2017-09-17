@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="group-conversations" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Inicieu o uniu-vos a una conversa de grup amb els contactes.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Reconeixement-Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Converses de grup</title>
+  
+  <p>Les converses de grup us permeten mantenir converses de text amb més d'un contacte al mateix temps.</p>
+  <p>Per mantenir una conversa de grup us cal tindre un compte registrat a Jabber, a Google Talk o a Gent propera.</p>
+
+  <note>
+    <p>Sols podeu mantenir converses de grup amb els contactes que estan utilitzant el mateix servei que vós.</p>
+  </note>
+
+  <section id="start-group-conv">
+
+  <title>Com iniciar una conversa de grup</title>
+
+  <steps>
+    <item>
+      <p>A la finestra <gui>Llista de contactes</gui> escolliu <guiseq><gui>Sala</gui><gui>Entra</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Des de la llista desplegable <gui>Compte</gui> trieu el compte que vulgueu utilitzar per la conversa de grup.</p>
+    </item>
+    <item>
+      <p>Al quadre de text <gui>Servidor</gui> introduïu el nom del servidor en el qual s'hostatjarà la conversa.</p>
+      <p>Deixeu el camp buit si serà en el servidor actual.</p>
+    </item>
+    <item>
+      <p>Al quadre de text <gui>Sala</gui> introduïu el nom que vulgueu donar a la conversa.</p>
+      <note>
+        <p>Aquest serà el nom de la sala on mantindreu la conversa. El nom serà públic i altra gent podrà unir-s'hi. No es poden crear sales privades.</p>
+      </note>
+    </item>
+    <item>
+      <p>Per convidar altres contactes a unir-se a la conversa de grup, seleccioneu el contacte que voleu convidar des de la finestra <gui>Llista de contactes</gui> i feu el següent:</p>
+      <list>
+        <item>
+          <p>Feu clic amb el botó secundari sobre el contacte i escolliu <gui>Convida a la sala de xat</gui>.</p>
+        </item>
+        <item>
+          <p>Escolliu <guiseq><gui>Edita</gui><gui>Contacte</gui><gui>Convida a la sala de xat</gui></guiseq>.</p>
+        </item>
+      </list> 
+      <p>Si teniu més d'una conversa de grup oberta, seleccioneu la que vulgueu per convidar els contactes.</p>
+    </item>
+  </steps>
+  
+  </section>
+
+  <section id="join-group-conv">
+
+  <title>Uniu-vos a una conversa de grup</title>
+
+  <steps>
+    <item>
+      <p>A la finestra <gui>Llista de contactes</gui> escolliu <guiseq><gui>Sala</gui><gui>Entra</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Expandiu la secció <gui>Llista de sales</gui> per veure totes les sales existents.</p>
+    </item>
+    <item>
+      <p>Feu doble clic sobre el nom de la sala a la qual voleu unir-vos.</p>
+    </item>
+  </steps>
+
+  <p>No és possible entrar a totes les sales existents. Algunes sales poden requerir una contrasenya o una invitació per entrar-hi. L'<app>Empathy</app> encara no permet utilitzar aquest tipus de sales.</p>
+
+  <!-- TODO: find out where the password protected or invitation only icons are
+  and create a table. -->
+
+  </section>
+
+</page>

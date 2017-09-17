@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="tasks" id="prev-conv" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>会話の履歴を閲覧したり検索します。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-17" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.2" version="0.2" date="2011-12-19" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>クリエイティブ・コモンズ・ライセンス 継承 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mako N</mal:name>
+      <mal:email>mako@pasero.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>過去の会話の表示</title>
+
+  <p><app>Empathy</app> は自動的に、相手先とともにすべての文字による会話を保存します。相手先や日付によって、<link xref="#search">会話の履歴すべてを検索する</link>、または<link xref="#browse">会話の履歴を閲覧する</link> ことができます。</p>
+
+  <note>
+    <p>会話の履歴の閲覧や検索には、インターネットに接続している必要はありません。</p>
+  </note>
+
+  <section id="search" style="task">
+  <title>会話の履歴の検索</title>
+
+  <p>会話の履歴のすべてにわたって、全文検索を行えます。</p>
+
+  <steps>
+    <item>
+      <p><gui>相手先の一覧</gui>ウィンドウから、<guiseq><gui>表示</gui><gui>会話の履歴</gui></guiseq>を選びます。または、<key>F3</key> を押します。</p>
+    </item>
+    <item>
+      <p>最上部のドロップダウンリストからアカウントを指定します。その下に、そのアカウントに対応する相手先の一覧および談話室の一覧が表示されます。</p>
+    </item>
+    <item>
+      <p><gui>検索</gui>欄に、検索したい語句を入力します。</p>
+    </item>
+    <item>
+      <p>検索語句にマッチした会話がすべて表示されます。デフォルトで日付順に並びます。</p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="browse" style="task">
+  <title>会話の履歴の閲覧</title>
+
+  <p>相手先または談話室の会話の履歴を、日付ごとに閲覧できます。</p>
+
+  <steps>
+    <item>
+      <p><gui>相手先の一覧</gui>ウィンドウから、<guiseq><gui>表示</gui><gui>会話の履歴</gui></guiseq>を選びます。または、<key>F3</key> を押します。</p>
+    </item>
+    <item>
+      <p>上段左のドロップダウンリストから相手先を選びます。アカウントに対応する相手先と談話室が表示されます。</p>
+    </item>
+    <item>
+      <p>会話の履歴を表示させたい相手先または談話室を選びます。デフォルトでは直近の会話が表示されます。</p>
+    </item>
+    <item>
+      <p>日付ごとに会話の履歴を閲覧できます。選んだ相手先との会話を含む日付が太字で表示されます。日付を選んでクリックします。次の月や年の矢印をクリックすると、より古い日付を閲覧できます。</p>
+    </item>
+  </steps>
+
+  <p>最上部の検索フィールドに入力して、会話の語句を検索できます。マッチしたものが表示されます。</p>
+
+  <note style="tip">
+    <p><gui>相手先の一覧</gui>ウィンドウから、ある相手先の会話の履歴をすばやく表示できます。相手先を右クリックして <gui>会話の履歴</gui>を選ぶだけです。その相手先が選択された状態で <gui>会話の履歴</gui>ウィンドウが開きます。</p>
+  </note>
+
+  </section>
+</page>

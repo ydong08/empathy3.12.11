@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="index" xml:lang="ja">
+
+  <info>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="incomplete"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-14" status="review"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-09-05" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.3" date="2010-02-03" status="review"/>
+    <revision pkgversion="2.32" version="0.4" date="2010-09-11" status="review"/>
+    <revision pkgversion="3.10" date="2013-06-23" status="review"/>
+
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+
+    <license>
+      <p>クリエイティブ・コモンズ・ライセンス 継承 3.0</p>
+    </license>    
+
+    <desc>Empathy is the instant messaging application for GNOME. It supports text, voice and video chat over many protocols.</desc>
+
+    <title type="link">Empathy</title>
+    <title type="text">Empathy</title>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mako N</mal:name>
+      <mal:email>mako@pasero.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>
+    <media type="image" mime="image/png" src="figures/empathy-logo.png" its:translate="no"/>
+    Empathy
+  </title>
+
+  <section id="accounts" style="2column">
+    <title>アカウントの管理</title>
+  </section>
+  
+  <section id="contacts" style="2column">
+    <title>相手先の管理</title>
+  </section>
+
+  <section id="text-conv" style="2column">
+    <title>文字による会話</title>
+  </section>
+
+  <section id="audio-video" style="2column">
+    <title>音声とビデオによる会話</title>
+  </section>
+  
+  <section id="advanced" style="2column">
+    <title>高度な操作</title>
+  </section>
+
+  <section id="problems">
+    <title>よくある問題</title>
+  </section>
+
+</page>

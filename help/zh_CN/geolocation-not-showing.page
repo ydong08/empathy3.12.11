@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-not-showing" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="geolocation#problems"/>
+    <desc><app>Empathy</app> 没有发布我的地理位置。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>知识共享-相同方式共享 (Creative Commons Share Alike) 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>地理位置没有被公布。</title>
+
+  <p>如果您的联系人不能看到您的位置，可能是因为 <app>Empathy</app> 无法发现有一定精度的您的地理位置信息。</p>
+  <p>在这种情况下，您的位置信息不会被公布，但您仍可以看到您的联系人的位置信息。</p>
+  <p>如果您想要公布您的地理位置，您可以试一试使用 GPS 等外部设备。</p>
+
+  <note>
+    <p>要发布您的地理位置，您的 Jabber 服务器必须支持 Personal Eventing Protocal (PEP)。互联网上有人维护着一份<link href="http://coccinella.im/servers/servers_by_pubsub_pep.html">支持 PEP 的服务器列表</link>。Google Talk 目前不支持 PEP。</p>
+  </note>
+
+</page>

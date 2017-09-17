@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="link-contacts" xml:lang="cs">
+      
+  <info>
+    <link type="guide" xref="index#contacts"/>
+    <link type="seealso" xref="send-message"/>
+    <link type="seealso" xref="audio-call"/>
+    <link type="seealso" xref="video-call"/>
+    <desc>Jak sloučit a rozdělit různé kontakty do jednoho.</desc>
+    <revision pkgversion="2.32" version="0.1" date="2010-09-06" status="draft"/>
+    <revision pkgversion="2.32" version="0.2" date="2010-09-09" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Shobha Tyagi</name>
+      <email>tyagishobha@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Martin Picek</mal:name>
+      <mal:email>picek.martin@gnome-cesko.cz</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tomáš Karger</mal:name>
+      <mal:email>tomkarger@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Propojování a rozpojování kontaktů</title>
+  <p>V případě, že má některý z vašich kontaktů více účtů k různým službám rychlé komunikace, můžete je všechny zkombinovat do jediného kontaktu.</p>
+  <p>Výsledkem bude kontakt nazývaný <em>metakontakt</em>, tj. kontakt složený s několika jednotlivých kontaktů.</p>
+  <p>Předpokládejme, že máte kontakt nazývaný Jan Novák, který používá tyto tři různé služby pro rychlou komunikaci:</p>
+  <list>
+    <item>
+      <p>jan.novak@gmail</p>
+    </item>
+    <item>
+      <p>jan_novak@hotmail</p>
+    </item>
+    <item>
+      <p>honza@yahoo</p>
+    </item>
+  </list>
+  <p>Tyto tři kontakty můžete zkombinovat do jediného kontaktu Jan Novák.</p>
+  <section id="linking">
+  <title>Propojení kontaktů</title>
+  <p>Způsoby, kterými můžete kontakty propojit, jsou následující:</p>
+    <steps>
+      <item>
+        <p>Zmáčkněte zaškrtávátko, abyste mohli vybrat kontakty, které chcete pospojovat. Zapne se tím <em>režim výběru</em>, kdy u každé položky uvidíte zaškrtávací políčko.</p>
+      </item>
+      <item>
+        <p>Zaškrtněte ta políčka, která odpovídají položkám v <app>Kontaktech</app>, které náleží tomu samému kontaktu.</p>
+      </item>
+      <item>
+        <p>Zmáčkněte tlačítko <gui style="button">Propojit</gui>.</p>
+      </item>
+    </steps>
+    <p>Opakujte kroky 3 a 4 u dalších kontaktů, které chcete propojit.</p>
+  </section>
+  
+  <section id="unlinking">
+  <title>Rozpojení kontaktů</title>
+  <p>Propojený kontakt rozpojíte následovně:</p>
+    <steps>
+      <item>
+        <p>Vyberte kontakt v seznamu.</p>
+      </item>
+      <item>
+        <p>Zmáčkněte <gui style="button">Upravit</gui> v pravém horním rohu okna <app>Kontakty</app>.</p>
+      </item>
+      <item>
+	<p>Zmáčkněte <gui style="button">Propojené kontakty</gui>.</p>
+      </item>
+      <item>
+	<p>Zmáčknutím <gui style="button">Odstranit</gui> položku v propojených kontaktech rozpojíte.</p>
+      </item>
+      <item>
+        <p>Jestli už nechcete rozpojit žádné další kontakty, klikněte na <gui style="button">Zavřít</gui>.</p>
+      </item>
+      <item>
+        <p>Vše dokončíte zmáčknutím tlačítka <gui style="button">Hotovo</gui>.</p>
+      </item>
+    </steps>
+  </section>
+</page>

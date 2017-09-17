@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="remove-account" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <desc>Fiók teljes eltávolítása az <app>Empathyból</app>.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review"/>
+    <revision pkgversion="2.28" version="0.3" date="2009-08-27" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.4" date="2010-04-19" status="review"/>
+    <revision pkgversion="3.2" version="0.5" date="2011-12-19" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2010, 2011, 2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Fiók eltávolítása</title>
+
+  <p>Ha egy fiókot már nem kíván használni, teljesen eltávolíthatja azt az <app>Empathyból</app>. Ha a fiókot később újra használni szeretné az <app>Empathyban</app>, akkor újra meg kell adnia a fiók részleteit.</p>
+
+  <steps>
+    <item>
+      <p>A <gui>Partnerlista</gui> ablakban válassza a <guiseq><gui>Szerkesztés</gui><gui>Fiókok</gui></guiseq> menüpontot, vagy nyomja meg az <key>F4</key> billentyűt.</p>
+    </item>
+    <item>
+      <p>Az ablak bal oldalán válassza ki a fióklistából eltávolítani kívánt fiókot.</p>
+    </item>
+    <item>
+      <p>Nyomja meg a <gui style="button">-</gui> gombot.</p>
+    </item>
+    <item>
+      <p>Megjelenik egy megerősítést kérő ablak. Kattintson az <gui>Eltávolítás</gui> gombra a fiók végleges eltávolításához.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>Az <app>Empathy</app> még a fiók eltávolítása után sem törli a fiókhoz tartozó csevegéselőzményeket.</p>
+  </note>
+</page>

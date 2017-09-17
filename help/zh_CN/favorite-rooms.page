@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="favorite-rooms" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <link type="guide" xref="irc-manage#manage"/>
+    <link type="seealso" xref="irc-join-room"/>
+    <link type="seealso" xref="group-conversations"/>
+    <desc>设立，加入或管理聊天室收藏。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-21" status="draft"/>
+    <revision pkgversion="2.30" version="0.2" date="2010-02-03" status="review"/>    
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>知识共享-相同方式共享 (Creative Commons Share Alike) 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>聊天室收藏</title>
+
+  <section id="set-favorite">
+  <title>收藏一个聊天室</title>
+  <steps>
+    <item>
+      <p>加入一个聊天室。</p>
+      <list>
+        <item>
+          <p>关于如何加入 IRC 聊天室，参见 <link xref="irc-join-room"/>。</p>
+        </item>
+        <item>
+          <p>关于如何发起或加入群组聊天，参见 <link xref="group-conversations"/>。</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>在会话窗口，选择 <guiseq><gui>会话</gui><gui>收藏聊天室</gui></guiseq>。</p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="join-favorite">
+  <title>加入收藏的聊天室</title>
+  <steps>
+    <item>
+      <p>在<gui>联系人列表</gui>窗口，执行下列操作之一：</p>
+      <list>
+        <item>
+          <p>按 <key>F5</key> 键。</p>
+        </item>
+        <item>
+          <p>选择 <guiseq><gui>聊天室</gui><gui>加入已收藏的聊天室</gui></guiseq>，以加入您之前收藏的聊天室。</p>
+        </item>
+        <item>
+          <p>选择 <gui>聊天室</gui>，并选择您要加入的已收藏的聊天室。</p>
+        </item>
+      </list>
+    </item>
+  </steps>
+  <note>
+    <p>要加入一个已收藏的聊天室，您必须连接互联网和您的帐号。</p>
+  </note>
+  </section>
+
+  <section id="manage-favorite">
+  <title>管理聊天室收藏</title>
+  <steps>
+    <item>
+      <p>在 <gui>联系人列表</gui> 窗口，选择 <guiseq><gui>聊天室</gui><gui>管理收藏夹</gui></guiseq>。</p>
+    </item>
+    <item>
+      <p>在 <gui>帐号</gui> 下拉列表中，选择您要管理聊天室收藏的帐号。</p>
+      <p>选择 <gui>全部</gui> 以看到搜有您收藏的聊天室。</p>
+    </item>
+    <item>
+      <p>选择您要管理的收藏：</p>
+      <list>
+        <item>
+          <p>选择 <gui>自动连接</gui>，则您连接到您的帐号后，会自动加入这个聊天室。</p>
+        </item>
+        <item>
+          <p>点击 <gui>删除</gui> 以从收藏夹中删除这个聊天室。</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>完成后，点击 <gui>关闭</gui>。</p>
+    </item>
+  </steps>
+  </section>
+
+</page>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="set-custom-status" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="change-status"/>
+	  <link type="seealso" xref="status-icons"/>
+    <desc>Aggiungere, modificare o eliminare messaggi di stato personalizzati.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-30" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review"/>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  </info>
+
+  <title>Impostare un messaggio personalizzato</title>
+
+  <p>Alcune volte potrebbe essere necessario impostare un messaggio personalizzato per il proprio stato, per esempio per avvisare i propri contatti che non si sarà disponibili per un determinato periodo di tempo.</p>
+  <p>È possibile impostare un messaggio personalizzato in base ai diversi stati disponibili.</p>
+
+  <steps>
+    <item>
+      <p>Dalla finestra <gui>Elenco contatti</gui>, fare clic sull'elenco a discesa nella parte superiore.</p>
+    </item>
+    <item>
+      <p>Selezionare lo stato a cui aggiungere un messaggio personalizzato. È necessario selezionare quello identificato dall'etichetta <gui>Messaggio personalizzato</gui>.</p>
+    </item>
+    <item>
+      <p>Inserire il proprio messaggio personalizzato nella casella di testo presente nella parte superiore della finestra e quindi premere <key>Invio</key> per impostare il messaggio.</p>
+    </item>
+    <item>
+      <p>
+        If you want to set the custom message as a favorite, saving it in order to use it
+        again, click on the little heart on the right of the text box where you wrote your
+        custom message.
+      </p>
+      <p>Se non viene impostato come preferito, il messaggio personalizzato non sarà disponibili al successivo avvio di <app>Empathy</app>. Viene salvato solamente per la sessione attuale.</p>
+    </item>
+  </steps>
+
+  <section id="edit-custom">
+
+  <title>Edit and remove a custom message</title>
+
+  <steps>
+    <item>
+     <p>Dalla finestra <gui>Elenco contatti</gui>, fare clic sull'elenco a discesa nella parte superiore.</p>
+    </item>
+    <item>
+      <p>Selezionare <gui>Modifica messaggi personalizzati</gui>.</p>
+    </item>
+	  <item>
+	    <list>
+	      <item>
+	        <p>Per modificare un messaggio personalizzato:</p>
+	        <steps>
+	          <item>
+	            <p>Dalla casella <gui>Prestabiliti salvati</gui>, selezionare il messaggio da modificare e fare doppio-clic su di esso.</p>
+            </item>
+            <item>
+              <p>Digitare il nuovo messaggio personalizzato e premere <key>Invio</key> per modificarlo.</p>
+            </item>
+          </steps>
+        </item>
+        <item>
+          <p>Per rimuovere un messaggio personalizzato:</p>
+          <steps>
+            <item>
+              <p>Dalla casella <gui>Prestabiliti salvati</gui>, selezionare il messaggio da rimuovere.</p>
+            </item>
+            <item>
+              <p>Fare clic sul pulsante <gui>Rimuovi</gui>.</p>
+            </item>
+          </steps>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Quando finito, fare clic su <gui>Chiudi</gui>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>
+      When you edit a custom message, it will not be set as the current
+      status message. You will need to select it from the <gui>Contact List</gui> window.
+    </p>
+  </note>
+
+  </section>
+
+</page>

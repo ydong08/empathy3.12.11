@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="set-custom-status" xml:lang="cs">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="change-status"/>
+	  <link type="seealso" xref="status-icons"/>
+    <desc>Jak přidat, upravit nebo smazat osobní zprávy pro své stavy.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-30" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review"/>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jwcampbell@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Lucas Lommer</mal:name>
+      <mal:email>llommer@svn.gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Martin Picek</mal:name>
+      <mal:email>picek.martin@gnome-cesko.cz</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Tomáš Karger</mal:name>
+      <mal:email>tomkarger@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Marek Černocký</mal:name>
+      <mal:email>marek@manet.cz</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Nastavení vlastní zprávy</title>
+
+  <p>Jsou situace, kdy se vám může hodit nastavit si vlastní zprávy ke svým stavům. Například, abyste lidem sdělili, že nepřítomni budete do nějaké konkrétní doby.</p>
+  <p>Můžete si nastavit vlastí zprávy lišíci se podle jednotlivých stavů.</p>
+
+  <steps>
+    <item>
+      <p>V okně <gui>Seznam kontaktů</gui> klikněte na rozbalovací seznam v horní části.</p>
+    </item>
+    <item>
+      <p>Vyberte stav, ke kterému chcete přidat vlastní zprávu. Ze dvou stejných vyberte ten, u kterého je napsáno <gui>Vlastní zpráva</gui>.</p>
+    </item>
+    <item>
+      <p>Do textového pole v horní části okna zadejte vlastní zprávu a zmáčknutím <key>Enter</key> ji nastavte.</p>
+    </item>
+    <item>
+      <p>Pokud chcete nastavit vlastní zprávu jako oblíbenou, abyste ji mohli používat znovu, uložte si ji kliknutím na malé srdce vpravo v textovém poli, do kterého zprávu píšete.</p>
+      <p>Pokud vlastní zprávu neuložíte, nebude při příštím spuštění <app>Empathy</app> znovu k dispozici. Normálně se totiž uchovává jen pro aktuální sezení.</p>
+    </item>
+  </steps>
+
+  <section id="edit-custom">
+
+  <title>Úprava a odstranění vlastní zprávy</title>
+
+  <steps>
+    <item>
+     <p>V okně <gui>Seznam kontaktů</gui> klikněte na rozbalovací seznam v horní části.</p>
+    </item>
+    <item>
+      <p>Vyberte <gui>Upravit vlastní zprávy</gui>.</p>
+    </item>
+	  <item>
+	    <list>
+	      <item>
+	        <p>Když chcete vlastní zprávu upravit:</p>
+	        <steps>
+	          <item>
+	            <p>V poli <gui>Uložené přednastavené</gui> vyberte stavovou zprávu, kterou chcete upravit a dvojitě na ni klikněte.</p>
+            </item>
+            <item>
+              <p>Zadejte novou vlastní zprávu a zmáčknutím <key>Enter</key> proveďte změnu.</p>
+            </item>
+          </steps>
+        </item>
+        <item>
+          <p>Když chcete vlastní zprávu odstranit:</p>
+          <steps>
+            <item>
+              <p>V poli <gui>Uložené přednastavené</gui> vyberte stavovou zprávu, kterou chcete odstranit.</p>
+            </item>
+            <item>
+              <p>Klikněte na tlačítko <gui>Odstranit</gui>.</p>
+            </item>
+          </steps>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Pokud jste hotovi, klikněte na <gui>Zavřít</gui>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Když vlastní zprávu upravíte, nebud nastavena jako aktuální. Musíte ji ručně vybrat v okně <gui>Seznam kontaktů</gui>.</p>
+  </note>
+
+  </section>
+
+</page>

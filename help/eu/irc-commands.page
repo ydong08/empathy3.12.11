@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="irc-commands" xml:lang="eu">
+      
+  <info>
+    <link type="guide" xref="irc-manage#manage"/>
+    <desc>Onartutako IRC komandoak.</desc>
+    <revision pkgversion="2.30" version="0.1" date="2010-02-14" status="draft"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Partekatu Berdin 3.0</p>
+    </license>
+  </info>
+
+  <title>Onartutako IRC komandoak</title>
+  <p>Onartutako IRC komandoen zerrenda ikusteko, idatzi <input>/help</input> berriketa-gela batean, eta sakatu <key>Sartu</key>.</p>
+  <note>
+    <p>Komando erabilgarri guztiek beren erabilerari buruzko azalpen laburra daukate.</p>
+  </note>
+</page>

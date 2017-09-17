@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-not-showing" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="geolocation#problems"/>
+    <desc>Az <app>Empathy</app> nem teszi közzé a földrajzi helyet.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2010, 2011, 2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>A földrajzi hely nem kerül közzétételre</title>
+
+  <p>Ha partnerei nem látják földrajzi helyét, akkor az <app>Empathy</app> lehet, hogy nem képes elégséges pontossággal meghatározni azt.</p>
+  <p>Ebben az esetben az Ön földrajzi helye nem kerül közzétételre, de partnerei helyét továbbra is látni fogja.</p>
+  <p>Ha közzé szeretné tenni földrajzi helyét, akkor megpróbálhat külső eszközt, például GPS-t  használni.</p>
+
+  <note>
+    <p>Földrajzi helyének közzétételéhez az Ön által használt Jabber kiszolgálónak támogatnia kell a PEP specifikációt. A <link href="http://coccinella.im/servers/servers_by_pubsub_pep.html">PEP-et támogató kiszolgálók</link> listája online elérhető. A Google Talk jelenleg nem támogatja ezt a szolgáltatást.</p>
+  </note>
+
+</page>

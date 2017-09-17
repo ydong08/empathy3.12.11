@@ -1,0 +1,280 @@
+include $(top_srcdir)/tools/flymake.mk
+
+AM_CPPFLAGS =                                           \
+	$(ERROR_CFLAGS)					\
+	-I$(top_srcdir)/libempathy			\
+	-I$(top_srcdir)/extensions			\
+	-DDATADIR=\""$(datadir)"\"              	\
+	-DPKGDATADIR=\""$(pkgdatadir)"\"		\
+	-DGCR_API_SUBJECT_TO_CHANGE			\
+	$(EMPATHY_CFLAGS)				\
+	$(TPAW_CFLAGS)					\
+	$(YELL_CFLAGS)					\
+	$(ENCHANT_CFLAGS)				\
+	$(LIBCHAMPLAIN_CFLAGS)				\
+	$(GEOCLUE_CFLAGS)				\
+	$(GEOCODE_CFLAGS)				\
+	$(MEEGO_CFLAGS)					\
+	$(CHEESE_CFLAGS)				\
+	$(WARN_CFLAGS)					\
+	$(DISABLE_DEPRECATED)
+
+BUILT_SOURCES = 					\
+	empathy-gtk-enum-types.h			\
+	empathy-gtk-enum-types.c
+
+libempathy_gtk_handwritten_source =            	\
+	empathy-account-chooser.c		\
+	empathy-account-selector-dialog.c		\
+	empathy-avatar-image.c			\
+	empathy-bad-password-dialog.c 		\
+	empathy-base-password-dialog.c 		\
+	empathy-call-utils.c			\
+	empathy-cell-renderer-activatable.c	\
+	empathy-cell-renderer-expander.c	\
+	empathy-cell-renderer-text.c		\
+	empathy-chat.c				\
+	empathy-contact-blocking-dialog.c	\
+	empathy-contact-chooser.c		\
+	empathy-contact-search-dialog.c		\
+	empathy-contact-widget.c		\
+	empathy-dialpad-widget.c		\
+	empathy-dialpad-button.c		\
+	empathy-geometry.c			\
+	empathy-groups-widget.c			\
+	empathy-individual-dialogs.c		\
+	empathy-individual-edit-dialog.c	\
+	empathy-individual-information-dialog.c	\
+	empathy-individual-menu.c		\
+	empathy-individual-store.c		\
+	empathy-individual-store-channel.c		\
+	empathy-individual-store-manager.c		\
+	empathy-individual-view.c		\
+	empathy-individual-widget.c		\
+	empathy-input-text-view.c		\
+	empathy-local-xmpp-assistant-widget.c \
+	empathy-log-window.c			\
+	empathy-new-account-dialog.c		\
+	empathy-new-message-dialog.c		\
+	empathy-new-call-dialog.c		\
+	empathy-notify-manager.c		\
+	empathy-password-dialog.c 		\
+	empathy-presence-chooser.c		\
+	empathy-protocol-chooser.c		\
+	empathy-roster-contact.c			\
+	empathy-roster-group.c			\
+	empathy-roster-model.c			\
+	empathy-roster-model-aggregator.c			\
+	empathy-roster-model-manager.c			\
+	empathy-roster-view.c			\
+	empathy-search-bar.c			\
+	empathy-share-my-desktop.c		\
+	empathy-smiley-manager.c		\
+	empathy-sound-manager.c			\
+	empathy-spell.c				\
+	empathy-status-preset-dialog.c		\
+	empathy-string-parser.c			\
+	empathy-subscription-dialog.c	\
+	empathy-theme-manager.c			\
+	empathy-tls-dialog.c			\
+	empathy-ui-utils.c			\
+	empathy-plist.c				\
+	empathy-theme-adium.c			\
+	empathy-webkit-utils.c			\
+	$(NULL)
+
+libempathy_gtk_headers =			\
+	empathy-account-chooser.h		\
+	empathy-account-selector-dialog.h		\
+	empathy-avatar-image.h			\
+	empathy-bad-password-dialog.h 		\
+	empathy-base-password-dialog.h 		\
+	empathy-call-utils.h			\
+	empathy-cell-renderer-activatable.h	\
+	empathy-cell-renderer-expander.h	\
+	empathy-cell-renderer-text.h		\
+	empathy-chat.h				\
+	empathy-contact-blocking-dialog.h	\
+	empathy-contact-chooser.h		\
+	empathy-contact-search-dialog.h		\
+	empathy-contact-widget.h		\
+	empathy-dialpad-widget.h		\
+	empathy-dialpad-button.h		\
+	empathy-geometry.h			\
+	empathy-groups-widget.h			\
+	empathy-images.h			\
+	empathy-individual-dialogs.h		\
+	empathy-individual-edit-dialog.h	\
+	empathy-individual-information-dialog.h	\
+	empathy-individual-menu.h		\
+	empathy-individual-store.h		\
+	empathy-individual-store-channel.h		\
+	empathy-individual-store-manager.h		\
+	empathy-individual-view.h		\
+	empathy-individual-widget.h		\
+	empathy-input-text-view.h		\
+	empathy-local-xmpp-assistant-widget.h \
+	empathy-log-window.h			\
+	empathy-new-account-dialog.h		\
+	empathy-new-message-dialog.h		\
+	empathy-new-call-dialog.h		\
+	empathy-notify-manager.h		\
+	empathy-password-dialog.h		\
+	empathy-presence-chooser.h		\
+	empathy-protocol-chooser.h		\
+	empathy-roster-contact.h			\
+	empathy-roster-group.h			\
+	empathy-roster-model.h			\
+	empathy-roster-model-aggregator.h			\
+	empathy-roster-model-manager.h			\
+	empathy-roster-view.h			\
+	empathy-search-bar.h			\
+	empathy-share-my-desktop.h		\
+	empathy-smiley-manager.h		\
+	empathy-sound-manager.h			\
+	empathy-spell.h				\
+	empathy-status-preset-dialog.h		\
+	empathy-string-parser.h			\
+	empathy-subscription-dialog.h	\
+	empathy-theme-manager.h			\
+	empathy-tls-dialog.h			\
+	empathy-ui-utils.h			\
+	empathy-plist.h				\
+	empathy-theme-adium.h			\
+	empathy-webkit-utils.h			\
+	$(NULL)
+
+pkglib_LTLIBRARIES = libempathy-gtk.la
+
+# libempathy-gtk's API is not stable and will never be, so use -release to make the
+# SONAME of the plugin library change with every Empathy release.
+libempathy_gtk_la_LDFLAGS = \
+   -no-undefined \
+   -release $(VERSION) \
+   $(NULL)
+
+libempathy_gtk_la_SOURCES =			\
+	$(libempathy_gtk_handwritten_source)	\
+	$(libempathy_gtk_headers)		\
+	$(NULL)
+
+# do not distribute generated files
+nodist_libempathy_gtk_la_SOURCES =\
+	$(BUILT_SOURCES)
+
+libempathy_gtk_la_LIBADD =			\
+	$(EMPATHY_LIBS)			\
+	$(EMPATHY_LIBS)			\
+	$(TPAW_LIBS)			\
+	$(GTK_LIBS)			\
+	$(LIBNOTIFY_LIBS)			\
+	$(CANBERRA_LIBS) \
+	$(ENCHANT_LIBS)				\
+	$(LIBCHAMPLAIN_LIBS)			\
+	$(GEOCLUE_LIBS)				\
+	$(GEOCODE_LIBS)				\
+	$(GCR_LIBS)				\
+	$(MEEGO_LIBS)				\
+	$(CHEESE_LIBS)				\
+	$(top_builddir)/libempathy/libempathy.la
+
+check_c_sources = \
+    $(libempathy_gtk_handwritten_source) \
+    $(libempathy_gtk_headers)
+include $(top_srcdir)/tools/check-coding-style.mk
+check-local: check-coding-style
+
+account_widgets_ui_files =			\
+	empathy-account-widget-generic.ui	\
+	empathy-account-widget-jabber.ui	\
+	empathy-account-widget-msn.ui		\
+	empathy-account-widget-sip.ui		\
+	empathy-account-widget-local-xmpp.ui	\
+	empathy-account-widget-irc.ui		\
+	empathy-account-widget-icq.ui		\
+	empathy-account-widget-yahoo.ui		\
+	empathy-account-widget-groupwise.ui	\
+	empathy-account-widget-aim.ui		\
+	$(NULL)
+
+uidir = $(datadir)/empathy
+ui_DATA = 					\
+	empathy-contact-widget.ui		\
+	empathy-contact-blocking-dialog.ui	\
+	empathy-status-preset-dialog.ui		\
+	empathy-log-window.ui			\
+	empathy-chat.ui				\
+	empathy-search-bar.ui			\
+	empathy-individual-widget.ui
+
+empathy-gtk-enum-types.h: stamp-empathy-gtk-enum-types.h
+	$(AM_V_GEN)true
+stamp-empathy-gtk-enum-types.h: Makefile $(libempathy_gtk_headers)
+	$(AM_V_GEN)(cd $(srcdir) \
+	&& glib-mkenums \
+			--fhead "#ifndef __LIBEMPATHY_GTK_ENUM_TYPES_H__\n" \
+			--fhead "#define __LIBEMPATHY_GTK_ENUM_TYPES_H__ 1\n\n" \
+			--fhead "#include <glib-object.h>\n\n" \
+			--fhead "G_BEGIN_DECLS\n\n" \
+			--ftail "G_END_DECLS\n\n" \
+			--ftail "#endif /* __LIBEMPATHY_GTK_ENUM_TYPES_H__ */\n" \
+			--fprod '#include "@filename@"\n' \
+			--eprod "#define EMPATHY_TYPE_@ENUMSHORT@ @enum_name@_get_type()\n" \
+			--eprod "GType @enum_name@_get_type (void);\n" \
+		$(libempathy_gtk_headers) ) > xgen-gth \
+	&& (cmp -s xgen-gth empathy-gtk-enum-type.h || cp xgen-gth empathy-gtk-enum-types.h) \
+	&& rm -f xgen-gth \
+	&& echo timestamp > $(@F)
+
+empathy-gtk-enum-types.c: Makefile $(libempathy_gtk_headers)
+	$(AM_V_GEN)(cd $(srcdir) \
+	&& glib-mkenums \
+			--fhead "#include <config.h>\n" \
+			--fhead "#include <glib-object.h>\n" \
+			--fhead "#include \"empathy-gtk-enum-types.h\"\n\n" \
+			--fprod "\n/* enumerations from \"@filename@\" */" \
+			--vhead "static const G@Type@Value _@enum_name@_values[] = {" \
+			--vprod "  { @VALUENAME@, \"@VALUENAME@\", \"@valuenick@\" }," \
+			--vtail "  { 0, NULL, NULL }\n};\n\n" \
+			--vtail "GType\n@enum_name@_get_type (void)\n{\n" \
+			--vtail "  static GType type = 0;\n\n" \
+			--vtail "  if (!type)\n" \
+			--vtail "    type = g_@type@_register_static (\"@EnumName@\", _@enum_name@_values);\n\n" \
+			--vtail "  return type;\n}\n\n" \
+		$(libempathy_gtk_headers) ) > xgen-gtc \
+	&& cp xgen-gtc $(@F) \
+	&& rm -f xgen-gtc
+
+EXTRA_DIST =					\
+	$(ui_DATA)
+
+if HAVE_GEOCLUE
+geoclue-interface.c: geoclue-interface.h
+geoclue-interface.h: Makefile.am
+	gdbus-codegen						\
+		--interface-prefix org.freedesktop.GeoClue2.	\
+		--c-namespace GClue				\
+		--generate-c-code geoclue-interface		\
+		$(GEOCLUE_XML_FILE)
+
+BUILT_SOURCES += \
+	geoclue-interface.h \
+	geoclue-interface.c
+
+libempathy_gtk_handwritten_source +=		\
+	empathy-location-manager.c \
+	empathy-geoclue-helper.c
+
+libempathy_gtk_headers +=			\
+	empathy-location-manager.h \
+	empathy-geoclue-helper.h
+
+else
+EXTRA_DIST +=					\
+	empathy-location-manager.c		\
+	empathy-location-manager.h
+endif
+
+CLEANFILES =				\
+	$(BUILT_SOURCES)		\
+	stamp-empathy-gtk-enum-types.h

@@ -1,0 +1,4439 @@
+# translation of empathy-master-help-el-4325__.merged.po to Greek
+# Marios Zindilis <m.zindilis@dmajor.org>, 2009, 2010.
+# Jennie Petoumenou <epetoumenou@gmail.com>, 2009.
+# Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2013.
+# Efstathios Iosifidis <iosifidis@opensuse.org>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: empathy-master-help-el-4325__.merged\n"
+"POT-Creation-Date: 2015-09-20 03:32+0000\n"
+"PO-Revision-Date: 2015-09-20 13:02+0300\n"
+"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
+"Language-Team: Greek, Modern (1453-) <opensuse-translation-el@opensuse.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.4\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Ελληνική μεταφραστική ομάδα GNOME <team@gnome.gr>, 2009-2014\n"
+" Δημήτρης Σπίγγος, <dmtrs32@gmail.com>, 2013\n"
+" Τζένη Πετούμενου <epetoumenou@gmail.gr>, 2009\n"
+" Μάριος Ζηντίλης <m.zindilis@dmajor.org, 2009\n"
+" Μιχάλης Κοτσαρίνης <mk73628@gmail.com>, 2010\n"
+" Θάνος Τρυφωνίδης <tomtryf@gmail.com>, 2012"
+
+#. (itstool) path: info/desc
+#: C/account-irc.page:9
+msgid "Additional information necessary for connecting to IRC networks."
+msgstr "Επιπλέον στοιχεία που απαιτούνται για τη σύνδεση σε δίκτυα IRC."
+
+#. (itstool) path: credit/name
+#: C/account-irc.page:17 C/account-jabber.page:15 C/accounts-window.page:17
+#: C/add-account.page:26 C/disable-account.page:25 C/import-account.page:27
+#: C/prev-conv.page:21 C/status-icons.page:21
+msgid "Shaun McCance"
+msgstr "Shaun McCance"
+
+#. (itstool) path: license/p
+#: C/account-irc.page:21 C/account-jabber.page:19 C/accounts-window.page:21
+#: C/add-account.page:30 C/add-contact.page:22 C/audio-call.page:31
+#: C/audio-video.page:21 C/change-status.page:28 C/create-account.page:29
+#: C/disable-account.page:29 C/favorite-rooms.page:18 C/geolocation.page:21
+#: C/geolocation-not-showing.page:21 C/geolocation-privacy.page:21
+#: C/geolocation-supported.page:20 C/geolocation-turn.page:22
+#: C/geolocation-what-is.page:22 C/group-conversations.page:23
+#: C/hide-contacts.page:15 C/import-account.page:31 C/index.page:25
+#: C/introduction.page:17 C/irc-commands.page:14 C/irc-join-pwd.page:21
+#: C/irc-join-room.page:20 C/irc-manage.page:28 C/irc-nick-password.page:22
+#: C/irc-send-file.page:20 C/irc-start-conversation.page:19
+#: C/link-contacts.page:23 C/overview.page:21 C/prev-conv.page:25
+#: C/prob-conn-acctdisabled.page:23 C/prob-conn-auth.page:26
+#: C/prob-conn-name.page:23 C/prob-conn-neterror.page:24 C/prob-conn.page:18
+#: C/remove-account.page:23 C/salut-protocol.page:22 C/send-file.page:25
+#: C/send-message.page:21 C/set-custom-status.page:23 C/share-desktop.page:22
+#: C/status-icons.page:25 C/video-call.page:34
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Share Alike 3.0"
+
+#. (itstool) path: page/title
+#: C/account-irc.page:32
+msgid "IRC account details"
+msgstr "Στοιχεία λογαριασμού IRC"
+
+#. (itstool) path: page/p
+#: C/account-irc.page:34
+msgid ""
+"IRC accounts require different information than many other types of "
+"accounts. To create an IRC account, you must specify at least an IRC network "
+"and a nickname. This page details the information you can provide for an IRC "
+"account."
+msgstr ""
+"Οι λογαριασμοί IRC χρησιμοποιούν διαφορετικά στοιχεία σε σχέση με τους "
+"υπόλοιπους τύπους λογαριασμών. Για να δημιουργήσετε ένα λογαριασμό IRC, θα "
+"χρειαστείτε οπωσδήποτε το όνομα ενός δικτύου IRC και ένα ψευδώνυμο. Σε αυτή "
+"τη σελίδα αναφέρονται λεπτομερώς τα στοιχεία που μπορείτε να εισάγετε για "
+"ένα λογαριασμό IRC."
+
+#. (itstool) path: note/p
+#: C/account-irc.page:40 C/irc-manage.page:42
+msgid ""
+"You must have the <sys>telepathy-idle</sys> package installed to use IRC in "
+"<app>Empathy</app>."
+msgstr ""
+"Πρέπει να έχετε εγκατεστημένο το πακέτο <sys>telepathy-idle</sys> για να "
+"χρησιμοποιήσετε το IRC στο <app>Empathy</app>."
+
+#. (itstool) path: item/title
+#: C/account-irc.page:46 C/account-irc.page:124
+msgid "<gui>Network</gui>"
+msgstr "<gui>Δίκτυο</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:47
+msgid ""
+"IRC is an open system that allows people to run separate IRC networks. Each "
+"network is distinct and has its own users and chat rooms. <app>Empathy</app> "
+"lists the most popular networks in the <gui>Network</gui> drop-down list. "
+"You can add additional networks. See <link xref=\"#networks\"/> below."
+msgstr ""
+"Το IRC είναι ένα ανοιχτό σύστημα που σας επιτρέπει να χρησιμοποιείτε "
+"διαφορετικά δίκτυα IRC. Κάθε δίκτυο λειτουργεί ξεχωριστά, και διαθέτει τους "
+"δικούς του χρήστες και δωμάτια συζήτησης. Το <app>Empathy</app> εμφανίζει τα "
+"πιο δημοφιλή δίκτυα στην αναπτυσσόμενη λίστα <gui>Δίκτυο</gui>. Μπορείτε, "
+"όμως, να προσθέτετε και άλλα δίκτυα. Για περισσότερες πληροφορίες, δείτε την "
+"<link xref=\"#networks\"/> παρακάτω."
+
+#. (itstool) path: item/title
+#: C/account-irc.page:54
+msgid "<gui>Nickname</gui>"
+msgstr "<gui>Ψευδώνυμο</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:55
+msgid ""
+"Your nickname is your unique name on the IRC network. Only one person on a "
+"network may use a given nickname. If you get an error message that says "
+"<link xref=\"prob-conn-name\" role=\"error-msg\"/> you will need to change "
+"your nickname."
+msgstr ""
+"Το ψευδώνυμό σας είναι ένα μοναδικό όνομα που χρησιμοποιείται στο δίκτυο "
+"IRC. Σε κάθε δίκτυο, μόνο ένα άτομο επιτρέπεται να χρησιμοποιεί κάθε "
+"διαφορετικό ψευδώνυμο. Αν εμφανιστεί το μήνυμα σφάλματος <link xref=\"prob-"
+"conn-name\" role=\"error-msg\"/>, θα πρέπει να αλλάξετε το ψευδώνυμό σας."
+
+#. (itstool) path: item/title
+#: C/account-irc.page:61
+msgid "<gui>Password</gui>"
+msgstr "<gui>Συνθηματικό</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:62
+msgid ""
+"Some servers, particularly those on private networks, require a password to "
+"connect. If you are authorized to use the network, the network "
+"administrators should provide you with a password."
+msgstr ""
+"Ορισμένοι εξυπηρετητές, ιδιαίτερα οι εξυπηρετητές ιδιωτικών δικτύων, "
+"απαιτούν συνθηματικό για να επιτρέψουν τη σύνδεση. Αν είστε εξουσιοδοτημένοι "
+"χρήστες ενός τέτοιου δικτύου, οι διαχειριστές του δικτύου θα πρέπει να σας "
+"έχουν προμηθεύσει το συνθηματικό."
+
+#. (itstool) path: note/title
+#: C/account-irc.page:66
+msgid "NickServ Passwords"
+msgstr "Συνθηματικά NickServ"
+
+#. (itstool) path: note/p
+#: C/account-irc.page:67
+msgid ""
+"On some networks, nicknames can be registered using a service known as "
+"NickServ. <app>Empathy</app> does not directly support nickname passwords. "
+"On some networks, including the popular freenode network, server passwords "
+"are automatically forwarded to NickServ, allowing you to set this field to "
+"identify yourself with NickServ. See <link xref=\"irc-nick-password\"/> for "
+"more details."
+msgstr ""
+"Σε ορισμένα δίκτυα, είναι δυνατόν να καταχωρήσετε το ψευδώνυμό σας, "
+"χρησιμοποιώντας την υπηρεσία NickServ. Το <app>Empathy</app> δεν υποστηρίζει "
+"απευθείας τη χρήση συνθηματικών για τα ψευδώνυμα. Σε ορισμένα δίκτυα, όπως "
+"το δημοφιλές δίκτυο FreeNode, τα συνθηματικά του εξυπηρετητή προωθούνται "
+"αυτόματα στο NickServ, και άρα μπορείτε να εισάγετε το συνθηματικό σας στο "
+"πεδίο αυτό. Για περισσότερες λεπτομέρειες, δείτε την <link xref=\"irc-nick-"
+"password\"/>."
+
+#. (itstool) path: item/title
+#: C/account-irc.page:77
+msgid "<gui>Real name</gui>"
+msgstr "<gui>Πραγματικό όνομα</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:78
+msgid ""
+"You can provide your real name in addition to your nickname. Other users "
+"will be able to see this when they view your information."
+msgstr ""
+"Μπορείτε να εισάγετε και το πραγματικό σας όνομα, μαζί με το ψευδώνυμό σας. "
+"Οι υπόλοιποι χρήστες θα μπορούν να το βλέπουν όταν κοιτούν τα στοιχεία σας."
+
+#. (itstool) path: item/title
+#: C/account-irc.page:82
+msgid "<gui>Quit message</gui>"
+msgstr "<gui>Μήνυμα εξόδου</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:83
+msgid ""
+"When you go offline, a quit message is sent to all the chat rooms you’re in "
+"and to all the users you’re having a private conversation with. Use this "
+"field to provide a custom quit message."
+msgstr ""
+"Όταν τερματίζεται η σύνδεσή σας, στέλνεται ένα μήνυμα εξόδου σε όλα τα "
+"δωμάτια συζήτησης στα οποία συμμετείχατε, καθώς και σε όλους τους χρήστες με "
+"τους οποίους είχατε ιδιωτικές συζητήσεις. Μπορείτε να χρησιμοποιήσετε αυτό "
+"το πεδίο για να εισάγετε ένα προσαρμοσμένο μήνυμα εξόδου."
+
+#. (itstool) path: info/title
+#: C/account-irc.page:95
+msgctxt "link"
+msgid "IRC Networks"
+msgstr "Δίκτυα IRC"
+
+#. (itstool) path: section/title
+#: C/account-irc.page:98
+msgid "Networks"
+msgstr "Δίκτυα"
+
+#. (itstool) path: section/p
+#: C/account-irc.page:100
+msgid ""
+"<app>Empathy</app> includes a list of popular IRC networks. If you wish to "
+"another IRC network, you can add it to the list. You can also modify "
+"networks and remove them from the list."
+msgstr ""
+"Το <app>Empathy</app> συμπεριλαμβάνει μια λίστα με δημοφιλή δίκτυα IRC. Αν "
+"θέλετε να συνδεθείτε σε κάποιο άλλο δίκτυο IRC, μπορείτε να το προσθέσετε "
+"στη λίστα. Επίσης, μπορείτε να τροποποιείτε ή να διαγράφετε τα δίκτυα της "
+"λίστας."
+
+#. (itstool) path: media/span
+#: C/account-irc.page:108
+msgid "Add"
+msgstr "Προσθήκη"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:105
+msgid "To add a network to the list, click <_:media-1/>."
+msgstr "Για να προσθέσετε ένα δίκτυο στον κατάλογο, πατήστε <_:media-1/>."
+
+#. (itstool) path: media/span
+#: C/account-irc.page:112
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:109
+msgid ""
+"To modify a network in the list, select the network and click <_:media-1/>."
+msgstr ""
+"Για να τροποποιήσετε ένα δίκτυο του καταλόγου, επιλέξτε το δίκτυο και "
+"πατήστε <_:media-1/>."
+
+#. (itstool) path: media/span
+#: C/account-irc.page:116
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:113
+msgid ""
+"To remove a network from the list, select the network and click <_:media-1/>."
+msgstr ""
+"Για να αφαιρέσετε ένα δίκτυο από τον κατάλογο, επιλέξτε το δίκτυο και "
+"πατήστε <_:media-1/>."
+
+#. (itstool) path: section/p
+#: C/account-irc.page:119
+msgid ""
+"When adding or modifying a network, you can enter the following information:"
+msgstr ""
+"Όταν προσθέτετε ή τροποποιείτε δίκτυα, μπορείτε να εισάγετε τα ακόλουθα "
+"στοιχεία:"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:125
+msgid ""
+"This is the name of the network as you want it to appear in the list of "
+"networks."
+msgstr ""
+"Αυτό είναι το όνομα του δικτύου, όπως θα εμφανίζεται στη λίστα δικτύων."
+
+#. (itstool) path: item/title
+#: C/account-irc.page:129
+msgid "<gui>Charset</gui>"
+msgstr "<gui>Κωδικοποίηση</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:130
+msgid ""
+"This specifies the character encoding that is typically used on this "
+"network. A character encoding is a specific way of recording characters "
+"internally in a computer. There are many character encodings, and you need "
+"to use the same character encoding as other users to see their messages "
+"correctly."
+msgstr ""
+"Ορίζει την κωδικοποίηση χαρακτήρων που χρησιμοποιείται συνήθως στο δίκτυο "
+"αυτό. Η κωδικοποίηση χαρακτήρων είναι ένας συγκεκριμένος τρόπος με τον οποίο "
+"αποθηκεύει χαρακτήρες ο υπολογιστής. Υπάρχουν πολλές διαθέσιμες "
+"κωδικοποιήσεις χαρακτήρων και για να βλέπετε τα μηνύματα των άλλων χρηστών "
+"χωρίς προβλήματα, θα πρέπει να χρησιμοποιείτε την ίδια κωδικοποίηση με "
+"αυτούς."
+
+#. (itstool) path: item/p
+#: C/account-irc.page:139
+msgid ""
+"By default, <app>Empathy</app> uses UTF-8, a modern character encoding that "
+"can handle text from most of the world's languages. Another common encoding "
+"for English and some other Western languages is ISO-8859-1."
+msgstr ""
+"Η προεπιλογή του <app>Empathy</app> χρησιμοποιεί UTF-8, μια σύγχρονη "
+"κωδικοποίηση χαρακτήρων που μπορεί να χειριστεί κείμενο από τις περισσότερες "
+"γλώσσες του κόσμου. Μια άλλη κοινή κωδικοποίηση για αγγλικά και μερικές "
+"άλλες δυτικές γλώσσες είναι η ISO-8859-1."
+
+#. (itstool) path: item/title
+#: C/account-irc.page:145
+msgid "<gui>Servers</gui>"
+msgstr "<gui>Εξυπηρετητές</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:146
+msgid ""
+"An IRC network may have many servers you can connect to. When you are "
+"connected to a server on a particular network, you can communicate with all "
+"users on all other servers on that network. You can add and remove servers "
+"for this network using the <gui>Add</gui> and <gui>Remove</gui> buttons."
+msgstr ""
+"Ένα δίκτυο IRC μπορεί να διαθέτει αρκετούς εξυπηρετητές. Αν έχετε συνδεθεί "
+"σε έναν εξυπηρετητή ενός δικτύου, θα μπορείτε να επικοινωνείτε με όλους τους "
+"χρήστες του δικτύου, όποιον εξυπηρετητή και αν χρησιμοποιούν αυτοί. Μπορείτε "
+"να προσθέτετε και να διαγράφετε τους εξυπηρετητές που χρησιμοποιούνται για "
+"το συγκεκριμένο δίκτυο, χρησιμοποιώντας τα κουμπιά <gui>Προσθήκη</gui> και "
+"<gui>Διαγραφή</gui>."
+
+#. (itstool) path: item/p
+#: C/account-irc.page:151
+msgid ""
+"When a server is selected, click the field under <gui>Server</gui> or "
+"<gui>Port</gui> to edit it. Alternatively, use the left and right arrow keys "
+"to focus the field, and press the space bar to begin editing."
+msgstr ""
+"Αφού επιλέξετε έναν εξυπηρετητή, κάνετε κλικ στο πεδίο <gui>Εξυπηρετητής</"
+"gui> ή <gui>Θύρα</gui>, για να επεξεργαστείτε τα στοιχεία του. Εναλλακτικά, "
+"χρησιμοποιήστε το αριστερό ή το δεξί βέλος για να εστιάσετε στα πεδία, και "
+"πατήστε διάστημα για να ξεκινήσετε την επεξεργασία."
+
+#. (itstool) path: item/p
+#: C/account-irc.page:155
+msgid ""
+"Select the check box in the <gui>SSL</gui> column to encrypt all "
+"communication with a server. Note that this does not prevent other users on "
+"the network from seeing what you write on public chat rooms."
+msgstr ""
+"Σημειώστε την επιλογή στη στήλη <gui>SSL</gui>, για να κρυπτογραφείτε κάθε "
+"επικοινωνία σας με τον εξυπηρετητή. Θυμηθείτε ότι οι υπόλοιποι χρήστες του "
+"δικτύου εξακολουθούν να μπορούν να διαβάζουν οτιδήποτε γράφετε σε δημόσια "
+"δωμάτια συζήτησης."
+
+#. (itstool) path: info/desc
+#: C/account-jabber.page:7
+msgid "Advanced options for Jabber and Google Talk accounts."
+msgstr "Επιλογές για προχωρημένους σε λογαριασμούς Jabber και Google Talk."
+
+#. (itstool) path: page/title
+#: C/account-jabber.page:30
+msgid "Jabber account details"
+msgstr "Στοιχεία λογαριασμού Jabber"
+
+#. (itstool) path: page/p
+#: C/account-jabber.page:32
+msgid ""
+"Most Jabber accounts will require only a login ID and a password to connect. "
+"For some accounts or on certain types of networks, you may need to enter "
+"additional information in the <gui>Advanced</gui> section. Normally, you "
+"will not need to use the advanced options below. For general instructions on "
+"adding an account, see <link xref=\"add-account\"/>."
+msgstr ""
+"Για να συνδεθείτε στους περισσότερους λογαριασμούς Jabber χρειάζεστε μόνο το "
+"όνομα χρήστη και το συνθηματικό σας. Ωστόσο, για ορισμένους λογαριασμούς ή "
+"τύπους λογαριασμών μπορεί να χρειαστεί να συμπληρώσετε ορισμένα επιπλέον "
+"στοιχεία στην ενότητα <gui>Για προχωρημένους</gui>. Υπό φυσιολογικές "
+"συνθήκες, δε χρειάζεται να ασχοληθείτε με τις παρακάτω προχωρημένες "
+"επιλογές. Για τις γενικές οδηγίες προσθήκης νέων λογαριασμών, δείτε την "
+"<link xref=\"add-account\"/>."
+
+#. (itstool) path: note/p
+#: C/account-jabber.page:40
+msgid ""
+"Google Talk is a type of Jabber account. These instructions hold for Google "
+"Talk accounts as well."
+msgstr ""
+"Το Google Talk είναι λογαριασμός Jabber. Αυτές οι οδηγίες ισχύουν και για "
+"τους λογαριασμούς Google Talk."
+
+#. (itstool) path: item/title
+#: C/account-jabber.page:46
+msgid "<gui>Encryption required (TLS/SSL)</gui>"
+msgstr "<gui>Απαιτείται κρυπτογράφηση (TLS/SSL)</gui>"
+
+#. (itstool) path: item/title
+#: C/account-jabber.page:47
+msgid "<gui>Ignore SSL certificate errors</gui>"
+msgstr "<gui>Παράβλεψη σφαλμάτων πιστοποιητικών SSL</gui>"
+
+#. (itstool) path: item/p
+#: C/account-jabber.page:48
+msgid ""
+"Whenever possible, communication between <app>Empathy</app> and the Jabber "
+"server is encrypted. If encrypted communication is not possible, messages "
+"may be sent unencrypted. Select <gui>Encryption required</gui> to prevent "
+"<app>Empathy</app> from communicating with the Jabber server when encryption "
+"is not possible."
+msgstr ""
+"Όπου είναι δυνατό, η επικοινωνία μεταξύ <app>Empathy</app> και εξυπηρετητή "
+"Jabber κρυπτογραφείται. Αν δεν είναι δυνατή η κρυπτογράφηση της "
+"επικοινωνίας, μπορεί να σταλούν μηνύματα χωρίς κρυπτογράφηση. Επιλέξτε "
+"<gui>Απαιτείται κρυπτογράφηση</gui> για να απαγορεύσετε στο <app>Empathy</"
+"app> να επικοινωνεί με τον εξυπηρετητή Jabber αν δεν υπάρχει δυνατότητα "
+"κρυπτογράφησης."
+
+#. (itstool) path: item/p
+#: C/account-jabber.page:53
+msgid ""
+"Some Jabber servers may encrypt data using invalid certificates, or using "
+"certificates signed by unknown authorities. You can select <gui>Ignore SSL "
+"certificate errors</gui> to allow encrypted communication with invalid "
+"certificates, but this allows an attacker to intercept your communication "
+"with the server (including your password). You might want to use this option "
+"for testing purposes, or if your server is broken and you do not care about "
+"the security of your communication."
+msgstr ""
+"Μερικοί διακομιστές Jabber μπορεί να κρυπτογραφούν δεδομένα με χρήση μη "
+"έγκυρων πιστοποιητικών, ή με την χρήση πιστοποιητικών που έχουν υπογραφεί "
+"από άγνωστες αρχές Μπορείτε να επιλέξετε <gui>Αγνόηση σφαλμάτων "
+"πιστοποιητικών SSL</gui> για να επιτρέψετε την κρυπτογραφημένη επικοινωνία "
+"με μη έγκυρα πιστοποιητικά, αλλά αυτό επιτρέπει σε έναν εισβολέα να "
+"υποκλέψει την επικοινωνία σας με το διακομιστή (συμπεριλαμβανομένου του "
+"κωδικού πρόσβασης σας). Μπορεί να θέλετε να χρησιμοποιήσετε αυτή την επιλογή "
+"για δοκιμαστικούς σκοπούς, ή αν ο διακομιστής σας έχει καταρρεύσει και δεν "
+"νοιάζεστε για την ασφάλεια της επικοινωνίας σας."
+
+#. (itstool) path: item/title
+#: C/account-jabber.page:62
+msgid "<gui>Resource</gui>"
+msgstr "<gui>Πόρος</gui>"
+
+#. (itstool) path: item/title
+#: C/account-jabber.page:63
+msgid "<gui>Priority</gui>"
+msgstr "<gui>Προτεραιότητα</gui>"
+
+#. (itstool) path: item/p
+#: C/account-jabber.page:64
+msgid ""
+"If you have multiple applications (for instance, on separate computers) "
+"connected to your account at the same time, you can set a resource to "
+"uniquely identify each one. By default, <app>Empathy</app> will use "
+"<input>Telepathy</input> as the resource."
+msgstr ""
+"Αν υπάρχουν πολλαπλές εφαρμογές που είναι συνδεδεμένες στο λογαριασμό σας "
+"ταυτόχρονα (π.χ. από διαφορετικούς υπολογιστές), μπορείτε να ορίσετε έναν "
+"πόρο που θα ταυτοποιεί κάθε εφαρμογή. Το <app>Empathy</app> χρησιμοποιεί το "
+"<input>Telepathy</input> ως τον προεπιλεγμένο πόρο."
+
+#. (itstool) path: item/p
+#: C/account-jabber.page:68
+msgid ""
+"You can set the priority to specify which application should receive "
+"incoming messages from your contacts. New messages will be sent to the "
+"application with the highest priority."
+msgstr ""
+"Μπορείτε να ορίσετε προτεραιότητες, για να προσδιορίσετε ποια εφαρμογή θα "
+"λαμβάνει τα εισερχόμενα μηνύματα των επαφών σας. Τα νέα μηνύματα θα "
+"αποστέλλονται στην εφαρμογή με την υψηλότερη προτεραιότητα."
+
+#. (itstool) path: item/title
+#: C/account-jabber.page:73
+msgid "<gui>Override server settings</gui>"
+msgstr "<gui>Παράκαμψη ρυθμίσεων του εξυπηρετητή</gui>"
+
+#. (itstool) path: item/p
+#: C/account-jabber.page:74
+msgid ""
+"<app>Empathy</app> will use default settings to connect to the Jabber server "
+"based on your login ID. For some Jabber servers, you will need to enter "
+"custom server settings manually. These settings should be provided for you "
+"by your Jabber provider."
+msgstr ""
+"Το <app>Empathy</app> χρησιμοποιεί τις προεπιλεγμένες ρυθμίσεις για να "
+"συνδέεται στον εξυπηρετητή Jabber. Για ορισμένους εξυπηρετητές Jabber μπορεί "
+"να χρειαστεί να εισάγετε χειροκίνητα κάποιες ειδικές ρυθμίσεις. Τις "
+"ρυθμίσεις αυτές θα πρέπει να τις έχετε λάβει από τον πάροχό σας."
+
+#. (itstool) path: info/desc
+#: C/accounts-window.page:10
+msgid "Add, modify, and delete accounts."
+msgstr "Προσθήκη, τροποποίηση και διαγραφή λογαριασμών."
+
+#. (itstool) path: page/title
+#: C/accounts-window.page:32
+msgid "Accounts Window"
+msgstr "Παράθυρο λογαριασμών"
+
+#. (itstool) path: page/p
+#: C/accounts-window.page:34
+msgid ""
+"The <gui>Accounts</gui> window allows you to add, modify, and delete "
+"accounts."
+msgstr ""
+"Το παράθυρο με όνομα <gui>Λογαριασμοί</gui> επιτρέπει να προσθέτετε, να "
+"τροποποιείτε και να διαγράφετε λογαριασμούς."
+
+#. (itstool) path: section/title
+#: C/accounts-window.page:42
+msgid "Account Details"
+msgstr "Στοιχεία λογαριασμών"
+
+#. (itstool) path: section/p
+#: C/accounts-window.page:43
+msgid ""
+"For most types of accounts, you can simply enter a login ID and a password. "
+"Certain accounts or account types, however, may require additional "
+"information."
+msgstr ""
+"Για τους περισσότερους τύπους λογαριασμών, αρκεί να εισάγετε το όνομα χρήστη "
+"και το συνθηματικό. Ωστόσο, ορισμένοι λογαριασμοί ή τύποι λογαριασμών μπορεί "
+"να απαιτούν και επιπλέον στοιχεία."
+
+#. (itstool) path: info/desc
+#: C/add-account.page:9
+msgid "Add a new account to <app>Empathy</app>."
+msgstr "Προσθήκη νέου λογαριασμού στο <app>Empathy</app>."
+
+#. (itstool) path: credit/name
+#: C/add-account.page:22 C/audio-call.page:22 C/audio-video.page:16
+#: C/create-account.page:20 C/disable-account.page:21 C/favorite-rooms.page:14
+#: C/geolocation.page:17 C/geolocation-not-showing.page:17
+#: C/geolocation-privacy.page:17 C/geolocation-supported.page:16
+#: C/geolocation-turn.page:18 C/geolocation-what-is.page:18
+#: C/group-conversations.page:19 C/hide-contacts.page:11
+#: C/import-account.page:23 C/index.page:20 C/introduction.page:13
+#: C/irc-commands.page:10 C/irc-join-pwd.page:17 C/irc-join-room.page:16
+#: C/irc-manage.page:19 C/irc-nick-password.page:18 C/irc-send-file.page:16
+#: C/irc-start-conversation.page:15 C/link-contacts.page:15 C/prev-conv.page:17
+#: C/prob-conn-acctdisabled.page:19 C/prob-conn-auth.page:22
+#: C/prob-conn-name.page:19 C/prob-conn-neterror.page:20
+#: C/remove-account.page:19 C/salut-protocol.page:18 C/send-file.page:21
+#: C/set-custom-status.page:19 C/share-desktop.page:14 C/status-icons.page:17
+#: C/video-call.page:25
+msgid "Milo Casagrande"
+msgstr "Milo Casagrande"
+
+#. (itstool) path: page/title
+#: C/add-account.page:41
+msgid "Add a new account"
+msgstr "Προσθήκη νέου λογαριασμού"
+
+#. (itstool) path: page/p
+#: C/add-account.page:43
+msgid ""
+"You can add instant messaging accounts from any supported service to "
+"communicate with all of your contacts in <app>Empathy</app>. For some "
+"account providers, these steps will also allow you to register for a new "
+"account. For more details, see <link xref=\"create-account\"/>."
+msgstr ""
+"Μπορείτε να προσθέτετε λογαριασμούς άμεσων μηνυμάτων από οποιαδήποτε "
+"υποστηριζόμενη υπηρεσία για επικοινωνία με όλες τις επαφές σας στο "
+"<app>Empathy</app>. Για μερικούς παρόχους λογαριασμών, αυτά τα βήματα θα σας "
+"επιτρέψουν επίσης να καταχωρίσετε έναν νέο λογαριασμό. Για περισσότερες "
+"λεπτομέρειες, δείτε το <link xref=\"create-account\"/>."
+
+#. (itstool) path: item/p
+#: C/add-account.page:50
+msgid ""
+"Click <guiseq><gui>Empathy</gui><gui>Accounts</gui></guiseq>, or press "
+"<key>F4</key>."
+msgstr ""
+"Κάντε κλικ στο <guiseq><gui>Empathy</gui><gui>Λογαριασμοί</gui></guiseq>, ή "
+"πατήστε το <key>F4</key>."
+
+#. (itstool) path: item/p
+#: C/add-account.page:54
+msgid "Click <gui style=\"button\">+</gui>."
+msgstr "Πατήστε <gui style=\"button\">+</gui>."
+
+#. (itstool) path: item/p
+#: C/add-account.page:59
+msgid ""
+"From the <gui>What kind of chat account do you have?</gui> drop-down list, "
+"select the type of account you wish to add."
+msgstr ""
+"Από την αναδιπλούμενη λίστα <gui>Τι είδους λογαριασμό έχετε;</gui>, επιλέξτε "
+"τον τύπο του λογαριασμού που θέλετε να προσθέσετε."
+
+#. (itstool) path: item/p
+#: C/add-account.page:63
+msgid ""
+"Enter the required information. For most accounts, you will only need a "
+"login ID and a password. Some accounts may require additional information. "
+"See <link xref=\"accounts-window#details\"/>for more information."
+msgstr ""
+"Εισάγετε τις απαιτούμενες πληροφορίες. Για τους περισσότερους τύπους "
+"λογαριασμών, αρκούν το όνομα χρήστη και το συνθηματικό. Ωστόσο, ορισμένοι "
+"τύποι μπορεί να απαιτούν και επιπλέον στοιχεία. Δείτε την <link xref="
+"\"accounts-window#details\"/>για περισσότερες πληροφορίες."
+
+#. (itstool) path: item/p
+#: C/add-account.page:68
+msgid "Click <gui style=\"button\">Add</gui>."
+msgstr "Κάντε κλικ στην <gui style=\"button\">Προσθήκη</gui>."
+
+#. (itstool) path: note/p
+#: C/add-account.page:73
+msgid ""
+"To change the name that identifies the account in the <gui>Messaging and "
+"VoIP Accounts</gui> window, select the account from the list on the left and "
+"either click on the name or press the space bar. Edit the account name and "
+"press <key>Enter</key> when you’re finished."
+msgstr ""
+"Για να αλλάξετε το όνομα που χρησιμοποιείται για το λογαριασμό στο παράθυρο "
+"<gui>Λογαριασμοί μηνυμάτων και τηλεφωνίας</gui>, επιλέξτε το λογαριασμό από "
+"τη λίστα στα αριστερά και μετά πατήστε το όνομα ή πιέστε το πλήκτρο "
+"διαστήματος. Αλλάξτε το όνομα του λογαριασμού και πιέστε <key>Enter</key> "
+"όταν τελειώσετε."
+
+#. (itstool) path: info/desc
+#: C/add-contact.page:9
+msgid "Add someone to the contact list."
+msgstr "Προσθήκη νέας επαφής."
+
+#. (itstool) path: credit/name
+#: C/add-contact.page:18 C/change-status.page:24
+#: C/prob-conn-acctdisabled.page:15 C/prob-conn-auth.page:18
+#: C/prob-conn-neterror.page:16 C/prob-conn.page:14 C/send-file.page:17
+#: C/send-message.page:17
+msgid "Phil Bull"
+msgstr "Phil Bull"
+
+#. (itstool) path: page/title
+#: C/add-contact.page:33
+msgid "Add someone to your list of contacts"
+msgstr "Προσθήκη νέας επαφής"
+
+#. (itstool) path: item/p
+#: C/add-contact.page:37
+msgid "Choose <guiseq><gui>Chat</gui><gui>Add Contact</gui></guiseq>."
+msgstr ""
+"Επιλέξτε <guiseq><gui>Συζήτηση</gui><gui>Προσθήκη επαφής</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/add-contact.page:40
+msgid ""
+"From the <gui>Account</gui> drop-down list, select the account you wish to "
+"use to connect to your contact. Your contact will need to be using the same "
+"service as the account you select."
+msgstr ""
+"Από την αναπτυσσόμενη λίστα <gui>Λογαριασμός</gui>, επιλέξτε το λογαριασμό "
+"που θέλετε να χρησιμοποιήσετε για να επικοινωνείτε με την επαφή σας. Η επαφή "
+"σας θα πρέπει να χρησιμοποιεί την ίδια υπηρεσία με την υπηρεσία του "
+"λογαριασμού που επιλέξατε."
+
+#. (itstool) path: item/p
+#: C/add-contact.page:45
+msgid ""
+"In the <gui>Identifier</gui> field, enter your contact’s login ID, username, "
+"screen name, or other appropriate identifier for the service type."
+msgstr ""
+"Στο πεδίο <gui>Αναγνωριστικό</gui>, εισάγετε το όνομα χρήστη, το "
+"καταχωρημένο ψευδώνυμο, ή άλλο κατάλληλο αναγνωριστικό για την επαφή σας."
+
+#. (itstool) path: item/p
+#: C/add-contact.page:49
+msgid ""
+"In the <gui>Alias</gui> field, type your contact’s name as you would like it "
+"to appear in your contact list."
+msgstr ""
+"Στο πεδίο <gui>Ψευδώνυμο</gui>, εισάγετε το όνομα με το οποίο θέλετε να "
+"εμφανίζεται η επαφή στη λίστα επαφών σας."
+
+#. (itstool) path: item/p
+#: C/add-contact.page:53
+msgid "Click <gui>Add</gui> to add the person to your list of contacts."
+msgstr ""
+"Πατήστε <gui>Προσθήκη</gui> για να προσθέσετε το άτομο αυτό στη λίστα επαφών "
+"σας."
+
+#. (itstool) path: note/p
+#: C/add-contact.page:61
+msgid ""
+"To add a new person to your list of contacts, you need to be connected to "
+"the Internet and to your account."
+msgstr ""
+"Για να προσθέσετε ένα νέο άτομο στη λίστα επαφών σας, θα πρέπει να έχετε "
+"συνδεθεί στο διαδίκτυο, καθώς και στο λογαριασμό σας."
+
+#. (itstool) path: info/desc
+#: C/audio-call.page:10
+msgid "Call your contacts over the Internet."
+msgstr "Κλήση των επαφών σας μέσω διαδικτύου."
+
+#. (itstool) path: credit/name
+#: C/audio-call.page:26 C/create-account.page:24 C/overview.page:17
+#: C/share-desktop.page:18 C/video-call.page:29
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#. (itstool) path: page/title
+#: C/audio-call.page:35
+msgid "Start an audio conversation"
+msgstr "Έναρξη φωνητικής κλήσης"
+
+#. (itstool) path: page/p
+#: C/audio-call.page:37
+msgid ""
+"You can call your contacts and have an audio conversation with them. This "
+"features only works with certain types of accounts and it requires the other "
+"person to have an application that supports audio calls."
+msgstr ""
+"Μπορείτε να καλείτε τις επαφές σας και να μιλάτε μαζί τους ηχητικά. Αυτή η "
+"λειτουργία διατίθεται μόνο για ορισμένους τύπους λογαριασμών και απαιτεί το "
+"άλλο άτομο να διαθέτει επίσης εφαρμογή που υποστηρίζει φωνητικές κλήσεις."
+
+#. (itstool) path: item/p
+#: C/audio-call.page:43
+msgid ""
+"Right-click on the contact that you want to call and select <gui style="
+"\"menuitem\">Audio Call</gui>."
+msgstr ""
+"Δεξιοπατήστε στην επαφή την οποία θέλετε να καλέσετε και επιλέξτε <gui style="
+"\"menuitem\">Φωνητική κλήση</gui>."
+
+#. (itstool) path: item/p
+#: C/audio-call.page:49 C/video-call.page:50
+msgid ""
+"A new window will open. When the connection is established, you will see the "
+"total conversation time at the bottom of the window."
+msgstr ""
+"Θα ανοίξει ένα νέο παράθυρο. Όταν επιτευχθεί η σύνδεση, θα δείτε τον "
+"συνολικό χρόνο συζήτησης στο κάτω μέρος του παραθύρου."
+
+#. (itstool) path: item/p
+#: C/audio-call.page:55
+msgid ""
+"To end the conversation, click the <gui style=\"button\">hand up</gui> "
+"button."
+msgstr ""
+"Για να τερματίσετε τη συνομιλία, πατήστε το κουμπί <gui style=\"button"
+"\">Κλείσιμο</gui>."
+
+#. (itstool) path: note/p
+#: C/audio-call.page:63
+msgid ""
+"To turn an audio conversation into a video conversation, choose <guiseq><gui "
+"style=\"menu\">Video</gui> <gui style=\"menuitem\">Video On</gui></guiseq>."
+msgstr ""
+"Για να μετατρέψετε μια φωνητική κλήση σε βιντεοκλήση, επιλέξτε <guiseq><gui "
+"style=\"menu\">Βίντεο</gui> <gui style=\"menuitem\">Ενεργό βίντεο</gui></"
+"guiseq>."
+
+#. (itstool) path: section/title
+#: C/audio-call.page:71
+msgid "Start an audio conversation with a meta-contact"
+msgstr "Έναρξη φωνητικής συζήτησης με μια μετα-επαφή"
+
+#. (itstool) path: item/p
+#: C/audio-call.page:74 C/send-message.page:53 C/video-call.page:68
+msgid ""
+"From the <gui>Contact List</gui> window, right-click on the meta-contact."
+msgstr "Στο παράθυρο <gui>Λίστα επαφών</gui>, κάντε δεξί κλικ στη μετα-επαφή."
+
+#. (itstool) path: item/p
+#: C/audio-call.page:79
+msgid ""
+"Select the contact you want to have the conversation, and from the menu "
+"select <gui style=\"menuitem\">Audio Call</gui>."
+msgstr ""
+"Επιλέξτε την επαφή με την οποία θέλετε να συζητήσετε, και από το μενού "
+"επιλέξτε <gui style=\"menuitem\">Φωνητική κλήση</gui>."
+
+#. (itstool) path: note/p
+#: C/audio-call.page:86 C/send-message.page:65 C/video-call.page:80
+msgid ""
+"To recognize if a contact is a <em>meta-contact</em>, move your mouse on a "
+"contact in the <gui>Contact List</gui> window, and stop over it for a "
+"second: a small pop-up message will appear showing the number of the "
+"contacts that form the meta-contact."
+msgstr ""
+"Για να αναγνωρίσετε αν μια επαφή είναι μια <em>μετα-επαφή</em>, μετακινήστε "
+"το ποντίκι σε μια επαφή στο παράθυρο της <gui>Λίστας επαφών</gui> και "
+"σταματήστε το πάνω της για ένα δευτερόλεπτο: θα εμφανιστεί ένα μικρό "
+"αναδυόμενο μήνυμα που θα δείχνει τον αριθμό των επαφών που απαρτίζουν τη "
+"μετα-επαφή."
+
+#. (itstool) path: info/desc
+#: C/audio-video.page:30
+msgid ""
+"Information on when it is possible to have an audio or video conversation."
+msgstr ""
+"Πληροφορίες για τη δυνατότητα πραγματοποίησης φωνητικών κλήσεων και "
+"βιντεοκλήσεων."
+
+#. (itstool) path: page/title
+#: C/audio-video.page:35
+msgid "Audio and video support"
+msgstr "Υποστήριξη ήχου και βίντεο"
+
+#. (itstool) path: page/p
+#: C/audio-video.page:37
+msgid ""
+"You can only have audio and video conversation with contacts who are using "
+"an application which also supports this feature."
+msgstr ""
+"Μπορείτε να πραγματοποιείτε κλήσεις με ήχο και βίντεο μόνο αν οι επαφές σας "
+"χρησιμοποιούν εφαρμογές που υποστηρίζουν αυτές τις λειτουργίες."
+
+#. (itstool) path: note/p
+#: C/audio-video.page:41
+msgid ""
+"In order to have an audio conversation, you need to have a sound card that "
+"is supported by your operating system, and a working microphone."
+msgstr ""
+"Για να πραγματοποιείτε φωνητικές κλήσεις, θα πρέπει να διαθέτετε κάρτα ήχου "
+"που να υποστηρίζεται από το λειτουργικό σας σύστημα, καθώς και μικρόφωνο."
+
+#. (itstool) path: note/p
+#: C/audio-video.page:43
+msgid ""
+"In order to have a video conversation, you need to have a webcam that is "
+"supported by your operating system, and a working microphone."
+msgstr ""
+"Για να πραγματοποιείτε βιντεοκλήσεις, θα πρέπει να διαθέτετε κάμερα δικτύου "
+"που να υποστηρίζεται από το λειτουργικό σας σύστημα, καθώς και μικρόφωνο."
+
+#. (itstool) path: section/title
+#: C/audio-video.page:49
+msgid "Supported Account Types"
+msgstr "Υποστηριζόμενοι τύποι λογαριασμών"
+
+#. (itstool) path: section/p
+#: C/audio-video.page:51
+msgid ""
+"You can only have audio and video conversations using accounts on certain "
+"supported services. The following table lists whether audio and video is "
+"supported for each type of account."
+msgstr ""
+"Οι φωνητικές κλήσεις και οι βιντεοκλήσεις υποστηρίζονται μόνο από ορισμένους "
+"τύπους λογαριασμών. Στον ακόλουθο πίνακα μπορείτε να δείτε τους τύπους "
+"λογαριασμών που υποστηρίζουν κλήσεις βίντεο ή ήχου."
+
+#. (itstool) path: note/p
+#: C/audio-video.page:56
+msgid ""
+"Account types are provided by plugins. Your system may not have all of the "
+"following types available, or it may have types not listed here. Updated "
+"plugins may make audio or video conversations possible on account types that "
+"are listed as unsupported here."
+msgstr ""
+"Η υποστήριξη για τους διάφορους τύπους λογαριασμών παρέχεται μέσω προσθέτων. "
+"Το σύστημά σας μπορεί να μην υποστηρίζει όλους τους τύπους λογαριασμών που "
+"περιγράφονται σε αυτό το εγχειρίδιο, ή μπορεί να υποστηρίζει και άλλους "
+"τύπους λογαριασμών. Επίσης, μπορεί να διαθέτει ενημερωμένα πρόσθετα που να "
+"υποστηρίζουν κλήσεις βίντεο ή ήχου για τύπους λογαριασμών για τους οποίους "
+"αναφέρεται ότι δεν υποστηρίζονται."
+
+#. (itstool) path: td/p
+#: C/audio-video.page:74
+msgid "Service"
+msgstr "Υπηρεσία"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:75
+msgid "Audio"
+msgstr "Ήχος"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:76
+msgid "Video"
+msgstr "Βίντεο"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:81
+msgid "AIM"
+msgstr "AIM"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:82 C/audio-video.page:83 C/audio-video.page:87
+#: C/audio-video.page:88 C/audio-video.page:97 C/audio-video.page:98
+#: C/audio-video.page:102 C/audio-video.page:103 C/audio-video.page:107
+#: C/audio-video.page:108 C/audio-video.page:117 C/audio-video.page:118
+#: C/audio-video.page:122 C/audio-video.page:123 C/audio-video.page:127
+#: C/audio-video.page:128 C/audio-video.page:132 C/audio-video.page:133
+#: C/audio-video.page:137 C/audio-video.page:138 C/audio-video.page:147
+#: C/audio-video.page:148 C/audio-video.page:152 C/audio-video.page:153
+msgid "No"
+msgstr "Όχι"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:86
+msgid "gadugadu"
+msgstr "gadugadu"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:91
+msgid "Google Talk"
+msgstr "Google Talk"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:92 C/audio-video.page:93 C/audio-video.page:112
+#: C/audio-video.page:113 C/audio-video.page:142 C/audio-video.page:143
+msgid "Yes"
+msgstr "Ναι"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:96
+msgid "Groupwise"
+msgstr "Groupwise"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:101
+msgid "ICQ"
+msgstr "ICQ"
+
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/audio-video.page:106 C/create-account.page:49
+msgid "IRC"
+msgstr "IRC"
+
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/audio-video.page:111 C/create-account.page:68
+msgid "Jabber"
+msgstr "Jabber"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:116
+msgid "myspace"
+msgstr "myspace"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:121
+msgid "qq"
+msgstr "qq"
+
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/audio-video.page:126 C/create-account.page:86
+msgid "People Nearby"
+msgstr "Γειτονικά άτομα"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:131
+msgid "sametime"
+msgstr "sametime"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:136
+msgid "silc"
+msgstr "silc"
+
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/audio-video.page:141 C/create-account.page:99
+msgid "SIP"
+msgstr "SIP"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:146
+msgid "Yahoo!"
+msgstr "Yahoo!"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:151
+msgid "zephyr"
+msgstr "zephyr"
+
+#. (itstool) path: info/desc
+#: C/change-status.page:9
+msgid "Change your status to advertise your availability to your contacts."
+msgstr ""
+"Αλλαγή της κατάστασής σας και ενημέρωση των επαφών σας για τη διαθεσιμότητά "
+"σας."
+
+#. (itstool) path: page/title
+#: C/change-status.page:39
+msgid "Change your status"
+msgstr "Αλλαγή της κατάστασής σας"
+
+#. (itstool) path: page/p
+#: C/change-status.page:41
+msgid ""
+"You can set your status to indicate your availability to your contacts. "
+"<app>Empathy</app> allows you to select from a list of defined statuses."
+msgstr ""
+"Μπορείτε να ορίζετε την κατάστασή σας για να ενημερώνετε τις επαφές σας για "
+"το αν είστε διαθέσιμοι. Το <app>Empathy</app> σας επιτρέπει να επιλέγετε από "
+"μια σειρά καταστάσεων."
+
+#. (itstool) path: item/p
+#: C/change-status.page:46
+msgid ""
+"Click on the drop-down list at the top of the <gui>Contact List</gui> window."
+msgstr ""
+"Κάνετε κλικ στην αναπτυσσόμενη λίστα στο πάνω μέρος του παραθύρου <gui>Λίστα "
+"επαφών</gui>."
+
+#. (itstool) path: item/p
+#: C/change-status.page:51
+msgid "Select a status from the list."
+msgstr "Επιλέξτε μια κατάσταση από τη λίστα."
+
+#. (itstool) path: page/p
+#: C/change-status.page:57
+msgid ""
+"See <link xref=\"status-icons\"/> for a list of the built-in statuses and "
+"what they mean. You can also <link xref=\"set-custom-status\">add custom "
+"status messages</link> to provide more information about your availability "
+"to your contacts."
+msgstr ""
+"Στο <link xref=\"status-icons\"/> υπάρχει μια λίστα με τις ενσωματωμένες "
+"καταστάσεις και το τι σημαίνουν. Επίσης, μπορείτε να <link xref=\"set-custom-"
+"status\">προσθέτετε προσαρμοσμένα μηνύματα κατάστασης</link> που παρέχουν "
+"περισσότερες πληροφορίες για τη διαθεσιμότητά σας στις επαφές σας."
+
+#. (itstool) path: note/p
+#: C/change-status.page:63
+msgid ""
+"If you do not use your computer for a while, or if the screensaver is on, "
+"the status will be automatically set to Away."
+msgstr ""
+"Αν δεν έχετε χρησιμοποιήσει τον υπολογιστή σας για κάποιο χρονικό διάστημα, "
+"ή αν έχει ενεργοποιηθεί η προστασία οθόνης, επιλέγεται αυτόματα η κατάσταση "
+"Απουσιάζει."
+
+#. (itstool) path: info/desc
+#: C/create-account.page:32
+msgid "Create an account for one of the supported messaging services."
+msgstr ""
+"Δημιουργήστε έναν λογαριασμό σε μία από τις υποστηριζόμενες υπηρεσίες "
+"μηνυμάτων."
+
+#. (itstool) path: page/title
+#: C/create-account.page:36
+msgid "Register a new account"
+msgstr "Καταχωρίστε έναν νέο λογαριασμό"
+
+#. (itstool) path: page/p
+#: C/create-account.page:38
+msgid ""
+"Most account types require you to create an account with a service provider "
+"before you can use that account with instant messaging applications. You can "
+"use <app>Empathy</app> to register for a new account with some account "
+"providers using the same steps as you would to <link xref=\"add-account"
+"\">add an account</link>."
+msgstr ""
+"Οι περισσότεροι τύποι λογαριασμών απαιτούν τη δημιουργία λογαριασμού με έναν "
+"πάροχο υπηρεσίας πριν να μπορέσετε να χρησιμοποιήσετε αυτόν τον λογαριασμό "
+"με εφαρμογές άμεσων μηνυμάτων. Μπορείτε να χρησιμοποιήσετε το <app>Empathy</"
+"app> για να καταχωρίσετε έναν νέο λογαριασμό με κάποιους παρόχους "
+"λογαριασμού χρησιμοποιώντας τα ίδια βήματα όπως θα κάνατε με την <link xref="
+"\"add-account\">προσθήκη ενός λογαριασμού</link>."
+
+#. (itstool) path: page/p
+#: C/create-account.page:44
+msgid ""
+"Once you create a new account, your account provider should give you a login "
+"or a username and a password, as well as any additional information you need "
+"to connect using <app>Empathy</app>."
+msgstr ""
+"Αφού δημιουργήσετε έναν νέο λογαριασμό, ο πάροχος λογαριασμού πρέπει να σας "
+"δώσει μια σύνδεση ή ένα όνομα χρήστη και έναν κωδικό πρόσβασης, καθώς και "
+"οποιεσδήποτε άλλες πληροφορίες απαιτούνται για τη σύνδεση χρησιμοποιώντας το "
+"<app>Empathy</app>."
+
+#. (itstool) path: section/p
+#: C/create-account.page:51
+msgid ""
+"IRC networks require that you specify a nick (nickname) when you connect to "
+"the server. Some IRC networks use a service, such as NickServ, to allow "
+"users to <link xref=\"irc-nick-password\">protect their nick</link>. If you "
+"did not register your nick or are unable to do so and another user is using "
+"it, then you will need to choose a different one."
+msgstr ""
+"Τα δίκτυα IRC απαιτούν να ορίσετε ένα ψευδώνυμο όταν συνδέετε με τον "
+"διακομιστή. Κάποια δίκτυα IRC χρησιμοποιούν μια υπηρεσία, όπως NickServ, για "
+"να επιτρέψουν στους χρήστες να <link xref=\"irc-nick-password"
+"\">προστατεύσουν το ψευδώνυμό τους</link>. Αν δεν καταχωρήσατε το ψευδώνυμό "
+"σας ή δεν μπορείτε να το κάνετε και κάποιος άλλος χρήστης το χρησιμοποιεί, "
+"τότε θα χρειαστείτε να επιλέξετε ένα διαφορετικό."
+
+#. (itstool) path: section/p
+#: C/create-account.page:57
+msgid ""
+"Some IRC servers are password protected. You will need to know the password "
+"to connect to these servers. Generally, these are private IRC networks."
+msgstr ""
+"Ορισμένοι εξυπηρετητές IRC προστατεύονται από συνθηματικό. Για να συνδεθείτε "
+"σε αυτούς τους εξυπηρετητές θα πρέπει να γνωρίζετε το συνθηματικό τους. "
+"Συνήθως πρόκειται για ιδιωτικά δίκτυα IRC."
+
+#. (itstool) path: note/p
+#: C/create-account.page:62
+msgid ""
+"Many GNOME projects use <code>irc.gnome.org</code> for project-related "
+"discussion."
+msgstr ""
+"Πολλά έργα GNOME χρησιμοποιούν <code>irc.gnome.org</code> για συζήτηση "
+"σχετική με το έργο."
+
+#. (itstool) path: section/p
+#: C/create-account.page:70
+msgid ""
+"Jabber is an open instant messaging system. Like email, Jabber allows you to "
+"choose your account provider and communicate with all other Jabber users, "
+"regardless of their account provider."
+msgstr ""
+"Το Jabber είναι ένα ανοιχτό σύστημα άμεσων μηνυμάτων. Όπως και η ηλεκτρονική "
+"αλληλογραφία, το Jabber σας επιτρέπει να επιλέξετε τον πάροχο του "
+"λογαριασμού σας και να επικοινωνήσετε με όλους τους άλλους χρήστες, "
+"ανεξάρτητα από τον πάροχο λογαριασμού τους."
+
+#. (itstool) path: section/p
+#: C/create-account.page:74
+msgid ""
+"You will need to create a new account with a Jabber provider. There are many "
+"free providers; one popular provider is <link href=\"http://register.jabber."
+"org/\">jabber.org</link>."
+msgstr ""
+"Θα πρέπει να δημιουργήσετε έναν λογαριασμό με έναν πάροχο Jabber. Υπάρχουν "
+"πολλοί δωρεάν πάροχοι· ένας δημοφιλής πάροχος είναι το <link href=\"http://"
+"register.jabber.org/\">Jabber.org</link>."
+
+#. (itstool) path: note/p
+#: C/create-account.page:79
+msgid ""
+"If you use Gmail or Google+ Hangouts, you already have a Jabber account. Use "
+"your Gmail address and password in <app>Empathy</app> to connect."
+msgstr ""
+"Αν χρησιμοποιείτε το Gmail ή το Google+ Hangouts, τότε διαθέτετε ήδη "
+"λογαριασμό Jabber. Χρησιμοποιήστε τη διεύθυνσή σας του Gmail και τον κωδικό "
+"πρόσβασης στο <app>Empathy</app> για να συνδεθείτε."
+
+#. (itstool) path: section/p
+#: C/create-account.page:88
+msgid ""
+"This service works whenever you are connected to a local network, such as a "
+"wireless hotspot, you do not need to create an account with service "
+"providor, just set up your account through <app>Empathy</app>. It "
+"automatically finds all other users on the network who are also using this "
+"service."
+msgstr ""
+"Αυτή η υπηρεσία δουλεύει όποτε είσαστε συνδεμένοι με ένα τοπικό δίκτυο, όπως "
+"ένα ασύρματο σημείο αναμετάδοσης, δεν χρειάζεστε τη δημιουργία ενός "
+"λογαριασμού με τον πάροχο της υπηρεσίας, ρυθμίστε μόνο τον λογαριασμό σας "
+"μέσα από το <app>Empathy</app>. Βρίσκει αυτόματα όλους τους άλλους χρήστες "
+"στο δίκτυο που χρησιμοποιούν επίσης αυτήν την υπηρεσία."
+
+#. (itstool) path: section/p
+#: C/create-account.page:94
+msgid ""
+"For more information, see the <link xref=\"salut-protocol\">salut protocol</"
+"link>."
+msgstr ""
+"Για περισσότερες πληροφορίες, δείτε το <link xref=\"salut-protocol"
+"\">πρωτόκολλο χαιρετισμού</link>."
+
+#. (itstool) path: section/p
+#: C/create-account.page:101
+msgid ""
+"SIP is an open system which allows users to have audio and video "
+"conversations over the Internet. You need to create an account with a SIP "
+"provider. You can communicate with all other SIP users, regardless of which "
+"SIP provider they use."
+msgstr ""
+"Το SIP είναι ένα ανοιχτό σύστημα που επιτρέπει στους χρήστες του να κάνουν "
+"φωνητικές κλήσεις και βιντεοκλήσεις μέσω διαδικτύου. Θα πρέπει να "
+"δημιουργήσετε λογαριασμό σε έναν πάροχο SIP. Στη συνέχεια, θα μπορείτε να "
+"επικοινωνείτε με όλους τους υπόλοιπους χρήστες SIP, ανεξάρτητα από τον "
+"πάροχό τους."
+
+#. (itstool) path: section/p
+#: C/create-account.page:106
+msgid ""
+"Some SIP providers allow you to call normal phones from your computer. "
+"Generally, you will need to subscribe to a paid service for this feature."
+msgstr ""
+"Ορισμένοι πάροχοι SIP σας επιτρέπουν να καλείτε κανονικά τηλέφωνα από τον "
+"υπολογιστή σας. Συνήθως, θα πρέπει να έχετε εγγραφεί σε μια υπηρεσία που "
+"προσφέρεται επί πληρωμή για να εκμεταλλευτείτε αυτή τη δυνατότητα."
+
+#. (itstool) path: section/title
+#: C/create-account.page:112
+msgid "Proprietary Services"
+msgstr "Ιδιοταγείς υπηρεσίες"
+
+#. (itstool) path: section/p
+#: C/create-account.page:114
+msgid ""
+"There are many proprietary instant messaging services that have been "
+"developed by different companies or organizations. <app>Empathy</app> allows "
+"you to connect to an existing account for some of these services. To create "
+"a new account with one of these services, you will need to visit the website "
+"for the service."
+msgstr ""
+"Υπάρχουν πολλές ιδιοταγείς υπηρεσίες άμεσων μηνυμάτων που έχουν αναπτυχθεί "
+"από διαφορετικές εταιρείες ή οργανισμούς. Το <app>Empathy</app> σας "
+"επιτρέπει να συνδέεστε με έναν υπάρχοντα λογαριασμό για κάποιες από αυτές "
+"τις υπηρεσίες. Για να δημιουργήσετε ένα νέο λογαριασμό για μία από αυτές τις "
+"υπηρεσίες, θα πρέπει να επισκεφθείτε την ιστοσελίδα της υπηρεσίας."
+
+#. (itstool) path: item/p
+#: C/create-account.page:122
+msgid "<link href=\"http://dashboard.aim.com/aim\">AIM</link>"
+msgstr "<link href=\"http://dashboard.aim.com/aim\">AIM</link>"
+
+#. (itstool) path: item/p
+#: C/create-account.page:125
+msgid "<link href=\"https://www.icq.com/register/\">ICQ</link>"
+msgstr "<link href=\"https://www.icq.com/register/\">ICQ</link>"
+
+#. (itstool) path: item/p
+#: C/create-account.page:128
+msgid "<link href=\"https://login.yahoo.com/config/login\">Yahoo!</link>"
+msgstr "<link href=\"https://login.yahoo.com/config/login\">Yahoo!</link>"
+
+#. (itstool) path: info/desc
+#: C/disable-account.page:9
+msgid "Prevent <app>Empathy</app> from automatically logging in to an account."
+msgstr ""
+"Εμποδίζοντας το <app>Empathy</app> να συνδέεται αυτόματα στους λογαριασμούς."
+
+#. (itstool) path: page/title
+#: C/disable-account.page:40
+msgid "Disable an account"
+msgstr "Απενεργοποίηση λογαριασμού"
+
+#. (itstool) path: page/p
+#: C/disable-account.page:42
+msgid ""
+"You can disable an account to prevent <app>Empathy</app> from logging in to "
+"it without removing the account entirely. You may wish to disable and re-"
+"enable an account if you only want to be logged in to the account at certain "
+"times, but you still want to use <app>Empathy</app> for other accounts."
+msgstr ""
+"Μπορείτε να απενεργοποιήσετε ένα λογαριασμό για αποφυγή σύνδεσης του "
+"<app>Empathy</app> χωρίς πλήρη αφαίρεση του λογαριασμού. Μπορεί να θέλετε να "
+"απενεργοποιήσετε και να επανεργοποιήσετε έναν λογαριασμό αν θέλετε μόνο να "
+"συνδεθείτε στον λογαριασμό συγκεκριμένες φορές, αλλά να θέλετε να "
+"χρησιμοποιήσετε ακόμα το <app>Empathy</app> για άλλους λογαριασμούς."
+
+#. (itstool) path: item/p
+#: C/disable-account.page:49 C/irc-nick-password.page:50
+#: C/remove-account.page:43
+msgid ""
+"From the <gui>Contact List</gui> window, choose <guiseq><gui>Edit</gui> "
+"<gui>Accounts</gui></guiseq>, or press <key>F4</key>."
+msgstr ""
+"Από το παράθυρο <gui>Λίστα επαφών</gui>, επιλέξτε <guiseq><gui>Επεξεργασία</"
+"gui> <gui>Λογαριασμοί</gui></guiseq>, ή πατήστε <key>F4</key>."
+
+#. (itstool) path: item/p
+#: C/disable-account.page:53
+msgid ""
+"Select the account you wish to disable from the accounts list on the left "
+"side of the window."
+msgstr ""
+"Επιλέξτε το λογαριασμό που θέλετε να απενεργοποιήσετε από τη λίστα "
+"λογαριασμών στην αριστερή πλευρά του παραθύρου."
+
+#. (itstool) path: item/p
+#: C/disable-account.page:57
+msgid "On the right side of the window, switch it off."
+msgstr "Στη δεξιά πλευρά του παραθύρου, απενεργοποιήστε τον."
+
+#. (itstool) path: page/p
+#: C/disable-account.page:62
+msgid "To re-enable the account, switch it on."
+msgstr "Για να επανενεργοποιήσετε το λογαριασμό, απλά ενεργοποιήστε τον."
+
+#. (itstool) path: info/desc
+#: C/favorite-rooms.page:10
+msgid "Set, join and manage favorite rooms."
+msgstr "Ορισμός, είσοδος και διαχείριση αγαπημένων δωματίων."
+
+#. (itstool) path: page/title
+#: C/favorite-rooms.page:29
+msgid "Favorite rooms"
+msgstr "Αγαπημένα δωμάτια"
+
+#. (itstool) path: section/title
+#: C/favorite-rooms.page:32
+msgid "Set a room as a favorite"
+msgstr "Ορισμός ενός δωματίου ως αγαπημένου"
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:35
+msgid "Join a room."
+msgstr "Μπείτε στο δωμάτιο."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:40
+msgid ""
+"See <link xref=\"irc-join-room\"/> for more information on how to join an "
+"IRC room."
+msgstr ""
+"Δείτε την <link xref=\"irc-join-room\"/> για περισσότερες πληροφορίες "
+"σχετικά με την είσοδο σε δωμάτια IRC."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:46
+msgid ""
+"See <link xref=\"group-conversations\"/> for more information on how to "
+"start or join a group conversation."
+msgstr ""
+"Δείτε την <link xref=\"group-conversations\"/> για περισσότερες πληροφορίες "
+"σχετικά με την έναρξη ομαδικών συζητήσεων ή την είσοδο σε αυτές."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:54
+msgid ""
+"From the conversation window, choose <guiseq><gui>Conversation</"
+"gui><gui>Favorite Chat Room</gui></guiseq>."
+msgstr ""
+"Από το παράθυρο της συζήτησης, επιλέξτε <guiseq><gui>Συζήτηση</"
+"gui><gui>Αγαπημένο δωμάτιο συζήτησης</gui></guiseq>."
+
+#. (itstool) path: section/title
+#: C/favorite-rooms.page:63
+msgid "Join favorite rooms"
+msgstr "Είσοδος στα αγαπημένα σας δωμάτια"
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:66 C/send-file.page:40
+msgid "From the <gui>Contact List</gui> window, perform one of the following:"
+msgstr "Από το παράθυρο <gui>Λίστα επαφών</gui>, κάνετε ένα από τα ακόλουθα:"
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:71
+msgid "Press <key>F5</key>."
+msgstr "Πατήστε <key>F5</key>."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:76
+msgid ""
+"Choose <guiseq><gui>Room</gui><gui>Join Favorites</gui></guiseq>, to join "
+"all your favorite rooms."
+msgstr ""
+"Επιλέξτε <guiseq><gui>Δωμάτιο</gui><gui>Είσοδος στα αγαπημένα</gui></guiseq> "
+"για να μπείτε σε όλα τα αγαπημένα σας δωμάτια."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:82
+msgid "Choose <gui>Room</gui>, and select the favorite room you want to join."
+msgstr ""
+"Επιλέξτε πρώτα <gui>Δωμάτιο</gui>, και στη συνέχεια το αγαπημένο δωμάτιο στο "
+"οποίο θέλετε να μπείτε."
+
+#. (itstool) path: note/p
+#: C/favorite-rooms.page:90
+msgid ""
+"To join a favorite room, you need to be connected to the Internet and to "
+"your account."
+msgstr ""
+"Για να μπείτε σε ένα αγαπημένο δωμάτιο, πρέπει να έχετε συνδεθεί στο "
+"διαδίκτυο, καθώς και στο λογαριασμό σας."
+
+#. (itstool) path: section/title
+#: C/favorite-rooms.page:98
+msgid "Manage favorite rooms"
+msgstr "Διαχείριση αγαπημένων δωματίων"
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:101
+msgid ""
+"From the <gui>Contact List</gui> window, choose <guiseq><gui>Room</"
+"gui><gui>Manage Favorites</gui></guiseq>."
+msgstr ""
+"Από το παράθυρο <gui>Λίστα επαφών</gui>, επιλέξτε <guiseq><gui>Δωμάτιο</"
+"gui><gui>Διαχείριση αγαπημένων</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:107
+msgid ""
+"From the <gui>Account</gui> drop-down list, select the account you want to "
+"manage the favorite rooms of."
+msgstr ""
+"Από την αναπτυσσόμενη λίστα <gui>Λογαριασμός</gui>, επιλέξτε το λογαριασμό "
+"του οποίου τα αγαπημένα δωμάτια θέλετε να διαχειριστείτε."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:111
+msgid "Select <gui>All</gui> to see all you favorite rooms."
+msgstr "Επιλέξτε <gui>Όλα</gui> για να δείτε όλα τα αγαπημένα σας δωμάτια."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:116
+msgid "Select the favorite room you want to manage:"
+msgstr "Επιλέξτε το αγαπημένο δωμάτιο το οποίο θέλετε να διαχειριστείτε:"
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:121
+msgid ""
+"Select the <gui>Auto-Connect</gui> check-box in order to automatically join "
+"that room when you connect to your account."
+msgstr ""
+"Σημειώστε την επιλογή <gui>Αυτόματη σύνδεση</gui>, για να μπαίνετε αυτόματα "
+"στο δωμάτιο κάθε φορά που συνδέεστε στο λογαριασμό σας."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:127
+msgid "Click on <gui>Remove</gui> to remove the room from your favorites."
+msgstr ""
+"Πατήστε <gui>Διαγραφή</gui> για να αφαιρέσετε το δωμάτιο από τα αγαπημένα "
+"σας."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:134
+msgid "When done, click <gui>Close</gui>."
+msgstr "Όταν τελειώσετε, κάντε κλικ στο κουμπί <gui>Κλείσιμο</gui>."
+
+#. (itstool) path: info/desc
+#: C/geolocation.page:8
+msgid "Use and understand geolocation in <app>Empathy</app>."
+msgstr "Χρήση και κατανόηση του εντοπισμού τοποθεσίας στο <app>Empathy</app>."
+
+#. (itstool) path: page/title
+#: C/geolocation.page:32
+msgid "Geographical position"
+msgstr "Γεωγραφική θέση"
+
+#. (itstool) path: section/title
+#: C/geolocation.page:35
+msgid "Geolocation"
+msgstr "Εντοπισμός τοποθεσίας"
+
+#. (itstool) path: section/title
+#: C/geolocation.page:39
+msgid "Fix common problems"
+msgstr "Επίλυση κοινών προβλημάτων"
+
+#. (itstool) path: info/desc
+#: C/geolocation-not-showing.page:8
+msgid "<app>Empathy</app> does not publish my geographical position."
+msgstr "Το <app>Empathy</app> δε δημοσιεύει τη γεωγραφική μου θέση."
+
+#. (itstool) path: page/title
+#: C/geolocation-not-showing.page:32
+msgid "Geographical position not published"
+msgstr "Μη δημοσίευση γεωγραφικής θέσης"
+
+#. (itstool) path: page/p
+#: C/geolocation-not-showing.page:34
+msgid ""
+"If your contacts cannot see your location, <app>Empathy</app> might not be "
+"able to discover with a good margin of precision your geographical position."
+msgstr ""
+"Αν οι επαφές σας δεν μπορούν να δουν την τοποθεσία σας, ίσως το "
+"<app>Empathy</app> να μη μπορεί να προσδιορίσει τη γεωγραφική σας θέση με "
+"αρκετή ακρίβεια."
+
+#. (itstool) path: page/p
+#: C/geolocation-not-showing.page:38
+msgid ""
+"In this case, your position will not be published, but you are still able to "
+"see the location of your contacts."
+msgstr ""
+"Σε αυτήν την περίπτωση, η δική σας τοποθεσία δε δημοσιεύεται, αλλά "
+"εξακολουθείτε να βλέπετε τις τοποθεσίες των επαφών σας."
+
+#. (itstool) path: page/p
+#: C/geolocation-not-showing.page:42
+msgid ""
+"If you want to publish your geographical position, you can try to use an "
+"external device such as a GPS."
+msgstr ""
+"Αν θέλετε να δημοσιεύσετε τη γεωγραφική σας θέση, μπορείτε να δοκιμάσετε με "
+"μια εξωτερική συσκευή όπως ένα GPS."
+
+#. (itstool) path: note/p
+#: C/geolocation-not-showing.page:48
+msgid ""
+"In order to publish your geographical location, your Jabber server needs to "
+"support the Personal Eventing Protocal (PEP). A list of <link href=\"http://"
+"coccinella.im/servers/servers_by_pubsub_pep.html\">servers which support "
+"PEP</link> is maintained online. Google Talk does not support this feature "
+"at this time."
+msgstr ""
+"Για να είναι σε θέση να δημοσιεύει τη γεωγραφική σας θέση, ο εξυπηρετητής "
+"Jabber που χρησιμοποιείτε θα πρέπει να υποστηρίζει το πρωτόκολλο Personal "
+"Eventing Protocol (PEP). Στο διαδίκτυο μπορείτε να βρείτε μία λίστα με τους "
+"<link href=\"http://coccinella.im/servers/servers_by_pubsub_pep.html"
+"\">εξυπηρετητές με υποστήριξη PEP</link>. Προς το παρόν, το Google Talk δεν "
+"υποστηρίζει αυτή τη λειτουργία."
+
+#. (itstool) path: info/desc
+#: C/geolocation-privacy.page:8
+msgid "What information are sent and to who."
+msgstr "Είδος και παραλήπτες πληροφοριών."
+
+#. (itstool) path: page/title
+#: C/geolocation-privacy.page:32
+msgid "Geolocation Privacy"
+msgstr "Απόρρητο εντοπισμού τοποθεσίας"
+
+#. (itstool) path: section/title
+#: C/geolocation-privacy.page:35
+msgid "What information is sent"
+msgstr "Είδος πληροφοριών που αποστέλλονται"
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:36
+msgid ""
+"What is possible to send is: your country, region, locality, area, street, "
+"building, floor, room, and postal code, longitude, latitude and altitude, "
+"speed and bearing."
+msgstr ""
+"Υπάρχει δυνατότητα αποστολής των ακόλουθων στοιχείων: χώρα, περιφέρεια, "
+"περιοχή, ταχυδρομικός κώδικας, οδός, κτίριο, όροφος, δωμάτιο, γεωγραφικός "
+"μήκος, γεωγραφικό πλάτος, υψόμετρο, ταχύτητα και προσανατολισμός."
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:40
+msgid ""
+"The accuracy and the quantity of information about your geographical "
+"position are based on the software or on the infrastructure used to discover "
+"your position."
+msgstr ""
+"Η ακρίβεια και η ποσότητα των πληροφοριών εξαρτώνται από το λογισμικό και "
+"την υποδομή που χρησιμοποιείται για τον εντοπισμό της θέσης σας."
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:44
+msgid ""
+"Different kind of networks may have different accuracy settings, and may "
+"send different information. The use of external devices such as GPS or "
+"mobile phone will increase the accuracy of the information sent."
+msgstr ""
+"Κάθε δίκτυο μπορεί να έχει διαφορετικές ρυθμίσεις ακριβείας και να στέλνει "
+"διαφορετικές πληροφορίες. Η χρήση εξωτερικών συσκευών, όπως είναι τα GPS και "
+"τα κινητά τηλέφωνα, μπορεί να αυξήσει την ακρίβεια των πληροφοριών."
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:49
+msgid ""
+"When the privacy mode is enabled, nothing more precise than your city will "
+"be sent, even if you are using an external device."
+msgstr ""
+"Αν είναι ενεργοποιημένη η λειτουργία απορρήτου, η πιο ακριβής πληροφορία που "
+"θα αποστέλλεται θα είναι η πόλη σας, ακόμη και αν χρησιμοποιείτε εξωτερική "
+"συσκευή."
+
+#. (itstool) path: section/title
+#: C/geolocation-privacy.page:56
+msgid "Who can see the information sent"
+msgstr "Πρόσβαση άλλων στις πληροφορίες"
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:57
+msgid "Only your contacts can see your geographical position."
+msgstr "Μόνο οι επαφές σας μπορούν να βλέπουν τη γεωγραφική σας θέση."
+
+#. (itstool) path: section/title
+#: C/geolocation-privacy.page:63
+msgid "What is the privacy mode"
+msgstr "Λειτουργία απορρήτου"
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:64
+msgid ""
+"The privacy mode, enabled by default, is a reduced accuracy mode that will "
+"decrease the accuracy of the geographical position sent to your contacts."
+msgstr ""
+"Η λειτουργία απορρήτου, που είναι και η προεπιλεγμένη, είναι μια λειτουργία "
+"που μειώνει την ακρίβεια της γεωγραφικής θέσης που αποστέλλεται στις επαφές "
+"σας."
+
+#. (itstool) path: section/title
+#: C/geolocation-privacy.page:71
+msgid "Privacy overview"
+msgstr "Περιγραφή απορρήτου"
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:72
+msgid ""
+"Overview of the various geolocation privacy settings in <app>Empathy</app>."
+msgstr ""
+"Περιγραφή των βασικών ρυθμίσεων απορρήτου για τον εντοπισμό τοποθεσίας στο "
+"<app>Empathy</app>."
+
+#. (itstool) path: item/p
+#: C/geolocation-privacy.page:77
+msgid "Geolocation is not enabled by default."
+msgstr "Ο εντοπισμός τοποθεσίας δεν ενεργοποιείται από προεπιλογή."
+
+#. (itstool) path: item/p
+#: C/geolocation-privacy.page:82
+msgid "Privacy mode is enabled by default."
+msgstr "Η λειτουργία απορρήτου είναι ενεργοποιημένη από προεπιλογή."
+
+#. (itstool) path: item/p
+#: C/geolocation-privacy.page:87
+msgid ""
+"Privacy mode prevails even when using external and more precise devices."
+msgstr ""
+"Η λειτουργία απορρήτου υπερισχύει, ακόμη και όταν χρησιμοποιούνται "
+"εξωτερικές συσκευές υψηλής ακρίβειας."
+
+#. (itstool) path: item/p
+#: C/geolocation-privacy.page:92
+msgid "Only your contacts can see your position."
+msgstr "Μόνο οι επαφές σας βλέπουν την τοποθεσία σας."
+
+#. (itstool) path: info/desc
+#: C/geolocation-supported.page:7
+msgid "Services that supports geolocation and compatibility."
+msgstr "Υπηρεσίες που υποστηρίζουν τον εντοπισμό τοποθεσίας και συμβατότητα."
+
+#. (itstool) path: page/title
+#: C/geolocation-supported.page:31
+msgid "Supported services"
+msgstr "Υποστηριζόμενες υπηρεσίες"
+
+#. (itstool) path: page/p
+#: C/geolocation-supported.page:33
+msgid ""
+"The geolocation feature at the moment is compatible only with the Jabber "
+"service. In order to use it, you and your contacts need to have a Jabber "
+"account."
+msgstr ""
+"Προς το παρόν, η λειτουργία εντοπισμού τοποθεσίας είναι συμβατή μόνο με την "
+"υπηρεσία Jabber. Για να τη χρησιμοποιήσετε, εσείς και οι επαφές σας θα "
+"πρέπει να διαθέτετε λογαριασμό Jabber."
+
+#. (itstool) path: note/p
+#: C/geolocation-supported.page:39
+msgid ""
+"It is necessary that also the server you are using supports the geolocation "
+"feature. Most of the Jabber servers support it. See your service website "
+"documentation for more information."
+msgstr ""
+"Επιπλέον, ο εξυπηρετητής που χρησιμοποιείτε θα πρέπει επίσης να υποστηρίζει "
+"τη λειτουργία εντοπισμού τοποθεσίας. Οι περισσότεροι εξυπηρετητές Jabber την "
+"υποστηρίζουν. Για περισσότερες πληροφορίες, δείτε την τεκμηρίωση στον "
+"ιστότοπο της υπηρεσίας σας."
+
+#. (itstool) path: section/title
+#: C/geolocation-supported.page:47
+msgid "Compatibility"
+msgstr "Συμβατότητα"
+
+#. (itstool) path: section/p
+#: C/geolocation-supported.page:49
+msgid ""
+"<app>Empathy</app> geolocation feature is not compatible with other "
+"geographical position services such as <em>Google Latitude</em>, <em>Yahoo "
+"Fire Eagle</em> or <em>Brightkite</em>."
+msgstr ""
+"Ο εντοπισμός τοποθεσίας του <app>Empathy</app> δεν είναι συμβατός με άλλες "
+"υπηρεσίες εντοπισμού γεωγραφικής θέσης, όπως οι <em>Google Latitude</em>, "
+"<em>Yahoo Fire Eagle</em> και <em>Brightkite</em>."
+
+#. (itstool) path: info/desc
+#: C/geolocation-turn.page:9
+msgid "How to activate and deactivate geolocation in <app>Empathy</app>."
+msgstr ""
+"Ενεργοποίηση και απενεργοποίηση του εντοπισμού τοποθεσίας στο <app>Empathy</"
+"app>."
+
+#. (itstool) path: page/title
+#: C/geolocation-turn.page:33
+msgid "Activate/Deactivate geolocation"
+msgstr "Ενεργοποίηση/Απενεργοποίηση εντοπισμού τοποθεσίας"
+
+#. (itstool) path: item/p
+#: C/geolocation-turn.page:37
+msgid "Choose <guiseq><gui>Edit</gui><gui>Preferences</gui></guiseq>."
+msgstr ""
+"Επιλέξτε <guiseq><gui>Επεξεργασία</gui><gui>Προτιμήσεις</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/geolocation-turn.page:42
+msgid "Select the <gui>Location</gui> tab."
+msgstr "Επιλέξτε την καρτέλα <gui>Τοποθεσία</gui>."
+
+#. (itstool) path: item/p
+#: C/geolocation-turn.page:47
+msgid ""
+"Select <gui>Publish location to my contacts</gui> to activate geolocation."
+msgstr ""
+"Επιλέξτε <gui>Δημοσίευση της τοποθεσίας μου στις επαφές μου</gui> για να "
+"ενεργοποιήσετε τον εντοπισμό τοποθεσίας."
+
+#. (itstool) path: item/p
+#: C/geolocation-turn.page:50
+msgid "To deactivate geolocation, deselect it."
+msgstr ""
+"Για να απενεργοποιήσετε τον εντοπισμό τοποθεσίας, αποεπιλέξτε την επιλογή."
+
+#. (itstool) path: item/p
+#: C/geolocation-turn.page:55
+msgid ""
+"To increase the accuracy of your position, deselect <gui>Reduce location "
+"accuracy</gui>."
+msgstr ""
+"Για να αυξήσετε την ακρίβεια του εντοπισμού, αποεπιλέξτε το <gui>Μείωση της "
+"ακρίβειας της τοποθεσίας μου</gui>."
+
+#. (itstool) path: item/p
+#: C/geolocation-turn.page:61
+msgid ""
+"If you have an external device like a GPS or want to send a more accurate "
+"position, select the appropriate option in the <gui>Location sources</gui> "
+"section."
+msgstr ""
+"Αν διαθέτετε μια εξωτερική συσκευή όπως GPS, ή αν θέλετε να στέλνετε πιο "
+"ακριβή στοιχεία για την τοποθεσία σας, σημειώστε την κατάλληλη επιλογή στην "
+"ενότητα <gui>Πηγές τοποθεσίας</gui>."
+
+#. (itstool) path: info/desc
+#: C/geolocation-what-is.page:9
+msgid "Understanding geolocation."
+msgstr "Κατανόηση του εντοπισμού τοποθεσίας."
+
+#. (itstool) path: page/title
+#: C/geolocation-what-is.page:33
+msgid "What is geolocation"
+msgstr "Περιγραφή εντοπισμού τοποθεσίας"
+
+#. (itstool) path: page/p
+#: C/geolocation-what-is.page:35
+msgid ""
+"Geolocation allows you to identify the real geographical location of a "
+"computer or a device connected to the Internet."
+msgstr ""
+"Ο εντοπισμός τοποθεσίας επιτρέπει την ανίχνευση της πραγματική γεωγραφικής "
+"θέσης ενός υπολογιστή ή άλλης συσκευής συνδεδεμένης στο διαδίκτυο."
+
+#. (itstool) path: page/p
+#: C/geolocation-what-is.page:37
+msgid "With geolocation in <app>Empathy</app> you can:"
+msgstr "Χάρη στον εντοπισμό τοποθεσίας, το <app>Empathy</app> σας επιτρέπει:"
+
+#. (itstool) path: item/p
+#: C/geolocation-what-is.page:42
+msgid "Publish your geographical location to your contacts."
+msgstr "Να δημοσιεύετε τη γεωγραφική σας θέση στις επαφές σας."
+
+#. (itstool) path: item/p
+#: C/geolocation-what-is.page:47
+msgid "See your contacts’ geographical location and quickly contact them."
+msgstr ""
+"Να βλέπετε τη γεωγραφική θέση των επαφών σας και να επικοινωνείτε πιο "
+"γρήγορα μαζί τους."
+
+#. (itstool) path: item/p
+#: C/geolocation-what-is.page:52
+msgid ""
+"Set the accuracy of your location and the device used to discover your "
+"location."
+msgstr ""
+"Να ορίζετε την ακρίβεια της τοποθεσίας σας και τη συσκευή που θα "
+"χρησιμοποιείται για τον εντοπισμό της τοποθεσίας σας."
+
+#. (itstool) path: note/p
+#: C/geolocation-what-is.page:60
+msgid ""
+"In order to see your contacts’ geographical locations, they need to use a "
+"service and an application that supports geolocation."
+msgstr ""
+"Για να μπορείτε να βλέπετε τις τοποθεσίες των επαφών σας, οι επαφές σας θα "
+"πρέπει να χρησιμοποιούν υπηρεσίες και εφαρμογές που υποστηρίζουν τον "
+"εντοπισμό τοποθεσίας."
+
+#. (itstool) path: info/desc
+#: C/group-conversations.page:8
+msgid "Start or join a group conversation with your contacts."
+msgstr "Έναρξη ομαδικών συζητήσεων ή είσοδος σε αυτές."
+
+#. (itstool) path: page/title
+#: C/group-conversations.page:34
+msgid "Group conversations"
+msgstr "Ομαδικές συζητήσεις"
+
+#. (itstool) path: page/p
+#: C/group-conversations.page:36
+msgid ""
+"Group conversations permits you to have text conversations with more than "
+"one contact at the same time."
+msgstr ""
+"Οι ομαδικές συζητήσεις σας επιτρέπουν να κάνετε γραπτή συζήτηση με "
+"περισσότερες από μία επαφές ταυτόχρονα."
+
+#. (itstool) path: page/p
+#: C/group-conversations.page:40
+msgid ""
+"To have a group conversation you need to have a registered account with "
+"either Jabber or Google Talk, or a People Nearby account."
+msgstr ""
+"Για να κάνετε ομαδικές συζητήσεις θα πρέπει να διαθέτετε λογαριασμό Jabber, "
+"Google Talk ή λογαριασμό Γειτονικών ατόμων."
+
+#. (itstool) path: note/p
+#: C/group-conversations.page:46
+msgid ""
+"You can have a group conversation only with the contacts that are using the "
+"same service as yours."
+msgstr ""
+"Μπορείτε να κάνετε ομαδικές συζητήσεις μόνο με επαφές που χρησιμοποιούν την "
+"ίδια υπηρεσία με εσάς."
+
+#. (itstool) path: section/title
+#: C/group-conversations.page:54
+msgid "Start a group conversation"
+msgstr "Έναρξη ομαδικής συζήτησης"
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:58 C/group-conversations.page:122
+#: C/irc-join-room.page:39
+msgid ""
+"From the <gui>Contact List</gui> window, choose <guiseq><gui>Room</"
+"gui><gui>Join</gui></guiseq>."
+msgstr ""
+"Από το παράθυρο <gui>Λίστα επαφών</gui>, επιλέξτε <guiseq><gui>Δωμάτιο</"
+"gui><gui>Είσοδος</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:63
+msgid ""
+"From the <gui>Account</gui> drop-down list, select the account you want to "
+"use for the group conversation."
+msgstr ""
+"Από την αναπτυσσόμενη λίστα <gui>Λογαριασμός</gui>, επιλέξτε το λογαριασμό "
+"που επιθυμείτε να χρησιμοποιήσετε για την ομαδική συζήτηση."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:69
+msgid ""
+"In the <gui>Server</gui> text box, type the name of server in which the "
+"conversation will be hosted."
+msgstr ""
+"Στο πεδίο <gui>Εξυπηρετητής</gui>, εισάγετε το όνομα του εξυπηρετητή που θα "
+"φιλοξενήσει τη συζήτηση."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:73
+msgid "Leave it empty if it will be on the current server."
+msgstr ""
+"Αφήστε το πεδίο κενό αν σκοπεύετε να χρησιμοποιήσετε τον τρέχοντα "
+"εξυπηρετητή."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:78
+msgid ""
+"In the <gui>Room</gui> text box, type the name you want to give to the "
+"conversation."
+msgstr "Στο πεδίο <gui>Δωμάτιο</gui>, εισάγετε ένα όνομα για τη νέα συζήτηση."
+
+#. (itstool) path: note/p
+#: C/group-conversations.page:82
+msgid ""
+"This will be the name of the room you are going to have a conversation. This "
+"name will be publicly available for other people to join. It is not possible "
+"to create a private room."
+msgstr ""
+"Αυτό θα είναι το όνομα του δωματίου όπου θα διεξαχθεί η συζήτηση. Το όνομα "
+"θα είναι δημόσιο και οποιοσδήποτε θα μπορεί να εισέλθει στο δωμάτιο. Δεν "
+"είναι δυνατή η δημιουργία ιδιωτικού δωματίου."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:90
+msgid ""
+"To invite other contacts to join the group conversation, from the "
+"<gui>Contact List</gui> window, select the contact you want to invite, and "
+"perform one of the following:"
+msgstr ""
+"Για να προσκαλέσετε και άλλες επαφές στην ομαδική συζήτηση, από το παράθυρο "
+"<gui>Λίστα επαφών</gui>, επιλέξτε την επαφή που θέλετε να προσκαλέσετε, και "
+"ακολουθήστε μία από τις παρακάτω διαδικασίες:"
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:97
+msgid "Right-click on the contact and choose <gui>Invite to chatroom</gui>."
+msgstr ""
+"Κάνετε δεξί κλικ στην επαφή και επιλέξτε <gui>Πρόσκληση στο δωμάτιο "
+"συζήτησης</gui>."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:102
+msgid ""
+"Choose <guiseq><gui>Edit</gui><gui>Contact</gui><gui>Invite to chatroom</"
+"gui></guiseq>."
+msgstr ""
+"Επιλέξτε <guiseq><gui>Επεξεργασία</gui><gui>Επαφή</gui><gui>Πρόσκληση στο "
+"δωμάτιο συζήτησης</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:107
+msgid ""
+"If you have more than one group conversation open, select the one you want "
+"to invite your contacts."
+msgstr ""
+"Αν έχετε διάφορες ομαδικές συζητήσεις ανοιχτές, επιλέξτε σε ποια θέλετε να "
+"προσκαλέσετε τις επαφές σας."
+
+#. (itstool) path: section/title
+#: C/group-conversations.page:118
+msgid "Join a group conversation"
+msgstr "Είσοδος σε ομαδική συζήτηση"
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:128
+msgid "Expand the <gui>Room List</gui> section to see all the existing rooms."
+msgstr ""
+"Αναπτύξτε την ενότητα <gui>Λίστα δωματίων</gui> για να δείτε όλα τα "
+"διαθέσιμα δωμάτια."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:133
+msgid "Double-click on the name of a room to join it."
+msgstr "Κάνετε διπλό κλικ στο όνομα ενός δωματίου για να μπείτε σε αυτό."
+
+#. (itstool) path: section/p
+#: C/group-conversations.page:139
+msgid ""
+"It is not possible to join all existing rooms. Some of the rooms might "
+"require a password, or might be invitation only. <app>Empathy</app> does not "
+"support these kind of rooms."
+msgstr ""
+"Δεν μπορείτε να μπείτε σε όλα τα δωμάτια. Κάποια δωμάτια μπορεί να απαιτούν "
+"συνθηματικό ή να δέχονται μόνο προσκεκλημένα μέλη. Το <app>Empathy</app> δεν "
+"υποστηρίζει αυτές τις κατηγορίες δωματίων."
+
+#. (itstool) path: info/desc
+#: C/hide-contacts.page:8
+msgid "Hide the offline contacts from your <gui>Contact List</gui>."
+msgstr ""
+"Απόκρυψη των αποσυνδεδεμένων επαφών από τη <gui>Λίστα επαφών</gui> σας."
+
+#. (itstool) path: page/title
+#: C/hide-contacts.page:19
+msgid "Hide offline contacts"
+msgstr "Απόκρυψη επαφών εκτός σύνδεσης"
+
+#. (itstool) path: page/p
+#: C/hide-contacts.page:21
+msgid ""
+"Normally, <app>Empathy</app> shows all your contacts: those that are online, "
+"with which you can have a conversation, and also those that are offline."
+msgstr ""
+"Κανονικά, το <app>Empathy</app> εμφανίζει όλες τις επαφές σας: αυτές που "
+"είναι συνδεδεμένες, με τις οποίες μπορείτε να ξεκινήσετε μια συνομιλία, αλλά "
+"και αυτές που βρίσκονται εκτός σύνδεσης."
+
+#. (itstool) path: page/p
+#: C/hide-contacts.page:25
+msgid "To hide the contacts that are offline:"
+msgstr "Για να αποκρύψετε τις αποσυνδεδεμένες επαφές:"
+
+#. (itstool) path: item/p
+#: C/hide-contacts.page:31
+msgid ""
+"From the <gui>Contact List</gui> window, choose <guiseq><gui>View</gui> "
+"<gui>Offline Contacts</gui></guiseq>, or press <keyseq><key>Ctrl</key> "
+"<key>H</key></keyseq>."
+msgstr ""
+"Από το παράθυρο <gui>Λίστα επαφών</gui>, επιλέξτε <guiseq><gui>Προβολή</gui> "
+"<gui>Επαφές εκτός σύνδεσης</gui></guiseq>, ή πατήστε <keyseq><key>Ctrl</key> "
+"<key>H</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/hide-contacts.page:36
+msgid "To show the offline contacts again, repeat the same procedure above."
+msgstr ""
+"Επαναλάβετε την ίδια διαδικασία για να εμφανίσετε και πάλι τις επαφές εκτός "
+"σύνδεσης."
+
+#. (itstool) path: info/desc
+#: C/import-account.page:10
+msgid "Import an account from another instant messaging application."
+msgstr "Εισαγωγή λογαριασμού από άλλη εφαρμογή άμεσων μηνυμάτων."
+
+#. (itstool) path: credit/name
+#: C/import-account.page:19
+msgid "Peter Haslam"
+msgstr "Peter Haslam"
+
+#. (itstool) path: page/title
+#: C/import-account.page:42
+msgid "Import an existing account"
+msgstr "Εισαγωγή υπάρχοντος λογαριασμού"
+
+#. (itstool) path: page/p
+#: C/import-account.page:44
+msgid ""
+"The first time you run <app>Empathy</app>, it will offer to import your "
+"accounts from other instant messaging applications. Currently, the only "
+"supported application is <app>Pidgin</app>."
+msgstr ""
+"Την πρώτη φορά που θα εκτελέσετε το <app>Empathy</app>, θα σας ρωτήσει αν "
+"θέλετε να εισάγετε τους λογαριασμούς σας από άλλες εφαρμογές άμεσων "
+"μηνυμάτων. Προς το παρόν, η μόνη εφαρμογή που υποστηρίζεται είναι το "
+"<app>Pidgin</app>."
+
+#. (itstool) path: item/p
+#: C/import-account.page:50
+msgid ""
+"Run <app>Empathy</app> for the first time. An assistant will offer you a "
+"number of options to create new accounts."
+msgstr ""
+"Εκτελέστε το <app>Empathy</app> για πρώτη φορά. Ο βοηθός θα σας προσφέρει "
+"μια σειρά επιλογών για τη δημιουργία νέων λογαριασμών."
+
+#. (itstool) path: item/p
+#: C/import-account.page:54
+msgid ""
+"Select <gui>Yes, import my account details from</gui> and click "
+"<gui>Forward</gui>."
+msgstr ""
+"Επιλέξτε <gui>Ναι, να γίνει εισαγωγή των στοιχείων του λογαριασμού μου από "
+"το </gui> και πατήστε <gui>Μπροστά</gui>."
+
+#. (itstool) path: item/p
+#: C/import-account.page:58
+msgid "Select the check box next to each account you wish to import."
+msgstr "Σημειώστε το κουτάκι δίπλα σε κάθε λογαριασμό που θέλετε να εισάγετε."
+
+#. (itstool) path: item/p
+#: C/import-account.page:61 C/irc-nick-password.page:63
+msgid "Click <gui style=\"button\">Apply</gui>."
+msgstr "Πατήστε <gui style=\"button\">Εφαρμογή</gui>."
+
+#. (itstool) path: note/p
+#: C/import-account.page:66
+msgid ""
+"It is not currently possible to import accounts after you have completed the "
+"first-run assistant."
+msgstr ""
+"Προς το παρόν, μπορείτε να εισάγετε λογαριασμούς μόνο από το βοηθό, δηλαδή "
+"μόνο την πρώτη φορά που εκτελείτε την εφαρμογή."
+
+#. (itstool) path: info/desc
+#: C/index.page:28
+msgid ""
+"Empathy is the instant messaging application for GNOME. It supports text, "
+"voice and video chat over many protocols."
+msgstr ""
+"Το Empathy είναι μια εφαρμογή άμεσων μηνυμάτων για το GNOME. Υποστηρίζει "
+"συνομιλία κειμένου, φωνής και βίντεο μέσα από πολλά πρωτόκολλα."
+
+#. (itstool) path: info/title
+#: C/index.page:30
+msgctxt "link"
+msgid "Empathy"
+msgstr "Empathy"
+
+#. (itstool) path: info/title
+#: C/index.page:31
+msgctxt "text"
+msgid "Empathy"
+msgstr "Empathy"
+
+#. (itstool) path: page/title
+#: C/index.page:34
+msgid "<_:media-1/> Empathy"
+msgstr "Empathy <_:media-1/>"
+
+#. (itstool) path: section/title
+#: C/index.page:40
+msgid "Account Management"
+msgstr "Διαχείριση λογαριασμών"
+
+#. (itstool) path: section/title
+#: C/index.page:44
+msgid "Contact Management"
+msgstr "Διαχείριση επαφών"
+
+#. (itstool) path: section/title
+#: C/index.page:48
+msgid "Text Conversations"
+msgstr "Γραπτές συζητήσεις"
+
+#. (itstool) path: section/title
+#: C/index.page:52
+msgid "Audio and Video Conversations"
+msgstr "Φωνητικές κλήσεις και βιντεοκλήσεις"
+
+#. (itstool) path: section/title
+#: C/index.page:56
+msgid "Advanced Actions"
+msgstr "Για προχωρημένους"
+
+#. (itstool) path: section/title
+#: C/index.page:60 C/irc-manage.page:64
+msgid "Common Problems"
+msgstr "Κοινά προβλήματα"
+
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/introduction.page:41
+msgctxt "_"
+msgid ""
+"external ref='figures/empathy-main-window.png' "
+"md5='54908dcb2588beddb15ef0968d2c2582'"
+msgstr ""
+"external ref='figures/empathy-main-window.png' "
+"md5='54908dcb2588beddb15ef0968d2c2582'"
+
+#. (itstool) path: info/desc
+#: C/introduction.page:9
+msgid "Introduction to the <app>Empathy</app> instant messenger."
+msgstr "Εισαγωγή στα άμεσα μηνύματα του <app>Empathy</app>."
+
+#. (itstool) path: page/title
+#: C/introduction.page:21
+msgid "Introduction"
+msgstr "Εισαγωγή"
+
+#. (itstool) path: page/p
+#: C/introduction.page:23
+msgid ""
+"<app>Empathy</app> is an instant messaging application for the GNOME "
+"Desktop. It supports text messaging, voice &amp; video calls, file "
+"transfers, and all the most used messaging systems such as Jabber and Google "
+"Talk."
+msgstr ""
+"Το <app>Empathy</app> είναι μια εφαρμογή αποστολής άμεσων μηνυμάτων για την "
+"επιφάνεια εργασίας του GNOME. Παρέχει υποστήριξη για αποστολή γραπτών "
+"μηνυμάτων, φωνητικές κλήσεις &amp; βιντεοκλήσεις, μεταφορά αρχείων, και όλα "
+"τα πιο δημοφιλή συστήματα αποστολής μηνυμάτων, όπως το Jabber και το Google "
+"Talk."
+
+#. (itstool) path: page/p
+#: C/introduction.page:28
+msgid ""
+"<app>Empathy</app> includes features that help you better collaborate while "
+"at work, and that let you easily keep in touch with your friends."
+msgstr ""
+"Το <app>Empathy</app> περιλαμβάνει λειτουργίες που διευκολύνουν τις "
+"επαγγελματικές σας συνεργασίες και σας επιτρέπουν να παραμένετε σε επαφή με "
+"τους φίλους σας."
+
+#. (itstool) path: page/p
+#: C/introduction.page:32
+msgid ""
+"Using <app>Empathy</app>, you can group all the conversations in a single "
+"window, have multiple windows for different kind of conversations, easily "
+"search through your previous conversations, and share your desktop in just "
+"two clicks."
+msgstr ""
+"Χρησιμοποιώντας το <app>Empathy</app>, μπορείτε να ομαδοποιείτε όλες τις "
+"συζητήσεις σε ένα ενιαίο παράθυρο, ή να έχετε πολλαπλά παράθυρα για "
+"διαφορετικά είδη συνομιλιών, να αναζητήσετε εύκολα τις προηγούμενες "
+"συζητήσεις σας και να μοιράζεστε την επιφάνεια εργασίας σας με δύο μόνο "
+"πατήματα."
+
+#. (itstool) path: figure/title
+#: C/introduction.page:39
+msgid "<gui>Contact List</gui> window"
+msgstr "Παράθυρο <gui>Λίστα επαφών</gui>"
+
+#. (itstool) path: figure/desc
+#: C/introduction.page:40
+msgid "<app>Empathy</app> main window"
+msgstr "Βασικό παράθυρο του <app>Empathy</app>"
+
+#. (itstool) path: media/p
+#: C/introduction.page:42
+msgid "<app>Empathy</app> main window."
+msgstr "Βασικό παράθυρο του <app>Empathy</app>."
+
+#. (itstool) path: info/desc
+#: C/irc-commands.page:7
+msgid "The supported IRC commands."
+msgstr "Οι εντολές του IRC που υποστηρίζονται."
+
+#. (itstool) path: page/title
+#: C/irc-commands.page:18
+msgid "Supported IRC commands"
+msgstr "Εντολές του IRC που υποστηρίζονται"
+
+#. (itstool) path: page/p
+#: C/irc-commands.page:19
+msgid ""
+"To see the list of the supported IRC commands, in a chat room type <input>/"
+"help</input> and press <key>Enter</key>."
+msgstr ""
+"Για να δείτε τη λίστα των εντολών του IRC που υποστηρίζονται, σε ένα δωμάτιο "
+"συζητήσεων πληκτρολογήστε <input>/help</input> και πιέστε το πλήκτρο "
+"<key>Enter</key>."
+
+#. (itstool) path: note/p
+#: C/irc-commands.page:24
+msgid "All commands available have a small description on their usage."
+msgstr "Όλες οι διαθέσιμες εντολές έχουν μια μικρή περιγραφή της χρήσης τους."
+
+#. (itstool) path: info/desc
+#: C/irc-join-pwd.page:9
+msgid "Enter password-protected IRC chat rooms."
+msgstr "Είσοδος σε δωμάτιο συζήτησης IRC προστατευμένο με συνθηματικό."
+
+#. (itstool) path: page/title
+#: C/irc-join-pwd.page:25
+msgid "Join a protected IRC chat room"
+msgstr "Είσοδος σε προστατευμένο δωμάτιο συζήτησης IRC"
+
+#. (itstool) path: page/p
+#: C/irc-join-pwd.page:27
+msgid ""
+"On some IRC networks, private IRC rooms may be protected with a password. If "
+"you know the password, use the following steps to join:"
+msgstr ""
+"Σε μερικά δίκτυα IRC, κάποια ιδιωτικά δωμάτια συζήτησης μπορεί να "
+"προστατεύονται με ένα συνθηματικό. Αν το γνωρίζετε, χρησιμοποιήστε τα "
+"ακόλουθα βήματα για να συνδεθείτε:"
+
+#. (itstool) path: item/p
+#: C/irc-join-pwd.page:33
+msgid "<link xref=\"irc-join-room\">Join the room</link> as normal."
+msgstr "<link xref=\"irc-join-room\">Συνδεθείτε στο δωμάτιο</link> κανονικά."
+
+#. (itstool) path: item/p
+#: C/irc-join-pwd.page:38
+msgid ""
+"Empathy will prompt you for a password. Enter the password for the IRC chat "
+"room and click <gui style=\"button\">Join</gui>."
+msgstr ""
+"Το Empathy θα σας ζητήσει συνθηματικό. Πληκτρολογήστε το συνθηματικό του "
+"δωματίου του IRC, και πατήστε το <gui style=\"button\">Είσοδος</gui>."
+
+#. (itstool) path: info/desc
+#: C/irc-join-room.page:8
+msgid "Join an IRC channel."
+msgstr "Είσοδος σε κανάλι IRC."
+
+#. (itstool) path: page/title
+#: C/irc-join-room.page:31
+msgid "Join an IRC chat room"
+msgstr "Είσοδος σε δωμάτιο συζήτησης IRC"
+
+#. (itstool) path: page/p
+#: C/irc-join-room.page:33
+msgid ""
+"You can join IRC chat rooms (also known as IRC channels) on any IRC network "
+"you’re connected to. To connect to an IRC network, see <link xref=\"add-"
+"account\"/> and <link xref=\"account-irc\"/>."
+msgstr ""
+"Μπορείτε να μπαίνετε σε δωμάτια συζήτησης IRC (γνωστά και ως κανάλια IRC) "
+"από οποιοδήποτε δίκτυο IRC στο οποίο έχετε συνδεθεί. Για τον τρόπο σύνδεσης "
+"σε δίκτυα IRC, δείτε την <link xref=\"add-account\"/> και την <link xref="
+"\"account-irc\"/>."
+
+#. (itstool) path: item/p
+#: C/irc-join-room.page:45
+msgid ""
+"From the <gui>Account</gui> drop-down list, select the IRC account that "
+"corresponds to the network you want to use."
+msgstr ""
+"Από την αναπτυσσόμενη λίστα <gui>Λογαριασμός</gui>, επιλέξτε το λογαριασμό "
+"IRC που αντιστοιχεί στο δίκτυο που σας ενδιαφέρει."
+
+#. (itstool) path: item/p
+#: C/irc-join-room.page:51
+msgid ""
+"In the <gui>Room</gui> text box, type the name of the channel you want to "
+"join. IRC channel names start with the hash character (<sys>#</sys>)."
+msgstr ""
+"Στο πεδίο κειμένου <gui>Δωμάτιο</gui>, εισάγετε το όνομα του καναλιού στο "
+"οποίο θέλετε να μπείτε. Τα ονόματα των καναλιών του IRC ξεκινούν πάντα με "
+"δίεση (<sys>#</sys>)."
+
+#. (itstool) path: item/p
+#: C/irc-join-room.page:57
+msgid "Click <gui>Join</gui> to enter the room."
+msgstr "Πατήστε <gui>Είσοδος</gui> για να μπείτε στο δωμάτιο."
+
+#. (itstool) path: note/p
+#: C/irc-join-room.page:64
+msgid ""
+"To join multiple rooms, you need to repeat the steps above for each room."
+msgstr ""
+"Για να μπείτε σε περισσότερα από ένα δωμάτια, επαναλάβετε την παραπάνω "
+"διαδικασία για κάθε δωμάτιο."
+
+#. (itstool) path: info/desc
+#: C/irc-manage.page:9
+msgid "How to use IRC with <app>Empathy</app>."
+msgstr "Χρήση IRC μέσω <app>Empathy</app>."
+
+#. (itstool) path: credit/name
+#: C/irc-manage.page:23
+msgid "Sindhu S"
+msgstr "Sindhu S"
+
+#. (itstool) path: page/title
+#: C/irc-manage.page:39
+msgid "Internet Relay Chat (IRC)"
+msgstr "Internet Relay Chat (IRC)"
+
+#. (itstool) path: when/p
+#: C/irc-manage.page:47
+msgid ""
+"<link action=\"install:telepathy-idle\" xref=\"index\"> Install telepathy-"
+"idle</link>"
+msgstr ""
+"<link action=\"install:telepathy-idle\" xref=\"index\"> Εγκατάσταση του "
+"telepathy-idle</link>"
+
+#. (itstool) path: info/title
+#: C/irc-manage.page:55
+msgctxt "link"
+msgid "IRC Chat Rooms and Conversations"
+msgstr "Δωμάτια και συζητήσεις IRC"
+
+#. (itstool) path: section/title
+#: C/irc-manage.page:57
+msgid "Chat Rooms and Conversations"
+msgstr "Δωμάτια και συζητήσεις"
+
+#. (itstool) path: info/title
+#: C/irc-manage.page:62
+msgctxt "link"
+msgid "Common IRC Problems"
+msgstr "Συχνά προβλήματα IRC"
+
+#. (itstool) path: info/desc
+#: C/irc-nick-password.page:10
+msgid "Protect your nickname to prevent other IRC users from using it."
+msgstr ""
+"Προστατέψτε το ψευδώνυμό σας για να εμποδίσετε τη χρήση του από άλλους "
+"χρήστες IRC."
+
+#. (itstool) path: page/title
+#: C/irc-nick-password.page:33
+msgid "Use a nickname password on IRC"
+msgstr "Χρήση συνθηματικού για το ψευδώνυμό σας στο IRC"
+
+#. (itstool) path: page/p
+#: C/irc-nick-password.page:35
+msgid ""
+"On some IRC networks, you can register your nickname with a service called "
+"NickServ. By sending special messages to NickServ, you can set your password "
+"and identify yourself. Some IRC chat rooms may not allow you to join without "
+"a registered nickname."
+msgstr ""
+"Σε ορισμένα δίκτυα IRC μπορείτε να καταχωρήσετε το ψευδώνυμό σας στην "
+"υπηρεσία NickServ. Ορίζετε το συνθηματικό σας στέλνοντας ειδικά μηνύματα στο "
+"NickServ, και το χρησιμοποιείτε για να εισέρχεστε. Ορισμένα δωμάτια "
+"συζήτησης IRC δεν επιτρέπουν την είσοδο χωρίς καταχωρημένο ψευδώνυμο."
+
+#. (itstool) path: page/p
+#: C/irc-nick-password.page:40
+msgid ""
+"<app>Empathy</app> does not currently support nickname registration. Some "
+"IRC networks, however, will automatically forward a <em>server password</em> "
+"to NickServ. On these networks, you can use the IRC password in "
+"<app>Empathy</app> to identify yourself to NickServ. The popular freenode "
+"network is known to have this feature."
+msgstr ""
+"Προς το παρόν, το <app>Empathy</app> δεν υποστηρίζει την καταχώρηση "
+"ψευδωνύμων. Ωστόσο, ορισμένα δίκτυα IRC προωθούν αυτόματα το <em>συνθηματικό "
+"εξυπηρετητή</em> στο NickServ. Σε αυτά τα δίκτυα, μπορείτε να χρησιμοποιείτε "
+"το συνθηματικό του IRC στο <app>Empathy</app> για να κάνετε την πιστοποίηση "
+"στο NickServ. Το δημοφιλές δίκτυο FreeNode ανήκει σε αυτήν την κατηγορία "
+"δικτύων."
+
+#. (itstool) path: page/p
+#: C/irc-nick-password.page:46
+msgid "To set an IRC server password:"
+msgstr "Για να ορίσετε συνθηματικό εξυπηρετητή IRC:"
+
+#. (itstool) path: item/p
+#: C/irc-nick-password.page:54
+msgid "Select the IRC account from the list on the left of the dialog."
+msgstr ""
+"Επιλέξτε το λογαριασμό IRC από τη λίστα στην αριστερή πλευρά του διαλόγου."
+
+#. (itstool) path: item/p
+#: C/irc-nick-password.page:57
+msgid ""
+"In the <gui>Password</gui> field, type the password you used to register "
+"your nikcname."
+msgstr ""
+"Στο πεδίο <gui></gui>, εισάγετε το συνθηματικό που χρησιμοποιήσατε για να "
+"καταχωρήσετε το ψευδώνυμό σας."
+
+#. (itstool) path: note/p
+#: C/irc-nick-password.page:69
+msgid ""
+"These instructions only allow you to use a password-protected nickname on "
+"certain IRC networks. It is not currently possible to register an IRC "
+"nickname or change your nickname password using <app>Empathy</app>."
+msgstr ""
+"Αυτές οι οδηγίες σας επιτρέπουν να χρησιμοποιείτε ψευδώνυμα με συνθηματικό "
+"σε ορισμένα μόνο δίκτυα IRC. Προς το παρόν, δεν μπορείτε να καταχωρήσετε "
+"ψευδώνυμο IRC, ή να αλλάξετε το συνθηματικό του ψευδωνύμου σας μέσω του "
+"<app>Empathy</app>."
+
+#. (itstool) path: info/desc
+#: C/irc-send-file.page:9
+msgid "<app>Empathy</app> does not currently support sending files using IRC."
+msgstr ""
+"Προς το παρόν, το <app>Empathy</app> δεν υποστηρίζει την αποστολή αρχείων "
+"μέσω IRC."
+
+#. (itstool) path: page/title
+#: C/irc-send-file.page:31
+msgid "Send files over IRC"
+msgstr "Αποστολή αρχείων μέσω IRC"
+
+#. (itstool) path: page/p
+#: C/irc-send-file.page:33
+msgid "It is not currently possible to send files using IRC."
+msgstr "Προς το παρόν, δεν μπορείτε να στέλνετε αρχεία μέσω IRC."
+
+#. (itstool) path: info/desc
+#: C/irc-start-conversation.page:8
+msgid "Start a conversation with an IRC contact."
+msgstr "Έναρξη συζήτησης με επαφή στο IRC."
+
+#. (itstool) path: page/title
+#: C/irc-start-conversation.page:30
+msgid "Chat with somebody on IRC"
+msgstr "Συζήτηση στο IRC"
+
+#. (itstool) path: page/p
+#: C/irc-start-conversation.page:32
+msgid ""
+"You can hold private conversations with other IRC users, outside of the "
+"public IRC chat rooms. To start a conversation with another IRC user:"
+msgstr ""
+"Μπορείτε να κάνετε ιδιωτικές συζητήσεις με άλλους χρήστες του IRC, έξω από "
+"τα δημόσια δωμάτια συζήτησης. Για να ξεκινήσετε μια συζήτηση με άλλο χρήστη "
+"IRC:"
+
+#. (itstool) path: item/p
+#: C/irc-start-conversation.page:37
+msgid ""
+"In the contact list for an IRC chat room, double click the name of the user "
+"you want to chat with. Alternatively, right click the name of the user and "
+"choose <gui>Chat</gui>."
+msgstr ""
+"Στη λίστα επαφών ενός δωματίου IRC, κάνετε διπλό κλικ στο όνομα του χρήστη "
+"που σας ενδιαφέρει. Εναλλακτικά, κάνετε δεξί κλικ στο όνομα του χρήστη και "
+"επιλέξτε <gui>Συζήτηση</gui>."
+
+#. (itstool) path: item/p
+#: C/irc-start-conversation.page:45
+msgid ""
+"The IRC room contact list is not the same as <app>Empathy</app> contact "
+"list. It contains a list of users in the IRC chat room you joined. Different "
+"rooms can have different contacts listed."
+msgstr ""
+"Η λίστα επαφών ενός δωματίου IRC δεν είναι η ίδια με τη λίστα επαφών του "
+"<app>Empathy</app>. Πρόκειται για λίστα που περιλαμβάνει όλους τους χρήστες "
+"του δωματίου IRC στο οποίο μπήκατε. Κάθε δωμάτιο IRC έχει διαφορετική λίστα "
+"επαφών."
+
+#. (itstool) path: item/p
+#: C/irc-start-conversation.page:52
+msgid ""
+"The IRC room contact list is usually on the right side of the IRC room "
+"window. If you do not see it, choose <guiseq><gui>Conversation</"
+"gui><gui>Show Contact List</gui></guiseq>."
+msgstr ""
+"Η λίστα επαφών των δωματίων IRC συνήθως βρίσκεται στη δεξιά πλευρά του "
+"παραθύρου του δωματίου. Αν δεν τη βλέπετε, επιλέξτε <guiseq><gui>Συζήτηση</"
+"gui><gui>Εμφάνιση λίστας επαφών</gui></guiseq>."
+
+#. (itstool) path: info/desc
+#: C/license.page:8
+msgid "Legal information."
+msgstr "Νομικές πληροφορίες."
+
+#. (itstool) path: page/title
+#: C/license.page:11
+msgid "License"
+msgstr "Άδεια"
+
+#. (itstool) path: page/p
+#: C/license.page:12
+msgid ""
+"This work is distributed under a CreativeCommons Attribution-Share Alike 3.0 "
+"Unported license."
+msgstr ""
+"Το έργο διανέμεται υπό τους όρους της άδειας Creative Commons Attribution-"
+"Share Alike 3.0 Unported."
+
+#. (itstool) path: page/p
+#: C/license.page:20
+msgid "You are free:"
+msgstr "Μπορείτε να:"
+
+#. (itstool) path: item/title
+#: C/license.page:25
+msgid "<em>To share</em>"
+msgstr "<em>Να μοιραστείτε</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:26
+msgid "To copy, distribute and transmit the work."
+msgstr "Να αντιγράψετε, να διανείμετε και να μεταδόσετε το έργο."
+
+#. (itstool) path: item/title
+#: C/license.page:29
+msgid "<em>To remix</em>"
+msgstr "<em>Να τροποιήσετε</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:30
+msgid "To adapt the work."
+msgstr "Να τροποποιήσετε το έργο."
+
+#. (itstool) path: page/p
+#: C/license.page:33
+msgid "Under the following conditions:"
+msgstr "Υπό τους εξής όρους:"
+
+#. (itstool) path: item/title
+#: C/license.page:38
+msgid "<em>Attribution</em>"
+msgstr "<em>Απόδοση</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:39
+msgid ""
+"You must attribute the work in the manner specified by the author or "
+"licensor (but not in any way that suggests that they endorse you or your use "
+"of the work)."
+msgstr ""
+"Πρέπει να αναφέρετε την πηγή του έργου με τον τρόπο που καθορίζεται από το "
+"δημιουργό του ή αυτόν που παρέχει την άδεια (αλλά όχι με τρόπο που να εννοεί "
+"ότι εγκρίνουν εσάς ή τη δική σας χρήση του έργου)."
+
+#. (itstool) path: item/title
+#: C/license.page:46
+msgid "<em>Share Alike</em>"
+msgstr "<em>Παρόμοια διανομή</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:47
+msgid ""
+"If you alter, transform, or build upon this work, you may distribute the "
+"resulting work only under the same, similar or a compatible license."
+msgstr ""
+"Αν μετατρέψετε, μετασχηματίσετε ή επεκτείνετε αυτό το έργο, μπορείτε να "
+"αναδιανείμετε το αποτέλεσμα υπό την ίδια, παρόμοια ή συμβατή άδεια χρήσης."
+
+#. (itstool) path: page/p
+#: C/license.page:53
+msgid ""
+"For the full text of the license, see the <link href=\"http://"
+"creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
+"link>, or read the full <link href=\"http://creativecommons.org/licenses/by-"
+"sa/3.0/\">Commons Deed</link>."
+msgstr ""
+"Για το πλήρες κείμενο της άδειας, δείτε τον <link href=\"http://"
+"creativecommons.org/licenses/by-sa/3.0/legalcode\">ιστότοπο CreativeCommons</"
+"link>, ή διαβάστε όλη την <link href=\"http://creativecommons.org/licenses/"
+"by-sa/3.0/\">Πράξη Commons</link>."
+
+#. (itstool) path: info/desc
+#: C/link-contacts.page:11
+msgid "Merge and separate different contacts into a single one."
+msgstr "Συγχωνεύστε και διαχωρίστε διαφορετικές επαφές σε μία."
+
+#. (itstool) path: credit/name
+#: C/link-contacts.page:19
+msgid "Shobha Tyagi"
+msgstr "Shobha Tyagi"
+
+#. (itstool) path: page/title
+#: C/link-contacts.page:29
+msgid "Link and unlink contacts"
+msgstr "Σύνδεση και αποσύνδεση επαφών"
+
+#. (itstool) path: page/p
+#: C/link-contacts.page:30
+msgid ""
+"If one or more of your contacts has multiple accounts with different "
+"messaging services, you can combine these accounts into a single contact."
+msgstr ""
+"Αν μία, ή περισσότερες, από τις επαφές σας έχει πολλαπλούς λογαριασμούς με "
+"διαφορετικές υπηρεσίες μηνυμάτων, μπορείτε να συγχωνεύσετε αυτούς τους "
+"λογαριασμούς σε έναν μοναδικό λογαριασμό."
+
+#. (itstool) path: page/p
+#: C/link-contacts.page:34
+msgid ""
+"The resulting contact is called a <em>meta-contact</em>: a contact composed "
+"from different single contacts."
+msgstr ""
+"Η επαφή που προκύπτει ονομάζεται <em>μετα-επαφή</em>: μια επαφή αποτελούμενη "
+"από διαφορετικές απλές επαφές."
+
+#. (itstool) path: page/p
+#: C/link-contacts.page:38
+msgid ""
+"Suppose you have a contact called Jane Smith who is using three different "
+"messaging services like:"
+msgstr ""
+"Αν έχετε μια επαφή που λέγεται Μαρία Παπαδοπούλου και χρησιμοποιεί τρεις "
+"διαφορετικές υπηρεσίες μηνυμάτων όπως:"
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:44
+msgid "jane.smith@gmail"
+msgstr "maria.papad@gmail"
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:49
+msgid "jane_smith@hotmail"
+msgstr "maria_papad@hotmail"
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:54
+msgid "janes@yahoo"
+msgstr "janes@yahoo"
+
+#. (itstool) path: page/p
+#: C/link-contacts.page:59
+msgid "You can combine these contacts into a single Jane Smith one."
+msgstr ""
+"Μπορείτε να συνδυάσετε αυτές τις επαφές σε μία μόνο Μαρία Παπαδοπούλου."
+
+#. (itstool) path: section/title
+#: C/link-contacts.page:63
+msgid "Link contacts"
+msgstr "Σύνδεση επαφών"
+
+#. (itstool) path: section/p
+#: C/link-contacts.page:64
+msgid "The way you can link your contacts is as follows:"
+msgstr "Ο τρόπος που μπορείτε να συνδέσετε τις επαφές σας είναι ο εξής:"
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:69
+msgid ""
+"Press the tick button to select entries you want to link. This will enable "
+"<em>selection mode</em> and you can see a checkbox for each entry."
+msgstr ""
+"Πατήστε το κουμπί επιλογής για να επιλέξετε τις καταχωρίσεις που θέλετε να "
+"συνδέσετε. Αυτό θα ενεργοποιήσει την <em>κατάσταση επιλογής</em> και θα "
+"μπορέσετε να δείτε ένα πλαίσιο ελέγχου για κάθε καταχώριση."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:75
+msgid ""
+"Tick the checkboxes that correspond to the <app>Contacts</app> entries which "
+"belong to the same contact."
+msgstr ""
+"Σημειώστε τα πλαίσια ελέγχου που αντιστοιχούν στις καταχωρίσεις <app>Επαφές</"
+"app> που ανήκουν στην ίδια επαφή."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:81
+msgid "Press <gui style=\"button\">Link</gui>."
+msgstr "Πατήστε <gui style=\"button\">Σύνδεση</gui>."
+
+#. (itstool) path: section/p
+#: C/link-contacts.page:86
+msgid "Repeat steps 3 and 4 in order to link other contacts."
+msgstr "Επαναλάβετε τα βήματα 3 και 4 για να συνδέσετε άλλες επαφές."
+
+#. (itstool) path: section/title
+#: C/link-contacts.page:92
+msgid "Unlink contacts"
+msgstr "Αποσύνδεση επαφών"
+
+#. (itstool) path: section/p
+#: C/link-contacts.page:93
+msgid "To unlink a linked contact:"
+msgstr "Για να αποσυνδέσετε μια συνδεμένη επαφή:"
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:98
+msgid "Select the contact from your list."
+msgstr "Επιλέξτε την επαφή από τον κατάλογο."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:103
+msgid ""
+"Press <gui style=\"button\">Edit</gui> in the top-right corner of "
+"<app>Contacts</app>."
+msgstr ""
+"Πατήστε <gui style=\"button\">Επεξεργασία</gui> στην πάνω δεξιά γωνία του "
+"<app>Επαφές</app>."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:108
+msgid "Press <gui style=\"button\">Linked Contacts</gui>."
+msgstr "Πατήστε <gui style=\"button\">Συνδεμένες επαφές</gui>."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:113
+msgid ""
+"Press <gui style=\"button\">Remove</gui> to unlink an entry from the linked "
+"contact."
+msgstr ""
+"Πατήστε στο <gui style=\"button\">Αφαίρεση</gui> για να αποσυνδέσετε μια "
+"καταχώριση από την συνδεμένη επαφή."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:118
+msgid ""
+"Press <gui style=\"button\">Close</gui> if you do not want to unlink any "
+"more contacts."
+msgstr ""
+"Πατήστε <gui style=\"button\">Κλείσιμο</gui> αν δεν θέλετε να αποσυνδέσετε "
+"περισσότερες επαφές."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:123
+msgid "Finally, press <gui style=\"button\">Done</gui> to finish editing."
+msgstr ""
+"Τελικά, πατήστε <gui style=\"button\">Έτοιμο</gui> για να τελειώσετε την "
+"επεξεργασία."
+
+#. (itstool) path: info/desc
+#: C/overview.page:9
+msgid "What instant messaging is and how you can use it."
+msgstr "Τι άμεσο μήνυμα είναι και πώς μπορείτε να το χρησιμοποιήσετε."
+
+#. (itstool) path: credit/name
+#: C/overview.page:13
+msgid "Aruna S"
+msgstr "Aruna S"
+
+#. (itstool) path: page/title
+#: C/overview.page:25
+msgid "Overview of instant messaging"
+msgstr "Επισκόπηση άμεσων μηνυμάτων"
+
+#. (itstool) path: page/p
+#: C/overview.page:27
+msgid ""
+"Instant messaging, sometimes abbreviated to IM, is a text-based means to "
+"communicate instantly over the internet and the local network. While some IM "
+"applications work with only one type of account, others, including <link "
+"xref=\"introduction\">Empathy</link>, provide IM facilities by using <link "
+"xref=\"add-account\">accounts</link> from different service providers. Some "
+"of these even support audio and video calling."
+msgstr ""
+"Τα άμεσα μηνύματα, μερικές φορές συντομευμένα ως IM, είναι μέσα με βάση "
+"κείμενο για στιγμιαία επικοινωνία μέσω διαδικτύου και του τοπικού δικτύου. "
+"Ενώ μερικές εφαρμογές IM δουλεύουν με μόνο έναν τύπο λογαριασμού, άλλες, "
+"συμπεριλαμβάνουν το <link xref=\"introduction\">Empathy</link>, που παρέχει "
+"διευκολύνσεις IM χρησιμοποιώντας <link xref=\"add-account\">λογαριασμούς</"
+"link> από διαφορετικούς παρόχους υπηρεσίας. Κάποιοι από αυτούς υποστηρίζουν "
+"ακόμα κλήση ήχου και βίντεο."
+
+#. (itstool) path: td/p
+#: C/overview.page:43
+msgid "Video Conference"
+msgstr "Βιντεοδιάσκεψη"
+
+#. (itstool) path: td/p
+#: C/overview.page:44
+msgid "Group chats"
+msgstr "Ομαδικές συνομιλίες"
+
+#. (itstool) path: td/p
+#: C/overview.page:45
+msgid "Chat rooms"
+msgstr "Δωμάτια συνομιλίας"
+
+#. (itstool) path: page/p
+#: C/overview.page:49
+msgid ""
+"Some instant messaging applications can be used to connect to chat rooms, "
+"online places where like-minded people meet to talk. One popular means to "
+"connect to several chat rooms is the Internet Relay Chat, also known as "
+"<link xref=\"irc-manage\">IRC</link>. IRC provides <link xref=\"irc-join-room"
+"\">public</link> chat rooms, which are open to anyone who creates an account "
+"on the IRC Server, and private chat rooms, which are <link xref=\"irc-join-"
+"pwd\">password protected</link> and open only to a select few."
+msgstr ""
+"Μερικές εφαρμογές άμεσων μηνυμάτων μπορούν να χρησιμοποιηθούν για σύνδεση με "
+"δωμάτια συνομιλιών, με δικτυακές θέσεις όπου άτομα με τα ίδια ενδιαφέροντα "
+"συναντιούνται για να συζητήσουν. Ένα δημοφιλές μέσο σύνδεσης σε πολλά "
+"δωμάτια συνομιλιών είναι οι διαδικτυακές μεταγωγές, γνωστές επίσης ως <link "
+"xref=\"irc-manage\">IRC</link>. Το IRC παρέχει <link xref=\"irc-join-room"
+"\">δημόσια</link> δωμάτια συνομιλίας, που είναι ανοικτά σε οποιονδήποτε "
+"δημιουργήσει έναν λογαριασμό στον εξυπηρετητή IRC και ιδιωτικά δωμάτια "
+"συνομιλίας, που <link xref=\"irc-join-pwd\">προστατεύονται με κωδικό</link> "
+"και ανοίγουν μόνο σε λίγους επιλεγμένους."
+
+#. (itstool) path: info/desc
+#: C/prev-conv.page:8
+msgid "Browse or search your previous conversations."
+msgstr "Περιήγηση ή αναζήτηση σε προηγούμενες συζητήσεις."
+
+#. (itstool) path: page/title
+#: C/prev-conv.page:36
+msgid "View previous conversations"
+msgstr "Προβολή προηγούμενων συζητήσεων"
+
+#. (itstool) path: page/p
+#: C/prev-conv.page:38
+msgid ""
+"<app>Empathy</app> automatically saves all your text conversations you have "
+"with your contacts. You can <link xref=\"#search\">search through all of "
+"your previous conversations</link> or <link xref=\"#browse\">browse previous "
+"conversations</link> by contact and date."
+msgstr ""
+"Το <app>Empathy</app> αποθηκεύει αυτόματα τις γραπτές συζητήσεις σας με τις "
+"επαφές σας. Μπορείτε να κάνετε <link xref=\"#search\">αναζήτηση σε όλες τις "
+"προηγούμενες συζητήσεις σας</link> ή <link xref=\"#browse\">περιήγηση στης "
+"προηγούμενες συζητήσεις σας</link> με βάση το όνομα της επαφής και την "
+"ημερομηνία."
+
+#. (itstool) path: note/p
+#: C/prev-conv.page:46
+msgid ""
+"You do not need to be connected to the Internet to view and search your "
+"previous conversations."
+msgstr ""
+"Δεν χρειάζεται να είστε συνδεδεμένοι στο διαδίκτυο για να δείτε και να "
+"ψάξετε τις προηγούμενες συζητήσεις σας."
+
+#. (itstool) path: section/title
+#: C/prev-conv.page:53
+msgid "Search previous conversations"
+msgstr "Αναζήτηση προηγούμενων συζητήσεων"
+
+#. (itstool) path: section/p
+#: C/prev-conv.page:55
+msgid ""
+"You can perform a full-text search through all of your previous "
+"conversations."
+msgstr ""
+"Μπορείτε να κάνετε αναζητήσεις στο πλήρες κείμενο όλων των προηγούμενων "
+"συζητήσεών σας."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:59 C/prev-conv.page:87
+msgid ""
+"From the <gui>Contact List</gui> window, choose <guiseq><gui>View</gui> "
+"<gui>Previous Conversations</gui></guiseq>. Alternatively, press <key>F3</"
+"key>."
+msgstr ""
+"Από το παράθυρο <gui>Λίστα επαφών</gui>, επιλέξτε <guiseq><gui>Προβολή</gui> "
+"<gui>Προηγούμενες συζητήσεις</gui></guiseq>. Εναλλακτικά, πατήστε <key>F3</"
+"key>."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:63
+msgid ""
+"Select an account from the drop-down list in the top. A list of contacts and "
+"chat room for that account will be shown below."
+msgstr ""
+"Επιλέξτε ένα λογαριασμό από την πάνω αναπτυσσόμενη λίστα. Από κάτω θα "
+"εμφανιστεί η λίστα επαφών και δωματίων συζήτησης γι' αυτόν το λογαριασμό."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:67
+msgid ""
+"Type the text you want to search for in the <gui>Search</gui> text field."
+msgstr ""
+"Πληκτρολογήστε το κείμενο που θέλετε να αναζητήσετε στο πεδίο κειμένου "
+"<gui>Αναζήτηση</gui>."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:71
+msgid ""
+"Any conversations that matched your search terms will be shown. By default, "
+"conversations are ordered by date."
+msgstr ""
+"Οι συζητήσεις που αντιστοιχούν στους όρους της αναζήτησης θα εμφανιστούν. Η "
+"προεπιλογή είναι, οι συζητήσεις να ταξινομούνται κατά ημερομηνία."
+
+#. (itstool) path: section/title
+#: C/prev-conv.page:80
+msgid "Browse previous conversations"
+msgstr "Περιήγηση προηγούμενων συζητήσεων"
+
+#. (itstool) path: section/p
+#: C/prev-conv.page:82
+msgid ""
+"You can browse your previous conversations with your contacts or in chat "
+"rooms by date."
+msgstr ""
+"Μπορείτε να εμφανίζετε τις προηγούμενες συζητήσεις σας, με τις επαφές σας ή "
+"σε δωμάτια συζήτησης, τοποθετημένες σε χρονολογική σειρά."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:91
+msgid ""
+"Select an account from the drop-down list in the top left. A list of "
+"contacts and chat room for that account will be shown below."
+msgstr ""
+"Επιλέξτε ένα λογαριασμό από την αναπτυσσόμενη λίστα πάνω αριστερά. Από κάτω "
+"θα εμφανιστεί η λίστα επαφών και δωματίων συζήτησης που αντιστοιχεί σε αυτόν "
+"το λογαριασμό."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:95
+msgid ""
+"Select a contact or chat room to view your previous conversations from. By "
+"default the most recent conversation will be shown."
+msgstr ""
+"Επιλέξτε μια επαφή ή ένα δωμάτιο συζήτησης για να δείτε τις αντίστοιχες "
+"προηγούμενες συζητήσεις. Η προεπιλογή είναι να εμφανίζεται η πιο πρόσφατη "
+"συζήτηση."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:99
+msgid ""
+"You can browse your conversations by date. Days on which you had a "
+"conversation with the selected contact will be shown in bold text. Click a "
+"date to select it. Click the arrows next to the month and year to browse "
+"earlier dates."
+msgstr ""
+"Μπορείτε να περιηγηθείτε στις συζητήσεις σας με βάση την ημερομηνία. Οι "
+"ημέρες που είχατε συζητήσει με την επιλεγμένη επαφή εμφανίζονται με έντονους "
+"χαρακτήρες. Κάνετε κλικ σε μια ημερομηνία για να την επιλέξετε. "
+"Χρησιμοποιήστε τα βέλη δίπλα από το μήνα και το έτος για να επιλέξετε "
+"παλαιότερες ημερομηνίες."
+
+#. (itstool) path: section/p
+#: C/prev-conv.page:105
+msgid ""
+"You can search for text in the conversations by typing into the search field "
+"at the top. The matching conversations will be showed."
+msgstr ""
+"Μπορείτε να κάνετε αναζήτηση για κείμενο στις συζητήσεις πληκτρολογώντας στο "
+"πεδίο αναζήτησης στο πάνω μέρος. Θα εμφανιστεί η ζητούμενη συνομιλία."
+
+#. (itstool) path: note/p
+#: C/prev-conv.page:111
+msgid ""
+"You can quickly view the previous conversations with one of your contacts "
+"from the <gui>Contact List</gui> window. Simply right click the contact and "
+"choose <gui>Previous Conversations</gui>. The <gui>Previous Conversations</"
+"gui> window will open with that contact already selected."
+msgstr ""
+"Υπάρχει ένας γρήγορος τρόπος για να προβάλετε τις προηγούμενες συζητήσεις "
+"σας με μία επαφή από το παράθυρο <gui>Λίστα επαφών</gui>. Απλά κάντε δεξί "
+"κλικ στην επαφή και επιλέξτε <gui>Προηγούμενες συζητήσεις</gui>. Θα "
+"εμφανιστεί το παράθυρο <gui>Προηγούμενες συζητήσεις</gui> με τη συγκεκριμένη "
+"επαφή επιλεγμένη."
+
+#. (itstool) path: info/desc
+#: C/prob-conn-acctdisabled.page:7
+msgid ""
+"The instant messaging account that you want to use is not enabled in the "
+"list of accounts."
+msgstr ""
+"Ο λογαριασμός άμεσων μηνυμάτων που προσπαθείτε να χρησιμοποιήσετε δεν "
+"εμφανίζεται ενεργοποιημένος στη λίστα λογαριασμών."
+
+#. (itstool) path: page/title
+#: C/prob-conn-acctdisabled.page:34
+msgid "My account is not enabled"
+msgstr "Ο λογαριασμός μου δεν είναι ενεργοποιημένος"
+
+#. (itstool) path: page/p
+#: C/prob-conn-acctdisabled.page:36
+msgid ""
+"If the instant messaging account that you want to use is not enabled in the "
+"drop-down account list when you try to start a new conversation or join a "
+"room, your account details may not be correct."
+msgstr ""
+"Αν ένας λογαριασμός άμεσων μηνυμάτων δεν εμφανίζεται ενεργοποιημένος στην "
+"αναπτυσσόμενη λίστα λογαριασμών, όταν προσπαθείτε να ξεκινήσετε μια συζήτηση "
+"ή να μπείτε σε ένα δωμάτιο, τα στοιχεία του λογαριασμού μπορεί να είναι "
+"λανθασμένα."
+
+#. (itstool) path: item/p
+#: C/prob-conn-acctdisabled.page:44 C/prob-conn-auth.page:46
+#: C/prob-conn-neterror.page:54
+msgid ""
+"Make sure that you are connected to the Internet, or to a local area network."
+msgstr "Βεβαιωθείτε ότι είστε συνδεδεμένοι στο διαδίκτυο ή στο τοπικό δίκτυο."
+
+#. (itstool) path: item/p
+#: C/prob-conn-acctdisabled.page:49
+msgid ""
+"Choose <guiseq><gui>Edit</gui><gui>Accounts</gui></guiseq> and select the "
+"account that is not working."
+msgstr ""
+"Επιλέξτε πρώτα <guiseq><gui>Επεξεργασία</gui><gui>Λογαριασμοί</gui></"
+"guiseq>, και μετά το λογαριασμό που δε λειτουργεί."
+
+#. (itstool) path: item/p
+#: C/prob-conn-acctdisabled.page:55 C/prob-conn-auth.page:62
+msgid ""
+"Type your username and password again to make sure that they are correct."
+msgstr ""
+"Εισάγετε ξανά το όνομα χρήστη και το συνθηματικό σας, για να βεβαιωθείτε ότι "
+"τα είχατε πληκτρολογήσει σωστά."
+
+#. (itstool) path: item/p
+#: C/prob-conn-acctdisabled.page:60 C/prob-conn-neterror.page:63
+msgid ""
+"Check in the <gui>Advanced</gui> section that all the details are correct. "
+"You should be able to find these details from the website of the messaging "
+"service."
+msgstr ""
+"Στην ενότητα <gui>Για προχωρημένους</gui>, ελέγξτε ότι όλα τα στοιχεία είναι "
+"σωστά. Τα στοιχεία θα πρέπει να είναι διαθέσιμα στον ιστότοπο της υπηρεσίας "
+"άμεσων μηνυμάτων."
+
+#. (itstool) path: item/p
+#: C/prob-conn-acctdisabled.page:66
+msgid "Check that the account is switched on."
+msgstr "Βεβαιωθείτε ότι ο λογαριασμός είναι ενεργοποιημένος."
+
+#. (itstool) path: info/desc
+#: C/prob-conn-auth.page:9
+msgid ""
+"An error message which says “<gui>Authentication failed</gui>” appears in "
+"the main window."
+msgstr ""
+"Στο κύριο παράθυρο εμφανίζεται το μήνυμα λάθους “<gui>Η πιστοποίηση απέτυχε</"
+"gui>”."
+
+#. (itstool) path: page/title
+#: C/prob-conn-auth.page:37
+msgid "I get a message that says “Authentication failed”"
+msgstr "Λαμβάνω το μήνυμα “Η πιστοποίηση απέτυχε”"
+
+#. (itstool) path: page/p
+#: C/prob-conn-auth.page:39
+msgid ""
+"This kind of error happens when your instant messaging service is not "
+"allowing you to connect because it does not recognize your username or "
+"password for some reason."
+msgstr ""
+"Αυτό το σφάλμα εμφανίζεται όταν η υπηρεσία άμεσων μηνυμάτων δε σας επιτρέπει "
+"να συνδεθείτε, επειδή, για οποιονδήποτε λόγο, δεν αναγνωρίζει το όνομα "
+"χρήστη ή το συνθηματικό σας."
+
+#. (itstool) path: item/p
+#: C/prob-conn-auth.page:51
+msgid ""
+"Make sure that you have registered an account with the service you are "
+"trying to connect to. If you do not have an account, most services will not "
+"allow you to connect."
+msgstr ""
+"Βεβαιωθείτε ότι διαθέτετε λογαριασμό στη συγκεκριμένη υπηρεσία. Οι "
+"περισσότερες υπηρεσίες άμεσων μηνυμάτων δε θα σας επιτρέψουν να συνδεθείτε "
+"χωρίς λογαριασμό."
+
+#. (itstool) path: media/span
+#: C/prob-conn-auth.page:58 C/prob-conn-name.page:44
+#: C/prob-conn-neterror.page:59
+msgid "edit"
+msgstr "επεξεργασία"
+
+#. (itstool) path: item/p
+#: C/prob-conn-auth.page:58 C/prob-conn-name.page:44
+#: C/prob-conn-neterror.page:59
+msgid "Click the <_:media-1/> icon in the error message."
+msgstr "Πατήστε το εικονίδιο <_:media-1/> στο μήνυμα σφάλματος."
+
+#. (itstool) path: item/p
+#: C/prob-conn-auth.page:67
+msgid ""
+"Deselect the <gui>Enabled</gui>, and then select it again to try to "
+"reconnect to the service."
+msgstr ""
+"Αποεπιλέξτε το <gui>Ενεργός</gui> και επιλέξτε το ξανά, για να γίνει νέα "
+"προσπάθεια σύνδεσης στην υπηρεσία."
+
+#. (itstool) path: info/title
+#: C/prob-conn-name.page:10
+msgctxt "link:error-msg"
+msgid "“Name in use”"
+msgstr "“Όνομα σε χρήση”"
+
+#. (itstool) path: info/desc
+#: C/prob-conn-name.page:11
+msgid ""
+"An error message which says “<gui>Name in use</gui>” appears in the main "
+"window."
+msgstr ""
+"Στο κύριο παράθυρο εμφανίζεται το μήνυμα λάθους “<gui>Το όνομα "
+"χρησιμοποιείται ήδη</gui>”."
+
+#. (itstool) path: page/title
+#: C/prob-conn-name.page:34
+msgid "I get a message that says “Name in use”"
+msgstr "Λαμβάνω το μήνυμα “Το όνομα χρησιμοποιείται ήδη”"
+
+#. (itstool) path: page/p
+#: C/prob-conn-name.page:36
+msgid ""
+"This kind of error happens when you try to connect to your IRC account and "
+"you are using a nickname that is already being used by someone else on that "
+"particular network."
+msgstr ""
+"Αυτό το σφάλμα εμφανίζεται όταν προσπαθείτε να συνδεθείτε σε λογαριασμό IRC "
+"με ψευδώνυμο που χρησιμοποιείται ήδη από άλλο χρήστη του συγκεκριμένου "
+"δικτύου."
+
+#. (itstool) path: item/p
+#: C/prob-conn-name.page:50
+msgid "In the <gui>Nickname</gui> text box, type a new nickname."
+msgstr "Στο πεδίο κειμένου <gui>Ψευδώνυμο</gui>, εισάγετε ένα νέο ψευδώνυμο."
+
+#. (itstool) path: item/p
+#: C/prob-conn-name.page:55
+msgid ""
+"If you have registered that nickname within the network you are using, set "
+"the password for that nickname. For more information, see <link xref=\"irc-"
+"nick-password\"/>."
+msgstr ""
+"Αν έχετε καταχωρήσει το ψευδώνυμο αυτό στο συγκεκριμένο δίκτυο, εισάγετε το "
+"συνθηματικό για το ψευδώνυμο. Για περισσότερες πληροφορίες, δείτε την <link "
+"xref=\"irc-nick-password\"/>."
+
+#. (itstool) path: item/p
+#: C/prob-conn-name.page:64 C/prob-conn-neterror.page:78
+msgid ""
+"Switch the account off, and then switch it on to try to reconnect to the "
+"service."
+msgstr ""
+"Απενεργοποιήστε τον λογαριασμό, και ενεργοποιήστε τον ξανά για να γίνει νέα "
+"προσπάθεια σύνδεσης στην υπηρεσία."
+
+#. (itstool) path: info/desc
+#: C/prob-conn-neterror.page:8
+msgid ""
+"An error message which says “<gui>Network error</gui>” appears in the main "
+"window."
+msgstr ""
+"Στο κύριο παράθυρο εμφανίζεται το μήνυμα λάθους “<gui>Σφάλμα δικτύου</gui>”."
+
+#. (itstool) path: page/title
+#: C/prob-conn-neterror.page:35
+msgid "I get a message that says “Network error”"
+msgstr "Λαμβάνω το μήνυμα “Σφάλμα δικτύου”"
+
+#. (itstool) path: page/p
+#: C/prob-conn-neterror.page:43
+msgid ""
+"This kind of error happens when <app>Empathy</app> cannot communicate with "
+"the instant messaging service for some reason."
+msgstr ""
+"Αυτό το σφάλμα εμφανίζεται όταν, για οποιονδήποτε λόγο, το <app>Empathy</"
+"app> αδυνατεί να επικοινωνήσει με την υπηρεσία άμεσων μηνυμάτων."
+
+#. (itstool) path: page/p
+#: C/prob-conn-neterror.page:47
+msgid ""
+"Also, this kind of error happens when you try to use an IRC account without "
+"setting a nickname."
+msgstr ""
+"Επίσης, αυτό το σφάλμα εμφανίζεται αν προσπαθείτε να χρησιμοποιήσετε "
+"λογαριασμό IRC χωρίς να έχετε επιλέξει ψευδώνυμο."
+
+#. (itstool) path: section/title
+#: C/prob-conn-neterror.page:86
+msgid "Proxy support"
+msgstr "Υποστήριξη διαμεσολαβητών δικτύου"
+
+#. (itstool) path: section/p
+#: C/prob-conn-neterror.page:87
+msgid ""
+"At the moment <app>Empathy</app> can not be configured to work with a proxy."
+msgstr ""
+"Προς το παρόν, το <app>Empathy</app> δε μπορεί να ρυθμιστεί ώστε να "
+"λειτουργεί μέσω διαμεσολαβητή."
+
+#. (itstool) path: info/desc
+#: C/prob-conn.page:7
+msgid "Diagnose common problems connecting to an instant messaging service."
+msgstr ""
+"Διάγνωση κοινών προβλημάτων κατά τη σύνδεση σε υπηρεσίες άμεσων μηνυμάτων."
+
+#. (itstool) path: page/title
+#: C/prob-conn.page:29
+msgid "Problems connecting to an instant messaging service"
+msgstr "Προβλήματα σύνδεσης σε υπηρεσίες άμεσων μηνυμάτων"
+
+#. (itstool) path: info/desc
+#: C/remove-account.page:8
+msgid "Completely remove an account from <app>Empathy</app>."
+msgstr "Ολοκληρωτική διαγραφή λογαριασμού από το <app>Empathy</app>."
+
+#. (itstool) path: page/title
+#: C/remove-account.page:34
+msgid "Remove an account"
+msgstr "Διαγραφή λογαριασμού"
+
+#. (itstool) path: page/p
+#: C/remove-account.page:36
+msgid ""
+"You can completely remove an account from <app>Empathy</app> if you no "
+"longer wish to use the account. If you wish to use the account in "
+"<app>Empathy</app> again in the future, you will have to add your account "
+"details again."
+msgstr ""
+"Μπορείτε να διαγράψετε ολοκληρωτικά ένα λογαριασμό από το <app>Empathy</"
+"app>, αν δεν πρόκειται να τον χρησιμοποιήσετε άλλο. Αν, αργότερα, "
+"αποφασίσετε να χρησιμοποιήσετε ξανά το λογαριασμό από το <app>Empathy</app>, "
+"θα πρέπει να εισάγετε εκ νέου τα στοιχεία του."
+
+#. (itstool) path: item/p
+#: C/remove-account.page:47
+msgid ""
+"Select the account you wish to remove from the accounts list on the left "
+"side of the window."
+msgstr ""
+"Επιλέξτε το λογαριασμό που θέλετε να διαγράψετε από τη λίστα στην αριστερή "
+"πλευρά του παραθύρου."
+
+#. (itstool) path: item/p
+#: C/remove-account.page:51
+msgid "Click <gui style=\"button\">-</gui>."
+msgstr "Πατήστε <gui style=\"button\">-</gui>."
+
+#. (itstool) path: item/p
+#: C/remove-account.page:54
+msgid ""
+"A dialog will be shown asking for confirmation. Click the <gui>Remove</gui> "
+"button to permanently remove the account."
+msgstr ""
+"Θα εμφανιστεί ένας διάλογος που θα σας ζητάει επιβεβαίωση. Πατήστε το κουμπί "
+"<gui>Διαγραφή</gui> για να διαγράψετε οριστικά το λογαριασμό."
+
+#. (itstool) path: note/p
+#: C/remove-account.page:60
+msgid ""
+"Even after removing an account, <app>Empathy</app> does not delete your "
+"conversation history for that account."
+msgstr ""
+"Ακόμη και αν διαγράψετε ένα λογαριασμό, το <app>Empathy</app> δε διαγράφει "
+"το ιστορικό των συζητήσεων για αυτόν το λογαριασμό."
+
+#. (itstool) path: info/desc
+#: C/salut-protocol.page:8
+msgid "Understanding the People Nearby feature."
+msgstr "Λειτουργία γειτονικών ατόμων."
+
+#. (itstool) path: page/title
+#: C/salut-protocol.page:33
+msgid "What is People Nearby?"
+msgstr "Τι είναι τα γειτονικά άτομα;"
+
+#. (itstool) path: page/p
+#: C/salut-protocol.page:40
+msgid ""
+"The People Nearby service is a serverless communication service: you do not "
+"need to connect and authenticate to a central server in order to use it."
+msgstr ""
+"Η λειτουργία γειτονικών ατόμων είναι μία υπηρεσία επικοινωνίας που δε "
+"χρησιμοποιεί εξυπηρετητή: δεν απαιτεί σύνδεση και πιστοποίηση σε κεντρικό "
+"υπολογιστή."
+
+#. (itstool) path: page/p
+#: C/salut-protocol.page:45
+msgid ""
+"This kind of serverless messaging system is restricted to a local area "
+"network and an active Internet connection is not necessary."
+msgstr ""
+"Αυτή η αποστολή μηνυμάτων χωρίς παρεμβολή εξυπηρετητή αφορά μόνο τα τοπικά "
+"δίκτυα και δεν απαιτεί σύνδεση στο διαδίκτυο."
+
+#. (itstool) path: page/p
+#: C/salut-protocol.page:49
+msgid ""
+"The people that use this service inside the same local area network will be "
+"auto-discovered, and it will be possible to send them messages and files as "
+"with other services."
+msgstr ""
+"Το Empathy ανακαλύπτει αυτόματα τα άτομα εντός του τοπικού σας δικτύου που "
+"χρησιμοποιούν αυτή την υπηρεσία, και σας επιτρέπει να τους στέλνετε μηνύματα "
+"και αρχεία, όπως και με τις υπόλοιπες υπηρεσίες."
+
+#. (itstool) path: page/p
+#: C/salut-protocol.page:54
+msgid ""
+"All the modern local area networks should be able to support this kind of "
+"service."
+msgstr ""
+"Κανονικά, όλα τα τοπικά δίκτυα σύγχρονης τεχνολογίας πρέπει να υποστηρίζουν "
+"αυτή την υπηρεσία."
+
+#. (itstool) path: info/desc
+#: C/send-file.page:8
+msgid "Send a file from your computer to one of your contacts."
+msgstr "Αποστολή αρχείων από των υπολογιστή σας στις επαφές σας."
+
+#. (itstool) path: page/title
+#: C/send-file.page:36
+msgid "Send files"
+msgstr "Αποστολή αρχείων"
+
+#. (itstool) path: item/p
+#: C/send-file.page:45
+msgid ""
+"Right click on the contact you want to send a file to, and choose <gui>Send "
+"file</gui>."
+msgstr ""
+"Κάνετε δεξί κλικ στο όνομα της επαφής στην οποία θέλετε να στείλετε το "
+"αρχείο, και επιλέξτε <gui>Αποστολή αρχείου</gui>."
+
+#. (itstool) path: item/p
+#: C/send-file.page:50
+msgid ""
+"Click on the contact you want to send a file, and choose <guiseq><gui>Edit</"
+"gui> <gui>Contact</gui><gui>Send file</gui></guiseq>."
+msgstr ""
+"Κάνετε κλικ στην επαφή που θέλετε να στείλετε το αρχείο, και επιλέξτε "
+"<guiseq><gui>Επεξεργασία</gui> <gui>Επαφή</gui><gui>Αποστολή αρχείου</gui></"
+"guiseq>."
+
+#. (itstool) path: item/p
+#: C/send-file.page:58
+msgid "Select the file to send, and click on <gui>Send</gui>."
+msgstr ""
+"Επιλέξτε το αρχείο που θέλετε να στείλετε, και πατήστε <gui>Αποστολή</gui>."
+
+#. (itstool) path: item/p
+#: C/send-file.page:63
+msgid "The <gui>File Transfers</gui> window will appear."
+msgstr "Θα εμφανιστεί το παράθυρο <gui>Μεταφορές αρχείων</gui>."
+
+#. (itstool) path: item/p
+#: C/send-file.page:66
+msgid ""
+"Wait for your contact to accept the file transfer, or click <gui>Stop</gui> "
+"to halt the transfer."
+msgstr ""
+"Περιμένετε να αποδεχτεί τη μεταφορά του αρχείου η επαφή σας, ή πατήστε "
+"<gui>Διακοπή</gui> για να σταματήσετε τη μεταφορά."
+
+#. (itstool) path: item/p
+#: C/send-file.page:72
+msgid ""
+"Once the transfer is finished, it is possible to close the <gui>File "
+"Transfers</gui> window."
+msgstr ""
+"Αφού ολοκληρωθεί η μεταφορά, μπορείτε να κλείσετε το παράθυρο <gui>Μεταφορές "
+"αρχείων</gui>."
+
+#. (itstool) path: note/p
+#: C/send-file.page:80
+msgid ""
+"If you have multiple finished transfers listed in the window, click on "
+"<gui>Clear</gui> to empty the list. This will only remove the files from the "
+"list and will not delete them from your computer."
+msgstr ""
+"Αν στο παράθυρο εμφανίζονται πολλές ολοκληρωμένες μεταφορές, πατήστε "
+"<gui>Εκκαθάριση</gui> για να αδειάσετε τη λίστα. Αυτή η ενέργεια δε "
+"διαγράφει τα αρχεία από τον υπολογιστή σας, αλλά μόνο από τη λίστα."
+
+#. (itstool) path: note/p
+#: C/send-file.page:87
+msgid ""
+"It is possible to send files only using the following services: <em>Jabber</"
+"em>, <em>Google Talk</em> and <em>People Nearby</em>."
+msgstr ""
+"Μόνο οι παρακάτω υπηρεσίες υποστηρίζουν την αποστολή αρχείων: <em>Jabber</"
+"em>, <em>Google Talk</em> και <em>Γειτονικά άτομα</em>."
+
+#. (itstool) path: note/p
+#: C/send-file.page:93
+msgid ""
+"In order to send a file to someone, you need to be connected to the "
+"Internet, or to a local area network."
+msgstr ""
+"Για την αποστολή αρχείων απαιτείται σύνδεση στο διαδίκτυο ή σε τοπικό δίκτυο."
+
+#. (itstool) path: info/desc
+#: C/send-message.page:8
+msgid "Send a message to one of your contacts."
+msgstr "Αποστολή μηνυμάτων στις επαφές σας."
+
+#. (itstool) path: page/title
+#: C/send-message.page:32
+msgid "Send a message to someone"
+msgstr "Αποστολή μηνυμάτων"
+
+#. (itstool) path: item/p
+#: C/send-message.page:36
+msgid ""
+"From the <gui>Contact List</gui> window, double-click the name of the "
+"contact that you want to have a conversation with."
+msgstr ""
+"Στο παράθυρο <gui>Λίστα επαφών</gui>, κάντε διπλό κλικ στο όνομα της επαφής "
+"με την οποία θέλετε να συζητήσετε."
+
+#. (itstool) path: item/p
+#: C/send-message.page:42
+msgid ""
+"A new window will open. Type a message into the box at the bottom of the "
+"window and press <key>Enter</key> to send it."
+msgstr ""
+"Θα ανοίξει ένα νέο παράθυρο. Εισάγετε το μήνυμά σας στο πεδίο κειμένου στο "
+"κάτω μέρος του παραθύρου και πατήστε <key>Enter</key> για να το στείλετε."
+
+#. (itstool) path: section/title
+#: C/send-message.page:50
+msgid "Send a message to a meta-contact"
+msgstr "Αποστολή μηνύματος σε μια μετα-επαφή"
+
+#. (itstool) path: item/p
+#: C/send-message.page:58
+msgid ""
+"Select the contact you want to have the conversation, and from the menu "
+"select <gui style=\"menuitem\">Chat</gui>."
+msgstr ""
+"Επιλέξτε την επαφή με την οποία θέλετε να συζητήσετε, και από το μενού "
+"επιλέξτε <gui style=\"menuitem\">Συζήτηση</gui>."
+
+#. (itstool) path: info/desc
+#: C/set-custom-status.page:9
+msgid "Add, edit or delete personal messages for your status."
+msgstr "Προσθήκη, επεξεργασία ή διαγραφή προσωπικών μηνυμάτων κατάστασης."
+
+#. (itstool) path: credit/name
+#: C/set-custom-status.page:15
+msgid "Jim Campbell"
+msgstr "Jim Campbell"
+
+#. (itstool) path: page/title
+#: C/set-custom-status.page:34
+msgid "Set a custom message"
+msgstr "Δημιουργία προσαρμοσμένου μηνύματος"
+
+#. (itstool) path: page/p
+#: C/set-custom-status.page:36
+msgid ""
+"Sometimes you may want to set a custom message for your status, for example "
+"to let people know that you will be unavailable for a certain period of time."
+msgstr ""
+"Κάποιες φορές μπορεί να θέλετε να ορίσετε ένα προσαρμοσμένο μήνυμα για την "
+"κατάστασή σας, π.χ. αν θέλετε να ενημερώσετε τις επαφές σας ότι δε θα είστε "
+"διαθέσιμοι για συγκεκριμένο χρονικό διάστημα."
+
+#. (itstool) path: page/p
+#: C/set-custom-status.page:40
+msgid ""
+"It is possible to set a custom message based on the different statuses "
+"available."
+msgstr ""
+"Μπορείτε να δημιουργήσετε ένα προσαρμοσμένο μήνυμα, βασισμένο στις διάφορες "
+"διαθέσιμες καταστάσεις."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:46 C/set-custom-status.page:82
+msgid ""
+"From the <gui>Contact List</gui> window, click on the drop-down list at the "
+"top."
+msgstr ""
+"Στο παράθυρο <gui>Λίστα επαφών</gui>, κάνετε κλικ στην αναπτυσσόμενη λίστα "
+"στο πάνω μέρος."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:52
+msgid ""
+"Select the status you want to add a custom message to. You have to select "
+"the one identified with the label <gui>Custom Message</gui>."
+msgstr ""
+"Επιλέξτε την κατάσταση για την οποία θέλετε να προσθέσετε προσαρμοσμένο "
+"μήνυμα. Θα πρέπει να επιλέξετε <gui>Προσαρμοσμένο μήνυμα</gui> για την "
+"κατάσταση που σας ενδιαφέρει."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:58
+msgid ""
+"Enter your custom message in the text box at the top of the window, and "
+"press <key>Enter</key> to set the message."
+msgstr ""
+"Εισάγετε το προσαρμοσμένο μήνυμα στο πλαίσιο κειμένου στο πάνω μέρος του "
+"παραθύρου και πατήστε <key>Enter</key> για να το οριστικοποιήσετε."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:64
+msgid ""
+"If you want to set the custom message as a favorite, saving it in order to "
+"use it again, click on the little heart on the right of the text box where "
+"you wrote your custom message."
+msgstr ""
+"Αν θέλετε να ορίσετε το προσαρμοσμένο μήνυμα ως αγαπημένο σας, αποθηκεύστε "
+"το για το χρησιμοποιήσετε ξανά, και κάντε κλικ στο αστεράκι στα δεξιά του "
+"πλαισίου κειμένου όπου γράψατε το προσαρμοσμένο μήνυμα."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:69
+msgid ""
+"If you do not do it, the custom message will not be available the next time "
+"you use <app>Empathy</app>. It will be saved only for the current session."
+msgstr ""
+"Αν δεν το προσθέσετε στα αγαπημένα, δε θα είναι διαθέσιμο την επόμενη φορά "
+"που θα χρησιμοποιήσετε το <app>Empathy</app>. Το μήνυμα παραμένει "
+"αποθηκευμένο μόνο για την τρέχουσα συνεδρία."
+
+#. (itstool) path: section/title
+#: C/set-custom-status.page:78
+msgid "Edit and remove a custom message"
+msgstr "Προσθήκη και απομάκρυνση ενός προσαρμοσμένου μηνύματος"
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:88
+msgid "Select <gui>Edit Custom Message</gui>."
+msgstr "Επιλέξτε <gui>Επεξεργασία προσαρμοσμένου μηνύματος</gui>."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:95
+msgid "To edit a custom message:"
+msgstr "Για να επεξεργαστείτε ένα προσαρμοσμένο μήνυμα:"
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:100
+msgid ""
+"From the <gui>Saved Presets</gui> box, select the status message you want to "
+"edit and double-click on it."
+msgstr ""
+"Από το πλαίσιο <gui>Αποθηκευμένες προεπιλογές</gui>, επιλέξτε το μήνυμα "
+"κατάστασης που θέλετε να επεξεργαστείτε και κάνετε δεξί κλικ πάνω του."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:106
+msgid "Type the new custom message and press <key>Enter</key> to modify it."
+msgstr ""
+"Εισάγετε το νέο προσαρμοσμένο μήνυμα και πατήστε <key>Enter</key> για να "
+"εφαρμόσετε τις αλλαγές."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:113
+msgid "To remove a custom message:"
+msgstr "Για να διαγράψετε ένα προσαρμοσμένο μήνυμα:"
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:118
+msgid ""
+"From the <gui>Saved Presets</gui> box, select the status message you want to "
+"remove."
+msgstr ""
+"Από το πλαίσιο <gui>Αποθηκευμένες προεπιλογές</gui>, επιλέξτε το μήνυμα "
+"κατάστασης που θέλετε να διαγράψετε."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:124
+msgid "Click on the <gui>Remove</gui> button."
+msgstr "Πατήστε το κουμπί <gui>Αφαίρεση</gui>."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:133
+msgid "When finished, click on <gui>Close</gui>."
+msgstr "Όταν τελειώσετε, πατήστε <gui>Κλείσιμο</gui>."
+
+#. (itstool) path: note/p
+#: C/set-custom-status.page:140
+msgid ""
+"When you edit a custom message, it will not be set as the current status "
+"message. You will need to select it from the <gui>Contact List</gui> window."
+msgstr ""
+"Όταν τροποποιείτε ένα προσαρμοσμένο μήνυμα, δεν επιλέγεται αυτόματα ως το "
+"μήνυμα της τρέχουσας κατάστασης. Θα πρέπει να επιλέξετε το μήνυμα από το "
+"παράθυρο <gui>Λίστα επαφών</gui>."
+
+#. (itstool) path: info/desc
+#: C/share-desktop.page:7
+msgid "Show your desktop to your contacts."
+msgstr "Εμφάνιση της επιφάνειας εργασίας στις επαφές σας."
+
+#. (itstool) path: page/title
+#: C/share-desktop.page:33
+msgid "Share your desktop"
+msgstr "Κοινή χρήση της επιφάνειας εργασίας σας"
+
+#. (itstool) path: page/p
+#: C/share-desktop.page:35
+msgid ""
+"It is possible to share your desktop with some of your contacts. You can use "
+"this functionality to show your desktop to your contacts to, for example, "
+"ask for help or help your contacts resolve a problem."
+msgstr ""
+"Είναι δυνατόν να μοιράζεστε την επιφάνεια εργασίας σας με ορισμένες επαφές "
+"σας. Μπορείτε να χρησιμοποιήσετε αυτή τη δυνατότητα για να δείξετε την "
+"επιφάνεια εργασίας σας στις επαφές σας, π.χ. για να ζητήσετε ή να προσφέρετε "
+"βοήθεια για κάποιο πρόβλημα."
+
+#. (itstool) path: note/p
+#: C/share-desktop.page:42
+msgid ""
+"To be able to share your desktop, you need to have a VNC server, which has "
+"support for the feature, installed on your system. <app>Vino</app>, the "
+"GNOME VNC server, has the required support."
+msgstr ""
+"Για να είστε σε θέση να μοιράσετε την επιφάνεια εργασίας σας, χρειάζεστε να "
+"έχετε έναν διακομιστή VNC που υποστηρίζει αυτό το γνώρισμα, εγκατεστημένο "
+"στο σύστημά σας. Το <app>Vino</app>, ο διακομιστής VNC του GNOME, έχει την "
+"απαιτούμενη υποστήριξη."
+
+#. (itstool) path: item/p
+#: C/share-desktop.page:51
+msgid "From the <gui>Contact List</gui> window, do one of the following:"
+msgstr "Από το παράθυρο <gui>Λίστα επαφών</gui>, κάντε ένα από τα ακόλουθα:"
+
+#. (itstool) path: item/p
+#: C/share-desktop.page:56
+msgid ""
+"Select the contact you want to share your desktop with and choose "
+"<guiseq><gui>Edit</gui><gui>Contact</gui> <gui>Share My Desktop</gui></"
+"guiseq>."
+msgstr ""
+"Επιλέξτε πρώτα την επαφή με την οποία θέλετε να μοιραστείτε την επιφάνεια "
+"εργασίας σας και μετά επιλέξτε <guiseq><gui>Επεξεργασία</gui><gui>Επαφή</"
+"gui><gui>Κοινή χρήση της επιφάνειας εργασίας μου</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/share-desktop.page:63
+msgid ""
+"Right-click on the name of the contact you want to share your desktop with "
+"and select <gui>Share My Desktop</gui>."
+msgstr ""
+"Κάντε δεξί κλικ στο όνομα της επαφής με την οποία θέλετε να μοιραστείτε την "
+"επιφάνεια εργασίας σας και επιλέξτε <gui>Κοινή χρήση της επιφάνειας εργασίας "
+"μου</gui>."
+
+#. (itstool) path: item/p
+#: C/share-desktop.page:71
+msgid ""
+"An invitation to view your desktop will be sent to the contact you have "
+"selected. To view your desktop, they will need to accept it."
+msgstr ""
+"Μια πρόσκληση για να δει την επιφάνεια εργασίας σας θα αποσταλεί στην "
+"επιλεγμένη επαφή. Πρέπει να την αποδεχτεί, για να την δει."
+
+#. (itstool) path: item/p
+#: C/share-desktop.page:77
+msgid ""
+"You can disconnect the contact from your computer using your desktop sharing "
+"application."
+msgstr ""
+"Μπορείτε να αποσυνδέσετε την επαφή από τον υπολογιστή σας χρησιμοποιώντας "
+"την εφαρμογή διαμοιρασμού της επιφάνειας εργασίας."
+
+#. (itstool) path: note/p
+#: C/share-desktop.page:82
+msgid ""
+"For more information about how to use the remote desktop sharing "
+"application, refer to its help."
+msgstr ""
+"Για περισσότερες πληροφορίες σχετικά με τη χρήση της εφαρμογής προβολής "
+"απομακρυσμένης επιφάνειας εργασίας, ανατρέξτε στη βοήθεια της εφαρμογής "
+"αυτής."
+
+#. (itstool) path: page/p
+#: C/share-desktop.page:90
+msgid ""
+"When you share your desktop with someone else, it is possible to experience "
+"system performance slowdown and low Internet speed."
+msgstr ""
+"Όταν μοιράζεστε την επιφάνεια εργασίας σας με άλλους, μπορεί να παρατηρήσετε "
+"μείωση της ταχύτητας του συστήματος ή της σύνδεσης στο διαδίκτυο."
+
+#. (itstool) path: note/p
+#: C/share-desktop.page:96
+msgid ""
+"Some of your contacts may not be able to use this feature. It is necessary "
+"for them to have version 2.28, or newer, of <app>Empathy</app> and a "
+"compatible remote desktop viewer application installed in their system."
+msgstr ""
+"Ορισμένες επαφές σας μπορεί να μην υποστηρίζουν αυτή τη λειτουργία. Η "
+"λειτουργία αυτή απαιτεί την έκδοση 2.28, ή νεότερη, του <app>Empathy</app> "
+"καθώς και μια εφαρμογή προβολής απομακρυσμένης επιφάνειας εργασίας."
+
+#. (itstool) path: info/desc
+#: C/status-icons.page:8
+msgid "Understanding the various statuses and status icons."
+msgstr "Επεξήγηση των διαφόρων καταστάσεων και εικονιδίων κατάστασης."
+
+#. (itstool) path: page/title
+#: C/status-icons.page:36
+msgid "Status Types and Icons"
+msgstr "Τύποι και εικονίδια κατάστασης"
+
+#. (itstool) path: media/span
+#: C/status-icons.page:40
+msgid "Available icon"
+msgstr "εικονίδιο Διαθέσιμος/η"
+
+#. (itstool) path: item/title
+#: C/status-icons.page:40
+msgid "<_:media-1/> <gui>Available</gui>"
+msgstr "Το <_:media-1/> <gui>διαθέσιμο</gui>"
+
+#. (itstool) path: item/p
+#: C/status-icons.page:42
+msgid ""
+"Use the <em>Available</em> status when you are at your computer and able to "
+"chat with your contacts. You can set a custom message for this status."
+msgstr ""
+"Χρησιμοποιήστε την κατάσταση <em>ΔΙαθέσιμος/η</em> αν βρίσκεστε στον "
+"υπολογιστή σας και μπορείτε να συζητήσετε με τις επαφές σας. Μπορείτε να "
+"προσαρμόσετε το μήνυμα που θα εμφανίζεται για αυτήν την κατάσταση."
+
+#. (itstool) path: media/span
+#: C/status-icons.page:46
+msgid "Busy icon"
+msgstr "εικονίδιο Απασχολημένος/η"
+
+#. (itstool) path: item/title
+#: C/status-icons.page:46
+msgid "<_:media-1/> <gui>Busy</gui>"
+msgstr "Το <_:media-1/> <gui>απασχολημένο</gui>"
+
+#. (itstool) path: item/p
+#: C/status-icons.page:48
+msgid ""
+"Use the <em>Busy</em> status to let your contacts know that you don’t want "
+"to chat right now. They can still contact you, for instance if they have "
+"something urgent they need to discuss. By default, <app>Empathy</app> will "
+"not use notification bubbles and sounds when you are busy. You can set a "
+"custom message for this status."
+msgstr ""
+"Χρησιμοποιήστε την κατάσταση <em>Απασχολημένος/η</em> για να ενημερώσετε τις "
+"επαφές σας ότι δεν ενδιαφέρεστε να συζητήσετε μαζί τους. Οι επαφές σας "
+"εξακολουθούν να μπορούν να επικοινωνήσουν μαζί σας, π.χ. σε περίπτωση που "
+"προκύψει κάτι επείγον. Κανονικά, το <app>Empathy</app> δε θα χρησιμοποιεί "
+"ήχους και αναδυόμενες ειδοποιήσεις όταν είστε απασχολημένοι. Μπορείτε να "
+"προσαρμόσετε το μήνυμα που θα εμφανίζεται για αυτήν την κατάσταση."
+
+#. (itstool) path: media/span
+#: C/status-icons.page:54
+msgid "Away icon"
+msgstr "εικονίδιο Απουσιάζει"
+
+#. (itstool) path: item/title
+#: C/status-icons.page:54
+msgid "<_:media-1/> <gui>Away</gui>"
+msgstr "Το <_:media-1/> <gui>εκτός</gui>"
+
+#. (itstool) path: item/p
+#: C/status-icons.page:56
+msgid ""
+"Use the <em>Away</em> status when you are going away from your computer. "
+"<app>Empathy</app> automatically sets your status to Away if you do not use "
+"your computer for a while, or if your screensaver is on. By default, "
+"<app>Empathy</app> will not use notification bubbles and sounds when you are "
+"away. You can set a custom message for this status."
+msgstr ""
+"Χρησιμοποιήστε την κατάσταση <em>Απουσιάζει</em> όταν φεύγετε από τον "
+"υπολογιστή σας. Το <app>Empathy</app> μετατρέπει αυτόματα την κατάστασή σας "
+"σε Απουσιάζει, αν δεν έχετε χρησιμοποιήσει τον υπολογιστή σας για κάποιο "
+"διάστημα, ή αν είναι ενεργοποιημένη η προστασία οθόνης. Κανονικά, το "
+"<app>Empathy</app> δε θα χρησιμοποιεί ήχους και αναδυόμενες ειδοποιήσεις "
+"όταν είστε απασχολημένοι. Μπορείτε να προσαρμόσετε το μήνυμα που θα "
+"εμφανίζεται για αυτήν την κατάσταση."
+
+#. (itstool) path: media/span
+#: C/status-icons.page:63 C/status-icons.page:70
+msgid "Offline icon"
+msgstr "Εικονίδιο Εκτός σύνδεσης"
+
+#. (itstool) path: item/title
+#: C/status-icons.page:63
+msgid "<_:media-1/> <gui>Invisible</gui>"
+msgstr "Το <_:media-1/> <gui>αόρατο</gui>"
+
+#. (itstool) path: item/p
+#: C/status-icons.page:65
+msgid ""
+"When you set your status to <em>Invisible</em>, you will appear as offline "
+"to your contacts. You will still be connected to your accounts, and you "
+"still see your contacts’ statuses and start conversations with them."
+msgstr ""
+"Όταν επιλέξετε την κατάσταση <em>Αόρατος/η</em>, οι επαφές σας θα βλέπουν "
+"ότι είστε εκτός σύνδεσης. Θα παραμένετε όμως συνδεδεμένοι στους λογαριασμούς "
+"σας και θα μπορείτε να δείτε την κατάσταση των επαφών σας και να ξεκινήσετε "
+"συζητήσεις μαζί τους."
+
+#. (itstool) path: item/title
+#: C/status-icons.page:70
+msgid "<_:media-1/> <gui>Offline</gui>"
+msgstr "Το <_:media-1/> <gui>χωρίς σύνδεση</gui>"
+
+#. (itstool) path: item/p
+#: C/status-icons.page:72
+msgid ""
+"Setting your status to <em>Offline</em> disconnects you from all of your "
+"accounts."
+msgstr ""
+"Αν επιλέξετε την κατάσταση <em>Εκτός σύνδεσης</em>, θα αποσυνδεθείτε από "
+"όλους τους λογαριασμούς σας."
+
+#. (itstool) path: info/desc
+#: C/video-call.page:11
+msgid "Start a video conversation with one of your contacts."
+msgstr "Έναρξη βιντεοσυζήτησης με τις επαφές σας."
+
+#. (itstool) path: page/title
+#: C/video-call.page:37
+msgid "Start a video conversation"
+msgstr "Έναρξη βιντεοκλήσης"
+
+#. (itstool) path: page/p
+#: C/video-call.page:39
+msgid ""
+"If you have a webcam, you can call your contacts and have a video "
+"conversation with them. This feature only works with certain types of "
+"accounts, and it requires the other person to have an application that "
+"supports video calls."
+msgstr ""
+"Αν έχετε κάμερα, μπορείτε να κάνετε βιντεοκλήσεις με τις επαφές σας. Αυτή η "
+"δυνατότητα υπάρχει μόνο για ορισμένους τύπους λογαριασμών, και προϋποθέτει "
+"ότι ο συνομιλητής σας διαθέτει και αυτός εφαρμογή που υποστηρίζει "
+"βιντεοκλήσεις."
+
+#. (itstool) path: item/p
+#: C/video-call.page:46
+msgid ""
+"Right-click on the contact that you want to call and select <gui style="
+"\"menuitem\">Video Call</gui>."
+msgstr ""
+"Δεξιοπατήστε στην επαφή την οποία θέλετε να καλέσετε και επιλέξτε <gui style="
+"\"menuitem\">Βιντεοκλήση</gui>."
+
+#. (itstool) path: item/p
+#: C/video-call.page:54
+msgid ""
+"To end the conversation, click on the <gui style=\"button\">hang up</gui> "
+"button."
+msgstr ""
+"Για να τερματίσετε τη συνομιλία, πατήστε το κουμπί <gui style=\"button"
+"\">Κλείσιμο</gui>."
+
+#. (itstool) path: note/p
+#: C/video-call.page:60
+msgid ""
+"To turn a video conversation into an audio conversation, choose <guiseq><gui "
+"style=\"menu\">Video</gui><gui style=\"menuitem\">Video Off</gui></guiseq>."
+msgstr ""
+"Για να μετατρέψετε μια βιντεοκλήση σε φωνητική συνομιλία, επιλέξτε "
+"<guiseq><gui style=\"menu\">Βίντεο</gui><gui style=\"menuitem\">Βίντεο "
+"ανενεργό</gui></guiseq>."
+
+#. (itstool) path: section/title
+#: C/video-call.page:65
+msgid "Start a video conversation with a meta-contact"
+msgstr "Έναρξη βιντεοσυζήτησης με μια μετα-επαφή"
+
+#. (itstool) path: item/p
+#: C/video-call.page:73
+msgid ""
+"Select the contact you want to have the conversation, and from the menu "
+"select <gui style=\"menuitem\">Video Call</gui>."
+msgstr ""
+"Επιλέξτε την επαφή με την οποία θέλετε να συζητήσετε, και από το μενού "
+"επιλέξτε <gui style=\"menuitem\">Βιντεοκλήση</gui>."
+
+#~ msgid "Facebook Chat"
+#~ msgstr "Συνομιλία Facebook"
+
+#~ msgid "MSN"
+#~ msgstr "MSN"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid ""
+#~ "Facebook is one of the more popular social networks. It allows users to "
+#~ "create their own profile and to communicate with their friends."
+#~ msgstr ""
+#~ "Το Facebook είναι ένα από τα πιο δημοφιλή κοινωνικά δίκτυα. Επιτρέπει "
+#~ "στους χρήστες να δημιουργήσουν τη δική τους κατατομή και να επικοινωνούν "
+#~ "με τους φίλους τους."
+
+#~ msgid ""
+#~ "To use Facebook to communicate with your friends, you will need to create "
+#~ "a new account from the website: <link href=\"https://www.facebook.com"
+#~ "\">www.facebook.com</link>."
+#~ msgstr ""
+#~ "Για να χρησιμοποιήσετε το Facebook για να επικοινωνείτε με τους φίλους "
+#~ "σας, θα πρέπει να δημιουργήσετε έναν καινούριο λογαριασμό από αυτή την "
+#~ "ιστοσελίδα: <link href=\"https://www.facebook.com\">www.facebook.com</"
+#~ "link>."
+
+#~ msgid "<link href=\"https://accountservices.passport.net\">MSN</link>"
+#~ msgstr "<link href=\"https://accountservices.passport.net\">MSN</link>"
+
+#~ msgid ""
+#~ "Some Jabber servers may encrypt data using invalid certificates, or using "
+#~ "certificates from unknown authorities. If you trust the server you are "
+#~ "connecting to, you can select <gui>Ignore SSL certificate errors</gui> to "
+#~ "allow encrypted communication with invalid certificates."
+#~ msgstr ""
+#~ "Ορισμένοι εξυπηρετητές Jabber μπορεί να κρυπτογραφούν τα δεδομένα "
+#~ "χρησιμοποιώντας μη έγκυρα πιστοποιητικά, ή πιστοποιητικά από άγνωστες "
+#~ "αρχές. Αν εμπιστεύεστε τον εξυπηρετητή, μπορείτε να επιλέξετε "
+#~ "<gui>Αγνόηση σφαλμάτων πιστοποιητικών SSL</gui> για να επιτρέψετε την "
+#~ "κρυπτογράφηση με χρήση μη έγκυρων πιστοποιητικών."
+
+#~ msgid ""
+#~ "If you do not already have a registered account, select <gui>Create a new "
+#~ "account on the server</gui>. This feature is not available for all "
+#~ "account types, and may not work with some account providers. See <link "
+#~ "xref=\"create-account\"/> for more information."
+#~ msgstr ""
+#~ "Αν δε διαθέτετε ήδη λογαριασμό αυτού του τύπου, επιλέξτε <gui>Δημιουργία "
+#~ "νέου λογαριασμού στον εξυπηρετητή</gui>. Αυτή η λειτουργία δεν είναι "
+#~ "διαθέσιμη για όλους τους τύπους λογαριασμών, και ενδεχομένως να μη "
+#~ "λειτουργήσει για ορισμένους παρόχους. Δείτε τη <link xref=\"create-account"
+#~ "\"/> για περισσότερες λεπτομέρειες."
+
+#~ msgctxt "_"
+#~ msgid "external ref='figures/audio-input-microphone.png' md5='__failed__'"
+#~ msgstr "external ref='figures/audio-input-microphone.png' md5='__failed__'"
+
+#~ msgctxt "_"
+#~ msgid "external ref='figures/camera-web.png' md5='__failed__'"
+#~ msgstr "external ref='figures/camera-web.png' md5='__failed__'"
+
+#~ msgid "Icon"
+#~ msgstr "Εικονίδιο"
+
+#~ msgid "Description"
+#~ msgstr "Περιγραφή"
+
+#~ msgid ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/audio-input-"
+#~ "microphone.png\"> Icon for audio conversation </media>"
+#~ msgstr ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/audio-input-"
+#~ "microphone.png\"> Εικονίδιο για φωνητική συνομιλία </media>"
+
+#~ msgid "The contact is able to have an audio conversation."
+#~ msgstr "Η επαφή μπορεί να πραγματοποιεί φωνητικές κλήσεις."
+
+#~ msgid ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/camera-web.png\"> "
+#~ "Icon for video conversation </media>"
+#~ msgstr ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/camera-web.png\"> "
+#~ "Εικονίδιο για συνομιλία με βίντεο </media>"
+
+#~ msgid "The contact is able to have a video conversation."
+#~ msgstr "Η επαφή μπορεί να πραγματοποιεί βιντεοκλήσεις."
+
+#~ msgctxt "link"
+#~ msgid "Empathy Internet Messenger"
+#~ msgstr "Μηνύματα διαδικτύου Empathy"
+
+#~ msgctxt "text"
+#~ msgid "Empathy Internet Messenger"
+#~ msgstr "Μηνύματα διαδικτύου Empathy"
+
+#~| msgctxt "link"
+#~| msgid "Empathy Internet Messenger"
+#~ msgid "Empathy Internet Messenger logo"
+#~ msgstr "Λογότυπος αγγελιοφόρου διαδικτύου Empathy"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/gtk-add.png' md5='a856b499d8d4681b70b5ce6f25bc5c6d'"
+#~ msgstr ""
+#~ "external ref='figures/gtk-add.png' md5='a856b499d8d4681b70b5ce6f25bc5c6d'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/gtk-edit.png' md5='4f21b451732817be0604fe3e2c8da98b'"
+#~ msgstr ""
+#~ "external ref='figures/gtk-edit.png' md5='4f21b451732817be0604fe3e2c8da98b'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/gtk-remove.png' "
+#~ "md5='215e3a325a3dd619874e35c30a018bb6'"
+#~ msgstr ""
+#~ "external ref='figures/gtk-remove.png' "
+#~ "md5='215e3a325a3dd619874e35c30a018bb6'"
+
+#~ msgid ""
+#~ "To add a network to the list, click <media type=\"image\" mime=\"image/png"
+#~ "\" src=\"figures/gtk-add.png\" width=\"16\" height=\"16\">Add</media>."
+#~ msgstr ""
+#~ "Για να προσθέσετε ένα δίκτυο στη λίστα, πατήστε <media type=\"image\" "
+#~ "mime=\"image/png\" src=\"figures/gtk-add.png\" width=\"16\" height="
+#~ "\"16\">Προσθήκη</media>."
+
+#~ msgid ""
+#~ "Due to technical differences, the free <link href=\"https://www.ekiga.net/"
+#~ "index.php?page=register\">Ekiga.net</link> service does not currently "
+#~ "work with <app>Empathy</app>."
+#~ msgstr ""
+#~ "Εξαιτίας ορισμένων τεχνικών διαφορών, προς το παρόν η ελεύθερη υπηρεσία "
+#~ "<link href=\"https://www.ekiga.net/index.php?page=register\">Ekiga.net</"
+#~ "link> δεν υποστηρίζεται από το <app>Empathy</app>."
+
+#~ msgid ""
+#~ "You do not need to register for an account to use IRC. Although you "
+#~ "specify a nickname when you add an IRC account to <app>Empathy</app>, "
+#~ "this nickname is only established each time you connect. If another user "
+#~ "is using the nickname, you will need to choose a new nickname."
+#~ msgstr ""
+#~ "Δε χρειάζεται να διαθέτετε λογαριασμό για να χρησιμοποιήσετε το IRC. "
+#~ "Παρόλο που πρέπει να επιλέξετε ένα ψευδώνυμο για να προσθέσετε ένα "
+#~ "λογαριασμό IRC στο <app>Empathy</app>, το ψευδώνυμο αυτό μπορεί να "
+#~ "αλλάζει κάθε φορά που συνδέεστε. Επίσης, αν υπάρχει άλλος χρήστης με το "
+#~ "ίδιο ψευδώνυμο, θα πρέπει να αλλάξετε το δικό σας."
+
+#~ msgid ""
+#~ "Some IRC networks use a service called NickServ to allow users to protect "
+#~ "their nicknames. See <link xref=\"irc-nick-password\"/> for more "
+#~ "information."
+#~ msgstr ""
+#~ "Ορισμένα δίκτυα IRC χρησιμοποιούν μία υπηρεσία που ονομάζεται NickServ "
+#~ "και η οποία επιτρέπει στους χρήστες να προστατεύουν τα ψευδώνυμά τους. "
+#~ "Δείτε το <link xref=\"irc-nick-password\"/> για περισσότερες πληροφορίες."
+
+#~ msgid "Combine and separate contacts"
+#~ msgstr "Συγχώνευση και διαχωρισμός επαφών"
+
+#~ msgid ""
+#~ "From the <gui>Contact List</gui> window, right-click one of the contact "
+#~ "that has different accounts, and select <gui style=\"menuitem\">Link "
+#~ "Contacts...</gui>."
+#~ msgstr ""
+#~ "Από το παράθυρο <gui>Λίστα επαφών</gui>, κάντε δεξί κλικ σε μια επαφή που "
+#~ "έχει διαφορετικούς λογαριασμούς και επιλέξτε <gui style=\"menuitem"
+#~ "\">Συγχώνευση επαφών…</gui>."
+
+#~ msgid ""
+#~ "From the left pane in the <gui>Link Contacts</gui> window, select the "
+#~ "contacts you want to combine."
+#~ msgstr ""
+#~ "Από το αριστερό πλαίσιο στο παράθυρο <gui>Συγχώνευση επαφών</gui>, "
+#~ "επιλέξτε τις επαφές που θέλετε να συγχωνεύσετε."
+
+#~ msgid ""
+#~ "When a meta-contact has been created, the default contact that will be "
+#~ "used to have a conversation with when you double-click on it, is the "
+#~ "contact with the highest presence on-line."
+#~ msgstr ""
+#~ "Όταν έχει δημιουργηθεί μια μετα-επαφή, η προεπιλεγμένη επαφή που θα "
+#~ "χρησιμοποιηθεί για να έχετε μια συζήτηση με αυτή όταν κάνετε διπλό κλικ "
+#~ "σε αυτή, είναι η επαφή με τη μεγαλύτερη διαδικτυακή παρουσία."
+
+#~ msgid "Separating contacts"
+#~ msgstr "Διαχωρισμός επαφών"
+
+#~ msgid ""
+#~ "From the <gui>Contact List</gui>, right-click the contact to separate, "
+#~ "and select <gui style=\"menuitem\">Link Contacts...</gui>."
+#~ msgstr ""
+#~ "Από το παράθυρο <gui>Λίστα επαφών</gui>, κάντε δεξί κλικ στην επαφή που "
+#~ "θα διαχωρίσετε και επιλέξτε <gui style=\"menuitem\">Συγχώνευση επαφών…</"
+#~ "gui>."
+
+#~ msgid "Click <gui style=\"button\">Unlink</gui>."
+#~ msgstr "Πατήστε <gui style=\"button\">Διαχωρισμός</gui>."
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/video_overview.png' "
+#~ "md5='6cfcfbd833bf2234537d402185c40596'"
+#~ msgstr ""
+#~ "external ref='figures/video_overview.png' "
+#~ "md5='6cfcfbd833bf2234537d402185c40596'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/conf_overview.png' "
+#~ "md5='74c58668fe89c84060f12f6b70a6b903'"
+#~ msgstr ""
+#~ "external ref='figures/conf_overview.png' "
+#~ "md5='74c58668fe89c84060f12f6b70a6b903'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/croom_overview.png' "
+#~ "md5='e9619d2c8420bc48a880c03dbc1ae084'"
+#~ msgstr ""
+#~ "external ref='figures/croom_overview.png' "
+#~ "md5='e9619d2c8420bc48a880c03dbc1ae084'"
+
+#~ msgid ""
+#~ "Click the <media type=\"image\" mime=\"image/png\" src=\"figures/gtk-edit."
+#~ "png\">edit</media> icon in the error message."
+#~ msgstr ""
+#~ "Πατήστε το εικονίδιο <media type=\"image\" mime=\"image/png\" src="
+#~ "\"figures/gtk-edit.png\">επεξεργασία</media> στο μήνυμα σφάλματος."
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/available.png' "
+#~ "md5='2196b2f0ad4ce26fdb7b9d48e75d1947'"
+#~ msgstr ""
+#~ "external ref='figures/available.png' "
+#~ "md5='2196b2f0ad4ce26fdb7b9d48e75d1947'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/busy.png' md5='15eb2adff5faedf97b0cb9105d09410a'"
+#~ msgstr ""
+#~ "external ref='figures/busy.png' md5='15eb2adff5faedf97b0cb9105d09410a'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/away.png' md5='9c504d6ffa0cf1a9cc8933d16e1bea33'"
+#~ msgstr ""
+#~ "external ref='figures/away.png' md5='9c504d6ffa0cf1a9cc8933d16e1bea33'"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/offline.png' md5='c5b0c21181cbd6e13f8909243c0fa964'"
+#~ msgstr ""
+#~ "external ref='figures/offline.png' md5='c5b0c21181cbd6e13f8909243c0fa964'"
+
+#~ msgid ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/available.png"
+#~ "\">Available icon</media> <gui>Available</gui>"
+#~ msgstr ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/available.png"
+#~ "\">Available icon</media> <gui>Διαθέσιμος/η</gui>"
+
+#~ msgid ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/busy.png\">Busy "
+#~ "icon</media> <gui>Busy</gui>"
+#~ msgstr ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/busy.png\">Busy "
+#~ "icon</media> <gui>Απασχολημένος/η</gui>"
+
+#~ msgid ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/away.png\">Away "
+#~ "icon</media> <gui>Away</gui>"
+#~ msgstr ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/away.png\">Away "
+#~ "icon</media> <gui>Απουσιάζει</gui>"
+
+#~ msgid ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/offline.png"
+#~ "\">Offline icon</media> <gui>Invisible</gui>"
+#~ msgstr ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/offline.png"
+#~ "\">Offline icon</media> <gui>Αόρατος</gui>"
+
+#~ msgid ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/offline.png"
+#~ "\">Offline icon</media> <gui>Offline</gui>"
+#~ msgstr ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/offline.png"
+#~ "\">Offline icon</media> <gui>Εκτός σύνδεσης</gui>"
+
+#~ msgctxt "_"
+#~ msgid ""
+#~ "external ref='figures/empathy-logo.png' "
+#~ "md5='1afc419a644e90b16393807e35cb5cb2'"
+#~ msgstr ""
+#~ "external ref='figures/empathy-logo.png' "
+#~ "md5='1afc419a644e90b16393807e35cb5cb2'"
+
+#~ msgid ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/empathy-logo.png"
+#~ "\"> Empathy Internet Messenger logo </media> Empathy Internet Messenger"
+#~ msgstr ""
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/empathy-logo.png"
+#~ "\"> Λογότυπο του Αποστολέα άμεσων μηνυμάτων Empathy</media> Αποστολέας "
+#~ "άμεσων μηνυμάτων Empathy"
+
+#~ msgid ""
+#~ "From the <gui>Contact List</gui> window, click the <media type=\"image\" "
+#~ "mime=\"image/png\" src=\"figures/camera-web.png\">video call</media> icon "
+#~ "next to the name of the contact you wish to call and choose <gui style="
+#~ "\"menuitem\">Audio Call</gui>."
+#~ msgstr ""
+#~ "Από το παράθυρο <gui>Λίστα επαφών</gui>, πατήστε το εικονίδιο <media type="
+#~ "\"image\" mime=\"image/png\" src=\"figures/camera-web.png\">βιντεοκλήση</"
+#~ "media> δίπλα από το όνομα της επαφής που επιθυμείτε να καλέσετε, και "
+#~ "επιλέξτε <gui style=\"menuitem\">Φωνητική κλήση</gui>."
+
+#~ msgid ""
+#~ "From the <gui>Contact List</gui> window, click the <media type=\"image\" "
+#~ "mime=\"image/png\" src=\"figures/camera-web.png\">video call</media> icon "
+#~ "next to the name of the contact you wish to call and choose <gui style="
+#~ "\"menuitem\">Video Call</gui>."
+#~ msgstr ""
+#~ "Από το παράθυρο <gui>Λίστα επαφών</gui>, πατήστε το εικονίδιο <media type="
+#~ "\"image\" mime=\"image/png\" src=\"figures/camera-web.png\">βιντεοκλήση</"
+#~ "media> δίπλα από το όνομα της επαφής που επιθυμείτε να καλέσετε, και "
+#~ "επιλέξτε <gui style=\"menuitem\">Βιντεοκλήση</gui>. Εναλλακτικά, κάνετε "
+#~ "δεξί κλικ στο όνομα της επαφής και επιλέξτε  <gui>Βιντεοκλήση</gui>."
+
+#~ msgid "milo@ubuntu.com"
+#~ msgstr "milo@ubuntu.com"
+
+#~ msgid "@@image: 'figures/busy.png'; md5=6cab57171fb6d732a85ace48f11cf207"
+#~ msgstr "@@image: 'figures/busy.png'; md5=6cab57171fb6d732a85ace48f11cf207"
+
+#~ msgid "@@image: 'figures/away.png'; md5=9a93ccca527af39cbe11db5c9d915ca0"
+#~ msgstr "@@image: 'figures/away.png'; md5=9a93ccca527af39cbe11db5c9d915ca0"
+
+#~ msgid "@@image: 'figures/offline.png'; md5=565ba82fbedd22e4eb5b810750199527"
+#~ msgstr ""
+#~ "@@image: 'figures/offline.png'; md5=565ba82fbedd22e4eb5b810750199527"
+
+#~ msgid "shaunm@gnome.org"
+#~ msgstr "shaunm@gnome.org"
+
+#~ msgid "Available"
+#~ msgstr "Διαθέσιμος/η"
+
+#~ msgid "Busy"
+#~ msgstr "Απασχολημένος/η"
+
+#~ msgid "Away"
+#~ msgstr "Απουσιάζει"
+
+#~ msgid "Invisible"
+#~ msgstr "Αόρατος/η"
+
+#~ msgid "Offline"
+#~ msgstr "Εκτός σύνδεσης"
+
+#~ msgid ""
+#~ "In order to be able to share your desktop or to remotely use your "
+#~ "contacts desktop, it is necessary to have a remote desktop viewer "
+#~ "application installed in your system."
+#~ msgstr ""
+#~ "Για να μπορείτε να μοιραστείτε την επιφάνεια εργασίας σας ή να "
+#~ "χρησιμοποιήσετε απομακρυσμένα την επιφάνεια εργασίας μιας επαφής σας, θα "
+#~ "πρέπει να έχετε εγκατεστημένη μια εφαρμογή προβολής απομακρυσμένης "
+#~ "επιφάνειας εργασίας."
+
+#~ msgid ""
+#~ "A request will be sent to the contact you want to share your desktop "
+#~ "with. If they accept, the default remote desktop viewer application will "
+#~ "be launched in order to permit you to disconnect the user that is "
+#~ "controlling your desktop."
+#~ msgstr ""
+#~ "Η επαφή σας θα λάβει ένα αίτημα κοινής χρήσης της επιφάνειας εργασίας "
+#~ "σας. Αν απαντήσει θετικά, θα εκκινηθεί η προεπιλεγμένη εφαρμογή προβολής "
+#~ "απομακρυσμένης επιφάνειας εργασίας, που σας επιτρέπει να αποσυνδέσετε την "
+#~ "επαφή που ελέγχει την επιφάνεια εργασίας σας."
+
+#~ msgid "jwcampbell@gmail.com"
+#~ msgstr "jwcampbell@gmail.com"
+
+#~ msgid "Edit, remove and add a custom message"
+#~ msgstr "Επεξεργασία, διαγραφή και προσθήκη προσαρμοσμένου μηνύματος"
+
+#~ msgid ""
+#~ "To add a new custom message, from the <gui>Add New Preset</gui> section:"
+#~ msgstr ""
+#~ "Για να προσθέσετε ένα νέο προσαρμοσμένο μήνυμα, από την ενότητα "
+#~ "<gui>Προσθήκη νέας προεπιλογής</gui>:"
+
+#~ msgid ""
+#~ "Click on the drop-down list to select the status you want to set a custom "
+#~ "message to."
+#~ msgstr ""
+#~ "Κάνετε κλικ στην αναπτυσσόμενη λίστα για να επιλέξετε την κατάσταση για "
+#~ "την οποία θέλετε να προσθέσετε προσαρμοσμένο μήνυμα."
+
+#~ msgid "Click on the text box, and type the new custom message."
+#~ msgstr ""
+#~ "Κάνετε κλικ στο πεδίο κειμένου και εισάγετε το νέο προσαρμοσμένο μήνυμα."
+
+#~ msgid "Click on <gui>Add</gui> to add the new message to the presets ones."
+#~ msgstr ""
+#~ "Πατήστε <gui>Προσθήκη</gui> για να προσθέσετε το νέο μήνυμα στις "
+#~ "προεπιλογές."
+
+#~ msgid "philbull@gmail.com"
+#~ msgstr "philbull@gmail.com"
+
+#~ msgid "I'd like to see this played up a bit more."
+#~ msgstr "I'd like to see this played up a bit more."
+
+#~ msgid "shaunm"
+#~ msgstr "shaunm"
+
+#~ msgid ""
+#~ "Empathy no longer allows you to create an IRC account without a valid "
+#~ "nick. I've removed the guide link. Remove the text."
+#~ msgstr ""
+#~ "Empathy no longer allows you to create an IRC account without a valid "
+#~ "nick. I've removed the guide link. Remove the text."
+
+#~ msgid ""
+#~ "Deselect the <gui>Enabled</gui> check-box next to the name of your "
+#~ "account, and then select it again to try to reconnect to the service."
+#~ msgstr ""
+#~ "Αποεπιλέξτε το <gui>Ενεργός</gui> δίπλα στο όνομα του λογαριασμού σας. "
+#~ "Μετά, επιλέξτε το ξανά, για να γίνει νέα προσπάθεια σύνδεσης στην "
+#~ "υπηρεσία."
+
+#~ msgid ""
+#~ "Check that the <gui style=\"checkbox\">Enabled</gui> check-box is "
+#~ "selected. If it is not, select the check-box to enable the account."
+#~ msgstr ""
+#~ "Βεβαιωθείτε ότι είναι ενεργοποιημένη η επιλογή <gui style=\"checkbox"
+#~ "\">Ενεργός</gui>. Αν δεν είναι, σημειώστε την, για να ενεργοποιήσετε το "
+#~ "λογαριασμό."
+
+#~ msgid ""
+#~ "Highlighting text is quirky: <link href=\"http://bugzilla.gnome.org/"
+#~ "show_bug.cgi?id=593733\">#593733</link>. If there's an actual "
+#~ "highlighting going on, independent of the selection (like in yellow or "
+#~ "something), we can use the term \"highlight\". Otherwise we need to use "
+#~ "the term \"select\". Watch that bug."
+#~ msgstr ""
+#~ "Highlighting text is quirky: <link href=\"http://bugzilla.gnome.org/"
+#~ "show_bug.cgi?id=593733\">#593733</link>. If there's an actual "
+#~ "highlighting going on, independent of the selection (like in yellow or "
+#~ "something), we can use the term \"highlight\". Otherwise we need to use "
+#~ "the term \"select\". Watch that bug."
+
+#~ msgid "Select the <gui>Search</gui> tab."
+#~ msgstr "Επιλέξτε την καρτέλα <gui>Αναζήτηση</gui>."
+
+#~ msgid ""
+#~ "In the <gui>For</gui> field, type the text you want to search for. Click "
+#~ "<gui>Find</gui> or press <key>Enter</key>."
+#~ msgstr ""
+#~ "Στο πεδίο <gui>Για</gui>, εισάγετε το κείμενο το οποίο θέλετε να βρείτε, "
+#~ "και πατήστε <gui>Αναζήτηση</gui> ή <key>Enter</key>."
+
+#~ msgid ""
+#~ "Click on a conversation to view it. <app>Empathy</app> will select the "
+#~ "text in the conversation that matched your search terms."
+#~ msgstr ""
+#~ "Κάνετε κλικ σε μια συζήτηση για να την εμφανίσετε. Το <app>Empathy</app> "
+#~ "θα επιλέξει το κείμενο της συζήτησης που αντιστοιχεί στους όρους της "
+#~ "αναζήτησής σας."
+
+#~ msgid "Select the <gui>Conversations</gui> tab."
+#~ msgstr "Επιλέξτε την καρτέλα <gui>Συζητήσεις</gui>."
+
+#~ msgid ""
+#~ "@@image: 'figures/empathy-logo.png'; md5=14568248b11d2cfe7992c5edd7e157e8"
+#~ msgstr ""
+#~ "@@image: 'figures/empathy-logo.png'; md5=14568248b11d2cfe7992c5edd7e157e8"
+
+#~ msgid "peter.haslam@freenet.de"
+#~ msgstr "peter.haslam@freenet.de"
+
+#~ msgid ""
+#~ "Deselect <gui style=\"checkbox\">Enabled</gui> on the right side of the "
+#~ "window."
+#~ msgstr ""
+#~ "Αποεπιλέξτε το <gui style=\"checkbox\">Ενεργός</gui> στη δεξιά πλευρά του "
+#~ "παραθύρου."
+
+#~ msgid ""
+#~ "There are a number of popular free SIP account providers; one popular "
+#~ "provider is <link href=\"https://signup.sipphone.com/new-users/app?"
+#~ "class=NewUser;proc=start\">Sipphone</link>."
+#~ msgstr ""
+#~ "Υπάρχουν αρκετοί δημοφιλείς πάροχοι δωρεάν λογαριασμών SIP· ένας είναι το "
+#~ "<link href=\"https://signup.sipphone.com/new-users/app?class=NewUser;"
+#~ "proc=start\">Sipphone</link>."
+
+#~ msgid "Icon for audio conversation"
+#~ msgstr "Εικονίδιο φωνητικής κλήσης"
+
+#~ msgid "Icon for video conversation"
+#~ msgstr "Εικονίδιο βιντεοκλήσης"
+
+#~ msgid ""
+#~ "I'd like to do tables like this using nothing for No and ✔ for Yes, but "
+#~ "we need to look at the accessibility impact. I've <link href=\"http://"
+#~ "mail.gnome.org/archives/gnome-doc-list/2009-September/msg00006.html"
+#~ "\">asked the accessibility team</link> for input."
+#~ msgstr ""
+#~ "I'd like to do tables like this using nothing for No and ✔ for Yes, but "
+#~ "we need to look at the accessibility impact. I've <link href=\"http://"
+#~ "mail.gnome.org/archives/gnome-doc-list/2009-September/msg00006.html"
+#~ "\">asked the accessibility team</link> for input."
+
+#~ msgid ""
+#~ "There's recent work on telepathy-butterfly and papyon to support audio "
+#~ "and video for MSN. It might be released in time for 2.28, but since it "
+#~ "doesn't follow the Gnome release schedule, I can't be sure. If it looks "
+#~ "like it's going to ship, let's mark it Yes."
+#~ msgstr ""
+#~ "Αυτή την περίοδο, στα έργα telepathy-butterfly και papyon γίνεται "
+#~ "προσπάθεια για την προσθήκη υποστήριξης ήχου και βίντεο στο MSN. Η "
+#~ "υποστήριξη μπορεί να είναι διαθέσιμη για την έκδοση 2.28, αλλά επειδή οι "
+#~ "εκδόσεις αυτών των έργων δε συμπίπτουν με τις εκδόσεις του GNOME, δεν "
+#~ "μπορούν να γίνουν ασφαλείς προβλέψεις."
+
+#~ msgid "Click <gui style=\"button\">Log in</gui>."
+#~ msgstr "Πατήστε <gui style=\"button\">Σύνδεση</gui>."
+
+#~ msgid "Resource"
+#~ msgstr "Πόρος"
+
+#~ msgid "Priority"
+#~ msgstr "Προτεραιότητα"
+
+#~ msgid "Network"
+#~ msgstr "Δίκτυο"
+
+#~ msgid "Nickname"
+#~ msgstr "Ψευδώνυμο"
+
+#~ msgid "Password"
+#~ msgstr "Συνθηματικό"
+
+#~ msgid "Quit message"
+#~ msgstr "Μήνυμα εξόδου"
+
+#~ msgid "Charset"
+#~ msgstr "Κωδικοποίηση"
+
+#~ msgid "Servers"
+#~ msgstr "Εξυπηρετητές"
+
+#~ msgid ""
+#~ "From the <gui>Contact List</gui> window, click the <media type=\"image\" "
+#~ "mime=\"image/png\" src=\"figures/audio-input-microphone.png\">audio call</"
+#~ "media> icon next to the name of the contact you wish to call and choose "
+#~ "<gui style=\"menuitem\">Audio Call</gui>. Alternatively, right click the "
+#~ "contact and choose <gui style=\"menuitem\">Audio Call</gui>."
+#~ msgstr ""
+#~ "Στο παράθυρο <gui>Λίστα επαφών</gui>, πατήστε το εικονίδιο <media type="
+#~ "\"image\" mime=\"image/png\" src=\"figures/audio-input-microphone.png"
+#~ "\">φωνητική κλήση</media> δίπλα από το όνομα της επαφής που επιθυμείτε να "
+#~ "καλέσετε, και επιλέξτε  <gui style=\"menuitem\">Φωνητική κλήση</gui>. "
+#~ "Εναλλακτικά, κάνετε δεξί κλικ στο όνομα της επαφής και επιλέξτε <gui "
+#~ "style=\"menuitem\">Φωνητική κλήση</gui>."
+
+#~ msgid ""
+#~ "Click on the trash icon next to the account name to remove the account."
+#~ msgstr ""
+#~ "Κάνετε κλικ στο εικονίδιο των απορριμμάτων δίπλα στο όνομα του "
+#~ "λογαριασμού για να διαγράψετε το λογαριασμό."
+
+#~ msgid "To join such a room, if you know the password:"
+#~ msgstr ""
+#~ "Για να συνδεθείτε σε ένα τέτοιο δωμάτιο, αν γνωρίζετε το συνθηματικό:"
+
+#~ msgid ""
+#~ "As a special exception, the copyright holders give you permission to "
+#~ "copy, modify, and distribute the example code contained in this document "
+#~ "under the terms of your choosing, without restriction."
+#~ msgstr ""
+#~ "Ως ειδική εξαίρεση, οι κάτοχοι των δικαιωμάτων πνευματικής ιδιοκτησίας "
+#~ "σας χορηγούν άδεια αντιγραφής, τροποποίησης και διανομής των "
+#~ "παραδειγμάτων κώδικα που περιέχονται στο έγγραφο, υπό τους όρους που "
+#~ "εσείς επιθυμείτε, χωρίς περιορισμό."
+
+#~ msgid "Hidden"
+#~ msgstr "Αόρατος/η"

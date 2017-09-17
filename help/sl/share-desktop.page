@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="share-desktop" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#advanced"/>
+    <desc>Dajte namizje v souporabo s svojimi stiki.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review"/>
+    <revision pkgversion="2.28" version="0.3" date="2009-09-05" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Dajte vaše namizje v souporabo</title>
+
+  <p>Z nekaterimi stiki je mogoče dati svoje namizje v souporabo ali začeti uporabljati njihovo namizje. To zmožnost lahko uporabljate za prikaz svojega namizja vašim stikom, za iskanje pomoči ali za pomoč svojim stikom pri odpravljanju težav.</p>
+
+  <note style="tip">
+    <p>Za zmožnost souporabe namizja boste morali imeti nameščen strežnik VNC z ustrezno podporo. <app>Vino</app>, GNOME strežnik VNC ima zahtevano podporo.</p>
+  </note>
+
+  <steps>
+    <item>
+      <p>V oknu <gui>Seznam stikov</gui> izvedite eno od naslednjega:</p>
+      <list>
+        <item>
+          <p>Izberite stik kateremu želite dati svoje namizje v souporabo in izberite  <guiseq><gui>Uredi</gui><gui>Stik</gui><gui>Daj moje namizje v souporabo</gui></guiseq>.</p>
+        </item>
+        <item>
+          <p>Desno kliknite na ime stika kateremu želite dati namizje v souporabo in izberite <gui>Daj moje namizje v souporabo</gui>.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Povabilo za ogled vašega namizja bo bilo poslano izbranemu stiku. Za ogled vašega namizja ga bo moral sprejeti.</p>
+    </item>
+    <item>
+      <p>Povezavo stika s svojim oddaljenim namizjem lahko prekinete s programom souporabe namizja.</p>
+      <note>
+        <p>Za več podrobnosti kako uporabiti program oddaljenega pregledovalnika namizja se sklicujte na pomoč.</p>
+      </note>
+    </item>
+  </steps>
+
+  <p>Ko svoje namizje date v souporabo z nekom drugim, boste morda opazili upočasnjeno delovanje sistema in nizko hitrost medmrežja.</p>
+
+  <note>
+    <p>Vsi stiki morda ne podpirajo te zmožnosti. Stiki morajo imeti vsaj <app>Empathy</app> različico 2.28 in na svojemu sistemu nameščen program pregledovalnika oddaljenega namizja.</p>
+  </note>
+
+</page>

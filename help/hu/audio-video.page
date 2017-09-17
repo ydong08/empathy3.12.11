@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="audio-video" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#audio-video"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="draft"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-04" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.2" date="2010-02-14" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+    <desc>Információk arról, hogy mikor kezdhet hang- vagy videohívást.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2010, 2011, 2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Hang- és videotámogatás</title>
+
+  <p>Csak olyan partnerekkel folytathat hang- és videohívást, akik maguk is ezt a szolgáltatást támogató klienst használnak.</p>
+
+  <note>
+    <p>Hanghíváshoz az operációs rendszer által támogatott hangkártyára, és működő mikrofonra van szüksége.</p>
+    <p>Videohíváshoz az operációs rendszer által támogatott webkamerára, és működő mikrofonra van szüksége.</p>
+  </note>
+
+  <section id="services">
+  
+  <title>Támogatott fióktípusok</title>
+
+  <p>Csak bizonyos támogatott szolgáltatások fiókjainak használatakor van lehetősége hang- és videohívásokra. A következő táblázat felsorolja, hogy a hang és videó támogatott-e az egyes fióktípusokban.</p>
+
+  <note>
+    <p>A fióktípusokat bővítmények biztosítják. Rendszerén lehet, hogy a következő típusok nem mindegyike érhető el, de rendelkezhet itt fel nem sorolt típusokkal is. A frissített bővítmények lehetővé tehetik a hang- és videohívásokat az itt nem támogatottként felsorolt fióktípusokkal.</p>
+  </note>
+
+  <table frame="all" rules="rowgroups colgroups" shade="rows">
+    <colgroup><col/></colgroup><colgroup><col/><col/></colgroup>
+    <thead>
+      <tr>
+        <td><p>Szolgáltatás</p></td>
+        <td><p>Hang</p></td>
+        <td><p>Videó</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>AIM</p></td>
+        <td><p>Nem</p></td>
+        <td><p>Nem</p></td>
+      </tr>
+      <tr>
+        <td><p>Gadu-Gadu</p></td>
+        <td><p>Nem</p></td>
+        <td><p>Nem</p></td>
+      </tr>
+      <tr>
+        <td><p>Google Talk</p></td>
+        <td><p>Igen</p></td>
+        <td><p>Igen</p></td>
+      </tr>
+      <tr>
+        <td><p>Groupwise</p></td>
+        <td><p>Nem</p></td>
+        <td><p>Nem</p></td>
+      </tr>
+      <tr>
+        <td><p>ICQ</p></td>
+        <td><p>Nem</p></td>
+        <td><p>Nem</p></td>
+      </tr>
+      <tr>
+        <td><p>IRC</p></td>
+        <td><p>Nem</p></td>
+        <td><p>Nem</p></td>
+      </tr>
+      <tr>
+        <td><p>Jabber</p></td>
+        <td><p>Igen</p></td>
+        <td><p>Igen</p></td>
+      </tr>
+      <tr>
+        <td><p>MySpace</p></td>
+        <td><p>Nem</p></td>
+        <td><p>Nem</p></td>
+      </tr>
+      <tr>
+        <td><p>QQ</p></td>
+        <td><p>Nem</p></td>
+        <td><p>Nem</p></td>
+      </tr>
+      <tr>
+        <td><p>Közeli emberek</p></td>
+        <td><p>Nem</p></td>
+        <td><p>Nem</p></td>
+      </tr>
+      <tr>
+        <td><p>Sametime</p></td>
+        <td><p>Nem</p></td>
+        <td><p>Nem</p></td>
+      </tr>
+      <tr>
+        <td><p>Silc</p></td>
+        <td><p>Nem</p></td>
+        <td><p>Nem</p></td>
+      </tr>
+      <tr>
+        <td><p>SIP</p></td>
+        <td><p>Igen</p></td>
+        <td><p>Igen</p></td>
+      </tr>
+      <tr>
+        <td><p>Yahoo!</p></td>
+        <td><p>Nem</p></td>
+        <td><p>Nem</p></td>
+      </tr>
+      <tr>
+        <td><p>Zephyr</p></td>
+        <td><p>Nem</p></td>
+        <td><p>Nem</p></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  </section>
+
+</page>

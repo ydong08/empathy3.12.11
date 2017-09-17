@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-what-is" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="geolocation#geoloc"/>
+    <link type="seealso" xref="geolocation-supported"/>
+    <desc>位置情報について理解します。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>クリエイティブ・コモンズ・ライセンス 継承 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mako N</mal:name>
+      <mal:email>mako@pasero.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>位置情報とは何か</title>
+
+  <p>位置情報とは、インターネットに接続しているコンピューターまたはデバイスの現実の地理的な場所を同定するものです。</p>
+  <p><app>Empathy</app> では、位置情報について次のことができます。</p>
+  <list>
+    <item>
+      <p>相手先に自分の地理的な場所を公開できます。</p>
+    </item>
+    <item>
+      <p>相手先の地理的位置を知ることができ、速やかに接触できます。</p>
+    </item>
+    <item>
+      <p>場所の精度を設定できます。場所を検出するデバイスを設定できます。</p>
+    </item>
+  </list>
+
+  <note style="tip">
+    <p>相手先の位置情報を知るためには、相手先が位置情報をサポートするサービスとアプリケーションを使っている必要があります。</p>
+  </note>
+
+</page>

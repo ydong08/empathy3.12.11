@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-jabber" xml:lang="ja">
+
+  <info>
+    <desc>Jabber や Google トークのアカウントの詳細オプションについて。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-27" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.12" date="2015-02-03" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>クリエイティブ・コモンズ・ライセンス 継承 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mako N</mal:name>
+      <mal:email>mako@pasero.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Jabber アカウントの詳細</title>
+
+  <p>ほとんどの Jabber アカウントは、ログイン ID とパスワードだけが必要です。いくつかのアカウントやネットワークの種類では、<gui>詳細</gui>セクションに追加情報を入力する必要があります。通常、以下の詳細情報は必要ありません。一般的なアカウントの追加の説明は、<link xref="add-account"/> を参照してください。</p>
+
+  <note>
+    <p>Google トークは、Jabber アカウントの一種です。この説明は Google トークについても当てはまります。</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>TLS/SSL での暗号化が必要</gui></title>
+      <title><gui>SSL の証明書に関連するエラーは無視</gui></title>
+      <p>可能な限り、<app>Empathy</app> と Jabber サーバーの通信は暗号化されます。暗号化通信ができない場合、メッセージは暗号化されずに送られます。<gui>暗号化が必要</gui>を指定すると、暗号化ができない場合には <app>Empathy</app> と Jabber サーバーとの通信を行いません。</p>
+      <p>Some Jabber servers may encrypt data using invalid certificates,
+      or using certificates signed by unknown authorities.  You can select
+      <gui>Ignore SSL certificate errors</gui> to allow encrypted communication
+      with invalid certificates, but this allows an attacker to intercept your
+      communication with the server (including your password). You might want to
+      use this option for testing purposes, or if your server is broken and you
+      do not care about the security of your communication.</p>
+    </item>
+    <item>
+      <title><gui>リソース</gui></title>
+      <title><gui>優先度</gui></title>
+      <p>複数のアプリケーション (たとえば、別のコンピューター) を使って、ひとつのアカウントに同時に接続する場合、それぞれを区別するためにリソースを設定できます。デフォルトで、<app>Empathy</app> はリソースとして <input>Telepathy</input> を使います。</p>
+      <p>相手先からのメッセージをどちらのアプリケーションで受け取るか、優先度を設定できます。新しいメッセージは優先度の高いほうに送られます。</p>
+    </item>
+    <item>
+      <title><gui>サーバーの設定を上書き</gui></title>
+      <p><app>Empathy</app> は、ログイン ID に基づき、デフォルトの設定で Jabber サーバーに接続しようとします。なかには手動でサーバー設定を入力する必要がある Jabber サーバーもあります。これらの設定情報は Jabber プロバイダーから配布されるはずです。</p>
+    </item>
+  </terms>
+
+</page>

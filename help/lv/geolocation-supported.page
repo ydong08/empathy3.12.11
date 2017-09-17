@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-supported" xml:lang="lv">
+
+  <info>
+    <desc>Servisi, kuri atbalsta ģeogrāfiskās atrašanās vietu un to savietojamība.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="draft">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0 licence.</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Atbalstītie servisi</title>
+
+  <p>Ģeogrāfiskās atrašanās vietas iespēja uz doto brīdi ir saderīga tikai ar Jabber servisu. Lai to izmantotu, tev, kā arī taviem kontaktiem, ir jābūt Jabber kontam.</p>
+  
+  <note>
+    <p>Arī serverim, kuru tu lieto, jāatbalsta ģeogrāfiskās atrašanās vietas noteikšanas pakalpojums. Lielākā daļa no Jabber serveriem to atbalsta. Lasi sava servisa tīmekļa vietnes dokumentāciju, lai uzzinātu vairāk.</p>
+  </note>
+  
+  <section id="compatibility">
+  <title>Savietojamība</title>
+  
+  <p><app>Empathy</app> ģeogrāfiskās atrašanās vietas pakalpojums nav saderīgs ar citiem šī pakalpojuma servisiem, piemēram <em>Google Latitude</em>, <em>Yahoo Fire Eagle</em> vai <em>Brightkite</em>.</p>
+  
+  </section>
+  
+</page>

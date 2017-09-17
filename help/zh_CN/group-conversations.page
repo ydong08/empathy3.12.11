@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="group-conversations" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>开始和您的联系人进行群组聊天，或加入群组聊天。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>知识共享-相同方式共享 (Creative Commons Share Alike) 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>群组聊天</title>
+  
+  <p>在群组聊天中，您可以和不止一位联系人同时进行文字交谈。</p>
+  <p>要进行群组聊天您需要注册有 Jabber 帐号或者 Google Talk 帐号，或者“附近的人”账户。</p>
+
+  <note>
+    <p>您只能和那些与您使用同样的服务的联系人进行群组聊天。</p>
+  </note>
+
+  <section id="start-group-conv">
+
+  <title>开始群组聊天</title>
+
+  <steps>
+    <item>
+      <p>在 <gui>联系人列表</gui> 窗口，选择 <guiseq><gui>聊天室</gui><gui>加入</gui></guiseq>。</p>
+    </item>
+    <item>
+      <p>在 <gui>帐号</gui> 下拉列表中，选择一个帐号用来进行群组聊天。</p>
+    </item>
+    <item>
+      <p>在 <gui>服务器</gui> 文本框中，输入将会承载这次聊天的服务器名称。</p>
+      <p>如果要使用当前服务器，请将其留空。</p>
+    </item>
+    <item>
+      <p>在 <gui>聊天室</gui> 文本框中，输入您为这次群组聊天起的名字。</p>
+      <note>
+        <p>这将是您进行群组聊天的聊天室的名字。这个名字会被大家看到以使大家可以加入。您不能建立一个私人的聊天室。</p>
+      </note>
+    </item>
+    <item>
+      <p>要邀请其他联系人加入这次群组聊天，在 <gui>联系人列表</gui> 窗口，选择您想要邀请的联系人，并进行下列操作中的某一项：</p>
+      <list>
+        <item>
+          <p>右键点击联系人，并选择 <gui>邀请到聊天室</gui>。</p>
+        </item>
+        <item>
+          <p>选择 <guiseq><gui>编辑</gui><gui>联系人</gui><gui>邀请到聊天室</gui></guiseq>。</p>
+        </item>
+      </list> 
+      <p>如果您打开了不止一个群组聊天，选择您想要邀请联系人加入的那个。</p>
+    </item>
+  </steps>
+  
+  </section>
+
+  <section id="join-group-conv">
+
+  <title>加入群组聊天。</title>
+
+  <steps>
+    <item>
+      <p>在 <gui>联系人列表</gui> 窗口，选择 <guiseq><gui>聊天室</gui><gui>加入</gui></guiseq>。</p>
+    </item>
+    <item>
+      <p>展开<gui>聊天室列表</gui>选项卡来查看所有存在的房间。</p>
+    </item>
+    <item>
+      <p>双击房间的名称加入。</p>
+    </item>
+  </steps>
+
+  <p>并非所有的聊天室都可以加入。有些聊天室可能需要密码，有些只有收到邀请才能加入。<app>Empathy</app> 不支持这些房间。</p>
+
+  <!-- TODO: find out where the password protected or invitation only icons are
+  and create a table. -->
+
+  </section>
+
+</page>

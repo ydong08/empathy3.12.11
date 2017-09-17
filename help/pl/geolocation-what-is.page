@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-what-is" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="geolocation#geoloc"/>
+    <link type="seealso" xref="geolocation-supported"/>
+    <desc>Działanie geolokalizacji.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Na tych samych warunkach 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Czym jest geolokalizacja</title>
+
+  <p>Geolokalizacja pozwala na określenie rzeczywistego położenia geograficznego komputera lub urządzenia podłączonego do Internetu.</p>
+  <p>Dzięki funkcji geolokalizacji w programie <app>Empathy</app> można:</p>
+  <list>
+    <item>
+      <p>Publikować położenie geograficzne swoim kontaktom.</p>
+    </item>
+    <item>
+      <p>Śledzić położenie geograficzne geograficzne kontaktów i szybko się z nimi łączyć.</p>
+    </item>
+    <item>
+      <p>Ustawić dokładność swojego położenia i urządzenia używanego do określania położenia.</p>
+    </item>
+  </list>
+
+  <note style="tip">
+    <p>Aby śledzić  położenie geograficzne kontaktów konieczne jest, aby używali usługi i programu obsługującego geolokalizację.</p>
+  </note>
+
+</page>

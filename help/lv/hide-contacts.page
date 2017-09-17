@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="hide-contacts" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="index#contacts"/>
+    <desc>Paslēpt nesaistē esošos kontaktus no <gui>Kontaktu saraksta</gui>.</desc>
+    <revision pkgversion="2.30" version="0.1" date="2010-03-11" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0 licence.</p>
+    </license>    
+  </info>
+
+  <title>Paslēpt nesaistē esošos kontaktus</title>
+
+  <p>Parasti <app>Empathy</app> parāda visus tavus kontaktus: tos, kuri ir tiešsaistē un ar kuriem tu vari sazināties, kā arī tos, kuri ir nesaistē.</p>
+  <p>Lai paslēptu kontaktus, kuri ir nesaistē:</p>
+
+  <steps>
+    <item>
+      <p>No <gui>Kontaktu saraksta</gui> loga izvēlies <guiseq><gui>Skats</gui><gui>Nesaistes kontakti</gui></guiseq>, vai spied <keyseq><key>Ctrl </key><key>H</key></keyseq>.</p>
+    </item>
+    <item>
+      <p>Lai atkal rādītu nesaistē esošos kontaktus, atkārto iepriekšējo darbību.</p>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="group-conversations" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>複数の相手先とグループ会話を始める、または参加します。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>クリエイティブ・コモンズ・ライセンス 継承 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mako N</mal:name>
+      <mal:email>mako@pasero.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>グループ会話</title>
+  
+  <p>グループ会話は、2人以上の相手先と同時に文字による会話を行うことです。</p>
+  <p>グループ会話を行うには、Jabber もしくは Google トークのいずれか、または People Nearby の登録済のアカウントが必要です。</p>
+
+  <note>
+    <p>あなたと同じサービスを使っている相手先とのみグループ会話ができます。</p>
+  </note>
+
+  <section id="start-group-conv">
+
+  <title>グループ会話の開始</title>
+
+  <steps>
+    <item>
+      <p><gui>相手先の一覧</gui>ウィンドウから、<guiseq><gui>談話室</gui><gui>参加</gui></guiseq>を選びます。</p>
+    </item>
+    <item>
+      <p><gui>アカウント</gui>ドロップダウンリストから、グループ会話に用いるアカウントを指定します。</p>
+    </item>
+    <item>
+      <p><gui>サーバー</gui>欄に、グループ会話をホストするサーバーを入力します。</p>
+      <p>現在のサーバー(訳注: アカウントと同じサーバー)の場合は、空欄にします。</p>
+    </item>
+    <item>
+      <p><gui>談話室</gui>欄に、グループ会話に付ける名前を入力します。</p>
+      <note>
+        <p>これは、グループ会話を行う談話室の名前になります。この名前は、参加するほかの人に公開されます。非公開の談話室は作成できません。</p>
+      </note>
+    </item>
+    <item>
+      <p>グループ会話に参加するようほかの相手先を招待するには、<gui>相手先の一覧</gui>ウィンドウから、招待したい相手先を指定し、次のいずれかを行います:</p>
+      <list>
+        <item>
+          <p>相手先を右クリックし、<gui>談話室に招待する</gui>を選びます。</p>
+        </item>
+        <item>
+          <p><guiseq><gui>編集</gui><gui>相手先</gui><gui>談話室に招待する</gui></guiseq> を選びます。</p>
+        </item>
+      </list> 
+      <p>2つ以上のグループ会話を行なっている場合、相手先を招待したいグループ会話を指定します。</p>
+    </item>
+  </steps>
+  
+  </section>
+
+  <section id="join-group-conv">
+
+  <title>グループ会話に参加</title>
+
+  <steps>
+    <item>
+      <p><gui>相手先の一覧</gui>ウィンドウから、<guiseq><gui>談話室</gui><gui>参加</gui></guiseq>を選びます。</p>
+    </item>
+    <item>
+      <p><gui>談話室の一覧</gui>を展開すると、すべての談話室を見ることができます。</p>
+    </item>
+    <item>
+      <p>談話室の名前をダブルクリックして、その談話室に参加します。</p>
+    </item>
+  </steps>
+
+  <p>すべての談話室に参加できるわけではありません。パスワードが必要な談話室や、招待のみの談話室があります。<app>Empathy</app> はこのような談話室をサポートしていません。</p>
+
+  <!-- TODO: find out where the password protected or invitation only icons are
+  and create a table. -->
+
+  </section>
+
+</page>

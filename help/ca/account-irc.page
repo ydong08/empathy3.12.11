@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-irc" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="irc-manage#manage"/> 
+    <desc>Informació addicional per connectar-se a xarxes d'IRC.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.2" date="2010-04-19" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Reconeixement-Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/> 
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Dades del compte d'IRC</title>
+
+  <p>Els comptes d'IRC requereixen una informació diferent que els altres tipus de comptes. Per crear un compte d'IRC heu d'especificar com a mínim una xarxa d'IRC i un sobrenom. Aquesta pàgina descriu la informació que podeu proporcionar pel compte d'IRC.</p>
+
+  <note style="info package">
+    <p>Heu de tenir instal·lat el paquet <sys>telepathy-idle</sys> per utilitzar l'IRC amb l'<app>Empathy</app>.</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>Xarxa</gui></title>
+      <p>L'IRC és un sistema obert que permet que puguin haver-hi tantes xarxes d'IRC com es vulgui. Cada xarxa és diferent de les altres i té els seus propis usuaris i sales de xat. L'<app>Empathy</app> us mostra les xarxes més populars a la llista desplegable <gui>Xarxa</gui>. Podeu afegir més xarxes si voleu. Vegeu <link xref="#networks"/> més avall.</p>
+    </item>
+    <item>
+      <title><gui>Sobrenom</gui></title>
+      <p>El vostre sobrenom és el nom únic que us identifica a la xarxa d'IRC. Només una persona pot utilitzar un sobrenom específic a cada xarxa. Si rebeu un error que diu <link xref="prob-conn-name" role="error-msg"/> haureu de canviar el sobrenom.</p>
+    </item>
+    <item>
+      <title><gui>Contrasenya</gui></title>
+      <p>Per connectar-se a alguns servidors, en especial els de les xarxes privades, us farà falta una contrasenya. Si esteu autoritzat a utilitzar la xarxa, els seus administradors us en proporcionaran la contrasenya.</p>
+      <note>
+        <title>Contrasenyes de NickServ</title>
+        <p>En algunes xarxes es poden registrar els sobrenoms amb un servei conegut com a NickServ. L'<app>Empathy</app> encara no permet utilitzar sobrenoms amb contrasenyes. En algunes xarxes, entre elles la popular xarxa freenode, els servidors de contrasenyes es reenvien automàticament al NickServ, de manera que podeu establir aquest camp per identificar-vos amb el NickServ. Vegeu <link xref="irc-nick-password"/> per més informació.</p>
+      </note>
+    </item>
+    <item>
+      <title><gui>Nom real</gui></title>
+      <p>Podeu proporcionar el vostre nom real conjuntament amb el sobrenom. Els altres usuaris el podran veure quan vegin la vostra informació.</p>
+    </item>
+    <item>
+      <title><gui>Missatge de desconnexió</gui></title>
+      <p>Quan sortiu, s'enviarà un missatge a totes les sales de xat que estigueu i tots els usuaris amb els quals tingueu xats privats. Utilitzeu aquest camp per proporcionar un missatge de sortida personalitzat.</p>
+    </item>
+  </terms>
+
+<!--
+telepathy-idle note
+-->
+
+  <section id="networks">
+    <info>
+      <title type="link">Xarxes d'IRC</title>
+    </info>
+
+    <title>Xarxes</title>
+
+    <p>L'<app>Empathy</app> inclou una llista de les xarxes d'IRC més populars. Si voleu una altra xarxa, podeu afegir-la a la llista. També podeu modificar xarxes existents i esborrar-ne de la llista.</p>
+
+    <list>
+      <item><p>To add a network to the list, click <media type="image" mime="image/png" src="figures/gtk-add.png" width="16" height="16" its:translate="no"><span its:translate="yes">Add</span></media>.</p></item>
+      <item><p>To modify a network in the list, select the network and click
+      <media type="image" mime="image/png" src="figures/gtk-edit.png" width="16" height="16" its:translate="no"><span its:translate="yes">Edit</span></media>.</p></item>
+      <item><p>To remove a network from the list, select the network and
+      click <media type="image" mime="image/png" src="figures/gtk-remove.png" width="16" height="16" its:translate="no"><span its:translate="yes">Remove</span></media>.</p></item>
+    </list>
+
+    <p>Quan afegiu o modifiqueu una xarxa podeu introduir la informació següent:</p>
+
+    <terms>
+      <item>
+        <title><gui>Xarxa</gui></title>
+        <p>Aquest és el nom de la xarxa que voleu que aparegui a la llista de xarxes.</p>
+      </item>
+      <item>
+        <title><gui>Joc de caràcters</gui></title>
+        <p>Això especifica la codificació de caràcters que s'utilitza en aquesta xarxa. Una codificació de caràcters és un format específic per enregistrar caràcters internament a l'ordinador. Hi ha moltes codificacions de caràcters i heu d'utilitzar la mateixa que els altres usuaris per veure els missatges de forma correcta.</p>
+        <!--
+            Translators: Recommend character encodings that are common
+            for your language.
+        -->
+        <p>Per defecte l'<app>Empathy</app> utilitza l'UTF-8 , una codificació de caràcters moderna que pot gestionar text escrit en la immensa majoria de les llengües del món. Una altra codificació de caràcters per l'anglès i algunes llengües occidentals és l'ISO-8859-1.</p>
+      </item>
+      <item>
+        <title><gui>Servidors</gui></title>
+        <p>Una xarxa d'IRC pot tenir molts servidors als quals us podeu connectar. Quan esteu connectat a un servidor d'una xarxa en particular, us podeu comunicar amb tots els usuaris de tots els servidors d'aquella xarxa. Podeu afegir o suprimir servidors per a aquesta xarxa utilitzant els botons <gui>Afegeix</gui> i <gui>Suprimeix</gui>.</p>
+        <p>Quan seleccioneu un servidor feu clic al camp de <gui>Servidor</gui> o <gui>Port</gui> per editar-lo. També ho podeu fer amb les tecles de navegació de cap a la dreta i de cap a l'esquerra per donar el focus al camp i si feu clic a la barra espaiadora editareu el camp.</p>
+        <p>Seleccioneu la casella de selecció de la columna <gui>SSL</gui> per xifrar totes les comunicacions amb el servidor. Adoneu-vos que això no impedirà que altres usuaris de la xarxa puguin veure el que escriviu en un xat públic.</p>
+      </item>
+    </terms>
+  </section>
+</page>

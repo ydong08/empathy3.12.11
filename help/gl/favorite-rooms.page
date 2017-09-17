@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="favorite-rooms" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <link type="guide" xref="irc-manage#manage"/>
+    <link type="seealso" xref="irc-join-room"/>
+    <link type="seealso" xref="group-conversations"/>
+    <desc>Configurar, unirse e xestionar salas favoritas.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-21" status="draft"/>
+    <revision pkgversion="2.30" version="0.2" date="2010-02-03" status="review"/>    
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Salas favoritas</title>
+
+  <section id="set-favorite">
+  <title>Estabelecer unha sala como favorita</title>
+  <steps>
+    <item>
+      <p>Unirse a unha sala.</p>
+      <list>
+        <item>
+          <p>Para obter máis información sobre como unirse a unha sala de chat IRC, consulte a <link xref="irc-join-room"/>.</p>
+        </item>
+        <item>
+          <p>Para obter máis información sobre como unirse a unha conversa en grupo, consulte a <link xref="group-conversations"/>.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Desde a xanela de conversa, elixa <guiseq><gui>Conversa</gui><gui>Sala de chat favorita</gui></guiseq>.</p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="join-favorite">
+  <title>Unirse ás salas favoritas</title>
+  <steps>
+    <item>
+      <p>Desde a xanela <gui>Lista de contactos</gui> leve a cabo unha das seguintes opcións:</p>
+      <list>
+        <item>
+          <p>Prema <key>F5</key>.</p>
+        </item>
+        <item>
+          <p>Seleccione <guiseq><gui>Salas</gui><gui>Unirse ás favoritas</gui></guiseq> para unirse a todas as súas salas favoritas.</p>
+        </item>
+        <item>
+          <p>Seleccione a sala favorita que quere xestionar:</p>
+        </item>
+      </list>
+    </item>
+  </steps>
+  <note>
+    <p>Para unirse a unha sala favorita debe estar conectado a Internet e coa conta.</p>
+  </note>
+  </section>
+
+  <section id="manage-favorite">
+  <title>Xestionar as salas favoritas</title>
+  <steps>
+    <item>
+      <p>Dese a xanela <gui>Lista de contactos</gui> elixa <guiseq><gui>Sala</gui><gui>Xestionar salas favoritas</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Desde a lista despregábel <gui>Conta</gui> seleccione a conta da que quere xestionar as salas favoritas.</p>
+      <p>Seleccione <placeholder-1/> para ver todas as súas salas favoritas.</p>
+    </item>
+    <item>
+      <p>Seleccione a sala favorita que quere xestionar:</p>
+      <list>
+        <item>
+          <p>Seleccione a caixa de verificación <gui>Autoconectar</gui> para unirse a esa sala automaticamente ao conectarse coa conta.</p>
+        </item>
+        <item>
+          <p>Prema <gui>Eliminar</gui> para elimianr a sala das súas favoritas.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Cando remate prema <placeholder-1/>.</p>
+    </item>
+  </steps>
+  </section>
+
+</page>

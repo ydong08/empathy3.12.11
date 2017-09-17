@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="audio-video" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="index#audio-video"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="draft"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-04" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.2" date="2010-02-14" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+
+    <license>
+      <p>知识共享-相同方式共享 (Creative Commons Share Alike) 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+    <desc>语音或视频会话的条件。</desc>
+
+  </info>
+
+  <title>语音和视频支持</title>
+
+  <p>You can only have audio and video conversation with contacts who are using
+  an application which also supports this feature.</p>
+
+  <note>
+    <p>要进行语音聊天，您需要有一块声卡，且您的操作系统必需支持它，还需要一个能正常工作的麦克风。</p>
+    <p>要进行视频聊天，您需要操作系统支持的摄像头，及可以正常工作的麦克风。</p>
+  </note>
+
+  <section id="services">
+  
+  <title>支持的帐号类型</title>
+
+  <p>只有一些特定类型的帐号支持语音或视频聊天。下表列出了每种类型的帐号的语音、视频支持情况。</p>
+
+  <note>
+    <p>帐号类型是由插件提供的。您的系统上不一定有以下列出的全部类型，也可能有一些类型没有在下面列出。插件的升级可能使下表中不支持语音或视频的帐号类型获得支持。</p>
+  </note>
+
+  <table frame="all" rules="rowgroups colgroups" shade="rows">
+    <colgroup><col/></colgroup><colgroup><col/><col/></colgroup>
+    <thead>
+      <tr>
+        <td><p>服务</p></td>
+        <td><p>语音</p></td>
+        <td><p>视频</p></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>AIM</p></td>
+        <td><p>否</p></td>
+        <td><p>否</p></td>
+      </tr>
+      <tr>
+        <td><p>gadugadu</p></td>
+        <td><p>否</p></td>
+        <td><p>否</p></td>
+      </tr>
+      <tr>
+        <td><p>Google Talk</p></td>
+        <td><p>是</p></td>
+        <td><p>是</p></td>
+      </tr>
+      <tr>
+        <td><p>Groupwise</p></td>
+        <td><p>否</p></td>
+        <td><p>否</p></td>
+      </tr>
+      <tr>
+        <td><p>ICQ</p></td>
+        <td><p>否</p></td>
+        <td><p>否</p></td>
+      </tr>
+      <tr>
+        <td><p>IRC</p></td>
+        <td><p>否</p></td>
+        <td><p>否</p></td>
+      </tr>
+      <tr>
+        <td><p>Jabber</p></td>
+        <td><p>是</p></td>
+        <td><p>是</p></td>
+      </tr>
+      <tr>
+        <td><p>myspace</p></td>
+        <td><p>否</p></td>
+        <td><p>否</p></td>
+      </tr>
+      <tr>
+        <td><p>qq</p></td>
+        <td><p>否</p></td>
+        <td><p>否</p></td>
+      </tr>
+      <tr>
+        <td><p>附近的人</p></td>
+        <td><p>否</p></td>
+        <td><p>否</p></td>
+      </tr>
+      <tr>
+        <td><p>sametime</p></td>
+        <td><p>否</p></td>
+        <td><p>否</p></td>
+      </tr>
+      <tr>
+        <td><p>silc</p></td>
+        <td><p>否</p></td>
+        <td><p>否</p></td>
+      </tr>
+      <tr>
+        <td><p>SIP</p></td>
+        <td><p>是</p></td>
+        <td><p>是</p></td>
+      </tr>
+      <tr>
+        <td><p>Yahoo!</p></td>
+        <td><p>否</p></td>
+        <td><p>否</p></td>
+      </tr>
+      <tr>
+        <td><p>zephyr</p></td>
+        <td><p>否</p></td>
+        <td><p>否</p></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  </section>
+
+</page>

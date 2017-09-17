@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="add-contact" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="index#contacts"/>
+    <link type="seealso" xref="hide-contacts"/>
+    <desc>だれかを相手先の一覧に追加します。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-15" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.28" version="0.3" date="2009-09-05" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <license>
+      <p>クリエイティブ・コモンズ・ライセンス 継承 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mako N</mal:name>
+      <mal:email>mako@pasero.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>相手先の一覧への追加</title>
+
+  <steps>
+    <item>
+      <p><guiseq><gui>チャット</gui><gui>相手先を追加</gui></guiseq>を選びます。</p>
+    </item>
+    <item>
+      <p><gui>アカウント</gui>ドロップダウンリストから、相手先に接続したいアカウントを指定します。相手先は、そのアカウントと同じサービスを利用していることが必要です。</p>
+    </item>
+    <item>
+      <p><gui>識別子</gui>欄に、相手先のログイン ID、ユーザー名、スクリーン名など、サービスの種類に応じた適切な識別子を入力します。</p>
+    </item>
+    <item>
+      <p><gui>別名</gui>欄に、相手先の一覧に表示させたい名前を入力します。</p>
+    </item>
+    <item>
+      <p><gui>追加</gui>をクリックして、相手先の一覧にその人を追加します。</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>相手先の一覧に新しい人を追加するには、インターネットに接続し、その相手先に接続していることが必要です。</p>
+  </note>
+
+</page>

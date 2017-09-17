@@ -1,0 +1,3706 @@
+# Czech translation of empathy help manual.
+#
+# Lucas Lommer <llommer@svn.gnome.org>, 2008.
+# Martin Picek <picek.martin@gnome-cesko.cz>, 2009.
+# Tomáš Karger <tomkarger@gmail.com>, 2013.
+# Marek Černocký <marek@manet.cz>, 2014, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: empathy\n"
+"POT-Creation-Date: 2015-04-14 03:29+0000\n"
+"PO-Revision-Date: 2015-04-14 11:40+0200\n"
+"Last-Translator: Marek Černocký <marek@manet.cz>\n"
+"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Lucas Lommer <llommer@svn.gnome.org>, 2008\n"
+"Martin Picek <picek.martin@gnome-cesko.cz>, 2009\n"
+"Tomáš Karger <tomkarger@gmail.com>, 2013\n"
+"Marek Černocký <marek@manet.cz>, 2014"
+
+#. (itstool) path: info/desc
+#: C/account-irc.page:9
+msgid "Additional information necessary for connecting to IRC networks."
+msgstr "Další informace potřebné k připojení do sítí IRC."
+
+#. (itstool) path: credit/name
+#: C/account-irc.page:17 C/account-jabber.page:15 C/accounts-window.page:17
+#: C/add-account.page:26 C/disable-account.page:25 C/import-account.page:27
+#: C/prev-conv.page:21 C/status-icons.page:21
+msgid "Shaun McCance"
+msgstr "Shaun McCance"
+
+#. (itstool) path: license/p
+#: C/account-irc.page:21 C/account-jabber.page:19 C/accounts-window.page:21
+#: C/add-account.page:30 C/add-contact.page:22 C/audio-call.page:31
+#: C/audio-video.page:21 C/change-status.page:28 C/create-account.page:29
+#: C/disable-account.page:29 C/favorite-rooms.page:18 C/geolocation.page:21
+#: C/geolocation-not-showing.page:21 C/geolocation-privacy.page:21
+#: C/geolocation-supported.page:20 C/geolocation-turn.page:22
+#: C/geolocation-what-is.page:22 C/group-conversations.page:23
+#: C/hide-contacts.page:15 C/import-account.page:31 C/index.page:25
+#: C/introduction.page:17 C/irc-commands.page:14 C/irc-join-pwd.page:21
+#: C/irc-join-room.page:20 C/irc-manage.page:28 C/irc-nick-password.page:22
+#: C/irc-send-file.page:20 C/irc-start-conversation.page:19
+#: C/link-contacts.page:23 C/overview.page:21 C/prev-conv.page:25
+#: C/prob-conn-acctdisabled.page:23 C/prob-conn-auth.page:26
+#: C/prob-conn-name.page:23 C/prob-conn-neterror.page:24 C/prob-conn.page:18
+#: C/remove-account.page:23 C/salut-protocol.page:22 C/send-file.page:25
+#: C/send-message.page:21 C/set-custom-status.page:23 C/share-desktop.page:22
+#: C/status-icons.page:25 C/video-call.page:34
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Share Alike 3.0"
+
+#. (itstool) path: page/title
+#: C/account-irc.page:32
+msgid "IRC account details"
+msgstr "Podrobnosti účtu IRC"
+
+#. (itstool) path: page/p
+#: C/account-irc.page:34
+msgid ""
+"IRC accounts require different information than many other types of "
+"accounts. To create an IRC account, you must specify at least an IRC network "
+"and a nickname. This page details the information you can provide for an IRC "
+"account."
+msgstr ""
+"Účty IRC vyžadují jiné údaje než ostatní typy účtů. Pro vytvoření účtu IRC "
+"je nutné uvést minimálně název sítě IRC a přezdívku. Tato stránka popisuje "
+"údaje, které je možné u účtu IRC zadat."
+
+#. (itstool) path: note/p
+#: C/account-irc.page:40 C/irc-manage.page:42
+msgid ""
+"You must have the <sys>telepathy-idle</sys> package installed to use IRC in "
+"<app>Empathy</app>."
+msgstr ""
+"Pro používání IRC v <app>Empathy</app> je nutné mít nainstalovaný balíček "
+"<sys>telepathy-idle</sys>."
+
+#. (itstool) path: item/title
+#: C/account-irc.page:46 C/account-irc.page:124
+msgid "<gui>Network</gui>"
+msgstr "<gui>Síť</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:47
+msgid ""
+"IRC is an open system that allows people to run separate IRC networks. Each "
+"network is distinct and has its own users and chat rooms. <app>Empathy</app> "
+"lists the most popular networks in the <gui>Network</gui> drop-down list. "
+"You can add additional networks. See <link xref=\"#networks\"/> below."
+msgstr ""
+"IRC je otevřený systém, který umožňuje lidem provozovat oddělené sítě IRC. "
+"Každá síť tvoří samostatný celek s vlastními uživateli a místnostmi. Seznam "
+"nejpopulárnějších sítí se v <app>Empathy</app> nachází v rozbalovacím "
+"seznamu <gui>Síť</gui>. Je možné přidat i další sítě. Viz <link xref="
+"\"#networks\"/> níže."
+
+#. (itstool) path: item/title
+#: C/account-irc.page:54
+msgid "<gui>Nickname</gui>"
+msgstr "<gui>Přezdívka</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:55
+msgid ""
+"Your nickname is your unique name on the IRC network. Only one person on a "
+"network may use a given nickname. If you get an error message that says "
+"<link xref=\"prob-conn-name\" role=\"error-msg\"/> you will need to change "
+"your nickname."
+msgstr ""
+"Přezdívka představuje jedinečné jméno v síti IRC. Pouze jeden uživatel v "
+"síti může používat danou přezdívku. Pokud se objeví chybové hlášení ve znění "
+"<link xref=\"prob-conn-name\" role=\"error-msg\"/>, je nutné přezdívku "
+"změnit."
+
+#. (itstool) path: item/title
+#: C/account-irc.page:61
+msgid "<gui>Password</gui>"
+msgstr "<gui>Heslo</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:62
+msgid ""
+"Some servers, particularly those on private networks, require a password to "
+"connect. If you are authorized to use the network, the network "
+"administrators should provide you with a password."
+msgstr ""
+"Některé servery, především ty v soukromých sítích, vyžadují pro připojení "
+"heslo. Pokud je uživatel oprávněn síť používat, administrátoři sítě by mu "
+"měli heslo poskytnout."
+
+#. (itstool) path: note/title
+#: C/account-irc.page:66
+msgid "NickServ Passwords"
+msgstr "Hesla NickServ"
+
+#. (itstool) path: note/p
+#: C/account-irc.page:67
+msgid ""
+"On some networks, nicknames can be registered using a service known as "
+"NickServ. <app>Empathy</app> does not directly support nickname passwords. "
+"On some networks, including the popular freenode network, server passwords "
+"are automatically forwarded to NickServ, allowing you to set this field to "
+"identify yourself with NickServ. See <link xref=\"irc-nick-password\"/> for "
+"more details."
+msgstr ""
+"V některých sítích mohou být přezdívky registrovány pomocí služby NickServ. "
+"<app>Empathy</app> nepodporuje tento typ hesel přímo. Na některých sítích, "
+"včetně populární sítě freenode, jsou ale hesla ze serveru automaticky "
+"předávána službě NickServ, což umožňuje uživatelům nastavit tento parametr "
+"pro identifikaci službou NickServ. Pro podrobnosti viz <link xref=\"irc-nick-"
+"password\"/> "
+
+#. (itstool) path: item/title
+#: C/account-irc.page:77
+msgid "<gui>Real name</gui>"
+msgstr "<gui>Skutečné jméno</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:78
+msgid ""
+"You can provide your real name in addition to your nickname. Other users "
+"will be able to see this when they view your information."
+msgstr ""
+"Společně s přezdívkou je možné poskytnout skutečné jméno. Bude přístupné "
+"ostatním uživatelům při prohlížení informací o účtu."
+
+#. (itstool) path: item/title
+#: C/account-irc.page:82
+msgid "<gui>Quit message</gui>"
+msgstr "<gui>Rozloučení</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:83
+msgid ""
+"When you go offline, a quit message is sent to all the chat rooms you’re in "
+"and to all the users you’re having a private conversation with. Use this "
+"field to provide a custom quit message."
+msgstr ""
+"Rozloučení je zpráva, která je odeslána do všech místností, do nichž je "
+"uživatel připojen, a všem uživatelům, se kterými vede soukromou konverzaci. "
+"Toto pole slouží k zadání vlastní zprávy na rozloučenou."
+
+#. (itstool) path: info/title
+#: C/account-irc.page:95
+msgctxt "link"
+msgid "IRC Networks"
+msgstr "Sítě IRC"
+
+#. (itstool) path: section/title
+#: C/account-irc.page:98
+msgid "Networks"
+msgstr "Sítě"
+
+#. (itstool) path: section/p
+#: C/account-irc.page:100
+msgid ""
+"<app>Empathy</app> includes a list of popular IRC networks. If you wish to "
+"another IRC network, you can add it to the list. You can also modify "
+"networks and remove them from the list."
+msgstr ""
+"<app>Empathy</app> obsahuje seznam populárních sítí IRC. Pokud si přejete "
+"navštívit jinou síť IRC, můžete ji přidat do seznamu. Sítě můžete také "
+"upravit nebo odstranit ze seznamu."
+
+#. (itstool) path: media/span
+#: C/account-irc.page:108
+msgid "Add"
+msgstr "Přidání"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:105
+msgid "To add a network to the list, click <_:media-1/>."
+msgstr "Chcete-li přidat síť do seznamu, klikněte na <_:media-1/>."
+
+#. (itstool) path: media/span
+#: C/account-irc.page:112
+msgid "Edit"
+msgstr "Úprava"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:109
+msgid ""
+"To modify a network in the list, select the network and click <_:media-1/>."
+msgstr ""
+"Chcete-li upravit síť na seznamu, vyberte ji a klikněte na <_:media-1/>."
+
+#. (itstool) path: media/span
+#: C/account-irc.page:116
+msgid "Remove"
+msgstr "Odstranění"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:113
+msgid ""
+"To remove a network from the list, select the network and click <_:media-1/>."
+msgstr ""
+"Chcete-li odstranit síť ze seznamu, vyberte ji a klikněte na <_:media-1/>."
+
+#. (itstool) path: section/p
+#: C/account-irc.page:119
+msgid ""
+"When adding or modifying a network, you can enter the following information:"
+msgstr "Při přidávání nebo upravování sítě můžete zadat následující údaje:"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:125
+msgid ""
+"This is the name of the network as you want it to appear in the list of "
+"networks."
+msgstr "Toto je název sítě, který se bude zobrazovat v seznamu sítí."
+
+#. (itstool) path: item/title
+#: C/account-irc.page:129
+msgid "<gui>Charset</gui>"
+msgstr "<gui>Znaková sada</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:130
+msgid ""
+"This specifies the character encoding that is typically used on this "
+"network. A character encoding is a specific way of recording characters "
+"internally in a computer. There are many character encodings, and you need "
+"to use the same character encoding as other users to see their messages "
+"correctly."
+msgstr ""
+"Tímto je určeno kódování znaků, které je obvykle užíváno na této síti. "
+"Kódování je způsob zaznamenávání znaků, které používá počítač. Existuje "
+"mnoho způsobů kódování a pro správné zobrazování zpráv je nutné používat "
+"stejné kódování jako ostatní uživatelé."
+
+#. (itstool) path: item/p
+#: C/account-irc.page:139
+msgid ""
+"By default, <app>Empathy</app> uses UTF-8, a modern character encoding that "
+"can handle text from most of the world's languages. Another common encoding "
+"for English and some other Western languages is ISO-8859-1."
+msgstr ""
+"Ve výchozím nastavení používá <app>Empathy</app> UTF-8, moderní kódování "
+"znaků, které dokáže zpracovat text většiny světových jazyků. Dalším obvyklým "
+"kódováním pro angličtinu a některé ostatní západní jazyky je ISO-8859-1 a "
+"pro češtinu a některé ostatní středoevropské jazyky ISO-8859-2."
+
+#. (itstool) path: item/title
+#: C/account-irc.page:145
+msgid "<gui>Servers</gui>"
+msgstr "<gui>Servery</gui>"
+
+#. (itstool) path: item/p
+#: C/account-irc.page:146
+msgid ""
+"An IRC network may have many servers you can connect to. When you are "
+"connected to a server on a particular network, you can communicate with all "
+"users on all other servers on that network. You can add and remove servers "
+"for this network using the <gui>Add</gui> and <gui>Remove</gui> buttons."
+msgstr ""
+"Jedna síť IRC může mít několik serverů, ke kterým je možné se připojit. "
+"Pokud jste připojeni k serveru určité sítě, můžete komunikovat se všemi "
+"uživateli na všech ostatních serverech této sítě. Je možné přidat nebo "
+"odstranit servery dané sítě pomocí tlačítek <gui>Přidat</gui> a "
+"<gui>Odstranit</gui>."
+
+#. (itstool) path: item/p
+#: C/account-irc.page:151
+msgid ""
+"When a server is selected, click the field under <gui>Server</gui> or "
+"<gui>Port</gui> to edit it. Alternatively, use the left and right arrow keys "
+"to focus the field, and press the space bar to begin editing."
+msgstr ""
+"Po vybrání serveru klikněte do pole pod <gui>Server</gui> nebo <gui>Port</"
+"gui> a upravte je. Je také možné použít šipky doleva a doprava k zaměření "
+"pole a zmáčknout mezerník k jeho úpravě."
+
+#. (itstool) path: item/p
+#: C/account-irc.page:155
+msgid ""
+"Select the check box in the <gui>SSL</gui> column to encrypt all "
+"communication with a server. Note that this does not prevent other users on "
+"the network from seeing what you write on public chat rooms."
+msgstr ""
+"Pro šifrování veškeré komunikace se serverem zatrhněte políčko ve sloupci "
+"<gui>SSL</gui>. Toto nastavení ale nezabrání ostatním uživatelům na síti "
+"vidět, co píšete ve veřejných místnostech."
+
+#. (itstool) path: info/desc
+#: C/account-jabber.page:7
+msgid "Advanced options for Jabber and Google Talk accounts."
+msgstr "Pokročilé volby účtů Jabber a Google Talk."
+
+#. (itstool) path: page/title
+#: C/account-jabber.page:30
+msgid "Jabber account details"
+msgstr "Podrobnosti účtu Jabber"
+
+#. (itstool) path: page/p
+#: C/account-jabber.page:32
+msgid ""
+"Most Jabber accounts will require only a login ID and a password to connect. "
+"For some accounts or on certain types of networks, you may need to enter "
+"additional information in the <gui>Advanced</gui> section. Normally, you "
+"will not need to use the advanced options below. For general instructions on "
+"adding an account, see <link xref=\"add-account\"/>."
+msgstr ""
+"Většina účtů Jabber vyžaduje pro připojení pouze přihlašovací ID a heslo. "
+"Některé účty nebo některé typy sítí vyžadují zadání dalších údajů v oddíle "
+"<gui>Pokročilé</gui>. Obvykle ale není nutné používat níže uvedené pokročilé "
+"volby. Obecný návod na přidání účtu viz <link xref=\"add-account\"/>."
+
+#. (itstool) path: note/p
+#: C/account-jabber.page:40
+msgid ""
+"Google Talk is a type of Jabber account. These instructions hold for Google "
+"Talk accounts as well."
+msgstr ""
+"Google Talk je typ účtu Jabber. Tento návod platí i pro účty Google Talk."
+
+#. (itstool) path: item/title
+#: C/account-jabber.page:46
+msgid "<gui>Encryption required (TLS/SSL)</gui>"
+msgstr "<gui>Vyžadováno šifrování (TLS/SSL)</gui>"
+
+#. (itstool) path: item/title
+#: C/account-jabber.page:47
+msgid "<gui>Ignore SSL certificate errors</gui>"
+msgstr "<gui>Ignorovat chyby certifikátu SSL</gui>"
+
+#. (itstool) path: item/p
+#: C/account-jabber.page:48
+msgid ""
+"Whenever possible, communication between <app>Empathy</app> and the Jabber "
+"server is encrypted. If encrypted communication is not possible, messages "
+"may be sent unencrypted. Select <gui>Encryption required</gui> to prevent "
+"<app>Empathy</app> from communicating with the Jabber server when encryption "
+"is not possible."
+msgstr ""
+"Pokud je to možné, je komunikace mezi <app>Empathy</app> a serverem Jabber "
+"šifrovaná. Pokud není šifrování možné, mohou být zprávy odeslány "
+"nešifrované. Vyberte <gui>Šifrování vyžadováno</gui> a <app>Empathy</app> "
+"nebude se serverem komunikovat, když šifrování nebude možné."
+
+#. (itstool) path: item/p
+#: C/account-jabber.page:53
+msgid ""
+"Some Jabber servers may encrypt data using invalid certificates, or using "
+"certificates signed by unknown authorities. You can select <gui>Ignore SSL "
+"certificate errors</gui> to allow encrypted communication with invalid "
+"certificates, but this allows an attacker to intercept your communication "
+"with the server (including your password). You might want to use this option "
+"for testing purposes, or if your server is broken and you do not care about "
+"the security of your communication."
+msgstr ""
+"Některé servery Jabber mohou šifrovat data pomocí neplatných certifikátů "
+"nebo certifikátů podepsaných neznámými autoritami. Můžete vybrat "
+"<gui>Ignorovat chyby certifikátů SSL</gui>, aby se povolila šifrovaná "
+"komunikace s neplatnými certifikáty, ale útočníci tím získají možnost "
+"proniknout do vaší komunikace se serverem (včetně vašeho hesla). Proto se "
+"tato volba hodí spíše pro testovací účely nebo, když je server poškozený a "
+"vy se neobáváte o bezpečnost své komunikace."
+
+#. (itstool) path: item/title
+#: C/account-jabber.page:62
+msgid "<gui>Resource</gui>"
+msgstr "<gui>Zdroj</gui>"
+
+#. (itstool) path: item/title
+#: C/account-jabber.page:63
+msgid "<gui>Priority</gui>"
+msgstr "<gui>Priorita</gui>"
+
+#. (itstool) path: item/p
+#: C/account-jabber.page:64
+msgid ""
+"If you have multiple applications (for instance, on separate computers) "
+"connected to your account at the same time, you can set a resource to "
+"uniquely identify each one. By default, <app>Empathy</app> will use "
+"<input>Telepathy</input> as the resource."
+msgstr ""
+"Pokud ke svému účtu připojujete více aplikací současně (například na různých "
+"počítačích), můžete nastavit zdroj tak, aby se každé jednoznačně "
+"identifikoval. Ve výchozím nastavení použije <app>Empathy</app> jako zdroj "
+"<input>Telepathy</input>."
+
+#. (itstool) path: item/p
+#: C/account-jabber.page:68
+msgid ""
+"You can set the priority to specify which application should receive "
+"incoming messages from your contacts. New messages will be sent to the "
+"application with the highest priority."
+msgstr ""
+"Můžete nastavit prioritu a určit tak, která aplikace by měla přijímat "
+"příchozí zprávy od vašich kontaktů. Nové zprávy budou posílány aplikaci s "
+"nejvyšší prioritou."
+
+#. (itstool) path: item/title
+#: C/account-jabber.page:73
+msgid "<gui>Override server settings</gui>"
+msgstr "<gui>Přepsat nastavení serveru</gui>"
+
+#. (itstool) path: item/p
+#: C/account-jabber.page:74
+msgid ""
+"<app>Empathy</app> will use default settings to connect to the Jabber server "
+"based on your login ID. For some Jabber servers, you will need to enter "
+"custom server settings manually. These settings should be provided for you "
+"by your Jabber provider."
+msgstr ""
+"<app>Empathy</app> použije výchozí nastavení a přihlašovací ID pro připojení "
+"k serveru Jabber. U některých serverů Jabber je nutné ručně zadat vlastní "
+"nastavení serveru. Toto nastavení by mělo být upřesněno poskytovatelem "
+"serveru Jabber."
+
+#. (itstool) path: info/desc
+#: C/accounts-window.page:10
+msgid "Add, modify, and delete accounts."
+msgstr "Přidávání, úpravy a mazání účtů."
+
+#. (itstool) path: page/title
+#: C/accounts-window.page:32
+msgid "Accounts Window"
+msgstr "Okno s účty"
+
+#. (itstool) path: page/p
+#: C/accounts-window.page:34
+msgid ""
+"The <gui>Accounts</gui> window allows you to add, modify, and delete "
+"accounts."
+msgstr "Okno <gui>Účty</gui> umožňuje přidat, upravit nebo smazat účty."
+
+#. (itstool) path: section/title
+#: C/accounts-window.page:42
+msgid "Account Details"
+msgstr "Údaje účtu"
+
+#. (itstool) path: section/p
+#: C/accounts-window.page:43
+msgid ""
+"For most types of accounts, you can simply enter a login ID and a password. "
+"Certain accounts or account types, however, may require additional "
+"information."
+msgstr ""
+"U většinu typů účtů je možné jednoduše zadat přihlašovací ID a heslo. "
+"Některé účty, nebo typy účtů, ale mohou vyžadovat další údaje."
+
+#. (itstool) path: info/desc
+#: C/add-account.page:9
+msgid "Add a new account to <app>Empathy</app>."
+msgstr "Jak přidat nový účet do <app>Empathy</app>."
+
+#. (itstool) path: credit/name
+#: C/add-account.page:22 C/audio-call.page:22 C/audio-video.page:16
+#: C/create-account.page:20 C/disable-account.page:21 C/favorite-rooms.page:14
+#: C/geolocation.page:17 C/geolocation-not-showing.page:17
+#: C/geolocation-privacy.page:17 C/geolocation-supported.page:16
+#: C/geolocation-turn.page:18 C/geolocation-what-is.page:18
+#: C/group-conversations.page:19 C/hide-contacts.page:11
+#: C/import-account.page:23 C/index.page:20 C/introduction.page:13
+#: C/irc-commands.page:10 C/irc-join-pwd.page:17 C/irc-join-room.page:16
+#: C/irc-manage.page:19 C/irc-nick-password.page:18 C/irc-send-file.page:16
+#: C/irc-start-conversation.page:15 C/link-contacts.page:15
+#: C/prev-conv.page:17 C/prob-conn-acctdisabled.page:19
+#: C/prob-conn-auth.page:22 C/prob-conn-name.page:19
+#: C/prob-conn-neterror.page:20 C/remove-account.page:19
+#: C/salut-protocol.page:18 C/send-file.page:21 C/set-custom-status.page:19
+#: C/share-desktop.page:14 C/status-icons.page:17 C/video-call.page:25
+msgid "Milo Casagrande"
+msgstr "Milo Casagrande"
+
+#. (itstool) path: page/title
+#: C/add-account.page:41
+msgid "Add a new account"
+msgstr "Přidání nového účtu"
+
+#. (itstool) path: page/p
+#: C/add-account.page:43
+msgid ""
+"You can add instant messaging accounts from any supported service to "
+"communicate with all of your contacts in <app>Empathy</app>. For some "
+"account providers, these steps will also allow you to register for a new "
+"account. For more details, see <link xref=\"create-account\"/>."
+msgstr ""
+"Můžete přidat účty rychlé komunikace kterékoli podporované služby a "
+"komunikovat se všemi svými kontakty v <app>Empathy</app>. U některých "
+"poskytovatelů umožní následující kroky také registraci nového účtu. Více "
+"podrobností viz <link xref=\"create-account\"/>."
+
+#. (itstool) path: item/p
+#: C/add-account.page:50
+msgid ""
+"Click <guiseq><gui>Empathy</gui><gui>Accounts</gui></guiseq>, or press "
+"<key>F4</key>."
+msgstr ""
+"Klikněte na <guiseq><gui>Empathy</gui> <gui>Účty</gui></guiseq> nebo "
+"zmáčkněte <key>F4</key>."
+
+#. (itstool) path: item/p
+#: C/add-account.page:54
+msgid "Click <gui style=\"button\">+</gui>."
+msgstr "Klikněte na <gui style=\"button\">+</gui>."
+
+#. (itstool) path: item/p
+#: C/add-account.page:59
+msgid ""
+"From the <gui>What kind of chat account do you have?</gui> drop-down list, "
+"select the type of account you wish to add."
+msgstr ""
+"V rozbalovacím seznamu <gui>Jaký typ diskuzního účtu máte?</gui> vyberte typ "
+"účtu, který chcete přidat."
+
+#. (itstool) path: item/p
+#: C/add-account.page:63
+msgid ""
+"Enter the required information. For most accounts, you will only need a "
+"login ID and a password. Some accounts may require additional information. "
+"See <link xref=\"accounts-window#details\"/>for more information."
+msgstr ""
+"Zadejte požadované údaje. Pro většinu účtů bude potřeba pouze přihlašovací "
+"ID a heslo. Některé účty mohou vyžadovat další údaje. Více informací viz "
+"<link xref=\"accounts-window#details\"/>."
+
+#. (itstool) path: item/p
+#: C/add-account.page:68
+msgid "Click <gui style=\"button\">Add</gui>."
+msgstr "Klikněte na <gui style=\"button\">Přidat</gui>."
+
+#. (itstool) path: note/p
+#: C/add-account.page:73
+msgid ""
+"To change the name that identifies the account in the <gui>Messaging and "
+"VoIP Accounts</gui> window, select the account from the list on the left and "
+"either click on the name or press the space bar. Edit the account name and "
+"press <key>Enter</key> when you’re finished."
+msgstr ""
+"Pro změnu názvu, který identifikuje účet, vyberte účet ze seznamu v okně "
+"<gui>Účty IM a VoIP</gui> nalevo a klikněte na jeho název, nebo zmáčkněte "
+"mezerník. Upravte název účtu a poté zmáčkněte <key>Enter</key>."
+
+#. (itstool) path: info/desc
+#: C/add-contact.page:9
+msgid "Add someone to the contact list."
+msgstr "Jak někoho přidat do svého seznamu kontaktů."
+
+#. (itstool) path: credit/name
+#: C/add-contact.page:18 C/change-status.page:24
+#: C/prob-conn-acctdisabled.page:15 C/prob-conn-auth.page:18
+#: C/prob-conn-neterror.page:16 C/prob-conn.page:14 C/send-file.page:17
+#: C/send-message.page:17
+msgid "Phil Bull"
+msgstr "Phil Bull"
+
+#. (itstool) path: page/title
+#: C/add-contact.page:33
+msgid "Add someone to your list of contacts"
+msgstr "Přidání osoby do seznamu kontaktů"
+
+#. (itstool) path: item/p
+#: C/add-contact.page:37
+msgid "Choose <guiseq><gui>Chat</gui><gui>Add Contact</gui></guiseq>."
+msgstr ""
+"Vyberte <guiseq><gui>Konverzace</gui> <gui>Přidat kontakt</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/add-contact.page:40
+msgid ""
+"From the <gui>Account</gui> drop-down list, select the account you wish to "
+"use to connect to your contact. Your contact will need to be using the same "
+"service as the account you select."
+msgstr ""
+"V rozbalovacím seznamu <gui>Účet</gui> vyberte účet, kterým se chcete "
+"připojit ke kontaktu. Je nutné, aby váš kontakt používal stejnou službu jako "
+"účet, kterým se připojujete."
+
+#. (itstool) path: item/p
+#: C/add-contact.page:45
+msgid ""
+"In the <gui>Identifier</gui> field, enter your contact’s login ID, username, "
+"screen name, or other appropriate identifier for the service type."
+msgstr ""
+"V poli <gui>Identifikátor</gui> zadejte přihlašovací ID, uživatelské jméno, "
+"zobrazené jméno nebo jiný identifikátor vašeho kontaktu na daném druhu "
+"služby."
+
+#. (itstool) path: item/p
+#: C/add-contact.page:49
+msgid ""
+"In the <gui>Alias</gui> field, type your contact’s name as you would like it "
+"to appear in your contact list."
+msgstr ""
+"Do pole <gui>Přezdívka</gui> zadejte jméno, které se bude zobrazovat v "
+"seznamu kontaktů."
+
+#. (itstool) path: item/p
+#: C/add-contact.page:53
+msgid "Click <gui>Add</gui> to add the person to your list of contacts."
+msgstr "Kliknutím na <gui>Přidat</gui> přidáte kontakt do seznamu."
+
+#. (itstool) path: note/p
+#: C/add-contact.page:61
+msgid ""
+"To add a new person to your list of contacts, you need to be connected to "
+"the Internet and to your account."
+msgstr ""
+"Pro přidání nového kontaktu do seznamu je nutné připojení k internetu a k "
+"vašemu účtu."
+
+#. (itstool) path: info/desc
+#: C/audio-call.page:10
+msgid "Call your contacts over the Internet."
+msgstr "Jak volat svým kontaktům přes internet."
+
+#. (itstool) path: credit/name
+#: C/audio-call.page:26 C/create-account.page:24 C/overview.page:17
+#: C/share-desktop.page:18 C/video-call.page:29
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#. (itstool) path: page/title
+#: C/audio-call.page:35
+msgid "Start an audio conversation"
+msgstr "Započetí hlasové konverzace"
+
+#. (itstool) path: page/p
+#: C/audio-call.page:37
+msgid ""
+"You can call your contacts and have an audio conversation with them. This "
+"features only works with certain types of accounts and it requires the other "
+"person to have an application that supports audio calls."
+msgstr ""
+"Můžete volat svým kontaktům a vést s nimi hlasovou konverzaci. Tato funkce "
+"funguje pouze s určitými typy účtů a vyžaduje, aby váš protějšek měl "
+"aplikaci, která podporuje hlasové hovory."
+
+#. (itstool) path: item/p
+#: C/audio-call.page:43
+msgid ""
+"Right-click on the contact that you want to call and select <gui style="
+"\"menuitem\">Audio Call</gui>."
+msgstr ""
+"Klikněte pravým tlačítkem myši na kontakt, kterému chcete volat a vyberte "
+"<gui style=\"menuitem\">Hlasový hovor</gui>."
+
+#. (itstool) path: item/p
+#: C/audio-call.page:49 C/video-call.page:50
+msgid ""
+"A new window will open. When the connection is established, you will see the "
+"total conversation time at the bottom of the window."
+msgstr ""
+"Otevře se nové okno. Po navázaní spojení uvidíte u spodního okraje okna "
+"celkový čas konverzace."
+
+#. (itstool) path: item/p
+#: C/audio-call.page:55
+msgid ""
+"To end the conversation, click the <gui style=\"button\">hand up</gui> "
+"button."
+msgstr ""
+"Pro ukončení konverzace klikněte na tlačítko <gui style=\"button\">Zavěsit</"
+"gui>."
+
+#. (itstool) path: note/p
+#: C/audio-call.page:63
+msgid ""
+"To turn an audio conversation into a video conversation, choose <guiseq><gui "
+"style=\"menu\">Video</gui> <gui style=\"menuitem\">Video On</gui></guiseq>."
+msgstr ""
+"Pro přechod z hlasové konverzace na videokonverzaci zvolte <guiseq><gui "
+"style=\"menu\">Video</gui> <gui style=\"menuitem\">Zapnout video</gui></"
+"guiseq>."
+
+#. (itstool) path: section/title
+#: C/audio-call.page:71
+msgid "Start an audio conversation with a meta-contact"
+msgstr "Započetí hlasové konverzace s metakontaktem"
+
+#. (itstool) path: item/p
+#: C/audio-call.page:74 C/send-message.page:53 C/video-call.page:68
+msgid ""
+"From the <gui>Contact List</gui> window, right-click on the meta-contact."
+msgstr ""
+"V okně <gui>Seznam kontaktů</gui> klikněte pravým tlačítkem myši na "
+"metakontakt."
+
+#. (itstool) path: item/p
+#: C/audio-call.page:79
+msgid ""
+"Select the contact you want to have the conversation, and from the menu "
+"select <gui style=\"menuitem\">Audio Call</gui>."
+msgstr ""
+"Vyberte kontakt, se kterým chcete hovořit, a v nabídce zvolte <gui style="
+"\"menuitem\">Hlasový hovor</gui>."
+
+#. (itstool) path: note/p
+#: C/audio-call.page:86 C/send-message.page:65 C/video-call.page:80
+msgid ""
+"To recognize if a contact is a <em>meta-contact</em>, move your mouse on a "
+"contact in the <gui>Contact List</gui> window, and stop over it for a "
+"second: a small pop-up message will appear showing the number of the "
+"contacts that form the meta-contact."
+msgstr ""
+"<em>Metakontakt</em> poznáte tak, že přejedete myší na kontakt v okně "
+"<gui>Seznam kontaktů</gui> a zastavíte se na něm: objeví se malá vyskakovací "
+"zpráva zobrazující počet kontaktů, které tvoří metakontakt."
+
+#. (itstool) path: info/desc
+#: C/audio-video.page:30
+msgid ""
+"Information on when it is possible to have an audio or video conversation."
+msgstr "Informace o tom, kdy je možné použít hlasovou nebo videokonverzaci."
+
+#. (itstool) path: page/title
+#: C/audio-video.page:35
+msgid "Audio and video support"
+msgstr "Podpora hlasu a videa"
+
+#. (itstool) path: page/p
+#: C/audio-video.page:37
+msgid ""
+"You can only have audio and video conversation with contacts who are using "
+"an application which also supports this feature."
+msgstr ""
+"Hlasové a videokonverzace můžete vést jen s kontakty, jenž používají "
+"aplikaci, která také podporuje tuto funkci."
+
+#. (itstool) path: note/p
+#: C/audio-video.page:41
+msgid ""
+"In order to have an audio conversation, you need to have a sound card that "
+"is supported by your operating system, and a working microphone."
+msgstr ""
+"Pro hlasovou konverzaci musíte mít zvukovou kartu, která je podporována "
+"vaším operačním systémem, a funkční mikrofon."
+
+#. (itstool) path: note/p
+#: C/audio-video.page:43
+msgid ""
+"In order to have a video conversation, you need to have a webcam that is "
+"supported by your operating system, and a working microphone."
+msgstr ""
+"Pro videokonverzaci musíte mít webkameru, která je podporována vaším "
+"operačním systémem, a funkční mikrofon."
+
+#. (itstool) path: section/title
+#: C/audio-video.page:49
+msgid "Supported Account Types"
+msgstr "Podporované typy účtů"
+
+#. (itstool) path: section/p
+#: C/audio-video.page:51
+msgid ""
+"You can only have audio and video conversations using accounts on certain "
+"supported services. The following table lists whether audio and video is "
+"supported for each type of account."
+msgstr ""
+"Hlasové a videokonverzace můžete vést pouze u účtů na podporovaných "
+"službách. Následující tabulka obsahuje informace o tom, jestli jsou hlasové "
+"a videokonverzace u daných typů účtů podporovány."
+
+#. (itstool) path: note/p
+#: C/audio-video.page:56
+msgid ""
+"Account types are provided by plugins. Your system may not have all of the "
+"following types available, or it may have types not listed here. Updated "
+"plugins may make audio or video conversations possible on account types that "
+"are listed as unsupported here."
+msgstr ""
+"Jednotlivé typy účtů jsou podporovány pomocí zásuvných modulů. Váš systém "
+"nemusí obsahovat všechny dostupné moduly nebo naopak může obsahovat moduly, "
+"které zde nejsou uvedeny. Aktualizované zásuvné moduly mohou umožnit hlasové "
+"nebo videokonverzace u typů účtů, které je podle zde uvedených informací "
+"nepodporují."
+
+#. (itstool) path: td/p
+#: C/audio-video.page:74
+msgid "Service"
+msgstr "Služba"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:75
+msgid "Audio"
+msgstr "Hlas"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:76
+msgid "Video"
+msgstr "Video"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:81
+msgid "AIM"
+msgstr "AIM"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:82 C/audio-video.page:83 C/audio-video.page:87
+#: C/audio-video.page:88 C/audio-video.page:97 C/audio-video.page:98
+#: C/audio-video.page:102 C/audio-video.page:103 C/audio-video.page:107
+#: C/audio-video.page:108 C/audio-video.page:117 C/audio-video.page:118
+#: C/audio-video.page:122 C/audio-video.page:123 C/audio-video.page:127
+#: C/audio-video.page:128 C/audio-video.page:132 C/audio-video.page:133
+#: C/audio-video.page:137 C/audio-video.page:138 C/audio-video.page:147
+#: C/audio-video.page:148 C/audio-video.page:152 C/audio-video.page:153
+msgid "No"
+msgstr "ne"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:86
+msgid "gadugadu"
+msgstr "gadugadu"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:91
+msgid "Google Talk"
+msgstr "Google Talk"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:92 C/audio-video.page:93 C/audio-video.page:112
+#: C/audio-video.page:113 C/audio-video.page:142 C/audio-video.page:143
+msgid "Yes"
+msgstr "ano"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:96
+msgid "Groupwise"
+msgstr "Groupwise"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:101
+msgid "ICQ"
+msgstr "ICQ"
+
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/audio-video.page:106 C/create-account.page:49
+msgid "IRC"
+msgstr "IRC"
+
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/audio-video.page:111 C/create-account.page:68
+msgid "Jabber"
+msgstr "Jabber"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:116
+msgid "myspace"
+msgstr "myspace"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:121
+msgid "qq"
+msgstr "qq"
+
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/audio-video.page:126 C/create-account.page:86
+msgid "People Nearby"
+msgstr "People Nearby"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:131
+msgid "sametime"
+msgstr "sametime"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:136
+msgid "silc"
+msgstr "silc"
+
+#. (itstool) path: td/p
+#. (itstool) path: section/title
+#: C/audio-video.page:141 C/create-account.page:99
+msgid "SIP"
+msgstr "SIP"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:146
+msgid "Yahoo!"
+msgstr "Yahoo!"
+
+#. (itstool) path: td/p
+#: C/audio-video.page:151
+msgid "zephyr"
+msgstr "zephyr"
+
+#. (itstool) path: info/desc
+#: C/change-status.page:9
+msgid "Change your status to advertise your availability to your contacts."
+msgstr "Jak změnit svůj stav a ukázat svým kontaktům, jestli jste dostupní."
+
+#. (itstool) path: page/title
+#: C/change-status.page:39
+msgid "Change your status"
+msgstr "Změna vašeho stavu"
+
+#. (itstool) path: page/p
+#: C/change-status.page:41
+msgid ""
+"You can set your status to indicate your availability to your contacts. "
+"<app>Empathy</app> allows you to select from a list of defined statuses."
+msgstr ""
+"Můžete nastavit svůj stav a ukázat kontaktům, jestli jste dostupní. "
+"<app>Empathy</app> poskytuje výběr ze seznamu předem nastavených stavů."
+
+#. (itstool) path: item/p
+#: C/change-status.page:46
+msgid ""
+"Click on the drop-down list at the top of the <gui>Contact List</gui> window."
+msgstr ""
+"Klikněte na rozbalovací seznam ve vrchní části okna <gui>Seznam kontaktů</"
+"gui>."
+
+#. (itstool) path: item/p
+#: C/change-status.page:51
+msgid "Select a status from the list."
+msgstr "Vyberte stav ze seznamu."
+
+#. (itstool) path: page/p
+#: C/change-status.page:57
+msgid ""
+"See <link xref=\"status-icons\"/> for a list of the built-in statuses and "
+"what they mean. You can also <link xref=\"set-custom-status\">add custom "
+"status messages</link> to provide more information about your availability "
+"to your contacts."
+msgstr ""
+"Seznam předem nastavených stavů a jejich významů viz <link xref=\"status-"
+"icons\"/>. Můžete také <link xref=\"set-custom-status\">přidat vlastní "
+"stavy</link> a poskytnout tak svým kontaktům více informací o své "
+"dostupnosti."
+
+#. (itstool) path: note/p
+#: C/change-status.page:63
+msgid ""
+"If you do not use your computer for a while, or if the screensaver is on, "
+"the status will be automatically set to Away."
+msgstr ""
+"Pokud nějakou dobu nepoužíváte svůj počítač nebo pokud byl zapnut spořič "
+"obrazovky, váš stav bude automaticky nastaven na „nepřítomen“."
+
+#. (itstool) path: info/desc
+#: C/create-account.page:32
+msgid "Create an account for one of the supported messaging services."
+msgstr "Jak vytvořit účet u jedné z podporovaných komunikačních služeb."
+
+#. (itstool) path: page/title
+#: C/create-account.page:36
+msgid "Register a new account"
+msgstr "Registrace nového účtu"
+
+#. (itstool) path: page/p
+#: C/create-account.page:38
+msgid ""
+"Most account types require you to create an account with a service provider "
+"before you can use that account with instant messaging applications. You can "
+"use <app>Empathy</app> to register for a new account with some account "
+"providers using the same steps as you would to <link xref=\"add-account"
+"\">add an account</link>."
+msgstr ""
+"Většina typů účtů vyžaduje vytvoření účtu u poskytovatele služby, než je "
+"možné používat tento účet s aplikacemi rychlé komunikace. <app>Empathy</app> "
+"můžete použít k registraci nového účtu u některých poskytovatelů pomocí "
+"stejných kroků jako při <link xref=\"add-account\">přidávání účtu</link>."
+
+#. (itstool) path: page/p
+#: C/create-account.page:44
+msgid ""
+"Once you create a new account, your account provider should give you a login "
+"or a username and a password, as well as any additional information you need "
+"to connect using <app>Empathy</app>."
+msgstr ""
+"Jakmile je nový účet vytvořen, měli byste mít od poskytovatele k dispozici "
+"přihlašovací nebo uživatelské jméno, heslo a další údaje potřebné pro "
+"připojení pomocí <app>Empathy</app>."
+
+#. (itstool) path: section/p
+#: C/create-account.page:51
+msgid ""
+"IRC networks require that you specify a nick (nickname) when you connect to "
+"the server. Some IRC networks use a service, such as NickServ, to allow "
+"users to <link xref=\"irc-nick-password\">protect their nick</link>. If you "
+"did not register your nick or are unable to do so and another user is using "
+"it, then you will need to choose a different one."
+msgstr ""
+"Sítě IRC vyžadují pro připojení k serveru zadání přezdívky. Některé sítě IRC "
+"používají služby, jako například NickServ, aby umožnily uživatelům <link "
+"xref=\"irc-nick-password\">chránit svoji přezdívku</link>. Pokud jste "
+"nezaregistrovali svoji přezdívku nebo ji zaregistrovat nemůžete, protože ji "
+"používá jiný uživatel, budete muset zvolit jinou."
+
+#. (itstool) path: section/p
+#: C/create-account.page:57
+msgid ""
+"Some IRC servers are password protected. You will need to know the password "
+"to connect to these servers. Generally, these are private IRC networks."
+msgstr ""
+"Některé servery IRC jsou chráněny heslem. Pokud se chcete k takovým serverům "
+"připojit, musíte heslo znát. Obecně se jedná o soukromé sítě IRC."
+
+#. (itstool) path: note/p
+#: C/create-account.page:62
+msgid ""
+"Many GNOME projects use <code>irc.gnome.org</code> for project-related "
+"discussion."
+msgstr ""
+"Mnoho projektů GNOME používá <code>irc.gnome.org</code> pro komunikaci "
+"týkající se těchto projektů."
+
+#. (itstool) path: section/p
+#: C/create-account.page:70
+msgid ""
+"Jabber is an open instant messaging system. Like email, Jabber allows you to "
+"choose your account provider and communicate with all other Jabber users, "
+"regardless of their account provider."
+msgstr ""
+"Jabber je otevřený systém pro rychlou komunikaci. Podobně jako email, Jabber "
+"vám umožňuje výběr poskytovatele účtu a komunikaci se všemi ostatními "
+"uživateli Jabberu bez ohledu na to, jakého poskytovatele mají."
+
+#. (itstool) path: section/p
+#: C/create-account.page:74
+msgid ""
+"You will need to create a new account with a Jabber provider. There are many "
+"free providers; one popular provider is <link href=\"http://register.jabber."
+"org/\">jabber.org</link>."
+msgstr ""
+"Pro používání Jabberu je nutné si založit účet u jednoho z poskytovatelů. "
+"Existuje mnoho poskytovatelů, kteří tuto službu provozují zdarma. Mezi "
+"oblíbených patří <link href=\"http://register.jabber.org/\">jabber.org</"
+"link> nebo v česku <link href=\"https://secure.jabbim.com/reg/\">Jabbim</"
+"link>."
+
+#. (itstool) path: note/p
+#: C/create-account.page:79
+msgid ""
+"If you use Gmail or Google+ Hangouts, you already have a Jabber account. Use "
+"your Gmail address and password in <app>Empathy</app> to connect."
+msgstr ""
+"Pokud používáte Gmail nebo Google+ Hangouts, máte již účet Jabber vytvořený. "
+"Pro jeho připojení v <app>Empathy</app> použijte svoji adresu z Gmailu a "
+"příslušné heslo."
+
+#. (itstool) path: section/p
+#: C/create-account.page:88
+msgid ""
+"This service works whenever you are connected to a local network, such as a "
+"wireless hotspot, you do not need to create an account with service "
+"providor, just set up your account through <app>Empathy</app>. It "
+"automatically finds all other users on the network who are also using this "
+"service."
+msgstr ""
+"Tato služba funguje kdykoli jste připojeni k místní síti, například přes Wi-"
+"Fi hotspot. Nemusíte si zakládat účet u poskytovatele, stačí si nastavit "
+"účet v <app>Empathy</app>. Všichni ostatní uživatelé na síti používající "
+"tuto službu budou automaticky vyhledáni."
+
+#. (itstool) path: section/p
+#: C/create-account.page:94
+msgid ""
+"For more information, see the <link xref=\"salut-protocol\">salut protocol</"
+"link>."
+msgstr ""
+"Více informací viz <link xref=\"salut-protocol\">protokol salut</link>."
+
+#. (itstool) path: section/p
+#: C/create-account.page:101
+msgid ""
+"SIP is an open system which allows users to have audio and video "
+"conversations over the Internet. You need to create an account with a SIP "
+"provider. You can communicate with all other SIP users, regardless of which "
+"SIP provider they use."
+msgstr ""
+"SIP je otevřený systém, který umožňuje uživatelům hlasové a videoknoverzace "
+"přes Internet. Je nutné si založit účet u poskytovatele SIP. Budete pak moci "
+"komunikovat se všemi ostatními uživateli SIP bez ohledu na to, jakého "
+"poskytovatele používají."
+
+#. (itstool) path: section/p
+#: C/create-account.page:106
+msgid ""
+"Some SIP providers allow you to call normal phones from your computer. "
+"Generally, you will need to subscribe to a paid service for this feature."
+msgstr ""
+"Někteří poskytovatelé SIP vám umožňují volat z počítače i na telefon. Tato "
+"funkce je ale většinou poskytována v rámci placených služeb."
+
+#. (itstool) path: section/title
+#: C/create-account.page:112
+msgid "Proprietary Services"
+msgstr "Proprietární služby"
+
+#. (itstool) path: section/p
+#: C/create-account.page:114
+msgid ""
+"There are many proprietary instant messaging services that have been "
+"developed by different companies or organizations. <app>Empathy</app> allows "
+"you to connect to an existing account for some of these services. To create "
+"a new account with one of these services, you will need to visit the website "
+"for the service."
+msgstr ""
+"Existuje mnoho proprietárních služeb pro rychlou komunikaci, které byly "
+"vyvinuty různými společnostmi nebo organizacemi. <app>Empathy</app> vám "
+"umožňuje připojit se k existujícímu účtu některých z těchto služeb. K "
+"založení účtu u těchto služeb budete muset navštívit jejich webové stránky."
+
+#. (itstool) path: item/p
+#: C/create-account.page:122
+msgid "<link href=\"http://dashboard.aim.com/aim\">AIM</link>"
+msgstr "<link href=\"http://dashboard.aim.com/aim\">AIM</link>"
+
+#. (itstool) path: item/p
+#: C/create-account.page:125
+msgid "<link href=\"https://www.icq.com/register/\">ICQ</link>"
+msgstr "<link href=\"https://www.icq.com/register/\">ICQ</link>"
+
+#. (itstool) path: item/p
+#: C/create-account.page:128
+msgid "<link href=\"https://login.yahoo.com/config/login\">Yahoo!</link>"
+msgstr "<link href=\"https://login.yahoo.com/config/login\">Yahoo!</link>"
+
+#. (itstool) path: info/desc
+#: C/disable-account.page:9
+msgid "Prevent <app>Empathy</app> from automatically logging in to an account."
+msgstr "Jak zabránit <app>Empathy</app> v automatickém přihlašování k účtu."
+
+#. (itstool) path: page/title
+#: C/disable-account.page:40
+msgid "Disable an account"
+msgstr "Zakázání účtu"
+
+#. (itstool) path: page/p
+#: C/disable-account.page:42
+msgid ""
+"You can disable an account to prevent <app>Empathy</app> from logging in to "
+"it without removing the account entirely. You may wish to disable and re-"
+"enable an account if you only want to be logged in to the account at certain "
+"times, but you still want to use <app>Empathy</app> for other accounts."
+msgstr ""
+"Jednotlivé účty můžete zakázat, abyste <app>Empathy</app> zabránili v "
+"přihlašování k nim, aniž byste je museli smazat. Zakázání a opětovné "
+"povolení účtu se vám může hodit například, když se k účtu chcete přihlašovat "
+"jen v určitou dobu, ale ostatní účty v <app>Empathy</app> chcete používat "
+"pořád."
+
+#. (itstool) path: item/p
+#: C/disable-account.page:49 C/irc-nick-password.page:50
+#: C/remove-account.page:43
+msgid ""
+"From the <gui>Contact List</gui> window, choose <guiseq><gui>Edit</gui> "
+"<gui>Accounts</gui></guiseq>, or press <key>F4</key>."
+msgstr ""
+"V okně <gui>Seznam kontaktů</gui> vyberte <guiseq><gui>Upravit</gui> "
+"<gui>Účty</gui></guiseq> nebo zmáčkněte <key>F4</key>."
+
+#. (itstool) path: item/p
+#: C/disable-account.page:53
+msgid ""
+"Select the account you wish to disable from the accounts list on the left "
+"side of the window."
+msgstr "V seznamu v levé části okna vyberte účet, který chcete zakázat."
+
+#. (itstool) path: item/p
+#: C/disable-account.page:57
+msgid "On the right side of the window, switch it off."
+msgstr "Vypněte jej přepínačem na pravé straně okna."
+
+#. (itstool) path: page/p
+#: C/disable-account.page:62
+msgid "To re-enable the account, switch it on."
+msgstr "Pro opětovnou aktivaci účtu jej přepínačem zapněte."
+
+#. (itstool) path: info/desc
+#: C/favorite-rooms.page:10
+msgid "Set, join and manage favorite rooms."
+msgstr "Jak nastavit, připojit a spravovat oblíbené místnosti."
+
+#. (itstool) path: page/title
+#: C/favorite-rooms.page:29
+msgid "Favorite rooms"
+msgstr "Oblíbené místnosti"
+
+#. (itstool) path: section/title
+#: C/favorite-rooms.page:32
+msgid "Set a room as a favorite"
+msgstr "Nastavení místnosti jako oblíbené"
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:35
+msgid "Join a room."
+msgstr "Vstoupte do místnosti."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:40
+msgid ""
+"See <link xref=\"irc-join-room\"/> for more information on how to join an "
+"IRC room."
+msgstr ""
+"Viz <link xref=\"irc-join-room\"/> pro více informací o tom, jak se připojit "
+"do místnosti IRC."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:46
+msgid ""
+"See <link xref=\"group-conversations\"/> for more information on how to "
+"start or join a group conversation."
+msgstr ""
+"Viz <link xref=\"group-conversations\"/> pro více informací o tom, jak začít "
+"nebo se přidat do skupinové konverzace."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:54
+msgid ""
+"From the conversation window, choose <guiseq><gui>Conversation</"
+"gui><gui>Favorite Chat Room</gui></guiseq>."
+msgstr ""
+"V okně konverzace zvolte <guiseq><gui>Konverzace</gui><gui>Oblíbená diskuzní "
+"místnost</gui></guiseq>."
+
+#. (itstool) path: section/title
+#: C/favorite-rooms.page:63
+msgid "Join favorite rooms"
+msgstr "Vstup do oblíbených místností"
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:66 C/send-file.page:40
+msgid "From the <gui>Contact List</gui> window, perform one of the following:"
+msgstr "V okně <gui>Seznam kontaktů</gui> proveďte jedno z následujícího:"
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:71
+msgid "Press <key>F5</key>."
+msgstr "Zmáčkněte <key>F5</key>."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:76
+msgid ""
+"Choose <guiseq><gui>Room</gui><gui>Join Favorites</gui></guiseq>, to join "
+"all your favorite rooms."
+msgstr ""
+"Pro připojení do všech oblíbených místností zvolte <guiseq><gui>Místnost</"
+"gui><gui>Vstoupit do oblíbených</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:82
+msgid "Choose <gui>Room</gui>, and select the favorite room you want to join."
+msgstr ""
+"Zvolte <gui>Místnost</gui> a vyberte oblíbenou místnost, do které chcete "
+"vstoupit."
+
+#. (itstool) path: note/p
+#: C/favorite-rooms.page:90
+msgid ""
+"To join a favorite room, you need to be connected to the Internet and to "
+"your account."
+msgstr ""
+"Aby bylo možné vstoupit do oblíbené místnosti, je nutné připojení k "
+"Internetu a k vašemu účtu."
+
+#. (itstool) path: section/title
+#: C/favorite-rooms.page:98
+msgid "Manage favorite rooms"
+msgstr "Správa oblíbených místností"
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:101
+msgid ""
+"From the <gui>Contact List</gui> window, choose <guiseq><gui>Room</"
+"gui><gui>Manage Favorites</gui></guiseq>."
+msgstr ""
+"V okně <gui>Seznam kontaktů</gui> zvolte <guiseq><gui>Místnost</"
+"gui><gui>Spravovat oblíbené</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:107
+msgid ""
+"From the <gui>Account</gui> drop-down list, select the account you want to "
+"manage the favorite rooms of."
+msgstr ""
+"V rozbalovacím seznamu <gui>Účet</gui> vyberte účet, pro který chcete "
+"upravit oblíbené místnosti."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:111
+msgid "Select <gui>All</gui> to see all you favorite rooms."
+msgstr ""
+"Pro zobrazení všech vaších oblíbených místností vyberte <gui>Vše</gui>."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:116
+msgid "Select the favorite room you want to manage:"
+msgstr "Vyberte oblíbenou místnost, kterou chcete spravovat:"
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:121
+msgid ""
+"Select the <gui>Auto-Connect</gui> check-box in order to automatically join "
+"that room when you connect to your account."
+msgstr ""
+"Pro automatické vstupování do místnosti při připojení k účtu zatrhněte pole "
+"<gui>Automaticky připojit</gui>."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:127
+msgid "Click on <gui>Remove</gui> to remove the room from your favorites."
+msgstr ""
+"Pro odstranění místnosti z oblíbených klikněte na <gui>Odstranit</gui>."
+
+#. (itstool) path: item/p
+#: C/favorite-rooms.page:134
+msgid "When done, click <gui>Close</gui>."
+msgstr "Pro ukončení klikněte na <gui>Zavřít</gui>."
+
+#. (itstool) path: info/desc
+#: C/geolocation.page:8
+msgid "Use and understand geolocation in <app>Empathy</app>."
+msgstr "Jak používat a porozumět geolokaci v <app>Empathy</app>."
+
+#. (itstool) path: page/title
+#: C/geolocation.page:32
+msgid "Geographical position"
+msgstr "Zeměpisná poloha"
+
+#. (itstool) path: section/title
+#: C/geolocation.page:35
+msgid "Geolocation"
+msgstr "Geolokace"
+
+#. (itstool) path: section/title
+#: C/geolocation.page:39
+msgid "Fix common problems"
+msgstr "Řešení běžných problémů"
+
+#. (itstool) path: info/desc
+#: C/geolocation-not-showing.page:8
+msgid "<app>Empathy</app> does not publish my geographical position."
+msgstr "<app>Empathy</app> nezveřejňuje moji geografickou polohu."
+
+#. (itstool) path: page/title
+#: C/geolocation-not-showing.page:32
+msgid "Geographical position not published"
+msgstr "Zeměpisná poloha není zveřejněna"
+
+#. (itstool) path: page/p
+#: C/geolocation-not-showing.page:34
+msgid ""
+"If your contacts cannot see your location, <app>Empathy</app> might not be "
+"able to discover with a good margin of precision your geographical position."
+msgstr ""
+"V případě, že vaše kontaky nevidí vaši zeměpisnou polohu, může to být tím, "
+"že <app>Empathy</app> ji není schopno určit s dostatečnou přesností."
+
+#. (itstool) path: page/p
+#: C/geolocation-not-showing.page:38
+msgid ""
+"In this case, your position will not be published, but you are still able to "
+"see the location of your contacts."
+msgstr ""
+"V takovém případě nemůže být vaše poloha zveřejněna, vy ale polohu ostatních "
+"kontaktů vidět můžete."
+
+#. (itstool) path: page/p
+#: C/geolocation-not-showing.page:42
+msgid ""
+"If you want to publish your geographical position, you can try to use an "
+"external device such as a GPS."
+msgstr ""
+"Pokud chcete svoji zeměpisnou polohu zveřejnit, můžete zkusit použít nějaké "
+"vhodné zařízení, jako je GPS."
+
+#. (itstool) path: note/p
+#: C/geolocation-not-showing.page:48
+msgid ""
+"In order to publish your geographical location, your Jabber server needs to "
+"support the Personal Eventing Protocal (PEP). A list of <link href=\"http://"
+"coccinella.im/servers/servers_by_pubsub_pep.html\">servers which support "
+"PEP</link> is maintained online. Google Talk does not support this feature "
+"at this time."
+msgstr ""
+"Aby se zveřejnila vaše zeměpisná poloha, musí server Jabber podporovat "
+"protokol PEP (Personal Eventing Protocol). Je veden on-line seznam <link "
+"href=\"http://coccinella.im/servers/servers_by_pubsub_pep.html\">serverů s "
+"podporou PEP</link>. Google Talk v současnosti tuto funkci nepodporuje."
+
+#. (itstool) path: info/desc
+#: C/geolocation-privacy.page:8
+msgid "What information are sent and to who."
+msgstr "Jaké informace jsou posílány a komu."
+
+#. (itstool) path: page/title
+#: C/geolocation-privacy.page:32
+msgid "Geolocation Privacy"
+msgstr "Soukromí v geolokaci"
+
+#. (itstool) path: section/title
+#: C/geolocation-privacy.page:35
+msgid "What information is sent"
+msgstr "Jaké informace jsou posílány"
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:36
+msgid ""
+"What is possible to send is: your country, region, locality, area, street, "
+"building, floor, room, and postal code, longitude, latitude and altitude, "
+"speed and bearing."
+msgstr ""
+"Posílat je možné tyto informace o vás: zemi, region, lokalitu, oblast, "
+"ulici, budovu, podlaží, místnost, psč, zeměpisnou šířku a délku, rychlost a "
+"směr pohybu."
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:40
+msgid ""
+"The accuracy and the quantity of information about your geographical "
+"position are based on the software or on the infrastructure used to discover "
+"your position."
+msgstr ""
+"Přesnost a množství informací o vaší zeměpisné poloze odvisí od softwaru a "
+"infrastruktury použíté ke zjištění vaší polohy."
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:44
+msgid ""
+"Different kind of networks may have different accuracy settings, and may "
+"send different information. The use of external devices such as GPS or "
+"mobile phone will increase the accuracy of the information sent."
+msgstr ""
+"Různé druhy sítí mohou mít nastavenou různou přesnost a mohou posílat různé "
+"informace. Použití vhodného zařízení, jako je GPS nebo mobilní telefon, může "
+"zvýšit přesnost posílaných informací."
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:49
+msgid ""
+"When the privacy mode is enabled, nothing more precise than your city will "
+"be sent, even if you are using an external device."
+msgstr ""
+"Když je zapnutý režim soukromí, nebude se posílat nic přesnějšího, než je "
+"město, i když budete používat nějaké přesné zařízení."
+
+#. (itstool) path: section/title
+#: C/geolocation-privacy.page:56
+msgid "Who can see the information sent"
+msgstr "Kdo může posílané informace vidět"
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:57
+msgid "Only your contacts can see your geographical position."
+msgstr "Vaši zeměpisnou polohu mohou vidět pouze vaše kontakty."
+
+#. (itstool) path: section/title
+#: C/geolocation-privacy.page:63
+msgid "What is the privacy mode"
+msgstr "Co je to režim soukromí"
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:64
+msgid ""
+"The privacy mode, enabled by default, is a reduced accuracy mode that will "
+"decrease the accuracy of the geographical position sent to your contacts."
+msgstr ""
+"Režim soukromí, který je standardně zapnutý, je vlastně režim omezení "
+"přesnosti. Záměrně je snížena přesnost vaší zeměpisné polohy posílané vašim "
+"kontaktům."
+
+#. (itstool) path: section/title
+#: C/geolocation-privacy.page:71
+msgid "Privacy overview"
+msgstr "Informace o soukromí"
+
+#. (itstool) path: section/p
+#: C/geolocation-privacy.page:72
+msgid ""
+"Overview of the various geolocation privacy settings in <app>Empathy</app>."
+msgstr "Přehled různých nastavení soukromí geolokace v <app>Empathy</app>."
+
+#. (itstool) path: item/p
+#: C/geolocation-privacy.page:77
+msgid "Geolocation is not enabled by default."
+msgstr "Geolokace není ve výchozím stavu zapnutá."
+
+#. (itstool) path: item/p
+#: C/geolocation-privacy.page:82
+msgid "Privacy mode is enabled by default."
+msgstr "Režim soukromí je ve výchozím stavu zapnutý."
+
+#. (itstool) path: item/p
+#: C/geolocation-privacy.page:87
+msgid ""
+"Privacy mode prevails even when using external and more precise devices."
+msgstr ""
+"Režim soukromí má vyšší prioritu než přesnost specializovaného zařízení pro "
+"určování polohy."
+
+#. (itstool) path: item/p
+#: C/geolocation-privacy.page:92
+msgid "Only your contacts can see your position."
+msgstr "Vaši polohu mohou vidět jen vaše kontakty."
+
+#. (itstool) path: info/desc
+#: C/geolocation-supported.page:7
+msgid "Services that supports geolocation and compatibility."
+msgstr "Služby, které podporují geolokaci a kompatibilita."
+
+#. (itstool) path: page/title
+#: C/geolocation-supported.page:31
+msgid "Supported services"
+msgstr "Podporované služby"
+
+#. (itstool) path: page/p
+#: C/geolocation-supported.page:33
+msgid ""
+"The geolocation feature at the moment is compatible only with the Jabber "
+"service. In order to use it, you and your contacts need to have a Jabber "
+"account."
+msgstr ""
+"Funkce geolokace je v současnosti kompatibilní pouze se službou Jabber. Aby "
+"byla geolokace funkční, musíte vy i vaše kontakty používat účet Jabber."
+
+#. (itstool) path: note/p
+#: C/geolocation-supported.page:39
+msgid ""
+"It is necessary that also the server you are using supports the geolocation "
+"feature. Most of the Jabber servers support it. See your service website "
+"documentation for more information."
+msgstr ""
+"Je také nutné, aby funkci geolokace podporovaly servery, které využíváte. "
+"Většina seerverů Jabber ji podporuje. Více informací najdete v dokumentaci "
+"své webové služby."
+
+#. (itstool) path: section/title
+#: C/geolocation-supported.page:47
+msgid "Compatibility"
+msgstr "Kompatibilita"
+
+#. (itstool) path: section/p
+#: C/geolocation-supported.page:49
+msgid ""
+"<app>Empathy</app> geolocation feature is not compatible with other "
+"geographical position services such as <em>Google Latitude</em>, <em>Yahoo "
+"Fire Eagle</em> or <em>Brightkite</em>."
+msgstr ""
+"Funkce geolokace v <app>Empathy</app> není kompatibilní s jinými službami "
+"pro zjišťování zeměpisné polohy, jakou jsou <em>Google Latitude</em>, "
+"<em>Yahoo Fire Eagle</em> nebo <em>Brightkite</em>."
+
+#. (itstool) path: info/desc
+#: C/geolocation-turn.page:9
+msgid "How to activate and deactivate geolocation in <app>Empathy</app>."
+msgstr "Jak aktivovat a deaktivovat geolokaci v <app>Empathy</app>."
+
+#. (itstool) path: page/title
+#: C/geolocation-turn.page:33
+msgid "Activate/Deactivate geolocation"
+msgstr "Aktivace/deaktivace geolokace"
+
+#. (itstool) path: item/p
+#: C/geolocation-turn.page:37
+msgid "Choose <guiseq><gui>Edit</gui><gui>Preferences</gui></guiseq>."
+msgstr "Zvolte <guiseq><gui>Upravit</gui><gui>Předvolby</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/geolocation-turn.page:42
+msgid "Select the <gui>Location</gui> tab."
+msgstr "Vyberte kartu <gui>Poloha</gui>."
+
+#. (itstool) path: item/p
+#: C/geolocation-turn.page:47
+msgid ""
+"Select <gui>Publish location to my contacts</gui> to activate geolocation."
+msgstr ""
+"Zaškrtněte <gui>Zveřejnit kontaktům polohu</gui>, aby se geolokace "
+"aktivovala."
+
+#. (itstool) path: item/p
+#: C/geolocation-turn.page:50
+msgid "To deactivate geolocation, deselect it."
+msgstr "Aby se deaktivovala, zaškrtnutí zrušte."
+
+#. (itstool) path: item/p
+#: C/geolocation-turn.page:55
+msgid ""
+"To increase the accuracy of your position, deselect <gui>Reduce location "
+"accuracy</gui>."
+msgstr ""
+"Aby se zvýšila přesnost vaší polohy, zrušte zaškrtnutí <gui>Omezit přesnost "
+"polohy</gui>."
+
+#. (itstool) path: item/p
+#: C/geolocation-turn.page:61
+msgid ""
+"If you have an external device like a GPS or want to send a more accurate "
+"position, select the appropriate option in the <gui>Location sources</gui> "
+"section."
+msgstr ""
+"Pokud máte nějaké zařízení pro určování polohy, jako třeba GPS, a chcete "
+"posílat polohu přesněji, vyberte příslušnou volbu v části <gui>Zdroje "
+"polohy</gui>."
+
+#. (itstool) path: info/desc
+#: C/geolocation-what-is.page:9
+msgid "Understanding geolocation."
+msgstr "Seznamte se s geolokací."
+
+#. (itstool) path: page/title
+#: C/geolocation-what-is.page:33
+msgid "What is geolocation"
+msgstr "Co je to geolokace"
+
+#. (itstool) path: page/p
+#: C/geolocation-what-is.page:35
+msgid ""
+"Geolocation allows you to identify the real geographical location of a "
+"computer or a device connected to the Internet."
+msgstr ""
+"Geolokace umožňuje určit skutečnou zeměpisnou polohu počítače nebo zařízení "
+"připojeného k Internetu."
+
+#. (itstool) path: page/p
+#: C/geolocation-what-is.page:37
+msgid "With geolocation in <app>Empathy</app> you can:"
+msgstr "S geolokací v <app>Empathy</app> můžete:"
+
+#. (itstool) path: item/p
+#: C/geolocation-what-is.page:42
+msgid "Publish your geographical location to your contacts."
+msgstr "Zveřejňovat svoji zeměpisnou polohu svým kontatkům."
+
+#. (itstool) path: item/p
+#: C/geolocation-what-is.page:47
+msgid "See your contacts’ geographical location and quickly contact them."
+msgstr "Vidět zeměpisnou polohu svých kontaktů a rychle se s nimi spojit."
+
+#. (itstool) path: item/p
+#: C/geolocation-what-is.page:52
+msgid ""
+"Set the accuracy of your location and the device used to discover your "
+"location."
+msgstr "Nastavit přesnost polohy a zařízení používané k určení vaší polohy."
+
+#. (itstool) path: note/p
+#: C/geolocation-what-is.page:60
+msgid ""
+"In order to see your contacts’ geographical locations, they need to use a "
+"service and an application that supports geolocation."
+msgstr ""
+"Abyste mohli vidět zeměpisnou polohu svých kontaktů, musíte používat službu "
+"a aplikaci, které geolokaci podporují."
+
+#. (itstool) path: info/desc
+#: C/group-conversations.page:8
+msgid "Start or join a group conversation with your contacts."
+msgstr "Jak zahájit nebo se přidat ke skupinové konverzaci se svými kontakty."
+
+#. (itstool) path: page/title
+#: C/group-conversations.page:34
+msgid "Group conversations"
+msgstr "Skupinová konverzace"
+
+#. (itstool) path: page/p
+#: C/group-conversations.page:36
+msgid ""
+"Group conversations permits you to have text conversations with more than "
+"one contact at the same time."
+msgstr ""
+"Skupinová konverzace vám dovoluje textově konverzovat s více než jedním "
+"kontaktem naráz."
+
+#. (itstool) path: page/p
+#: C/group-conversations.page:40
+msgid ""
+"To have a group conversation you need to have a registered account with "
+"either Jabber or Google Talk, or a People Nearby account."
+msgstr ""
+"Abyste mohli používat skupinovou konverzaci, musíte mít zaregistrovaný účet "
+"u služby Jabber nebo Google Tallk nebo mít účet Lidé v okolí."
+
+#. (itstool) path: note/p
+#: C/group-conversations.page:46
+msgid ""
+"You can have a group conversation only with the contacts that are using the "
+"same service as yours."
+msgstr ""
+"Skupinovou konverzaci můžete provozovat jen s kontakty, které používají "
+"stejnou službu jako vy."
+
+#. (itstool) path: section/title
+#: C/group-conversations.page:54
+msgid "Start a group conversation"
+msgstr "Započetí skupinové konverzace"
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:58 C/group-conversations.page:122
+#: C/irc-join-room.page:39
+msgid ""
+"From the <gui>Contact List</gui> window, choose <guiseq><gui>Room</"
+"gui><gui>Join</gui></guiseq>."
+msgstr ""
+"V okně <gui>Seznam kontaktů</gui> zvolte <guiseq><gui>Místnost</"
+"gui><gui>Vstoupit</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:63
+msgid ""
+"From the <gui>Account</gui> drop-down list, select the account you want to "
+"use for the group conversation."
+msgstr ""
+"V rozbalovacím seznamu <gui>Účet</gui> vyberte účet, který chcete použít ke "
+"skupinové konverzaci."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:69
+msgid ""
+"In the <gui>Server</gui> text box, type the name of server in which the "
+"conversation will be hosted."
+msgstr ""
+"Do textového pole <gui>Přezdívka</gui> zadejte název serveru, na kterém se "
+"bude konverzace konat."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:73
+msgid "Leave it empty if it will be on the current server."
+msgstr "Pokud jde o současný server, ponechte pole prázdné."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:78
+msgid ""
+"In the <gui>Room</gui> text box, type the name you want to give to the "
+"conversation."
+msgstr ""
+"Do textového pole <gui>Místnost</gui> zadejte název, který chcete konverzaci "
+"přidělit."
+
+#. (itstool) path: note/p
+#: C/group-conversations.page:82
+msgid ""
+"This will be the name of the room you are going to have a conversation. This "
+"name will be publicly available for other people to join. It is not possible "
+"to create a private room."
+msgstr ""
+"Bude se jednat o název místnosti, ve které se bude konverzovat. Název bude "
+"veřejně přístupný pro ostatní lidi, aby se mohli připojit. Není možné "
+"vytvořit soukromou místnost."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:90
+msgid ""
+"To invite other contacts to join the group conversation, from the "
+"<gui>Contact List</gui> window, select the contact you want to invite, and "
+"perform one of the following:"
+msgstr ""
+"Ostatní kontakty pozvete ke skupinové konverzaci tak, že je vyberete v okně "
+"<gui>Seznam kontaktů</gui> a provedete následující:"
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:97
+msgid "Right-click on the contact and choose <gui>Invite to chatroom</gui>."
+msgstr ""
+"Kliknete pravým tlačítkem na kontakt a zvolíte <gui>Pozvat do diskuzní "
+"místnosti</gui>."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:102
+msgid ""
+"Choose <guiseq><gui>Edit</gui><gui>Contact</gui><gui>Invite to chatroom</"
+"gui></guiseq>."
+msgstr ""
+"Zvolíte <guiseq><gui>Upravit</gui><gui>Kontakt</gui><gui>Pozvat do diskuzní "
+"místnosti</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:107
+msgid ""
+"If you have more than one group conversation open, select the one you want "
+"to invite your contacts."
+msgstr ""
+"Pokud máte otevřenu více než jednu skupinovou konverzaci, vyberte tu, do "
+"které chcete své kontatky pozvat."
+
+#. (itstool) path: section/title
+#: C/group-conversations.page:118
+msgid "Join a group conversation"
+msgstr "Přídání se ke skupinové konverzaci"
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:128
+msgid "Expand the <gui>Room List</gui> section to see all the existing rooms."
+msgstr ""
+"Rozbalte část <gui>Seznam místností</gui>, abyste viděli existující "
+"místnosti."
+
+#. (itstool) path: item/p
+#: C/group-conversations.page:133
+msgid "Double-click on the name of a room to join it."
+msgstr "Dvojitě klikněte na název místnosti, do které chcete vstoupit."
+
+#. (itstool) path: section/p
+#: C/group-conversations.page:139
+msgid ""
+"It is not possible to join all existing rooms. Some of the rooms might "
+"require a password, or might be invitation only. <app>Empathy</app> does not "
+"support these kind of rooms."
+msgstr ""
+"Ne do všech místností je možné vstoupit. Některé místnosti mohou požadovat "
+"heslo nebo mohou být jen na pozvání. <app>Empathy</app> tento druh místností "
+"nepodporuje."
+
+#. (itstool) path: info/desc
+#: C/hide-contacts.page:8
+msgid "Hide the offline contacts from your <gui>Contact List</gui>."
+msgstr "Jak v <gui>seznamu kontatků</gui> skrýt kontakty, které jsou odpojené."
+
+#. (itstool) path: page/title
+#: C/hide-contacts.page:19
+msgid "Hide offline contacts"
+msgstr "Skrytí odpojených kontatků"
+
+#. (itstool) path: page/p
+#: C/hide-contacts.page:21
+msgid ""
+"Normally, <app>Empathy</app> shows all your contacts: those that are online, "
+"with which you can have a conversation, and also those that are offline."
+msgstr ""
+"Normálně <app>Empathy</app> zobrazuje všechny vaše kontakty – ty které jsou "
+"připojeny a můžete s ními navázat konverzaci, i ty, které jsou odpojeny."
+
+#. (itstool) path: page/p
+#: C/hide-contacts.page:25
+msgid "To hide the contacts that are offline:"
+msgstr "Když chcete odpojené kontakty skrýt:"
+
+#. (itstool) path: item/p
+#: C/hide-contacts.page:31
+msgid ""
+"From the <gui>Contact List</gui> window, choose <guiseq><gui>View</gui> "
+"<gui>Offline Contacts</gui></guiseq>, or press <keyseq><key>Ctrl</key> "
+"<key>H</key></keyseq>."
+msgstr ""
+"V okně <gui>Seznam kontaktů</gui> zvolte <guiseq><gui>Zobrazit</gui> "
+"<gui>Odpojené kontakty</gui></guiseq> nebo zmáčkněte <keyseq><key>Ctrl</key> "
+"<key>H</key></keyseq>."
+
+#. (itstool) path: item/p
+#: C/hide-contacts.page:36
+msgid "To show the offline contacts again, repeat the same procedure above."
+msgstr "Pro opětovné zobrazení zopakujte stejný postup."
+
+#. (itstool) path: info/desc
+#: C/import-account.page:10
+msgid "Import an account from another instant messaging application."
+msgstr "Jak naimportovat účty z jiné aplikace pro rychlou komunikaci."
+
+#. (itstool) path: credit/name
+#: C/import-account.page:19
+msgid "Peter Haslam"
+msgstr "Peter Haslam"
+
+#. (itstool) path: page/title
+#: C/import-account.page:42
+msgid "Import an existing account"
+msgstr "Import stávajících účtů"
+
+#. (itstool) path: page/p
+#: C/import-account.page:44
+msgid ""
+"The first time you run <app>Empathy</app>, it will offer to import your "
+"accounts from other instant messaging applications. Currently, the only "
+"supported application is <app>Pidgin</app>."
+msgstr ""
+"Při prvním spuštění <app>Empathy</app> nabídne import vašich účtů z jiných "
+"aplikací pro rychlou komunikaci. Jedinou zatím podporovanou je <app>Pidgin</"
+"app>."
+
+#. (itstool) path: item/p
+#: C/import-account.page:50
+msgid ""
+"Run <app>Empathy</app> for the first time. An assistant will offer you a "
+"number of options to create new accounts."
+msgstr ""
+"Spusťte <app>Empathy</app> poprvé. Průvodce vám nabídne několik voleb k "
+"vytvoření nových účtů."
+
+#. (itstool) path: item/p
+#: C/import-account.page:54
+msgid ""
+"Select <gui>Yes, import my account details from</gui> and click "
+"<gui>Forward</gui>."
+msgstr ""
+"Vyberte <gui>Ano, importovat mé účty z</gui> a klikněte na <gui>Vpřed</gui>."
+
+#. (itstool) path: item/p
+#: C/import-account.page:58
+msgid "Select the check box next to each account you wish to import."
+msgstr "Zaškrtněte políčko vedle každého účtu, který si přejete importovat."
+
+#. (itstool) path: item/p
+#: C/import-account.page:61 C/irc-nick-password.page:63
+msgid "Click <gui style=\"button\">Apply</gui>."
+msgstr "Klikněte na <gui style=\"button\">Použít</gui>."
+
+#. (itstool) path: note/p
+#: C/import-account.page:66
+msgid ""
+"It is not currently possible to import accounts after you have completed the "
+"first-run assistant."
+msgstr ""
+"V současnosti není možné importovat účty po té, co jste průvodce prvním "
+"spuštěním dokončili."
+
+#. (itstool) path: info/desc
+#: C/index.page:28
+msgid ""
+"Empathy is the instant messaging application for GNOME. It supports text, "
+"voice and video chat over many protocols."
+msgstr ""
+"Empathy je aplikace prostředí GNOME pro rychlou komunikaci. Podporuje "
+"textový, hlasový a video chat prostřednictvím mnoha protokolů."
+
+#. (itstool) path: info/title
+#: C/index.page:30
+msgctxt "link"
+msgid "Empathy"
+msgstr "Empathy"
+
+#. (itstool) path: info/title
+#: C/index.page:31
+msgctxt "text"
+msgid "Empathy"
+msgstr "Empathy"
+
+#. (itstool) path: page/title
+#: C/index.page:34
+msgid "<_:media-1/> Empathy"
+msgstr "<_:media-1/> Empathy"
+
+#. (itstool) path: section/title
+#: C/index.page:40
+msgid "Account Management"
+msgstr "Správa účtů"
+
+#. (itstool) path: section/title
+#: C/index.page:44
+msgid "Contact Management"
+msgstr "Správa kontaktů"
+
+#. (itstool) path: section/title
+#: C/index.page:48
+msgid "Text Conversations"
+msgstr "Textové konverzace"
+
+#. (itstool) path: section/title
+#: C/index.page:52
+msgid "Audio and Video Conversations"
+msgstr "Hlasové a videokonverzace"
+
+#. (itstool) path: section/title
+#: C/index.page:56
+msgid "Advanced Actions"
+msgstr "Pokročilé činnosti"
+
+#. (itstool) path: section/title
+#: C/index.page:60 C/irc-manage.page:64
+msgid "Common Problems"
+msgstr "Běžné problémy"
+
+#. (itstool) path: media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/introduction.page:41
+msgctxt "_"
+msgid ""
+"external ref='figures/empathy-main-window.png' "
+"md5='54908dcb2588beddb15ef0968d2c2582'"
+msgstr ""
+"external ref='figures/empathy-main-window.png' "
+"md5='54908dcb2588beddb15ef0968d2c2582'"
+
+#. (itstool) path: info/desc
+#: C/introduction.page:9
+msgid "Introduction to the <app>Empathy</app> instant messenger."
+msgstr "Úvod do rychlého komunikátoru <app>Empathy</app>."
+
+#. (itstool) path: page/title
+#: C/introduction.page:21
+msgid "Introduction"
+msgstr "Úvod"
+
+#. (itstool) path: page/p
+#: C/introduction.page:23
+msgid ""
+"<app>Empathy</app> is an instant messaging application for the GNOME "
+"Desktop. It supports text messaging, voice &amp; video calls, file "
+"transfers, and all the most used messaging systems such as Jabber and Google "
+"Talk."
+msgstr ""
+"<app>Empathy</app> je aplikace pro rychlou komunikaci v pracovním prostředí "
+"GNOME. Podporuje textové zprávy, hlasové a videohovory, přenos souborů a "
+"další věci používané komunikačními systémy, jako je Jabber nebo Google Talk."
+
+#. (itstool) path: page/p
+#: C/introduction.page:28
+msgid ""
+"<app>Empathy</app> includes features that help you better collaborate while "
+"at work, and that let you easily keep in touch with your friends."
+msgstr ""
+"Součástí <app>Empathy</app> jsou funkce, které vám pomohou lépe "
+"spolupracovat v zaměstnání i udržovat kontakt s práteli."
+
+#. (itstool) path: page/p
+#: C/introduction.page:32
+msgid ""
+"Using <app>Empathy</app>, you can group all the conversations in a single "
+"window, have multiple windows for different kind of conversations, easily "
+"search through your previous conversations, and share your desktop in just "
+"two clicks."
+msgstr ""
+"S <app>Empathy</app> můžete seskupit všechny své konverzace do jediného "
+"okna, mít více okne pro různé druhy konverzací, jednoduše vyhledávat v "
+"dřívějších konverzacích a sdílet svoji pracovní plochu na pouhá dvě kliknutí."
+
+#. (itstool) path: figure/title
+#: C/introduction.page:39
+msgid "<gui>Contact List</gui> window"
+msgstr "Okno <gui>Seznam kontaktů</gui>"
+
+#. (itstool) path: figure/desc
+#: C/introduction.page:40
+msgid "<app>Empathy</app> main window"
+msgstr "Hlavní okno <app>Empathy</app>"
+
+#. (itstool) path: media/p
+#: C/introduction.page:42
+msgid "<app>Empathy</app> main window."
+msgstr "Hlavní okno aplikace <app>Empathy</app>."
+
+#. (itstool) path: info/desc
+#: C/irc-commands.page:7
+msgid "The supported IRC commands."
+msgstr "Které příkazy IRC jsou podporované."
+
+#. (itstool) path: page/title
+#: C/irc-commands.page:18
+msgid "Supported IRC commands"
+msgstr "Podporované příkazy IRC"
+
+#. (itstool) path: page/p
+#: C/irc-commands.page:19
+msgid ""
+"To see the list of the supported IRC commands, in a chat room type <input>/"
+"help</input> and press <key>Enter</key>."
+msgstr ""
+"Pro zobrazení seznamu podporovaných příkazů IRC napište v místnosti <input>/"
+"help</input> a zmáčkněte <key>Enter</key>."
+
+#. (itstool) path: note/p
+#: C/irc-commands.page:24
+msgid "All commands available have a small description on their usage."
+msgstr ""
+"U každého příkazu, který je k dispozici, je uveden krátký popis jeho použití."
+
+#. (itstool) path: info/desc
+#: C/irc-join-pwd.page:9
+msgid "Enter password-protected IRC chat rooms."
+msgstr "Jak vstoupit do diskuzní místnosti IRC chráněné heslem."
+
+#. (itstool) path: page/title
+#: C/irc-join-pwd.page:25
+msgid "Join a protected IRC chat room"
+msgstr "Vstup do chráněných místností IRC"
+
+#. (itstool) path: page/p
+#: C/irc-join-pwd.page:27
+msgid ""
+"On some IRC networks, private IRC rooms may be protected with a password. If "
+"you know the password, use the following steps to join:"
+msgstr ""
+"V některých sítích IRC mohou být soukromé místnosti IRC chráněny heslem. "
+"Pokud heslo znáte, použijte pro vstup do místnosti následující postup:"
+
+#. (itstool) path: item/p
+#: C/irc-join-pwd.page:33
+msgid "<link xref=\"irc-join-room\">Join the room</link> as normal."
+msgstr "<link xref=\"irc-join-room\">Vstupte do místnosti</link> jako obvykle."
+
+#. (itstool) path: item/p
+#: C/irc-join-pwd.page:38
+msgid ""
+"Empathy will prompt you for a password. Enter the password for the IRC chat "
+"room and click <gui style=\"button\">Join</gui>."
+msgstr ""
+"<app>Empathy</app> se vás dotáže na heslo. Zadejte heslo pro vstup do "
+"místnosti a klikněte na <gui style=\"button\">Vstoupit</gui>."
+
+#. (itstool) path: info/desc
+#: C/irc-join-room.page:8
+msgid "Join an IRC channel."
+msgstr "Jak vstoupit do diskuzní místnosti IRC."
+
+#. (itstool) path: page/title
+#: C/irc-join-room.page:31
+msgid "Join an IRC chat room"
+msgstr "Vstup do místnosti IRC"
+
+#. (itstool) path: page/p
+#: C/irc-join-room.page:33
+msgid ""
+"You can join IRC chat rooms (also known as IRC channels) on any IRC network "
+"you’re connected to. To connect to an IRC network, see <link xref=\"add-"
+"account\"/> and <link xref=\"account-irc\"/>."
+msgstr ""
+"Vstupovat můžete do diskuzních místností IRC (nazývaných také kanály IRC) na "
+"libovolné síti IRC, ke které jste připojeni. Jak se připojit k síti IRC se "
+"dozvíte v <link xref=\"add-account\"/> a <link xref=\"account-irc\"/>."
+
+#. (itstool) path: item/p
+#: C/irc-join-room.page:45
+msgid ""
+"From the <gui>Account</gui> drop-down list, select the IRC account that "
+"corresponds to the network you want to use."
+msgstr ""
+"V rozbalovacím seznamu <gui>Účet</gui> vyberte účet IRC, který odpovídá "
+"síti, kterou chcete používat."
+
+#. (itstool) path: item/p
+#: C/irc-join-room.page:51
+msgid ""
+"In the <gui>Room</gui> text box, type the name of the channel you want to "
+"join. IRC channel names start with the hash character (<sys>#</sys>)."
+msgstr ""
+"Do textového pole <gui>Místnost</gui> napište název místnosti, do které "
+"chcete vstoupit. Názvy místností IRC začínají znakem mřížky (<sys>#</sys>)."
+
+#. (itstool) path: item/p
+#: C/irc-join-room.page:57
+msgid "Click <gui>Join</gui> to enter the room."
+msgstr "Kliknutím na <gui>Vstoupit</gui> vstoupíte do místnosti."
+
+#. (itstool) path: note/p
+#: C/irc-join-room.page:64
+msgid ""
+"To join multiple rooms, you need to repeat the steps above for each room."
+msgstr ""
+"Pokud chcete vstoupit do více místností, musíte tento postup opakovat pro "
+"každou zvlášť."
+
+#. (itstool) path: info/desc
+#: C/irc-manage.page:9
+msgid "How to use IRC with <app>Empathy</app>."
+msgstr "Jak v <app>Empathy</app> používat IRC."
+
+#. (itstool) path: credit/name
+#: C/irc-manage.page:23
+msgid "Sindhu S"
+msgstr "Sindhu S"
+
+#. (itstool) path: page/title
+#: C/irc-manage.page:39
+msgid "Internet Relay Chat (IRC)"
+msgstr "Internet Relay Chat (IRC)"
+
+#. (itstool) path: when/p
+#: C/irc-manage.page:47
+msgid ""
+"<link action=\"install:telepathy-idle\" xref=\"index\"> Install telepathy-"
+"idle</link>"
+msgstr ""
+"<link action=\"install:telepathy-idle\" xref=\"index\">Instalovat telepathy-"
+"idle</link>"
+
+#. (itstool) path: info/title
+#: C/irc-manage.page:55
+msgctxt "link"
+msgid "IRC Chat Rooms and Conversations"
+msgstr "Diskuzní místnosti IRC a konverzace"
+
+#. (itstool) path: section/title
+#: C/irc-manage.page:57
+msgid "Chat Rooms and Conversations"
+msgstr "Diskuzní místnosti a konverzace"
+
+#. (itstool) path: info/title
+#: C/irc-manage.page:62
+msgctxt "link"
+msgid "Common IRC Problems"
+msgstr "Běžné problémy s IRC"
+
+#. (itstool) path: info/desc
+#: C/irc-nick-password.page:10
+msgid "Protect your nickname to prevent other IRC users from using it."
+msgstr "Jak ochránit svoji přezdívku před zneužitím jinými uživateli IRC."
+
+#. (itstool) path: page/title
+#: C/irc-nick-password.page:33
+msgid "Use a nickname password on IRC"
+msgstr "Používání hesla k přezdívce na IRC"
+
+#. (itstool) path: page/p
+#: C/irc-nick-password.page:35
+msgid ""
+"On some IRC networks, you can register your nickname with a service called "
+"NickServ. By sending special messages to NickServ, you can set your password "
+"and identify yourself. Some IRC chat rooms may not allow you to join without "
+"a registered nickname."
+msgstr ""
+"Na některých sítích IRC můžete zaregistrovat svoji přezdívku pomocí služby "
+"nazývané NickServ. Zasláním speciální zprávy na NickServ můžete nastavit své "
+"heslo a identifikovat se. Některé diskuzní místnosti IRC neumožňují vstup "
+"bez registrované přezdívky."
+
+#. (itstool) path: page/p
+#: C/irc-nick-password.page:40
+msgid ""
+"<app>Empathy</app> does not currently support nickname registration. Some "
+"IRC networks, however, will automatically forward a <em>server password</em> "
+"to NickServ. On these networks, you can use the IRC password in "
+"<app>Empathy</app> to identify yourself to NickServ. The popular freenode "
+"network is known to have this feature."
+msgstr ""
+"<app>Empathy</app> v současnosti nepodporuje registraci přezdívky. Některé "
+"sítě IRC však automaticky předávají <em>serverové heslo</em> na NickServ. V "
+"takovýchto sítích můžete v <app>Empathy</app> heslo IRC ke své identifikaci "
+"vůči NickServ použít. Populární síť freenode je známá podporou této funkce."
+
+#. (itstool) path: page/p
+#: C/irc-nick-password.page:46
+msgid "To set an IRC server password:"
+msgstr "Když chcete nastavit heslo k serveru IRC:"
+
+#. (itstool) path: item/p
+#: C/irc-nick-password.page:54
+msgid "Select the IRC account from the list on the left of the dialog."
+msgstr "V seznamu v levé části okna vyberte účet IRC."
+
+#. (itstool) path: item/p
+#: C/irc-nick-password.page:57
+msgid ""
+"In the <gui>Password</gui> field, type the password you used to register "
+"your nikcname."
+msgstr ""
+"Do pole <gui>Heslo</gui> zadejte heslo, které jste použili při registraci "
+"své přezdívky."
+
+#. (itstool) path: note/p
+#: C/irc-nick-password.page:69
+msgid ""
+"These instructions only allow you to use a password-protected nickname on "
+"certain IRC networks. It is not currently possible to register an IRC "
+"nickname or change your nickname password using <app>Empathy</app>."
+msgstr ""
+"Postup podle těchto instrukcí umožňuje použít přezdívku chráněnou heslem jen "
+"v některých sítích IRC. V současnosti není možné registrovat přezdívku IRC "
+"nebo změnit své heslo k přezdívce pomocí <app>Empathy</app>."
+
+#. (itstool) path: info/desc
+#: C/irc-send-file.page:9
+msgid "<app>Empathy</app> does not currently support sending files using IRC."
+msgstr ""
+"<app>Empathy</app> v současnosti nepodporuje posílání souborů pomocí IRC."
+
+#. (itstool) path: page/title
+#: C/irc-send-file.page:31
+msgid "Send files over IRC"
+msgstr "Posílání souborů přes IRC"
+
+#. (itstool) path: page/p
+#: C/irc-send-file.page:33
+msgid "It is not currently possible to send files using IRC."
+msgstr "V současnosti není možné posílat soubory pomocí IRC."
+
+#. (itstool) path: info/desc
+#: C/irc-start-conversation.page:8
+msgid "Start a conversation with an IRC contact."
+msgstr "Jak začít konverzaci s kontaktem na IRC."
+
+#. (itstool) path: page/title
+#: C/irc-start-conversation.page:30
+msgid "Chat with somebody on IRC"
+msgstr "Diskuze s jinou osobou na IRC"
+
+#. (itstool) path: page/p
+#: C/irc-start-conversation.page:32
+msgid ""
+"You can hold private conversations with other IRC users, outside of the "
+"public IRC chat rooms. To start a conversation with another IRC user:"
+msgstr ""
+"Můžete si udržovat soukromou konverzaci s jiným uživatelem IRC, mimo "
+"dostupnost z veřejné místnosti IRC. Konverzaci s uživatelem IRC začnete "
+"takto:"
+
+#. (itstool) path: item/p
+#: C/irc-start-conversation.page:37
+msgid ""
+"In the contact list for an IRC chat room, double click the name of the user "
+"you want to chat with. Alternatively, right click the name of the user and "
+"choose <gui>Chat</gui>."
+msgstr ""
+"V seznamu kontaktů pro diskuzní místnost dvojitě klikněte na jméno "
+"uživatele, se kterých chcete diskutovat. Případně můžete kliknout na jméně "
+"pravým tlačítkem a zvolit <gui>Diskuze</gui>."
+
+#. (itstool) path: item/p
+#: C/irc-start-conversation.page:45
+msgid ""
+"The IRC room contact list is not the same as <app>Empathy</app> contact "
+"list. It contains a list of users in the IRC chat room you joined. Different "
+"rooms can have different contacts listed."
+msgstr ""
+"Seznam kontaktů pro místnost IRC není ten stejný, jako seznam kontaktů "
+"<app>Empathy</app>. Obsahuje seznam uživatelů, kteří vstoupili do místnosti "
+"IRC. Různé místnosti mají různé seznamy kontaktů."
+
+#. (itstool) path: item/p
+#: C/irc-start-conversation.page:52
+msgid ""
+"The IRC room contact list is usually on the right side of the IRC room "
+"window. If you do not see it, choose <guiseq><gui>Conversation</"
+"gui><gui>Show Contact List</gui></guiseq>."
+msgstr ""
+"Seznam kontaktů pro místnos IRC se obvykle nachází po pravé straně okna s "
+"místností IRC. Pokud jej nevidíte, zvolte <guiseq><gui>Konverzace</"
+"gui><gui>Zobrazit seznam kontaktů</gui></guiseq>."
+
+#. (itstool) path: info/desc
+#: C/license.page:8
+msgid "Legal information."
+msgstr "Právní informace."
+
+#. (itstool) path: page/title
+#: C/license.page:11
+msgid "License"
+msgstr "Licence"
+
+#. (itstool) path: page/p
+#: C/license.page:12
+msgid ""
+"This work is distributed under a CreativeCommons Attribution-Share Alike 3.0 "
+"Unported license."
+msgstr ""
+"Tato práce je šířena pod licencí CreativeCommons Attribution-Share Alike 3.0 "
+"Unported license."
+
+#. (itstool) path: page/p
+#: C/license.page:20
+msgid "You are free:"
+msgstr "Můžete volně:"
+
+#. (itstool) path: item/title
+#: C/license.page:25
+msgid "<em>To share</em>"
+msgstr "<em>Sdílet</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:26
+msgid "To copy, distribute and transmit the work."
+msgstr "Kopírovat, šířit a rozesílat dílo."
+
+#. (itstool) path: item/title
+#: C/license.page:29
+msgid "<em>To remix</em>"
+msgstr "<em>Měnit</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:30
+msgid "To adapt the work."
+msgstr "Přizpůsobovat dílo."
+
+#. (itstool) path: page/p
+#: C/license.page:33
+msgid "Under the following conditions:"
+msgstr "Za následujících podmínek:"
+
+#. (itstool) path: item/title
+#: C/license.page:38
+msgid "<em>Attribution</em>"
+msgstr "<em>Označení</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:39
+msgid ""
+"You must attribute the work in the manner specified by the author or "
+"licensor (but not in any way that suggests that they endorse you or your use "
+"of the work)."
+msgstr ""
+"Musíte dílo označit v souladu s požadavky autora nebo licence (ale ne žádným "
+"způsobem, který předpokládá, že podporují vás nebo vaše použití díla)."
+
+#. (itstool) path: item/title
+#: C/license.page:46
+msgid "<em>Share Alike</em>"
+msgstr "<em>Stejné sdílení</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:47
+msgid ""
+"If you alter, transform, or build upon this work, you may distribute the "
+"resulting work only under the same, similar or a compatible license."
+msgstr ""
+"Pokud dílo změníte, převedete nebo na něm založíte jiné, můžete výsledek "
+"této práce šířit pouze pod stejnou, podobnou nebo kompatibilní licencí."
+
+#. (itstool) path: page/p
+#: C/license.page:53
+msgid ""
+"For the full text of the license, see the <link href=\"http://"
+"creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
+"link>, or read the full <link href=\"http://creativecommons.org/licenses/by-"
+"sa/3.0/\">Commons Deed</link>."
+msgstr ""
+"Text licence v plném znění najdete na <link href=\"http://creativecommons."
+"org/licenses/by-sa/3.0/legalcode\">webových stránkách CreativeCommons</link> "
+"nebo si přečtěte <link href=\"http://creativecommons.org/licenses/by-sa/3.0/"
+"\">výtah dokumentu pro neprávníky</link>."
+
+#. (itstool) path: info/desc
+#: C/link-contacts.page:11
+msgid "Merge and separate different contacts into a single one."
+msgstr "Jak sloučit a rozdělit různé kontakty do jednoho."
+
+#. (itstool) path: credit/name
+#: C/link-contacts.page:19
+msgid "Shobha Tyagi"
+msgstr "Shobha Tyagi"
+
+#. (itstool) path: page/title
+#: C/link-contacts.page:29
+msgid "Link and unlink contacts"
+msgstr "Propojování a rozpojování kontaktů"
+
+#. (itstool) path: page/p
+#: C/link-contacts.page:30
+msgid ""
+"If one or more of your contacts has multiple accounts with different "
+"messaging services, you can combine these accounts into a single contact."
+msgstr ""
+"V případě, že má některý z vašich kontaktů více účtů k různým službám rychlé "
+"komunikace, můžete je všechny zkombinovat do jediného kontaktu."
+
+#. (itstool) path: page/p
+#: C/link-contacts.page:34
+msgid ""
+"The resulting contact is called a <em>meta-contact</em>: a contact composed "
+"from different single contacts."
+msgstr ""
+"Výsledkem bude kontakt nazývaný <em>metakontakt</em>, tj. kontakt složený s "
+"několika jednotlivých kontaktů."
+
+#. (itstool) path: page/p
+#: C/link-contacts.page:38
+msgid ""
+"Suppose you have a contact called Jane Smith who is using three different "
+"messaging services like:"
+msgstr ""
+"Předpokládejme, že máte kontakt nazývaný Jan Novák, který používá tyto tři "
+"různé služby pro rychlou komunikaci:"
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:44
+msgid "jane.smith@gmail"
+msgstr "jan.novak@gmail"
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:49
+msgid "jane_smith@hotmail"
+msgstr "jan_novak@hotmail"
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:54
+msgid "janes@yahoo"
+msgstr "honza@yahoo"
+
+#. (itstool) path: page/p
+#: C/link-contacts.page:59
+msgid "You can combine these contacts into a single Jane Smith one."
+msgstr "Tyto tři kontakty můžete zkombinovat do jediného kontaktu Jan Novák."
+
+#. (itstool) path: section/title
+#: C/link-contacts.page:63
+msgid "Link contacts"
+msgstr "Propojení kontaktů"
+
+#. (itstool) path: section/p
+#: C/link-contacts.page:64
+msgid "The way you can link your contacts is as follows:"
+msgstr "Způsoby, kterými můžete kontakty propojit, jsou následující:"
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:69
+msgid ""
+"Press the tick button to select entries you want to link. This will enable "
+"<em>selection mode</em> and you can see a checkbox for each entry."
+msgstr ""
+"Zmáčkněte zaškrtávátko, abyste mohli vybrat kontakty, které chcete "
+"pospojovat. Zapne se tím <em>režim výběru</em>, kdy u každé položky uvidíte "
+"zaškrtávací políčko."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:75
+msgid ""
+"Tick the checkboxes that correspond to the <app>Contacts</app> entries which "
+"belong to the same contact."
+msgstr ""
+"Zaškrtněte ta políčka, která odpovídají položkám v <app>Kontaktech</app>, "
+"které náleží tomu samému kontaktu."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:81
+msgid "Press <gui style=\"button\">Link</gui>."
+msgstr "Zmáčkněte tlačítko <gui style=\"button\">Propojit</gui>."
+
+#. (itstool) path: section/p
+#: C/link-contacts.page:86
+msgid "Repeat steps 3 and 4 in order to link other contacts."
+msgstr "Opakujte kroky 3 a 4 u dalších kontaktů, které chcete propojit."
+
+#. (itstool) path: section/title
+#: C/link-contacts.page:92
+msgid "Unlink contacts"
+msgstr "Rozpojení kontaktů"
+
+#. (itstool) path: section/p
+#: C/link-contacts.page:93
+msgid "To unlink a linked contact:"
+msgstr "Propojený kontakt rozpojíte následovně:"
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:98
+msgid "Select the contact from your list."
+msgstr "Vyberte kontakt v seznamu."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:103
+msgid ""
+"Press <gui style=\"button\">Edit</gui> in the top-right corner of "
+"<app>Contacts</app>."
+msgstr ""
+"Zmáčkněte <gui style=\"button\">Upravit</gui> v pravém horním rohu okna "
+"<app>Kontakty</app>."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:108
+msgid "Press <gui style=\"button\">Linked Contacts</gui>."
+msgstr "Zmáčkněte <gui style=\"button\">Propojené kontakty</gui>."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:113
+msgid ""
+"Press <gui style=\"button\">Remove</gui> to unlink an entry from the linked "
+"contact."
+msgstr ""
+"Zmáčknutím <gui style=\"button\">Odstranit</gui> položku v propojených "
+"kontaktech rozpojíte."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:118
+msgid ""
+"Press <gui style=\"button\">Close</gui> if you do not want to unlink any "
+"more contacts."
+msgstr ""
+"Jestli už nechcete rozpojit žádné další kontakty, klikněte na <gui style="
+"\"button\">Zavřít</gui>."
+
+#. (itstool) path: item/p
+#: C/link-contacts.page:123
+msgid "Finally, press <gui style=\"button\">Done</gui> to finish editing."
+msgstr "Vše dokončíte zmáčknutím tlačítka <gui style=\"button\">Hotovo</gui>."
+
+#. (itstool) path: info/desc
+#: C/overview.page:9
+msgid "What instant messaging is and how you can use it."
+msgstr "Co jsou to rychlé zprávy a jak se používají."
+
+#. (itstool) path: credit/name
+#: C/overview.page:13
+msgid "Aruna S"
+msgstr "Aruna S"
+
+#. (itstool) path: page/title
+#: C/overview.page:25
+msgid "Overview of instant messaging"
+msgstr "O rychlých zprávách"
+
+#. (itstool) path: page/p
+#: C/overview.page:27
+msgid ""
+"Instant messaging, sometimes abbreviated to IM, is a text-based means to "
+"communicate instantly over the internet and the local network. While some IM "
+"applications work with only one type of account, others, including <link "
+"xref=\"introduction\">Empathy</link>, provide IM facilities by using <link "
+"xref=\"add-account\">accounts</link> from different service providers. Some "
+"of these even support audio and video calling."
+msgstr ""
+"Rychlé zprávy, označované anglickou zkratkou IM (z Instant Messaging) jsou "
+"způsobem textové komunikace probíhající v reálném čase přes Internet nebo "
+"místní síť. Zatímco některé aplikace pro rychlou komunikaci umí pracovat jen "
+"s jedním konkrétním typem účtu, jiné, včetně <link xref=\"introduction"
+"\">Empathy</link>, jsou schopné používat <link xref=\"add-account\">účty</"
+"link> od různých poskytovatelů služeb. Některé z nich podporují i hlasové a "
+"videohovory."
+
+#. (itstool) path: td/p
+#: C/overview.page:43
+msgid "Video Conference"
+msgstr "Videokonference"
+
+#. (itstool) path: td/p
+#: C/overview.page:44
+msgid "Group chats"
+msgstr "Skupinové diskuze"
+
+#. (itstool) path: td/p
+#: C/overview.page:45
+msgid "Chat rooms"
+msgstr "Diskuzní místnosti"
+
+#. (itstool) path: page/p
+#: C/overview.page:49
+msgid ""
+"Some instant messaging applications can be used to connect to chat rooms, "
+"online places where like-minded people meet to talk. One popular means to "
+"connect to several chat rooms is the Internet Relay Chat, also known as "
+"<link xref=\"irc-manage\">IRC</link>. IRC provides <link xref=\"irc-join-room"
+"\">public</link> chat rooms, which are open to anyone who creates an account "
+"on the IRC Server, and private chat rooms, which are <link xref=\"irc-join-"
+"pwd\">password protected</link> and open only to a select few."
+msgstr ""
+"Některé aplikace pro rychlé zprávy je možné používat k připojení do "
+"diskuzných místností, což jsou místa na síti, na kterých diskutují lidé na "
+"různá témata. Jednou z oblíbených aplikací je Internet Relay Chat, známý pod "
+"zkratkou <link xref=\"irc-manage\">IRC</link>. Poskytuje jak <link xref="
+"\"irc-join-room\">veřejné</link> diskuzní místnosti, které jsou přístupné "
+"pro každého, kdo si na serveru IRC vytvoří účet, tak uzavřené diskuzní "
+"místnosti, které jsou <link xref=\"irc-join-pwd\">chráněné heslem</link> a "
+"přístupné jen pro pár vybraných."
+
+#. (itstool) path: info/desc
+#: C/prev-conv.page:8
+msgid "Browse or search your previous conversations."
+msgstr "Jak procházet a vyhledávat ve svých předchozích konverzacích."
+
+#. (itstool) path: page/title
+#: C/prev-conv.page:36
+msgid "View previous conversations"
+msgstr "Zobrazení předchozí konverzace"
+
+#. (itstool) path: page/p
+#: C/prev-conv.page:38
+msgid ""
+"<app>Empathy</app> automatically saves all your text conversations you have "
+"with your contacts. You can <link xref=\"#search\">search through all of "
+"your previous conversations</link> or <link xref=\"#browse\">browse previous "
+"conversations</link> by contact and date."
+msgstr ""
+"<app>Empathy</app> automaticky ukládá veškerou vaši textovu konverzaci, "
+"kterou jste s svými kontakty vedli. Můžete v ní <link xref=\"#search"
+"\">vyhledávat</link> nebo ji <link xref=\"#browse\">procházet</link> podle "
+"kontaktů a data."
+
+#. (itstool) path: note/p
+#: C/prev-conv.page:46
+msgid ""
+"You do not need to be connected to the Internet to view and search your "
+"previous conversations."
+msgstr ""
+"K tomu, abyste si zobrazili nebo vyhledávali v předchozí konverzaci, "
+"nemusíte být připojeni k Internetu."
+
+#. (itstool) path: section/title
+#: C/prev-conv.page:53
+msgid "Search previous conversations"
+msgstr "Hledání v předchozích konverzacích"
+
+#. (itstool) path: section/p
+#: C/prev-conv.page:55
+msgid ""
+"You can perform a full-text search through all of your previous "
+"conversations."
+msgstr ""
+"Ve všech svých dřívějších konverzacích můžete vyhledávat ve všech textech."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:59 C/prev-conv.page:87
+msgid ""
+"From the <gui>Contact List</gui> window, choose <guiseq><gui>View</gui> "
+"<gui>Previous Conversations</gui></guiseq>. Alternatively, press <key>F3</"
+"key>."
+msgstr ""
+"V okně <gui>Seznam kontaktů</gui> zvolte <guiseq><gui>Zobrazit</gui> "
+"<gui>Předchozí konverzace</gui></guiseq>. Případně můžete zmáčknout <key>F3</"
+"key>."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:63
+msgid ""
+"Select an account from the drop-down list in the top. A list of contacts and "
+"chat room for that account will be shown below."
+msgstr ""
+"Vyberte účet v rozbalovacím seznamu v horní části. Pro tento účet se pod ním "
+"ukáže seznam kontaktů a diskuzních místností."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:67
+msgid ""
+"Type the text you want to search for in the <gui>Search</gui> text field."
+msgstr "Do textového pole <gui>Hledat</gui> napište text, který chcete najít."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:71
+msgid ""
+"Any conversations that matched your search terms will be shown. By default, "
+"conversations are ordered by date."
+msgstr ""
+"Zobrazí se konverzace, které odpovídají hledanému výrazu. Ve výchozím stavu "
+"jsou konverzace seřazeny podle data."
+
+#. (itstool) path: section/title
+#: C/prev-conv.page:80
+msgid "Browse previous conversations"
+msgstr "Procházení předchozích konverzací"
+
+#. (itstool) path: section/p
+#: C/prev-conv.page:82
+msgid ""
+"You can browse your previous conversations with your contacts or in chat "
+"rooms by date."
+msgstr ""
+"Svoji dřívější komunikaci se svými kontakty nebo v diskuzních místnostech si "
+"můžete procházet podle data."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:91
+msgid ""
+"Select an account from the drop-down list in the top left. A list of "
+"contacts and chat room for that account will be shown below."
+msgstr ""
+"Vyberte účet v rozbalovacím seznamu v levé horní části. Pro tento účet se "
+"pod ním ukáže seznam kontaktů a diskuzních místností."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:95
+msgid ""
+"Select a contact or chat room to view your previous conversations from. By "
+"default the most recent conversation will be shown."
+msgstr ""
+"Vyberte kontakt nebo diskuzní místnost, jejichž dřívější konverzace chcete "
+"zobrazit. Jako výchozí se zobrazí úplně poslední konverzace."
+
+#. (itstool) path: item/p
+#: C/prev-conv.page:99
+msgid ""
+"You can browse your conversations by date. Days on which you had a "
+"conversation with the selected contact will be shown in bold text. Click a "
+"date to select it. Click the arrows next to the month and year to browse "
+"earlier dates."
+msgstr ""
+"Svoji konverzaci můžete procházet podle data. Dny, ve které jste vedli "
+"konverzaci s vybraným kontaktem, budou zobrazeny tučně. Kliknutím vyberte "
+"datum. Jestli chcete procházet starší data, použijte šipky vedle měsíce a "
+"roku."
+
+#. (itstool) path: section/p
+#: C/prev-conv.page:105
+msgid ""
+"You can search for text in the conversations by typing into the search field "
+"at the top. The matching conversations will be showed."
+msgstr ""
+"Psaním do vyhledávacího pole nahoře můžete v konverzaci hledat konkrétní "
+"text. Zobrazí se vyhovující konverzace."
+
+#. (itstool) path: note/p
+#: C/prev-conv.page:111
+msgid ""
+"You can quickly view the previous conversations with one of your contacts "
+"from the <gui>Contact List</gui> window. Simply right click the contact and "
+"choose <gui>Previous Conversations</gui>. The <gui>Previous Conversations</"
+"gui> window will open with that contact already selected."
+msgstr ""
+"Rychlým způsobem si můžete zobrazit dřívější konverzace pro jednotlivé "
+"kontakty z okna <gui>Seznam kontaktů</gui>. Stačí na kontakt kliknout pravým "
+"tlačítkem a zvolit <gui>Dřívější konverzace</gui>. Okno <gui>Dřívější "
+"konverzace</gui> se otevře s již vybraným správným kontaktem."
+
+#. (itstool) path: info/desc
+#: C/prob-conn-acctdisabled.page:7
+msgid ""
+"The instant messaging account that you want to use is not enabled in the "
+"list of accounts."
+msgstr ""
+"Účet rychlé komunikace, který chcete použít, je v seznamu účtů "
+"znepřístupněný."
+
+#. (itstool) path: page/title
+#: C/prob-conn-acctdisabled.page:34
+msgid "My account is not enabled"
+msgstr "Můj účet není povolen"
+
+#. (itstool) path: page/p
+#: C/prob-conn-acctdisabled.page:36
+msgid ""
+"If the instant messaging account that you want to use is not enabled in the "
+"drop-down account list when you try to start a new conversation or join a "
+"room, your account details may not be correct."
+msgstr ""
+"Když se pokoušíte začít novou konverzaci nebo vstoupit do místnosti a účet "
+"rychlé komunikace, který chcete použít není v rozbalovacím seznamu účtů "
+"přístupný, může to být způsobeno nesprávnými údaji."
+
+#. (itstool) path: item/p
+#: C/prob-conn-acctdisabled.page:44 C/prob-conn-auth.page:46
+#: C/prob-conn-neterror.page:54
+msgid ""
+"Make sure that you are connected to the Internet, or to a local area network."
+msgstr "Ujistěte se, že jste připojeni k Internetu nebo k místní síti."
+
+#. (itstool) path: item/p
+#: C/prob-conn-acctdisabled.page:49
+msgid ""
+"Choose <guiseq><gui>Edit</gui><gui>Accounts</gui></guiseq> and select the "
+"account that is not working."
+msgstr ""
+"Zvolte <guiseq><gui>Upravit</gui> <gui>Účty</gui></guiseq> a vyberte účet, "
+"který nefunguje."
+
+#. (itstool) path: item/p
+#: C/prob-conn-acctdisabled.page:55 C/prob-conn-auth.page:62
+msgid ""
+"Type your username and password again to make sure that they are correct."
+msgstr ""
+"Napište znovu své uživatelské jméno a heslo, abyste měli jistotu, že jsou "
+"správně."
+
+#. (itstool) path: item/p
+#: C/prob-conn-acctdisabled.page:60 C/prob-conn-neterror.page:63
+msgid ""
+"Check in the <gui>Advanced</gui> section that all the details are correct. "
+"You should be able to find these details from the website of the messaging "
+"service."
+msgstr ""
+"V části <gui>Pokročilé</gui> zkontrolujte, jestli jsou všechny údaje "
+"správné. Správné hodnoty by měly být dohledatelné na webových stránkách dané "
+"komunikační služby."
+
+#. (itstool) path: item/p
+#: C/prob-conn-acctdisabled.page:66
+msgid "Check that the account is switched on."
+msgstr "Zkontrolujte, že je účet zapnutý."
+
+#. (itstool) path: info/desc
+#: C/prob-conn-auth.page:9
+msgid ""
+"An error message which says “<gui>Authentication failed</gui>” appears in "
+"the main window."
+msgstr ""
+"V hlavním okně se objevila chybová zpráva znějící „<gui>Ověření selhalo</"
+"gui>“."
+
+#. (itstool) path: page/title
+#: C/prob-conn-auth.page:37
+msgid "I get a message that says “Authentication failed”"
+msgstr "Obdržel(a) jsem zprávu znějící „Ověření selhalo“"
+
+#. (itstool) path: page/p
+#: C/prob-conn-auth.page:39
+msgid ""
+"This kind of error happens when your instant messaging service is not "
+"allowing you to connect because it does not recognize your username or "
+"password for some reason."
+msgstr ""
+"Tento druh chyby se vyskytne, když služba rychlých zpráv neumožní připojení, "
+"protože z nějakého důvodu nerozpoznala vaše uživatelské jméno nebo heslo."
+
+#. (itstool) path: item/p
+#: C/prob-conn-auth.page:51
+msgid ""
+"Make sure that you have registered an account with the service you are "
+"trying to connect to. If you do not have an account, most services will not "
+"allow you to connect."
+msgstr ""
+"Ujistěte se, že máte u služby, ke které se snažíte připojit, zaregistrovaný "
+"účet. Většina služeb vám bez vlastnictví účtu připojení neumožní."
+
+#. (itstool) path: media/span
+#: C/prob-conn-auth.page:58 C/prob-conn-name.page:44
+#: C/prob-conn-neterror.page:59
+msgid "edit"
+msgstr "upravit"
+
+#. (itstool) path: item/p
+#: C/prob-conn-auth.page:58 C/prob-conn-name.page:44
+#: C/prob-conn-neterror.page:59
+msgid "Click the <_:media-1/> icon in the error message."
+msgstr "Klikněte na ikonu <_:media-1/> v chybové zprávě."
+
+#. (itstool) path: item/p
+#: C/prob-conn-auth.page:67
+msgid ""
+"Deselect the <gui>Enabled</gui>, and then select it again to try to "
+"reconnect to the service."
+msgstr ""
+"Zrušte zaškrtnutí u <gui>Povolen</gui> a pak jej znovu zapněte, abyste jej "
+"přiměli k novému pokusu o připojení ke službě."
+
+#. (itstool) path: info/title
+#: C/prob-conn-name.page:10
+msgctxt "link:error-msg"
+msgid "“Name in use”"
+msgstr "„Jméno je používáno“"
+
+#. (itstool) path: info/desc
+#: C/prob-conn-name.page:11
+msgid ""
+"An error message which says “<gui>Name in use</gui>” appears in the main "
+"window."
+msgstr ""
+"V hlavním okně se objevila chybová zpráva znějící „<gui>Jméno je používáno</"
+"gui>“."
+
+#. (itstool) path: page/title
+#: C/prob-conn-name.page:34
+msgid "I get a message that says “Name in use”"
+msgstr "Obdržel(a) jsem zprávu znějící „Jméno je používáno“"
+
+#. (itstool) path: page/p
+#: C/prob-conn-name.page:36
+msgid ""
+"This kind of error happens when you try to connect to your IRC account and "
+"you are using a nickname that is already being used by someone else on that "
+"particular network."
+msgstr ""
+"Tento druh chyby se vyskytne, když se pokusíte připojit k účtu IRC a "
+"použijete stejnou přezdívku, kterou již použil někdo jiný v této části sítě."
+
+#. (itstool) path: item/p
+#: C/prob-conn-name.page:50
+msgid "In the <gui>Nickname</gui> text box, type a new nickname."
+msgstr "Do textového pole <gui>Přezdívka</gui> napište novou přezdívku."
+
+#. (itstool) path: item/p
+#: C/prob-conn-name.page:55
+msgid ""
+"If you have registered that nickname within the network you are using, set "
+"the password for that nickname. For more information, see <link xref=\"irc-"
+"nick-password\"/>."
+msgstr ""
+"Pokud máte v síti, kterou používáte, přezdívku zaregistrovanou, nastavte pro "
+"ni heslo. Více informací viz <link xref=\"irc-nick-password\"/>."
+
+#. (itstool) path: item/p
+#: C/prob-conn-name.page:64 C/prob-conn-neterror.page:78
+msgid ""
+"Switch the account off, and then switch it on to try to reconnect to the "
+"service."
+msgstr ""
+"Vypněte účet a pak jej znovu zapněte, abyste je přiměli znovu se připojit ke "
+"službě."
+
+#. (itstool) path: info/desc
+#: C/prob-conn-neterror.page:8
+msgid ""
+"An error message which says “<gui>Network error</gui>” appears in the main "
+"window."
+msgstr ""
+"V hlavním okně se objevila chybová zpráva znějící „<gui>Chyba sítě</gui>“."
+
+#. (itstool) path: page/title
+#: C/prob-conn-neterror.page:35
+msgid "I get a message that says “Network error”"
+msgstr "Obdržel(a) jsem zprávu znějící „Chyba sítě“"
+
+#. (itstool) path: page/p
+#: C/prob-conn-neterror.page:43
+msgid ""
+"This kind of error happens when <app>Empathy</app> cannot communicate with "
+"the instant messaging service for some reason."
+msgstr ""
+"Tento druh chyb se vyskytne, když <app>Empathy</app> nemůže z nějakého "
+"důvodu komunikovat se službou rychlých zpráv."
+
+#. (itstool) path: page/p
+#: C/prob-conn-neterror.page:47
+msgid ""
+"Also, this kind of error happens when you try to use an IRC account without "
+"setting a nickname."
+msgstr ""
+"Tento druh chyby se objeví také v případě, je se pokusíte použít účet IRC "
+"bez nastavené přezdívky."
+
+#. (itstool) path: section/title
+#: C/prob-conn-neterror.page:86
+msgid "Proxy support"
+msgstr "Podpora proxy"
+
+#. (itstool) path: section/p
+#: C/prob-conn-neterror.page:87
+msgid ""
+"At the moment <app>Empathy</app> can not be configured to work with a proxy."
+msgstr ""
+"V současnosti nelze aplikaci <app>Empathy</app> nastavit, aby používala "
+"proxy."
+
+#. (itstool) path: info/desc
+#: C/prob-conn.page:7
+msgid "Diagnose common problems connecting to an instant messaging service."
+msgstr ""
+"Jak diagnostikovat běžné problémy s připojením ke službám pro přenos "
+"rychlých zpráv."
+
+#. (itstool) path: page/title
+#: C/prob-conn.page:29
+msgid "Problems connecting to an instant messaging service"
+msgstr "Problémy s připojením ke službám rychlých zpráv"
+
+#. (itstool) path: info/desc
+#: C/remove-account.page:8
+msgid "Completely remove an account from <app>Empathy</app>."
+msgstr "Jak úplně ostranit účet z <app>Empathy</app>."
+
+#. (itstool) path: page/title
+#: C/remove-account.page:34
+msgid "Remove an account"
+msgstr "Odstranění účtu"
+
+#. (itstool) path: page/p
+#: C/remove-account.page:36
+msgid ""
+"You can completely remove an account from <app>Empathy</app> if you no "
+"longer wish to use the account. If you wish to use the account in "
+"<app>Empathy</app> again in the future, you will have to add your account "
+"details again."
+msgstr ""
+"Pokud si už některý účet nepřejete používat, můžete jej z <app>Empathy</app> "
+"úplně odstranit. Pokud jej ale budete chtít někdy v opět budoucnu použít, "
+"bude muset znovu zadat všechny potřebné údaje."
+
+#. (itstool) path: item/p
+#: C/remove-account.page:47
+msgid ""
+"Select the account you wish to remove from the accounts list on the left "
+"side of the window."
+msgstr ""
+"V seznamu účtů na levé straně okna vyberte účet, který si přejete odstranit."
+
+#. (itstool) path: item/p
+#: C/remove-account.page:51
+msgid "Click <gui style=\"button\">-</gui>."
+msgstr "Klikněte na <gui style=\"button\">-</gui>."
+
+#. (itstool) path: item/p
+#: C/remove-account.page:54
+msgid ""
+"A dialog will be shown asking for confirmation. Click the <gui>Remove</gui> "
+"button to permanently remove the account."
+msgstr ""
+"Zobrazí se dialogové okno požadující potvrzení. Kliknutím na tlačítko "
+"<gui>Odstranit</gui> účet trvale odstraníte."
+
+#. (itstool) path: note/p
+#: C/remove-account.page:60
+msgid ""
+"Even after removing an account, <app>Empathy</app> does not delete your "
+"conversation history for that account."
+msgstr ""
+"Ani po odstranění účtu se ale v <app>Empathy</app> nesmaže historie "
+"konverzace onoho účtu."
+
+#. (itstool) path: info/desc
+#: C/salut-protocol.page:8
+msgid "Understanding the People Nearby feature."
+msgstr "Seznámení s funkcí Lidé v okolí"
+
+#. (itstool) path: page/title
+#: C/salut-protocol.page:33
+msgid "What is People Nearby?"
+msgstr "Co jsou to lidé v kolí?"
+
+#. (itstool) path: page/p
+#: C/salut-protocol.page:40
+msgid ""
+"The People Nearby service is a serverless communication service: you do not "
+"need to connect and authenticate to a central server in order to use it."
+msgstr ""
+"Služba „lidé v okolí“ je komunikační služba, která nepotřebuje server – "
+"nemusíte se připojovat ani ověřovat vůči nějakému centrálnímu serveru, "
+"abyste mohli komunikovat."
+
+#. (itstool) path: page/p
+#: C/salut-protocol.page:45
+msgid ""
+"This kind of serverless messaging system is restricted to a local area "
+"network and an active Internet connection is not necessary."
+msgstr ""
+"Tento druh bezserverového systému posílání zpráv je omezen na místní síť a "
+"není zapotřebí připojení k Internetu."
+
+#. (itstool) path: page/p
+#: C/salut-protocol.page:49
+msgid ""
+"The people that use this service inside the same local area network will be "
+"auto-discovered, and it will be possible to send them messages and files as "
+"with other services."
+msgstr ""
+"Lidé, kteří tuto službu v rámci místní sítě používají, budou automaticky "
+"vyhledáni a budete jim moci přes tuto službu posílat zprávy a soubory."
+
+#. (itstool) path: page/p
+#: C/salut-protocol.page:54
+msgid ""
+"All the modern local area networks should be able to support this kind of "
+"service."
+msgstr ""
+"Všechny současné typy místních sítí by měly tento druh služby podporovat."
+
+#. (itstool) path: info/desc
+#: C/send-file.page:8
+msgid "Send a file from your computer to one of your contacts."
+msgstr "Jak poslat soubor ze svého počítače některému ze svých kontaktů."
+
+#. (itstool) path: page/title
+#: C/send-file.page:36
+msgid "Send files"
+msgstr "Posílání souborů"
+
+#. (itstool) path: item/p
+#: C/send-file.page:45
+msgid ""
+"Right click on the contact you want to send a file to, and choose <gui>Send "
+"file</gui>."
+msgstr ""
+"Klikněte pravým tlačítkem na kontakt, kterému chcete poslat soubor, a zvolte "
+"<gui>Poslat soubor</gui>"
+
+#. (itstool) path: item/p
+#: C/send-file.page:50
+msgid ""
+"Click on the contact you want to send a file, and choose <guiseq><gui>Edit</"
+"gui> <gui>Contact</gui><gui>Send file</gui></guiseq>."
+msgstr ""
+"Klikněte na kontakt, kterému chcete poslat soubor a zvolte "
+"<guiseq><gui>Upravit</gui> <gui>Kontakt</gui> <gui>Poslat soubor</gui></"
+"guiseq>."
+
+#. (itstool) path: item/p
+#: C/send-file.page:58
+msgid "Select the file to send, and click on <gui>Send</gui>."
+msgstr "Vyberte soubor, který chcete poslat a klikněte na <gui>Odeslat</gui>."
+
+#. (itstool) path: item/p
+#: C/send-file.page:63
+msgid "The <gui>File Transfers</gui> window will appear."
+msgstr "Objeví se okno <gui>Přenosy souborů</gui>."
+
+#. (itstool) path: item/p
+#: C/send-file.page:66
+msgid ""
+"Wait for your contact to accept the file transfer, or click <gui>Stop</gui> "
+"to halt the transfer."
+msgstr ""
+"Počkejte, až váš kontakt přenos souboru odsouhlasí nebo jej případně zrušte "
+"kliknutím na <gui>Zastavit</gui>."
+
+#. (itstool) path: item/p
+#: C/send-file.page:72
+msgid ""
+"Once the transfer is finished, it is possible to close the <gui>File "
+"Transfers</gui> window."
+msgstr "Až se přenos dokončí, můžete okno <gui>Přenosy souborů</gui> zavřít."
+
+#. (itstool) path: note/p
+#: C/send-file.page:80
+msgid ""
+"If you have multiple finished transfers listed in the window, click on "
+"<gui>Clear</gui> to empty the list. This will only remove the files from the "
+"list and will not delete them from your computer."
+msgstr ""
+"Když máte v okně vypsáno několik dokončených přenosů, můžete je odmazat "
+"kliknutím na <gui>Vymazat</gui>. Tím se odstraní jen ze seznamu, ve vašem "
+"počítači zůstanou zachovány."
+
+#. (itstool) path: note/p
+#: C/send-file.page:87
+msgid ""
+"It is possible to send files only using the following services: <em>Jabber</"
+"em>, <em>Google Talk</em> and <em>People Nearby</em>."
+msgstr ""
+"Soubory je možné posílat jen pomocí následujících služeb: <em>Jabber</em>, "
+"<em>Google Talk</em> a <em>Lidé v okolí</em>."
+
+#. (itstool) path: note/p
+#: C/send-file.page:93
+msgid ""
+"In order to send a file to someone, you need to be connected to the "
+"Internet, or to a local area network."
+msgstr ""
+"Aby šel soubor odeslat, musíte být samozřejmě připojeni k Internetu nebo k "
+"místní síti."
+
+#. (itstool) path: info/desc
+#: C/send-message.page:8
+msgid "Send a message to one of your contacts."
+msgstr "Jak poslat zprávu svým kontaktům."
+
+#. (itstool) path: page/title
+#: C/send-message.page:32
+msgid "Send a message to someone"
+msgstr "Posílání zpráv ostatním"
+
+#. (itstool) path: item/p
+#: C/send-message.page:36
+msgid ""
+"From the <gui>Contact List</gui> window, double-click the name of the "
+"contact that you want to have a conversation with."
+msgstr ""
+"V okně <gui>Seznam kontaktů</gui> dvojitě klikněte na jméno kontaktu, se "
+"kterým chcete konverzovat."
+
+#. (itstool) path: item/p
+#: C/send-message.page:42
+msgid ""
+"A new window will open. Type a message into the box at the bottom of the "
+"window and press <key>Enter</key> to send it."
+msgstr ""
+"Otevře se nové okno. Do pole v dolní části napište zprávu a zmáčknutím "
+"<key>Enter</key> ji odešlete."
+
+#. (itstool) path: section/title
+#: C/send-message.page:50
+msgid "Send a message to a meta-contact"
+msgstr "Posílání zpráv metakontaktům"
+
+#. (itstool) path: item/p
+#: C/send-message.page:58
+msgid ""
+"Select the contact you want to have the conversation, and from the menu "
+"select <gui style=\"menuitem\">Chat</gui>."
+msgstr ""
+"Vyberte kontakt, se kterým chete konverzovat a v nabídce vyberte <gui style="
+"\"menuitem\">Diskuze</gui>."
+
+#. (itstool) path: info/desc
+#: C/set-custom-status.page:9
+msgid "Add, edit or delete personal messages for your status."
+msgstr "Jak přidat, upravit nebo smazat osobní zprávy pro své stavy."
+
+#. (itstool) path: credit/name
+#: C/set-custom-status.page:15
+msgid "Jim Campbell"
+msgstr "Jim Campbell"
+
+#. (itstool) path: page/title
+#: C/set-custom-status.page:34
+msgid "Set a custom message"
+msgstr "Nastavení vlastní zprávy"
+
+#. (itstool) path: page/p
+#: C/set-custom-status.page:36
+msgid ""
+"Sometimes you may want to set a custom message for your status, for example "
+"to let people know that you will be unavailable for a certain period of time."
+msgstr ""
+"Jsou situace, kdy se vám může hodit nastavit si vlastní zprávy ke svým "
+"stavům. Například, abyste lidem sdělili, že nepřítomni budete do nějaké "
+"konkrétní doby."
+
+#. (itstool) path: page/p
+#: C/set-custom-status.page:40
+msgid ""
+"It is possible to set a custom message based on the different statuses "
+"available."
+msgstr "Můžete si nastavit vlastí zprávy lišíci se podle jednotlivých stavů."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:46 C/set-custom-status.page:82
+msgid ""
+"From the <gui>Contact List</gui> window, click on the drop-down list at the "
+"top."
+msgstr ""
+"V okně <gui>Seznam kontaktů</gui> klikněte na rozbalovací seznam v horní "
+"části."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:52
+msgid ""
+"Select the status you want to add a custom message to. You have to select "
+"the one identified with the label <gui>Custom Message</gui>."
+msgstr ""
+"Vyberte stav, ke kterému chcete přidat vlastní zprávu. Ze dvou stejných "
+"vyberte ten, u kterého je napsáno <gui>Vlastní zpráva</gui>."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:58
+msgid ""
+"Enter your custom message in the text box at the top of the window, and "
+"press <key>Enter</key> to set the message."
+msgstr ""
+"Do textového pole v horní části okna zadejte vlastní zprávu a zmáčknutím "
+"<key>Enter</key> ji nastavte."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:64
+msgid ""
+"If you want to set the custom message as a favorite, saving it in order to "
+"use it again, click on the little heart on the right of the text box where "
+"you wrote your custom message."
+msgstr ""
+"Pokud chcete nastavit vlastní zprávu jako oblíbenou, abyste ji mohli "
+"používat znovu, uložte si ji kliknutím na malé srdce vpravo v textovém poli, "
+"do kterého zprávu píšete."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:69
+msgid ""
+"If you do not do it, the custom message will not be available the next time "
+"you use <app>Empathy</app>. It will be saved only for the current session."
+msgstr ""
+"Pokud vlastní zprávu neuložíte, nebude při příštím spuštění <app>Empathy</"
+"app> znovu k dispozici. Normálně se totiž uchovává jen pro aktuální sezení."
+
+#. (itstool) path: section/title
+#: C/set-custom-status.page:78
+msgid "Edit and remove a custom message"
+msgstr "Úprava a odstranění vlastní zprávy"
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:88
+msgid "Select <gui>Edit Custom Message</gui>."
+msgstr "Vyberte <gui>Upravit vlastní zprávy</gui>."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:95
+msgid "To edit a custom message:"
+msgstr "Když chcete vlastní zprávu upravit:"
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:100
+msgid ""
+"From the <gui>Saved Presets</gui> box, select the status message you want to "
+"edit and double-click on it."
+msgstr ""
+"V poli <gui>Uložené přednastavené</gui> vyberte stavovou zprávu, kterou "
+"chcete upravit a dvojitě na ni klikněte."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:106
+msgid "Type the new custom message and press <key>Enter</key> to modify it."
+msgstr ""
+"Zadejte novou vlastní zprávu a zmáčknutím <key>Enter</key> proveďte změnu."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:113
+msgid "To remove a custom message:"
+msgstr "Když chcete vlastní zprávu odstranit:"
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:118
+msgid ""
+"From the <gui>Saved Presets</gui> box, select the status message you want to "
+"remove."
+msgstr ""
+"V poli <gui>Uložené přednastavené</gui> vyberte stavovou zprávu, kterou "
+"chcete odstranit."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:124
+msgid "Click on the <gui>Remove</gui> button."
+msgstr "Klikněte na tlačítko <gui>Odstranit</gui>."
+
+#. (itstool) path: item/p
+#: C/set-custom-status.page:133
+msgid "When finished, click on <gui>Close</gui>."
+msgstr "Pokud jste hotovi, klikněte na <gui>Zavřít</gui>."
+
+#. (itstool) path: note/p
+#: C/set-custom-status.page:140
+msgid ""
+"When you edit a custom message, it will not be set as the current status "
+"message. You will need to select it from the <gui>Contact List</gui> window."
+msgstr ""
+"Když vlastní zprávu upravíte, nebud nastavena jako aktuální. Musíte ji ručně "
+"vybrat v okně <gui>Seznam kontaktů</gui>."
+
+#. (itstool) path: info/desc
+#: C/share-desktop.page:7
+msgid "Show your desktop to your contacts."
+msgstr "Ja svému kontaktu zobrazit svoji pracovní plochu."
+
+#. (itstool) path: page/title
+#: C/share-desktop.page:33
+msgid "Share your desktop"
+msgstr "Sdílení pracovní plochy"
+
+#. (itstool) path: page/p
+#: C/share-desktop.page:35
+msgid ""
+"It is possible to share your desktop with some of your contacts. You can use "
+"this functionality to show your desktop to your contacts to, for example, "
+"ask for help or help your contacts resolve a problem."
+msgstr ""
+"Existuje možnost sdílet svoji pracovní plochu s některými svými kontakty. To "
+"můžete využít k zobrazení své pracovní plochy svému kontaktu například, když "
+"ho žádáte o pomoc s řešením problému se svým počítačem."
+
+#. (itstool) path: note/p
+#: C/share-desktop.page:42
+msgid ""
+"To be able to share your desktop, you need to have a VNC server, which has "
+"support for the feature, installed on your system. <app>Vino</app>, the "
+"GNOME VNC server, has the required support."
+msgstr ""
+"Abyste mohli pracovní plochu sdílet, potřebujete mít ve svém systému "
+"nainstalován server VNC, který tuto funkci poskytuje. Lze použít například "
+"<app>Vino</app>, což je VNC server z GNOME."
+
+#. (itstool) path: item/p
+#: C/share-desktop.page:51
+msgid "From the <gui>Contact List</gui> window, do one of the following:"
+msgstr "V okně <gui>Seznam kontaktů</gui> udělejte něco z následujícího:"
+
+#. (itstool) path: item/p
+#: C/share-desktop.page:56
+msgid ""
+"Select the contact you want to share your desktop with and choose "
+"<guiseq><gui>Edit</gui><gui>Contact</gui> <gui>Share My Desktop</gui></"
+"guiseq>."
+msgstr ""
+"Vyberte kontakt, se kterým chcete sdílet svoji pracovní plochu, a zvolte "
+"<guiseq><gui>Upravit</gui><gui>Kontakt</gui><gui>Sdílet moji plochu</gui></"
+"guiseq>."
+
+#. (itstool) path: item/p
+#: C/share-desktop.page:63
+msgid ""
+"Right-click on the name of the contact you want to share your desktop with "
+"and select <gui>Share My Desktop</gui>."
+msgstr ""
+"Klikněte pravým tlačítkem na kontaktu, se kterým chcete sdílet pracovní "
+"plochu a vyberte <gui>Sdílet moji plochu</gui>."
+
+#. (itstool) path: item/p
+#: C/share-desktop.page:71
+msgid ""
+"An invitation to view your desktop will be sent to the contact you have "
+"selected. To view your desktop, they will need to accept it."
+msgstr ""
+"Vybranému kontaktu bude zaslána pozvánka k zobrazení vaší pracovní plochy. "
+"Aby se mu zobrazila, musí pozvánku odsouhlasit."
+
+#. (itstool) path: item/p
+#: C/share-desktop.page:77
+msgid ""
+"You can disconnect the contact from your computer using your desktop sharing "
+"application."
+msgstr ""
+"K odpojení kontaktu od vašeho počítače použijte příslušnou funkci v aplikaci "
+"pro sdílení pracovní plochy."
+
+#. (itstool) path: note/p
+#: C/share-desktop.page:82
+msgid ""
+"For more information about how to use the remote desktop sharing "
+"application, refer to its help."
+msgstr ""
+"Další informace ohledně používání aplikace ke sdílení vzdálené plochy "
+"najdete v její nápovědě."
+
+#. (itstool) path: page/p
+#: C/share-desktop.page:90
+msgid ""
+"When you share your desktop with someone else, it is possible to experience "
+"system performance slowdown and low Internet speed."
+msgstr ""
+"V průběhu sdílení své pracovní plochy s někým jiným se můžete podle situace "
+"setkat s pomalejší odezvou systému a sníženou rychlostí Internetu."
+
+#. (itstool) path: note/p
+#: C/share-desktop.page:96
+msgid ""
+"Some of your contacts may not be able to use this feature. It is necessary "
+"for them to have version 2.28, or newer, of <app>Empathy</app> and a "
+"compatible remote desktop viewer application installed in their system."
+msgstr ""
+"Některé z vašich kontaktů nemusí být schopny tuto funkci použít. Je nutné, "
+"aby měli <app>Empathy</app> ve verzi aspoň 2.28 nebo novější a "
+"nainstalovanou kompatibilní aplikaci pro zobrazování vzdálené plochy."
+
+#. (itstool) path: info/desc
+#: C/status-icons.page:8
+msgid "Understanding the various statuses and status icons."
+msgstr "Seznamte se s různými stavy a jejich stavovými ikonami."
+
+#. (itstool) path: page/title
+#: C/status-icons.page:36
+msgid "Status Types and Icons"
+msgstr "Typy stavů a jejich ikony"
+
+#. (itstool) path: media/span
+#: C/status-icons.page:40
+msgid "Available icon"
+msgstr "Ikona Přítomen"
+
+#. (itstool) path: item/title
+#: C/status-icons.page:40
+msgid "<_:media-1/> <gui>Available</gui>"
+msgstr "<_:media-1/> <gui>Přítomen</gui>"
+
+#. (itstool) path: item/p
+#: C/status-icons.page:42
+msgid ""
+"Use the <em>Available</em> status when you are at your computer and able to "
+"chat with your contacts. You can set a custom message for this status."
+msgstr ""
+"Stav <em>Přítomen</em> použijte, když jste u počítače a můžete diskutovat s "
+"ostatními kontakty. Pro tento stav si můžete nastavit vlastní stavovou "
+"zprávu."
+
+#. (itstool) path: media/span
+#: C/status-icons.page:46
+msgid "Busy icon"
+msgstr "Ikona Zaneprázdněn"
+
+#. (itstool) path: item/title
+#: C/status-icons.page:46
+msgid "<_:media-1/> <gui>Busy</gui>"
+msgstr "<_:media-1/> <gui>Zaneprázdněn</gui>"
+
+#. (itstool) path: item/p
+#: C/status-icons.page:48
+msgid ""
+"Use the <em>Busy</em> status to let your contacts know that you don’t want "
+"to chat right now. They can still contact you, for instance if they have "
+"something urgent they need to discuss. By default, <app>Empathy</app> will "
+"not use notification bubbles and sounds when you are busy. You can set a "
+"custom message for this status."
+msgstr ""
+"Stavem <em>Zaneprázdněn</em> můžete dát svým kontaktům najevo, že v tuto "
+"chvíli nemáte čas diskutovat. Přesto mají možnost vás rychle kontaktovat, "
+"například když je něco velmi spěchá. Ve výchozím nastavení nepoužívá "
+"<app>Empathy</app> oznamovací bubliny a zvuky, když jste zaneprázdněni. Pro "
+"tento stav si můžete nastavit vlastní zprávu."
+
+#. (itstool) path: media/span
+#: C/status-icons.page:54
+msgid "Away icon"
+msgstr "Ikona Nepřítomen"
+
+#. (itstool) path: item/title
+#: C/status-icons.page:54
+msgid "<_:media-1/> <gui>Away</gui>"
+msgstr "<_:media-1/> <gui>Nepřítomen</gui>"
+
+#. (itstool) path: item/p
+#: C/status-icons.page:56
+msgid ""
+"Use the <em>Away</em> status when you are going away from your computer. "
+"<app>Empathy</app> automatically sets your status to Away if you do not use "
+"your computer for a while, or if your screensaver is on. By default, "
+"<app>Empathy</app> will not use notification bubbles and sounds when you are "
+"away. You can set a custom message for this status."
+msgstr ""
+"Stav <em>Nepřítomen</em> použijte, když jdete pryč od počítače. "
+"<app>Empathy</app> tento stav nastaví automaticky, když počítač nějako dobu "
+"nepoužíváte nebo je zapnutý šetřič obrazovky. Když jste pryč, nepoužívá "
+"<app>Empathy</app> ve výchozím nastavení oznamovací bubliny a zvuky. Pro "
+"tento stav si můžete nastavit vlastní zprávu."
+
+#. (itstool) path: media/span
+#: C/status-icons.page:63 C/status-icons.page:70
+msgid "Offline icon"
+msgstr "Ikona Odpojen"
+
+#. (itstool) path: item/title
+#: C/status-icons.page:63
+msgid "<_:media-1/> <gui>Invisible</gui>"
+msgstr "<_:media-1/> <gui>Skrytý</gui>"
+
+#. (itstool) path: item/p
+#: C/status-icons.page:65
+msgid ""
+"When you set your status to <em>Invisible</em>, you will appear as offline "
+"to your contacts. You will still be connected to your accounts, and you "
+"still see your contacts’ statuses and start conversations with them."
+msgstr ""
+"Když nastavíte svůj stav na <em>Skrytý</em>, budete se svým kontaktům jevit "
+"jako odpojení. Budete ale stále připojeni ke svým účtům a stále budete vidět "
+"stav svých kontaktů a budete moci s nimi navázat konverzaci."
+
+#. (itstool) path: item/title
+#: C/status-icons.page:70
+msgid "<_:media-1/> <gui>Offline</gui>"
+msgstr "<_:media-1/> <gui>Odpojen</gui>"
+
+#. (itstool) path: item/p
+#: C/status-icons.page:72
+msgid ""
+"Setting your status to <em>Offline</em> disconnects you from all of your "
+"accounts."
+msgstr "Nastavením stavu na <em>Odpojen</em> se odpojíte od všech svých účtů."
+
+#. (itstool) path: info/desc
+#: C/video-call.page:11
+msgid "Start a video conversation with one of your contacts."
+msgstr "Jak začít videokonverzaci se svými kontakty."
+
+#. (itstool) path: page/title
+#: C/video-call.page:37
+msgid "Start a video conversation"
+msgstr "Započetí videokonverzace"
+
+#. (itstool) path: page/p
+#: C/video-call.page:39
+msgid ""
+"If you have a webcam, you can call your contacts and have a video "
+"conversation with them. This feature only works with certain types of "
+"accounts, and it requires the other person to have an application that "
+"supports video calls."
+msgstr ""
+"Pokud máte webovou kameru, můžete volat svým kontaktům a vést s nimi "
+"videohovory. Funguje to ale jen s některými typy účtů a protější osoba musí "
+"mít aplikaci, která to podporuje."
+
+#. (itstool) path: item/p
+#: C/video-call.page:46
+msgid ""
+"Right-click on the contact that you want to call and select <gui style="
+"\"menuitem\">Video Call</gui>."
+msgstr ""
+"Klikněte na kontakt, kterému chcete zavolat, pravým tlačítkem a vyberte <gui "
+"style=\"menuitem\">Videohovor</gui>."
+
+#. (itstool) path: item/p
+#: C/video-call.page:54
+msgid ""
+"To end the conversation, click on the <gui style=\"button\">hang up</gui> "
+"button."
+msgstr ""
+"Pro ukončení koverzace klikněte na tlačítko <gui style=\"button\">Zavěsit</"
+"gui>."
+
+#. (itstool) path: note/p
+#: C/video-call.page:60
+msgid ""
+"To turn a video conversation into an audio conversation, choose <guiseq><gui "
+"style=\"menu\">Video</gui><gui style=\"menuitem\">Video Off</gui></guiseq>."
+msgstr ""
+"Pro přepnutí videohovoru na čistě hlasový hovor zvolte <guiseq><gui style="
+"\"menu\">Video</gui><gui style=\"menuitem\">Vypnout video</gui></guiseq>."
+
+#. (itstool) path: section/title
+#: C/video-call.page:65
+msgid "Start a video conversation with a meta-contact"
+msgstr "Započetí videokonverzace s metakontaktem"
+
+#. (itstool) path: item/p
+#: C/video-call.page:73
+msgid ""
+"Select the contact you want to have the conversation, and from the menu "
+"select <gui style=\"menuitem\">Video Call</gui>."
+msgstr ""
+"Vyberte kontakt, se kterým chcete hovořit, a v nabídce vyberte <gui style="
+"\"menuitem\">Videohovor</gui>."

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="send-file" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#advanced"/>
+    <desc>Pošljite datoteko s svojega računalnika enemu od svojih stikov.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-07-21" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  </info>
+
+  <title>Pošiljanje datotek</title>
+
+  <steps>
+    <item>
+      <p>V oknu <gui>Seznam stikov</gui> izvedite eno od naslednjega:</p>
+      <list>
+        <item>
+          <p>Desno kliknite na stik, kateremu želite poslati datoteko in izberite <gui>Pošlji datoteko</gui>.</p>
+        </item>
+        <item>
+          <p>Kliknite na stik, kateremu želite poslati datoteko in izberite <guiseq><gui>Uredi</gui><gui>Stik</gui><gui>Pošlji datoteko</gui></guiseq>.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Izberite datoteko za pošiljanje in kliknite na <gui>Pošlji</gui>.</p>
+    </item>
+    <item>
+      <p>Pojavilo se bo okno <gui>Prenosi datotek</gui>.</p>
+      <p>Počakajte da vaš stik sprejme prenos datotek ali kliknite <gui>Zaustavi</gui> za zaustavitev prenosa.</p>
+    </item>
+    <item>
+      <p>Ko je prenos končan, je mogoče okno <gui>Prenosi datotek</gui> zapreti.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>V primeru da imate v oknu več končanih prenosov, kliknite na <gui>Počisti</gui> za spraznjene seznama. To bo datoteke le odstranilo s seznama in jih ne bo izbrisalo z vašega računalnika.</p>
+  </note>
+  <note>
+    <p>Pošiljanje datotek je mogoče samo z uporabo naslednjih storitev: <em>Jabber</em>, <em>Google Talk</em> in <em>Ljudje v bližini</em>.</p>
+  </note>
+  <note>
+    <p>Za pošiljanje datotek morate biti povezani na medmrežje ali krajevno omrežje.</p>
+  </note>
+
+</page>

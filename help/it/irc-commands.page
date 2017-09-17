@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="irc-commands" xml:lang="it">
+      
+  <info>
+    <link type="guide" xref="irc-manage#manage"/>
+    <desc>I comandi IRC supportati.</desc>
+    <revision pkgversion="2.30" version="0.1" date="2010-02-14" status="draft"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  </info>
+
+  <title>Comandi IRC supportati</title>
+  <p>Per visualizzare l'elenco dei comandi IRC supportati, in una stanza di conversazione digitare  <input>/help</input> e premere <key>Invio</key>.</p>
+  <note>
+    <p>Tutti i comandi disponibili presentano una breve descrizioni sul loro uso.</p>
+  </note>
+</page>

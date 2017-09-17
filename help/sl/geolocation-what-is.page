@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-what-is" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="geolocation#geoloc"/>
+    <link type="seealso" xref="geolocation-supported"/>
+    <desc>Razumevanje geo-lege.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Kaj je geo-lega</title>
+
+  <p>Geo-lega vam omogoča identifikacijo pravega geografskega položaja računalnika ali naprave povezane na medmrežje.</p>
+  <p>Z geo-lego v <app>Empathy</app> lahko:</p>
+  <list>
+    <item>
+      <p>Objavite svoj geografski položaj svojim stikom.</p>
+    </item>
+    <item>
+      <p>Oglejte si geografski položaj vaših stikov in hitro stopite v stik z njimi.</p>
+    </item>
+    <item>
+      <p>Nastavite natančnost vašega položaja in napravo uporabljeno za odkritje vašega položaja.</p>
+    </item>
+  </list>
+
+  <note style="tip">
+    <p>Za ogled geografskih položajev vaših stikov, morajo uporabiti storitev in program, ki podpira geo-lego.</p>
+  </note>
+
+</page>

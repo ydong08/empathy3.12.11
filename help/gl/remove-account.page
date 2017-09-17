@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="remove-account" xml:lang="gl">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <desc>Quitar completamente unha conta en <app>Empathy</app>.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review"/>
+    <revision pkgversion="2.28" version="0.3" date="2009-08-27" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.4" date="2010-04-19" status="review"/>
+    <revision pkgversion="3.2" version="0.5" date="2011-12-19" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Compartir Igual 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fran Dieguez</mal:name>
+      <mal:email>frandieguez@gnome.org</mal:email>
+      <mal:years>2011-2012.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Eliminar unha conta</title>
+
+  <p>Pode quitar completamente unha conta de <app>Empathy</app> se non quere seguir usándoa. Se quere usar de novo a conta en <app>Empathy</app> no futuro, deberá engadir os detalles da conta de novo.</p>
+
+  <steps>
+    <item>
+      <p>Desde a xanela <gui>Lista de contactos</gui> seleccione <guiseq><gui>Editar</gui><gui>Contas</gui></guiseq> ou prema <key>F4</key>.</p>
+    </item>
+    <item>
+      <p>Seleccione a conta que desexa eliminar desde a lista de contas na parte esquerda da xanela.</p>
+    </item>
+    <item>
+      <p>Prema <gui style="button">-</gui>.</p>
+    </item>
+    <item>
+      <p>Mostrarase un diálogo preguntando por unha confirmación. Prema no botón <gui>Eliminar</gui> para quitar a conta permanentemente.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>Incluso despois de eliminar unha conta <app>Empathy</app> non borra o seu historial de conversas para esa conta.</p>
+  </note>
+</page>

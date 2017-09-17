@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="overview" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <revision pkgversion="3.7" version="0.1" date="2012-11-30" status="draft"/>
+    <desc>Kas ir tūlītēja ziņojumapmaiņa un kā jūs to varat izmantot.</desc>
+    <credit type="author">
+      <name>Aruna S</name>
+      <email its:translate="no">aruna.evam@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0 licence.</p>
+    </license>
+  </info>
+
+  <title>Tūlītēja ziņojumapmaiņas pārskats</title>
+
+  <p>Tūlītēja ziņojumapmaiņa, dažkārt saīsināta kā TZ, ir teksta saziņas līdzeklis, kas darbojas nekavējoties pa internetu vai lokālo tīklu. Dažas TZ lietotnes strādā tikai ar viena veida kontiem, citi, tai skaitā <link xref="introduction">Empathy</link>, sniedz TZ pakalpojumu, izmantojot <link xref="add-account">kontus</link> no dažādiem pakalpojumu sniedzējiem. Daži no tiem atbalsta pat audio un video zvanīšanu.</p>
+
+  <table frame="all" shade="cols">
+     <tr>
+       <td><p><media type="image" src="figures/video_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+       <td><p><media type="image" src="figures/conf_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+       <td><p><media type="image" src="figures/croom_overview.png" mime="image/png" style="right" width="150" height="150" its:translate="no"/></p></td>
+     </tr>
+     <tr>
+       <td><p>Video konferences</p></td>
+       <td><p>Grupu tērzēšana</p></td>
+       <td><p>Tērzēšanas istabas</p></td>
+      </tr>
+  </table>
+
+  <p>Dažas tūlītējās ziņojumapmaiņas lietotnes var izmantot, lai savienotos ar tērzēšanas istabām — tiešsaistes vietas, kur cilvēki ar līdzīgām interesēm satiekas, lai runātos. Viens populārs veids, kā savienoties ar vairākām tērzēšanas istabām, ir tērzēšanas retranslēšana internetā jeb <link xref="irc-manage">IRC</link>. IRC nodrošina <link xref="irc-join-room">publiskas</link> tērzēšanas istabas, kas ir pieejamas visiem, kas var izveidot kontu IRC serverī, un privātās tērzēšanas istabas, kas ir <link xref="irc-join-pwd">aizsargātas ar paroli</link> un ir pieejamas tikai dažiem.</p>
+
+</page>

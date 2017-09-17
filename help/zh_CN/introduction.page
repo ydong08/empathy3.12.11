@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="introduction" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="index"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-16" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-17" status="review"/>
+    <desc>介绍 <app>Empathy</app> 即时聊天工具。</desc>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>知识共享-相同方式共享 (Creative Commons Share Alike) 3.0</p>
+    </license>
+  </info>
+
+  <title>介绍</title>
+
+  <p>
+    <app>Empathy</app> is an instant messaging application for the GNOME Desktop.
+    It supports text messaging, voice &amp; video calls, file transfers, and all the
+    most used messaging systems such as Jabber and Google Talk.
+  </p>
+  <p><app>Empathy</app> 可以帮助您在工作中更好的合作，也可以帮助您与您的朋友们保持联系。</p>
+  <p>使用 <app>Empathy</app>，您可以将所有的会话组织在同一个窗口中，或者为不同类型的会话使用不同的窗口，还可以很容易地搜索之前的会话，或者共享您的桌面，只需要两次点击。</p>
+
+  <figure>
+    <title><gui>联系人列表</gui>窗口</title>
+    <desc><app>Empathy</app> 主窗口</desc>
+    <media type="image" src="figures/empathy-main-window.png" mime="image/png" style="right">
+      <p><app>Empathy</app> 主窗口。</p>
+    </media>
+  </figure>
+
+</page>

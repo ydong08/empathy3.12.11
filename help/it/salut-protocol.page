@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="salut-protocol" xml:lang="it">
+
+  <info>
+    <link type="seealso" xref="create-account"/>
+    <desc>Comprendere la funzionalità «Persone nelle vicinanze».</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-12" status="draft"/>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Cos'è «Persone nelle vicinanze»?</title>
+
+  <p>Il servizio «Persone nelle vicinanze» è un servizio di comunicazione privo di server centrale: non è necessario connettersi e autenticarsi a un server centrale per poterlo utilizzare.</p>
+  <p>Questa tipologia di sistema di messaggistica priva di server è ristretta a una rete locale e non è necessario disporre di una connessione a Internet.</p>
+  <p>Le persone che utilizzano questo servizio all'interno della stessa rete locale vengono rilevate automaticamente ed è possibile inviare messaggi e file come per gli altri servizi.</p>
+  <p>Tutte le reti locali moderne dovrebbero essere in grado di supportare questo tipo di servizio.</p>
+</page>

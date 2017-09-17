@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="tasks" id="prev-conv" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Brskanje ali iskanje po preteklih pogovorih.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-17" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.2" version="0.2" date="2011-12-19" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Ogled preteklih pogovorov</title>
+
+  <p><app>Empathy</app> samodejno shrani vse vaše besedilne pogovore z vašimi stiki. Lahko <link xref="#search">iščete po vseh vaših predhodnih pogovorih</link> ali <link xref="#browse">brskate predhodne pogovore</link> po stiku in datumu.</p>
+
+  <note>
+    <p>Za ogled in iskanje vaših predhodnih pogovorov vam ni treba biti povezan na medmrežje.</p>
+  </note>
+
+  <section id="search" style="task">
+  <title>Iskanje predhodnih pogovorov</title>
+
+  <p>Izvedete lahko iskanje celega besedila skozi vse vaše predhodne pogovore.</p>
+
+  <steps>
+    <item>
+      <p>V oknu <gui>Seznam stikov</gui> izberite <guiseq><gui>Pogled</gui><gui>Pretekli pogovori</gui></guiseq>. Namesto tega lahko pritisnete <key>F3</key>.</p>
+    </item>
+    <item>
+      <p>Izberite račun s spustnega seznama na vrhu. Seznam vseh stikov in klepetalnic za ta račun bo prikazan spodaj.</p>
+    </item>
+    <item>
+      <p>Vnesite besedilo, ki ga želite najti, v besedilno polje <gui>Iskanje</gui>.</p>
+    </item>
+    <item>
+      <p>Katerikoli pogovori, ki se skladajo z vašimi iskalnimi pogoji bodo prikazani v seznamu pod iskalnim poljem. Privzeto so pogovori razvrščeni po datumu.</p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="browse" style="task">
+  <title>Brskaj predhodne pogovore</title>
+
+  <p>Svoje predhodne pogovore s svojimi stiki ali klepetalnicami lahko brskate po datumu.</p>
+
+  <steps>
+    <item>
+      <p>V oknu <gui>Seznam stikov</gui> izberite <guiseq><gui>Pogled</gui><gui>Pretekli pogovori</gui></guiseq>. Namesto tega lahko pritisnete <key>F3</key>.</p>
+    </item>
+    <item>
+      <p>Izberite račun s spustnega seznama zgoraj levo. Seznam vseh stikov in klepetalnic za ta račun bo prikazan spodaj.</p>
+    </item>
+    <item>
+      <p>Izberite stik ali klepetalnico za ogled svojih predhodnih pogovorov. Privzeto bodo prikazani najbolj nedavni stiki.</p>
+    </item>
+    <item>
+      <p>Svoje pogovore lahko brskate po datumu. Dnevi ob katerih ste imeli pogovor z izbranim stikom bodo prikazni krepko. Kliknite na datum za izbiro. Kliknite puščice poleg meseca in leta za brskanje zgodnejših datumov.</p>
+    </item>
+  </steps>
+
+  <p>Besedilo v prikazanemu pogovoru lahko iščete s pisanjem v iskalno polje na vrhu. Skladajoče besedilo bo poudarjeno.</p>
+
+  <note style="tip">
+    <p>Predhodne pogovore z enim od svojih stikov si lahko hitro ogledate v oknu <gui>Seznam stikov</gui>. Desno kliknite na stik in izberite <gui>Ogled predhodnih pogovorov</gui>. Odprlo se bo okno <gui>Predhodni pogovori</gui> s predhodno izbranim stikom.</p>
+  </note>
+
+  </section>
+</page>

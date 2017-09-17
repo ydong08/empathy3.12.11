@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallrd.org/experimental/" type="topic" style="task" id="irc-start-conversation" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="irc-manage#manage" group="two"/>
+    <desc>Sākt sarunu ar IRC kontaktu.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0 licence.</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Sarakstīties ar kādu IRC lietotāju</title>
+
+  <p>Tu vari uzturēt privātas sarunas ar citiem IRC lietotājiem, ārpus publiskajām IRC istabām. Lai sāktu sarunu ar kādu IRC lietotāju:</p>
+
+  <steps>
+    <item>
+      <p>IRC sarakstes istabas dalībnieku sarakstā veic dubultklikšķi uz tā lietotāja segvārda, ar kuru vēlies sazināties. Kā arī var veikt labo peles klikšķi un izvēlēties <gui>Tērzēt</gui>.</p>
+    </item>
+  </steps>
+
+  <list>
+    <item>
+      <p>IRC istabu dalībnieku saraksts nav tas pats, kas <app>Empathy</app> kontaktu saraksts. Tas satur sarakstu ar lietotājiem, kuri atrodas tajā pašā istabā, kurā jūs. Dažādās istabās būs dažādi kontakti.</p>
+    </item>
+    <item>
+      <p>IRC istabu kontaktu saraksts parasti atrodas istabas loga labajā pusē. Ja tu to neredzi, izvēlies <guiseq><gui>Saruna</gui><gui>Rādīt kontaktu sarakstu</gui></guiseq>.</p>
+    </item>
+  </list>
+
+</page>

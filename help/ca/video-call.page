@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="video-call" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#audio-video"/>
+    <link type="seealso" xref="audio-video"/>
+    <link type="seealso" xref="audio-call"/>
+    <desc>Inicieu una conversa de vídeo amb un dels contactes.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-02" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-04" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.3" date="2010-02-14" status="review"/>
+    <revision pkgversion="3.2" version="0.4" date="2011-12-18" status="review"/>
+    <revision pkgversion="3.8" version="0.4" date="2013-04-15" status="review"/>
+
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Reconeixement-Compartir Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+  <title>Inicieu una conversa de vídeo</title>
+
+  <p>Si teniu una càmera web, podeu trucar els contactes i tindre una vídeo conferencia amb ells. Aquesta característica sols funciona amb certs tipus de comptes, i requereix que l'altra persona tingui una aplicació que permeti fer vídeo trucades.</p>
+
+  <steps>
+    <item>
+      <p>Feu clic amb el botó secundari al contacte que voleu trucar i des del menú seleccioneu <gui style="menuitem">Trucada de vídeo</gui>.</p>
+    </item>
+    <item>
+      <p>S'obrirà una finestra nova. Quan s'estableixi la connexió veureu que a la part inferior de la finestra es mostrarà la durada de la conversa.</p>
+    </item>
+    <item>
+      <p>Per acabar la conversa feu clic a <gui style="button">Penja</gui>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Per canviar d'una conversa de vídeo a una conversa de veu, escolliu <guiseq><gui style="menu">Vídeo</gui><gui style="menuitem">Apaga el vídeo</gui></guiseq>.</p>
+  </note>
+
+  <section id="video-meta-contact">
+    <title>Inicia una conversa de vídeo amb un metacontacte</title>
+    <steps>
+      <item>
+        <p>Des de la finestra <gui>Llista de contactes</gui>, feu clic amb el botó secundari al metacontacte.</p>
+      </item>
+      <item>
+        <p>Seleccioneu el contacte amb el qual voleu realitzar la conversa i des del menú seleccioneu <gui style="menuitem">Trucada de vídeo</gui>.</p>
+      </item>
+    </steps>
+    <note style="tip">
+      <p>Per reconèixer si un contacte és un <em>metacontacte</em> situeu el ratolí a sobre d'un contacte de la finestra <gui>Llista de contactes</gui> i mantingueu-lo a sobre durant un segon: apareixerà un petit missatge emergent que mostrarà el nombre de contactes que formen el metacontacte.</p>
+    </note>
+  </section>
+</page>

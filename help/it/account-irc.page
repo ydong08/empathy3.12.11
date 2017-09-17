@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="screen" id="account-irc" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="irc-manage#manage"/> 
+    <desc>Informazioni necessarie per collegarsi alle reti IRC.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="2.30" version="0.2" date="2010-04-19" status="review"/>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email its:translate="no">shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/> 
+-->
+  </info>
+
+  <title>Dettagli per l'account IRC</title>
+
+  <p>Gli account IRC necessitano di informazioni diverse rispetto gli altri account. Per creare un account IRC è sufficiente specificare una rete IRC e un soprannome. Questa pagina espone le informazioni che è possibile fornire per un account IRC.</p>
+
+  <note style="info package">
+    <p>Per poter usare IRC con <app>Empathy</app> è necessario avere installato il pacchetto <sys>telepathy-idle</sys>.</p>
+  </note>
+
+  <terms>
+    <item>
+      <title><gui>Network</gui></title>
+      <p>IRC è un sistema aperto che consente di gestire reti IRC separate. Ogni rete è indipendente e distinta e dispone dei propri utenti e delle proprie stanze di conversazione. <app>Empathy</app> visualizza le reti più diffuse attraverso l'elenco a discesa <gui>Rete</gui>. È comunque possibile aggiungere altre reti. Consultare <link xref="#networks"/> più sotto.</p>
+    </item>
+    <item>
+      <title><gui>Nickname</gui></title>
+      <p>Il soprannome è il proprio nome all'interno della rete IRC e solo una persona nella rete può esare un dato soprannome. Se si riceve un messaggio indicante <link xref="prob-conn-name" role="error-msg"/>, è necessario cambiare il proprio soprannome.</p>
+    </item>
+    <item>
+      <title><gui>Password</gui></title>
+      <p>Alcuni server, in particolare quelli su reti private, richiedono una password per potersi collegare. Se si dispone dell'autorizzazione per utilizzare una di queste reti, l'amministratore della rete dovrebbe fornire la password adatta. </p>
+      <note>
+        <title>Password del NickServ</title>
+        <p>All'interno di alcune reti è possibile registrare i soprannomi utilizzando un servizio chiamato «NickServ». <app>Empathy</app> non supporta direttamente le password per i soprannomi, ma con alcune reti, compresa la molto diffusa FreeNode, le password relative al server vengono inoltrare al «NickServ», consentendo di usare questo campo per identificarsi con il «NickServ». Per maggiori informazioni, consultare <link xref="irc-nick-password"/>.</p>
+      </note>
+    </item>
+    <item>
+      <title><gui>Real name</gui></title>
+      <p>È possibile fornire il proprio nome vero oltre al proprio soprannome. Gli altri utenti lo potranno vedere quando visualizzano le informazioni personali.</p>
+    </item>
+    <item>
+      <title><gui>Quit message</gui></title>
+      <p>Quando ci si scollega, un messaggio di uscita viene inviato in tutte le stanze di conversazione in cui si era entrati e a tutti gli utenti con cui si teneva una conversazione privata. Usare questo campo per fornire un messaggio di uscita personalizzato.</p>
+    </item>
+  </terms>
+
+<!--
+telepathy-idle note
+-->
+
+  <section id="networks">
+    <info>
+      <title type="link">IRC Networks</title>
+    </info>
+
+    <title>Reti</title>
+
+    <p><app>Empathy</app> comprende un elenco delle reti IRC più diffuse. Per aggiungere un'altra rete IRC è sufficiente aggiungerla a questo elenco. È anche possibile modificare le reti presenti e rimuoverle dall'elenco.</p>
+
+    <list>
+      <item><p>To add a network to the list, click <media type="image" mime="image/png" src="figures/gtk-add.png" width="16" height="16" its:translate="no"><span its:translate="yes">Add</span></media>.</p></item>
+      <item><p>To modify a network in the list, select the network and click
+      <media type="image" mime="image/png" src="figures/gtk-edit.png" width="16" height="16" its:translate="no"><span its:translate="yes">Edit</span></media>.</p></item>
+      <item><p>To remove a network from the list, select the network and
+      click <media type="image" mime="image/png" src="figures/gtk-remove.png" width="16" height="16" its:translate="no"><span its:translate="yes">Remove</span></media>.</p></item>
+    </list>
+
+    <p>Quando si aggiunge o si modifica una rete, è possibile inserire le seguenti informazioni:</p>
+
+    <terms>
+      <item>
+        <title><gui>Network</gui></title>
+        <p>Questo è il nome della rete come viene visualizzato nell'elenco di tutte le reti.</p>
+      </item>
+      <item>
+        <title><gui>Charset</gui></title>
+        <p>Questo specifica la codifica dei caratteri utilizzata nella rete. La codifica dei caratteri è un metodo per registrare i caratteri all'interno di un computer. Essendo disponibili diverse codifiche dei caratteri, è necessario utilizzare la stessa codifica degli altri utenti per poter visualizzare i messaggi nel modo corretto.</p>
+        <!--
+            Translators: Recommend character encodings that are common
+            for your language.
+        -->
+        <p>Come impostazione predefinita, <app>Empathy</app> utilizza UTF-8, una codifica dei caratteri moderna in grado di gestire la maggior parte delle lingue del mondo. Una codifica molto diffusa per l'inglese e per alcune lingue occidentali è la ISO-8859-1.</p>
+      </item>
+      <item>
+        <title><gui>Servers</gui></title>
+        <p>Una rete IRC può disporre di diversi server a cui è possibile collegarsi. Quando ci si collega a uno di questi server, le comunicazioni avvengono con tutti gli utenti presenti negli altri server all'interno della rete. È possibile aggiungere e rimuovere server da questa rete utilizzando i pulsanti <gui>Aggiungi</gui> e <gui>Rimuovi</gui>.</p>
+        <p>Quando è selezionato un server, fare clic sul campo nella colonna <gui>Server</gui> o <gui>Porta</gui> per modificarlo. In alternativa, usare le frecce destra e sinistra per spostare il focus sul campo e premere la barra spaziatrice per avviare la modifica.</p>
+        <p>Selezionare la casella nella colonna <gui>SSL</gui> per cifrare tutte le comunicazioni col server. Questa opzione non previene che altri utenti all'interno della rete vedano cosa si scrive in una stanza di conversazione pubblica.</p>
+      </item>
+    </terms>
+  </section>
+</page>

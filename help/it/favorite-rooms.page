@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="favorite-rooms" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <link type="guide" xref="irc-manage#manage"/>
+    <link type="seealso" xref="irc-join-room"/>
+    <link type="seealso" xref="group-conversations"/>
+    <desc>Impostare, gestire ed entrare in stanze preferite.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-21" status="draft"/>
+    <revision pkgversion="2.30" version="0.2" date="2010-02-03" status="review"/>    
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Stanze preferite</title>
+
+  <section id="set-favorite">
+  <title>Impostare una stanza come preferita</title>
+  <steps>
+    <item>
+      <p>Entrare in una stanza.</p>
+      <list>
+        <item>
+          <p>Per maggiori informazioni su come entrare in una stanza IRC, consultare <link xref="irc-join-room"/>.</p>
+        </item>
+        <item>
+          <p>Per maggiori informazioni su come entrare in una conversazione di gruppo, consultare <link xref="group-conversations"/>.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Dalla finestra di conversazione, scegliere <guiseq><gui>Conversazione</gui><gui>Stanza preferita</gui></guiseq>.</p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="join-favorite">
+  <title>Entrare nelle stanze preferite.</title>
+  <steps>
+    <item>
+      <p>Dalla finestra <gui>Elenco contatti</gui>, eseguire una delle seguenti azioni:</p>
+      <list>
+        <item>
+          <p>Premere <key>F5</key>.</p>
+        </item>
+        <item>
+          <p>Scegliere <guiseq><gui>Stanza</gui><gui>Entra nei preferiti</gui></guiseq>, per entrare in tutte le stanze preferite.</p>
+        </item>
+        <item>
+          <p>Scegliere <gui>Room</gui> e selezionare la stanza preferita in cui entrare.</p>
+        </item>
+      </list>
+    </item>
+  </steps>
+  <note>
+    <p>Per poter entrare in una stanza preferita è necessario essere connessi a Internet e al proprio account.</p>
+  </note>
+  </section>
+
+  <section id="manage-favorite">
+  <title>Gestire le stanze preferite</title>
+  <steps>
+    <item>
+      <p>Dalla finestra <gui>Elenco contatti</gui> scegliere <guiseq><gui>Stanza</gui><gui>Gestisci preferiti</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Dall'elenco a discesa <gui>Account</gui>, selezionare l'account di cui gestire le stanze preferite.</p>
+      <p>Selezionare <gui>Tutti</gui> per visualizzare tutti i preferiti.</p>
+    </item>
+    <item>
+      <p>Selezionare la stanza preferita da gestire:</p>
+      <list>
+        <item>
+          <p>Selezionare la casella di scelta <gui>Connessione automatica</gui> per entrare automaticamente in quella stanza ogni volta che ci si collega col proprio account.</p>
+        </item>
+        <item>
+          <p>Fare clic su <gui>Rimuovi</gui> per rimuovere la stanza dai preferiti.</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Quando finito, fare clic su <gui>Chiudi</gui>.</p>
+    </item>
+  </steps>
+  </section>
+
+</page>

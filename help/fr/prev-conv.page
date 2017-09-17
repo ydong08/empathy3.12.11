@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="tasks" id="prev-conv" xml:lang="fr">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Parcourir ou rechercher ses conversations précédentes.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-17" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.2" version="0.2" date="2011-12-19" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Paternité - Partage des Conditions Initiales à l'Identique 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Bruno Brouard</mal:name>
+      <mal:email>annoa.b@gmail.com</mal:email>
+      <mal:years>2008-2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Claude Paroz</mal:name>
+      <mal:email>claude@2xlibre.net</mal:email>
+      <mal:years>2008-2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Yannick Tailliez</mal:name>
+      <mal:email>ytdispatch-libre@yahoo.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Laurent Coudeur</mal:name>
+      <mal:email>laurentc@iol.ie</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Pionchon</mal:name>
+      <mal:email>pionchon.luc@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Luc Guillemin</mal:name>
+      <mal:email>luc.guillemin@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ajmir BUSGEETH</mal:name>
+      <mal:email>Ajmir.Busgeeth@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andre Matuch</mal:name>
+      <mal:email>andre.matuch@videotron.ca</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Alain Lojewski</mal:name>
+      <mal:email>allomervan@gmail.com</mal:email>
+      <mal:years>2012-2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mickael Albertus</mal:name>
+      <mal:email>mickael.albertus@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Affichage des conversations précédentes</title>
+
+  <p><app>Empathy</app> sauvegarde automatiquement toutes les conversations textuelles que vous avez eu avec vos contacts. Vous pouvez <link xref="#search">rechercher dans toutes vos conversations précédentes</link> ou <link xref="#browse">consultez vos conversations précédentes</link> par contact et par date.</p>
+
+  <note>
+    <p>Vous n'avez pas besoin d'être connecté à Internet pour afficher et rechercher parmi vos conversations précédentes.</p>
+  </note>
+
+  <section id="search" style="task">
+  <title>Recherche de conversations précédentes</title>
+
+  <p>Vous pouvez lancer une recherche textuelle dans toutes vos conversations précédentes.</p>
+
+  <steps>
+    <item>
+      <p>Dans la fenêtre <gui>Liste des contacts</gui>, choisissez <guiseq><gui>Affichage</gui> <gui>Conversations précédentes</gui></guiseq>, ou appuyez sur <key>F3</key>.</p>
+    </item>
+    <item>
+      <p>Sélectionnez un compte dans la liste déroulante située en haut de la fenêtre. Une liste des contacts et des salons de discussion pour ce compte s'affiche en dessous.</p>
+    </item>
+    <item>
+      <p>Saisissez le texte que vous voulez rechercher dans le champ <gui>Rechercher</gui>.</p>
+    </item>
+    <item>
+      <p>Toutes les conversations qui correspondent à vos critères de recherche s'affichent. Par défaut, elles sont classées par date.</p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="browse" style="task">
+  <title>Consultation des conversations précédentes</title>
+
+  <p>Vous pouvez parcourir vos conversations précédentes avec vos contacts ou dans les salons de discussion en fonction de la date.</p>
+
+  <steps>
+    <item>
+      <p>Dans la fenêtre <gui>Liste des contacts</gui>, choisissez <guiseq><gui>Affichage</gui> <gui>Conversations précédentes</gui></guiseq>, ou appuyez sur <key>F3</key>.</p>
+    </item>
+    <item>
+      <p>Sélectionnez un compte dans la liste déroulante en haut à gauche de la fenêtre. Une liste de contacts et salon de discussion pour ce compte s'affichent en dessous.</p>
+    </item>
+    <item>
+      <p>Sélectionnez un contact ou un salon de discussion pour en afficher vos conversations précédentes. La conversation la plus récente s'affiche par défaut.</p>
+    </item>
+    <item>
+      <p>Vous pouvez parcourir vos conversations par date. Les jours où vous avez eu une conversation avec le contact sélectionné sont affichés en gras. Cliquez sur une date pour la sélectionner. Cliquez sur les flèches à côté du mois et de l'année pour parcourir des dates antérieures.</p>
+    </item>
+  </steps>
+
+  <p>Pour rechercher du texte dans les conversations, saisissez-le dans le champ de recherche en haut. Les conversations correspondantes s'affichent.</p>
+
+  <note style="tip">
+    <p>Vous pouvez afficher rapidement les conversations précédentes avec l'un de vos contacts dans la fenêtre <gui>Liste des contacts</gui>. Faites un clic droit sur le contact puis choisissez <gui>Conversations précédentes</gui>. La fenêtre <gui>Conversations Précédentes</gui> s'ouvre avec ce contact déjà sélectionné.</p>
+  </note>
+
+  </section>
+</page>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="tasks" id="prev-conv" xml:lang="lv">
+
+  <info>
+    <link type="guide" xref="index#text-conv"/>
+    <desc>Pārlūko vai meklē savās iepriekšējās sarunās.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-17" status="stub"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-31" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.2" version="0.2" date="2011-12-19" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="author">
+      <name>Shaun McCance</name>
+      <email>shaunm@gnome.org</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0 licence.</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Skatīt iepriekšējās sarunas</title>
+
+  <p><app>Empathy</app> automātiski saglabā visas teksta sarunas, kuras notiek starp kontaktiem. Tu vari <link xref="#search">meklēt caur visām savām iepriekšējām sarunām</link> vai <link xref="#browse">skatīt iepriekšējās sarunas</link>, šķirojot tās pēc kontakta un datuma.</p>
+
+  <note>
+    <p>Nav vajadzīgs savienojums ar internetu, lai skatītos un meklētu iepriekšējās sarunas.</p>
+  </note>
+
+  <section id="search" style="task">
+  <title>Meklēt iepriekšējās sarunas</title>
+
+  <p>Tu vari veikt pilnu teksta meklēšanu caur visām savām iepriekšējām sarunām.</p>
+
+  <steps>
+    <item>
+      <p>No <gui>Kontaktu saraksts</gui> loga, izvēlies <guiseq><gui>Skats </gui><gui>Iepriekšējās sarunas</gui></guiseq>, vai arī, spied <key>F3</key></p>
+    </item>
+    <item>
+      <p>Izvēlies kontu no saraksta augšpusē. Saraksts ar kontaktiem un tērzēšanas istabām konkrētajam kontam tiks parādīts zemāk.</p>
+    </item>
+    <item>
+      <p>Teksta laukā <gui>Meklēt</gui> ievadi tekstu, ko vēlies atrast.</p>
+    </item>
+    <item>
+      <p>Tiks rādīta katras saruna, kas atbilst meklētajam tekstam. Pēc noklusējuma sarunas ir kārtotas pēc datuma.</p>
+    </item>
+  </steps>
+  </section>
+
+  <section id="browse" style="task">
+  <title>Skatīt iepriekšējās sarunas</title>
+
+  <p>Iepriekšējās sarunas ar saviem kontaktiem vai tērzēšanas istabām var pārlūkot pēc datuma.</p>
+
+  <steps>
+    <item>
+      <p>No <gui>Kontaktu saraksts</gui> loga, izvēlies <guiseq><gui>Skats </gui><gui>Iepriekšējās sarunas</gui></guiseq>, vai arī, spied <key>F3</key></p>
+    </item>
+    <item>
+      <p>Izvēlies kontu no izkrītošās izvēlnes augšā kreisajā pusē. Saraksts ar kontaktiem un tērzēšanas istabām konkrētajam kontam tiks parādīts zemāk.</p>
+    </item>
+    <item>
+      <p>Izvēlies kontaktu vai tērzēšanas istabu, kuru iepriekšējās sarunas vēlies skatīties. Pēc noklusējuma, lielākā daļa pēdējo sarunu tiks parādītas.</p>
+    </item>
+    <item>
+      <p>Savas sarunas vari skatīties, šķirojot pēc datumiem. Dienas, kurās tev ir bijusi kāda saruna ar izvēlēto kontaktu, tiks iezīmētas treknrakstā. Spied uz datuma, lai to izvēlētos. Spied uz bultiņām pie mēneša un gada, lai skatītu agrākus datumus.</p>
+    </item>
+  </steps>
+
+  <p>Meklēt teksta sarunās var, rakstot meklēšanas lauciņā augšpusē. Tiks rādītas atbilstošās sarunas.</p>
+
+  <note style="tip">
+    <p>Iepriekšējās sarunas ar kādu no kontaktiem var ātri apskatīt no <gui>Kontaktu saraksts</gui> loga. Spied labo peles pogu uz kontakta un izvēlies <gui>Iepriekšējās sarunas</gui>. Atvērsies <gui>Iepriekšējās sarunas</gui> logs ar sarunām ar izvēlēto kontaktu.</p>
+  </note>
+
+  </section>
+</page>

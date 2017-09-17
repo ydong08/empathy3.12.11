@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="geolocation-privacy" xml:lang="el">
+
+  <info>
+    <link type="guide" xref="geolocation#geoloc"/>
+    <desc>Είδος και παραλήπτες πληροφοριών.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-19" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος,</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.gr</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μιχάλης Κοτσαρίνης</mal:name>
+      <mal:email>mk73628@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Θάνος Τρυφωνίδης</mal:name>
+      <mal:email>tomtryf@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Απόρρητο εντοπισμού τοποθεσίας</title>
+
+  <section id="info-sent">
+  <title>Είδος πληροφοριών που αποστέλλονται</title>
+  <p>Υπάρχει δυνατότητα αποστολής των ακόλουθων στοιχείων: χώρα, περιφέρεια, περιοχή, ταχυδρομικός κώδικας, οδός, κτίριο, όροφος, δωμάτιο, γεωγραφικός μήκος, γεωγραφικό πλάτος, υψόμετρο, ταχύτητα και προσανατολισμός.</p>
+  <p>Η ακρίβεια και η ποσότητα των πληροφοριών εξαρτώνται από το λογισμικό και την υποδομή που χρησιμοποιείται για τον εντοπισμό της θέσης σας.</p>
+  <p>Κάθε δίκτυο μπορεί να έχει διαφορετικές ρυθμίσεις ακριβείας και να στέλνει διαφορετικές πληροφορίες. Η χρήση εξωτερικών συσκευών, όπως είναι τα GPS και τα κινητά τηλέφωνα, μπορεί να αυξήσει την ακρίβεια των πληροφοριών.</p>
+  <p>Αν είναι ενεργοποιημένη η λειτουργία απορρήτου, η πιο ακριβής πληροφορία που θα αποστέλλεται θα είναι η πόλη σας, ακόμη και αν χρησιμοποιείτε εξωτερική συσκευή.</p>
+  </section>
+  
+  <section id="see-info">
+  <title>Πρόσβαση άλλων στις πληροφορίες</title>
+  <p>Μόνο οι επαφές σας μπορούν να βλέπουν τη γεωγραφική σας θέση.</p>
+  </section>
+  
+  <section id="privacy-mode">
+  <title>Λειτουργία απορρήτου</title>
+  <p>Η λειτουργία απορρήτου, που είναι και η προεπιλεγμένη, είναι μια λειτουργία που μειώνει την ακρίβεια της γεωγραφικής θέσης που αποστέλλεται στις επαφές σας.</p>
+  </section>
+  
+  <section id="privacy-overview">
+  <title>Περιγραφή απορρήτου</title>
+  <p>Περιγραφή των βασικών ρυθμίσεων απορρήτου για τον εντοπισμό τοποθεσίας στο <app>Empathy</app>.</p>
+  <list>
+    <item>
+      <p>Ο εντοπισμός τοποθεσίας δεν ενεργοποιείται από προεπιλογή.</p>
+    </item>
+    <item>
+      <p>Η λειτουργία απορρήτου είναι ενεργοποιημένη από προεπιλογή.</p>
+    </item>
+    <item>
+      <p>Η λειτουργία απορρήτου υπερισχύει, ακόμη και όταν χρησιμοποιούνται εξωτερικές συσκευές υψηλής ακρίβειας.</p>
+    </item>
+    <item>
+      <p>Μόνο οι επαφές σας βλέπουν την τοποθεσία σας.</p>
+    </item>
+  </list>
+  </section>
+
+</page>

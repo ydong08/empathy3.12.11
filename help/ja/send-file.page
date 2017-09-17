@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" id="send-file" xml:lang="ja">
+
+  <info>
+    <link type="guide" xref="index#advanced"/>
+    <desc>あなたのコンピューターから相手先のひとりにファイルを送ります。</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-07-21" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-09" status="deferred"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>クリエイティブ・コモンズ・ライセンス 継承 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Mako N</mal:name>
+      <mal:email>mako@pasero.net</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>ファイルの送信</title>
+
+  <steps>
+    <item>
+      <p><gui>相手先の一覧</gui>ウィンドウから、次のいずれかを実行します:</p>
+      <list>
+        <item>
+          <p>ファイルを送りたい相手先を右クリックし、<gui>ファイルの送信</gui>を選びます。</p>
+        </item>
+        <item>
+          <p>ファイルを送りたい相手先をクリックし、<guiseq><gui>編集</gui><gui>相手先</gui><gui>ファイルの送信</gui></guiseq>を選びます。</p>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>送信するファイルを指定し、<gui>送信</gui>をクリックします。</p>
+    </item>
+    <item>
+      <p><gui>ファイル転送</gui>ウィンドウが開きます。</p>
+      <p>相手先がファイル転送を承諾するのを待ちます。そうでなければ、<gui>停止</gui>をクリックして転送を中断します。</p>
+    </item>
+    <item>
+      <p>転送が終了したら、<gui>ファイル転送</gui>ウィンドウを閉じてもかまいません。</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>転送済みファイルの一覧がウィンドウに表示されている場合、<gui>消去</gui>をクリックして一覧を空にできます。これは一覧からファイルを削除するだけで、コンピューターからは削除されません。</p>
+  </note>
+  <note>
+    <p>ファイル転送は次のサービスでのみ可能です: <em>Jabber</em>、<em>Google トーク</em>、<em>People Nearby</em></p>
+  </note>
+  <note>
+    <p>ファイルを転送するためには、インターネットまたはローカルエリアネットワークに接続している必要があります。</p>
+  </note>
+
+</page>

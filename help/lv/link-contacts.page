@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="link-contacts" xml:lang="lv">
+      
+  <info>
+    <link type="guide" xref="index#contacts"/>
+    <link type="seealso" xref="send-message"/>
+    <link type="seealso" xref="audio-call"/>
+    <link type="seealso" xref="video-call"/>
+    <desc>Apvieno un sadali dažādus kontaktus, vienā veselā.</desc>
+    <revision pkgversion="2.32" version="0.1" date="2010-09-06" status="draft"/>
+    <revision pkgversion="2.32" version="0.2" date="2010-09-09" status="review"/>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Shobha Tyagi</name>
+      <email>tyagishobha@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0 licence.</p>
+    </license>
+  </info>
+
+  <title>Saistīt un atsaistīt kontaktus</title>
+  <p>Ja vienam vai vairākiem kontaktiem ir vairāki konti ar dažādiem tērzēšanas servisiem, tu vari apvienot šos kontaktus vienā kontaktā.</p>
+  <p>Iegūtais kontakts tiek saukts par <em>meta-kontaktu</em>: kontakts, savienots no vairākiem atsevišķiem kontaktiem.</p>
+  <p>Piemēram, ja jums ir kontakts, kuru sauc Ilze Priede, kura izmanto trīs dažādus ziņojumu servisus, piemēram:</p>
+  <list>
+    <item>
+      <p>ilze.priede@gmail</p>
+    </item>
+    <item>
+      <p>ilze_priede@hotmail</p>
+    </item>
+    <item>
+      <p>
+        janes@yahoo
+      </p>
+    </item>
+  </list>
+  <p>Tu vari apvienot šos kontaktus vienā vienīgā Ilzes Priedes kontaktā.</p>
+  <section id="linking">
+  <title>Saistīt kontaktus</title>
+  <p>Tālāk ir norādīts veids, kā var saistīt kontaktus:</p>
+    <steps>
+      <item>
+        <p>Spiediet ķekša pogu, lai izvēlētos ierakstus, ko vēlaties saistīt. Tas aktivēs <em>izvēlēšanās režīmu</em> un jūs pie katra ieraksta redzēsiet atzīmes rūtiņu.</p>
+      </item>
+      <item>
+        <p>Ieķeksējiet atzīmes rūtiņas, kas atbilst <app>Kontaktu</app> ierakstiem, kas atbilst tam pašam kontaktam.</p>
+      </item>
+      <item>
+        <p>Spiediet <gui style="button">Saistīt</gui>.</p>
+      </item>
+    </steps>
+    <p>Atkārtojiet soļus 3 un 4, lai saistītu citus kontaktus.</p>
+  </section>
+  
+  <section id="unlinking">
+  <title>Atsaistīt kontaktus</title>
+  <p>Lai atsaistītu vai saistītu kontaktu:</p>
+    <steps>
+      <item>
+        <p>No kontaktu saraksta izvēlieties kontaktu.</p>
+      </item>
+      <item>
+        <p>Spiediet <gui style="button">Rediģēt</gui> lietotnes<app>Kontakti</app> augšējā labajā stūrī.</p>
+      </item>
+      <item>
+	<p>Spiediet <gui style="button">Piesaistīt kontaktus</gui>.</p>
+      </item>
+      <item>
+	<p>Spiediet <gui style="button">Izņemt</gui>, lai atsaistītu ierakstu no saistīta kontakta.</p>
+      </item>
+      <item>
+        <p>Spiediet <gui style="button">Aizvērt</gui>, ja vairs nevēlaties atsaistīt kontaktus.</p>
+      </item>
+      <item>
+        <p>Visbeidzot, spiediet <gui style="button">Pabeigt</gui>, lai beigtu rediģēšanu.</p>
+      </item>
+    </steps>
+  </section>
+</page>

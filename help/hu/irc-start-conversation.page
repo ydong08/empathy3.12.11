@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallrd.org/experimental/" type="topic" style="task" id="irc-start-conversation" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="irc-manage#manage" group="two"/>
+    <desc>Társalgás kezdése IRC-partnerrel.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2010, 2011, 2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Csevegjen IRC-n</title>
+
+  <p>Személyes társalgást folytathat más IRC-felhasználókkal a nyilvános IRC-csevegőszobákon kívül. Társalgás kezdeményezéséhez egy másik IRC-felhasználóval:</p>
+
+  <steps>
+    <item>
+      <p>Egy IRC-csevegőszoba partnerlistájában kattintson duplán a felhasználó nevére, akivel csevegni szeretne. Ezen kívül rákattinthat a jobb egérgombbal is a felhasználó nevére, és kiválaszthatja a <gui>Csevegés</gui> menüpontot.</p>
+    </item>
+  </steps>
+
+  <list>
+    <item>
+      <p>Az IRC-szoba partnerlistája nem azonos az <app>Empathy</app> partnerlistájával. Ez az adott IRC-szoba felhasználóinak listáját tartalmazza. A különböző szobákban különböző partnerek vannak felsorolva.</p>
+    </item>
+    <item>
+      <p>Az IRC-szoba partnerlistája általában az IRC-szoba ablakának jobb oldalán van. Ha nem látja, akkor válassza a <guiseq><gui>Társalgás</gui><gui>Partnerlista megjelenítése</gui></guiseq> menüpontot.</p>
+    </item>
+  </list>
+
+</page>

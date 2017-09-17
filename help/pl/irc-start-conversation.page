@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallrd.org/experimental/" type="topic" style="task" id="irc-start-conversation" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="irc-manage#manage" group="two"/>
+    <desc>Start a conversation with an IRC contact.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-08-14" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-08-31" status="done"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email>milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Na tych samych warunkach 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
+-->
+  </info>
+
+  <title>Prowadzenie rozmowy z kimś na IRC.</title>
+
+  <p>Można prowadzić prywatne rozmowy z innymi użytkownikami IRC poza publicznymi pokojami IRC. Aby rozpocząć rozmowę z innym użytkownikiem IRC:</p>
+
+  <steps>
+    <item>
+      <p>Na liście kontaktów pokoju rozmów IRC należy wybrać nazwę użytkownika, z którym chcemy rozmawiać. Można również kliknąć w nazwę użytkownika i wybrać <gui>Rozmowa</gui>.</p>
+    </item>
+  </steps>
+
+  <list>
+    <item>
+      <p>Lista kontaktów pokoju IRC różni się od listy kontaktów programu <app>Empathy</app>. Zawiera ona listę użytkowników pokoju rozmów IRC, do którego jesteśmy połączeni. Różne pokoje mogą mieć różne listy użytkowników.</p>
+    </item>
+    <item>
+      <p>Lista kontaktów pokoju IRC znajduje się zazwyczaj po prawej stronie okna pokoju IRC. Jeśli nie jest wyświetlana, należy wybrać <guiseq><gui>Rozmowa</gui><gui>Lista kontaktów</gui></guiseq>.</p>
+    </item>
+  </list>
+
+</page>

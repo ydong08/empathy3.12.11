@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="prob-conn-auth" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="prob-conn"/>
+    <link type="seealso" xref="create-account"/>
+    <desc>Komunikat błędu "<gui>Uwierzytelnienie się nie powiodło</gui>" wyświetlany jest w oknie głównym.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-07-23" status="draft"/>
+    <revision pkgversion="2.28" version="0.3" date="2009-08-14" status="review"/>
+    <revision pkgversion="2.30" version="0.4" date="2010-02-16" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Na tych samych warunkach 3.0</p>
+    </license>    
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  </info>
+
+  <title>Pojawia się komunikat "Uwierzytelnienie nie powiodło się"</title>
+
+  <p>Ten rodzaj błędu zdarza, gdy używana usługa komunikatora nie pozwala na połączenie, ponieważ nazwa lub hasło z jakiegoś powodu nie są rozpoznawane.</p>
+
+  <steps>
+    <item>
+      <p>Należy się upewnić, że połączenie z Internetem lub siecią lokalną zostało ustanowione.</p>
+    </item>
+    <item>
+      <p>Należy się upewnić, że zostało zarejestrowane konto w usłudze do której próbujemy się połączyć. Jeśli konto nie zostało zarejestrowane, większość usług nie pozwoli na połączenie.</p>
+    </item>
+    <item>
+      <p>Click the <media type="image" mime="image/png" src="figures/gtk-edit.png" its:translate="no"><span its:translate="yes">edit</span></media> 
+      icon in the error message.</p>
+    </item>
+    <item>
+      <p>Należy ponownie wprowadzić nazwę użytkownika i hasło, aby upewnić się, że są one poprawne.</p>
+    </item>
+    <item>
+      <p>Należy odznaczyć pole <gui>Włączone</gui> znajdujące się obok nazwy konta, a następnie wybrać je ponownie, aby ustanowić połączenie z usługą</p>
+    </item>
+  </steps>
+</page>

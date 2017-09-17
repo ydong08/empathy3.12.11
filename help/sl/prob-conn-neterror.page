@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="prob-conn-neterror" xml:lang="sl">
+
+  <info>
+    <link type="guide" xref="prob-conn"/>
+    <desc>V glavnemu oknu se pojavi sporočilo napake, ki pravi  “<gui>Network error</gui>”.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-17" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-14" status="review"/>
+    <revision pkgversion="2.28" version="0.3" date="2010-02-16" status="review"/>
+    <revision pkgversion="3.2" version="0.4" date="2011-12-18" status="review"/>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Milo Casagrande</name>
+      <email its:translate="no">milo@ubuntu.com</email>
+    </credit>
+    <license>
+      <p>Dovoljenje Creative Commons - deljenje pod istimi pogoji 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  </info>
+
+  <title>Dobim sporočilo, ki pravi “Napaka omrežja”</title>
+
+  <p>Ta vrsta napake se zgodi, ko <app>Empathy</app> zaradi nekega vzroka ne more komunicirati s storitvijo hipnega sporočanja. </p>
+  <p>Ta vrsta napake se zgodi, ko poskušate uporabiti račun IRC brez nastavitve vzdevka.</p>
+
+  <steps>
+    <item>
+      <p>Prepričajte se, da ste povezani na medmrežje ali na krajevno omrežje.</p>
+    </item>
+    <item>
+      <p>Click the <media type="image" mime="image/png" src="figures/gtk-edit.png" its:translate="no"><span its:translate="yes">edit</span></media>
+      icon in the error message.</p>
+    </item>
+    <item>
+      <p>V odseku <gui>Napredno</gui> preverite, da so vse podrobnosti pravilne. Te podrobnosti bi morali najti na spletišču storitve sporočanja.</p>
+<!--
+        <item>
+          <p>
+            In the case of an IRC account, type your nickname in the <gui>Nickname</gui>
+            text box.
+          </p>
+        </item>
+-->
+    </item>
+    <item>
+      <p>Izklopite račun in ga ponovno vklopite za poskus ponovne povezave s storitvijo.</p>
+    </item>
+  </steps>
+
+  <section id="prob-conn-neterror-proxy">
+    <title>Podpora posredniških strežnikov</title>
+    <p>Trenutno <app>Empathy</app> ni mogoče nastaviti za delo s posredovalnim strežnikom.</p>
+  </section>
+
+</page>

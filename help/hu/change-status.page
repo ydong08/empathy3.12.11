@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:e="http://projectmallard.org/experimental/" type="topic" style="task" id="change-status" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#accounts"/>
+    <link type="seealso" xref="status-icons"/>
+    <desc>Módosítsa állapotát elérhetőségének közzétételéhez a partnerei számára.</desc>
+    <revision pkgversion="2.28" version="0.1" date="2009-06-14" status="draft"/>
+    <revision pkgversion="2.28" version="0.2" date="2009-08-10" status="review">
+      <!--
+      <e:review by="shaunm@gnome.org" date="2009-09-01" status="done"/>
+      -->
+    </revision>
+    <revision pkgversion="3.2" version="0.3" date="2011-12-18" status="review">
+      <!--
+      <e:review by="milo@ubuntu.com" date="2011-12-18" status="done"/>
+      -->
+    </revision>
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email>philbull@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+<!--
+    <copyright>
+      <year>2009</year>
+      <name>GNOME Documentation Project</name>
+    </copyright>
+    <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude" />
+-->
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2010, 2011, 2012, 2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Módosítsa állapotát</title>
+
+  <p>Beállíthatja állapotát az elérhetőségének jelzéséhez partnerei felé. Az <app>Empathy</app> lehetővé teszi a mentett állapotok listából való kiválasztását.</p>
+
+  <steps>
+    <item>
+      <p>Kattintson a <gui>Partnerlista</gui> ablak tetején lévő legördülő listára.</p>
+    </item>
+    <item>
+      <p>Válasszon egy állapotot a listából.</p>
+    </item>
+  </steps>
+
+  <p>A beépített állapotok listájával és jelentésével kapcsolatban lásd az <link xref="status-icons"/> oldalt. Felvehet <link xref="set-custom-status">egyéni állapotüzeneteket</link> további információk közléséhez partnereivel az elérhetőségéről.</p>
+
+  <note>
+    <p>Ha egy ideig nem használja a számítógépet, vagy a képernyővédő bekapcsol, az állapot automatikusan „Távol” lesz.</p>
+  </note>
+
+</page>
